@@ -1,0 +1,312 @@
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditReport http://www.w3.org/2000/01/rdf-schema#subClassOf Nc9f0edec5433474095b0f40f92cab667
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/OrganizationCreditRating http://www.w3.org/2000/01/rdf-schema#label organization credit rating
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/AlternativeAQuality http://www.w3.org/2000/01/rdf-schema#label alternative-A quality
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditReport http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingReport
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/AlternativeAQuality https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym Alternative A-paper
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRatingModel http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/QuantitiesAndUnits/Expression
+N2e87fc661e9d42ad808b3683cde407b9 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isProducedBy
+N1b2eb4124ca04746a7fe486c9e640cbe http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N6b6f861ba8e44e8c8a653fe4c02cffde http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRatingScale http://www.w3.org/2000/01/rdf-schema#label credit rating scale
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditWatchUpgrade http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Identifiers/
+N5e47774864d342028f01b047996c8733 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRatingModelType
+Nc9f0edec5433474095b0f40f92cab667 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Ne5f5f3f00ce949f2afc4aa625a2e00ff http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Collections/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditTradeline http://www.w3.org/2000/01/rdf-schema#subClassOf Ne1f13319a2e7442d982fa2000ab07c65
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditReport http://www.w3.org/2000/01/rdf-schema#subClassOf Ne5f5f3f00ce949f2afc4aa625a2e00ff
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditReport http://www.w3.org/2004/02/skos/core#definition report describing the creditworthiness and related credit attributes of a borrower
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRatingAgency http://www.w3.org/2004/02/skos/core#definition rating agency that publishes reports assessing the creditworthiness of a borrower or legal entity, either generally or with respect to a specific obligation
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRatingModel http://www.w3.org/2004/02/skos/core#definition algorithm for computing a credit rating
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditReportCategory http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Classifiers/Classifier
+Nb6fc03725a9a4d16961866e0190ff9fb http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/Commons/DatesAndTimes/Date
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/SoftCreditInquiry http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+N2cf673926c944a03a8d5eb23bc3dbe6b http://www.w3.org/2002/07/owl#someValuesFrom http://www.w3.org/2001/XMLSchema#string
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/SubprimeQuality http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditQuality
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/HardCreditInquiry http://www.w3.org/2000/01/rdf-schema#label hard credit inquiry
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/StableOutlook http://www.w3.org/2000/01/rdf-schema#label stable outlook
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/AlternativeAQuality https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Typically Alt-A mortgages are characterized by borrowers with less than full documentation, average credit scores, higher loan-to-values, and more investment properties and secondary homes.
+N6b1e2b900f984281b1a5ddb921e4e163 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Classifiers/isClassifiedBy
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/concernsParty http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+Nc0dc1095701f4179ba444a988b2c0025 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nc103362d617a469a96aa56115df9d1dc http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditWatchDowngrade http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditWatchDirection
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditQuality http://www.w3.org/2000/01/rdf-schema#label credit quality
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/hasWatchDirection http://www.w3.org/2000/01/rdf-schema#label watch direction
+Ne5f5f3f00ce949f2afc4aa625a2e00ff http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N2f0df17791134975b7687da5c5ca9308 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingScore
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/InvestmentGradeQuality http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+Nf36e8d3bd021482f9079eb1a9ce1b492 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditTradeline
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/FreezeCreditMessage http://www.w3.org/2000/01/rdf-schema#label freeze credit message
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/NonprimeQuality http://www.w3.org/2000/01/rdf-schema#label nonprime quality
+Nc0dc1095701f4179ba444a988b2c0025 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/FormalOrganizations/FormalOrganization
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Provisional
+N3673d7dce07b4276aca479ddb40e0b82 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRating http://www.w3.org/2004/02/skos/core#definition assessment of creditworthiness of a borrower generally or with respect to a particular debt or financial obligation
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditReport http://www.w3.org/2000/01/rdf-schema#subClassOf N627e5e972e114fe79de7de6f3a8dd8c5
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditQuality http://www.w3.org/2004/02/skos/core#definition classifier for borrowers, rates, or holdings in the lending market with respect to the quality of the credit
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditWatchDirection http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRatingScale http://www.w3.org/2000/01/rdf-schema#subClassOf Ne0e89fef407e4ce9b148a27d7b25cc78
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditReport http://www.w3.org/2000/01/rdf-schema#subClassOf N5b7cb6cdd88a4c4ca249ca52461f74fa
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2018-2024 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditMessageType http://www.w3.org/2000/01/rdf-schema#label credit message type
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditMessage http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N039b36f27e074d68aa2041fc7e5e7884 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRatingScale http://www.w3.org/2004/02/skos/core#definition rating scale for assigning a credit rating to individual, entity, or instrument, including defining a set of codes or numeric scores and indicating how an assessment that is assigned a score based on that scale means
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/SubprimeQuality http://www.w3.org/2004/02/skos/core#definition classifier for borrowers, rates, or holdings that are considered below-average quality, such as borrowers with a tarnished or limited credit history, and may be subject to higher than average interest rates
+Nc3db5f6c27fe4e34b19bd7c34d26af5f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditTradeline http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Report
+N8cac6e3df5914ebf85dd5e3f8fd1c922 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/InvestmentGradeQuality http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditQuality
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditInquiry http://www.w3.org/2000/01/rdf-schema#subClassOf N8cac6e3df5914ebf85dd5e3f8fd1c922
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/NonprimeQuality http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditQuality
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/hasWatchOutlook http://www.w3.org/2000/01/rdf-schema#label watch outlook
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/InvestmentGradeQuality http://www.w3.org/2004/02/skos/core#definition classifier for debt instruments that are considered to be of high quality and have a low risk of default
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRatingModel http://www.w3.org/2000/01/rdf-schema#subClassOf N2f0df17791134975b7687da5c5ca9308
+N3673d7dce07b4276aca479ddb40e0b82 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRatingModel
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditInquiry http://www.w3.org/2004/02/skos/core#definition request from a lender to a credit repository to obtain information regarding a prospective borrower's creditworthiness
+Nd90b18ac1eee4854be683ecf3d374667 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Ncc7fb5a274fd4e1b84516c208efaf28c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRating http://www.w3.org/2000/01/rdf-schema#subClassOf N1b2eb4124ca04746a7fe486c9e640cbe
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditWatchDirection http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Classifiers/Classifier
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/OnWatchOutlook http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/hasWatchDirection http://www.w3.org/2004/02/skos/core#definition indicates direction in which an investment credit rating is expected to move in cases where that rating is on watch
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/ http://purl.org/dc/terms/abstract This ontology defines the concept of a credit rating, along with credit watch and outlook qualifying terms. There are credit ratings for individuals, for organizations and for instruments. 
+		These are referenced extensively in the securities models but are also applicable to business entities generally and in the context of lending and account maintenance.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditInquiry http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/RequestActivity
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/InvestmentCreditRating http://www.w3.org/2004/02/skos/core#definition credit rating that provides an opinion of creditworthiness of an investment, including but not limited to an instrument or organization
+N627e5e972e114fe79de7de6f3a8dd8c5 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditReport http://www.w3.org/2000/01/rdf-schema#subClassOf N8da532d638394030a06b50ee925c0b35
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/AlternativeAQuality http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditQuality
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Classifiers/
+Ne5f5f3f00ce949f2afc4aa625a2e00ff http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditInquiryType http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/ProductsAndServices/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditReportCategory http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditWatchOutlook http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nd90b18ac1eee4854be683ecf3d374667 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/concernsParty
+Nd90b18ac1eee4854be683ecf3d374667 http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/Commons/PartiesAndSituations/Party
+N6b6f861ba8e44e8c8a653fe4c02cffde http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditReportProduct
+N8d54cfd7288b4cb9b796754229b44df2 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/playsRole
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/
+Ne0e89fef407e4ce9b148a27d7b25cc78 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditWatchDowngrade http://www.w3.org/2000/01/rdf-schema#label credit watch downgrade
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRatingAgency http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingAgency
+N1606f4a50f7e4d8b955d77ff9fa5232a http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/issues
+N8cac6e3df5914ebf85dd5e3f8fd1c922 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditInquiryType
+N2f0df17791134975b7687da5c5ca9308 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Documents/
+N627e5e972e114fe79de7de6f3a8dd8c5 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/OrganizationCreditRating http://www.w3.org/2004/02/skos/core#definition credit rating that provides an opinion of creditworthiness of an organization
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/hasCoveragePeriod http://www.w3.org/2000/01/rdf-schema#label has coverage period
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/
+N3f4850224ed4443a9958ce5643cacf53 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/hasWatchDirection http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditWatchDirection
+N5b7cb6cdd88a4c4ca249ca52461f74fa http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/PrimeQuality http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditReport http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/ClientsAndAccounts/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/concernsParty http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/PartiesAndSituations/hasParty
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/OrganizationCreditRating http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/DatesAndTimes/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRatingModel http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRating http://www.w3.org/2000/01/rdf-schema#label credit rating
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/InstrumentCreditRating http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/InvestmentCreditRating
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditWatchOutlook http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/Rating
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/hasWatchDirection http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRating http://www.w3.org/2000/01/rdf-schema#subClassOf N3673d7dce07b4276aca479ddb40e0b82
+N8cac6e3df5914ebf85dd5e3f8fd1c922 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Classifiers/isClassifiedBy
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditInquiry http://www.w3.org/2000/01/rdf-schema#label credit inquiry
+N3673d7dce07b4276aca479ddb40e0b82 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/hasWatchOutlook http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N50c24f5054d64274aa6db8c327dc4fa7 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Documents/hasDataSource
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/concernsParty http://www.w3.org/2004/02/skos/core#definition indicates the party for which something is being or has been requested
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditWatchUpgrade http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditWatchDirection
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/hasWatchOutlook http://www.w3.org/2004/02/skos/core#definition indicates the expected outlook for the rated entity
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/SubprimeQuality http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/ShortTermCreditRating http://www.w3.org/2004/02/skos/core#definition credit rating that provides an opinion of the probability of an individual or organization going into default within a year
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/ShortTermCreditRating http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/InvestmentCreditRating
+Nfe00fe3882094dcdb620e5975b2fde95 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/isRequestedOf
+N8d54cfd7288b4cb9b796754229b44df2 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRatingAgency
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/PrimeQuality http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditQuality
+Nc3db5f6c27fe4e34b19bd7c34d26af5f http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N6b1e2b900f984281b1a5ddb921e4e163 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditTradeline http://www.w3.org/2000/01/rdf-schema#label credit tradeline
+N627e5e972e114fe79de7de6f3a8dd8c5 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Classifiers/isClassifiedBy
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRatingModel https://www.omg.org/spec/Commons/AnnotationVocabulary/usageNote Use dct:hasVersion to specify a version for the credit score model.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditReport http://www.w3.org/2000/01/rdf-schema#label credit report
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/AlertCreditMessage http://www.w3.org/2000/01/rdf-schema#label alert credit message
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/AlternativeAQuality https://www.omg.org/spec/Commons/AnnotationVocabulary/abbreviation Alt-A
+N8da532d638394030a06b50ee925c0b35 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRatingModel http://www.w3.org/2000/01/rdf-schema#subClassOf N5e47774864d342028f01b047996c8733
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRatingAgency http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/hasWatchOutlook http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditWatchOutlook
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditInquiryType http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Classifiers/Classifier
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditReport http://www.w3.org/2000/01/rdf-schema#subClassOf N2e87fc661e9d42ad808b3683cde407b9
+Ne5f5f3f00ce949f2afc4aa625a2e00ff http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditMessage
+N6b1e2b900f984281b1a5ddb921e4e163 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditMessageType
+Nc0dc1095701f4179ba444a988b2c0025 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/rates
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditMessage http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Documents/Notice
+N9fd55d765ee742368b952b8c9a47e163 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/QuantitiesAndUnits/isDerivedFrom
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditReport http://www.w3.org/2000/01/rdf-schema#subClassOf Nf36e8d3bd021482f9079eb1a9ce1b492
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditReportCategory http://www.w3.org/2000/01/rdf-schema#label credit report category
+N5b7cb6cdd88a4c4ca249ca52461f74fa http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRating
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRatingModel http://www.w3.org/2000/01/rdf-schema#label credit rating model
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditReport http://www.w3.org/2000/01/rdf-schema#subClassOf N6b6f861ba8e44e8c8a653fe4c02cffde
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditReportCategory http://www.w3.org/2004/02/skos/core#definition classifier for credit reports, often available from multiple vendors
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/InstrumentCreditRating http://www.w3.org/2000/01/rdf-schema#subClassOf Nc103362d617a469a96aa56115df9d1dc
+N627e5e972e114fe79de7de6f3a8dd8c5 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditReportCategory
+N9fd55d765ee742368b952b8c9a47e163 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/ClientsAndAccounts/Account
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/HardCreditInquiry http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditInquiryType
+Nb6fc03725a9a4d16961866e0190ff9fb http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditReportProduct http://www.w3.org/2004/02/skos/core#definition branded credit report offered in the marketplace
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/hasCoveragePeriod http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasDatePeriod
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/SoftCreditInquiry http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditInquiryType
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditReport http://www.w3.org/2000/01/rdf-schema#subClassOf N3f4850224ed4443a9958ce5643cacf53
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/QuantitiesAndUnits/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditMessage http://www.w3.org/2000/01/rdf-schema#subClassOf N6b1e2b900f984281b1a5ddb921e4e163
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditMessage http://www.w3.org/2004/02/skos/core#definition notice on a credit report to alert a reviewer of special or exceptional information
+N039b36f27e074d68aa2041fc7e5e7884 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isProducedBy
+N5e47774864d342028f01b047996c8733 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Ne0e89fef407e4ce9b148a27d7b25cc78 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isManagedBy
+N3f4850224ed4443a9958ce5643cacf53 http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/Identifiers/Identifier
+N3f4850224ed4443a9958ce5643cacf53 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+Nfe00fe3882094dcdb620e5975b2fde95 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/OnWatchOutlook http://www.w3.org/2000/01/rdf-schema#label on watch outlook
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/OrganizationCreditRating http://www.w3.org/2000/01/rdf-schema#subClassOf Nc0dc1095701f4179ba444a988b2c0025
+N8da532d638394030a06b50ee925c0b35 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/hasCoveragePeriod
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditWatchDowngrade http://www.w3.org/2004/02/skos/core#example On April 22, 2022, OppFi (NYSE:OPFI) was downgraded by Zacks Investment Research from a 'hold' rating to a 'sell' rating in a research report issued to clients and investors on Friday, Zacks.com reports.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/InstrumentCreditRating http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/AlternativeAQuality http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditInquiryType http://www.w3.org/2000/01/rdf-schema#label credit inquiry type
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditWatchDirection http://www.w3.org/2000/01/rdf-schema#label credit watch direction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/FreezeCreditMessage http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditMessageType
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/InvestmentCreditRating http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRating
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/OnWatchOutlook http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditWatchOutlook
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/hasCoveragePeriod http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/DatePeriod
+N1606f4a50f7e4d8b955d77ff9fa5232a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N5b7cb6cdd88a4c4ca249ca52461f74fa http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N1b2eb4124ca04746a7fe486c9e640cbe http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRatingAgency
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditReportProduct http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/ProductsAndServices/OffTheShelfProduct
+N2e87fc661e9d42ad808b3683cde407b9 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/SoftCreditInquiry http://www.w3.org/2000/01/rdf-schema#label soft credit inquiry
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/PrimeQuality http://www.w3.org/2000/01/rdf-schema#label prime quality
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRatingModelType http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/AlertCreditMessage http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditMessageType
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRatingModelType http://www.w3.org/2000/01/rdf-schema#label credit score model type
+N3f4850224ed4443a9958ce5643cacf53 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Identifiers/isIdentifiedBy
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/PrimeQuality https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym A-paper
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditTradeline http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/PrimeQuality https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote This classification often refers to loans made to high-quality borrowers that are offered prime or relatively low interest rates. Prime loans have low default risk.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/InvestmentGradeQuality https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Bond rating firms use different designations, often consisting of the upper- and lower-case letters to identify a bond's credit quality rating. 'AAA' and 'AA' (high credit quality) and 'A' and 'BBB' (medium credit quality) are considered investment grade. Credit ratings for bonds below these designations ('BB,' 'B,' 'CCC,' etc.) are considered low credit quality, and are commonly referred to as 'junk bonds.'
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/hasWatchOutlook http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/InvestmentCreditRating
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/SubprimeQuality http://www.w3.org/2000/01/rdf-schema#label subprime quality
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/InstrumentCreditRating http://www.w3.org/2004/02/skos/core#definition investment credit rating that provides an opinion of creditworthiness of an instrument, typically with some relationship to the creditworthiness of the issuer(s)
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditReportProduct http://www.w3.org/2000/01/rdf-schema#subClassOf N039b36f27e074d68aa2041fc7e5e7884
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/InstrumentCreditRating http://www.w3.org/2000/01/rdf-schema#label instrument credit rating
+N50c24f5054d64274aa6db8c327dc4fa7 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditReport https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote This is typically provided by a credit rating agency but could be produced by an internal proprietary model as well.
+N9fd55d765ee742368b952b8c9a47e163 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditReportProduct http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/FinancialProduct
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRatingModel http://www.w3.org/2000/01/rdf-schema#subClassOf N2cf673926c944a03a8d5eb23bc3dbe6b
+N2e87fc661e9d42ad808b3683cde407b9 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditInquiry http://www.w3.org/2000/01/rdf-schema#subClassOf Nd90b18ac1eee4854be683ecf3d374667
+N2f0df17791134975b7687da5c5ca9308 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/produces
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditReport http://www.w3.org/2000/01/rdf-schema#subClassOf Nc3db5f6c27fe4e34b19bd7c34d26af5f
+N50c24f5054d64274aa6db8c327dc4fa7 http://www.w3.org/2002/07/owl#onClass N8d54cfd7288b4cb9b796754229b44df2
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/StableOutlook http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditWatchOutlook
+N5e47774864d342028f01b047996c8733 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Classifiers/isClassifiedBy
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditReport http://www.w3.org/2000/01/rdf-schema#subClassOf Nb6fc03725a9a4d16961866e0190ff9fb
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/AlternativeAQuality http://www.w3.org/2004/02/skos/core#definition classifier for mortgages that are considered to be riskier than prime quality but less risky than subprime quality
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRatingAgency http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/FinancialServiceProvider
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRatingScale http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/HardCreditInquiry http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+Ne1f13319a2e7442d982fa2000ab07c65 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditWatchOutlook http://www.w3.org/2000/01/rdf-schema#label credit watch outlook
+N8d54cfd7288b4cb9b796754229b44df2 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nf36e8d3bd021482f9079eb1a9ce1b492 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nc3db5f6c27fe4e34b19bd7c34d26af5f http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditInquiry
+N039b36f27e074d68aa2041fc7e5e7884 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRatingAgency
+Ne1f13319a2e7442d982fa2000ab07c65 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditReport
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/hasWatchDirection http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/InvestmentCreditRating
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/PartiesAndSituations/
+N1606f4a50f7e4d8b955d77ff9fa5232a http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRating
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditQuality http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditTradeline http://www.w3.org/2004/02/skos/core#definition report derived from the transaction history of a credit account
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRatingModelType http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Classifiers/Classifier
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditWatchDowngrade http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditMessageType http://www.w3.org/2004/02/skos/core#definition classifier that categorizes credit messages
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/ http://www.w3.org/2000/01/rdf-schema#label Credit Ratings Ontology
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/InvestmentGradeQuality http://www.w3.org/2000/01/rdf-schema#label investment grade quality
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/NonprimeQuality http://www.w3.org/2004/02/skos/core#definition classifier for borrowers, rates, or holdings that have poor quality, such as borrowers with poor credit history due to a short sale, bankruptcy, foreclosure and/or other negative credit events within the last several years
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRatingAgency http://www.w3.org/2000/01/rdf-schema#subClassOf Ncc7fb5a274fd4e1b84516c208efaf28c
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditInquiryType http://www.w3.org/2004/02/skos/core#definition classifier indicating whether a credit inquiry is a result of a borrower's direct authorization or by some indirect means
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRating http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/hasCoveragePeriod http://www.w3.org/2004/02/skos/core#definition relates something (e.g. a credit report or insurance policy) to the specific time period that it covers
+N5b7cb6cdd88a4c4ca249ca52461f74fa http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/FreezeCreditMessage http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/
+N6b6f861ba8e44e8c8a653fe4c02cffde http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N8da532d638394030a06b50ee925c0b35 http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/Commons/DatesAndTimes/DatePeriod
+Ne1f13319a2e7442d982fa2000ab07c65 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/isIncludedIn
+Nc103362d617a469a96aa56115df9d1dc http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/rates
+N1b2eb4124ca04746a7fe486c9e640cbe http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isIssuedBy
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/PrimeQuality http://www.w3.org/2004/02/skos/core#definition classifier for borrowers, rates, or holdings that are considered to be of high quality
+Nc9f0edec5433474095b0f40f92cab667 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/concernsParty
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditInquiry http://www.w3.org/2000/01/rdf-schema#subClassOf Nfe00fe3882094dcdb620e5975b2fde95
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRatingModelType http://www.w3.org/2004/02/skos/core#definition a type corresonding to a family of credit scoring algorithms sharing common characteristics
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRatingAgency http://www.w3.org/2000/01/rdf-schema#label credit rating agency
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRatingScale http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingScale
+Nf36e8d3bd021482f9079eb1a9ce1b492 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+N6b6f861ba8e44e8c8a653fe4c02cffde http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/exemplifies
+Ncc7fb5a274fd4e1b84516c208efaf28c http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/manages
+N2e87fc661e9d42ad808b3683cde407b9 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRatingAgency
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditMessageType http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/AlertCreditMessage http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+N50c24f5054d64274aa6db8c327dc4fa7 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditInquiry http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/ShortTermCreditRating http://www.w3.org/2000/01/rdf-schema#label short term credit rating
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRating https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Typically, a credit rating is provided as a detailed report based on the financial history of borrowing or lending and creditworthiness of the entity or person derived from income statements, historical records related to borrowing, etc. with an aim to determine their ability to meet debt obligations.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/concernsParty http://www.w3.org/2000/01/rdf-schema#label concerns party
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditTradeline https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote A tradeline on a credit report refers to a specific credit account. Tradelines report snapshot details derived from a combination of account features and payment history, and are used by credit reporting agencies as inputs to the analysis process that determines a party's credit rating.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/InvestmentCreditRating http://www.w3.org/2000/01/rdf-schema#label investment credit rating
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditWatchUpgrade http://www.w3.org/2000/01/rdf-schema#label credit watch upgrade
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditMessageType http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Classifiers/Classifier
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/SubprimeQuality https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Subprime refers to borrowers or loans, usually offered at rates well above the prime rate. Subprime lending is higher risk, given the lower credit rating of borrowers.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/FormalOrganizations/
+N2cf673926c944a03a8d5eb23bc3dbe6b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditMessage http://www.w3.org/2000/01/rdf-schema#label credit message
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditTradeline http://www.w3.org/2000/01/rdf-schema#subClassOf N9fd55d765ee742368b952b8c9a47e163
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/NonprimeQuality http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRatingAgency http://www.w3.org/2000/01/rdf-schema#subClassOf N1606f4a50f7e4d8b955d77ff9fa5232a
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/OrganizationCreditRating http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRating
+Nc3db5f6c27fe4e34b19bd7c34d26af5f http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+Nc9f0edec5433474095b0f40f92cab667 http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/Commons/PartiesAndSituations/Party
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/NonprimeQuality https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Nonprime loans may be offered to individuals who are unable to qualify for a conventional loan.
+Nf36e8d3bd021482f9079eb1a9ce1b492 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N3673d7dce07b4276aca479ddb40e0b82 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/QuantitiesAndUnits/isDerivedFrom
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditReport http://www.w3.org/2000/01/rdf-schema#subClassOf N50c24f5054d64274aa6db8c327dc4fa7
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/ShortTermCreditRating http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N2cf673926c944a03a8d5eb23bc3dbe6b http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasTextualName
+Nfe00fe3882094dcdb620e5975b2fde95 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRatingAgency
+Ne0e89fef407e4ce9b148a27d7b25cc78 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRatingAgency
+Ncc7fb5a274fd4e1b84516c208efaf28c http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRatingScale
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/RolesAndCompositions/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/StableOutlook http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditReportProduct http://www.w3.org/2000/01/rdf-schema#label credit report product
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/hasCoveragePeriod http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+Nb6fc03725a9a4d16961866e0190ff9fb http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasAsOfDate
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditQuality http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingScore
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditReportProduct http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/InvestmentCreditRating http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRating http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/Rating
+Nc103362d617a469a96aa56115df9d1dc http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument

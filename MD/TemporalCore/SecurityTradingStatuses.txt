@@ -1,0 +1,72 @@
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/ExchangeSecurityTradingStatus http://www.w3.org/2000/01/rdf-schema#label exchange security trading status
+N5b6008e9fe674500869afce810359db6 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/Worthless http://www.w3.org/2000/01/rdf-schema#label worthless
+N496b2f8ffe8740a991928eefba95d731 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/ActivelyTrading http://www.w3.org/2004/02/skos/core#definition Security is actively traded on the exchange or trading facility
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/WhenDistributed http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/SecurityLifecycleStatus
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/Worthless http://www.w3.org/2004/02/skos/core#definition Announcement by the regulator that the security has become worthless.
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/WhenIssued http://www.w3.org/2000/01/rdf-schema#label when issued
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/Issued http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/Active http://www.w3.org/2004/02/skos/core#definition Security is actively traded
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/SecurityTradingStatus http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/Worthless https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote e.g. bankruptcy hearings - might result in this being said.
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/ActivelyTrading http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/ExchangeSecurityTradingStatus
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/SecurityTradingStatus http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStatus
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2013-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Provisional
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/Inactive http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N5b6008e9fe674500869afce810359db6 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Classifiers/classifies
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/ActivelyTrading http://www.w3.org/2000/01/rdf-schema#label actively trading
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/ExchangeSecurityTradingStatus http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/SecurityLifecycleStatus http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/WhenDistributed http://www.w3.org/2004/02/skos/core#definition Used to refer to a security that trades after the date of issue but before the time at which the certificates are delivered
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/ http://purl.org/dc/terms/abstract This ontology defines the various kinds of trading status that a security may be in at any given point in time. These includes such terms as active and halted, inactive and so on, along with their qualifying terms.
+N03543f4002ad415e992bde5500753417 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/Issued http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/SecurityLifecycleStatus
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/Active http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/WhenDistributed http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/SecurityTradingStatus http://www.w3.org/2000/01/rdf-schema#subClassOf N5b6008e9fe674500869afce810359db6
+N5b6008e9fe674500869afce810359db6 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Security
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/SecurityLifecycleStatus http://www.w3.org/2000/01/rdf-schema#label security lifecycle status
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/Issued http://www.w3.org/2004/02/skos/core#definition The security has been issued into the secondary market.
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/SecurityTradingStatus http://www.w3.org/2004/02/skos/core#definition status of the security in terms of whether it is trading or not, and any special considerations relating to trading
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/Active http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/SecurityTradingStatus
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/Active http://www.w3.org/2000/01/rdf-schema#label active
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/ExchangeSecurityTradingStatus http://www.w3.org/2004/02/skos/core#definition trading status of a listed security on a given trading exchange
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/ActivelyTrading http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/SecurityTradingStatus http://www.w3.org/2000/01/rdf-schema#label security trading status
+N03543f4002ad415e992bde5500753417 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Classifiers/classifies
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/WhenIssued http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/SecurityLifecycleStatus http://www.w3.org/2000/01/rdf-schema#subClassOf N496b2f8ffe8740a991928eefba95d731
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Classifiers/
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/Inactive http://www.w3.org/2000/01/rdf-schema#label inactive
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/ExchangeSecurityTradingStatus http://www.w3.org/2000/01/rdf-schema#subClassOf N03543f4002ad415e992bde5500753417
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/ExchangeSecurityTradingStatus http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStatus
+N03543f4002ad415e992bde5500753417 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/Listing
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/WhenIssued http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/SecurityLifecycleStatus
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/SecurityLifecycleStatus http://www.w3.org/2004/02/skos/core#definition status of a security within its lifecycle
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/Worthless http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N496b2f8ffe8740a991928eefba95d731 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Classifiers/classifies
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/TradingHalted http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/Issued http://www.w3.org/2000/01/rdf-schema#label issued
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/ActivelyTrading http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/TradingHalted
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/Active http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/Inactive
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/SecurityLifecycleStatus http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStatus
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/WhenDistributed http://www.w3.org/2000/01/rdf-schema#label when distributed
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/TradingHalted http://www.w3.org/2000/01/rdf-schema#label trading halted
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/TradingHalted http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/ExchangeSecurityTradingStatus
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/WhenIssued http://www.w3.org/2004/02/skos/core#definition When Issued or Gray Market trading is when a security is traded ahead of the date at which it is to be issued.
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/Inactive http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/SecurityTradingStatus
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/SecurityTradingStatus http://www.w3.org/2004/02/skos/core#editorialNote Exchange Traded Security trading status is now a separate term, covering trading suspension on an exchange, so that does not form part of this term.
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/Worthless http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/SecurityLifecycleStatus
+https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/SecurityTradingStatuses/ http://www.w3.org/2000/01/rdf-schema#label SecurityTradingStatuses
+N496b2f8ffe8740a991928eefba95d731 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Security

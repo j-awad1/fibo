@@ -1,0 +1,303 @@
+N71e0b91a0741430689998bb00f32f2d1 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PassThroughMBSDraftProspectus http://www.w3.org/2000/01/rdf-schema#subClassOf N71e0b91a0741430689998bb00f32f2d1
+Nabbc39b610cd4e9e8d114e2bad556b4e http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/finalizes
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/RegisterSecurity http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/InIssuanceAgencyMortgagePool http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MortgageBackedSecurities/AgencyMortgagePool
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/DatesAndTimes/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/MakeSecuritiesAvailabeInMarket http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Ne6fb4b9aa0bf45a9a42c888affab8d7f http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/isAssessmentOf
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/InIssuanceAgencyMortgagePool http://www.w3.org/2000/01/rdf-schema#label in issuance agency mortgage pool
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/FinalizeProspectus http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N10f3c4eb418943d1a3c63fe28ebb16db http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/Bonds/CouponPaymentTerms
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/adds http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/AddMortgageToPool
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PassThroughIssueProspectusPart http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MBSIssuance/ProspectusPart
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PassThroughMBSDraftProspectus http://www.w3.org/2004/02/skos/core#definition The draft prospectus for a pass through Mortgage Backed Securities issue, as determined by the issuing agency prior to marketing the issue. Certain terms in the draft prospectus will be finalized later in the issuance process to become the actual Prospectus. Term origin:MBS PoC Reviews
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PotentialAgencyMBSIssuer http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/PoolBackedSecuritySecuritizationProcessActor
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/isDefiningOf http://www.w3.org/2000/01/rdf-schema#label is defining of
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PoolConformanceCriteria http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N6257cee5923d461fa87faf18f175ccb8 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/hasStage
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/AddMortgageToPool http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/IssuanceProcessActivity
+Ndd29d4a54c7346fc8a0b9fefb652861e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nf93e38272df24c46b143939858319b9c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/MarketIssue http://www.w3.org/2000/01/rdf-schema#label market issue
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/RegisterSecurity http://www.w3.org/2000/01/rdf-schema#label register security
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/DefineMortgagePool http://www.w3.org/2000/01/rdf-schema#subClassOf N7fa9bbfce3cc4099ba16eab0df6795f6
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PotentialAgencyMBSIssuer http://www.w3.org/2000/01/rdf-schema#subClassOf Nf93e38272df24c46b143939858319b9c
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PotentialAgencyMBSIssuer http://www.w3.org/2000/01/rdf-schema#subClassOf N5b804350299049348c48502632c84b81
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/FinalizePoolContent http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N98ea1a8446bd4bfabd3fc570c1982d50 http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/Commons/DatesAndTimes/Date
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/DrawUpTermsheet http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/IssuanceProcessActivity
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/InAssemblyAgencyMortgagePool http://www.w3.org/2000/01/rdf-schema#label in assembly agency mortgage pool
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/AcquireMortgage http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/IssuanceProcessActivity
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/allocatesIdentifier http://www.w3.org/2000/01/rdf-schema#label allocates identifier
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/MakeSecuritiesAvailabeInMarket http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/IssuanceProcessActivity
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/AgencyMortgagePoolCreationProcess http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/PrivateLabelMBSIssuance/NonAgencyPoolCreationProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/isAssessmentOf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ http://www.w3.org/2000/01/rdf-schema#label AgencyMBSIssuance
+N5b804350299049348c48502632c84b81 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/evaluates
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/SuitableForIssue http://www.w3.org/2000/01/rdf-schema#label suitable for issue
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ValidateConformance http://www.w3.org/2004/02/skos/core#editorialNote From review comment 6 Oct: box called validate conformance automatic eg max loan balance
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ClassifyMortgage http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/AddMortgageToPool http://www.w3.org/2000/01/rdf-schema#label add mortgage to pool
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/purchases http://www.w3.org/2000/01/rdf-schema#label purchases
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/DrawUpTermsheet http://www.w3.org/2000/01/rdf-schema#label draw up termsheet
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ValidateConformance http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PassThroughMBSSecuritizationProcess http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/purchases http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N10f3c4eb418943d1a3c63fe28ebb16db http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N1021c01af29e4aaca0861fcb48f69317 http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/Commons/DatesAndTimes/Date
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PassThroughMBSFinalTermsheet http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/TermSheet
+Nac93c3ff903442069fc9e1be5dec61b4 http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/Commons/DatesAndTimes/Date
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PassThroughOfferingMemorandum http://www.w3.org/2000/01/rdf-schema#label pass through offering memorandum
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/definesCriteriaFor http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/NotYetIssuedAgencyMortgagePool
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/validates http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/InAssemblyAgencyMortgagePool http://www.w3.org/2000/01/rdf-schema#subClassOf N09aaae57ab5a4e3597108500d99a9c52
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ValidateConformance http://www.w3.org/2004/02/skos/core#definition The mortgage is automatically validated for conformance to the requirements of the pool in which it is to be included.
+N33e26b69119f40f4ae6498fa9055aeaa http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nf4a641c3770342989bbc212eaffde828 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/AllocatePrimaryIdentifier http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N3f45a5d389e242e0993773bafa1fb05e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PassThroughMBSDraftProspectus http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceDocuments/PreliminaryProspectus
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/NotYetIssuedAgencyMortgagePool http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/identifies http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PotentialAgencyMBSIssuer
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/minimumRating http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+N71e0b91a0741430689998bb00f32f2d1 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/DatesAndTimes/precedes
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/adds http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PotentialAgencyMBSIssuer
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PotentialAgencyMBSIssuer http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nac93c3ff903442069fc9e1be5dec61b4 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N1021c01af29e4aaca0861fcb48f69317 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/DatesAndTimes/hasStartDate
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PassThroughMBSFinalTermsheet http://www.w3.org/2000/01/rdf-schema#label pass through m b s final termsheet
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/addsToPool http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/Mortgage
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ClassifyMortgage http://www.w3.org/2000/01/rdf-schema#label classify mortgage
+N7fa9bbfce3cc4099ba16eab0df6795f6 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/maximumLoanBalance http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PoolConformanceCriteria
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/finalizes http://www.w3.org/2000/01/rdf-schema#label finalizes
+Nd776c9d5b571472c97eb263f39a2bfb6 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/adds
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/purchases http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PotentialAgencyMBSIssuer
+Ne6fb4b9aa0bf45a9a42c888affab8d7f http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/Mortgage
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/IdentifyUnderwriter http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/IssuanceProcessActivity
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/addsToPool http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ValidateConformance http://www.w3.org/2000/01/rdf-schema#subClassOf N84539397d229494da52ef383f0ec115e
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/AssessPoolSuitablilityForIssuance http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/IssuanceProcessActivity
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/IdentifyUnderwriter http://www.w3.org/2000/01/rdf-schema#subClassOf N3656a6c97b304c1caec0c5c430bd8c6f
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/RegisterSecurity http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/IssuanceProcessActivity
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PassThroughMBSFinalProspectus http://www.w3.org/2004/02/skos/core#definition Term origin:MBS PoC Reviews
+Nd776c9d5b571472c97eb263f39a2bfb6 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/AddMortgageToPool
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/hasResource http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+Nf93e38272df24c46b143939858319b9c http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/AcquireMortgage
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/FinalizeProspectus http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/IssuanceProcessActivity
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/DrawUpOfferingMemorandum http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/purchases http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/AcquireMortgage
+Ndee2e59eee9a4adf8df1a299c1f9c950 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/SuitableForIssue http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Neac44ce789d2489eb64768e2a3699587 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Ndd29d4a54c7346fc8a0b9fefb652861e http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/definesCriteriaFor
+N3656a6c97b304c1caec0c5c430bd8c6f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/identifies http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/IdentifyConformingMortgage http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/IssuanceProcessActivity
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/NotYetIssuedAgencyMortgagePool http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MortgageBackedSecurities/AgencyMortgagePool
+Nac7d9dc05dba45cb94e9c61e248e4a61 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/Mortgage
+Ne6fb4b9aa0bf45a9a42c888affab8d7f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/definesCriteriaFor http://www.w3.org/2000/01/rdf-schema#label defines criteria for
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/MarketIssue http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N4544fa41b0b5416889e6fea7c2df3835 http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/Commons/DatesAndTimes/Date
+N3989a630431142ef8a2afdaa4b0ee789 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/AgencyMortgagePoolCreationProcess http://www.w3.org/2000/01/rdf-schema#label agency mortgage pool creation process
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PassThroughMBSFinalTermsheet http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PassThroughIssueProspectusPart
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MortgageBackedSecurities/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PotentialAgencyMBSIssuer http://www.w3.org/2000/01/rdf-schema#subClassOf Nfa7db8412cea47f580a90eb1bf92c358
+N7fa9bbfce3cc4099ba16eab0df6795f6 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/isDefiningOf
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/FinalizePoolContent http://www.w3.org/2000/01/rdf-schema#label finalize pool content
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ClassifyMortgage http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/IssuanceProcessActivity
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/MakeSecuritiesAvailabeInMarket http://www.w3.org/2000/01/rdf-schema#label make securities availabe in market
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PassThroughMBSDraftProspectus http://www.w3.org/2000/01/rdf-schema#label pass through m b s draft prospectus
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/resultsInAppointmentOf http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PotentialPassThroughIssuanceUnderwriter
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/AddMortgageToPool http://www.w3.org/2000/01/rdf-schema#subClassOf Nac7d9dc05dba45cb94e9c61e248e4a61
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/AcquireMortgage http://www.w3.org/2000/01/rdf-schema#label acquire mortgage
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PassThroughMBSFinalProspectus http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/PoolBackedSecurities/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/AllocatePrimaryIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/IssuanceProcessActivity
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/AgencyMortgagePoolCreationProcess http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/hasResource http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/MarketIssue
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/NotYetIssuedAgencyMortgagePool http://www.w3.org/2000/01/rdf-schema#label not yet issued agency mortgage pool
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PassThroughIssueProspectusPart http://www.w3.org/2000/01/rdf-schema#label pass through issue prospectus part
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PassThroughMBSFinalTermsheet http://www.w3.org/2000/01/rdf-schema#subClassOf N33e26b69119f40f4ae6498fa9055aeaa
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PassThroughOfferingMemorandum http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/OfferingDocument
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/
+N1021c01af29e4aaca0861fcb48f69317 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PassThroughMBSFinalProspectus http://www.w3.org/2000/01/rdf-schema#label pass through m b s final prospectus
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/purchase http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/Mortgage
+Nabbc39b610cd4e9e8d114e2bad556b4e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/identifies http://www.w3.org/2000/01/rdf-schema#label identifies
+Nac7d9dc05dba45cb94e9c61e248e4a61 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/addsToPool
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ValidateConformance http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/IssuanceProcessActivity
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/finalizes http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PotentialAgencyMBSIssuer
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MBSIssuance/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/IdentifyConformingMortgage http://www.w3.org/2000/01/rdf-schema#subClassOf N3f45a5d389e242e0993773bafa1fb05e
+Nfa7db8412cea47f580a90eb1bf92c358 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/identifies http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/IdentifyConformingMortgage
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PassThroughOfferingMemorandum http://www.w3.org/2000/01/rdf-schema#subClassOf N789b717842db4e81b4c11a1fb35dc9ed
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PotentialAgencyMBSIssuer http://www.w3.org/2000/01/rdf-schema#subClassOf Nabbc39b610cd4e9e8d114e2bad556b4e
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/PrivateLabelMBSIssuance/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/resultsInAppointmentOf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ http://purl.org/dc/terms/abstract Process ontology for the process of issuance (securitization) of mortgage backed securities by government agencies. Based on US government agency MBS issuance process.
+Nd776c9d5b571472c97eb263f39a2bfb6 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nac7d9dc05dba45cb94e9c61e248e4a61 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PotentialPassThroughIssuanceUnderwriter http://www.w3.org/2000/01/rdf-schema#label potential pass through issuance underwriter
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/MarketIssue http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/IssuanceProcessActivity
+N84539397d229494da52ef383f0ec115e http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Documents/refersTo
+N98ea1a8446bd4bfabd3fc570c1982d50 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/DatesAndTimes/hasEndDate
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/maximumLoanBalance http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/DraftPassThroughTermsheet http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/TermSheet
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PassThroughIssueProspectusPart http://www.w3.org/2004/02/skos/core#definition A part or section of a prospectus for a pass through MBS issue. Term origin:MBS PoC Reviews
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PotentialAgencyMBSIssuer http://www.w3.org/2000/01/rdf-schema#label potential agency m b s issuer
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/minimumRating http://www.w3.org/2000/01/rdf-schema#label minimum rating
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PassThroughMBSSecuritizationProcess http://www.w3.org/2000/01/rdf-schema#subClassOf N4544fa41b0b5416889e6fea7c2df3835
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/DrawUpTermsheet http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceDocuments/
+Nfa7db8412cea47f580a90eb1bf92c358 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/AssessPoolSuitablilityForIssuance
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/AllocatePrimaryIdentifier http://www.w3.org/2000/01/rdf-schema#label allocate primary identifier
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/
+Nb56eeadd298346b4a9dad37af45da12c http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/NotYetIssued
+N84539397d229494da52ef383f0ec115e http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PoolConformanceCriteria
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/IdentifyConformingMortgage http://www.w3.org/2004/02/skos/core#definition Identify mortgage conforming to overall requirements for this issuer.
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PassThroughMBSSecuritizationProcess http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/PrivateLabelMBSIssuance/TranchedMBSSecuritizationProcess
+N3656a6c97b304c1caec0c5c430bd8c6f http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/resultsInAppointmentOf
+Nb56eeadd298346b4a9dad37af45da12c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/NotYetIssuedAgencyMortgagePool http://www.w3.org/2000/01/rdf-schema#subClassOf Nb56eeadd298346b4a9dad37af45da12c
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/DefineMortgagePool http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/validates http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ValidateConformance
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/adds http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N3f45a5d389e242e0993773bafa1fb05e http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Documents/refersTo
+Ndd29d4a54c7346fc8a0b9fefb652861e http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/NotYetIssuedAgencyMortgagePool
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/isDefiningOf http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/NotYetIssuedAgencyMortgagePool
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/addsToPool http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/AddMortgageToPool
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PassThroughMBSDraftProspectus http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PotentialAgencyMBSIssuer http://www.w3.org/2000/01/rdf-schema#subClassOf Nd776c9d5b571472c97eb263f39a2bfb6
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/maximumLoanBalance http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/purchase http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N33e26b69119f40f4ae6498fa9055aeaa http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/Bonds/BondAmortizationPaymentTerms
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/IdentifyConformingMortgage http://www.w3.org/2000/01/rdf-schema#label identify conforming mortgage
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/AgencyMortgagePoolCreationProcess http://www.w3.org/2000/01/rdf-schema#subClassOf N1021c01af29e4aaca0861fcb48f69317
+Nf4a641c3770342989bbc212eaffde828 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PassThroughMBSSecuritizationProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+N6257cee5923d461fa87faf18f175ccb8 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/InIssuance
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PassThroughIssueProspectusPart http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PotentialAgencyMBSIssuer http://www.w3.org/2000/01/rdf-schema#subClassOf Neac44ce789d2489eb64768e2a3699587
+Nfa7db8412cea47f580a90eb1bf92c358 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/evaluates
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/isAssessmentOf http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ClassifyMortgage
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/addsToPool http://www.w3.org/2000/01/rdf-schema#label adds to pool
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/validates http://www.w3.org/2000/01/rdf-schema#label validates
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/definesCriteriaFor http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/purchase http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/AcquireMortgage
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/finalizes http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/FinalizePoolContent
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PotentialPassThroughIssuanceUnderwriter http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/PotentialUnderwriter
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PassThroughMBSSecuritizationProcess http://www.w3.org/2000/01/rdf-schema#subClassOf Nac93c3ff903442069fc9e1be5dec61b4
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/Bonds/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/DefineMortgagePool http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/IssuanceProcessActivity
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PotentialAgencyMBSIssuer http://www.w3.org/2004/02/skos/core#definition The entity which will become the issuing party for the pass through MBS Issue. This entity is the principal actor in most of the activities involved in the issue. Term origin:MBS PoC Reviews
+N98ea1a8446bd4bfabd3fc570c1982d50 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N09aaae57ab5a4e3597108500d99a9c52 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/hasStage
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2013-2023 EDM Council, Inc.
+Ne70bee3843fd4450a2f73d6514b2df4f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PassThroughMBSFinalTermsheet http://www.w3.org/2000/01/rdf-schema#subClassOf N10f3c4eb418943d1a3c63fe28ebb16db
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/adds http://www.w3.org/2000/01/rdf-schema#label adds
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/DraftPassThroughTermsheet http://www.w3.org/2004/02/skos/core#definition Draft of set of information defining the pass thorugh security terms. These will eventually become the contractual terms of the instrument. Term origin:MBS PoC Reviews
+Ndee2e59eee9a4adf8df1a299c1f9c950 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/hasResource
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/AgencyMortgagePoolCreationProcess http://www.w3.org/2000/01/rdf-schema#subClassOf Nf4a641c3770342989bbc212eaffde828
+Ndee2e59eee9a4adf8df1a299c1f9c950 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PassThroughMBSDraftProspectus
+Nf93e38272df24c46b143939858319b9c http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/purchases
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/allocatesIdentifier http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+Nf4a641c3770342989bbc212eaffde828 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/DatesAndTimes/precedes
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/isDefiningOf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PassThroughOfferingMemorandum http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N71e0b91a0741430689998bb00f32f2d1 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PassThroughMBSFinalProspectus
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PoolConformanceCriteria http://www.w3.org/2000/01/rdf-schema#subClassOf Ndd29d4a54c7346fc8a0b9fefb652861e
+N4544fa41b0b5416889e6fea7c2df3835 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/DatesAndTimes/hasEndDate
+N4544fa41b0b5416889e6fea7c2df3835 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/finalizes http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/AcquireMortgage http://www.w3.org/2000/01/rdf-schema#subClassOf N3989a630431142ef8a2afdaa4b0ee789
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/AssessPoolSuitablilityForIssuance http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N3989a630431142ef8a2afdaa4b0ee789 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/Mortgage
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/validates http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PotentialAgencyMBSIssuer
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/IdentifyUnderwriter http://www.w3.org/2000/01/rdf-schema#label identify underwriter
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/AcquireMortgage http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/minimumRating http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/InvestmentCreditRating
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/IdentifyConformingMortgage http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PotentialPassThroughIssuanceUnderwriter http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/isDefiningOf http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/DefineMortgagePool
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PassThroughMBSFinalTermsheet http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nb56eeadd298346b4a9dad37af45da12c http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/hasStage
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PoolConformanceCriteria http://www.w3.org/2000/01/rdf-schema#label pool conformance criteria
+Neac44ce789d2489eb64768e2a3699587 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ValidateConformance
+N789b717842db4e81b4c11a1fb35dc9ed http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PassThroughMBSFinalTermsheet
+N33e26b69119f40f4ae6498fa9055aeaa http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasContractualElement
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/DefineMortgagePool http://www.w3.org/2000/01/rdf-schema#label define mortgage pool
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/InIssuanceAgencyMortgagePool http://www.w3.org/2000/01/rdf-schema#subClassOf N6257cee5923d461fa87faf18f175ccb8
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/DraftPassThroughTermsheet http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/FinalizePoolContent http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/IssuanceProcessActivity
+Ne70bee3843fd4450a2f73d6514b2df4f http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/identifies
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PassThroughMBSSecuritizationProcess http://www.w3.org/2000/01/rdf-schema#label pass through m b s securitization process
+Nac93c3ff903442069fc9e1be5dec61b4 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/DatesAndTimes/hasStartDate
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Provisional
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/AddMortgageToPool http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ValidateConformance http://www.w3.org/2000/01/rdf-schema#label validate conformance
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/FinalizeProspectus http://www.w3.org/2000/01/rdf-schema#label finalize prospectus
+N6257cee5923d461fa87faf18f175ccb8 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/minimumRating http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PoolConformanceCriteria
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/DrawUpOfferingMemorandum http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/IssuanceProcessActivity
+N789b717842db4e81b4c11a1fb35dc9ed http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nabbc39b610cd4e9e8d114e2bad556b4e http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/FinalizePoolContent
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/isAssessmentOf http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/Mortgage
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PassThroughOfferingMemorandum http://www.w3.org/2004/02/skos/core#definition The offering memorandum for a pass through MBS issue, setting out basic information about a future issue, for the information of prospective investors and their agents. Term origin:MBS PoC Reviews
+N7fa9bbfce3cc4099ba16eab0df6795f6 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/NotYetIssuedAgencyMortgagePool
+N5b804350299049348c48502632c84b81 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ClassifyMortgage
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/resultsInAppointmentOf http://www.w3.org/2000/01/rdf-schema#label results in appointment of
+N10f3c4eb418943d1a3c63fe28ebb16db http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasContractualElement
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/IdentifyConformingMortgage https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote This does not relate to the criteria for belonging to an individual, defined mortgage pool but conforms to the requirements of the issuing organization overall. This is for Agency pools. For non-agency, the equivalent of this step is carried out at pool level with a clause to reject the mortgage.
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ClassifyMortgage http://www.w3.org/2000/01/rdf-schema#subClassOf Ne6fb4b9aa0bf45a9a42c888affab8d7f
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/
+Ne70bee3843fd4450a2f73d6514b2df4f http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/IdentifyConformingMortgage
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/hasResource http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PassThroughMBSDraftProspectus
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/isAssessmentOf http://www.w3.org/2000/01/rdf-schema#label is assessment of
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/MarketIssue http://www.w3.org/2000/01/rdf-schema#subClassOf Ndee2e59eee9a4adf8df1a299c1f9c950
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/AgencyMortgagePoolCreationProcess http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/RetailAssetPoolCreationProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PassThroughMBSSecuritizationProcess http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MBSIssuance/MBSSecuritizationProcess
+Neac44ce789d2489eb64768e2a3699587 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/validates
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PassThroughMBSFinalTermsheet http://www.w3.org/2004/02/skos/core#definition The final termsheet for the pass through MBS issue. This defines the terms for the MBS contract itself. Term origin:MBS PoC Reviews
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/InAssemblyAgencyMortgagePool http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PassThroughMBSFinalProspectus http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MortgageBackedSecurities/MortgageBackedSecurityOfferingProspectus
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/purchase http://www.w3.org/2000/01/rdf-schema#label purchase
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/resultsInAppointmentOf http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/IdentifyUnderwriter
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/maximumLoanBalance http://www.w3.org/2000/01/rdf-schema#label maximum loan balance
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PotentialPassThroughIssuanceUnderwriter http://www.w3.org/2004/02/skos/core#definition The entity which will become the underwriter for the pass through MBS issue. Term origin:MBS PoC Reviews
+N09aaae57ab5a4e3597108500d99a9c52 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/AgencyMortgagePoolCreationProcess http://www.w3.org/2000/01/rdf-schema#subClassOf N98ea1a8446bd4bfabd3fc570c1982d50
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/InAssemblyAgencyMortgagePool http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MortgageBackedSecurities/AgencyMortgagePool
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/DraftPassThroughTermsheet http://www.w3.org/2000/01/rdf-schema#label draft pass through termsheet
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/hasResource http://www.w3.org/2000/01/rdf-schema#label has resource
+N09aaae57ab5a4e3597108500d99a9c52 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/InAssembly
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/definesCriteriaFor http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PoolConformanceCriteria
+N5b804350299049348c48502632c84b81 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N3656a6c97b304c1caec0c5c430bd8c6f http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PotentialPassThroughIssuanceUnderwriter
+N3f45a5d389e242e0993773bafa1fb05e http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/Mortgage
+N789b717842db4e81b4c11a1fb35dc9ed http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MBSIssuance/includesDetailsAbout
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/AssessPoolSuitablilityForIssuance http://www.w3.org/2000/01/rdf-schema#label assess pool suitablility for issuance
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/PotentialAgencyMBSIssuer http://www.w3.org/2000/01/rdf-schema#subClassOf Ne70bee3843fd4450a2f73d6514b2df4f
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/
+N3989a630431142ef8a2afdaa4b0ee789 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/purchase
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/InIssuanceAgencyMortgagePool http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Documents/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/IdentifyUnderwriter http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N84539397d229494da52ef383f0ec115e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/AgencyMBSIssuance/DrawUpOfferingMemorandum http://www.w3.org/2000/01/rdf-schema#label draw up offering memorandum

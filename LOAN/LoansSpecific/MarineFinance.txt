@@ -1,0 +1,35 @@
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/ http://www.w3.org/2000/01/rdf-schema#label Marine Finance Ontology
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/boatHeldAsChattel http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#boolean
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/residential http://www.w3.org/2000/01/rdf-schema#label residential
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/MarineFinancing http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/mooredAt http://www.w3.org/2000/01/rdf-schema#label moored at
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/mooredAt http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/MarineFinancing
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/percentageAdvanced http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/QuantitiesAndUnits/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/residential http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#boolean
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/percentageAdvanced http://www.w3.org/2004/02/skos/core#definition The percentage of the purchase price advanced as the loan.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/boatHeldAsChattel http://www.w3.org/2000/01/rdf-schema#label boat held as chattel
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Provisional
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/boatHeldAsChattel http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/mooredAt http://www.w3.org/2004/02/skos/core#definition Textual description (name etc.) of where the vessel is to be moored if it has a permanent mooring place.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/residential http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/ http://purl.org/dc/terms/abstract This ontology defines concepts specific to marine finance, which involves financing vessel acquisitions for the spot market, time charters or bareboat charters, as well as the construction of work boats, and to finance the acquisition of vessels for scrapping.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/percentageAdvanced http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/MarineFinancing
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/MarineFinancing http://www.w3.org/2004/02/skos/core#definition A loan for the purchase of a boat or other vessel.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/MarineFinancing http://www.w3.org/2000/01/rdf-schema#label marine finance
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/boatHeldAsChattel http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/MarineFinancing
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/MarineFinancing http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/Loans/Loan
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/boatHeldAsChattel http://www.w3.org/2004/02/skos/core#definition Whether the vessel is to be held in ownership as a form of chattel by the lender during the period of the loan.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/Loans/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/percentageAdvanced http://www.w3.org/2000/01/rdf-schema#label percentage advanced
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/residential http://www.w3.org/2004/02/skos/core#definition Whether the boat is intended to be used and is legally able to be used as a place of residence.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/percentageAdvanced http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/QuantitiesAndUnits/Percentage
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/residential http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/MarineFinancing
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/mooredAt http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#string
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/mooredAt http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/MarineFinance/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2015-2023 EDM Council, Inc.

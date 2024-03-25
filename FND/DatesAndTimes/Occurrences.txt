@@ -1,0 +1,206 @@
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasEventDate http://www.w3.org/2000/01/rdf-schema#label has event date
+N8781b0cef1904e3eacf7363a2ce0c726 http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/QuantitiesAndUnits/ScalarQuantityValue
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/OccurrenceBasedDate http://www.w3.org/2000/01/rdf-schema#subClassOf N2034d2eefaa1490c990788afdd44013c
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasOccurrence http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/Occurrence
+N77372425f295443a9ed449b5a52cf2d7 http://www.w3.org/1999/02/22-rdf-syntax-ns#first Nf86a1963ee8749f18d73cd860a69143a
+N80fe4ae2094c406eb8d21148037dbcdb http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasEventDateValue http://www.w3.org/2000/01/rdf-schema#label has event date value
+Nc394075924c544f1a882f9b52fe6b022 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N77372425f295443a9ed449b5a52cf2d7 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N4f321c1541f94761b2c8bc432406087b
+N5564f073b32f4a1eb8c9bcd3718d67e0 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20190201/DatesAndTimes/Occurrences/ version of this ontology was revised to eliminate duplication of concepts in LCC, and eliminate unnecessary complexity in restrictions.
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/Calculation http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/Occurrence
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/OccurrenceKind http://www.w3.org/2004/02/skos/core#example trade settlement
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasOccurrence http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+Ne5d110f1647c44a7894d4df1d3b89b44 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/isTriggeredBy http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20141101/DatesAndTimes/Occurrences/ version of this ontology was revised to address the issue resolutions in the FIBO 2.0 RFC, primarily to add properties that are relevant to the inputs and outputs from processes, events, systems and the like.
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/CalculationEvent http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasEventDate http://www.w3.org/2004/02/skos/core#definition identifies a date associated with an event (occurrence)
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/ http://purl.org/dc/terms/abstract This ontology extends definitions of date and schedule concepts from the FinancialDates ontology with concepts defining occurrences (i.e., event-related concepts) for use in other FIBO ontologies.
+Nade669170b2f45598fcd64563b67912f http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasEventDate
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/CalculationEvent http://www.w3.org/2004/02/skos/core#definition kind of event that is either scheduled or triggered by something, such as a related financial event, that causes a calculation to be performed
+N3f27be8ac7f24907a8ec01e52d76e3d1 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasInput http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+Nc394075924c544f1a882f9b52fe6b022 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasOccurrence
+Na4f545c13ed0432f9f0e56ab3cc557cd http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasOutput http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/ http://www.w3.org/2004/02/skos/core#changeNote This ontology was added to Foundations in advance of the December 2014 Long Beach meeting in support of the SEC specification. It is also needed to provide temporal relationships for Ownership and Control.
+
+These three ontologies are designed for use together:
+
+	* FinancialDates -- financial Dates and Schedules
+	* BusinessDates -- business day adjustments
+	* Occurrences -- occurrences (events) and kinds of occurrences
+
+They are modularized this way to minimize the ontological committments that are imposed upon ontologies that rely upon them. Ontologies can import FinancialDates alone, or FinancialDates + BusinessDates, or FinancialDates + Occurrences, or all three together.
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/isOutputFrom http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20200901/DatesAndTimes/Occurrences/ version of this ontology was revised to fix spelling errors.
+N8781b0cef1904e3eacf7363a2ce0c726 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasQuantityValue
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/isExemplifiedBy http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N5564f073b32f4a1eb8c9bcd3718d67e0 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Classifiers/isClassifiedBy
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/CalculationEvent http://www.w3.org/2004/02/skos/core#note A calculation event related to a debt instrument might be a rate reset event, calculation of interest subsequent to a rate change, an amortization calculation, calculation of interest and/or recalculation of principal due to a late payment, etc. A calculation event related to an investment might involve the adjustment of the number of shares owned, such as a redemption or dividend related event.
+N703cec5b71d14434b29b52ffd2ff3595 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N5564f073b32f4a1eb8c9bcd3718d67e0 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/OccurrenceKind http://www.w3.org/2000/01/rdf-schema#label occurrence kind
+N57ac261532e8446dbc0da436a4e87b4f http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasEventDateValue
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/OccurrenceKind https://www.omg.org/spec/Commons/AnnotationVocabulary/usageNote In order for other ontologies to accept FinancialDates without committing to the particular notions of 'Occurrence' and 'OccurrenceKind' that is modeled here, all aspects of Occurrences are captured in this ontolog
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2014-2024 EDM Council, Inc.
+Ne5d110f1647c44a7894d4df1d3b89b44 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Classifiers/
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/PartiesAndSituations/
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/OccurrenceBasedDate https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The 'hasDateValue' property of an OccurrenceBasedDate is not set until the Occurrence happens. The 'triggeredBy' property relates an OccurrenceBasedDate to the OccurrenceKind that gives the meaning of the OccurrenceBasedDate.
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/isOutputFrom http://www.w3.org/2004/02/skos/core#definition indicates post condition or other product of some activity, process, system, report, analysis, etc.
+N2034d2eefaa1490c990788afdd44013c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20230101/DatesAndTimes/Occurrences.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.
+Nde2242918eac4b22a26e5351fa65a07e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/isTriggeredBy http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/OccurrenceBasedDate
+Nfb8144cebab44e3f9f8053591daa3f38 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+N3f27be8ac7f24907a8ec01e52d76e3d1 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Classifiers/classifies
+N703cec5b71d14434b29b52ffd2ff3595 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasQuantityValueRange
+N57ac261532e8446dbc0da436a4e87b4f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+N8781b0cef1904e3eacf7363a2ce0c726 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/isInputTo http://www.w3.org/2004/02/skos/core#definition indicates a precondition, requirement, or other contribution (e.g., data) to some activity, process, system, report, analysis, etc.
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/FND/20240301/DatesAndTimes/Occurrences/
+N80fe4ae2094c406eb8d21148037dbcdb http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/exemplifies
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/
+N956fabec0a414d45a3f6af0946e2670b http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/CalculationEvent
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/Occurrence http://www.w3.org/2000/01/rdf-schema#subClassOf N80fe4ae2094c406eb8d21148037dbcdb
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/CalculationEvent http://www.w3.org/2000/01/rdf-schema#label calculation event
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/Occurrence http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/Occurrence http://www.w3.org/2000/01/rdf-schema#subClassOf Na4f545c13ed0432f9f0e56ab3cc557cd
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/isTriggeredBy http://www.w3.org/2004/02/skos/core#definition is activated or initiated by
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/Occurrence https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym event
+N9dfa97d879d943f2840184c79c338100 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+Nc394075924c544f1a882f9b52fe6b022 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/Occurrence
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/Calculation http://www.w3.org/2000/01/rdf-schema#subClassOf N956fabec0a414d45a3f6af0946e2670b
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/ScheduleStub http://www.w3.org/2000/01/rdf-schema#subClassOf Ne5d110f1647c44a7894d4df1d3b89b44
+N3f27be8ac7f24907a8ec01e52d76e3d1 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/Calculation
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/CalculationEvent http://www.w3.org/2000/01/rdf-schema#subClassOf N3f27be8ac7f24907a8ec01e52d76e3d1
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/OccurrenceKind http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N2034d2eefaa1490c990788afdd44013c http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/OccurrenceKind
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/OccurrenceBasedDate http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/CalculatedDate
+Nde2242918eac4b22a26e5351fa65a07e http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/OccurrenceKind
+Nde2242918eac4b22a26e5351fa65a07e http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N6eee6819f8e941e9827fdb9e95987a07 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasEventDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20180801/DatesAndTimes/Occurrences/ version of this ontology was revised to make use of the new composite date type added to Financial Dates.
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/isOutputFrom http://www.w3.org/2000/01/rdf-schema#label is output from
+N8781b0cef1904e3eacf7363a2ce0c726 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/isExemplifiedBy http://www.w3.org/2002/07/owl#equivalentProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isExemplifiedBy
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/OccurrenceKind http://www.w3.org/2004/02/skos/core#example loan origination
+N4f321c1541f94761b2c8bc432406087b http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N6eee6819f8e941e9827fdb9e95987a07
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/isTriggeredBy http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/OccurrenceKind
+Nade669170b2f45598fcd64563b67912f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N9dfa97d879d943f2840184c79c338100 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasOccurrence
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/SpecifiedDate http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/OccurrenceBasedDate
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/OccurrenceKind http://www.w3.org/2004/02/skos/core#definition classifier that specifies the general nature of an occurrence (event)
+Nc303b541825c45e187887e4597fe421f http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/QuantitiesAndUnits/Expression
+Nde2242918eac4b22a26e5351fa65a07e http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/isInputTo http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/Occurrence https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Each occurrence has a date time stamp, which identifies when the event occurred, and, optionally, a location (possibly virtual), that identifies where the occurrence happened.
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20230301/DatesAndTimes/Occurrences.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380), to add the general notion of a calculation event (FBC-317), and to add a restriction stating that an occurrence is classified by an occurrence kind (FND-382).
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasEventDateValue http://www.w3.org/2004/02/skos/core#definition identifies a date or date and time value associated with an event (occurrence)
+Nc303b541825c45e187887e4597fe421f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/Calculation http://www.w3.org/2000/01/rdf-schema#subClassOf Nc303b541825c45e187887e4597fe421f
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2014-2024 Object Management Group, Inc.
+N956fabec0a414d45a3f6af0946e2670b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasOutput http://www.w3.org/2004/02/skos/core#definition relates something (e.g. an occurrence) to something that is the result of some activity or process
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/Occurrence http://www.w3.org/2000/01/rdf-schema#subClassOf N5564f073b32f4a1eb8c9bcd3718d67e0
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/Occurrence http://www.w3.org/2000/01/rdf-schema#subClassOf Na2331a75a5c947acb66260ea07dbedfd
+Na4f545c13ed0432f9f0e56ab3cc557cd http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Location
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/RegularSchedule http://www.w3.org/2000/01/rdf-schema#subClassOf Nde2242918eac4b22a26e5351fa65a07e
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasOutput http://www.w3.org/2002/07/owl#inverseOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/isOutputFrom
+N4f321c1541f94761b2c8bc432406087b http://www.w3.org/1999/02/22-rdf-syntax-ns#first Nade669170b2f45598fcd64563b67912f
+N2034d2eefaa1490c990788afdd44013c http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+N1f04d08320894b3ca7c46310322cb61b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/AdHocScheduleEntry http://www.w3.org/2000/01/rdf-schema#subClassOf N9dfa97d879d943f2840184c79c338100
+Nfb8144cebab44e3f9f8053591daa3f38 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N703cec5b71d14434b29b52ffd2ff3595 http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/QuantitiesAndUnits/ScalarQuantityValueRange
+N57ac261532e8446dbc0da436a4e87b4f http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/Calculation http://www.w3.org/2004/02/skos/core#definition actual execution of some computation, computational process, or operation that was scheduled or triggered by something
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/Calculation http://www.w3.org/2000/01/rdf-schema#subClassOf N703cec5b71d14434b29b52ffd2ff3595
+Nf86a1963ee8749f18d73cd860a69143a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/RelativeDate http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/OccurrenceBasedDate
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/OccurrenceKind http://www.w3.org/2000/01/rdf-schema#subClassOf N1f04d08320894b3ca7c46310322cb61b
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/Calculation http://www.w3.org/2000/01/rdf-schema#label calculation
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/ScheduleStub http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/exemplifies http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasEventDate http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/Date
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/isInputTo http://www.w3.org/2000/01/rdf-schema#label is input to
+Nc394075924c544f1a882f9b52fe6b022 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasEventDateValue http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/CombinedDateTime
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasEventDateValue http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasOccurrence http://www.w3.org/2004/02/skos/core#definition identifies events of a given occurrence kind, typically as they occur in a schedule
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasInput http://www.w3.org/2000/01/rdf-schema#label has input
+N9dfa97d879d943f2840184c79c338100 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/Occurrence
+N2034d2eefaa1490c990788afdd44013c http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/isTriggeredBy
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/OccurrenceBasedDate http://www.w3.org/2004/02/skos/core#definition calculated date that is defined with respect to the occurrence of some occurrence kind
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/isTriggeredBy http://www.w3.org/2000/01/rdf-schema#label is triggered by
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/DatesAndTimes/
+N6eee6819f8e941e9827fdb9e95987a07 http://www.w3.org/1999/02/22-rdf-syntax-ns#first N57ac261532e8446dbc0da436a4e87b4f
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+N1f04d08320894b3ca7c46310322cb61b http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Classifiers/classifies
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/Occurrence http://www.w3.org/2000/01/rdf-schema#label occurrence
+Nfb8144cebab44e3f9f8053591daa3f38 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/OccurrenceKind
+Nfb8144cebab44e3f9f8053591daa3f38 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/OccurrenceKind https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote As types (or categories) of events, OccurenceKinds do not happen; OccurenceKinds describe Occurrences which happen and exemplify an OccurenceKind. As occurrences are things that actually happen, they have an actual date where as OccurenceKinds do not have an actual date.
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/OccurrenceBasedDate http://www.w3.org/2000/01/rdf-schema#label occurrence-based date
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/isTriggeredBy https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote An OccurrenceBasedDate is triggered by an Occurrence that exemplifies the OccurrenceKind.
+N57ac261532e8446dbc0da436a4e87b4f http://www.w3.org/2002/07/owl#onDataRange https://www.omg.org/spec/Commons/DatesAndTimes/CombinedDateTime
+Na4f545c13ed0432f9f0e56ab3cc557cd http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasOutput http://www.w3.org/2000/01/rdf-schema#label has output
+Nade669170b2f45598fcd64563b67912f http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/DatesAndTimes/Date
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/Calculation http://www.w3.org/2000/01/rdf-schema#subClassOf N8781b0cef1904e3eacf7363a2ce0c726
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/QuantitiesAndUnits/
+N80fe4ae2094c406eb8d21148037dbcdb http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/isExemplifiedBy http://www.w3.org/2002/07/owl#deprecated true
+Nade669170b2f45598fcd64563b67912f http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/OccurrenceBasedDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/RelativeDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/CalculationEvent http://www.w3.org/2004/02/skos/core#note A calculation event may be prescriptive, that occurs within a specified period, or ad hoc.
+N703cec5b71d14434b29b52ffd2ff3595 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/exemplifies http://www.w3.org/2002/07/owl#equivalentProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/exemplifies
+Na2331a75a5c947acb66260ea07dbedfd http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/AdHocScheduleEntry http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/OccurrenceKind http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Classifiers/Classifier
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/RegularSchedule http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N956fabec0a414d45a3f6af0946e2670b http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/exemplifies
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/Occurrence https://www.omg.org/spec/Commons/AnnotationVocabulary/usageNote In order for other ontologies to accept FinancialDates without committing to the particular notions of 'Occurrence' and 'OccurrenceKind' that is modeled here, all aspects of Occurrences are captured in this ontology.
+Nc303b541825c45e187887e4597fe421f http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasExpression
+N956fabec0a414d45a3f6af0946e2670b http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/ http://www.w3.org/2000/01/rdf-schema#label Occurrences Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Collections/
+Ne5d110f1647c44a7894d4df1d3b89b44 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/Occurrence
+Na2331a75a5c947acb66260ea07dbedfd http://www.w3.org/2002/07/owl#unionOf N77372425f295443a9ed449b5a52cf2d7
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasOccurrence http://www.w3.org/2000/01/rdf-schema#label has occurrence
+Ne5d110f1647c44a7894d4df1d3b89b44 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasOccurrence
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasInput http://www.w3.org/2002/07/owl#inverseOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/isInputTo
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/CalculationEvent http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/OccurrenceKind
+Nf86a1963ee8749f18d73cd860a69143a http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/DatesAndTimes/DatePeriod
+Na4f545c13ed0432f9f0e56ab3cc557cd http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/isLocatedAt
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasInput http://www.w3.org/2004/02/skos/core#definition relates something (e.g. an occurrence) to something that is used as an input to some activity or process
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+N80fe4ae2094c406eb8d21148037dbcdb http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/OccurrenceKind
+N1f04d08320894b3ca7c46310322cb61b http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/Occurrence
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Release
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/SpecifiedDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N5564f073b32f4a1eb8c9bcd3718d67e0 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/OccurrenceKind
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20200701/DatesAndTimes/Occurrences/ version of this ontology was revised to eliminate the hasDescription property, which can easily supported using an annotation or isDescribedBy, depending on the situation, clarify the formal definition of occurrence kind, and correct circular and/or non-ISO 704 compliant definitions.
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/Occurrence http://www.w3.org/2004/02/skos/core#definition happening of an OccurrenceKind, i.e., an event
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/exemplifies http://www.w3.org/2002/07/owl#deprecated true
+N9dfa97d879d943f2840184c79c338100 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nc303b541825c45e187887e4597fe421f http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20211201/DatesAndTimes/Occurrences/ version of this ontology was revised to address hygiene errors with respect to text formatting.
+Nf86a1963ee8749f18d73cd860a69143a http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/PartiesAndSituations/holdsDuring
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/RegularSchedule http://www.w3.org/2000/01/rdf-schema#subClassOf Nc394075924c544f1a882f9b52fe6b022
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/ScheduleStub http://www.w3.org/2000/01/rdf-schema#subClassOf Nfb8144cebab44e3f9f8053591daa3f38
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasEventDate http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasDate
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20220701/DatesAndTimes/Occurrences.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.
+Nf86a1963ee8749f18d73cd860a69143a http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/Calculation http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class

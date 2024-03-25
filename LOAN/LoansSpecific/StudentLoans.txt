@@ -1,0 +1,38 @@
+Nc9457284e1c64442a23d798c828d11a7 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/StudentLoans/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+N203b52fb09734693b47ced728621de7a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N203b52fb09734693b47ced728621de7a http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/LegallyCompetentNaturalPerson
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/StudentLoans/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/LOAN/20240101/LoansSpecific/StudentLoans/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/StudentLoans/PrivateStudentLoan http://www.w3.org/2000/01/rdf-schema#label private student loan
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/StudentLoans/StudentLoan http://www.w3.org/2000/01/rdf-schema#label student loan
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/StudentLoans/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2023-2024 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/StudentLoans/RegulatedStudentLoan http://www.w3.org/2000/01/rdf-schema#label regulated student loan
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/StudentLoans/RegulatedStudentLoan http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/StudentLoans/RegulatedStudentLoan https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote In the United States, certain student loans survive bankruptcy and are subject to additional tax regulations that do not apply to other kinds of loans.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/StudentLoans/PrivateStudentLoan http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/StudentLoans/RegulatedStudentLoan
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/StudentLoans/ http://purl.org/dc/terms/abstract A loan or series of loans made for the purposes of study at some institution of learning.
+		This ontology and much of the common supporting information on loan applications are based on extensive review and input from Sallie Mae in the US and there may be other variants of student loans that are not covered here. For example in principle a student loan may be framed as a credit facility in some arrangements and as a single loan with separate payment phases in others.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/StudentLoans/PrivateStudentLoan http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/StudentLoans/StudentLoan
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/StudentLoans/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/LOAN/20230901/LoansSpecific/StudentLoans.rdf version of the ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/StudentLoans/RegulatedStudentLoan http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/StudentLoans/StudentLoan
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/StudentLoans/RegulatedStudentLoan http://www.w3.org/2004/02/skos/core#definition student loan (1) whose lender is a government agency or instrumentality, and/or (2) that is treated uniquely due to tax regulations
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/StudentLoans/StudentLoan http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/StudentLoans/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Release
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/StudentLoans/ http://www.w3.org/2000/01/rdf-schema#label Student Loans Ontology
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/StudentLoans/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/StudentLoans/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/Loans/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/StudentLoans/StudentLoan https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Student loans may include loans for graduate and professional education. Student loans may be obtained from government institutions, from private sources such as a bank or financial institution, or from other organizations.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/StudentLoans/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/StudentLoans/PrivateStudentLoan http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/StudentLoans/PrivateStudentLoan http://www.w3.org/2004/02/skos/core#definition student loan that is not considered a government-backed / regulated loan
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/StudentLoans/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2015-2024 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/StudentLoans/ http://purl.org/dc/terms/license http://opensource.org/licenses/MIT
+Nc9457284e1c64442a23d798c828d11a7 http://www.w3.org/2002/07/owl#someValuesFrom N203b52fb09734693b47ced728621de7a
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/StudentLoans/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/RolesAndCompositions/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/StudentLoans/StudentLoan http://www.w3.org/2000/01/rdf-schema#subClassOf Nc9457284e1c64442a23d798c828d11a7
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/StudentLoans/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/StudentLoans/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/StudentLoans/StudentLoan http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/Loans/Loan
+Nc9457284e1c64442a23d798c828d11a7 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasBorrower
+N203b52fb09734693b47ced728621de7a http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/StudentLoans/StudentLoan http://www.w3.org/2004/02/skos/core#definition loan provided for the purposes of education, allowing students and parents/guardians to borrow money for college

@@ -1,0 +1,391 @@
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/DeliveryPointCode http://www.w3.org/2000/01/rdf-schema#subClassOf N51b788de902d4a41b813b89b20246e76
+N04249be5ece94986aaac77b763e7ab85 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Apartment http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ZIPPlus4Code https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The correct format for a numeric ZIP+4 code is five digits, a hyphen, and four digits. The first five digits represent the 5-digit ZIP Code; the sixth and seventh digits (the first two after the hyphen) identify an area known as a sector; the eighth and ninth digits identify a smaller area known as a segment. Together, the final four digits identify geographic units such as a side of a street between intersections, both sides of a street between intersections, a building, a floor or group of floors in a building, a firm within a building, a span of boxes on a rural route, or a group of Post Office boxes to which a single USPS employee makes delivery.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/OverseasMilitaryAddress http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ConventionalStreetAddress
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Northeast https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasTag NE
+Nca75486c9a1547a1abe6d29ebbdc97b3 http://www.w3.org/2002/07/owl#hasValue https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Unit
+Nd76eadfef1494086bf5d2bc7f426508a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Hangar https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/preferredDesignation HNGR
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/RuralRouteDesignator https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/preferredDesignation RR
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/DepartmentOfStateUnitComponent http://www.w3.org/2004/02/skos/core#definition component of a Department of State address that includes 'UNIT' followed by the unit identifier
+N9c58df010fdf4320a9fc3a4a79b92b2d http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/HighwayContractRoute
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/RuralRoute http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/RuralRouteAddress http://www.w3.org/2000/01/rdf-schema#label rural route address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Basement https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/preferredDesignation BSMT
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/CompleteAddress http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Key http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20230101/Places/NorthAmerica/USPostalServiceAddresses.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC) and to eliminate redundancies in FIBO as appropriate.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/hasUrbanization http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Northeast http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+N6242f66a6ebd44fdbd29539d2e156b8f http://www.w3.org/1999/02/22-rdf-syntax-ns#rest Nd5bfecf1a57d46569e7f9900491731e3
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+N9c58df010fdf4320a9fc3a4a79b92b2d http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+N288d1caeb017479d91b6271be1cc27cc http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+Ne02d445949474eaca39449122217cb99 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/DeliveryPointCode
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Urbanization http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Southwest http://www.w3.org/2004/02/skos/core#definition geographic directional symbol for Southwest
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/MailboxDesignator http://www.w3.org/2000/01/rdf-schema#label mailbox designator
+N6242f66a6ebd44fdbd29539d2e156b8f http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ZIPCode
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Southeast http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ http://www.w3.org/2000/01/rdf-schema#seeAlso https://pe.usps.com/cpim/ftp/pubs/Pub28/pub28.pdf
+N22672410eb184f1b8435cbb92e521455 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+Nc9f016a73dd3461fbd695fa44e47f0c7 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Mailbox
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Pier http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/OverseasMilitaryAddress http://www.w3.org/2000/01/rdf-schema#label overseas military address
+N0c00646ded2e4b6fbf71056f7f72fab2 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/RuralRouteAddress http://www.w3.org/2000/01/rdf-schema#subClassOf N3ae35591815e4a54a8b7d331a75fc8dc
+Nc68bf3cf951544afb10d81e46c4fc906 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+Nc9f016a73dd3461fbd695fa44e47f0c7 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Northwest https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasTag NO
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/HighwayContractRouteDesignator https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/preferredDesignation HC
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/GeographicDirectionalSymbol http://www.w3.org/2002/07/owl#equivalentClass Nf75f0a1879d54f02ab93d9cd3dedefde
+N86d6ddad2cdf4319869540488a8e125f http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/North
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/East http://www.w3.org/2000/01/rdf-schema#label Este
+N34b8385958c24e238ff9eb9b4b7b2a26 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Northeast http://www.w3.org/2000/01/rdf-schema#label Northeast
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/OverseasMilitaryAddress http://www.w3.org/2004/02/skos/core#definition delivery address whose delivery address line uses an abbreviation for the unit or command such as 'CMR', 'PSC', or 'UNIT', or 'HC', followed by the unit identifier, followed by 'BOX' followed by box number, in place of a street address, either 'APO' or 'FPO' as the literal value for the city and the appropriate armed forces subdivision code in place of a subdivision (state) code
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/hasUrbanization http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N9ff91bbb05c74205b2fd07bbd39af39a http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/hasMember
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/CompleteAddress http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/StandardizedAddress
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Upper http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/DeliveryPointCodeSet http://www.w3.org/2000/01/rdf-schema#subClassOf Ne02d445949474eaca39449122217cb99
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/DeliveryAddressCodeSet http://www.w3.org/2004/02/skos/core#definition system of numeric codes that substitute for specified delivery point details according to the U.S. Postal Service Publication 28
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Side http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+N973ce2ad6f35431083502ed903b0951a http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/East http://www.w3.org/2004/02/skos/core#definition geographic directional symbol for East
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/South http://www.w3.org/2000/01/rdf-schema#label South
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/DeliveryAddressCodeSet http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/CodesAndCodeSets/CodeSet
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/InternationalAddress http://www.w3.org/2004/02/skos/core#definition physical address that explicitly includes a country
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Southwest https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasTag SO
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Urbanization http://www.w3.org/2000/01/rdf-schema#label urbanization
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/HighwayContractRoute http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/DeliveryPointCodeSet http://www.w3.org/2000/01/rdf-schema#label delivery point code set
+Ndf202df309254cfd84daa534220adcd4 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N04408288ea7346b8b9c53e6776f82780
+N04249be5ece94986aaac77b763e7ab85 http://www.w3.org/2002/07/owl#hasValue DPO
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/DepartmentOfStateUnitComponent http://www.w3.org/2000/01/rdf-schema#label Department of State unit component
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/DepartmentOfStateAddress http://www.w3.org/2000/01/rdf-schema#subClassOf N04249be5ece94986aaac77b763e7ab85
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/PrivateMailBoxAddress http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Trailer https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/preferredDesignation TRLR
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Southwest http://www.w3.org/2000/01/rdf-schema#label Southwest
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/West https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasTag O
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Rear http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Trailer http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/HighwayContractRouteAddress http://www.w3.org/2000/01/rdf-schema#label highway contract address
+Nc68bf3cf951544afb10d81e46c4fc906 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ZIPPlus4Code
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/StandardizedAddress http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddress
+N9ff91bbb05c74205b2fd07bbd39af39a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/USPostalServiceAddressIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf N288d1caeb017479d91b6271be1cc27cc
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/North http://www.w3.org/2000/01/rdf-schema#label Norte
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Release
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Lot http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+N288d1caeb017479d91b6271be1cc27cc http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/DeliveryPointCode
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/West https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasTag W
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/South http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/GeographicDirectionalSymbol
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Department http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/GeographicDirectionalSymbol http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Side https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/preferredDesignation SIDE
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/InternationalAddress http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddress
+Nc5b57a661fab4e32b2bccbb0608b91c9 http://www.w3.org/1999/02/22-rdf-syntax-ns#first APO
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/RuralRouteAddress http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ConventionalStreetAddress
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Lower https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/preferredDesignation LOWR
+Nf75f0a1879d54f02ab93d9cd3dedefde http://www.w3.org/2002/07/owl#oneOf N8bcd760089e24589b87565241b0616ca
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/PrivateMailBoxAddress http://www.w3.org/2004/02/skos/core#definition delivery address provided by a commercial mail receiving company that includes a supplementary address line containing the abbreviation 'PMB' or the pound "#" symbol followed by the mailbox number; alternatively, 'PMB' or '#" and the mailbox number can be appended to the street address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Stop http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/East http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/West http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+Nd76eadfef1494086bf5d2bc7f426508a http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Suite https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/preferredDesignation STE
+N682b1ec60c194241a6bb0f5d506ed131 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/DepartmentOfStateUnitComponent http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SupplementalAddressComponent
+N3ae35591815e4a54a8b7d331a75fc8dc http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Unit https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/preferredDesignation UNIT
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Lobby http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ZIPCode http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/West http://www.w3.org/2000/01/rdf-schema#label West
+Nc5b57a661fab4e32b2bccbb0608b91c9 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N682b1ec60c194241a6bb0f5d506ed131
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Northeast http://www.w3.org/2000/01/rdf-schema#label Noreste
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/HighwayContractRouteAddress http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ConventionalStreetAddress
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/HighwayContractRoute http://www.w3.org/2000/01/rdf-schema#subClassOf N2b715f7e69bf4f4286f8c9d6914a1d51
+N973ce2ad6f35431083502ed903b0951a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/DeliveryPointCode http://www.w3.org/2000/01/rdf-schema#seeAlso https://pe.usps.com/cpim/ftp/pubs/Pub28/pub28.pdf
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+N4f3423182cac4e32966e6ff78fb15910 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Southeast
+N22672410eb184f1b8435cbb92e521455 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/StandardizedAddress http://www.w3.org/2000/01/rdf-schema#label standardized address
+N34b8385958c24e238ff9eb9b4b7b2a26 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+Ne02d445949474eaca39449122217cb99 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/hasMember
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/HighwayContractRouteAddress http://www.w3.org/2000/01/rdf-schema#subClassOf N9c58df010fdf4320a9fc3a4a79b92b2d
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/MailboxDesignator https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/preferredDesignation BOX
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Unit http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/DepartmentOfStateAddress http://www.w3.org/2000/01/rdf-schema#subClassOf N22672410eb184f1b8435cbb92e521455
+N8d183e586eaa4ce791d156b9a5b1e9a4 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2000/01/rdf-schema#Datatype
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/USPostOfficeBoxDesignator http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostOfficeBoxDesignator
+N6a83f5140f844fc696da312ddcc6c2e7 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/isMemberOf
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/OverseasMilitaryAddress http://www.w3.org/2000/01/rdf-schema#subClassOf N820d5b8a44a440d8bb545ffcfbb76b7c
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/North http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Building https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/preferredDesignation BLDG
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ZipCodeScheme http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Identifiers/IdentificationScheme
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/PuertoRicoAddress http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Urbanization http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/LCC/Countries/CountryRepresentation/CountrySubdivision
+N5d160d7e9ad044558b629e2ccef1ea9a http://www.w3.org/2002/07/owl#hasValue https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/MailboxDesignator
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/GeneralDeliveryAddress http://www.w3.org/2000/01/rdf-schema#label general delivery address
+N820d5b8a44a440d8bb545ffcfbb76b7c http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/hasCityName
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/RuralRouteDesignator http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SupplementalAddressDesignator
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Northwest http://www.w3.org/2000/01/rdf-schema#label Noroeste
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Southwest http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/North http://www.w3.org/2004/02/skos/core#definition geographic directional symbol for North
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/DeliveryPointCodeSet http://www.w3.org/2000/01/rdf-schema#seeAlso https://pe.usps.com/cpim/ftp/pubs/Pub28/pub28.pdf
+Ne02d445949474eaca39449122217cb99 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Building http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Office https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/preferredDesignation OFC
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/DepartmentOfStateUnitComponent http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/StandardizedAddress http://www.w3.org/2004/02/skos/core#definition delivery address that is fully spelled out, abbreviated by using the Postal Service standard abbreviations or as given in the current Postal Service ZIP+4 file
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/CompleteAddress http://www.w3.org/2000/01/rdf-schema#label complete address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Floor http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+N973ce2ad6f35431083502ed903b0951a http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Urbanization
+N22d1640c98f7422e8bde949b6671b597 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest Nde0d0f7d8bdb49178ece7bdeead3b8e9
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/DeliveryPointCode http://www.w3.org/2004/02/skos/core#definition specific set of digits between 00 and 99 assigned to a delivery point
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/InternationalAddress http://www.w3.org/2002/07/owl#equivalentClass Nfaaaa91cdbba41d28db663499a6c3d55
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Urbanization https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote This URB descriptor, commonly used in urban areas of Puerto Rico, is an important part of the addressing format, as it describes the location of a given street.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/DepartmentOfStateAddress http://www.w3.org/2000/01/rdf-schema#subClassOf Na2d58c419942498e9cb07d5a96a8e430
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Front https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/preferredDesignation FRNT
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/OverseasMilitaryAddress http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddress
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/DepartmentOfStateAddress http://www.w3.org/2004/02/skos/core#definition delivery address whose delivery address line uses 'UNIT' followed by the unit identifier, followed by 'BOX' followed by box number, in place of a street address, 'DPO' as the literal value for the city, and the appropriate armed forces subdivision code in place of a subdivision (state) code
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/RuralRouteAddress http://www.w3.org/2000/01/rdf-schema#subClassOf N34b8385958c24e238ff9eb9b4b7b2a26
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/StandardizedAddress http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N288d1caeb017479d91b6271be1cc27cc http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N282f93bfd39f4c6b9208c0b9ba8c4cd1 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N4f3423182cac4e32966e6ff78fb15910 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N22d1640c98f7422e8bde949b6671b597
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/DeliveryAddressCodeSet http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nd76eadfef1494086bf5d2bc7f426508a http://www.w3.org/2002/07/owl#hasValue https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/RuralRouteDesignator
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Penthouse https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/preferredDesignation PH
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Slip http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/PuertoRicoAddress http://www.w3.org/2000/01/rdf-schema#subClassOf N973ce2ad6f35431083502ed903b0951a
+N8b120433418c4d169c08aef001d734d4 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAddressLine1
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ZIPCode http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Postcode
+N22d1640c98f7422e8bde949b6671b597 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Southwest
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/RuralRouteDesignator http://www.w3.org/2000/01/rdf-schema#label rural route designator
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/InternationalAddress http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nc68bf3cf951544afb10d81e46c4fc906 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Apartment http://www.w3.org/2000/01/rdf-schema#label apartmento
+Nc9f016a73dd3461fbd695fa44e47f0c7 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Northeast http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/GeographicDirectionalSymbol
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ZIPPlus4Code http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/South http://www.w3.org/2004/02/skos/core#definition geographic directional symbol for South
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/West http://www.w3.org/2004/02/skos/core#definition geographic directional symbol for West
+N34b8385958c24e238ff9eb9b4b7b2a26 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ZipCodeScheme http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N9ff91bbb05c74205b2fd07bbd39af39a http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/USPostalServiceAddressIdentifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ZipCodeScheme http://www.w3.org/2000/01/rdf-schema#seeAlso https://pe.usps.com/cpim/ftp/pubs/Pub28/pub28.pdf
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ http://purl.org/dc/terms/abstract This ontology augments the Addresses ontology in FND with concepts that conform to the USPS Pub 28. The USPS provides automated address verification services that use the concepts defined herein for that purpose, and which many financial services entities use for data quality purposes.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/PuertoRicoAddress http://www.w3.org/2000/01/rdf-schema#label Puerto Rico address
+N3ae35591815e4a54a8b7d331a75fc8dc http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ZIPPlus4Code http://www.w3.org/2000/01/rdf-schema#label ZIP+4 Code
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Mailbox http://www.w3.org/2004/02/skos/core#definition mailbox, other than a U.S. Post Office box, associated with an address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2019-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/OverseasMilitaryAddress http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/East http://www.w3.org/2000/01/rdf-schema#label East
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/GeneralDeliveryAddress http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/InternationalAddress http://www.w3.org/2000/01/rdf-schema#label international address
+Na2d58c419942498e9cb07d5a96a8e430 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Southeast http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/GeographicDirectionalSymbol
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/West http://www.w3.org/2000/01/rdf-schema#label Oeste
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20200701/Places/NorthAmerica/USPostalServiceAddresses.rdf version of this ontology was revised to address hygiene issues with respect to text formatting.
+N6a83f5140f844fc696da312ddcc6c2e7 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/DeliveryPointCodeSet
+N5d160d7e9ad044558b629e2ccef1ea9a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ZipCodeScheme http://www.w3.org/2000/01/rdf-schema#subClassOf N3c87fa4acbdb447a8280043513048c96
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/hasUrbanization http://www.w3.org/2004/02/skos/core#definition indicates area, sector, or development within a geographic area relevant to a delivery address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/CodesAndCodeSets/
+N51b788de902d4a41b813b89b20246e76 http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#string
+N973ce2ad6f35431083502ed903b0951a http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N8bcd760089e24589b87565241b0616ca http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/East
+N22672410eb184f1b8435cbb92e521455 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ http://www.w3.org/2000/01/rdf-schema#label U.S. Postal Service Addresses Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/OverseasMilitaryAddress http://www.w3.org/2000/01/rdf-schema#subClassOf N8b120433418c4d169c08aef001d734d4
+Nc68bf3cf951544afb10d81e46c4fc906 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/MailboxDesignator http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SupplementalAddressDesignator
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/PrivateMailBoxAddress http://www.w3.org/2000/01/rdf-schema#label private mail box address
+N51b788de902d4a41b813b89b20246e76 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasTag
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/HighwayContractRoute http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SupplementalAddressComponent
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20200301/Places/NorthAmerica/USPostalServiceAddresses.rdf version of this ontology was revised to replace uses of hasTag in Relations with hasTag from LCC, as the more complex union of datatypes in the Relations concept is not needed here, and correct a duplicate label.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Penthouse http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+N0c00646ded2e4b6fbf71056f7f72fab2 http://www.w3.org/2002/07/owl#unionOf N6242f66a6ebd44fdbd29539d2e156b8f
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/DeliveryAddressCodeSet http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Identifiers/IdentificationScheme
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/USPostalServiceAddressIdentifier http://www.w3.org/2004/02/skos/core#definition combined with the ZIP + 4 code, the delivery point code provides a unique identifier for every deliverable address served by the USPS
+Nde0d0f7d8bdb49178ece7bdeead3b8e9 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/South https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasTag S
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/RuralRoute http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SupplementalAddressComponent
+Nde0d0f7d8bdb49178ece7bdeead3b8e9 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/West
+Nfaaaa91cdbba41d28db663499a6c3d55 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+N3c87fa4acbdb447a8280043513048c96 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/hasMember
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Southeast http://www.w3.org/2000/01/rdf-schema#label Sureste
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/USPostalServiceAddressIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf Nc68bf3cf951544afb10d81e46c4fc906
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Stop https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/preferredDesignation STOP
+N6a83f5140f844fc696da312ddcc6c2e7 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/DepartmentOfStateAddress http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N51b788de902d4a41b813b89b20246e76 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nfaaaa91cdbba41d28db663499a6c3d55 http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Country
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/South http://www.w3.org/2000/01/rdf-schema#label Sur
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/hasUrbanization http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Urbanization
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/North https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasTag N
+N8d183e586eaa4ce791d156b9a5b1e9a4 http://www.w3.org/2002/07/owl#oneOf Nc5b57a661fab4e32b2bccbb0608b91c9
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/RuralRouteAddress http://www.w3.org/2004/02/skos/core#definition delivery address whose delivery address line uses the abbreviation 'RR', followed by the route identifier, followed by 'BOX' followed by box number, in place of a street address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Rear https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/preferredDesignation REAR
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Southwest https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasTag SW
+N04408288ea7346b8b9c53e6776f82780 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N94df95f572ff4e07a8eb4fe5dec34b65
+N94df95f572ff4e07a8eb4fe5dec34b65 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N4f3423182cac4e32966e6ff78fb15910
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Office http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Northwest http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Southeast https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasTag SE
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/PuertoRicoAddress http://www.w3.org/2004/02/skos/core#definition delivery address for a delivery point in Puerto Rico that may include a supplementary address line containing the abbreviation 'URB' followed by the name of the urbanization area that is appropriate for that address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+N820d5b8a44a440d8bb545ffcfbb76b7c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Suite http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/DeliveryPointCodeSet http://www.w3.org/2004/02/skos/core#definition system of numeric codes that substitute for specified delivery point details according to the U.S. Postal Service Publication 28
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/RuralRouteAddress http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddress
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/DeliveryPointCodeSet http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/CodesAndCodeSets/CodeSet
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Pier https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/preferredDesignation PIER
+N8b120433418c4d169c08aef001d734d4 http://www.w3.org/2002/07/owl#someValuesFrom http://www.w3.org/2000/01/rdf-schema#Literal
+N9c58df010fdf4320a9fc3a4a79b92b2d http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/DepartmentOfStateAddress http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ConventionalStreetAddress
+N288d1caeb017479d91b6271be1cc27cc http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+N04408288ea7346b8b9c53e6776f82780 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Northwest
+Nf75f0a1879d54f02ab93d9cd3dedefde http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Department https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/preferredDesignation DEPT
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/GeneralDeliveryAddress http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddress
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/East http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/GeographicDirectionalSymbol
+Na2d58c419942498e9cb07d5a96a8e430 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/West http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/GeographicDirectionalSymbol
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/HighwayContractRouteDesignator http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SupplementalAddressDesignator
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Lot https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/preferredDesignation LOT
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Identifiers/
+Nc9f016a73dd3461fbd695fa44e47f0c7 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Collections/
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/HighwayContractRouteAddress http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddress
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/RuralRouteDesignator http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+N94df95f572ff4e07a8eb4fe5dec34b65 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/South
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/MailboxDesignator http://www.w3.org/2004/02/skos/core#definition designator for a mail box other than a U.S. Post Office box
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/USPostOfficeBoxDesignator http://www.w3.org/2004/02/skos/core#definition designator for a U.S. Post Office box
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Room https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/preferredDesignation RM
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ZIPCode http://www.w3.org/2000/01/rdf-schema#label Zip Code
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/RuralRoute http://www.w3.org/2000/01/rdf-schema#subClassOf Nd76eadfef1494086bf5d2bc7f426508a
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Mailbox http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SupplementalAddressComponent
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/RuralRoute http://www.w3.org/2004/02/skos/core#definition mail route outside the city or township limits in a rural area associated with an address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Lower http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Department http://www.w3.org/2000/01/rdf-schema#label departamento
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Mailbox http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/PrivateMailBoxAddress http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ConventionalStreetAddress
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ZipCodeScheme http://www.w3.org/2004/02/skos/core#definition system used in the U.S. to facilitate the delivery of mail, consisting of a five- or nine-digit code Zone Improvement Plan (ZIP) printed directly after the address, the first five digits (initial code) indicating the state and post office or postal zone, the last four (expanded code) the box section or number, portion of a rural route, building, or other specific delivery location
+N5d160d7e9ad044558b629e2ccef1ea9a http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/DeliveryAddressCodeSet http://www.w3.org/2000/01/rdf-schema#subClassOf N9ff91bbb05c74205b2fd07bbd39af39a
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/USPostalServiceAddressIdentifier http://www.w3.org/2000/01/rdf-schema#label U.S. Postal Service address identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/CompleteAddress http://www.w3.org/2004/02/skos/core#definition delivery address that has all the address elements necessary to allow an exact match with the current Postal Service ZIP+4 and City State files to obtain the finest level of ZIP+4 and delivery point codes for the delivery address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/USPostOfficeBoxDesignator https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/preferredDesignation PO BOX
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/RuralRouteDesignator http://www.w3.org/2004/02/skos/core#definition designator for a mail route outside the city or township limits in a rural area
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Southeast http://www.w3.org/2004/02/skos/core#definition geographic directional symbol for Southeast
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/FND/20230301/Places/NorthAmerica/USPostalServiceAddresses/
+N3c87fa4acbdb447a8280043513048c96 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/GeneralDeliveryAddress https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The value of the +4 component of a ZIP+4 code should be '9999'.
+Nd5bfecf1a57d46569e7f9900491731e3 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/USPostalServiceAddressIdentifier https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The delivery point digits are almost never printed on mail in human-readable form; instead they are encoded in the POSTNET delivery point barcode (DPBC) or as part of the newer Intelligent Mail Barcode (IMB).
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Front http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+N34b8385958c24e238ff9eb9b4b7b2a26 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Mailbox
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/North http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/GeographicDirectionalSymbol
+N51b788de902d4a41b813b89b20246e76 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/North http://www.w3.org/2000/01/rdf-schema#label North
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/DeliveryPointCode https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote When combined with the ZIP + 4 code, the delivery point code provides a unique identifier for every deliverable address served by the USPS. The delivery point digits are almost never printed on mail in human-readable form; instead they are encoded in the POSTNET delivery point barcode (DPBC) or as part of the newer Intelligent Mail Barcode (IMB).
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/DeliveryPointCode http://www.w3.org/2000/01/rdf-schema#label delivery point code
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Southwest http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/GeographicDirectionalSymbol
+N8b120433418c4d169c08aef001d734d4 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N3ae35591815e4a54a8b7d331a75fc8dc http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/RuralRoute
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/HighwayContractRouteDesignator http://www.w3.org/2000/01/rdf-schema#label highway contract route designator
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Mailbox http://www.w3.org/2000/01/rdf-schema#subClassOf N5d160d7e9ad044558b629e2ccef1ea9a
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ZIPCode http://www.w3.org/2004/02/skos/core#definition five-digit code code assigned to a delivery address indicating the state and post office or postal zone
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Northwest http://www.w3.org/2004/02/skos/core#definition geographic directional symbol for Northwest
+N682b1ec60c194241a6bb0f5d506ed131 http://www.w3.org/1999/02/22-rdf-syntax-ns#first FPO
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Southwest http://www.w3.org/2000/01/rdf-schema#label Suroeste
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/USPostOfficeBoxDesignator http://www.w3.org/2000/01/rdf-schema#label post office box designator
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/GeneralDeliveryAddress http://www.w3.org/2000/01/rdf-schema#subClassOf N282f93bfd39f4c6b9208c0b9ba8c4cd1
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/DeliveryPointCode http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/South http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/DepartmentOfStateAddress http://www.w3.org/2000/01/rdf-schema#label Department of State address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Southeast http://www.w3.org/2000/01/rdf-schema#label Southeast
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/CompleteAddress https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote A complete address may be required on mail at some automation rates.
+N282f93bfd39f4c6b9208c0b9ba8c4cd1 http://www.w3.org/2002/07/owl#hasValue GENERAL DELIVERY
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Slip https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/preferredDesignation SLP
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ZIPPlus4Code http://www.w3.org/2004/02/skos/core#definition nine-digit number consisting of five digits, a hyphen, and four digits, which the USPS describes by its trademark ZIP+4
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/MailboxDesignator http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Space https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/preferredDesignation SPC
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Northeast http://www.w3.org/2004/02/skos/core#definition geographic directional symbol for Northeast
+N3c87fa4acbdb447a8280043513048c96 http://www.w3.org/2002/07/owl#someValuesFrom N0c00646ded2e4b6fbf71056f7f72fab2
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2019-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Urbanization http://www.w3.org/2004/02/skos/core#definition an area, sector, or development within a larger geographic area
+N8bcd760089e24589b87565241b0616ca http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N86d6ddad2cdf4319869540488a8e125f
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Basement http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/PuertoRicoAddress http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ConventionalStreetAddress
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/USPostalServiceAddressIdentifier http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nca75486c9a1547a1abe6d29ebbdc97b3 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Hangar http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/HighwayContractRouteAddress http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Apartment https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/preferredDesignation APT
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/HighwayContractRoute http://www.w3.org/2000/01/rdf-schema#label highway contract route
+N86d6ddad2cdf4319869540488a8e125f http://www.w3.org/1999/02/22-rdf-syntax-ns#rest Ndf202df309254cfd84daa534220adcd4
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ http://purl.org/dc/terms/contributor Thematix Partners LLC
+N2b715f7e69bf4f4286f8c9d6914a1d51 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N04249be5ece94986aaac77b763e7ab85 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/hasCityName
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/GeneralDeliveryAddress http://www.w3.org/2004/02/skos/core#definition delivery address that uses the words 'GENERAL DELIVERY', uppercase preferred, spelled out (no abbreviation), in place of a street address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Key https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/preferredDesignation KEY
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Floor https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/preferredDesignation FL
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/HighwayContractRouteAddress http://www.w3.org/2004/02/skos/core#definition delivery address whose delivery address line uses the abbreviation 'HC', followed by the route identifier, followed by 'BOX' followed by box number, in place of a street address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Lobby https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/preferredDesignation LBBY
+N22672410eb184f1b8435cbb92e521455 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/DepartmentOfStateUnitComponent
+N9c58df010fdf4320a9fc3a4a79b92b2d http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/HighwayContractRoute http://www.w3.org/2004/02/skos/core#definition highway contract route associated with an address
+Nfaaaa91cdbba41d28db663499a6c3d55 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ http://www.w3.org/2000/01/rdf-schema#seeAlso https://about.usps.com/who/profile/
+Nd5bfecf1a57d46569e7f9900491731e3 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ZIPPlus4Code
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/East https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasTag E
+N820d5b8a44a440d8bb545ffcfbb76b7c http://www.w3.org/2002/07/owl#someValuesFrom N8d183e586eaa4ce791d156b9a5b1e9a4
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/DeliveryPointCodeSet http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/DeliveryAddressCodeSet http://www.w3.org/2000/01/rdf-schema#seeAlso https://pe.usps.com/cpim/ftp/pubs/Pub28/pub28.pdf
+N6a83f5140f844fc696da312ddcc6c2e7 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/USPostOfficeBoxDesignator http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+Na2d58c419942498e9cb07d5a96a8e430 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Mailbox
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/GeneralDeliveryAddress http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ConventionalStreetAddress
+N3ae35591815e4a54a8b7d331a75fc8dc http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/USPostalServiceAddressIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddressIdentifier
+N2b715f7e69bf4f4286f8c9d6914a1d51 http://www.w3.org/2002/07/owl#hasValue https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/HighwayContractRouteDesignator
+Na2d58c419942498e9cb07d5a96a8e430 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+Ndf202df309254cfd84daa534220adcd4 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Northeast
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ZipCodeScheme http://www.w3.org/2000/01/rdf-schema#label zip code scheme
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Mailbox http://www.w3.org/2000/01/rdf-schema#label mailbox
+N282f93bfd39f4c6b9208c0b9ba8c4cd1 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAddressLine1
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Space http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/DeliveryAddressCodeSet http://www.w3.org/2000/01/rdf-schema#label delivery address code set
+Nfaaaa91cdbba41d28db663499a6c3d55 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/hasCountry
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/HighwayContractRouteDesignator http://www.w3.org/2004/02/skos/core#definition designator for a route served by an independent contractor rather than directly by the U.S. Postal Service
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/RuralRouteAddress http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20220701/Places/NorthAmerica/USPostalServiceAddresses.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/DepartmentOfStateUnitComponent http://www.w3.org/2000/01/rdf-schema#subClassOf Nca75486c9a1547a1abe6d29ebbdc97b3
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/DeliveryPointCode http://www.w3.org/2000/01/rdf-schema#subClassOf N6a83f5140f844fc696da312ddcc6c2e7
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Upper https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/preferredDesignation UPPR
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/RuralRoute http://www.w3.org/2000/01/rdf-schema#label highway contract route address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ZipCodeScheme http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/CodesAndCodeSets/CodeSet
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/HighwayContractRouteDesignator http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/DeliveryPointCode http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/CodesAndCodeSets/CodeElement
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/hasUrbanization http://www.w3.org/2000/01/rdf-schema#label has urbanization
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/HighwayContractRouteAddress http://www.w3.org/2000/01/rdf-schema#subClassOf Nc9f016a73dd3461fbd695fa44e47f0c7
+N2b715f7e69bf4f4286f8c9d6914a1d51 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/ZIPPlus4Code http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Postcode
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Northwest http://www.w3.org/2000/01/rdf-schema#label Northwest
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Northwest https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasTag NW
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/Northwest http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/GeographicDirectionalSymbol
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Room http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+Nca75486c9a1547a1abe6d29ebbdc97b3 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/DepartmentOfStateAddress http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddress

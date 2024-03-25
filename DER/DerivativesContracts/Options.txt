@@ -1,0 +1,584 @@
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasStrikeRate http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasQuantityValue
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/RiskReversal https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote A risk reversal is a position which simulates profit and loss behavior of owning an underlying security; therefore, it is sometimes called a synthetic long. This is an investment strategy that amounts to both buying and selling out-of-money options simultaneously. In this strategy, the investor will first make a market hunch; if that hunch is bullish, he will want to go long. However, instead of going long on the stock, he will buy an out of the money call option, and simultaneously sell an out of the money put option. Presumably he will use the money from the sale of the put option to purchase the call option. Then as the stock goes up in price, the call option will be worth more, and the put option will be worth less.
+N1d1ffab642b9438580741b29729d856d http://www.w3.org/2002/07/owl#qualifiedCardinality 4
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasStrikeRate http://www.w3.org/2004/02/skos/core#definition rate at which the contract may be exercised
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionTradingStrategy http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/LongTermEquityAnticipationSecurity https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote By providing opportunities to control and manage risk or even to speculate, LEAPS are virtually identical to regular options. Expiration dates on LEAPs can range from nine months to three years, which is longer than the holding period for a traditional call or put option. Although they are not available on all stocks, LEAPS are available on most widely held issues.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Moneyness http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Classifiers/Classifier
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionTradingStrategy https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Option trading strategies refer to buying calls or put options or selling calls or put options or both together for the purpose of limiting losses and/or optimizing profits. Basically, these strategies utilize one or more combinations for the best outcome possible based on defined parameters. Simple combinations include option spread trades such as vertical spreads, calendar (or horizontal) spreads, and diagonal spreads. More involved combinations include trades such as condor or butterfly spreads which are actually combinations of two vertical spreads.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionIssuer http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N356b64f48f0a43d98ea68a87550162b7 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/InTheMoney https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote An in-the-money call option means the option holder has the opportunity to buy the security below its current market price. An in-the-money put option means the option holder can sell the security above its current market price.
+N953e6c7101ce4d74bf1813c1329b65f9 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/Markets/Exchange
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/InterestRateOption http://www.w3.org/2004/02/skos/core#definition option that giving the buyer (holder) the right, but not the obligation, to receive a cash payment if market interest rate of a reference rate is higher or lower, depending on the option, than the strike rate of the option
+N44062880b8624f0486feed2c4f04224d http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N274fe1b670854313822298764ca900d3 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/StrikePrice
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ExoticOption https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Exotic options include Asian options and lookback options, and are mostly traded in the over-the-counter market.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/StandardizedOptionsTerms https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasExerciseSchedule http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/Schedule
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Butterfly http://www.w3.org/2004/02/skos/core#definition strategy that combines bull and bear spreads with a fixed risk and capped profit
+Nd7324dff65b8415da9741d68247787e8 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+N1d1ffab642b9438580741b29729d856d http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Option
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/
+Nd165d22ed50743a6b96b39446f620c52 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/CappedOption http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/BasketOption https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote As with other options, a basket option gives the holder the right, but not the obligation, to buy or sell the basket at a specific price, on or before a certain date. This exotic option has all the characteristics of a standard option, but with the basis of the strike price on the weighted value of its components. Currency baskets are the most popular type of basket option, and they will settle in the holder's home currency. Because it involves just one transaction, a basket option often costs less than multiple single options as it saves on commissions and fees.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasExerciseStyle http://www.w3.org/2004/02/skos/core#definition indicates the exercise convention specified for the option
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/IronButterfly http://www.w3.org/2000/01/rdf-schema#label iron butterfly
+N0bc52e76c7d14de0828b8b1572e6f8dc http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nd8210faea4a24995a5fa5b7afb447e1b http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/PartiesAndSituations/isAPartyTo
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/BondOption http://www.w3.org/2000/01/rdf-schema#label bond option
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/DER/20211201/DerivativesContracts/Options.rdf version of this ontology was revised to make certain values subclasses of MonetaryAmount instead of MonetaryMeasure.
+Nc5f4852a337c4c60a72ab00bbd7e06f2 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Straddle https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The strategy is profitable only when the value of the underlier varies (rises or falls) from the strike price by more than the total premium paid.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/IronCondor http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/EquityOption https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/VanillaOption http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/DER/20230201/DerivativesContracts/Options.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OutOfTheMoney https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote An OTM call option will have a strike price that is higher than the market price of the underlying asset. Alternatively, an OTM put option has a strike price that is lower than the market price of the underlying asset.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/BasketOption http://www.w3.org/2000/01/rdf-schema#label basket option
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/StrikePrice http://www.w3.org/2004/02/skos/core#definition price at which a lot of the underlying asset may be bought or sold when the contract is exercised
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/
+N54ab7e76a4fe40ae8820c57035ac52e0 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Collar http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Fence https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The expiration dates of all the options are usually the same. The call strike is normally chosen in such a way that the sum total of the three option premiums is equal to zero. This investment strategy will ensure that the value of the investment at expiry will be between the strike price on the short call and the strike price on the long put. Thus, possible gains and losses (the value of the financial instrument minus the cost of acquiring it) are confined to a specified range. However, if the price of the financial instrument falls below the strike level of the sold put the investor will start participating in any further price declines of the financial instrument.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ProtectivePut http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://purl.org/dc/terms/abstract Concepts common to all option contracts. An option gives one party (the holder) the right to purchase or sell the underlying instrument at a given time or times in the future (as determined by the exercise convention), if they choose to do so.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionHolder https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote In a call, the option holder has the right, but not the obligation, to buy the underlying asset, while, in a put, the option holder has the right to sell the underlying asset. An option holder may sell the option contract itself, at which point the buyer becomes the option holder. Once the instrument is exercised there are typically additional, relevant obligations with regard to settlement.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasCalculatedMarketValue http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionPremium
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Fence http://www.w3.org/2000/01/rdf-schema#label fence
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/BasketOption http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ExoticOption
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OutOfTheMoney http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Collar http://www.w3.org/2000/01/rdf-schema#subClassOf N0183bd71a83f47609e942c86873cb95c
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/StripStrategy http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionTradingStrategy
+N433392b281664cc4a6209ee8c09d40aa http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/FixedIncomeOption http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2015-2024 Object Management Group, Inc.
+Ne656b3469e5842a8a5f39a2585b8c6fc http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/RiskReversal http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionPremiumFormula http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasInterestAccrualDateOffset http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasDuration
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2015-2024 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/FixedIncomeOption http://www.w3.org/2000/01/rdf-schema#label fixed income option
+N80dc3e780afd405ab7c80f7e65cdd000 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasExerciseStyle
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasOptionWriter http://www.w3.org/2004/02/skos/core#definition indicates the issuer of the option
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Strangle http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionTradingStrategy
+N8ccf1cca8bd14d8cab540f5ac0c5206b http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasCapPrice http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasPrice
+Nc5f4852a337c4c60a72ab00bbd7e06f2 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Moneyness http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasExercisePrice http://www.w3.org/2004/02/skos/core#definition specifies a predetermined price at which the holder commits to buy or sell an underlying asset
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Butterfly http://www.w3.org/2000/01/rdf-schema#subClassOf N274fe1b670854313822298764ca900d3
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/EquityOption http://www.w3.org/2004/02/skos/core#definition option giving the buyer (holder) the right, but not the obligation, to buy (via a call option) or sell (via a put option) the underlying equity assets specified at a pre-determined price (i.e., the strike price, fixed or calculated), on or before a specified date (the expiration date)
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/CappedOption http://www.w3.org/2000/01/rdf-schema#subClassOf N30ccdd8d49334beda862fc287cdb6e6b
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/EquityOption http://www.w3.org/2000/01/rdf-schema#subClassOf N80dc3e780afd405ab7c80f7e65cdd000
+N1e6ee030ea094dbeb250ed1f5a21d22e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ExtrinsicValue http://www.w3.org/2004/02/skos/core#definition measure of the difference between the market price of an option, called the premium, and its intrinsic value
+N356b64f48f0a43d98ea68a87550162b7 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasExerciseStyle http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Option
+N433392b281664cc4a6209ee8c09d40aa http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/ExerciseConventions/ExerciseConvention
+Ne656b3469e5842a8a5f39a2585b8c6fc http://www.w3.org/2002/07/owl#qualifiedCardinality 2
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/DER/20231201/DerivativesContracts/Options.rdf version of the ontology was modified to replace additional concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OutOfTheMoney https://www.omg.org/spec/Commons/AnnotationVocabulary/abbreviation OTM
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/InTheMoney http://www.w3.org/2004/02/skos/core#definition moneyness classifier that refers to an option that has value in a strike price that is favorable in comparison to the prevailing market price of the underlying asset
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/RolesAndCompositions/
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasStrikePercentageAmount http://www.w3.org/2004/02/skos/core#definition indicates a strike price or level expressed as a percentage of the value of the underlying asset
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/Markets/
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/InTheMoney http://www.w3.org/2000/01/rdf-schema#label in-the-money
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasStrikeRate http://www.w3.org/2000/01/rdf-schema#label has strike rate
+N9149caec6e384a8eb4c2a921413bc93b http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionHolder
+N6025c59393754519979f8056abf9830b http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/CallOption
+N1b42b9af79c246d884409bb7b96cca54 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/LongTermEquityAnticipationSecurity https://www.omg.org/spec/Commons/AnnotationVocabulary/abbreviation LEAP
+Nac0061160a294337917234acc2ef4178 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/InstrumentPricing/PriceDeterminationMethod
+N2e3e33c9d1314ee4a427fbf29467a498 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nf85a8ed612bb4587abeb62ccf4b28228 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/ContextualDesignators/appliesTo
+N07772b8a87d743e9a8ea5546531f1f99 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/VanillaOption http://www.w3.org/2004/02/skos/core#definition common option giving the buyer (holder) the right, but not the obligation, to buy (via a call option) or sell (via a put option) the underlying assets specified at a pre-determined price (i.e., the strike price, fixed or calculated), on or before a specified date (the expiration date)
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/DER/20210601/DerivativesContracts/Options.rdf version of this ontology was revised to add an expiration date as an important property of an option.
+N7bdd4ca1d15845c3b3b30e8bf6df9431 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/PutOption
+N30ccdd8d49334beda862fc287cdb6e6b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/IronButterfly https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym iron fly
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/LongTermEquityAnticipationSecurity http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/EquityOption
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionOnFuture http://www.w3.org/2000/01/rdf-schema#label option on future
+N54b60f4413d44ee684734405aedb017e http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasExpirationDate
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ProtectiveCollar http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Collar
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/CallOption https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The seller (issuer) of the call option assumes the obligation of delivering the assets specified should the buyer exercise the option.
+N54ab7e76a4fe40ae8820c57035ac52e0 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Straddle http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionTradingStrategy
+Nc1da029e72ff46ceaf79342ac1b796e0 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/FixedIncomeOption https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Fixed income options, or debt options, are derivatives contracts that use bonds or other fixed-income securities as their underlying asset.
+Nb25a131aad0042d29c7a3e1832599998 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/InterestRate
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Collections/
+Nb25a131aad0042d29c7a3e1832599998 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasStrikeRate
+Nd7324dff65b8415da9741d68247787e8 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/CoveredCall
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ProtectivePut https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote A protective put is a risk management and options strategy that involves holding a long position in the underlying asset (e.g., stock). A protective put strategy is analogous to the nature of insurance. The main goal of a protective put is to limit potential losses that may result from an unexpected price drop of the underlying asset
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ExoticOption http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Option
+Ne656b3469e5842a8a5f39a2585b8c6fc http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/StripStrategy http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nd7324dff65b8415da9741d68247787e8 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ExoticOption http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/EquityOption http://www.w3.org/2000/01/rdf-schema#label equity option
+Nd165d22ed50743a6b96b39446f620c52 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Na47bb681190240b3ac60b62b86ffc6a2 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Option
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Collar http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionTradingStrategy
+N02480feec69e46929b389dc4f9cc43b0 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterestRateBenchmark
+N1e6ee030ea094dbeb250ed1f5a21d22e http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasSettlementDateOffset http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/Duration
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/DER/20220801/DerivativesContracts/Options.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary, and to move the definition of an underlier and the related property, has underlier, to financial instruments so that these concepts are also available for use in relation to pool-backed securities.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionPremium http://www.w3.org/2000/01/rdf-schema#subClassOf N356b64f48f0a43d98ea68a87550162b7
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/VanillaOption http://www.w3.org/2000/01/rdf-schema#subClassOf Ne8367f0d0d554b779aca8c1d47356163
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/EquityOption https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote For an Equity Option, one contract represents 100 shares of stock. Equity options settle in 'American style'.
+N54ab7e76a4fe40ae8820c57035ac52e0 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/CallOption
+https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Option http://www.w3.org/2000/01/rdf-schema#subClassOf N9149caec6e384a8eb4c2a921413bc93b
+N454bc481f2f04081b3ca105e9c3f89a7 http://www.w3.org/2002/07/owl#someValuesFrom http://www.w3.org/2001/XMLSchema#decimal
+Nbb4f55ed056d44648187ee9b3879e180 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/holds
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/CappedOption http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/VanillaOption
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Moneyness http://www.w3.org/2004/02/skos/core#definition classifier for a derivative relating its strike price to the price of its underlying asset
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ExtrinsicValue http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/IntrinsicValue
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasInterestAccrualDateOffset http://www.w3.org/2000/01/rdf-schema#label has interest accrual date offset
+Nd7324dff65b8415da9741d68247787e8 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/RiskReversal http://www.w3.org/2004/02/skos/core#definition option trading strategy that consists of being short (selling) an out of the money put and being long (i.e., buying) an out of the money call, both with the same maturity
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/DER/20220101/DerivativesContracts/Options.rdf version of this ontology was revised to add an explanatory note to basket option and make it a kind of exotic option and added interest rate derivative as the parent of interest rate option; added capped option as a kind of vanilla option.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Strangle http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N274fe1b670854313822298764ca900d3 http://www.w3.org/2002/07/owl#qualifiedCardinality 3
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/IntrinsicValue http://www.w3.org/2000/01/rdf-schema#label intrinsic value
+Ne8367f0d0d554b779aca8c1d47356163 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/InstrumentPricing/PriceDeterminationMethod
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionOnFuture https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/RiskReversal http://www.w3.org/2000/01/rdf-schema#label risk reversal
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasCalculatedMarketValue http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasPrice
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasOptionWriter http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionIssuer
+N96f930d09c0a4d99af1441fe70601781 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/InterestRateOption http://www.w3.org/2000/01/rdf-schema#subClassOf N02480feec69e46929b389dc4f9cc43b0
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasOptionWriter https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Typically, the option writer collects the premium when the option is initially sold.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/InTheMoney https://www.omg.org/spec/Commons/AnnotationVocabulary/abbreviation ITM
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasExerciseSchedule http://www.w3.org/2004/02/skos/core#definition links an option to the schedule specified in the contract that constrains when it may be exercised
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Classifiers/
+N80803bbc4af64c3cba9101349a6c1325 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+N2c2af92f9f234093bab28d2c8e01a38b http://www.w3.org/2002/07/owl#qualifiedCardinality 2
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/BondOption http://www.w3.org/2000/01/rdf-schema#subClassOf Ne6f8fef88dd54b9483e2fb54625f8ae9
+N0fbcbe979765446aa519a29252edc562 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ExtrinsicValue http://www.w3.org/2000/01/rdf-schema#label extrinsic value
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/FixedIncomeOption http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/VanillaOption
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionPremium http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/InstrumentPricing/MarketPrice
+N77feea0fbf5c472d9acb6bce88e79c5f http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionPremiumFormula
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionPremiumFormula http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/QuantitiesAndUnits/Expression
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/CallOption https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/StandardizedOptionsTerms http://www.w3.org/2000/01/rdf-schema#subClassOf Nac0061160a294337917234acc2ef4178
+Ne6f8fef88dd54b9483e2fb54625f8ae9 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/hasUnderlier
+N1b42b9af79c246d884409bb7b96cca54 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasMonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasExerciseDateOffset http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/StripStrategy
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasExerciseStyle http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+Ne381e270c97e40a1af273ed695df33ce http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasContractDuration
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasOptionHolder http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionHolder
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionPremium https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The option premium is the income received by the seller (writer) of an option contract to another party. In-the-money option premiums are composed of two factors: intrinsic and extrinsic value. Out-of-the-money options' premiums consist solely of extrinsic value. For stock options, the premium is quoted as a dollar amount per share, and most contracts represent the commitment of 100 shares.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/BasketOption http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasStrikePercentageAmount http://www.w3.org/2000/01/rdf-schema#label has strike percentage amount
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ProtectiveCollar http://www.w3.org/2000/01/rdf-schema#subClassOf Nc1da029e72ff46ceaf79342ac1b796e0
+Ncf8e72171f894f8aa6b8173f4a504bbe http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasOptionWriter
+Nd165d22ed50743a6b96b39446f620c52 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/IronCondor https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The iron condor earns the maximum profit when the underlying asset closes between the middle strike prices at expiration. In other words, the goal is to profit from low volatility in the underlying asset.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Release
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionHolder http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/Ownership/Owner
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/StandardizedOptionsTerms http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionPremiumFormula http://www.w3.org/2000/01/rdf-schema#label option premium formula
+N0bc52e76c7d14de0828b8b1572e6f8dc http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/PutOption
+Nc5f4852a337c4c60a72ab00bbd7e06f2 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/PutOption
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Butterfly http://www.w3.org/2000/01/rdf-schema#label butterfly
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/DatesAndTimes/
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ExoticOption http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/DerivativesBasics/OverTheCounterInstrument
+Nc1da029e72ff46ceaf79342ac1b796e0 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasOptionHolder http://www.w3.org/2000/01/rdf-schema#label has option holder
+https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Option http://www.w3.org/2000/01/rdf-schema#subClassOf N433392b281664cc4a6209ee8c09d40aa
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasOptionHolder http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Option
+N4db0d23f7d7643ec9b936aecddb604e5 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/DerivativesBasics/DerivativesClearingOrganization
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionPremiumFormula http://www.w3.org/2004/02/skos/core#definition expression used to calculate the premium based either on the price per option or percentage of the notional amount
+N2c2af92f9f234093bab28d2c8e01a38b http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+Ne8367f0d0d554b779aca8c1d47356163 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/InstrumentPricing/hasPriceDeterminationMethod
+Nd8a38dde84df4a79800100358571b02f http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionPremium
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/IronButterfly http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/VanillaOption http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Option
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/LongTermEquityAnticipationSecurity http://www.w3.org/2004/02/skos/core#definition equity option that allows the holder to buy or sell shares of stock with expiration dates that are longer than one year, and typically up to three years from issue
+Nd8210faea4a24995a5fa5b7afb447e1b http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Option
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/EquityOption http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/StrikePrice http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryPrice
+Nd4af6ed23ef74f7d849d37afa870a2ba http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/ExerciseConventions/AmericanExerciseTerms
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/AtTheMoney http://www.w3.org/2004/02/skos/core#definition moneyness classifier that refers to an option whose value in terms of its strike price is the same or close to the current market price of the underlying security
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/LongTermEquityAnticipationSecurity http://www.w3.org/2000/01/rdf-schema#subClassOf Nc467ea6ad45e4194949c558bedf0da98
+N0bc52e76c7d14de0828b8b1572e6f8dc http://www.w3.org/2002/07/owl#qualifiedCardinality 2
+N43720d86e9e84014a201b099795daa38 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nc1da029e72ff46ceaf79342ac1b796e0 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ProtectivePut
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/CondorSpread https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote There are two types of condor spreads. A long condor seeks to profit from low volatility and little to no movement in the underlying asset. A short condor seeks to profit from high volatility and a sizable move in the underlying asset in either direction. A Condor Spread uses either all calls or all puts.
+Ne656b3469e5842a8a5f39a2585b8c6fc http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/PutOption
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/AtTheMoney http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Moneyness
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Straddle http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/DER/SecurityBasedDerivatives/SecurityBasedDerivatives/
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/InterestRateOption http://www.w3.org/2000/01/rdf-schema#label interest rate option
+N02480feec69e46929b389dc4f9cc43b0 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N54b60f4413d44ee684734405aedb017e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/StandardizedOptionsTerms http://www.w3.org/2004/02/skos/core#definition standardized contract terms established by a securities or options exchange or by an options clearing entity
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Straddle http://www.w3.org/2000/01/rdf-schema#subClassOf Nc5f4852a337c4c60a72ab00bbd7e06f2
+N356b64f48f0a43d98ea68a87550162b7 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/PercentageMonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/IronButterfly https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The key to using this trade as part of a successful trading strategy is to forecast a time when option prices are likely to decline in value generally. This usually occurs during periods of sideways movement or a mild upward trend.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Butterfly http://www.w3.org/2000/01/rdf-schema#subClassOf N1d1ffab642b9438580741b29729d856d
+Nf85a8ed612bb4587abeb62ccf4b28228 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/VanillaOption
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/BasketOption http://www.w3.org/2000/01/rdf-schema#subClassOf Nda5cf31de7834d13a9509f7970213a18
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Fence http://www.w3.org/2004/02/skos/core#definition option trading strategy that uses options to limit the range of possible returns on a financial instrument
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Straddle http://www.w3.org/2004/02/skos/core#definition neutral option trading strategy that involves simultaneously buying both a put option and a call option for the underlying security with the same strike price and the same expiration date
+N80dc3e780afd405ab7c80f7e65cdd000 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/ContextualDesignators/
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionHolder http://www.w3.org/2000/01/rdf-schema#label option holder
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionHolder http://www.w3.org/2004/02/skos/core#definition party that owns an option
+Nc1da029e72ff46ceaf79342ac1b796e0 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ProtectivePut http://www.w3.org/2004/02/skos/core#definition put option giving the buyer (holder) the right, but not the obligation, to sell the assets specified at with a strike price equal or close to the current price of the underlying asset, on or before a specified date
+N274fe1b670854313822298764ca900d3 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nac0061160a294337917234acc2ef4178 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/PutOption https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/VanillaOption http://www.w3.org/2000/01/rdf-schema#label vanilla option
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Strangle http://www.w3.org/2000/01/rdf-schema#subClassOf Nd165d22ed50743a6b96b39446f620c52
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/BasketOption http://www.w3.org/2004/02/skos/core#definition option whose underlying asset is a group, or basket, of commodities, securities, indices, or currencies
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasOptionHolder http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasContractParty
+N43720d86e9e84014a201b099795daa38 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/DER/20230301/DerivativesContracts/Options.rdf version of the ontology was modified to replace concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Straddle http://www.w3.org/2000/01/rdf-schema#subClassOf N54ab7e76a4fe40ae8820c57035ac52e0
+N44062880b8624f0486feed2c4f04224d http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasExercisePrice
+Ne381e270c97e40a1af273ed695df33ce http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ProtectiveCollar http://www.w3.org/2000/01/rdf-schema#label protective collar
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Butterfly https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote These spreads are intended as a market-neutral strategy and pay off the most if the underlying asset does not move prior to option expiration. They involve either four calls, four puts, or a combination of puts and calls with three strike prices. Butterfly spreads pay off the most if the underlying asset price doesn't change before the option expires. The upper and lower strike prices are equal distance from the middle, or at-the-money, strike price.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/IntrinsicValue http://www.w3.org/2004/02/skos/core#definition measure of what an asset is worth, i.e. with respect to its current price
+https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Option http://www.w3.org/2000/01/rdf-schema#subClassOf N54b60f4413d44ee684734405aedb017e
+N1d1ffab642b9438580741b29729d856d http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N1b42b9af79c246d884409bb7b96cca54 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N953e6c7101ce4d74bf1813c1329b65f9 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N4db0d23f7d7643ec9b936aecddb604e5
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/StandardizedOptionsTerms http://www.w3.org/2000/01/rdf-schema#subClassOf N0fbcbe979765446aa519a29252edc562
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasExerciseDateOffset http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+Ne6f8fef88dd54b9483e2fb54625f8ae9 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/Bonds/Bond
+N0bc52e76c7d14de0828b8b1572e6f8dc http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+N454bc481f2f04081b3ca105e9c3f89a7 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasCalculatedMarketValue https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym has premium
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasExerciseSchedule http://www.w3.org/2000/01/rdf-schema#label has exercise schedule
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Collar http://www.w3.org/2000/01/rdf-schema#subClassOf N8ccf1cca8bd14d8cab540f5ac0c5206b
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasExercisePrice http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/CappedOption https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The cap price is equal to the option's strike price plus a cap interval for a call option or the strike price minus a cap interval for a put option. A capped option is automatically exercised when the underlying security closes at or above (for a call) or at or below (for a put) the option's cap price.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2000/01/rdf-schema#label Options Ontology
+N0183bd71a83f47609e942c86873cb95c http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+N07772b8a87d743e9a8ea5546531f1f99 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/PutOption
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionTradingStrategy http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/TradingStrategy
+N6025c59393754519979f8056abf9830b http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+Nc467bbcde444436cbd3202b35c512e94 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Option
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasStrikePercentageAmount http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/InterestRateOption https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The amount of the payment will be based on the difference between the market rate on the exercise date and the strike rate, multiplied by the notional principal specified in the option contract, to calculate the total payment.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/
+Nd1188341dc1d4d039291d3e4dfc3f211 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/MixedBasket
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasSettlementDateOffset http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasDuration
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/DerivativesBasics/DerivativesClearingOrganization http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N2c2af92f9f234093bab28d2c8e01a38b http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/CallOption
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ProtectivePut http://www.w3.org/2000/01/rdf-schema#subClassOf Nd8a38dde84df4a79800100358571b02f
+N2445753a77ec4e4b9c1ac4b269d7b53f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N80803bbc4af64c3cba9101349a6c1325 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/ExerciseConventions/
+N07772b8a87d743e9a8ea5546531f1f99 http://www.w3.org/2002/07/owl#qualifiedCardinality 2
+Nda5cf31de7834d13a9509f7970213a18 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/InstrumentPricing/hasPriceDeterminationMethod
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/FixedIncomeOption https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019.
+Nd8a38dde84df4a79800100358571b02f http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasCalculatedMarketValue
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Strangle http://www.w3.org/2000/01/rdf-schema#subClassOf N3b1688c65b254e3488dd216e9c4231ca
+N44062880b8624f0486feed2c4f04224d http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/StrikePrice
+N9149caec6e384a8eb4c2a921413bc93b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionIssuer http://www.w3.org/2004/02/skos/core#definition issuer granting the rights defined in the option in exchange for some consideration
+N8ccf1cca8bd14d8cab540f5ac0c5206b http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/CallOption
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OutOfTheMoney http://www.w3.org/2000/01/rdf-schema#label out-of-the-money
+N1e6ee030ea094dbeb250ed1f5a21d22e http://www.w3.org/2002/07/owl#qualifiedCardinality 2
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/RiskReversal http://www.w3.org/2000/01/rdf-schema#subClassOf N7bdd4ca1d15845c3b3b30e8bf6df9431
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasOptionWriter http://www.w3.org/2000/01/rdf-schema#label has option writer
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Fence http://www.w3.org/2000/01/rdf-schema#subClassOf N6025c59393754519979f8056abf9830b
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/BasketOption http://www.w3.org/2000/01/rdf-schema#subClassOf Ne381e270c97e40a1af273ed695df33ce
+Nd4af6ed23ef74f7d849d37afa870a2ba http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nd165d22ed50743a6b96b39446f620c52 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/PutOption
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/CondorSpread http://www.w3.org/2000/01/rdf-schema#label condor spread
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Straddle http://www.w3.org/2000/01/rdf-schema#label straddle
+Nb3ff8f8dfe0344279eee611be8f273ad http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/PutOption
+N575912f40b9744bf9c4bd8532bfe69de http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Future
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasCapPrice http://www.w3.org/2004/02/skos/core#definition price at which the contract may be exercised
+Ne381e270c97e40a1af273ed695df33ce http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDuration
+Nc467ea6ad45e4194949c558bedf0da98 http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/Commons/DatesAndTimes/Duration
+Na47bb681190240b3ac60b62b86ffc6a2 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasOptionHolder http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionOnFuture http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ExtrinsicValue http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ExoticOption http://www.w3.org/2004/02/skos/core#definition option that has a non-standard payout structure or other feature
+N1b42b9af79c246d884409bb7b96cca54 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/IntrinsicValue http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nd8210faea4a24995a5fa5b7afb447e1b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N07772b8a87d743e9a8ea5546531f1f99 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasStrikePercentageAmount http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/PercentageMonetaryAmount
+Ne6f8fef88dd54b9483e2fb54625f8ae9 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/InTheMoney http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/Ownership/
+Nb25a131aad0042d29c7a3e1832599998 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/PartiesAndSituations/
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/IronCondor http://www.w3.org/2000/01/rdf-schema#subClassOf Nb3ff8f8dfe0344279eee611be8f273ad
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasSettlementDateOffset http://www.w3.org/2000/01/rdf-schema#label has settlement date offset
+N2445753a77ec4e4b9c1ac4b269d7b53f http://www.w3.org/2002/07/owl#someValuesFrom Nd8210faea4a24995a5fa5b7afb447e1b
+https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Option http://www.w3.org/2000/01/rdf-schema#subClassOf N454bc481f2f04081b3ca105e9c3f89a7
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasCapPrice http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N454bc481f2f04081b3ca105e9c3f89a7 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/InstrumentPricing/hasLotSize
+N70adcb7db47948dc87aa0c658215a2ed http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/DER/20210901/DerivativesContracts/Options.rdf version of this ontology was revised to correct a restriction on an option with respect to an optional option premium which was not well-formed, and modified the definition of interest rate option to reflect a benchmark, and to be a specialization of vanilla option.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/VanillaOption http://www.w3.org/2000/01/rdf-schema#subClassOf N6eedc96ea11b4f87888667debff27532
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/EquityOption http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/VanillaOption
+N2445753a77ec4e4b9c1ac4b269d7b53f http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/LongTermEquityAnticipationSecurity http://www.w3.org/2000/01/rdf-schema#label long-term equity anticipation security
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/AtTheMoney http://www.w3.org/2000/01/rdf-schema#label at-the-money
+N9149caec6e384a8eb4c2a921413bc93b http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/StandardizedOptionsTerms http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/StandardizedTerms
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/AtTheMoney http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ExtrinsicValue http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OutOfTheMoney http://www.w3.org/2004/02/skos/core#definition moneyness classifier that refers to an option whose value in terms of its strike price is not favorable in comparison to the prevailing market price of the underlying asset
+N0fbcbe979765446aa519a29252edc562 http://www.w3.org/2002/07/owl#someValuesFrom N96f930d09c0a4d99af1441fe70601781
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/InterestRateOption http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/InterestRateDerivativeInstrument
+Nd1188341dc1d4d039291d3e4dfc3f211 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/hasUnderlier
+N451b9b191c4e4414bdba192a71db837b http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasExercisePrice http://www.w3.org/2000/01/rdf-schema#label has exercise price
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasExerciseStyle http://www.w3.org/2000/01/rdf-schema#label has exercise style
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/BondOption http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ProtectiveCollar http://www.w3.org/2004/02/skos/core#definition collar that consists of a covered call and protective put
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ProtectivePut http://www.w3.org/2000/01/rdf-schema#label protective put
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Moneyness http://www.w3.org/2000/01/rdf-schema#label moneyness
+N1e6ee030ea094dbeb250ed1f5a21d22e http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/CallOption
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/EquityOption http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/SecurityBasedDerivatives/SecurityBasedDerivatives/EquityDerivative
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ProtectiveCollar https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote A protective collar consists of a long position in the underlying security, a put option purchased to hedge the downside risk on a stock, a call option written on the stock to finance the put purchase.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ExtrinsicValue https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym option time value
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Moneyness https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Moneyness describes the intrinsic value of an option in its current state. The term moneyness is most commonly used with put and call options and is an indicator as to the comparative value of the option with respect to its exercise/strike price. Moneyness can be measured with respect to the underlying stock or other asset's current/spot price or its future price.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/CoveredCall http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/CallOption
+N0183bd71a83f47609e942c86873cb95c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nb3ff8f8dfe0344279eee611be8f273ad http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/PutOption https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The seller of the put option assumes the obligation of buying the assets specified should the buyer exercise the option.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasInterestAccrualDateOffset http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ProtectiveCollar http://www.w3.org/2000/01/rdf-schema#subClassOf Nd7324dff65b8415da9741d68247787e8
+Nc467bbcde444436cbd3202b35c512e94 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionPremium http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/IronButterfly http://www.w3.org/2000/01/rdf-schema#subClassOf N0bc52e76c7d14de0828b8b1572e6f8dc
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Butterfly http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionTradingStrategy
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/InTheMoney http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Moneyness
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasExercisePrice https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym has strike price
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/BondOption http://www.w3.org/2004/02/skos/core#definition option giving the buyer (holder) the right, but not the obligation, to buy or sell (depending on whether it is a call or a put) a bond at a certain price on or before a specified date
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasExerciseDateOffset http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasDuration
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ProtectivePut http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/PutOption
+N3b1688c65b254e3488dd216e9c4231ca http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/StripStrategy http://www.w3.org/2000/01/rdf-schema#subClassOf N451b9b191c4e4414bdba192a71db837b
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionTradingStrategy http://www.w3.org/2000/01/rdf-schema#subClassOf Nc467bbcde444436cbd3202b35c512e94
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/StrikePrice http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/IntrinsicValue https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote This measure is arrived at by means of an objective calculation or complex financial model. In financial analysis this term is used in conjunction with the work of identifying, as nearly as possible, the underlying value of a company and its cash flow. In options pricing it refers to the difference between the strike price of the option and the current price of the underlying asset.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/StripStrategy http://www.w3.org/2004/02/skos/core#definition option trading strategy that involves a sequential set of options with periodic reset dates, such that each period between resets behaves like an individual option
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Strangle https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote A strangle is a good strategy if you think the underlying security will experience a large price movement in the near future but are unsure of the direction. However, it is profitable mainly if the asset swings sharply in price.
+N4db0d23f7d7643ec9b936aecddb604e5 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+Nc467ea6ad45e4194949c558bedf0da98 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasContractDuration
+https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Option http://www.w3.org/2000/01/rdf-schema#subClassOf N70adcb7db47948dc87aa0c658215a2ed
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+N005eceab7e68454981904a1155000dfe http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/Bonds/
+https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Option http://www.w3.org/2000/01/rdf-schema#subClassOf N43720d86e9e84014a201b099795daa38
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/InterestRateOption http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasExerciseDateOffset http://www.w3.org/2000/01/rdf-schema#label has exercise date offset
+N43720d86e9e84014a201b099795daa38 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionPremium
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasExerciseSchedule https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote An exercise schedule may be as simple as a single date or date period. However, in more complex cases, it may be an ad hoc schedule of individual dates, or a regular schedule of periodic exercise dates.
+Nb3ff8f8dfe0344279eee611be8f273ad http://www.w3.org/2002/07/owl#qualifiedCardinality 2
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ExtrinsicValue https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Extrinsic value is also the portion of the worth that has been assigned to an option by factors other than the underlying asset's price. The opposite of extrinsic value is intrinsic value, which is the inherent worth of an option.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasCalculatedMarketValue http://www.w3.org/2000/01/rdf-schema#label has calculated market value
+N6eedc96ea11b4f87888667debff27532 http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDuration
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/IronCondor http://www.w3.org/2000/01/rdf-schema#subClassOf N005eceab7e68454981904a1155000dfe
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionOnFuture http://www.w3.org/2004/02/skos/core#definition option that gives the holder the right, but not the obligation, to buy or sell a specific futures contract at a specified price on or before the option's expiration date
+N2e3e33c9d1314ee4a427fbf29467a498 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/Schedule
+N6025c59393754519979f8056abf9830b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Fence http://www.w3.org/2000/01/rdf-schema#subClassOf Ne656b3469e5842a8a5f39a2585b8c6fc
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/IronCondor http://www.w3.org/2000/01/rdf-schema#subClassOf N1e6ee030ea094dbeb250ed1f5a21d22e
+N2e3e33c9d1314ee4a427fbf29467a498 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasSchedule
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionTradingStrategy http://www.w3.org/2004/02/skos/core#definition trading tactic involving more than one option type, strike price, or expiration date on the same underlying asset
+N80dc3e780afd405ab7c80f7e65cdd000 http://www.w3.org/2002/07/owl#hasValue https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/ExerciseConventions/AmericanExerciseConvention
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasStrikeRate http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/QuantitiesAndUnits/Ratio
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasExerciseSchedule http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Option
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/FunctionalEntities/Publishers/
+N77feea0fbf5c472d9acb6bce88e79c5f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Ncf8e72171f894f8aa6b8173f4a504bbe http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionIssuer
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/DER/20240101/DerivativesContracts/Options/
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasExerciseDateOffset http://www.w3.org/2004/02/skos/core#definition indicates the period in days between the reset date and the exercise date
+N575912f40b9744bf9c4bd8532bfe69de http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/hasUnderlier
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Fence http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Option http://www.w3.org/2000/01/rdf-schema#subClassOf N44062880b8624f0486feed2c4f04224d
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/DerivativesBasics/DerivativesClearingOrganization https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote For options, the derivatives clearing organization is responsible for clearing transactions for put and call options on common stocks and other equity issues, stock indexes, foreign currencies, interest rate composites and single-stock futures.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasInterestAccrualDateOffset http://www.w3.org/2004/02/skos/core#definition indicates the period in days between each reset date and the commencement of interest accrual for the next period
+Nf85a8ed612bb4587abeb62ccf4b28228 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/DER/20220701/DerivativesContracts/Options.rdf version of this ontology was revised to add the most common options trading strategies.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Strangle http://www.w3.org/2004/02/skos/core#definition option trading strategy in which the investor holds a position in both a call and a put option with different strike prices, but with the same expiration date and underlying asset
+Nda5cf31de7834d13a9509f7970213a18 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/InstrumentPricing/PriceDeterminationMethod
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasExerciseDateOffset http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/Duration
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/DerivativesBasics/
+N7bdd4ca1d15845c3b3b30e8bf6df9431 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionHolder http://www.w3.org/2000/01/rdf-schema#subClassOf Nbb4f55ed056d44648187ee9b3879e180
+N0183bd71a83f47609e942c86873cb95c http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+Nb3ff8f8dfe0344279eee611be8f273ad http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ProtectiveCollar http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N6025c59393754519979f8056abf9830b http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionIssuer http://www.w3.org/2000/01/rdf-schema#subClassOf N2445753a77ec4e4b9c1ac4b269d7b53f
+Nc467bbcde444436cbd3202b35c512e94 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionOnFuture http://www.w3.org/2000/01/rdf-schema#subClassOf Nd4af6ed23ef74f7d849d37afa870a2ba
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/CoveredCall http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasCapPrice http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasMonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/StrikePrice https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote For call options, the strike price is the price at which the security may be purchased by the option holder; for put options, the strike price is the price at which the security may be sold.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionIssuer http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Issuer
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Fence https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote A fence consists of the following elements:
+- long position in a financial instrument (e.g., a share, index or currency)
+- long put (normally with a strike price close to or at the current spot price of the financial instrument)
+- short put (with a strike price lower than the bought put - e.g., 80% of the current spot price)
+- short call (with a strike price higher than the current spot price).
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasCalculatedMarketValue http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/BasketOption http://www.w3.org/2000/01/rdf-schema#subClassOf Nd1188341dc1d4d039291d3e4dfc3f211
+Nc467ea6ad45e4194949c558bedf0da98 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N356b64f48f0a43d98ea68a87550162b7 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasQuantityValue
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasStrikeRate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/CoveredCall http://www.w3.org/2004/02/skos/core#definition call option in which the seller (investor) owns an equivalent amount of the underlying security
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/InstrumentPricing/
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasCapPrice http://www.w3.org/2000/01/rdf-schema#label has cap price
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/AtTheMoney https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote An ATM option has a delta of ±0.50, positive if it is a call, negative for a put.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasOptionWriter http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+Ncf8e72171f894f8aa6b8173f4a504bbe http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/RiskReversal http://www.w3.org/2000/01/rdf-schema#subClassOf N80803bbc4af64c3cba9101349a6c1325
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionTradingStrategy http://www.w3.org/2000/01/rdf-schema#label option trading strategy
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Collar http://www.w3.org/2000/01/rdf-schema#label collar
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/CappedOption http://www.w3.org/2000/01/rdf-schema#label capped option
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/CallOption http://www.w3.org/2000/01/rdf-schema#label call option
+N005eceab7e68454981904a1155000dfe http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasExercisePrice
+N274fe1b670854313822298764ca900d3 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasExercisePrice
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionPremium http://www.w3.org/2000/01/rdf-schema#subClassOf N77feea0fbf5c472d9acb6bce88e79c5f
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/PutOption http://www.w3.org/2000/01/rdf-schema#label put option
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/StripStrategy http://www.w3.org/2000/01/rdf-schema#subClassOf N2e3e33c9d1314ee4a427fbf29467a498
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/CondorSpread http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionTradingStrategy
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionOnFuture http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/VanillaOption
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ExoticOption http://www.w3.org/2000/01/rdf-schema#label exotic option
+N433392b281664cc4a6209ee8c09d40aa http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasExerciseStyle
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionPremium http://www.w3.org/2000/01/rdf-schema#label option premium
+N77feea0fbf5c472d9acb6bce88e79c5f http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/InterestRateOption http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/VanillaOption
+Na47bb681190240b3ac60b62b86ffc6a2 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Classifiers/classifies
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/CondorSpread http://www.w3.org/2004/02/skos/core#definition non-directional options strategy that limits both gains and losses while seeking to profit from either low or high volatility
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasExercisePrice http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/StrikePrice
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/StandardizedOptionsTerms https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Such terms may relate to the underlying instruments, exercise price, expiration date, and contract size, for example.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/
+N3b1688c65b254e3488dd216e9c4231ca http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ExoticOption https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom Commodity Futures Trading Commission (CFTC) glossary, https://www.cftc.gov/LearnAndProtect/EducationCenter/CFTCGlossary/glossary_e.html
+https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Option http://www.w3.org/2000/01/rdf-schema#subClassOf Ncf8e72171f894f8aa6b8173f4a504bbe
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasCapPrice http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryPrice
+N30ccdd8d49334beda862fc287cdb6e6b http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryPrice
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Documents/
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/
+N451b9b191c4e4414bdba192a71db837b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N02480feec69e46929b389dc4f9cc43b0 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/hasUnderlier
+Nd1188341dc1d4d039291d3e4dfc3f211 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N8ccf1cca8bd14d8cab540f5ac0c5206b http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionPremium http://www.w3.org/2000/01/rdf-schema#subClassOf N1b42b9af79c246d884409bb7b96cca54
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasExerciseStyle http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/ExerciseConventions/ExerciseConvention
+Nc5f4852a337c4c60a72ab00bbd7e06f2 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+N80803bbc4af64c3cba9101349a6c1325 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+N1d1ffab642b9438580741b29729d856d http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/FixedIncomeOption http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/SecurityBasedDerivatives/SecurityBasedDerivatives/DebtInstrumentDerivative
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasInterestAccrualDateOffset http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/StripStrategy
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/PutOption http://www.w3.org/2004/02/skos/core#definition option giving the buyer (holder) the right, but not the obligation, to sell the assets specified at a fixed price or formula, on or before a specified date
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Fence http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionTradingStrategy
+Ne8367f0d0d554b779aca8c1d47356163 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N6eedc96ea11b4f87888667debff27532 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasContractDuration
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasExerciseSchedule http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N43720d86e9e84014a201b099795daa38 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasCalculatedMarketValue
+N0fbcbe979765446aa519a29252edc562 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BE/FunctionalEntities/Publishers/hasPublisher
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OutOfTheMoney http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Moneyness
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/BondOption http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/FixedIncomeOption
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/StandardizedOptionsTerms http://www.w3.org/2000/01/rdf-schema#subClassOf Nf85a8ed612bb4587abeb62ccf4b28228
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Butterfly http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionPremium http://www.w3.org/2004/02/skos/core#definition current market price of an option contract
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionOnFuture http://www.w3.org/2000/01/rdf-schema#subClassOf N575912f40b9744bf9c4bd8532bfe69de
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasCalculatedMarketValue http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Option
+Nbb4f55ed056d44648187ee9b3879e180 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N451b9b191c4e4414bdba192a71db837b http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasExerciseStyle http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/Classifiers/isClassifiedBy
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasSettlementDateOffset http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/StripStrategy
+N70adcb7db47948dc87aa0c658215a2ed http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/Schedule
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/CallOption http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Option
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/CappedOption http://www.w3.org/2004/02/skos/core#definition option with an established profit cap or cap price
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasOptionWriter http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Option
+N7bdd4ca1d15845c3b3b30e8bf6df9431 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N0183bd71a83f47609e942c86873cb95c http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/PutOption
+N9149caec6e384a8eb4c2a921413bc93b http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasOptionHolder
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/CallOption http://www.w3.org/2004/02/skos/core#definition option giving the buyer (holder) the right, but not the obligation, to buy the assets specified at a fixed price or formula, on or before a specified date
+N54b60f4413d44ee684734405aedb017e http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/Commons/DatesAndTimes/Date
+N005eceab7e68454981904a1155000dfe http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/StrikePrice
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/StripStrategy https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Typically, a strip is a strategy that involves being long in one call position and two put options, all with the same strike price on a single underlying stock. The investor who adopts this strategy believes that the underlying price of the stock will plummet in the near-term future. All three of the options will have the same expiration date and the same strike price. If the investor is correct and the price drastically decreases, the puts will pay out substantially. If the investor is wrong and the price of the underlying asset increases, the call option will mitigate the loss. The period between resets may be called a Caplet or Floorlet.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/AtTheMoney https://www.omg.org/spec/Commons/AnnotationVocabulary/abbreviation ATM
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/IronCondor http://www.w3.org/2000/01/rdf-schema#label iron condor
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasExerciseSchedule http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasSchedule
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/PutOption http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Option
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/StrikePrice http://www.w3.org/2000/01/rdf-schema#label strike price
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/CallOption http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N3b1688c65b254e3488dd216e9c4231ca http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+N70adcb7db47948dc87aa0c658215a2ed http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasExerciseSchedule
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/StandardizedOptionsTerms http://www.w3.org/2000/01/rdf-schema#label standardized options terms
+Nd4af6ed23ef74f7d849d37afa870a2ba http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/ExerciseConventions/hasExerciseTerms
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/QuantitiesAndUnits/
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasCalculatedMarketValue http://www.w3.org/2004/02/skos/core#definition indicates a calculated price as of some relative date considered the market value of the option at that point in time
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/IronButterfly http://www.w3.org/2004/02/skos/core#definition butterfly strategy that consists of two call options and two put options, three strike prices and the same expiration date
+Nd8a38dde84df4a79800100358571b02f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/IntrinsicValue http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasInterestAccrualDateOffset http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/Duration
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasOptionHolder http://www.w3.org/2004/02/skos/core#definition indicates the owner of the option
+N005eceab7e68454981904a1155000dfe http://www.w3.org/2002/07/owl#qualifiedCardinality 4
+https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Option http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ProtectivePut https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym synthetic call
+N30ccdd8d49334beda862fc287cdb6e6b http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasCapPrice
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Moneyness http://www.w3.org/2000/01/rdf-schema#subClassOf Na47bb681190240b3ac60b62b86ffc6a2
+N7bdd4ca1d15845c3b3b30e8bf6df9431 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasOptionWriter http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasContractParty
+N80803bbc4af64c3cba9101349a6c1325 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/CallOption
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/CondorSpread http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N6eedc96ea11b4f87888667debff27532 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/IronCondor http://www.w3.org/2004/02/skos/core#definition condor strategy consisting of two puts (one long and one short) and two calls (one long and one short), and four strike prices, all with the same expiration date
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionHolder http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/PutOption http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/InterestRateOption http://www.w3.org/2000/01/rdf-schema#subClassOf Nb25a131aad0042d29c7a3e1832599998
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/StripStrategy http://www.w3.org/2000/01/rdf-schema#subClassOf N07772b8a87d743e9a8ea5546531f1f99
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Strangle http://www.w3.org/2000/01/rdf-schema#label strangle
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/IronButterfly http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Butterfly
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/Collar http://www.w3.org/2004/02/skos/core#definition option trading strategy that involves buying a downside put and selling an upside call that is implemented to protect against large losses, but which also limits large upside gains
+Nbb4f55ed056d44648187ee9b3879e180 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Option
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionTradingStrategy https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Note that some trading strategies may be considered financial instruments in their own right, but most strategies are not. The critical differentiators include whether the strategy itself can be traded, whether it has a financial instrument identifier independently from the identifier(s) of the embedded instrument(s), such as a FIGI or ISIN, and so forth.
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/VanillaOption https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Vanilla options include call or put options that have no special or unusual features, and are typically exchange traded.
+Nda5cf31de7834d13a9509f7970213a18 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionIssuer http://www.w3.org/2000/01/rdf-schema#label option issuer
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasSettlementDateOffset http://www.w3.org/2004/02/skos/core#definition indicats the period in days between each reset date and the corresponding settlement date
+N3b1688c65b254e3488dd216e9c4231ca http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/CallOption
+Nac0061160a294337917234acc2ef4178 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/InstrumentPricing/hasPriceDeterminationMethod
+N54ab7e76a4fe40ae8820c57035ac52e0 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+N96f930d09c0a4d99af1441fe70601781 http://www.w3.org/2002/07/owl#unionOf N953e6c7101ce4d74bf1813c1329b65f9
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/RiskReversal http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/OptionTradingStrategy
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/StripStrategy http://www.w3.org/2000/01/rdf-schema#label strip strategy
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasExercisePrice http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasPrice
+N575912f40b9744bf9c4bd8532bfe69de http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/IronButterfly http://www.w3.org/2000/01/rdf-schema#subClassOf N2c2af92f9f234093bab28d2c8e01a38b
+N2c2af92f9f234093bab28d2c8e01a38b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasSettlementDateOffset http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N451b9b191c4e4414bdba192a71db837b http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/CallOption
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/hasStrikePercentageAmount http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasPrice
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/LongTermEquityAnticipationSecurity http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/FixedIncomeOption http://www.w3.org/2004/02/skos/core#definition option giving the buyer (holder) the right, but not the obligation, to buy (via a call option) or sell (via a put option) the underlying fixed income assets specified at a pre-determined price (i.e., the strike price, fixed or calculated), on or before a specified date (the expiration date)
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/IronCondor http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/CondorSpread
+https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Options/CoveredCall http://www.w3.org/2000/01/rdf-schema#label covered call
+N77feea0fbf5c472d9acb6bce88e79c5f http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasExpression
+N8ccf1cca8bd14d8cab540f5ac0c5206b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction

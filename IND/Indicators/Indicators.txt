@@ -1,0 +1,185 @@
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/hasQuotationDate http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/Date
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/IND/20180801/Indicators/Indicators.rdf version of this ontology was modified to integrate the composite date value and reflect migration of statistical measures to Analytics.
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/FormalOrganizations/
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/Volatility http://www.w3.org/2000/01/rdf-schema#subClassOf N1053542dbde04580b86f4c0e1c18ffbf
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/isVolatilityOf http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/Volatility
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Collections/
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/IND/20210501/Indicators/Indicators.rdf version of this ontology was modified to extend the definition of price structure to include a synonym of price history and state that it is intended to be used for any sort of analysis of historic prices.
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/MarketRate http://www.w3.org/2004/02/skos/core#example Financial market rates include, but are not limited to reference rates, foreign exchange rates, lending rates, bankers' acceptance rates, and so forth.
+N1e4650954f354d848c21ea0a714b2ee7 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/PriceStructure
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/QuotedPrice http://www.w3.org/2004/02/skos/core#definition a monetary price quoted by some publisher on a given date
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/Volatility http://www.w3.org/2004/02/skos/core#definition statistical measure of the dispersion around the average of some random variable over some period of time
+Nf1277273eeb14839b2e774228c79b84f http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ScopedMeasure
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/hasQuotationDate http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasDate
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/isVolatilityOf http://www.w3.org/2000/01/rdf-schema#label is volatility of
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ImpliedVolatility http://www.w3.org/2004/02/skos/core#definition measure of volatility that is a forward-looking metric used to calculate probability
+Nae2e26accf07439a8c24b9b836d22a44 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/IND/20231201/Indicators/Indicators/
+N23d36ec63a6542e5a385854324518f03 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryPrice
+N853276d0af504717b4aef7e0f500100d http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N6ef94dbb5e964c46b24317d71c8f1f4e
+N56cea29a4a484f9a8bfb44084b0e1b92 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ImpliedPriceVolatility http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/PriceVolatility
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/hasQuotationDate http://www.w3.org/2000/01/rdf-schema#label has quotation date
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+Nae2e26accf07439a8c24b9b836d22a44 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/hasQuotationDateTime
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/PriceStructure http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2014-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/ContextualDesignators/
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Release
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/PriceVolatility http://www.w3.org/2004/02/skos/core#editorialNote Volatility is modeled here using a structured collection, comprised of a series of individual prices of something (a security, index, etc., typically quoted prices), dates, and the source for those prices for some overall period of time
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/IND/20210301/Indicators/Indicators.rdf version of this ontology was modified to a restriction on isValueOf to MarketRate and eliminate its dependence on PublishedFinancialInformation, and to revise the definition of market rate, daily average market rate, and end of day market rate.
+N3c600851bc094de8a32c477e53dbf3fb http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/DailyAverageMarketRate https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom http://www.investopedia.com/terms/m/marketaverage.asp
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/HistoricalVolatility http://www.w3.org/2000/01/rdf-schema#label historical volatility
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/Volatility http://www.w3.org/2000/01/rdf-schema#subClassOf Nccee33b01c11433aba72dc61a230363c
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/isVolatilityOf http://www.w3.org/2004/02/skos/core#definition indicates something to which the volatility measure applies and of which it is a measure
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/IND/20140601/Indicators/Indicators.rdf version of this ontology was modified per the issue resolutions identified in the FIBO IND 1.0 FTF 1 report.
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/TermStructure http://www.w3.org/2004/02/skos/core#definition structured collection of rates, such as interest rates, or bond yields with different terms to maturity, such that a yield curve may be constructed for the structure
+N7e50b4f48ab94d0482c9cc50cbe9bb7d http://www.w3.org/2002/07/owl#qualifiedCardinality 2
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/PriceVolatility http://www.w3.org/2000/01/rdf-schema#subClassOf N1e4650954f354d848c21ea0a714b2ee7
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/DailyAverageMarketRate http://www.w3.org/2000/01/rdf-schema#label daily average market rate
+N6ef94dbb5e964c46b24317d71c8f1f4e http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/isVolatilityOf http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/ContextualDesignators/appliesTo
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/PriceStructure http://www.w3.org/2000/01/rdf-schema#subClassOf N23d36ec63a6542e5a385854324518f03
+N56cea29a4a484f9a8bfb44084b0e1b92 http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/Commons/DatesAndTimes/DatePeriod
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/PriceVolatility http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N6ef94dbb5e964c46b24317d71c8f1f4e http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StandardDeviation
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/TermStructure http://www.w3.org/2000/01/rdf-schema#subClassOf N3c600851bc094de8a32c477e53dbf3fb
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/PriceVolatility https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Volatility can be determined using the standard deviation or variance among prices for the security or market index over some period of time. For a specific security, volatility may measure the amount and frequency in rapid price fluctuation. It is computed as the annualized standard deviation of the percentage change in a security's daily price.
+N631f2076f09349c5b15179fcea9bd6f5 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N7e50b4f48ab94d0482c9cc50cbe9bb7d http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/DailyAverageMarketRate http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/MarketRate
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/MarketRate http://www.w3.org/2000/01/rdf-schema#subClassOf Nf1277273eeb14839b2e774228c79b84f
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ http://purl.org/dc/terms/abstract This ontology provides the concepts common to all market rates, indices and indicators; that is concepts descriptive of the numeric parameters themselves. These are modeled independently of the values they may take over time.
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/IND/20200701/Indicators/Indicators.rdf version of this ontology was modified to add definitions for historical and implied volatility, and differentiate price volatility accordingly.
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/MarketRate http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/QuantitiesAndUnits/Ratio
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/EndOfDayMarketRate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/hasQuotationDateTime http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasObservedDateTime
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/IND/20230301/Indicators/Indicators.rdf version of the ontology was modified to eliminate deprecations that are more than 6 months old and to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/TermStructure http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/DatedStructuredCollection
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/hasQuotationDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/MarketSpread http://www.w3.org/2000/01/rdf-schema#subClassOf N7e50b4f48ab94d0482c9cc50cbe9bb7d
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/MarketRate http://www.w3.org/2000/01/rdf-schema#subClassOf N89b78fa1a51b41fbaa3e7ab21bbb42ca
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/Volatility http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N631f2076f09349c5b15179fcea9bd6f5 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/HistoricalPriceVolatility http://www.w3.org/2000/01/rdf-schema#label historical price volatility
+N6d793b9c6d6d4ed1b7247ec42c76b1fa http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/hasQuotationDateTime
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/PriceStructure https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Historical prices are needed not only for various statistical analyses but for determining best prices for certain kinds of options, for example. Note that prices may be quoted or calculated.
+N7e50b4f48ab94d0482c9cc50cbe9bb7d http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/MarketRate
+N3a060b55940d40e591caa64d0b6ff7ed http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/hasQuotationDateTime
+N7e50b4f48ab94d0482c9cc50cbe9bb7d http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasArgument
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/IND/20200401/Indicators/Indicators.rdf version of this ontology was modified to reflect the move of dated collection from arrangements to financial dates.
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/PriceStructure http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/DatedStructuredCollection
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/IND/20160801/Indicators/Indicators.rdf version of this ontology was modified per the FIBO 2.0 RFC, namely, to integrate concepts recently added to the FND domain including Rate, ExchangeRate, InterestRate and StructuredCollection and revise definitions of TermStructure and Volatility to better support concepts such as yield curves and analysis of market rates generally.
+N89b78fa1a51b41fbaa3e7ab21bbb42ca http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#decimal
+N631f2076f09349c5b15179fcea9bd6f5 http://www.w3.org/2002/07/owl#onDataRange https://www.omg.org/spec/Commons/DatesAndTimes/CombinedDateTime
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/QuotedPrice http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/HistoricalPriceVolatility https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Calculations for historical volatility are generally based on the change from one closing price to the next.
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/MarketRate http://www.w3.org/2000/01/rdf-schema#label market rate
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/Volatility http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Dispersion
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/PriceVolatility http://www.w3.org/2000/01/rdf-schema#label price volatility
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/IND/20230201/Indicators/Indicators.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ http://www.w3.org/2000/01/rdf-schema#label Indicators Ontology
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/DailyAverageMarketRate http://www.w3.org/2004/02/skos/core#definition overall level of a given rate, calculated as the sum of some selected observed values of the rates for a particular reference rate, foreign exchange rate, lending rate, or other market rate divided by the number of samples collected over the course of a twenty-four (24) hour period for a specific date
+N23d36ec63a6542e5a385854324518f03 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/hasConstituent
+N89b78fa1a51b41fbaa3e7ab21bbb42ca http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N23d36ec63a6542e5a385854324518f03 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+Nf1277273eeb14839b2e774228c79b84f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N6d793b9c6d6d4ed1b7247ec42c76b1fa http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ImpliedPriceVolatility http://www.w3.org/2000/01/rdf-schema#label implied price volatility
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/QuotedPrice http://www.w3.org/2000/01/rdf-schema#subClassOf N631f2076f09349c5b15179fcea9bd6f5
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/HistoricalVolatility https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym realized volatility
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/QuotedPrice http://www.w3.org/2000/01/rdf-schema#label quoted price
+N3c600851bc094de8a32c477e53dbf3fb http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/MarketRate
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/MarketSpread http://www.w3.org/2000/01/rdf-schema#label market spread
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/IND/20190901/Indicators/Indicators.rdf version of this ontology was modified to eliminate a redundant superclass declaration on MarketSpread, introduced by refactoring of FND analytics.
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/QuotedPrice http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryPrice
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/EndOfDayMarketRate http://www.w3.org/2000/01/rdf-schema#subClassOf Nae2e26accf07439a8c24b9b836d22a44
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/Volatility http://www.w3.org/2000/01/rdf-schema#subClassOf N56cea29a4a484f9a8bfb44084b0e1b92
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/IND/20190501/Indicators/Indicators.rdf version of this ontology was modified to eliminate deprecated elements.
+N853276d0af504717b4aef7e0f500100d http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Variance
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/Volatility http://www.w3.org/2000/01/rdf-schema#label volatility
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ImpliedVolatility http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/Volatility
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/HistoricalVolatility http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/Volatility
+N1e4650954f354d848c21ea0a714b2ee7 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ImpliedPriceVolatility http://www.w3.org/2004/02/skos/core#definition measure of volatility that represents the expected fluctuations of an underlying stock or index over a specific time frame
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/MarketSpread http://www.w3.org/2004/02/skos/core#definition statistical measure providing the difference (or spread) between two market rates
+N3a060b55940d40e591caa64d0b6ff7ed http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/PriceStructure https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym price history
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/HistoricalPriceVolatility http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/HistoricalVolatility
+N1053542dbde04580b86f4c0e1c18ffbf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nf1277273eeb14839b2e774228c79b84f http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+Nae2e26accf07439a8c24b9b836d22a44 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/DatesAndTimes/
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/MarketSpread http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ScopedMeasure
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/hasQuotationDateTime http://www.w3.org/2000/01/rdf-schema#label has quotation date and time
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/PriceStructure http://www.w3.org/2000/01/rdf-schema#label price structure
+Nf1277273eeb14839b2e774228c79b84f http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/QuantitiesAndUnits/isValueOf
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/MarketRate http://www.w3.org/2004/02/skos/core#definition value of a rate established in the marketplace for a set of instruments or that describes the economic climate for an industry and/or political region (e.g., SOFR, Prime)
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/EndOfDayMarketRate http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/MarketRate
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/MarketRate http://www.w3.org/2004/02/skos/core#scopeNote known collectively (in the CFI Standard) as referential instruments
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/hasQuotationDateTime http://www.w3.org/2004/02/skos/core#definition indicates a quotation date and possibly a time for a given market rate, interest rate, indicator, or other quoted pricing information
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ImpliedVolatility https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym projected volatility
+N1e4650954f354d848c21ea0a714b2ee7 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasArgument
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ImpliedPriceVolatility http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ImpliedVolatility
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/IND/20221001/Indicators/Indicators.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.
+Nccee33b01c11433aba72dc61a230363c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N56cea29a4a484f9a8bfb44084b0e1b92 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/DatesAndTimes/hasDatePeriod
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/DailyAverageMarketRate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/HistoricalPriceVolatility http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/MarketSpread http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2014-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/HistoricalVolatility http://www.w3.org/2004/02/skos/core#definition measure of volatility that uses actual values for pricing, rates, and other measurements calculated over some prior period
+Nccee33b01c11433aba72dc61a230363c http://www.w3.org/2002/07/owl#unionOf N853276d0af504717b4aef7e0f500100d
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/IND/20220801/Indicators/Indicators.rdf version of this ontology was modified to loosen the nature of a price in a price structure to include any price, not limited to a quoted price from a specific source, to allow for calculated prices to be included in the structure and to deprecate redundant terms including financial information publisher, and published financial information.
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/HistoricalPriceVolatility http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/PriceVolatility
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ImpliedVolatility http://www.w3.org/2000/01/rdf-schema#label implied volatility
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/TermStructure http://www.w3.org/2000/01/rdf-schema#label term structure
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/TermStructure http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N1053542dbde04580b86f4c0e1c18ffbf http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/DatedStructuredCollection
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/PriceVolatility http://www.w3.org/2004/02/skos/core#definition statistical measure of the rate of change in pricing for a given security or market index
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/DailyAverageMarketRate http://www.w3.org/2000/01/rdf-schema#subClassOf N3a060b55940d40e591caa64d0b6ff7ed
+N1053542dbde04580b86f4c0e1c18ffbf http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasArgument
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/hasQuotationDate https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Typically this property reflects a daily average or end of day quote.
+N3a060b55940d40e591caa64d0b6ff7ed http://www.w3.org/2002/07/owl#onDataRange https://www.omg.org/spec/Commons/DatesAndTimes/CombinedDateTime
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/PriceStructure http://www.w3.org/2004/02/skos/core#definition structured collection of prices, such as market prices for some index or security, such that volatility or other analyses may be performed over the structure
+Nae2e26accf07439a8c24b9b836d22a44 http://www.w3.org/2002/07/owl#onDataRange https://www.omg.org/spec/Commons/DatesAndTimes/CombinedDateTime
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ImpliedPriceVolatility http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/MarketRate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N89b78fa1a51b41fbaa3e7ab21bbb42ca http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/hasQuotationDate https://www.omg.org/spec/Commons/AnnotationVocabulary/usageNote Note that this property requires a reified date value, if used.
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/EndOfDayMarketRate http://www.w3.org/2004/02/skos/core#definition value of a given market rate of the end of the business day for a specific date
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/HistoricalPriceVolatility http://www.w3.org/2004/02/skos/core#definition historical volatility measure of past trading ranges of prices of underlying securities and indexes
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/hasQuotationDateTime http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/CombinedDateTime
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/hasQuotationDateTime http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/MarketRate http://www.w3.org/2004/02/skos/core#scopeNote Market rates include but may not be limited to the following:
+	(1) Index: Statistical composite that measures changes in the economy or in financial markets, often expressed in percentage changes from a base year or from the previous month
+	(2) Money Rate: Benchmark or guideline for interest rates determined by central banks or economical climate as a whole
+	(3) Bankers' Acceptance Rate: Benchmark reflecting market fluctuations of Bankers' Acceptance issued instruments
+	(4) Commercial Paper Rate: Benchmark reflecting market fluctuations of Commercial Paper issued instruments
+	(5) Certificate of Deposit Rate: Benchmark reflecting market fluctuations of Certificate of Deposit issued instruments
+	(6) Interbank Rate
+	(7) Prime
+	(8) Time Deposit Rate: Benchmark reflecting market fluctuations of Deposit/Redeposit issued instruments
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ImpliedVolatility http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/HistoricalVolatility http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/PriceVolatility http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/Volatility
+N3c600851bc094de8a32c477e53dbf3fb http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/hasConstituent
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/MarketRate http://www.w3.org/2000/01/rdf-schema#subClassOf N6d793b9c6d6d4ed1b7247ec42c76b1fa
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/isVolatilityOf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+N3a060b55940d40e591caa64d0b6ff7ed http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/hasQuotationDate http://www.w3.org/2004/02/skos/core#definition indicates the quotation date for a given market rate or indicator
+N6d793b9c6d6d4ed1b7247ec42c76b1fa http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N631f2076f09349c5b15179fcea9bd6f5 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/hasQuotationDateTime
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/EndOfDayMarketRate http://www.w3.org/2000/01/rdf-schema#label end-of-day market rate
+N89b78fa1a51b41fbaa3e7ab21bbb42ca http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasRateValue
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/QuantitiesAndUnits/
+N6d793b9c6d6d4ed1b7247ec42c76b1fa http://www.w3.org/2002/07/owl#onDataRange https://www.omg.org/spec/Commons/DatesAndTimes/CombinedDateTime
+https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/TermStructure https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Term structure refers to a set of discrete points; elements are ordered by time. Restrictions on the rate (see above) and a point in time, paired together, and then ordered in a structured collection is how this should ultimately be modeled. Then the concept of yield curve would be a child of term structure, for calculation of net present value, for example. Term structures consist of two or more observed or projected values, typically related to debt instruments or interest rates. assessment of monetary policy conditions, and so forth.

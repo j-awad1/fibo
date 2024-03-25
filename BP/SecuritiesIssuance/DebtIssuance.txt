@@ -1,0 +1,253 @@
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/BondIssuanceProgramme http://www.w3.org/2000/01/rdf-schema#subClassOf N48f4f7be7f894136b8d98cb0161d247d
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/DebtIssuanceProcessInformation http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/TradedInstrumentIssuanceProcessInformation
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/MuniIssueUnderwriter http://www.w3.org/2004/02/skos/core#definition The party which agrees to buy any certificates that are not bought by investors Term origin:DTCC
+Na447e6c495c647fdac023610929a6fc8 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/hasStage
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/announces http://www.w3.org/2000/01/rdf-schema#label announces
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/MediumTermNoteIssuanceProgramme http://www.w3.org/2000/01/rdf-schema#subClassOf Ne932083a91be45af84f03832a1eaaf80
+N5a946a7f94b4418687d292f1c59a0c40 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/NotYetIssued http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/PrivateLabelMBSIssuance/PoolLifecycleStateSelection
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/BondIssuanceProgramme http://www.w3.org/2004/02/skos/core#definition a debt issuance programe under which an entity may, from time to time, issue bonds under the terms and conditions specified in the base prospectus for that programme
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/BondOfferingWithWarrant http://www.w3.org/2000/01/rdf-schema#label bond offering with warrant
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/DebtIssuanceProgramme http://www.w3.org/2000/01/rdf-schema#label debt issuance programme
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/hasDebtIssuancePurpose http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/DebtIssuanceProcessInformation
+N201972696a784e428ea0804129575aa4 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N48f4f7be7f894136b8d98cb0161d247d http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/CompletedDebtsPool http://www.w3.org/2000/01/rdf-schema#subClassOf N17a60b8b307d4538a79bc813db113efd
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/MTNRegistration http://www.w3.org/2000/01/rdf-schema#subClassOf Nd81f55d416784582bb1bd499503b8abf
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/PoolBackedSecuritySecuritizationProcessActor http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/CompletedDebtsPool http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Pools/DebtPool
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/hasOriginalIssueDiscount http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/BondOffering
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/AdvancedRefunding http://www.w3.org/2004/02/skos/core#definition refunding in which bond issuance in which new bonds are sold at a lower rate than outstanding ones
+Ne932083a91be45af84f03832a1eaaf80 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/RemarketingPurpose http://www.w3.org/2000/01/rdf-schema#label remarketing purpose
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/NewMoneyPurpose http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N6bef5c222f4742509f79468db84057f8 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/PoolBackedSecuritySecuritizationProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/underwriterTakedownAmount http://www.w3.org/2004/02/skos/core#definition Takedown amount of the security handled by the underwriter(that will be brought into DTC).
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/SecuritizationProcessActor http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/NotYetIssuedDebtsPool http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/NotYetIssued http://www.w3.org/2000/01/rdf-schema#label not yet issued
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/NewMoneyPurpose http://www.w3.org/2000/01/rdf-schema#label new money purpose
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/MediumTermNoteOffering http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/BondOffering
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/hasOriginalIssueDiscount http://www.w3.org/2000/01/rdf-schema#label has original issue discount
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/HomeEquityLineOfCreditPoolCreationProcess http://www.w3.org/2000/01/rdf-schema#label home equity line of credit pool creation process
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/hasOriginalIssueDiscount https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The OID is the difference between the stated redemption price at maturity and the actual issue price.
+N2d76dacc02b3443fae70ed89d80dd979 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/PoolBackedSecuritySecuritizationProcessActor http://www.w3.org/2000/01/rdf-schema#subClassOf Nc7509e4fc3274df090e261d973cc5c56
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/DebtIssuanceProgramme http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/DebtInstruments/DebtOffering http://www.w3.org/2000/01/rdf-schema#subClassOf N5a946a7f94b4418687d292f1c59a0c40
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/RetailAssetPoolCreationProcess http://www.w3.org/2000/01/rdf-schema#label retail asset pool creation process
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/DebtSecuritizationProcess http://www.w3.org/2000/01/rdf-schema#label debt securitization process
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/AssetPoolCreationProcess http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/RetailAssetPoolCreationProcess http://www.w3.org/2004/02/skos/core#definition The process by which pools of assets are created. These may then be used in the issue of securities based on those asset pools as underlying.
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/UnderwriterTakedownForDebt http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/UnderwriterTakedown
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/resultsIn http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/PrivateLabelMBSIssuance/PotentialTranchedIssueUnderwriter
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/
+Nae370870aa764575a46174c5946e5374 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/DebtInstruments/DebtOffering
+N8a7d5ffc7f0e477ea34033823108f5e2 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/DebtIssuancePurpose
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/Issued http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/BondOffering http://www.w3.org/2000/01/rdf-schema#label bond offering
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/SecuritizationProcessActor http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/SecuritiesIssuanceProcessActor
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/
+Ne5304254ff684c13b5aeea31ccfeba5a http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/NotYetIssued
+Nc0c87e77ca1942cd89c8ea843ae04845 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/MediumTermNoteIssuanceProgramme http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/BondIssuanceProgramme
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/RemarketingPurpose http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/DebtIssuancePurpose
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/PoolBackedSecuritySecuritizationProcess http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/PoolBackedSecuritySecuritizationProcess http://www.w3.org/2000/01/rdf-schema#label pool backed security securitization process
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/DebtIssuancePurpose http://www.w3.org/2000/01/rdf-schema#label debt issuance purpose
+N2d76dacc02b3443fae70ed89d80dd979 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/isUnderwrittenBy
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/CDOSecuritizationProcess http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/DebtSecuritizationProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/RetailAssetPoolCreationProcess http://www.w3.org/2000/01/rdf-schema#subClassOf Na32d660935d64d858e5190b9298d4cce
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/BondOfferingWithWarrant http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N4bea5b1200e24e128b805c82a368455b http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/Bonds/Bond
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/NotYetIssued http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N48f4f7be7f894136b8d98cb0161d247d http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/InAssemblyDebtsPool http://www.w3.org/2000/01/rdf-schema#label in assembly debts pool
+Ne932083a91be45af84f03832a1eaaf80 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+N23863fbd53be48f08cc4883a38d9c915 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/ContextualDesignators/appliesTo
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/BondIssuanceProgramme http://www.w3.org/2000/01/rdf-schema#label bond issuance programme
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/MuniIssueUnderwriter http://www.w3.org/2000/01/rdf-schema#label muni issue underwriter
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/MuniIssueUnderwriter http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/IssuanceProcessActivity http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/CDOSecuritizationProcess http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/UnderwriterTakedownForDebt http://www.w3.org/2004/02/skos/core#definition information on takedown quantity of the debt security handled by the underwriter (that will be brought into DTC)
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/DebtInstruments/DebtOffering http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/PrivateLabelMBSIssuance/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/AdvancedRefunding http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/RefundingPurpose
+Nc7509e4fc3274df090e261d973cc5c56 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N48f4f7be7f894136b8d98cb0161d247d http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/BondOffering
+N5824f40855fd474b8eca0ddc7b668e3e http://www.w3.org/2002/07/owl#unionOf Na8caeaa88661480cbd6ae290f3b6f9da
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/InIssuance http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/UnderwriterTakedownForDebt http://www.w3.org/2000/01/rdf-schema#label underwriter takedown for debt
+N17a60b8b307d4538a79bc813db113efd http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/hasStage
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/isBankQualified http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/InAssemblyDebtsPool http://www.w3.org/2000/01/rdf-schema#subClassOf Na447e6c495c647fdac023610929a6fc8
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/BondOfferingWithWarrant http://www.w3.org/2000/01/rdf-schema#subClassOf N23863fbd53be48f08cc4883a38d9c915
+N23863fbd53be48f08cc4883a38d9c915 http://www.w3.org/2002/07/owl#someValuesFrom N5824f40855fd474b8eca0ddc7b668e3e
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/CompletedDebtsPool http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/DatesAndTimes/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/CreditCardPoolCreationProcess http://www.w3.org/2000/01/rdf-schema#label credit card pool creation process
+N8a7d5ffc7f0e477ea34033823108f5e2 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/hasDebtIssuancePurpose
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/BondIssuanceProgramme http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/DebtIssuanceProgramme
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/InAssembly http://www.w3.org/2000/01/rdf-schema#label in assembly
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/BondOfferingWithWarrant http://www.w3.org/2004/02/skos/core#definition a bond offering where the issue includes a warrant; Further notes: ISO 10962 CFI definition is A bond that is issued together with one or more warrant(s) attached as part of the offer, the warrant(s) granting the holder the right to purchase a designated security, often the common stock of the issuer of the debt, at a specified price. Review notes: This need not be any specific type of bond. The warrant is used as a sweetener to encourage people to subscribe to a new bond issue. The Bond and the Warrant trade together as a unit (called "Bond Unit").
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/PoolBackedSecurities/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/DebtInstruments/DebtOffering http://www.w3.org/2000/01/rdf-schema#subClassOf N201972696a784e428ea0804129575aa4
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/AssetPoolCreationProcess http://www.w3.org/2000/01/rdf-schema#label asset pool creation process
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/MTNRegistration http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Registration
+Nae370870aa764575a46174c5946e5374 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/RefundingPurpose http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/underwriterTakedownAmount http://www.w3.org/2000/01/rdf-schema#label underwriter takedown amount
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/ABSSecuritizationProcess http://www.w3.org/2000/01/rdf-schema#label a b s securitization process
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/BondIssuanceProgramme http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/DebtIssuanceProcessInformation http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/underwriterTakedownAmount http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/InAssemblyDebtsPool http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Pools/DebtPool
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/InAssembly http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/PoolBackedSecuritySecuritizationProcess http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/DebtSecuritizationProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/HomeEquityLineOfCreditPoolCreationProcess http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/RetailAssetPoolCreationProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/DebtInstrumentPoolCreationProcess http://www.w3.org/2000/01/rdf-schema#label debt instrument pool creation process
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/NotYetIssuedDebtsPool http://www.w3.org/2000/01/rdf-schema#label not yet issued debts pool
+N23863fbd53be48f08cc4883a38d9c915 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Ne5304254ff684c13b5aeea31ccfeba5a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N17a60b8b307d4538a79bc813db113efd http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/InIssuance
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/isBankQualified http://www.w3.org/2004/02/skos/core#definition designation given to a public purpose bond offering by the issuer if it reasonably expects to issue in the calendar year of such offering no more than $10 million par amount of bonds of the type required to be included in making such calculation under the Internal Revenue Code.  When purchased by a commercial bank for its portfolio, the bank may receive an 80% tax deduction for the interest cost of carry for the issue.  A bond that is bank qualified is also known as a qualified tax-exempt obligation.
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/Issued http://www.w3.org/2000/01/rdf-schema#label issued
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/MuniIssueUnderwriter http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityUnderwriter
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/InAssemblyDebtsPool http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/MTNRegistration http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/resultsIn http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/CreditCardPoolCreationProcess http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/RetailAssetPoolCreationProcess
+N2d76dacc02b3443fae70ed89d80dd979 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityUnderwriter
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/RefundingPurpose http://www.w3.org/2000/01/rdf-schema#label refunding purpose
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Provisional
+Nadb1c8be81c34646b1f4bfb7360b9bc3 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/BondOfferingWithWarrant http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/MediumTermNoteOffering
+N5a946a7f94b4418687d292f1c59a0c40 http://www.w3.org/2002/07/owl#maxQualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/MediumTermNoteOffering http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/isBankQualified http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#boolean
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/DebtIssuancePurpose http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/NewMoneyPurpose http://www.w3.org/2004/02/skos/core#definition securities issued to raise funds for a new project or purpose
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/underwriterTakedownAmount http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/
+N6bef5c222f4742509f79468db84057f8 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+Nadb1c8be81c34646b1f4bfb7360b9bc3 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/Prospectus
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Documents/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/isBankQualified http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/BondOffering
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/hasOriginalIssueDiscount http://www.w3.org/2004/02/skos/core#definition discount from par value at the time a bond or other debt instrument is issued
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/DebtInstruments/DebtOffering http://www.w3.org/2000/01/rdf-schema#subClassOf N2d76dacc02b3443fae70ed89d80dd979
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/DebtIssuanceProgramme http://www.w3.org/2000/01/rdf-schema#subClassOf Nae370870aa764575a46174c5946e5374
+Nd81f55d416784582bb1bd499503b8abf http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/MediumTermNoteIssuanceProgramme
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/RefundingPurpose http://www.w3.org/2004/02/skos/core#definition a procedure whereby an issuer refinances outstanding bonds by issuing new bonds
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/SecuritizationProcessActor http://www.w3.org/2000/01/rdf-schema#label securitization process actor
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/LoanPoolCreationProcess http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/RetailAssetPoolCreationProcess
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/DebtInstruments/DebtOffering http://www.w3.org/2000/01/rdf-schema#subClassOf Nadb1c8be81c34646b1f4bfb7360b9bc3
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/InIssuance http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/PrivateLabelMBSIssuance/PoolLifecycleStateSelection
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/BondOffering http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/InIssuance http://www.w3.org/2000/01/rdf-schema#label in issuance
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/LoanPoolCreationProcess http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nd81f55d416784582bb1bd499503b8abf http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Documents/isAbout
+Nae370870aa764575a46174c5946e5374 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/IssuanceProcessActivity http://www.w3.org/2004/02/skos/core#definition An activity within the process of securities issuance.
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/DebtInstruments/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/DebtIssuanceProgramme http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/IssuanceProgramme
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/NewMoneyPurpose http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/DebtIssuancePurpose
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/DebtSecuritizationProcess http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/DebtAuctionProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/hasOriginalIssueDiscount http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/QuantitiesAndUnits/Percentage
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/Bonds/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/ABSSecuritizationProcess http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nc7509e4fc3274df090e261d973cc5c56 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/evaluates
+N201972696a784e428ea0804129575aa4 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/ContextualDesignators/appliesTo
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/RemarketingPurpose http://www.w3.org/2004/02/skos/core#definition the process of reselling securities to the public that have been tendered for purchase by the previous owners thereof
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/RemarketingPurpose http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/RetailAssetPoolCreationProcess http://www.w3.org/2000/01/rdf-schema#subClassOf N6bef5c222f4742509f79468db84057f8
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/MediumTermNoteIssuanceProgramme http://www.w3.org/2004/02/skos/core#definition a program of offerings of medium term notes; a set of issues where the maturity is defined after the rest of the terms have been registered with some authority; these are registered up front so that then the company wants to borrow more money they don't have to go through the registration period but have the facility up front to issue another security.
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/IssuanceProcessActivity http://www.w3.org/2000/01/rdf-schema#label issuance process activity
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/DebtIssuancePurpose http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/Objective
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/InAssembly http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/PrivateLabelMBSIssuance/PoolLifecycleStateSelection
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/MediumTermNoteIssuanceProgramme http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/AdvancedRefunding http://www.w3.org/2000/01/rdf-schema#label advance refunding
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/QuantitiesAndUnits/
+Ne932083a91be45af84f03832a1eaaf80 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/MediumTermNoteOffering
+Ne5304254ff684c13b5aeea31ccfeba5a http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/hasStage
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/RetailAssetPoolCreationProcess http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/AssetPoolCreationProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/DebtIssuanceProcessInformation http://www.w3.org/2000/01/rdf-schema#subClassOf N8a7d5ffc7f0e477ea34033823108f5e2
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/DebtIssuanceProcessInformation http://www.w3.org/2000/01/rdf-schema#label debt issuance process information
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/AdvancedRefunding http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/DebtIssuanceProcessInformation http://www.w3.org/2004/02/skos/core#definition information specific to the issuance of a debt security
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/CompletedDebtsPool http://www.w3.org/2000/01/rdf-schema#label completed debts pool
+Nc7509e4fc3274df090e261d973cc5c56 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/IssuanceProcessActivity
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/PoolBackedSecuritySecuritizationProcessActor http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/SecuritizationProcessActor
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/resultsIn http://www.w3.org/2000/01/rdf-schema#label results in
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/BondOffering http://www.w3.org/2004/02/skos/core#definition a debt offering of one or more bonds, as all or part of an issuance programme
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Pools/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/MTNRegistration http://www.w3.org/2000/01/rdf-schema#label m t n registration
+N8a7d5ffc7f0e477ea34033823108f5e2 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/isBankQualified http://www.w3.org/2000/01/rdf-schema#label is bank qualified
+Na32d660935d64d858e5190b9298d4cce http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Pools/DebtPool
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/DebtInstrumentPoolCreationProcess http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/BondOffering http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/DebtInstruments/DebtOffering
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2013-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/ http://www.w3.org/2000/01/rdf-schema#label Debt Issuance Ontology
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/CreditCardPoolCreationProcess http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/AdvancedRefunding https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The proceeds are then invested, and when the older bonds become callable they are paid off with the invested proceeds.
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/HomeEquityLineOfCreditPoolCreationProcess http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/CDOSecuritizationProcess http://www.w3.org/2000/01/rdf-schema#label c d o securitization process
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/ABSSecuritizationProcess http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/PoolBackedSecuritySecuritizationProcess
+Na32d660935d64d858e5190b9298d4cce http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isProducedBy
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/hasDebtIssuancePurpose http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/RightsAndWarrants/
+Na447e6c495c647fdac023610929a6fc8 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/InAssembly
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Collections/
+N5824f40855fd474b8eca0ddc7b668e3e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N5a946a7f94b4418687d292f1c59a0c40 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/hasOfferingAmount
+Na447e6c495c647fdac023610929a6fc8 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/NotYetIssuedDebtsPool http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Pools/DebtPool
+Nc0c87e77ca1942cd89c8ea843ae04845 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/DatesAndTimes/precedes
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/UnderwriterTakedownForDebt http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/announces http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/hasOriginalIssueDiscount http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/PoolBackedSecuritySecuritizationProcessActor http://www.w3.org/2000/01/rdf-schema#label pool backed security securitization process actor
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/MediumTermNoteIssuanceProgramme http://www.w3.org/2000/01/rdf-schema#label medium term note issuance programme
+Nc0c87e77ca1942cd89c8ea843ae04845 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/DebtSecuritizationProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/RetailAssetPoolCreationProcess http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/MediumTermNoteOffering http://www.w3.org/2000/01/rdf-schema#label medium term note offering
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/announces http://www.w3.org/2004/02/skos/core#definition The issue of one or more securities that the announcement pertains to.
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/hasDebtIssuancePurpose http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/DebtIssuancePurpose
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/AssetPoolCreationProcess http://www.w3.org/2000/01/rdf-schema#subClassOf Nc0c87e77ca1942cd89c8ea843ae04845
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/ContextualDesignators/
+N201972696a784e428ea0804129575aa4 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/DebtInstruments/TradableDebtInstrument
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/DebtInstrumentPoolCreationProcess http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/AssetPoolCreationProcess
+Na8caeaa88661480cbd6ae290f3b6f9da http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/RightsAndWarrants/TraditionalWarrant
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/BondOfferingWithWarrant http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/BondOffering
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/NotYetIssuedDebtsPool http://www.w3.org/2000/01/rdf-schema#subClassOf Ne5304254ff684c13b5aeea31ccfeba5a
+Na32d660935d64d858e5190b9298d4cce http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/DebtIssuanceProgramme http://www.w3.org/2004/02/skos/core#definition a series of debt security issuances over time
+N6bef5c222f4742509f79468db84057f8 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/DatesAndTimes/precedes
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+Na8caeaa88661480cbd6ae290f3b6f9da http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N4bea5b1200e24e128b805c82a368455b
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/ http://purl.org/dc/terms/abstract General issuance process for issuance of debt instruments. Forms the basis for more detailed issuance processes such as MBS issuance and municipal bonds issue.
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/LoanPoolCreationProcess http://www.w3.org/2000/01/rdf-schema#label loan pool creation process
+Nd81f55d416784582bb1bd499503b8abf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/DebtSecuritizationProcess http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nadb1c8be81c34646b1f4bfb7360b9bc3 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/isEvidencedBy
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/DebtSecuritizationProcess http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/DebtSecuritizationProcess http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/SecuritiesIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/hasDebtIssuancePurpose http://www.w3.org/2000/01/rdf-schema#label has debt issuance purpose
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/DebtIssuancePurpose http://www.w3.org/2004/02/skos/core#definition purpose for the issuance of a debt security; also defines processes to be followed in some instances
+N17a60b8b307d4538a79bc813db113efd http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/Issued http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/PrivateLabelMBSIssuance/PoolLifecycleStateSelection
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/RefundingPurpose http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/DebtIssuancePurpose
+N4bea5b1200e24e128b805c82a368455b http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+N5a946a7f94b4418687d292f1c59a0c40 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/underwriterTakedownAmount http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/UnderwriterTakedownForDebt

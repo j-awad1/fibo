@@ -1,0 +1,92 @@
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GG/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MC/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/GovernmentEntities/EuropeanJurisdiction/SouthernEuropeGovernmentEntitiesAndJurisdictions/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PL/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MK/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IE/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ES/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://purl.org/dc/terms/title EDMC Financial Industry Business Ontology (FIBO) Business Entities (BE) Domain, European Extension
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/GovernmentEntities/EuropeanJurisdiction/WesternEuropeGovernmentEntitiesAndJurisdictions/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://purl.org/dc/terms/contributor Pinnacle Bank (Morgan Hill, California)
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RU/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://purl.org/dc/terms/contributor Exprentis
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/AllBE/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://purl.org/dc/terms/contributor Nordea Bank AB
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://purl.org/dc/terms/contributor Federated Knowledge LLC
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/UN-M49-RegionCodes/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DK/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BE/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2015-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://purl.org/dc/terms/contributor State Street Bank and Trust
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The 'all' ontology for BE (European Extension) is provided for convenience for FIBO users.  This ontology does not add new assertions, but imports most of the Production (Released) ontologies that comprise the FIBO Business Entities (BE) domain, including all individuals for European governments and jurisdictions, and the related LCC region-specific ontologies. Note that the 45 ISO 3166-2 subdivision ontologies included are those defined as being part of Europe in the U.N. M49 Codes.
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GR/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://purl.org/dc/terms/contributor Deutsche Bank
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SM/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AD/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://purl.org/dc/terms/contributor Tahoe Blue Ltd
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://purl.org/dc/terms/contributor Credit Suisse
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DE/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RS/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://purl.org/dc/terms/contributor agnos.ai UK Ltd.
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BY/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AL/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://purl.org/dc/terms/contributor Hypercube Ltd.
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://purl.org/dc/terms/contributor Statistics Canada
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/GovernmentEntities/EuropeanJurisdiction/EUGovernmentEntitiesAndJurisdictions/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2000/01/rdf-schema#seeAlso https://spec.edmcouncil.org/fibo/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LI/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PT/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2015-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LU/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://purl.org/dc/terms/contributor Wells Fargo
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://purl.org/dc/terms/issued 2018-08-27T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://purl.org/dc/terms/contributor Working Ontologist
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://purl.org/dc/terms/contributor Citigroup
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/GovernmentEntities/EuropeanJurisdiction/NorthernEuropeGovernmentEntitiesAndJurisdictions/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MD/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://purl.org/dc/terms/contributor Bloomberg LP
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://purl.org/dc/terms/contributor John F. Gemski
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/GovernmentEntities/EuropeanJurisdiction/UKGovernmentEntitiesAndJurisdictions/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://purl.org/dc/terms/abstract This ontology provides metadata about the FIBO Business Entities (BE) Domain, which covers defines business concepts that are used for data governance, interoperability, and in regulatory reporting about business entities.
+
+The business scope of the BE ontologies covers a range of business and legal entities that are considered by financial industry firms, regulators and other industry participants to be of relevance in the financial services domain, including:
+ - Legal entities generally
+ - Corporate structure, ownership and control, including primary executive roles for businesses,
+ - Functional entities such as governments and government entities, non-governmental organizations, international organizations, not-for-profit organization, etc.
+ - Concepts specific to corporations, partnerships, private limited companies, sole proprietorships, and trusts.
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://purl.org/dc/terms/license http://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://purl.org/dc/terms/contributor Thematix Partners LLC
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BA/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AT/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SJ/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://purl.org/dc/terms/creator https://wiki.edmcouncil.org/display/BE/FIBO+-+FCT+-+Business+Entities+Home
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://purl.org/dc/terms/contributor Adaptive, Inc.
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GB/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://purl.org/dc/terms/modified 2023-01-27T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2000/01/rdf-schema#label Business Entities Domain, European Extension
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/BE/20230101/AllBE-Europe/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FR/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SK/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://purl.org/dc/terms/contributor Office of Financial Research (US Dept of the Treasury)
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/GovernmentEntities/EuropeanJurisdiction/EasternEuropeGovernmentEntitiesAndJurisdictions/
+https://spec.edmcouncil.org/fibo/ontology/BE/AllBE-Europe/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SI/

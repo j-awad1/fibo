@@ -1,0 +1,22 @@
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/MetadataBECorporations/CorporationsModule http://purl.org/dc/terms/title FIBO BE Corporations Module
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/MetadataBECorporations/CorporationsModule https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2015-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/MetadataBECorporations/CorporationsModule http://purl.org/dc/terms/abstract The corporations module includes ontologies describing the essential features of companies incorporated through the issuance of shares.
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/MetadataBECorporations/CorporationsModule http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/MetadataBECorporations/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/MetadataBECorporations/CorporationsModule http://www.w3.org/2000/01/rdf-schema#label corporations module
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/MetadataBECorporations/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/MetadataBECorporations/ http://purl.org/dc/terms/license http://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/MetadataBECorporations/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2015-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/MetadataBECorporations/CorporationsModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations/
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/MetadataBECorporations/CorporationsModule http://www.w3.org/2000/01/rdf-schema#seeAlso https://spec.edmcouncil.org/fibo/
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/MetadataBECorporations/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/MetadataBECorporations/CorporationsModule http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Module
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/MetadataBECorporations/ http://purl.org/dc/terms/modified 2023-01-24T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/MetadataBECorporations/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2015-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/MetadataBECorporations/CorporationsModule http://purl.org/dc/terms/license http://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/MetadataBECorporations/ http://purl.org/dc/terms/issued 2018-08-27T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/MetadataBECorporations/CorporationsModule https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2015-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/MetadataBECorporations/ http://purl.org/dc/terms/abstract The corporations module includes ontologies describing the essential features of companies incorporated through the issuance of shares.
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/MetadataBECorporations/CorporationsModule http://purl.org/dc/terms/title Financial Industry Business Ontology (FIBO) Business Entities (BE) Corporations Module
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/MetadataBECorporations/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/BE/20230101/Corporations/MetadataBECorporations/
+https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/MetadataBECorporations/ http://www.w3.org/2000/01/rdf-schema#label Metadata about the EDMC-FIBO Business Entities (BE) Corporations Module

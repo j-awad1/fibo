@@ -1,0 +1,186 @@
+N5c3100f24d4b447eae20beb03724ad74 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/GeneralPartner http://www.w3.org/2000/01/rdf-schema#subClassOf Na25a23ab802341208bd05ac79e589211
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/BE/20240101/Partnerships/Partnerships/
+N08511e8a89fd4f0fac1cbc6208eba197 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/Partnership http://www.w3.org/2000/01/rdf-schema#subClassOf Nd7612582e9f94547967100ae40ba5c73
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/LimitedPartnership http://www.w3.org/2000/01/rdf-schema#subClassOf N84b41211dc3b4d709b204928e4f866d2
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/LimitedLiabilityPartnership http://www.w3.org/2004/02/skos/core#example One example of a limited liability partnership is that of an incorporated limited partnership (ILP) in Australia.
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/PartnershipAgreement http://www.w3.org/2000/01/rdf-schema#label partnership agreement
+Nec74b1f507374fc5be5d03e6b6d0373f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/hasLimitedPartner http://www.w3.org/2000/01/rdf-schema#label has limited partner
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/LimitedLiabilityLimitedPartnership http://www.w3.org/2000/01/rdf-schema#label limited liability limited partnership
+N84b41211dc3b4d709b204928e4f866d2 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N7655d1fab6c245f2a4d8001c6cd06b7a http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/hasMember
+N84b41211dc3b4d709b204928e4f866d2 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/hasLimitedPartner
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/LimitedLiabilityLimitedPartnership http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/LimitedPartnership
+N76df1a083a874403890e844e282d5d49 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isGovernedBy
+N5a3a7c5d93b04282bfd4e16cdf99a575 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/playsRole
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/hasGeneralPartner http://www.w3.org/2004/02/skos/core#definition indicates an actor that has some measure of control over the partnership
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/GeneralPartner http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nd7612582e9f94547967100ae40ba5c73 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/hasObjective
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/GeneralPartner https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Note that although typically a general partner is a person, in the context of certain funds, such as private equity, a general partner may be a firm that manages the fund.
+Nd4b00a9e5ebc403fa87bb814429b2f14 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/LimitedLiabilityLimitedPartnership https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The primary difference between an LLLP and more traditional limited partnership is that an LLLP allows liability transfer from the general partner's (to external insurer) for debts and obligations of the limited partnership. Typically, general partners manage the LLLP, while the limited partners' interest is primarily for investment purposes.
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Release
+N98d1058eae584b40ad3924e0dfe0c93b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N5c3100f24d4b447eae20beb03724ad74 http://www.w3.org/2002/07/owl#someValuesFrom N9d02244a6cec4f519fe426d880c9f77d
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/RolesAndCompositions/
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/LimitedLiabilityPartnership http://www.w3.org/2000/01/rdf-schema#label limited liability partnership
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+Na25a23ab802341208bd05ac79e589211 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/PartnershipAgreement http://www.w3.org/2004/02/skos/core#definition contract between partners in a partnership that establishes the terms and conditions of the relationship between the partners
+Nb0f648a8269a412c8a9d5f02bf51f5c5 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/hasGeneralPartner
+Nd4b00a9e5ebc403fa87bb814429b2f14 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/PartiesAndSituations/isAPartyTo
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/BE/20180801/Partnerships/Partnerships.rdf version of this ontology was modified to simplify / merge the legal person and formal organization class hierarchies.
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/hasGeneralPartner http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/hasLimitedPartner http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/LimitedPartner
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/isGeneralPartnerOf http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/GeneralPartner
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/LimitedPartner http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/GeneralPartner
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/Partnership https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Partnerships exist in many countries world-wide. Examples of the laws related to the establishment and operation of partnerships include the Partnership Act of 1890 in the United Kingdom and the Uniform Partnership Act in the United States.
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/isGeneralPartnerOf http://www.w3.org/2004/02/skos/core#definition indicates the organization that the general partner manages
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/hasGeneralPartner http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/Partnership
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/hasLimitedPartner http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/Partnership
+N76df1a083a874403890e844e282d5d49 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/Partner http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N7655d1fab6c245f2a4d8001c6cd06b7a http://www.w3.org/2002/07/owl#someValuesFrom N5a3a7c5d93b04282bfd4e16cdf99a575
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/LimitedLiabilityLimitedPartnership http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N337af99655da45608a9b9767fa9d741b http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/hasCapacity
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/OwnershipAndControl/ControlParties/
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/BE/20181101/Partnerships/Partnerships.rdf version of this ontology was modified to reflect the move of hasObjective to FND to enable higher level reuse.
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/GeneralPartnership http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/Partnership
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/Partnership http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/BusinessEntity
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/LimitedLiabilityPartnership https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote LLPs are a flexible legal and tax entity that allows partners to benefit from economies of scale by working together while also reducing their liability for the actions of other partners.
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Collections/
+N7d3705e8009e4fe79e9030f4258a9cc8 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/Partnership http://www.w3.org/2004/02/skos/core#definition association of two or more legal persons to carry on as co-owners a business for profit
+N98d1058eae584b40ad3924e0dfe0c93b http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/PartiesAndSituations/hasPartyRole
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/LimitedPartner http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/Partner
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/Partnership http://www.w3.org/2000/01/rdf-schema#subClassOf N7655d1fab6c245f2a4d8001c6cd06b7a
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/isLimitedPartnerOf http://www.w3.org/2000/01/rdf-schema#label is limited partner of
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/BE/20200201/Partnerships/Partnerships.rdf version of this ontology was restructured to simplify the overall structure of partnerships, eliminate kinds of partnerships that do not exist, simplify the concept of a partnership agreement, loosen or eliminate restrictions as appropriate, add common forms of partnership that were missing, and revise definitions to be ISO 704 compliant.
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/LimitedLiabilityPartnership http://www.w3.org/2004/02/skos/core#example Law firms, accountancies, wealth managers, professional medical groups, and other professional consultancies often take the form of a limited liability partnership.
+Nd7612582e9f94547967100ae40ba5c73 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/ProfitObjective
+Nb0f648a8269a412c8a9d5f02bf51f5c5 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/GeneralPartner
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/FormalBusinessOrganizations/
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/LimitedLiabilityPartnership http://www.w3.org/2000/01/rdf-schema#subClassOf Nec74b1f507374fc5be5d03e6b6d0373f
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/Partner http://www.w3.org/2004/02/skos/core#definition co-owner, member, and agent of a partnership whose participation level, including proportional liabilities and share in the profit / loss of the business is specified in a partnership agreement
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/Partner http://www.w3.org/2000/01/rdf-schema#subClassOf N67022c157f8e49aeb8b0cb8b6a642846
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/OwnershipAndControl/OwnershipParties/
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/LimitedPartnership http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/Partnership
+N08511e8a89fd4f0fac1cbc6208eba197 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/GeneralPartnership http://www.w3.org/2004/02/skos/core#definition partnership that has at least two general partners that agree to share in all assets, profits, and financial and legal liabilities of the business
+N67022c157f8e49aeb8b0cb8b6a642846 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N0ec1a3b7ca884a79a3bd77079c771449 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/PartnershipAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf N98d1058eae584b40ad3924e0dfe0c93b
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/LimitedLiabilityLimitedPartnership https://www.omg.org/spec/Commons/AnnotationVocabulary/abbreviation LLLP
+Nec74b1f507374fc5be5d03e6b6d0373f http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/hasGeneralPartner
+N5a3a7c5d93b04282bfd4e16cdf99a575 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/Partner
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/GeneralPartner http://www.w3.org/2000/01/rdf-schema#label general partner
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/GeneralPartnership http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N7655d1fab6c245f2a4d8001c6cd06b7a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/BE/20210401/Partnerships/Partnerships.rdf version of this ontology was modified to fix spelling errors.
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/GeneralPartner http://www.w3.org/2004/02/skos/core#definition partner and part-owner that is responsible for managing the day to day operations of the partnership and that may be jointly and severally liable for the obligations of the partnership
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/isGeneralPartnerOf http://www.w3.org/2002/07/owl#inverseOf https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/hasGeneralPartner
+N337af99655da45608a9b9767fa9d741b http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LiabilityCapacity
+N9d02244a6cec4f519fe426d880c9f77d http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/GeneralPartner
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/PartiesAndSituations/
+N9d02244a6cec4f519fe426d880c9f77d http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/BE/20211201/Partnerships/Partnerships.rdf version of this ontology was modified to address text formatting hygiene issues.
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/Partner http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationMember
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/PartnershipAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/FormalBusinessOrganizations/OrganizationCoveringAgreement
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/isLimitedPartnerOf http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/Partnership
+Ndc6b40c8dff04df5ac850eed51503f4c http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/isMemberOf
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/Partner http://www.w3.org/2000/01/rdf-schema#label partner
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/BE/20230101/Partnerships/Partnerships.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/BE/20190901/Partnerships/Partnerships.rdf version of this ontology was modified to eliminate duplication with concepts in LCC.
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/isGeneralPartnerOf http://www.w3.org/2000/01/rdf-schema#label is general partner of
+N337af99655da45608a9b9767fa9d741b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/LimitedPartnership http://www.w3.org/2000/01/rdf-schema#subClassOf N0ec1a3b7ca884a79a3bd77079c771449
+Nec74b1f507374fc5be5d03e6b6d0373f http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/GeneralPartner
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/isLimitedPartnerOf http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/PartiesAndSituations/actsOn
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/LimitedPartnership http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2013-2024 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/Partnership http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/LegalEntity
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/isGeneralPartnerOf http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/PartiesAndSituations/actsOn
+N9d02244a6cec4f519fe426d880c9f77d http://www.w3.org/2002/07/owl#minQualifiedCardinality 2
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/ http://www.w3.org/2000/01/rdf-schema#label Partnerships Ontology
+N9d02244a6cec4f519fe426d880c9f77d http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/playsRole
+N98d1058eae584b40ad3924e0dfe0c93b http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/Partner
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/LimitedLiabilityPartnership http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/Partnership
+Na25a23ab802341208bd05ac79e589211 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/LimitedPartnership http://www.w3.org/2000/01/rdf-schema#label limited partnership
+N08511e8a89fd4f0fac1cbc6208eba197 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+N67022c157f8e49aeb8b0cb8b6a642846 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/Partner http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BE/OwnershipAndControl/OwnershipParties/ConstitutionalOwner
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/isLimitedPartnerOf http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/LimitedPartner
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/GeneralPartnership http://www.w3.org/2000/01/rdf-schema#subClassOf N5c3100f24d4b447eae20beb03724ad74
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/LimitedPartnership https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Limited partnerships are distinct from limited liability partnerships, in which all partners have limited liability. Similar to a general partnership, the general partners have management control, share the right to use partnership property, share the profits of the firm in predefined proportions, and have joint and several liability for the debts of the partnership.
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/GeneralPartnership https://www.omg.org/spec/Commons/AnnotationVocabulary/abbreviation GP
+Ndc6b40c8dff04df5ac850eed51503f4c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/Partner http://www.w3.org/2000/01/rdf-schema#subClassOf N08511e8a89fd4f0fac1cbc6208eba197
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/LimitedPartnership https://www.omg.org/spec/Commons/AnnotationVocabulary/abbreviation LP
+Nd4b00a9e5ebc403fa87bb814429b2f14 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/PartnershipAgreement
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/LimitedPartnership http://www.w3.org/2004/02/skos/core#example In the United States, film production companies, real estate investment firms, and private equity firms are typically formed as limited partnerships. In the United Kingdom, limited partnerships are governed by the Limited Partnerships Act 1907 and, on matters on which that Act is silent, also by the Partnership Act 1890.
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/Partnership http://www.w3.org/2000/01/rdf-schema#subClassOf N76df1a083a874403890e844e282d5d49
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/BE/20131101/Partnerships/Partnerships.rdf version of this ontology was modified per the issue resolutions identified in the FIBO BE 1.0 FTF report.
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/GeneralPartner http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BE/OwnershipAndControl/ControlParties/DeJureControllingInterestParty
+N08511e8a89fd4f0fac1cbc6208eba197 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/LegalPerson
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/PartnershipAgreement http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/GeneralPartnership http://www.w3.org/2000/01/rdf-schema#label general partnership
+Nd7612582e9f94547967100ae40ba5c73 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/BE/20200601/Partnerships/Partnerships.rdf version of this ontology was modified to reflect the move of OrganizationMember from Parties to Organizations in FND.
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/hasLimitedPartner http://www.w3.org/2004/02/skos/core#definition indicates an actor that may have some measure of influence over the partnership
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/isGeneralPartnerOf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/BE/20160201/Partnerships/Partnerships.rdf version of this ontology was modified per the FIBO 2.0 RFC to reference shareholders' equity vs. stockholders' equity and correct a number of restrictions.
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/LimitedPartnership http://www.w3.org/2004/02/skos/core#definition partnership that has at least one general partner and at least one limited partner
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/BE/20230301/Partnerships/Partnerships.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).
+N5a3a7c5d93b04282bfd4e16cdf99a575 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/isLimitedPartnerOf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N0ec1a3b7ca884a79a3bd77079c771449 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/hasGeneralPartner
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/hasGeneralPartner http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/PartiesAndSituations/isAffectedBy
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/isLimitedPartnerOf http://www.w3.org/2004/02/skos/core#definition indicates the organization that the limited partner participates in
+Nb0f648a8269a412c8a9d5f02bf51f5c5 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/LimitedPartner http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/
+N76df1a083a874403890e844e282d5d49 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/PartnershipAgreement
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/BE/20220801/Partnerships/Partnerships.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.
+N7d3705e8009e4fe79e9030f4258a9cc8 http://www.w3.org/2002/07/owl#someValuesFrom Nd4b00a9e5ebc403fa87bb814429b2f14
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/Partnership https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Whether or not partnerships are established through, for example, incorporation, depends on the jurisdiction. Partnerships typically not corporations in the US, but can be in Australia and Ghana. See https://legalvision.com.au/what-are-incorporated-limited-partnerships/ and http://swiftlaw.co/incorporated-partnership/ for additional details.
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/Partnership http://www.w3.org/2000/01/rdf-schema#label partnership
+N5c3100f24d4b447eae20beb03724ad74 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/hasMember
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/Partner http://www.w3.org/2000/01/rdf-schema#subClassOf N7d3705e8009e4fe79e9030f4258a9cc8
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/LimitedPartner http://www.w3.org/2000/01/rdf-schema#label limited partner
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/LimitedLiabilityPartnership http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/LimitedPartnership
+N67022c157f8e49aeb8b0cb8b6a642846 http://www.w3.org/2002/07/owl#someValuesFrom Ndc6b40c8dff04df5ac850eed51503f4c
+Nd7612582e9f94547967100ae40ba5c73 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/GeneralPartnership http://www.w3.org/2000/01/rdf-schema#subClassOf Nb0f648a8269a412c8a9d5f02bf51f5c5
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/isLimitedPartnerOf http://www.w3.org/2002/07/owl#inverseOf https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/hasLimitedPartner
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/GeneralPartner http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/Partner
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/LimitedLiabilityPartnership http://www.w3.org/2004/02/skos/core#definition partnership that has general partners but provides its individual partners some level of protection against personal liability for certain partnership liabilities
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/LimitedPartner http://www.w3.org/2004/02/skos/core#definition partner whose liabilities are limited to the extent of their investment or guarantees and that has no involvement in the day to day operations of the partnership
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/BE/20190401/Partnerships/Partnerships.rdf version of this ontology was modified to eliminate deprecated elements.
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2013-2024 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/hasGeneralPartner http://www.w3.org/2000/01/rdf-schema#label has general partner
+N7d3705e8009e4fe79e9030f4258a9cc8 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/LimitedLiabilityLimitedPartnership http://www.w3.org/2004/02/skos/core#definition limited partnership that consists of one or more general partners who are liable for the obligations of the entity as well as one or more protected limited liability partners
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/PartnershipAgreement https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym articles of partnership
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/hasGeneralPartner http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/GeneralPartner
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/Partnership http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/GeneralPartnership https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote General partnerships are the most basic and common form of partnership world-wide.
+N84b41211dc3b4d709b204928e4f866d2 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/LimitedPartner
+N0ec1a3b7ca884a79a3bd77079c771449 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/GeneralPartner
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/ http://purl.org/dc/terms/abstract This ontology defines partnerships and related concepts. The concepts distinguish general from limited partners, as well as the types of equity that they hold. Included are abstract definitions of partnership types based on whether they have general, limited or both kinds of partners. Both legally incorporated and non incorporated forms of partnerships are covered.
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/hasLimitedPartner http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/LimitedLiabilityPartnership http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/LimitedLiabilityPartnership https://www.omg.org/spec/Commons/AnnotationVocabulary/abbreviation LLP
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/isGeneralPartnerOf http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/Partnership
+Ndc6b40c8dff04df5ac850eed51503f4c http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/Partnership
+Na25a23ab802341208bd05ac79e589211 http://www.w3.org/2002/07/owl#someValuesFrom N337af99655da45608a9b9767fa9d741b
+https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/hasLimitedPartner http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/PartiesAndSituations/isAffectedBy

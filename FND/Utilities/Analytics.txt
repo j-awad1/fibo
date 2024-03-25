@@ -1,0 +1,493 @@
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Mean https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://stats.oecd.org/glossary/detail.asp?ID=3762
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasReferencePeriod http://www.w3.org/2000/01/rdf-schema#label has reference period
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ScopedMeasure http://www.w3.org/2000/01/rdf-schema#subClassOf Ne4d4e7f4335d481e87f55730dd398002
+N8ed8a727ff514498a101309a417fce24 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalArea http://www.w3.org/2000/01/rdf-schema#label statistical area
+N6b5b7341b2ec48ccb96cc27f79f5d565 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/FinitePopulation
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Constant http://www.w3.org/2002/07/owl#equivalentClass https://www.omg.org/spec/Commons/QuantitiesAndUnits/Constant
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasReferencePeriod http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasRecurrenceInterval
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/SamplingVariance https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom http://www.statcan.gc.ca/pub/12-587-x/12-587-x2003001-eng.pdf
+Nc3e16a9994fc422ea87a6b82e971b005 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalAreaIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf N3a99534d33084433b4fe6a642ecc5f75
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalArea http://www.w3.org/2000/01/rdf-schema#subClassOf Nd16f8047f9c449d38f576d616871c040
+N2a68a655a15c40fb81c432580b38e5a4 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalAreaIdentifier http://www.w3.org/2004/02/skos/core#definition identifier for a physical location that is defined per a nationally consistent program for designating geographic regions for the purposes of tabulating and presenting statistical data
+N3a99534d33084433b4fe6a642ecc5f75 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N7fed375f637c4d8faf14d488d684f87e http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/ContextualDesignators/isApplicableIn
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Ratio http://www.w3.org/2002/07/owl#equivalentClass https://www.omg.org/spec/Commons/QuantitiesAndUnits/Ratio
+N9e68a18ac1d1410b97a1fd6c4d257a01 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Mean
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Mean https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote When unqualified, the mean usually refers to the expectation of a variate, or to the arithmetic mean of a sample used as an estimate of the expectation.
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20230501/Utilities/Analytics.rdf version of the ontology was modified to eliminate deprecations that are more than 6 months old.
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasAnchorDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasArgument http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N76529b97b35e42dfa128935110df98d7 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasFormula http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Formula
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasRelativeComparativePeriod http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalPopulation http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/FinitePopulation
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20231101/Utilities/Analytics.rdf version of the ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Variance http://www.w3.org/2004/02/skos/core#definition measure of spread, calculated as the average squared deviation of each number from the mean of a data set
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20231201/Utilities/Analytics.rdf version of the ontology was modified to replace additional content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380) and to move the concept of an anchor date to Financial Dates (FBC-317).
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/RatioValue http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/FinitePopulation https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote In statistics, a population is a set of similar items or events of interest for some question or experiment. In other words, a population is the complete group of units to which survey results are to apply. (These units may be persons, animals, objects, businesses, trips, etc.). See http://www.statcan.gc.ca/edu/power-pouvoir/glossary-glossaire/5214842-eng.htm#p.
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalUniverse http://www.w3.org/2000/01/rdf-schema#label statistical universe
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/MedianAbsoluteDeviation http://www.w3.org/2000/01/rdf-schema#subClassOf Nc3e16a9994fc422ea87a6b82e971b005
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/FinitePopulation http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Collections/Collection
+Ndabdc5fd0ebb419e9145d4e783406194 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Variance http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasNumberOfEntries http://www.w3.org/2000/01/rdf-schema#label has number of entries
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20201101/Utilities/Analytics.rdf version of this ontology was modified to eliminate the redundant 'calculation formula' concept and eliminate the property hasOperand, which is not used anywhere and whose definition is circular.
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20140501/Utilities/Analytics.rdf version of this ontology was modified per the issue resolutions identified in the FIBO FND 1.0 FTF report and in https://spec.edmcouncil.org/fibo/ontology/FND/1.0/AboutFND-1.0/.
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Dispersion http://www.w3.org/2000/01/rdf-schema#subClassOf N6b42a59406ea4f03aa563963add259c8
+Nd0b058c04d4041c18b379be9214404d6 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/ExplicitRecurrenceInterval
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasFormula http://www.w3.org/2004/02/skos/core#definition specifies a concise way of expressing information symbolically, as in a mathematical or chemical formula
+Ndabdc5fd0ebb419e9145d4e783406194 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasSubtrahend
+Nb8b24fbc38844161b2a108f4703592df http://www.w3.org/2002/07/owl#someValuesFrom N8ed8a727ff514498a101309a417fce24
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasFixedComparativeDate http://www.w3.org/2004/02/skos/core#definition specifies the a specific date, such as the end of the last recession (e.g., March 2009) against which the scoped measure is compared
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/QualifiedMeasure http://www.w3.org/2004/02/skos/core#definition statistical measure that is constrained by features, quantity kinds or units that refine how it is calculated
+Nf0c75b79a5334bf29f31f93497ff4bf2 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/isValueOf http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20190901/Utilities/Analytics.rdf version of this ontology was modified to add the concept of a weighting algorithm.
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Release
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasWeight http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasFixedComparativeDate http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDate
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20220701/Utilities/Analytics.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20200401/Utilities/Analytics.rdf version of this ontology was modified to change the parent class of Classifier to Aspect, loosen the domain on the hasArgument property, which was too narrow in some cases, add a domain/range to characterizes/isCharacterizedBy, and eliminate duplicate properties that were not used anywhere.
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Expression http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Formula http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalUniverse http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasNumberOfEntries http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Dispersion http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/QuantitiesAndUnits/Expression
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasNumberOfEntries http://www.w3.org/2004/02/skos/core#definition indicates the number of elements in some document, table, or other resource (e.g., in a report, table)
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Formula http://www.w3.org/2000/01/rdf-schema#label formula
+Nf0c75b79a5334bf29f31f93497ff4bf2 http://www.w3.org/2002/07/owl#allValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/RecurrenceInterval
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20200901/Utilities/Analytics.rdf version of this ontology was modified to make statistical program a subclass of program and revised restrictions on statistical program to better reflect its intent.
+Nfbead44c77c34d8489b97d9c8ae0618e http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/Commons/Collections/StructuredCollection
+Nb8b24fbc38844161b2a108f4703592df http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasFormula http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20230301/Utilities/Analytics.rdf version of this ontology was modified to add a synonym of 'average' to arithmetic mean.
+N01820591dd7c4182bc131022ba263f4c http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Constant http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Variance http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Dispersion
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasRelativeComparativeDate http://www.w3.org/2004/02/skos/core#definition specifies a date against which the value of a scoped measure is compared (e.g., one month prior, three months prior, etc., and typically against a prior release or average over prior releases)
+https://www.omg.org/spec/Commons/QuantitiesAndUnits/Expression http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasExpression http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalArea https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom U.S. Bureau of Labor Statistics and Statistics Canada reference definitions - https://wiki.edmcouncil.org/display/IND/Statistics+Canada+Census+Information
+N35e39f88513041baa207f9d265767689 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N5a2a5264ddde4eeb9a5ba991c175f8c1
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalMeasure http://www.w3.org/2000/01/rdf-schema#subClassOf N95f8c0975e7040c7922cc709f5c8cd11
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Formula https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym complex expression
+N7670cea37ebd421f85e9e5800643bb59 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasMinuend http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Difference
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasMeasurementDateTime http://www.w3.org/2000/01/rdf-schema#label has measurement date time
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Variance http://www.w3.org/2000/01/rdf-schema#subClassOf N0759b580257d4696b0cb429c33d3680f
+N8e28e62a6d144e5aa3c45e757a27e413 http://www.w3.org/1999/02/22-rdf-syntax-ns#first http://www.w3.org/2001/XMLSchema#string
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasPeriodicity http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N7b4f51af00fa400e9cab2a683cbe91e4 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalArea
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalMeasure https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Statistical measures may consist of several orthogonal characteristics, including (a) whether they reflect an estimate or variable, (b) the datatype, or from a FIBO perspective, nature of the measure (e.g., index, total, ratio, percent, percent change, mean, others), (c) the population (or the universe that applies to the highest level if defined in general) to which the measure applies, and (d) any relevant aspects used to subset or stratify a measure, (i.e., make them apply to a smaller universe).
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasMeasurementDateTime http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/CombinedDateTime
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/isCalculatedViaMethodology http://www.w3.org/2000/01/rdf-schema#label is calculated via methodology
+N6b42a59406ea4f03aa563963add259c8 http://www.w3.org/2002/07/owl#maxQualifiedCardinality 1
+N0759b580257d4696b0cb429c33d3680f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StandardDeviation http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Dispersion
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StandardDeviation https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote While standard deviation is the most widely-used measure of spread, using squared deviations, it may not be the most robust.
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/AverageAbsoluteDeviation http://www.w3.org/2004/02/skos/core#definition average of the absolute deviations from a central point
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasMeasurementDateTime http://www.w3.org/2004/02/skos/core#definition indicates the date and time that the measurement was taken
+N5e55262d3a6841b8b2baa4aba698c515 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasAnchorDate
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasNumberOfEntries http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#nonNegativeInteger
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasReleaseDate http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/Date
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/isEstimate http://www.w3.org/2000/01/rdf-schema#label is estimate
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ArithmeticMean http://www.w3.org/2004/02/skos/core#definition sum of a collection of numbers divided by the number of numbers in the collection
+N5e55262d3a6841b8b2baa4aba698c515 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/AnchorDate
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasReleaseDateTime http://www.w3.org/2000/01/rdf-schema#label has release date and time
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/WeightingFunction http://www.w3.org/2004/02/skos/core#definition expression or function that determines the relative importance or influence of a given element of a set with respect to the whole
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Mean http://www.w3.org/2000/01/rdf-schema#subClassOf Nfbead44c77c34d8489b97d9c8ae0618e
+https://www.omg.org/spec/Commons/QuantitiesAndUnits/Expression http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Documents/Specification
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/WeightingFunction http://www.w3.org/2000/01/rdf-schema#label weighting function
+N7b4f51af00fa400e9cab2a683cbe91e4 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/WeightingFunction https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote For certain indices, one of the most common weighting factor is by market capitalization. In that case, each of the elements in the basket is multiplied by its market cap to determine its relative importance to the basket overall.
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/QualifiedMeasure http://www.w3.org/2000/01/rdf-schema#subClassOf N2a68a655a15c40fb81c432580b38e5a4
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/NumericIndexValue http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/SamplingVariance http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20211101/Utilities/Analytics.rdf version of this ontology was modified to eliminate unused imports.
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ScopedMeasure http://www.w3.org/2000/01/rdf-schema#label scoped measure
+N8ed8a727ff514498a101309a417fce24 http://www.w3.org/2002/07/owl#unionOf N35e39f88513041baa207f9d265767689
+N5a3aabded95e4dfda0452f38bd753929 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/ContextualDesignators/appliesTo
+N5a3aabded95e4dfda0452f38bd753929 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/FinitePopulation
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ArithmeticMean https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote While the arithmetic mean is often used to report central tendencies, it is not a robust statistic, meaning that it is greatly influenced by outliers (values that are very much larger or smaller than most of the values). Notably, for skewed distributions, such as the distribution of income for which a few people's incomes are substantially greater than most people's, the arithmetic mean may not accord with one's notion of 'middle', and robust statistics, such as the median, may be a better description of central tendency.
+N6b5b7341b2ec48ccb96cc27f79f5d565 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/ContextualDesignators/appliesTo
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/MedianAbsoluteDeviation http://www.w3.org/2000/01/rdf-schema#label median absolute deviation
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/MedianAbsoluteDeviation http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Dispersion
+Nf2bf9e73a94847fc9768ed53ba208a0b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/AverageAbsoluteDeviation https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The central point can be the mean, median, mode, or the result of another measure of central tendency. Absolute deviation is the distance between each value in the data set and that data set's mean or median.
+N7670cea37ebd421f85e9e5800643bb59 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalArea
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/isEstimate http://www.w3.org/2004/02/skos/core#definition indicates whether the measure reflects an estimate (approximation) or not
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Variable http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StandardDeviation https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The most widely used measure of dispersion of a frequency distribution introduced by K. Pearson (1893). It is equal to the positive square root of the variance. The standard deviation should not be confused with the root mean square deviation.
+Nf2bf9e73a94847fc9768ed53ba208a0b http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDatePeriod
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Mean http://www.w3.org/2004/02/skos/core#definition most common measure of central tendency; the average of a set of numbers
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasWeight http://www.w3.org/2004/02/skos/core#definition indicates an amount given to increase or decrease the importance of an item
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/SamplingVariance http://www.w3.org/2000/01/rdf-schema#label sampling variance
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20200701/Utilities/Analytics.rdf version of this ontology was modified to augment the definition of ratio with a synonym of rate and eliminate the circularity in the definition of standard deviation.
+Nc62ab8e4a6904d76b4ada2f2a12d0820 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalProgram http://www.w3.org/2000/01/rdf-schema#label statistical program
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasArgument http://www.w3.org/2002/07/owl#equivalentProperty https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasArgument
+N95f8c0975e7040c7922cc709f5c8cd11 http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/Classifiers/Aspect
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/NumericIndexValue http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/QuantitiesAndUnits/ScalarQuantityValue
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+N5a2a5264ddde4eeb9a5ba991c175f8c1 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Variance
+Ne4d4e7f4335d481e87f55730dd398002 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalProgram http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/Program
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Dispersion https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote It is usually measured as an average deviation about some central value (e.g. mean deviation, standard deviation) or by an order statistic (e.g. quartile deviation, range) but may also be a mean of deviations of values among themselves (e.g. Gini's mean difference and also standard deviation).
+Ndabdc5fd0ebb419e9145d4e783406194 http://www.w3.org/2002/07/owl#cardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/WeightingFunction https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote With respect to discrete calculations, weighting functions are positive functions defined on discrete sets, such as weighted sums and weighted averages.
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/RatioValue http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalMeasure https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom http://stats.oecd.org/glossary/detail.asp?ID=5068
+Nd16f8047f9c449d38f576d616871c040 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalAreaIdentifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasObservedValue http://www.w3.org/2000/01/rdf-schema#label has observed value
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ArithmeticMean http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/MedianAbsoluteDeviation http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/isEstimate http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#boolean
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/FinitePopulation https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom http://stats.oecd.org/glossary/detail.asp?ID=3649
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasMinuend http://www.w3.org/2004/02/skos/core#definition specifies the quantity value from which something is subtracted; the value that is diminished
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasUniverseSize http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Arrangements/hasCollectionSize
+N76529b97b35e42dfa128935110df98d7 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalMeasure
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Dispersion https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom http://stats.oecd.org/glossary/detail.asp?ID=3637
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Median http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20141101/Utilities/Analytics.rdf version of this ontology was modified to address issue FIBOFND11-20, which added the definition of Calculation and corrected a reasoning issue related to the use of a custom datatype.
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+N6b5b7341b2ec48ccb96cc27f79f5d565 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nd16f8047f9c449d38f576d616871c040 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Identifiers/isIdentifiedBy
+N250ee55ac4b64a22b2aebd3221f0db18 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasArgument
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/isValueOf http://www.w3.org/2002/07/owl#equivalentProperty https://www.omg.org/spec/Commons/QuantitiesAndUnits/isValueOf
+Nb4e9bf1aa55a4c5da8d92bbdd4074977 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasMeasurementDateTime
+N00c288a738e3460284d85c9b50d376a9 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Dispersion http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasObservedValue http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/Collections/StructuredCollection
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2000/01/rdf-schema#label Analytics Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/isValueOf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Dispersion http://www.w3.org/2004/02/skos/core#definition degree of scatter or variability shown by observations
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Collections/
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Ratio http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Difference http://www.w3.org/2000/01/rdf-schema#label difference
+Nfbead44c77c34d8489b97d9c8ae0618e http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasObservedValue
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Mean https://www.omg.org/spec/Commons/AnnotationVocabulary/symbol μ
+Ne4d4e7f4335d481e87f55730dd398002 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N534a54807ee34cab9d97439292df9574 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/isEstimate
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalProgram http://www.w3.org/2004/02/skos/core#definition program that presents a detailed investigation and analysis of a subject or situation involving one or more studies or surveys
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Difference http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/QuantitiesAndUnits/Expression
+Na7cea7e6738b400c96991d29057f8528 http://www.w3.org/2002/07/owl#allValuesFrom http://www.w3.org/2001/XMLSchema#nonNegativeInteger
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalAreaIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/LCC/Countries/CountryRepresentation/GeographicRegionIdentifier
+Nb4e9bf1aa55a4c5da8d92bbdd4074977 http://www.w3.org/2002/07/owl#onDataRange https://www.omg.org/spec/Commons/DatesAndTimes/CombinedDateTime
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/GeometricMean https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The geometric mean is defined as the nth root of the product of n numbers. A geometric mean is often used when comparing different items - finding a single 'figure of merit' for these items - when each item has multiple properties that have different numeric ranges. For example, the geometric mean can give a meaningful 'average' to compare two companies which are each rated at 0 to 5 for their environmental sustainability, and are rated at 0 to 100 for their financial viability. If an arithmetic mean were used instead of a geometric mean, the financial viability is given more weight because its numeric range is larger - so a small percentage change in the financial rating (e.g. going from 80 to 90) makes a much larger difference in the arithmetic mean than a large percentage change in environmental sustainability (e.g. going from 2 to 5).
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/MedianAbsoluteDeviation http://www.w3.org/2004/02/skos/core#definition median of the absolute deviations of observations from the average which may be the arithmetic mean, the median or the mode
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Mean http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalMeasure
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Variance https://www.omg.org/spec/Commons/AnnotationVocabulary/symbol σ2
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasFormula http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/Classifiers/isCharacterizedBy
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalArea https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom U.S. Bureau of Labor Statistics and Statistics Canada reference definitions - https://wiki.edmcouncil.org/pages/viewpage.action?pageId=6358041
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Measure http://www.w3.org/2002/07/owl#deprecated true
+N9281bf6c69a9462a93a993c9dedab60c http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/Commons/Collections/StructuredCollection
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ScopedMeasure http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/QualifiedMeasure
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/GeometricMean http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalAreaIdentifier https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom U.S. Bureau of Labor Statistics and Statistics Canada reference definitions - https://wiki.edmcouncil.org/pages/viewpage.action?pageId=6358041
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalMeasure http://www.w3.org/2004/02/skos/core#definition summary (means, mode, total, index, etc.) of the individual quantitative variable values for the statistical units in a specific group (study domain)
+N584b28b3ac2449cdbf851da64a16684b http://www.w3.org/1999/02/22-rdf-syntax-ns#first http://www.w3.org/2001/XMLSchema#anyURI
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Formula http://www.w3.org/2000/01/rdf-schema#subClassOf N00c288a738e3460284d85c9b50d376a9
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Median https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://stats.oecd.org/glossary/detail.asp?ID=3717
+N250ee55ac4b64a22b2aebd3221f0db18 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N5e55262d3a6841b8b2baa4aba698c515 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasObservedValue http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasArgument
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Percentage http://www.w3.org/2002/07/owl#equivalentClass https://www.omg.org/spec/Commons/QuantitiesAndUnits/Percentage
+N1984c0927f9a4f78885f35b36461abbe http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasReleaseDateTime http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ScopedMeasure http://www.w3.org/2000/01/rdf-schema#subClassOf Nf0c75b79a5334bf29f31f93497ff4bf2
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/AverageAbsoluteDeviation http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalUniverse http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Collections/Collection
+Nd0b058c04d4041c18b379be9214404d6 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasWeight http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasNumericValue
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasApplicableDatePeriod http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/QualifiedMeasure http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalMeasure
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasRelativeComparativePeriod http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/DatePeriod
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasReleaseDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalPopulation https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote A common aim of statistical analysis is to produce information about some chosen population. In statistical inference, a subset of the population (a statistical sample) is chosen to represent the population in a statistical analysis. If a sample is chosen properly, characteristics of the entire population that the sample is drawn from can be estimated from corresponding characteristics of the sample.
+N7670cea37ebd421f85e9e5800643bb59 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Classifiers/isCharacterizedBy
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/WeightingFunction http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Dispersion http://www.w3.org/2000/01/rdf-schema#label dispersion
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasReleaseDate https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote A release date is typically a date fixed in advance for the release of a film, recording, document, report, or product or publication.
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasArgument http://www.w3.org/2002/07/owl#deprecated true
+Nbcfabada79724e6592c25f428cfa30b9 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2000/01/rdf-schema#Datatype
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ArithmeticMean http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Mean
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Difference http://www.w3.org/2000/01/rdf-schema#subClassOf Ndabdc5fd0ebb419e9145d4e783406194
+N9281bf6c69a9462a93a993c9dedab60c http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasObservedValue
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasReferencePeriod http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/RecurrenceInterval
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2013-2024 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/AnnualizedStandardDeviation http://www.w3.org/2000/01/rdf-schema#subClassOf Nd0b058c04d4041c18b379be9214404d6
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalArea http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Dispersion https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote A measure of statistical dispersion is a nonnegative real number that is zero if all the data are the same and increases as the data become more diverse.
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasMinuend http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasArgument
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasSubtrahend http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasArgument
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/FinitePopulation http://www.w3.org/2004/02/skos/core#definition population for which it is possible to count its units
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/NumericIndexValue http://www.w3.org/2004/02/skos/core#definition numeric value of some aggregate relative to the value of that aggregate as of some date
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/WeightingFunction http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalMeasure
+N01820591dd7c4182bc131022ba263f4c http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Median
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StandardDeviation http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/actualExpression http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/actualExpression http://www.w3.org/2002/07/owl#equivalentProperty https://www.omg.org/spec/Commons/QuantitiesAndUnits/describesActualExpression
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Mean http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/QuantitiesAndUnits/Expression
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasMeasurementPeriodInMonths http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#integer
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Variable http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/FinitePopulation http://www.w3.org/2000/01/rdf-schema#label finite population
+N7083353b53814712a4109f490fad8676 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N2a68a655a15c40fb81c432580b38e5a4 http://www.w3.org/2002/07/owl#onDataRange Nbcfabada79724e6592c25f428cfa30b9
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalAreaIdentifier http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasReleaseDate http://www.w3.org/2000/01/rdf-schema#label has release date
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasUniverseSize http://www.w3.org/2004/02/skos/core#definition indicates the number of elements in a given universe
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasPeriodicity http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasRecurrenceInterval
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Variance https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom http://www.statcan.gc.ca/edu/power-pouvoir/glossary-glossaire/5214842-eng.htm#v
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasMeasurementPeriodInMonths http://www.w3.org/2000/01/rdf-schema#label has measurement period in months
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Median https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The basic advantage of the median in describing data compared to the mean is that it is not skewed by extremely large or small values, and may provide a better idea of a 'typical' value.
+N2a68a655a15c40fb81c432580b38e5a4 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/isCalculatedViaMethodology
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/AnnualizedStandardDeviation http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StandardDeviation
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Variance https://www.omg.org/spec/Commons/AnnotationVocabulary/symbol μ2
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasMinuend http://www.w3.org/2000/01/rdf-schema#label has minuend
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ScopedMeasure https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Note that (1) the anchor date reflects the start of the current series, such as 1982-1984 for the CPI, (2) the fixed comparative date might be something like March 2009, if one is comparing a current index against its value at the end of the great recession, (3) the relative comparative date might be something like a month or year ago, depending on the analysis requirements, and (4) the relative comparative period might be a 3 month average prior value, again depending on the analysis requirements.
+N534a54807ee34cab9d97439292df9574 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Median http://www.w3.org/2000/01/rdf-schema#label median
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalMeasure http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/QuantitiesAndUnits/Measure
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StandardDeviation https://www.omg.org/spec/Commons/AnnotationVocabulary/abbreviation SD
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Classifiers/
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2004/02/skos/core#changeNote This ontology was added to Foundations in advance of the June 2014 Boston meeting in support of the IND RFC.
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Total http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalUniverse http://www.w3.org/2000/01/rdf-schema#subClassOf N7fed375f637c4d8faf14d488d684f87e
+N77dd63f2b97a48869eeb396e0b1a8bca http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N5a2a5264ddde4eeb9a5ba991c175f8c1 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasRelativeComparativePeriod http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasDatePeriod
+N00c288a738e3460284d85c9b50d376a9 http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/Commons/QuantitiesAndUnits/Expression
+Nb006f067afa0482a93665f880f849b03 http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/Commons/Collections/StructuredCollection
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/WeightingFunction http://www.w3.org/2004/02/skos/core#example Given a sample size of 1000, and a population of 300M, then the chance that any individual is selected is 1 in 300K. In that case, 300K is the weight assigned to each of the elements in the sample.
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ScopedMeasure http://www.w3.org/2000/01/rdf-schema#subClassOf N5a3aabded95e4dfda0452f38bd753929
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasFixedComparativeDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasPopulationSize http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Arrangements/hasCollectionSize
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasRelativeComparativeDate http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/RelativeDate
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasUniverseSize http://www.w3.org/2000/01/rdf-schema#label has universe size
+N3a99534d33084433b4fe6a642ecc5f75 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Variable http://www.w3.org/2002/07/owl#equivalentClass https://www.omg.org/spec/Commons/QuantitiesAndUnits/Variable
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StandardDeviation http://www.w3.org/2000/01/rdf-schema#label standard deviation
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20200301/Utilities/Analytics.rdf version of this ontology was modified to revise numeric index to be called numeric index value, and revise its definition to include a reference date, change its parent to quantity value, and move base date and period to scoped measure.
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasPeriodicity http://www.w3.org/2000/01/rdf-schema#label has periodicity
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasUniverseSize http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#nonNegativeInteger
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/QualifiedMeasure http://www.w3.org/2000/01/rdf-schema#label qualified measure
+N5e55262d3a6841b8b2baa4aba698c515 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Documents/
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalPopulation https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom http://stats.oecd.org/glossary/detail.asp?ID=2079
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Dispersion http://www.w3.org/2000/01/rdf-schema#subClassOf Nb006f067afa0482a93665f880f849b03
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Ratio http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Dispersion http://www.w3.org/2004/02/skos/core#example Common examples of measures of statistical dispersion are the variance, standard deviation, and interquartile range. The collection size argument, above, represents the number of elements in the set, if known. The collection of values under consideration is represented as a structured collection in FIBO, typically a sample set derived from a finite population.
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Expression http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasAnchorDate http://www.w3.org/2002/07/owl#equivalentProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasAnchorDate
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Dispersion http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalMeasure
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2013-2024 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20210201/Utilities/Analytics.rdf version of this ontology was modified to update the reference link for ratio.
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalPopulation http://www.w3.org/2004/02/skos/core#definition statistical universe filtered by time and region
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalMeasure http://www.w3.org/2000/01/rdf-schema#subClassOf N534a54807ee34cab9d97439292df9574
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Variance http://www.w3.org/2000/01/rdf-schema#label variance
+Nfbead44c77c34d8489b97d9c8ae0618e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/DatesAndTimes/
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasObservedValue http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+Nb006f067afa0482a93665f880f849b03 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasObservedValue
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasPopulationSize http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Mean https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym first (raw) moment
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/GeometricMean http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Mean
+Nb4e9bf1aa55a4c5da8d92bbdd4074977 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasRelativeComparativePeriod http://www.w3.org/2000/01/rdf-schema#label has relative comparative period
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/isCalculatedViaMethodology http://www.w3.org/2004/02/skos/core#definition high-level description of the approach taken to obtain the result
+N1984c0927f9a4f78885f35b36461abbe http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasMinuend
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/isEstimate http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalMeasure
+N8e28e62a6d144e5aa3c45e757a27e413 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N584b28b3ac2449cdbf851da64a16684b
+N7083353b53814712a4109f490fad8676 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasUniverseSize
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasRelativeComparativeDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasApplicableDatePeriod http://www.w3.org/2002/07/owl#equivalentProperty https://www.omg.org/spec/Commons/ContextualDesignators/hasApplicablePeriod
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Difference http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Expression http://www.w3.org/2002/07/owl#equivalentClass https://www.omg.org/spec/Commons/QuantitiesAndUnits/Expression
+Nd16f8047f9c449d38f576d616871c040 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasObservedValue http://www.w3.org/2004/02/skos/core#definition specifies a collection of values over which some analysis is performed
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalArea http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/LCC/Countries/CountryRepresentation/GeographicRegion
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasMeasurementDateTime http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Formula http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Documents/Specification
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalProgram http://www.w3.org/2000/01/rdf-schema#subClassOf Nc62ab8e4a6904d76b4ada2f2a12d0820
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/AnnualizedStandardDeviation http://www.w3.org/2000/01/rdf-schema#label annualized standard deviation
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/FND/20240201/Utilities/Analytics/
+Nc62ab8e4a6904d76b4ada2f2a12d0820 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalUniverse
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasAnchorDate http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/SamplingVariance http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Variance
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/AnnualizedStandardDeviation http://www.w3.org/2004/02/skos/core#definition standard deviation for some measure over a specific reference period
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasApplicableDatePeriod http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Identifiers/
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasFixedComparativeDate http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasExplicitDate
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/isEstimate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+N3a99534d33084433b4fe6a642ecc5f75 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalArea
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasReleaseDate http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasDate
+N7b4f51af00fa400e9cab2a683cbe91e4 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/hasCoverageArea
+Nc3e16a9994fc422ea87a6b82e971b005 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Median
+N0ca12a76166441f8b011ef315bb353fe http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalArea http://www.w3.org/2004/02/skos/core#definition physical location that is defined per some program for designating geographic regions for the purposes of tabulating and presenting statistical data
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasExpression http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalAreaIdentifier http://www.w3.org/2000/01/rdf-schema#label statistical area identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Median http://www.w3.org/2000/01/rdf-schema#subClassOf N9281bf6c69a9462a93a993c9dedab60c
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Arrangements/
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ArithmeticMean https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym average
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasUniverseSize http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+N584b28b3ac2449cdbf851da64a16684b http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+N9281bf6c69a9462a93a993c9dedab60c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N95f8c0975e7040c7922cc709f5c8cd11 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/ContextualDesignators/
+N0759b580257d4696b0cb429c33d3680f http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasArgument
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/NumericIndexValue http://www.w3.org/2000/01/rdf-schema#subClassOf Nb4e9bf1aa55a4c5da8d92bbdd4074977
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/RatioValue http://www.w3.org/2002/07/owl#equivalentClass https://www.omg.org/spec/Commons/QuantitiesAndUnits/Ratio
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/AnnualizedStandardDeviation http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Median https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote This measure represents the middle value (if n is odd) or the average of the two middle values (if n is even) in an ordered list of data values. The median divides the total frequency distribution into two equal parts: one-half of the cases fall below the median and one-half of the cases exceed the median.
+N77dd63f2b97a48869eeb396e0b1a8bca http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/AverageAbsoluteDeviation https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym mean absolute deviation
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Variance https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym second moment
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Median http://www.w3.org/2004/02/skos/core#definition value of the variate dividing the total frequency of a data sample, population, or probability distribution, into two halves
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasReferencePeriod http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasObservedValue https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote For certain calculations, such as certain measures of dispersion, date value pairs are expected as input, in other words, a dated structured collection.
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/actualExpression http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#AnnotationProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalPopulation http://www.w3.org/2000/01/rdf-schema#subClassOf Nf2bf9e73a94847fc9768ed53ba208a0b
+N250ee55ac4b64a22b2aebd3221f0db18 http://www.w3.org/2002/07/owl#someValuesFrom N0ca12a76166441f8b011ef315bb353fe
+N5a3aabded95e4dfda0452f38bd753929 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nd0b058c04d4041c18b379be9214404d6 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasReferencePeriod
+N9e68a18ac1d1410b97a1fd6c4d257a01 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N01820591dd7c4182bc131022ba263f4c
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalMeasure http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalUniverse https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom http://stats.oecd.org/glossary/detail.asp?ID=2087
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasExpression http://www.w3.org/2002/07/owl#equivalentProperty https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasExpression
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalProgram http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasRelativeComparativePeriod http://www.w3.org/2004/02/skos/core#definition specifies a period (typically a prior period) against which the scoped measure is compared, such as an average set of values for some period of time compared with a more recent or projected average for a forward looking period of time
+N7fed375f637c4d8faf14d488d684f87e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20230101/Utilities/Analytics.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalAreaIdentifier https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom U.S. Bureau of Labor Statistics and Statistics Canada reference definitions - https://wiki.edmcouncil.org/display/IND/Statistics+Canada+Census+Information
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/QuantitiesAndUnits/
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/NumericIndexValue http://www.w3.org/2000/01/rdf-schema#label numeric index value
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Total http://www.w3.org/2002/07/owl#equivalentClass https://www.omg.org/spec/Commons/QuantitiesAndUnits/Total
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StandardDeviation https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://stats.oecd.org/glossary/detail.asp?ID=3845
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20180801/Utilities/Analytics.rdf version of this ontology was modified to use the CombinedDateTime datatype for greater flexibility in analytics and integrate the generic statistical measures and measurements from the economic indicators ontology to FND to facilitate broader use.
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Mean https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym expected value
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Difference http://www.w3.org/2000/01/rdf-schema#subClassOf N1984c0927f9a4f78885f35b36461abbe
+N7083353b53814712a4109f490fad8676 http://www.w3.org/2002/07/owl#allValuesFrom http://www.w3.org/2001/XMLSchema#nonNegativeInteger
+Nb8b24fbc38844161b2a108f4703592df http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasArgument
+N95f8c0975e7040c7922cc709f5c8cd11 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Mean http://www.w3.org/2000/01/rdf-schema#label mean
+N6b42a59406ea4f03aa563963add259c8 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalMeasure http://www.w3.org/2000/01/rdf-schema#label statistical measure
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasNumberOfEntries http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasCount
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalPopulation http://www.w3.org/2000/01/rdf-schema#subClassOf N7670cea37ebd421f85e9e5800643bb59
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ScopedMeasure http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Total http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasMinuend http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasSubtrahend http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N6b42a59406ea4f03aa563963add259c8 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Arrangements/hasCollectionSize
+N2a68a655a15c40fb81c432580b38e5a4 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/SamplingVariance https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The word 'sampling' can usually be omitted, as being defined by the context or otherwise understood. The sampling variance of a statistic is the square of its standard error.
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Median http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalMeasure
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasMeasurementPeriodInMonths http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/GeometricMean http://www.w3.org/2000/01/rdf-schema#label geometric mean
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ScopedMeasure http://www.w3.org/2004/02/skos/core#definition qualified measure that is constrained by filters on the statistical population to which it applies
+N77dd63f2b97a48869eeb396e0b1a8bca http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ScopedMeasure
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasRelativeComparativeDate http://www.w3.org/2000/01/rdf-schema#label has relative comparative date
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/SamplingVariance https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://stats.oecd.org/glossary/detail.asp?ID=3834
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalProgram http://www.w3.org/2000/01/rdf-schema#subClassOf N7b4f51af00fa400e9cab2a683cbe91e4
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasPopulationSize http://www.w3.org/2004/02/skos/core#definition indicates the number of elements in a given population
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalUniverse http://www.w3.org/2004/02/skos/core#example A statistical universe can be a group of actually existing objects (e.g. the set of all stars within the Milky Way galaxy) or a hypothetical and potentially infinite group of objects conceived as a generalization from experience (e.g. the set of all possible hands in a game of poker).
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasReleaseDateTime http://www.w3.org/2004/02/skos/core#definition specifies the date and time on which something is published
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Percentage http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StandardDeviation https://www.omg.org/spec/Commons/AnnotationVocabulary/symbol σ
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/QualifiedMeasure http://www.w3.org/2000/01/rdf-schema#subClassOf N5e55262d3a6841b8b2baa4aba698c515
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasPopulationSize http://www.w3.org/2000/01/rdf-schema#label has population size
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/AverageAbsoluteDeviation http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Dispersion
+Nb4e9bf1aa55a4c5da8d92bbdd4074977 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N5a3aabded95e4dfda0452f38bd753929 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/QualifiedMeasure http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Difference http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalMeasure
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/NumericIndexValue http://www.w3.org/2000/01/rdf-schema#subClassOf N77dd63f2b97a48869eeb396e0b1a8bca
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasPopulationSize http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#nonNegativeInteger
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Measure http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nf2bf9e73a94847fc9768ed53ba208a0b http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Classifiers/isCharacterizedBy
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20191101/Utilities/Analytics.rdf version of this ontology was modified to eliminate duplication with concepts in LCC, merge countries with locations, and correct a restriction on qualified measure.
+N35e39f88513041baa207f9d265767689 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Mean
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalProgram http://www.w3.org/2000/01/rdf-schema#subClassOf N76529b97b35e42dfa128935110df98d7
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StandardDeviation https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom http://www.statcan.gc.ca/edu/power-pouvoir/glossary-glossaire/5214842-eng.htm#s
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasReferencePeriod http://www.w3.org/2004/02/skos/core#definition specifies a reference (baseline) recurrence interval for which a given measure applies
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasFixedComparativeDate http://www.w3.org/2000/01/rdf-schema#label has fixed comparative date
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Measure http://www.w3.org/2002/07/owl#equivalentClass https://www.omg.org/spec/Commons/QuantitiesAndUnits/Measure
+N534a54807ee34cab9d97439292df9574 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Mean https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom http://www.statcan.gc.ca/edu/power-pouvoir/glossary-glossaire/5214842-eng.htm#m
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/AverageAbsoluteDeviation http://www.w3.org/2000/01/rdf-schema#label average absolute deviation
+N7fed375f637c4d8faf14d488d684f87e http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalProgram
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasMeasurementPeriodInMonths http://www.w3.org/2004/02/skos/core#definition indicates the coverage period for which the measure is applicable expressed in months
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/isCalculatedViaMethodology http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalMeasure
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalPopulation http://www.w3.org/2000/01/rdf-schema#label statistical population
+N77dd63f2b97a48869eeb396e0b1a8bca http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/QuantitiesAndUnits/isValueOf
+Ne4d4e7f4335d481e87f55730dd398002 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/hasCoverageArea
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasReleaseDateTime http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/CombinedDateTime
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20210601/Utilities/Analytics.rdf version of this ontology was modified to expand the definition of release date and release date and time and to make a statistical area identifier a subclass of geographic region identifier.
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/AnnualizedStandardDeviation https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Standard deviation applied to the annual rate of return of an investment provides insights on the historical volatility of that investment. The greater the standard deviation of the price of a security, the greater the volatility. Multiplying monthly standard deviation by the square root of twelve (12) is an industry standard method of approximating annualized standard deviations of monthly returns.
+N95f8c0975e7040c7922cc709f5c8cd11 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Classifiers/isCharacterizedBy
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalPopulation http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalUniverse
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20190501/Utilities/Analytics.rdf version of this ontology was modified to eliminate deprecated elements.
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Constant http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasWeight http://www.w3.org/2000/01/rdf-schema#label has weight
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/FinitePopulation http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Formula http://www.w3.org/2004/02/skos/core#definition rule expressed in letters and symbols that consists of at least one expression
+Nc62ab8e4a6904d76b4ada2f2a12d0820 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/ContextualDesignators/appliesTo
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalUniverse http://www.w3.org/2004/02/skos/core#definition collection representing the total membership, or 'universe', of people, resources, products, services, events, or entities of interest for some question, experiment, survey or statistical program
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Dispersion http://www.w3.org/2000/01/rdf-schema#subClassOf N6b5b7341b2ec48ccb96cc27f79f5d565
+Na7cea7e6738b400c96991d29057f8528 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasPopulationSize
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://purl.org/dc/terms/abstract This ontology provides mathematical abstractions for use in other ontologies, including for example the basic components of formulae, parameters and values.
+N3a99534d33084433b4fe6a642ecc5f75 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Identifiers/identifies
+N534a54807ee34cab9d97439292df9574 http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#boolean
+N0759b580257d4696b0cb429c33d3680f http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Mean
+Nb006f067afa0482a93665f880f849b03 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasFormula http://www.w3.org/2000/01/rdf-schema#label has formula
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/NumericIndexValue https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom http://www.statcan.gc.ca/edu/power-pouvoir/glossary-glossaire/5214842-eng.htm#i
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/isCalculatedViaMethodology http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasWeight http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#decimal
+Nbcfabada79724e6592c25f428cfa30b9 http://www.w3.org/2002/07/owl#unionOf N8e28e62a6d144e5aa3c45e757a27e413
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StandardDeviation http://www.w3.org/2000/01/rdf-schema#subClassOf Nb8b24fbc38844161b2a108f4703592df
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasSubtrahend http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Difference
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalPopulation http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/NumericIndexValue https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote A mathematical device or number which is used to express the observation (e.g., price level, volume of trade, relative amount etc.) of a given period, in comparison with that of a prior period.
+Ne4d4e7f4335d481e87f55730dd398002 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalArea
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasPeriodicity http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/RecurrenceInterval
+N1984c0927f9a4f78885f35b36461abbe http://www.w3.org/2002/07/owl#cardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalUniverse http://www.w3.org/2000/01/rdf-schema#subClassOf N7083353b53814712a4109f490fad8676
+Nd0b058c04d4041c18b379be9214404d6 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Median http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/QuantitiesAndUnits/Expression
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasPeriodicity http://www.w3.org/2004/02/skos/core#definition specifies a recurrence interval (monthly, quarterly, annual) that a statistical measure reflects
+Nc3e16a9994fc422ea87a6b82e971b005 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasArgument
+Na7cea7e6738b400c96991d29057f8528 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N76529b97b35e42dfa128935110df98d7 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/provides
+N00c288a738e3460284d85c9b50d376a9 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasExpression
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/WeightingFunction http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/QuantitiesAndUnits/Expression
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Mean http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasRelativeComparativeDate http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasDate
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StatisticalPopulation http://www.w3.org/2000/01/rdf-schema#subClassOf Na7cea7e6738b400c96991d29057f8528
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Difference http://www.w3.org/2004/02/skos/core#definition quantity by which amounts differ; the remainder left after subtraction of one value from another
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/Percentage http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N6b42a59406ea4f03aa563963add259c8 http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#nonNegativeInteger
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasSubtrahend http://www.w3.org/2004/02/skos/core#definition specifies the quantity value that is subtracted from something
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20160201/Utilities/Analytics.rdf version of this ontology was modified per the FIBO 2.0 RFC.
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/GeometricMean http://www.w3.org/2004/02/skos/core#definition mean that indicates the central tendency or typical value of a set of numbers by using the product of their values (as opposed to the arithmetic mean which uses their sum)
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasSubtrahend http://www.w3.org/2000/01/rdf-schema#label has subtrahend
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20220101/Utilities/Analytics.rdf version of this ontology was modified to eliminate hygiene issues related to text formatting and eliminate dead or outdated references.
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/ArithmeticMean http://www.w3.org/2000/01/rdf-schema#label arithmetic mean
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/SamplingVariance http://www.w3.org/2004/02/skos/core#definition measure of the extent to which the estimate of a characteristic from different possible samples of the same size and the same design differ from one another
+N0ca12a76166441f8b011ef315bb353fe http://www.w3.org/2002/07/owl#unionOf N9e68a18ac1d1410b97a1fd6c4d257a01
+Nf0c75b79a5334bf29f31f93497ff4bf2 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasPeriodicity
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/AverageAbsoluteDeviation http://www.w3.org/2000/01/rdf-schema#subClassOf N250ee55ac4b64a22b2aebd3221f0db18
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/StandardDeviation http://www.w3.org/2004/02/skos/core#definition square root of variance that measures the spread or dispersion around the mean of a data set
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/hasReleaseDate http://www.w3.org/2004/02/skos/core#definition specifies the date on which something is published

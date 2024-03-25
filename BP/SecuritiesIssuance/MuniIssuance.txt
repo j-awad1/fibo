@@ -1,0 +1,557 @@
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/PotentialMuniUnderwriter http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/announcementComments http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/AnnounceSecuritiesIssue
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/UnderwritingProcessActivity http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/IssuanceProcessActivity
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasPotentialIssuer http://www.w3.org/2000/01/rdf-schema#label has potential issuer
+Nc7d9532621b04d09bf0c331cbab7c04c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N055144bdf62d4192835e51d3e1709bf3 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Documents/refersTo
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasBondCounsel http://www.w3.org/2000/01/rdf-schema#label has bond counsel
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/advises http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/maximumOverAllotmentShares http://www.w3.org/2000/01/rdf-schema#label maximum over allotment shares
+N41e0ef82fa9945f5adc42b78b42e0933 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Registration
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/announcementComments http://www.w3.org/2000/01/rdf-schema#label announcement comments
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Registration http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/IssuanceProcessActivity
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/announcesIssueOf http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Security
+Nb5eafaa0f10944f0be6d7d7d9fe8530f http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/facilitatesTransfer http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasServicer http://www.w3.org/2000/01/rdf-schema#label has servicer
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/produces http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/UnderwritingProcessDetails
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/registeredUnder http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Registration
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/subscribesTo http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N53b0e8a8e5804f51aef6fe10add165cc http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/isBondCounsel http://www.w3.org/2000/01/rdf-schema#label is bond counsel
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/DebtInstruments/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasPotentialIssuer http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Obligor http://www.w3.org/2000/01/rdf-schema#label obligor
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasRemarketingAgent http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+Ndda05a84134148bdaf0a43256b22c9ff http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasRemarketingAgent
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/overAllotmentAvailable http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasSubscriber http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuanceClosing http://www.w3.org/2004/02/skos/core#definition The process of crediting the DTC participant account on settlement date with the position for the new issue. The overall closing process includes the exchange of funds that happens outside of DTC.
+Na06eac796090442780773bb756f106a6 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/step
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesIssuanceContext http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N62bb6710976249b0931ba93588c7fc39 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/announces
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/TransferAgent http://www.w3.org/2000/01/rdf-schema#subClassOf N98e4eabbb9984fe3964b08a10e3889f3
+N11cccc22a1b543598d639791e56092da http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/facilitatesPayment
+Nfa6607acaf4847f3844cf0696362b8c2 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasTransferAgent http://www.w3.org/2000/01/rdf-schema#label has transfer agent
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasFinancialAdvisor http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuanceFinancialAdvisor
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/BondCounsel http://www.w3.org/2000/01/rdf-schema#subClassOf N30014c691b3b435dbce09479baaf865a
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/announcementComments http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#string
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/actualClosingDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/registeredUnder http://www.w3.org/2000/01/rdf-schema#label registered under
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess http://www.w3.org/2000/01/rdf-schema#subClassOf N2cb17b626a1843528f152cd1b11db943
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasObligor http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N5c01342c20e54ba2a971ec5f6ca94d9c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasBondCounsel http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/DebtUnderwritingIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/isBondCounsel http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/BondCounsel
+N11cccc22a1b543598d639791e56092da http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/obligorTo http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/formalAwardDateAndTime http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/DebtInstruments/DebtOffering
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/offeringRequestor http://www.w3.org/2000/01/rdf-schema#label offering requestor
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/MuniDebtOffering http://www.w3.org/2004/02/skos/core#definition The process step of offering a Municipal Debt security for issue.
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess http://www.w3.org/2000/01/rdf-schema#subClassOf Nddfbb06b44f444b6be64379498135403
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasAgent http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuerCounsel http://www.w3.org/2000/01/rdf-schema#label issuer counsel
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess http://www.w3.org/2000/01/rdf-schema#subClassOf N6d8a9e03c46449d29bca1624aae21a48
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/facililtatesRemarketing http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/isCreditingParticipant http://www.w3.org/2000/01/rdf-schema#label is crediting participant
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/UnderwritingIssuanceRequestor http://www.w3.org/2000/01/rdf-schema#subClassOf N0b2f037e55474d2da457b883d94a7c57
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasObligor http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Obligor
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/requestedBy http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/refersTo http://www.w3.org/2000/01/rdf-schema#label refers to
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/underwritingProcessActorHasIdentity http://www.w3.org/2000/01/rdf-schema#label underwriting process actor has identity
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Trustee http://www.w3.org/2000/01/rdf-schema#subClassOf N83175a280ea54d58bb041536a81f5c28
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/DebtIssueOverAllotmentTerms http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssueOverAllotmentTerms
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/advises http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuanceFinancialAdvisor
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/TransferAgent http://www.w3.org/2000/01/rdf-schema#label transfer agent
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/step http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/DebtUnderwritingIssuanceProcess
+Nb5eafaa0f10944f0be6d7d7d9fe8530f http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/DTCCMember
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/DebtUnderwritingIssuanceProcess http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasPrinter http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuancePrinter
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/EquityDemutualizationProcess http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/saleMethod http://www.w3.org/2000/01/rdf-schema#label sale method
+N2cb17b626a1843528f152cd1b11db943 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/UnderwritingProcessActor http://www.w3.org/2000/01/rdf-schema#label underwriting process actor
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasTrustee http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/produces http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/underwrites http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/overAllotmentExpiryPeriodDays http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+N97da501f61e347f0a91f0f65d66d837a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/maximumOverAllotmentPercentage http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssueOverAllotmentTerms
+N8cc9a3aa99ab4991b29b8f6fd5fd11b3 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasIssuerCounsel http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+N4c014283cc1d46488e003eded408e911 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/Jurisdiction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/makesDecisionOn http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/DisseminationUnderwriter
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/maximumOverAllotmentShares http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/UnderwritingIssuanceClosing http://www.w3.org/2000/01/rdf-schema#subClassOf N5c01342c20e54ba2a971ec5f6ca94d9c
+N70664f6e3aaf4cfabfa3e33aa85cba65 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/refersTo
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/includesStep http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Registration
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess http://www.w3.org/2000/01/rdf-schema#subClassOf N7cb04391e6914943ac37ce24505c9144
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/advises http://www.w3.org/2000/01/rdf-schema#label advises
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/facililtatesRemarketing http://www.w3.org/2000/01/rdf-schema#label facililtates remarketing
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasBondCounsel http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+Ndde6f896e8694c589f28c99df9f53c9e http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/isAgentIn
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/SecuritiesIssuanceProcess
+N2f94a9060b8f4796a2ff1cc516e37fce http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/BondCounsel
+Nddfbb06b44f444b6be64379498135403 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuancePrinter
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasPayingAgent http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/subscriber.1 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+Nc7ca41f0674e4501896cc87f45f18342 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+N83175a280ea54d58bb041536a81f5c28 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/isTrustee
+N6d8a9e03c46449d29bca1624aae21a48 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/makesDecisionOn http://www.w3.org/2000/01/rdf-schema#label makes decision on
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/advises http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+Ndde6f896e8694c589f28c99df9f53c9e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/AnnounceSecuritiesIssue http://www.w3.org/2000/01/rdf-schema#label announce securities issue
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/isTrustee http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuance http://www.w3.org/2000/01/rdf-schema#label securities underwriting issuance
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/subscribesTo http://www.w3.org/2004/02/skos/core#definition Subscriber responds to marketing / draft propspectus, indicates interest and is allocated shares / debt units based on interest.
+N496db8f22b864efebd43d3875bda0d91 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/prints http://www.w3.org/2000/01/rdf-schema#label prints
+N4ad42eae24a8493cbdd1d64ec53a59da http://www.w3.org/2002/07/owl#unionOf N4bc86b8b76d84cc8845aa1e5fc95a572
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/subscribesTo http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/TransferAgent http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/PotentialMuniUnderwriter http://www.w3.org/2000/01/rdf-schema#subClassOf Nc7ca41f0674e4501896cc87f45f18342
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/DebtUnderwritingIssuanceProcess http://www.w3.org/2000/01/rdf-schema#subClassOf N2f94a9060b8f4796a2ff1cc516e37fce
+N5c01342c20e54ba2a971ec5f6ca94d9c http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/UnderwriterTakedown
+N64a4113dce684de089e6beaabbee432e http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Correspondent
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/isTrustee http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Trustee
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/DebtIssueOverAllotmentTerms http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/MuniIssuanceProcessParticipant http://www.w3.org/2000/01/rdf-schema#label muni issuance process participant
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasAgent http://www.w3.org/2000/01/rdf-schema#label has agent
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Trustee http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/maximumOverAllotmentPercentage http://www.w3.org/2000/01/rdf-schema#label maximum over allotment percentage
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/DTCCMember http://www.w3.org/2004/02/skos/core#definition A firm which is a member of DTCC. Note: this Actor may perform any of the Roles described elsewhere in this Issuance model, i.e. the DTCC Member may also be any of the Actors defined. REVIEW: does this apply to ALL the defined Actor types?
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasPayingAgent http://www.w3.org/2000/01/rdf-schema#label has paying agent
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/maximumOverAllotmentAmount http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/DebtIssueOverAllotmentTerms
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/obligorTo http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Obligor
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/DebtUnderwritingIssuanceProcess http://www.w3.org/2000/01/rdf-schema#label debt underwriting issuance process
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/requests http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/UnderwritingIssuanceRequestor
+N41e0ef82fa9945f5adc42b78b42e0933 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/includesStep
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/RegisteredSecurityIssuanceProcess http://www.w3.org/2000/01/rdf-schema#label registered security issuance process
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/overAllotmentAvailable http://www.w3.org/2004/02/skos/core#definition Whether an over-allotment option is available for the security.
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/requestedBy http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/UnderwritingIssuanceRequestor
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/registeredUnder http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/Jurisdiction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/prints http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuancePrinter
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/MuniDebtOffering http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/DebtInstruments/DebtOffering
+N9493afffd4844a5dba9afc43acc5d1eb http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/PayingAgent
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/disseminationDecisionDateAndTime http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Dissemination
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/ProcessParticipant http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/isCreditingParticipant http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/refersTo http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/UnderwritingIssuanceClosing
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/isIssuerCounsel http://www.w3.org/2000/01/rdf-schema#label is issuer counsel
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/isIssuerCounsel http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/prints http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/PayingAgent http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuanceAgent
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/announcesIssueOf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasTransferAgent http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/TransferAgent
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuerCounsel http://www.w3.org/2000/01/rdf-schema#subClassOf N7ba52d969e2c4c92ac6633d19ffdcbf5
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/formalAwardDateAndTime http://www.w3.org/2000/01/rdf-schema#label formal award date and time
+N6d8a9e03c46449d29bca1624aae21a48 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasObligor
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasRemarketingAgent http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuanceCreditingParticipant http://www.w3.org/2000/01/rdf-schema#subClassOf Nea2bebe63d8946c1930325ed3db2e117
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuanceAgent http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/DebtAuctionProcess http://www.w3.org/2000/01/rdf-schema#label debt auction process
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/MuniIssuanceProcessParticipant http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuanceProcessParticipant
+N4c014283cc1d46488e003eded408e911 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/includesStep http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/subscribesTo.1 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Servicer http://www.w3.org/2000/01/rdf-schema#label servicer
+N30014c691b3b435dbce09479baaf865a http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/isBondCounsel
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Obligor http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nea2bebe63d8946c1930325ed3db2e117 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/isCreditingParticipant
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasFinancialAdvisor http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuance http://www.w3.org/2000/01/rdf-schema#subClassOf N57e8882b5fcb43d2aed95b3f2a18a7c8
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/requests http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuanceSettlement http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/IssuanceProcessActivity
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/DebtUnderwritingIssuanceProcess http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/maximumOverAllotmentAmount http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Obligor http://www.w3.org/2000/01/rdf-schema#subClassOf N1681a397ad5a4043a8cd4b9e724681f7
+Nf0edabd48207477ea32ef4891e3b8452 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/produces
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/UnderwritingIssuanceRequestor http://www.w3.org/2000/01/rdf-schema#label underwriting issuance requestor
+Nfa6607acaf4847f3844cf0696362b8c2 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/underwrittenBy http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/PotentialMuniUnderwriter
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/givesRiseTo http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasBondCounsel http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/BondCounsel
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasPrinter http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+Nc7d9532621b04d09bf0c331cbab7c04c http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/advises
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/DTCCMember http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/MuniIssuanceProcessParticipant
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/DisseminationUnderwriter http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/PotentialMuniUnderwriter
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/makesDecisionOn http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N4bc86b8b76d84cc8845aa1e5fc95a572 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Correspondent
+N2d7c2b12ff9141b3bdf7a1da33a6540c http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasTransferAgent
+Nddfbb06b44f444b6be64379498135403 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasPrinter
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/includesStep http://www.w3.org/2000/01/rdf-schema#label includes step
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/issuanceSettlementDate http://www.w3.org/2000/01/rdf-schema#label issuance settlement date
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/DTCCMember http://www.w3.org/2000/01/rdf-schema#label d t c c member
+N30014c691b3b435dbce09479baaf865a http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/DebtUnderwritingIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/UnderwritingIssuanceClosing http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuanceClosing
+N11cccc22a1b543598d639791e56092da http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/requests http://www.w3.org/2000/01/rdf-schema#label requests
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/services http://www.w3.org/2000/01/rdf-schema#label services
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/PotentialMuniUnderwriter http://www.w3.org/2000/01/rdf-schema#label potential muni underwriter
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess http://www.w3.org/2000/01/rdf-schema#subClassOf Nd325f152b0454a4bbb54320e2da038ce
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/underwrittenBy http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/PotentialMuniUnderwriter http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/PotentialUnderwriter
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/facililtatesRemarketing http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/actualClosingDate http://www.w3.org/2000/01/rdf-schema#label actual closing date
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/MuniIssuanceProcessParticipant http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N1681a397ad5a4043a8cd4b9e724681f7 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N22cef5435f074b2495f462dab7e2374e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/underwritingProcessActorHasIdentity http://www.w3.org/2000/01/rdf-schema#range Nb498cbacc9634f7f93064b3939164150
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/DTCCMember http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/PotentialMuniUnderwriter http://www.w3.org/2004/02/skos/core#definition An intermediary between an issuer of a security and the investing public. An underwriter can either be DTC Participant or Correspondent who would clear the underwriting deal using the Crediting Participant.
+N2d7c2b12ff9141b3bdf7a1da33a6540c http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/TransferAgent
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasAgent http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasSubscriber http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/requestedBy http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/underwritingProcessActorHasIdentity http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/UnderwritingProcessActor
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/step http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/DebtInstruments/DebtOffering
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesIssuanceContext http://www.w3.org/2000/01/rdf-schema#subClassOf N055144bdf62d4192835e51d3e1709bf3
+N0b2f037e55474d2da457b883d94a7c57 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Ne9a7d249a7f1463ab2f1bc4f0f1d3dfa http://www.w3.org/2002/07/owl#maxQualifiedCardinality 1
+N70664f6e3aaf4cfabfa3e33aa85cba65 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/overAllotmentAvailable http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#boolean
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuerCounsel http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasObligor http://www.w3.org/2000/01/rdf-schema#label has obligor
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/DTCCMember http://www.w3.org/2000/01/rdf-schema#subClassOf Nfa6607acaf4847f3844cf0696362b8c2
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/registeredUnder http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/subscribesTo http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/Subscriber
+N1681a397ad5a4043a8cd4b9e724681f7 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/obligorTo
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/makesDecisionOn http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Dissemination
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/facilitatesTransfer http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/TransferAgent
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/ http://purl.org/dc/terms/abstract Ontology for the process in which municipal bonds are issued.
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/isIssuerCounsel http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuerCounsel
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess http://www.w3.org/2000/01/rdf-schema#subClassOf N53b0e8a8e5804f51aef6fe10add165cc
+N3e330d8e398e403882800f8e2b0a8d23 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Security
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/EquityUnderwritingIssuanceProcess http://www.w3.org/2000/01/rdf-schema#label equity underwriting issuance process
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/obligorTo http://www.w3.org/2000/01/rdf-schema#label obligor to
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasIssuanceGuarantor http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/DebtAuctionProcess http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/SecuritiesIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/underwrites http://www.w3.org/2000/01/rdf-schema#label underwrites
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Documents/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasIssuerCounsel http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Servicer http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/services http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasSubscriber http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/Subscriber
+N2cb17b626a1843528f152cd1b11db943 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasAgent
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/participatesIn http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/MuniIssuanceProcessParticipant
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/maximumOverAllotmentPercentage http://www.w3.org/2004/02/skos/core#definition The percentage that is available as part of providing the over-allotment option.
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesIssuanceContext http://www.w3.org/2000/01/rdf-schema#label securities issuance context
+N3e330d8e398e403882800f8e2b0a8d23 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/announcesIssueOf
+Ne9a7d249a7f1463ab2f1bc4f0f1d3dfa http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/facilitatesPayment http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/PayingAgent
+Nb498cbacc9634f7f93064b3939164150 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nc7ca41f0674e4501896cc87f45f18342 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/DebtIssueOverAllotmentTerms http://www.w3.org/2000/01/rdf-schema#label debt issue over allotment terms
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssueOverAllotmentTerms http://www.w3.org/2000/01/rdf-schema#label issue over allotment terms
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Correspondent http://www.w3.org/2000/01/rdf-schema#label correspondent
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/givesRiseTo http://www.w3.org/2000/01/rdf-schema#label gives rise to
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/overAllotmentExpiryPeriodDays http://www.w3.org/2000/01/rdf-schema#label over allotment expiry period days
+N57e8882b5fcb43d2aed95b3f2a18a7c8 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Security
+Ndda05a84134148bdaf0a43256b22c9ff http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/RemarketingAgent
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuanceSettlement http://www.w3.org/2000/01/rdf-schema#label issuance settlement
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/issuanceSettlementDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/saleMethod http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuanceAgent http://www.w3.org/2000/01/rdf-schema#subClassOf Ndde6f896e8694c589f28c99df9f53c9e
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/maximumOverAllotmentPercentage http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/overAllotmentAvailable http://www.w3.org/2000/01/rdf-schema#label over allotment available
+N83175a280ea54d58bb041536a81f5c28 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/overAllotmentExpiryPeriodDays http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#integer
+N30014c691b3b435dbce09479baaf865a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssueOverAllotmentTerms http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/UnderwritingIssuanceClosing http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/facilitatesPayment http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/subscribesTo http://www.w3.org/2000/01/rdf-schema#label subscribes to
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/underwrittenBy http://www.w3.org/2000/01/rdf-schema#label underwritten by
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/underwritingProcessActorHasIdentity http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuanceCreditingParticipant http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssueOverAllotmentTerms http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceDocuments/OfferingDocumentTerms
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasServicer http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+Na06eac796090442780773bb756f106a6 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N3779eeacb7164cad8180d5427f4c0b5f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/maximumOverAllotmentShares http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#integer
+Nddfbb06b44f444b6be64379498135403 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Dissemination http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasFinancialAdvisor http://www.w3.org/2000/01/rdf-schema#label has financial advisor
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuanceFinancialAdvisor http://www.w3.org/2000/01/rdf-schema#label issuance financial advisor
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/services http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Servicer
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/BondCounsel http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N055144bdf62d4192835e51d3e1709bf3 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Security
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/isAgentIn http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuanceAgent
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/actualClosingDate http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/Date
+N7ba52d969e2c4c92ac6633d19ffdcbf5 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/isIssuerCounsel
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/QuantitiesAndUnits/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/isCreditingParticipant http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess http://www.w3.org/2000/01/rdf-schema#subClassOf Nf423e6d06e8b4f34877cbc659f67e993
+N4bc86b8b76d84cc8845aa1e5fc95a572 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N38ba088a2c1946aab366f0567061dd34
+N7cb04391e6914943ac37ce24505c9144 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasServicer
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/isTrustee http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+N7ba52d969e2c4c92ac6633d19ffdcbf5 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess http://www.w3.org/2000/01/rdf-schema#subClassOf N0b4fd1518b0f492a951361b6389b8721
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess http://www.w3.org/2004/02/skos/core#definition The process by which debt instruments are offered to the market by a syndicate of underwriters who underwrite the issue.
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/formalAwardDateAndTime http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/DateTime
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuance http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasIssuerCounsel http://www.w3.org/2000/01/rdf-schema#label has issuer counsel
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/DebtUnderwritingClosing http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/UnderwritingIssuanceClosing
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/underwrites http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+Ne9a7d249a7f1463ab2f1bc4f0f1d3dfa http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/maximumOverAllotmentAmount
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/prints http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+N0b4fd1518b0f492a951361b6389b8721 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasTrustee
+Nc7ca41f0674e4501896cc87f45f18342 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/underwrites
+N8cc9a3aa99ab4991b29b8f6fd5fd11b3 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/participatesIn
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/issuanceSettlementDate http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuanceSettlement
+N98e4eabbb9984fe3964b08a10e3889f3 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/requests http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/EquityUnderwritingIssuanceProcess http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/RegisteredSecurityIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuanceProcessParticipant http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/ProcessParticipant
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/DebtUnderwritingIssuanceProcess http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/EquityUnderwritingIssuanceProcess
+N4c014283cc1d46488e003eded408e911 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/registeredUnder
+N892e2175622748f1b07fb7f6ce9cb2eb http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/formalAwardDateAndTime http://www.w3.org/2004/02/skos/core#definition Date and time the issuer formally accepts a bid for Competitive Issues or, the Date and Time the Bond Purchase Agreement is executed for Negotiated Issues. Time Zone: Include in date/time data or add a term for it?
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/isAgentIn http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasFinancialAdvisor http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssueOverAllotmentTerms https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Also known as a green shoe. Note that this set of terms does not refer to over-allotment as change to a the total issue amount issued to an individual investor. That would require separate but similar terms. FIBIM has "Over Allotment Amount" as an individual term.
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/disseminationDecisionDateAndTime http://www.w3.org/2000/01/rdf-schema#label dissemination decision date and time
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuanceProcessParticipant http://www.w3.org/2000/01/rdf-schema#label issuance process participant
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Registration http://www.w3.org/2000/01/rdf-schema#label registration
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/step http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N5c01342c20e54ba2a971ec5f6ca94d9c http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/refersTo
+Nd325f152b0454a4bbb54320e2da038ce http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/requestedBy
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuanceProcessParticipant http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/DebtIssueOverAllotmentTerms http://www.w3.org/2004/02/skos/core#definition Terms for Change to an Issue Amount for Debt securities
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/DebtAuctionProcess http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nea2bebe63d8946c1930325ed3db2e117 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+N99ee1c5b609e42c7b5c8d2578bcc43d2 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuanceClosing http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/IssuanceProcessActivity
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasPrinter http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/offeringRequestor http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+Ndda05a84134148bdaf0a43256b22c9ff http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Registration http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/isBondCounsel http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuancePrinter http://www.w3.org/2000/01/rdf-schema#label issuance printer
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/announcesIssueOf http://www.w3.org/2000/01/rdf-schema#label announces issue of
+Ndde6f896e8694c589f28c99df9f53c9e http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+N3e330d8e398e403882800f8e2b0a8d23 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N99ee1c5b609e42c7b5c8d2578bcc43d2 http://www.w3.org/2002/07/owl#someValuesFrom N4ad42eae24a8493cbdd1d64ec53a59da
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/EquityIPOProcess http://www.w3.org/2000/01/rdf-schema#label equity i p o process
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/RegisteredSecurityIssuanceProcess http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/SecuritiesIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/issuanceSettlementDate http://www.w3.org/2004/02/skos/core#definition Settlement date for the initial Issuance transaction.
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/TransferAgent http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuanceAgent
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/overAllotmentAvailable http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssueOverAllotmentTerms
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Correspondent http://www.w3.org/2000/01/rdf-schema#subClassOf N8cc9a3aa99ab4991b29b8f6fd5fd11b3
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/ http://www.w3.org/2000/01/rdf-schema#label MuniIssuance
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasPayingAgent http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/PayingAgent
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/saleMethod http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/MuniDebtOffering
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/underwrittenBy http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/AnnounceSecuritiesIssue http://www.w3.org/2000/01/rdf-schema#subClassOf N62bb6710976249b0931ba93588c7fc39
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/UnderwritingProcessActivity http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/UnderwritingProcessActivity http://www.w3.org/2000/01/rdf-schema#label underwriting process activity
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/actualClosingDate http://www.w3.org/2004/02/skos/core#definition The date in which closing has been done for the underwriter of a security.
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/
+N57e8882b5fcb43d2aed95b3f2a18a7c8 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N9493afffd4844a5dba9afc43acc5d1eb http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasPayingAgent
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/UnderwritingProcessActor http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/step http://www.w3.org/2000/01/rdf-schema#label step
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/EquityDemutualizationProcess http://www.w3.org/2000/01/rdf-schema#label equity demutualization process
+Nc7d9532621b04d09bf0c331cbab7c04c http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuanceSettlement http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Trustee http://www.w3.org/2000/01/rdf-schema#label trustee
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/UnderwritingIssuanceRequestor http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/PotentialIssuer
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/produces http://www.w3.org/2000/01/rdf-schema#label produces
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/DebtUnderwritingClosing http://www.w3.org/2000/01/rdf-schema#subClassOf N70664f6e3aaf4cfabfa3e33aa85cba65
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/refersTo http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/UnderwriterTakedown
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssueOverAllotmentTerms http://www.w3.org/2004/02/skos/core#definition Terms for Change to an Issue Amount. A provision in an underwriting agreement, which allows members of the underwriting syndicate to purchase additional shares at the original price.
+Nf423e6d06e8b4f34877cbc659f67e993 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/underwrittenBy
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/saleMethod http://www.w3.org/2004/02/skos/core#definition Sale Method of the security.
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/UnderwritingIssuanceClosing http://www.w3.org/2000/01/rdf-schema#label underwriting issuance closing
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/DisseminationUnderwriter http://www.w3.org/2000/01/rdf-schema#subClassOf N8ac5a8ca6aa94df3899e9bcf16ca2336
+N0b4fd1518b0f492a951361b6389b8721 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N6d8a9e03c46449d29bca1624aae21a48 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Obligor
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/
+N9493afffd4844a5dba9afc43acc5d1eb http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Correspondent http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/MuniIssuanceProcessParticipant
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuancePrinter http://www.w3.org/2000/01/rdf-schema#subClassOf N3779eeacb7164cad8180d5427f4c0b5f
+N496db8f22b864efebd43d3875bda0d91 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/Subscriber
+N2f94a9060b8f4796a2ff1cc516e37fce http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/RegisteredSecurityIssuanceProcess http://www.w3.org/2000/01/rdf-schema#subClassOf N41e0ef82fa9945f5adc42b78b42e0933
+Nb498cbacc9634f7f93064b3939164150 http://www.w3.org/2002/07/owl#unionOf N64a4113dce684de089e6beaabbee432e
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuanceCreditingParticipant http://www.w3.org/2000/01/rdf-schema#label issuance crediting participant
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasTrustee http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Trustee
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/EquityUnderwritingIssuanceProcess http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N8ac5a8ca6aa94df3899e9bcf16ca2336 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/maximumOverAllotmentPercentage http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/QuantitiesAndUnits/Percentage
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/participatesIn http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N7cb04391e6914943ac37ce24505c9144 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N22cef5435f074b2495f462dab7e2374e http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasIssuerCounsel
+N70664f6e3aaf4cfabfa3e33aa85cba65 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/DebtIssuance/UnderwriterTakedownForDebt
+N41e0ef82fa9945f5adc42b78b42e0933 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceDocuments/
+Ne9a7d249a7f1463ab2f1bc4f0f1d3dfa http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N1681a397ad5a4043a8cd4b9e724681f7 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+N0b4fd1518b0f492a951361b6389b8721 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Trustee
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuanceFinancialAdvisor http://www.w3.org/2000/01/rdf-schema#subClassOf Nc7d9532621b04d09bf0c331cbab7c04c
+N38ba088a2c1946aab366f0567061dd34 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/EquityIPOProcess http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/RegisteredSecurityIssuanceProcess
+N62bb6710976249b0931ba93588c7fc39 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecuritiesOffering
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/DisseminationUnderwriter http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Dissemination http://www.w3.org/2000/01/rdf-schema#label dissemination
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Registration http://www.w3.org/2000/01/rdf-schema#subClassOf N4c014283cc1d46488e003eded408e911
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess http://www.w3.org/2000/01/rdf-schema#subClassOf N2d7c2b12ff9141b3bdf7a1da33a6540c
+N97da501f61e347f0a91f0f65d66d837a http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/services
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2013-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Correspondent http://www.w3.org/2004/02/skos/core#definition A bank, brokerage or other financial institution that is not a direct DTC member. Correspondents rely on direct DTC Participants to perform their DTC settlement services
+N055144bdf62d4192835e51d3e1709bf3 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nf423e6d06e8b4f34877cbc659f67e993 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/PayingAgent http://www.w3.org/2000/01/rdf-schema#label paying agent
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/
+N0b2f037e55474d2da457b883d94a7c57 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasObligor http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/isBondCounsel http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/DebtUnderwritingIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Correspondent http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/overAllotmentExpiryPeriodDays http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssueOverAllotmentTerms
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasTransferAgent http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/refersTo http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasRemarketingAgent http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/RemarketingAgent
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/disseminationDecisionDateAndTime http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Dissemination http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/UnderwritingProcessActivity
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasServicer http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Servicer
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesIssuanceContext http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/Process/FinancialContextAndProcess/PrimaryMarket
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/maximumOverAllotmentShares http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssueOverAllotmentTerms
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/PrivatePlacement http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/SecuritiesIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BP/Process/FinancialContextAndProcess/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/RemarketingAgent http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N4ad42eae24a8493cbdd1d64ec53a59da http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/services http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasIssuerCounsel http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuerCounsel
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/announcementComments http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+Nfa6607acaf4847f3844cf0696362b8c2 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/participatesIn
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/maximumOverAllotmentAmount http://www.w3.org/2000/01/rdf-schema#label maximum over allotment amount
+N7cb04391e6914943ac37ce24505c9144 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Servicer
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/isAgentIn http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+N496db8f22b864efebd43d3875bda0d91 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasSubscriber
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess http://www.w3.org/2000/01/rdf-schema#label securities underwriting issuance process
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasTransferAgent http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasPrinter http://www.w3.org/2000/01/rdf-schema#label has printer
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/facilitatesPayment http://www.w3.org/2000/01/rdf-schema#label facilitates payment
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/ProcessParticipant http://www.w3.org/2000/01/rdf-schema#label process participant
+N22cef5435f074b2495f462dab7e2374e http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuerCounsel
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/RemarketingAgent http://www.w3.org/2000/01/rdf-schema#subClassOf N892e2175622748f1b07fb7f6ce9cb2eb
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/RemarketingAgent http://www.w3.org/2000/01/rdf-schema#label remarketing agent
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/facilitatesTransfer http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/maximumOverAllotmentAmount http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuanceFinancialAdvisor http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N83175a280ea54d58bb041536a81f5c28 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N62bb6710976249b0931ba93588c7fc39 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasIssuanceGuarantor http://www.w3.org/2000/01/rdf-schema#label has issuance guarantor
+N2d7c2b12ff9141b3bdf7a1da33a6540c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N53b0e8a8e5804f51aef6fe10add165cc http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasFinancialAdvisor
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/actualClosingDate http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuanceClosing
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/disseminationDecisionDateAndTime http://www.w3.org/2004/02/skos/core#definition Date and Time when the Dissemination Underwriter made the Decision about Dissemination.
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/DebtUnderwritingClosing http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Na06eac796090442780773bb756f106a6 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/DebtInstruments/DebtOffering
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/facilitatesPayment http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/UnderwritingProcessActor http://www.w3.org/2000/01/rdf-schema#subClassOf N99ee1c5b609e42c7b5c8d2578bcc43d2
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/isAgentIn http://www.w3.org/2000/01/rdf-schema#label is agent in
+Nf423e6d06e8b4f34877cbc659f67e993 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/PotentialMuniUnderwriter
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/AnnounceSecuritiesIssue http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasSubscriber http://www.w3.org/2000/01/rdf-schema#label has subscriber
+N97da501f61e347f0a91f0f65d66d837a http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+Nf0edabd48207477ea32ef4891e3b8452 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/subscribesTo.1 http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/Subscriber
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/obligorTo http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/maximumOverAllotmentShares http://www.w3.org/2004/02/skos/core#definition The maximum amount of shares that are available as part of providing the over-allotment option.
+Nf0edabd48207477ea32ef4891e3b8452 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/UnderwritingProcessDetails
+N8cc9a3aa99ab4991b29b8f6fd5fd11b3 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+N98e4eabbb9984fe3964b08a10e3889f3 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasServicer http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/UnderwritingProcessActor http://www.w3.org/2004/02/skos/core#definition any actor within the DTYCC Underwriting Process or any other Underwriting Process. Note: At present all these Actors (e.g. Underwriter) are defined simply as Process Actors and not as specializations of this type of Actor. Therefore this Actor is a Union of all of those.
+N98e4eabbb9984fe3964b08a10e3889f3 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/facilitatesTransfer
+N8ac5a8ca6aa94df3899e9bcf16ca2336 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Dissemination
+N53b0e8a8e5804f51aef6fe10add165cc http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuanceFinancialAdvisor
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuance http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesIssuanceContext
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/maximumOverAllotmentAmount http://www.w3.org/2004/02/skos/core#definition The maximum amount that is available as part of providing the over-allotment option.
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasPayingAgent http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/PrivatePlacement http://www.w3.org/2000/01/rdf-schema#label private placement
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/DisseminationUnderwriter http://www.w3.org/2000/01/rdf-schema#label dissemination underwriter
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuanceAgent http://www.w3.org/2000/01/rdf-schema#label issuance agent
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/subscribesTo.1 http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/SecuritiesIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/isTrustee http://www.w3.org/2000/01/rdf-schema#label is trustee
+N8ac5a8ca6aa94df3899e9bcf16ca2336 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/makesDecisionOn
+N892e2175622748f1b07fb7f6ce9cb2eb http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/formalAwardDateAndTime http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/EquityIPOProcess http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasAgent http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuanceAgent
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/subscribesTo.1 http://www.w3.org/2000/01/rdf-schema#label subscribes to
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/isCreditingParticipant http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuanceCreditingParticipant
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+N57e8882b5fcb43d2aed95b3f2a18a7c8 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Documents/refersTo
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/RegisteredSecurityIssuanceProcess http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasTrustee http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess http://www.w3.org/2000/01/rdf-schema#subClassOf Ndda05a84134148bdaf0a43256b22c9ff
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess http://www.w3.org/2000/01/rdf-schema#subClassOf N9493afffd4844a5dba9afc43acc5d1eb
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/produces http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/requestedBy http://www.w3.org/2000/01/rdf-schema#label requested by
+N0b2f037e55474d2da457b883d94a7c57 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/requests
+Nea2bebe63d8946c1930325ed3db2e117 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/MuniDebtOffering http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/participatesIn http://www.w3.org/2000/01/rdf-schema#label participates in
+N99ee1c5b609e42c7b5c8d2578bcc43d2 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/underwritingProcessActorHasIdentity
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/announcementComments http://www.w3.org/2004/02/skos/core#definition Free form description of Purpose of Issue, Source of funds etc.
+N892e2175622748f1b07fb7f6ce9cb2eb http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/facililtatesRemarketing
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/PayingAgent http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/EquityDemutualizationProcess http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/IssuanceProcess/SecuritiesIssuanceProcess
+N38ba088a2c1946aab366f0567061dd34 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/DTCCMember
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/disseminationDecisionDateAndTime http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/DateTime
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/overAllotmentExpiryPeriodDays http://www.w3.org/2004/02/skos/core#definition Number of calendar days after the closing of initial offering for expiry of over-allotment option.
+N64a4113dce684de089e6beaabbee432e http://www.w3.org/1999/02/22-rdf-syntax-ns#rest Nb5eafaa0f10944f0be6d7d7d9fe8530f
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/saleMethod http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#string
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuanceClosing http://www.w3.org/2000/01/rdf-schema#label issuance closing
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuance http://www.w3.org/2004/02/skos/core#definition Underwriting, as a method of Securities Issuance.
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/BondCounsel http://www.w3.org/2000/01/rdf-schema#label bond counsel
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess http://www.w3.org/2000/01/rdf-schema#subClassOf N496db8f22b864efebd43d3875bda0d91
+N3779eeacb7164cad8180d5427f4c0b5f http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/issuanceSettlementDate http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/Date
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/Servicer http://www.w3.org/2000/01/rdf-schema#subClassOf N97da501f61e347f0a91f0f65d66d837a
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasTrustee http://www.w3.org/2000/01/rdf-schema#label has trustee
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/AnnounceSecuritiesIssue http://www.w3.org/2000/01/rdf-schema#subClassOf N3e330d8e398e403882800f8e2b0a8d23
+Nd325f152b0454a4bbb54320e2da038ce http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Provisional
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasRemarketingAgent http://www.w3.org/2000/01/rdf-schema#label has remarketing agent
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/DebtAuctionProcess http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/PayingAgent http://www.w3.org/2000/01/rdf-schema#subClassOf N11cccc22a1b543598d639791e56092da
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/maximumOverAllotmentAmount http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssueOverAllotmentTerms
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/facilitatesTransfer http://www.w3.org/2000/01/rdf-schema#label facilitates transfer
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/includesStep http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/RegisteredSecurityIssuanceProcess
+Nd325f152b0454a4bbb54320e2da038ce http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/UnderwritingIssuanceRequestor
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/facililtatesRemarketing http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/RemarketingAgent
+N2f94a9060b8f4796a2ff1cc516e37fce http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/hasBondCounsel
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/announcesIssueOf http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/AnnounceSecuritiesIssue
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/isIssuerCounsel http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess http://www.w3.org/2000/01/rdf-schema#subClassOf Nf0edabd48207477ea32ef4891e3b8452
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuancePrinter http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuanceClosing http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/PrivatePlacement http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N2cb17b626a1843528f152cd1b11db943 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssuanceAgent
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/DatesAndTimes/
+N7ba52d969e2c4c92ac6633d19ffdcbf5 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/underwrites http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/PotentialMuniUnderwriter
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess http://www.w3.org/2000/01/rdf-schema#subClassOf N22cef5435f074b2495f462dab7e2374e
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/participatesIn http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/SecuritiesUnderwritingIssuanceProcess
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/DebtUnderwritingIssuanceProcess http://www.w3.org/2000/01/rdf-schema#subClassOf Na06eac796090442780773bb756f106a6
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/UnderwritingIssuanceRequestor http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N3779eeacb7164cad8180d5427f4c0b5f http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/prints
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/subscriber.1 http://www.w3.org/2000/01/rdf-schema#label subscriber
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/IssueOverAllotmentTerms http://www.w3.org/2000/01/rdf-schema#subClassOf Ne9a7d249a7f1463ab2f1bc4f0f1d3dfa
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/DebtUnderwritingClosing http://www.w3.org/2000/01/rdf-schema#label debt underwriting closing
+https://spec.edmcouncil.org/fibo/ontology/BP/SecuritiesIssuance/MuniIssuance/MuniDebtOffering http://www.w3.org/2000/01/rdf-schema#label muni debt offering

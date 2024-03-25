@@ -1,0 +1,949 @@
+Neb15785d6b0e43c1990255a33b1718cc http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/RecurrenceInterval
+N30d6e6c53a814a78a5ab442dcfd591bc http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PromissoryNote http://www.w3.org/2004/02/skos/core#definition negotiable instrument that is a written promise by one party to another that commits that party to pay a specified sum on demand or within a specified time frame under specified terms
+N258fb505f1a44b61a3ab292b327268db http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-ActualActualICMA https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym actual/actual
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasAnticipatedNumberOfPayments http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ManagedInterestRate http://www.w3.org/2000/01/rdf-schema#subClassOf Naf3467a0f61348b796b12a3ea59cfc9f
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isCollateralizationOf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasPrincipalRepaymentDate http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/AmortizationSchedule http://www.w3.org/2004/02/skos/core#definition schedule of periodic payments (repayment installments) that specify changes in the balance of the debt over time
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasMaturityDate http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasExplicitDate
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ExplicitContractEventSchedule http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FBC/20210301/DebtAndEquities/Debt/ version of this ontology was modified to (1) add concepts including credit agreement whose principal is repaid at maturity and those whose principal is repaid over the course of the agreement, (2) move properties related to maturity to this ontology from FinancialInstruments and restructure the relationship between these two ontologies, (3) add the concept of a borrower identifier and the related scheme, (4) add the concept of an interest rate cap as a potential provision with respect to interest rate terms, and (5) clarified the definition of promissory note.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditFacility http://www.w3.org/2000/01/rdf-schema#subClassOf Ncec8db2f864d43d093ad0ed041130019
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Debt http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Commitment
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Lender http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PartialAmortization http://www.w3.org/2004/02/skos/core#definition amortization in which the very last payment the last payment due may be a large balloon payment of all remaining principal and interest
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Principal http://www.w3.org/2004/02/skos/core#definition with respect to a debt: the value of an obligation, such as a bond or loan, raised and that must be repaid at maturity; for investments: the original amount of money invested, separate from any associated interest, dividends or capital gains
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasOriginalTimeToMaturity http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasDuration
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Lease http://www.w3.org/2000/01/rdf-schema#label lease
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Borrower http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PrincipalRepaymentTerms http://www.w3.org/2000/01/rdf-schema#subClassOf N33108d5fd76243f882a91de8a4dc67cd
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CapitalLease https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote In the United States, such leases must be reported per Statement 13 of the Financial Accounting Standards Board. Generally, this applies to leases where the lessee acquires essentially all of the economic benefits and risks of the leased property.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isAmortizationOf http://www.w3.org/2000/01/rdf-schema#label is amortization of
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PhysicalCollateral http://www.w3.org/2004/02/skos/core#example Examples of physical collateral include, but are not limited to, real estate, equipment, vehicles, spare parts, inventory, goods, supplies, fixtures, and leasehold improvements.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Debt http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Borrower http://www.w3.org/2000/01/rdf-schema#label borrower
+Nc1d9d5a392364ca8b22b3f49ae9e1495 http://www.w3.org/2002/07/owl#someValuesFrom N697caf47d98a40e28f8b2616095dc9fb
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-30360US http://www.w3.org/2004/02/skos/core#definition day-count convention that uses 30 days in a month and 360 days in a year for calculating interest payments
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/PartiesAndSituations/
+N765bb4ae90214de6a326654cd90f7086 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/PaymentsAndSchedules/
+Ncfa12fe63c3746a8b8ebf2d49a256652 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isBasedOn http://www.w3.org/2000/01/rdf-schema#label is based on
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/owes http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Debtor
+N86716ee4596b4037ad239b5918e2d2cc http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasExtensionProvision
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ProjectedContractEventSchedule http://www.w3.org/2000/01/rdf-schema#label projected contract event schedule
+N1f50967d7b4f4a90973cdb1ac2359dc0 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasContractualElement
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Debt http://www.w3.org/2000/01/rdf-schema#subClassOf N015e4e4685ef4520b733e68d2278c59a
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PrincipalPaymentSchedule http://www.w3.org/2000/01/rdf-schema#label principal payment schedule
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PrincipalPaymentSchedule https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The dates may be fixed, or expressed as an offset of the calculation dates. Typically the payment dates are fixed and calculation dates are expressed as an offset, however.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestCalculation http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/Calculation
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/BorrowingCapacity http://www.w3.org/2000/01/rdf-schema#subClassOf Ncfa12fe63c3746a8b8ebf2d49a256652
+N01c3f1e3ab9149b0aaa70cd045b0dba9 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Collateral
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditAgreementRepaidAtMaturity http://www.w3.org/2000/01/rdf-schema#subClassOf N68cad4031c604a23834104a3e0168606
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention http://www.w3.org/2000/01/rdf-schema#label day-count convention
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Principal http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+Nf44769eb194447b79ec59e227b2ff973 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestPaymentSchedule http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/PaymentsAndSchedules/PaymentSchedule
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasAccrualBasis http://www.w3.org/2004/02/skos/core#definition identifies the convention that defines how interest accrues on something, that is the number of days in a month and days in a year that are counted when performing interest accrual calculations
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-30360BondBasis http://www.w3.org/2000/01/rdf-schema#label day-count convention 30/360 bond basis
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasCompoundingFrequency http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Lender http://www.w3.org/2004/02/skos/core#definition a party that extends credit or money to a borrower with the expectation of being repaid, usually with interest
+N6df33d39311145e7836ed3cf56da402c http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/Ownership/TangibleAsset
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Lease http://www.w3.org/2004/02/skos/core#definition credit agreement permitting the use of real estate, equipment or another asset, such as a vehicle, by the owner of that asset (the lessor) to a user (the lessee) for a specific period of time in return for payment as specified in the agreement
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isInterestOn http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/AmortizationSchedule http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/PaymentsAndSchedules/PaymentSchedule
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isBasedOn http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/ContextualDesignators/appliesTo
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasOutstandingAmount http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ManagedInterestRate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N33108d5fd76243f882a91de8a4dc67cd http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isOwedBy http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CollateralAgreement http://www.w3.org/2000/01/rdf-schema#label collateral agreement
+N8fccf69ed5f0482c890c96146afd946e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ManagedInterestRate http://www.w3.org/2000/01/rdf-schema#label managed interest rate
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/SubFacility http://www.w3.org/2004/02/skos/core#definition portion of a credit facility extended to the borrower for some purpose, possibly per some schedule specified in the facility
+N19d022299bb441b5850b331ccef64254 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ManagedInterestRate http://www.w3.org/2004/02/skos/core#definition a variable interest rate charged by a financial institution for borrowing that is not prescribed as a margin over base rate but is set from time to time by the institution
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasPrincipalPaymentFrequency http://www.w3.org/2004/02/skos/core#definition the frequency at which payments on the principal must be made
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestCalculationSchedule http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/RateResetTimeOfDay http://www.w3.org/2000/01/rdf-schema#subClassOf N9228e3335f9445548c03973917c0de86
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FBC/20220301/DebtAndEquities/Debt/ version of this ontology was modified to add more detailed schedule information to support management of the various kinds of events that can impact a given contract as well as the concept of a revolving line of credit.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/AmortizationSchedule http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ProjectedContractEventSchedule
+N6ac2b8fbbce94d82a1bbb089a9ac76d3 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N8950f61748ca4145ad1081d0b93e0c5e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasMaturityDate http://www.w3.org/2000/01/rdf-schema#label has maturity date
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Amortization http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DebtTerms http://www.w3.org/2000/01/rdf-schema#label debt terms
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditFacility http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/FloatingInterestRate http://www.w3.org/2004/02/skos/core#definition variable interest rate that is based on a specific index or benchmark rate
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/FullAmortization http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-Actual365Fixed https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym English
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/FullAmortization http://www.w3.org/2004/02/skos/core#definition amortization in which the very last payment (which, if the schedule was calculated correctly, should be equal to all others) pays off all remaining principal and interest on the loan
+Nbda402bc92024702ab55917c64331ba5 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isCollateralizationOf
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/WrittenContract
+N19d022299bb441b5850b331ccef64254 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention
+Neb15785d6b0e43c1990255a33b1718cc http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInterestPaymentFrequency
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/MotorVehicleLease https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Motor vehicle leasing is commonly offered by dealers as an alternative to a vehicle purchase but is widely used by businesses as a method of acquiring (or having the use of) vehicles for business use, without the usually needed cash outlay. The key difference in a lease is that after the primary term (usually 2, 3 or 4 years) the vehicle has to either be returned to the leasing company or purchased for the residual value.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/owes http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isCollateralizedBy http://www.w3.org/2004/02/skos/core#definition relates a credit agreement or debt instrument to property pledged as security for the debt
+N3b478f260d6f423f86f4a4c46d02d154 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasMonetaryAmount
+N8c305b2295444a8ebc2fdf00bd6c05e2 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PrincipalPayment http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/PaymentsAndSchedules/Payment
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditAgreement http://www.w3.org/2004/02/skos/core#definition contractual agreement in which a debtor receives something of value and typically agrees to repay the creditor by some date in the future, in some form (e.g., cash, securities, etc.), generally with interest
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestRateResetSchedule http://www.w3.org/2000/01/rdf-schema#label interest rate reset schedule
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ProjectedContractEventSchedule http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasDenomination http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Accrual http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/RolesAndCompositions/Role
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CommittedCreditFacility http://www.w3.org/2004/02/skos/core#definition credit facility that is a confirmed source of financing for the borrower, as long as the borrower meets the conditions of the agreement
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasPrincipalPaymentDay http://www.w3.org/2004/02/skos/core#definition the day of the month on which payments on the principal must be made
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Collateral http://www.w3.org/2000/01/rdf-schema#subClassOf N6df33d39311145e7836ed3cf56da402c
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CapitalLease https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym financial lease
+Ncec8db2f864d43d093ad0ed041130019 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/SubFacility
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInitialInterestPaymentDate http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/Date
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasPrincipalRepaymentDate http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/Date
+N555c347c04cc4a9fb1ffbaed4ab687fa http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CommittedSubFacility
+N09522c5ff4f0409c9bbeb1385e22e66c http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditAgreement
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ProjectedContractEventSchedule http://www.w3.org/2000/01/rdf-schema#subClassOf N0b573bb43f5e4d8098769b9fbc7e11c3
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Debtor http://www.w3.org/2000/01/rdf-schema#label debtor
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/AmortizationSchedule http://www.w3.org/2000/01/rdf-schema#subClassOf Nea4ffe830b524644a2ce50ac65736e38
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Accrual http://www.w3.org/2000/01/rdf-schema#label accrual
+N765bb4ae90214de6a326654cd90f7086 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasBorrower http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Borrower
+Naf3467a0f61348b796b12a3ea59cfc9f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-Actual365Fixed http://www.w3.org/2004/02/skos/core#definition day-count convention that uses the actual number of days in each month and 365 days in a year for calculating interest payments
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Debtor http://www.w3.org/2000/01/rdf-schema#subClassOf N9bad9f6478394112a58af336d9edcbae
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PrincipalPayment http://www.w3.org/2000/01/rdf-schema#label principal payment
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInitialInterestAccrualDate http://www.w3.org/2000/01/rdf-schema#label has initial interest accrual date
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasAccrualBasis http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Principal http://www.w3.org/2000/01/rdf-schema#subClassOf N17e5afa26dc3469f8deb5a4a3198672a
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/FloatingInterestRate http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/VariableInterestRate
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/NonPhysicalCollateral http://www.w3.org/2004/02/skos/core#example Examples of non-physical collateral include, but are not limited to, bank deposits, accounts receivable, stocks, bonds, other securities, and the like.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PromissoryNote http://www.w3.org/2000/01/rdf-schema#label promissory note
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/governsPaymentOf http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DebtTerms
+N7ddf50ea1adc49e1aef18c3ed7f22942 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/ProductsAndServices/NegotiableCommodity
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CollateralValueAsOfDate http://www.w3.org/2000/01/rdf-schema#subClassOf N0d9e308fb50249b4b6e8a44bcaad19a0
+N9228e3335f9445548c03973917c0de86 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nd636478bf65b4a928c30e2e39e10ed37 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Debt
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/DatesAndTimes/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/RateResetTimeOfDay http://www.w3.org/2000/01/rdf-schema#label rate reset time of day
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CommittedSubFacility http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/NonPhysicalCollateral http://www.w3.org/2000/01/rdf-schema#label non-physical collateral
+N8f09ace7a3e842d1ad746dd6df03e99c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasMaturityDate http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDate
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestRateResetSchedule http://www.w3.org/2000/01/rdf-schema#subClassOf N68e548cc90ef4402869d73d075db016c
+N8bd60f75e5344479b0a0eefc76eb99f9 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInitialPrincipalPaymentDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-ActualActualICMA https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym act/act ICMA
+N7d8843612a964ea896500b1985a61d07 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasMonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf Nf44769eb194447b79ec59e227b2ff973
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention http://www.w3.org/2004/02/skos/core#definition a business recurrence interval convention that is used to calculate the number of days in an interest payment, which applies to the amount of accrued interest or the present value for debt instruments
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-ActualActualISDA https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote See ISDA 2006 Section 4.16(b), https://web.archive.org/web/20140913145444/http://www.hsbcnet.com/gbm/attachments/standalone/2006-isda-definitions.pdf for more details on the calculation.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isOwedBy http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Debt
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasPrincipalRepaymentDate http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasEndDate
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInitialInterestPaymentDate http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasStartDate
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestRateReset http://www.w3.org/2004/02/skos/core#definition event reflecting a potential adjustment to an interest rate, typically corresponding to a change in the underlying benchmark interest rate or index specified in the contract
+Ncec8db2f864d43d093ad0ed041130019 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/hasConstituent
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ExplicitContractEventSchedule http://www.w3.org/2000/01/rdf-schema#subClassOf N30d6e6c53a814a78a5ab442dcfd591bc
+N0a7a3d723b384adfb2054827a3550ef4 http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/DatesAndTimes/Date
+N6df33d39311145e7836ed3cf56da402c http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isCollateralizationOf
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Interest http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+Nde181057fd6247988190b2f143a19bee http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isInterestOn
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasMaturityDate https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Maturity dates typically apply to debt instruments, such as notes, drafts, bonds, and other loans, but may also apply to preferred shares and other financial instruments.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasPrincipalRepaymentDate http://www.w3.org/2000/01/rdf-schema#label has principal repayment date
+Nd49e570db3354a5d86d66191879d7e80 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PrincipalPayment
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/VariableInterestRate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N015e4e4685ef4520b733e68d2278c59a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestRateSettingEvent http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestCalculation
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DebtTerms http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractualCommitment
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Interest http://www.w3.org/2004/02/skos/core#definition the cost of using credit, or another's money, expressed as a rate per period of time, payable by a debtor to a creditor in consideration of the credit extended to the debtor
+Nf2b4ebb393234f7a8c707d5a2f333366 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/BorrowingCapacity http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/UncommittedSubFacility http://www.w3.org/2000/01/rdf-schema#label uncommitted sub-facility
+N0a7a3d723b384adfb2054827a3550ef4 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInitialInterestPaymentDate
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Creditor http://www.w3.org/2004/02/skos/core#definition a party to whom an obligation, such as an amount of money, or good, or performance of some service exists
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditAgreement http://www.w3.org/2000/01/rdf-schema#label credit agreement
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/BorrowerIdentifier https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote A given identifier identifies a particular borrower with respect to at least some number of notes/facilities inside a particular institution according to some policy for minting identifiers. Optimally, there would be a single identifier for a given borrower, but due to operational issues, this is often not the case. A CIF number, or Customer Information File number, is used to link accounts across an institution to all notes/facilities owed by a given borrower.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestPayment http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/PaymentsAndSchedules/Payment
+N697caf47d98a40e28f8b2616095dc9fb http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/PartiesAndSituations/isAPartyTo
+N86716ee4596b4037ad239b5918e2d2cc http://www.w3.org/2002/07/owl#maxQualifiedCardinality 1
+N33108d5fd76243f882a91de8a4dc67cd http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N9228e3335f9445548c03973917c0de86 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-ActualActualICMA https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym act/act ISMA
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PhysicalCollateral http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Collateral
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestPaymentSchedule https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The dates may be fixed, or expressed as an offset of the calculation dates. Typically the payment dates are fixed and calculation dates are expressed as an offset, however.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/AmortizationSchedule http://www.w3.org/2000/01/rdf-schema#subClassOf N6ac2b8fbbce94d82a1bbb089a9ac76d3
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/RateResetTimeOfDay http://www.w3.org/2004/02/skos/core#example Examples include certain rates published by the Federal Reserve Board in their H.15 schedule, which are published at 4:15 pm on business days that are not holidays in the US.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isPrincipalOf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInterestRate http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/InterestRate
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-ActualActualICMA https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote See ICMA Rule 251.1(iii), ISDA 2006 Section 4.16(c), https://web.archive.org/web/20140913145444/http://www.hsbcnet.com/gbm/attachments/standalone/2006-isda-definitions.pdf for more details on the calculation.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isAmortizationOf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasLender http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-30360US https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote This convention is used for US corporate bonds and many US agency issues. It is most commonly referred to as '30/360', but the term '30/360' may also refer to any of the other conventions of this class, depending on the context. See ISDA 2006 Section 4.16(f), https://web.archive.org/web/20140913145444/http://www.hsbcnet.com/gbm/attachments/standalone/2006-isda-definitions.pdf for more details on the calculation
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasBorrower http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N9b5435e0a82945beb4acb35ef3231563 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-ActualActualISDA https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym act/act
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/ContextualDesignators/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/FloatingInterestRate http://www.w3.org/2000/01/rdf-schema#seeAlso http://recomparison.com/comparisons/100975/floating-vs-variable-vs-adjustable-interest-rate/
+N6ac2b8fbbce94d82a1bbb089a9ac76d3 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasOriginalTimeToMaturity http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDuration
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-ActualActualISDA https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote This convention accounts for days in the period based on the portion in a leap year and the portion in a non-leap year.
+N81da4e3aaf12496f8bf8deb8c6bafbf4 http://www.w3.org/2002/07/owl#allValuesFrom https://www.omg.org/spec/Commons/DatesAndTimes/DatePeriod
+N6e4ce8a8a10048d39be3af80ab13aeac http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInterestPaymentFrequency http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/RecurrenceInterval
+N30d6e6c53a814a78a5ab442dcfd591bc http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditAgreement
+Nf948096f73b04fdabe80906107374ecd http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasMaturityDate
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2000/01/rdf-schema#label Debt Ontology
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FBC/20230101/DebtAndEquities/Debt.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.
+N1469416c798c4a6abe15a91ffbc90247 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CommittedCreditFacility
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isCollateralizedBy http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-30E360 http://www.w3.org/2000/01/rdf-schema#label day-count convention 30E/360
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasPrincipalPaymentDay http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ExplicitContractEventSchedule http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/AdHocSchedule
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasAccrualBasis http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/RevolvingLineOfCredit http://www.w3.org/2000/01/rdf-schema#label revolving line of credit
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-30360US http://www.w3.org/2000/01/rdf-schema#label day-count convention 30/360 US
+N34e9f023f5ef464c865730dc620ad82e http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isCollateralizationOf
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CommittedSubFacility http://www.w3.org/2004/02/skos/core#definition contractually committed portion of a credit facility that is available to the borrower and may be associated with some specific collateral
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/VariableInterestRate http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/InterestRate
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/VariableInterestRate http://www.w3.org/2000/01/rdf-schema#label variable interest rate
+N1469416c798c4a6abe15a91ffbc90247 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/AmortizationSchedule http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditAgreementRepaidPeriodically http://www.w3.org/2004/02/skos/core#example Examples include revolving lines of credit, commercial loans, construction loans, residential mortgages and so forth.
+N3b478f260d6f423f86f4a4c46d02d154 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+N4f7bb888727848d981bbbfc84498473b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N36870ef8f6a74434bd2479e9440c196e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PartialAmortization http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestPaymentTerms http://www.w3.org/2000/01/rdf-schema#subClassOf N87b94c51cff24fbaa0d5ae155ff0c10a
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/BorrowerIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/PartyRoleIdentifier
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditAgreementRepaidPeriodically http://www.w3.org/2000/01/rdf-schema#label credit agreement repaid periodically
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestPaymentSchedule http://www.w3.org/2000/01/rdf-schema#label interest payment schedule
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestCalculationSchedule http://www.w3.org/2000/01/rdf-schema#subClassOf N8fccf69ed5f0482c890c96146afd946e
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PartialAmortization http://www.w3.org/2000/01/rdf-schema#label partial amortization
+N2b8803e1e7904e0fb4a3c12b30046d56 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/BorrowerIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf N2d8844b2285642caa06a1cfedc87af4c
+Nf2b4ebb393234f7a8c707d5a2f333366 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Borrower
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/RateResetTimeOfDay http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N258fb505f1a44b61a3ab292b327268db http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Debtor
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/MotorVehicleLease http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/VariableInterestRate http://www.w3.org/2004/02/skos/core#definition an interest rate that is allowed to vary over the maturity of a loan or other debt instrument
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasCompoundingFrequency http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasRecurrenceInterval
+N44671a0411844c1997789042a394fbb9 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Debt
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PrincipalRepaymentTerms http://www.w3.org/2004/02/skos/core#definition contract terms that specify requirements for repayment of the principal
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/BorrowingCapacity http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-30E360 http://www.w3.org/2004/02/skos/core#definition day-count convention that uses 30 days in a month and 360 days in a year for calculating interest payments
+N0d9e308fb50249b4b6e8a44bcaad19a0 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/NegativeAmortization http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Amortization
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PhysicalCollateral http://www.w3.org/2000/01/rdf-schema#subClassOf N34e9f023f5ef464c865730dc620ad82e
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/governsPaymentOf http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+N8f09ace7a3e842d1ad746dd6df03e99c http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInterestRate http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasQuantityValue
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isInterestOn http://www.w3.org/2004/02/skos/core#definition links a monetary amount that is the cost of using credit to the debt that it applies to
+N36870ef8f6a74434bd2479e9440c196e http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/FixedInterestRate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/VariableInterestRate https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym adjustable rate
+N2059e211b7884bd68cdba4b9a638814b http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/InterestRate
+Nf6ef1700fd814de1a94df0dac3cee850 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FBC/20230601/DebtAndEquities/Debt.rdf version of this ontology was extended to incorporate the concept of a lease.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestRateSettingEvent http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nea4ffe830b524644a2ce50ac65736e38 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Amortization
+N555c347c04cc4a9fb1ffbaed4ab687fa http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/hasConstituent
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PrincipalRepaymentTerms http://www.w3.org/2000/01/rdf-schema#label principal repayment terms
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestCalculationSchedule http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ProjectedContractEventSchedule
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CollateralAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/WrittenContract
+N8950f61748ca4145ad1081d0b93e0c5e http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Creditor
+Nc1d9d5a392364ca8b22b3f49ae9e1495 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInitialPrincipalPaymentDate http://www.w3.org/2004/02/skos/core#definition the date on which the first payment against the principal is due
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInitialInterestAccrualDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/NonPhysicalCollateral http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Collateral
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Lender http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-Actual360 http://www.w3.org/2004/02/skos/core#definition day-count convention that uses the actual number of days in each month and 360 days in a year for calculating interest payments
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestPaymentTerms http://www.w3.org/2000/01/rdf-schema#label interest payment terms
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/RetailCreditFacility http://www.w3.org/2004/02/skos/core#definition credit facility that is a loan or line of credit used by retailers and real estate companies
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInterestRate http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Borrower http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasDebtAmount http://www.w3.org/2004/02/skos/core#definition indicates the monetary amount of the debt
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Debt http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInitialInterestAccrualDate http://www.w3.org/2004/02/skos/core#definition the date from which interest begins to accrue
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/RateResetTimeOfDay http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/DatesAndTimes/TimeOfDay
+N258fb505f1a44b61a3ab292b327268db http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasContractParty
+N86716ee4596b4037ad239b5918e2d2cc http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ExtensionProvision
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasBorrower http://www.w3.org/2004/02/skos/core#definition relates a contract, such as a debt instrument or credit agreement, to one or more parties that are incurring the debt
+N765bb4ae90214de6a326654cd90f7086 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditFacility
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isOwedBy http://www.w3.org/2004/02/skos/core#definition links a debt to the party that owes it
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/FullAmortization http://www.w3.org/2000/01/rdf-schema#label full amortization
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestCalculation http://www.w3.org/2000/01/rdf-schema#subClassOf N3b478f260d6f423f86f4a4c46d02d154
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-Actual365Fixed https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote See ISDA 2006 Section 4.16(d), https://web.archive.org/web/20140913145444/http://www.hsbcnet.com/gbm/attachments/standalone/2006-isda-definitions.pdf for more details on the calculation.
+N9b5435e0a82945beb4acb35ef3231563 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditAgreement http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+N1e97bd5e43d24fa49a0432cf9aa8e135 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasOccurrence
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/FixedInterestRate http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/InterestRate
+N6867b3324b8d4446b9466d151d773c0a http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInitialPrincipalPaymentDate
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditAgreementRepaidAtMaturity http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N68e548cc90ef4402869d73d075db016c http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasOccurrence
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/MotorVehicleLease http://www.w3.org/2004/02/skos/core#definition lease of a motor vehicle for a fixed period of time at an agreed amount of money
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasPrincipal http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isOwedBy http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Debtor
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/UncommittedSubFacility http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/SubFacility
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isPrincipalOf http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Principal
+N6867b3324b8d4446b9466d151d773c0a http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/DatesAndTimes/Date
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasPrincipalRepaymentDate https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Depending on the terms of the instrument (debt security, such as a bond, loan, etc.), this may be the date of a single payment of the debt principal or of the completion of scheduled partial redemption payments.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PrincipalPaymentSchedule http://www.w3.org/2004/02/skos/core#definition regular, contract-specific schedule including the dates on which some percentage or all of the principal is due to be (re)paid
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/SubFacility http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-30360US https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote See ISDA 2006 Section 4.16(f), https://web.archive.org/web/20140913145444/http://www.hsbcnet.com/gbm/attachments/standalone/2006-isda-definitions.pdf for more details on the calculation.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PrincipalPaymentSchedule http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ProjectedContractEventSchedule
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasOriginalTimeToMaturity https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym has term to maturity
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasPrincipal http://www.w3.org/2000/01/rdf-schema#label has principal
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Borrower http://www.w3.org/2004/02/skos/core#definition party to a credit agreement that is obligated to repay the amount borrowed (principal) with interest and other fees according to the terms of the instrument
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Accrual http://www.w3.org/2004/02/skos/core#definition the process of accumulating interest or other income that has been earned but not paid
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Lender http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractParty
+Nc1d9d5a392364ca8b22b3f49ae9e1495 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInterestRateCap http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/UncommittedCreditFacility http://www.w3.org/2000/01/rdf-schema#label uncommitted credit facility
+N4f7bb888727848d981bbbfc84498473b http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N33108d5fd76243f882a91de8a4dc67cd http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasPrincipalPaymentFrequency
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Lease http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nea4ffe830b524644a2ce50ac65736e38 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/embodies
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Debtor http://www.w3.org/2004/02/skos/core#definition a party that owes a debt or other obligation to another party
+N0b573bb43f5e4d8098769b9fbc7e11c3 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasAnticipatedNumberOfPayments
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/QuantitiesAndUnits/Expression
+N2738431600ac4faf858f63eae6750572 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N697caf47d98a40e28f8b2616095dc9fb http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasPrincipalRepaymentDate http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PrincipalRepaymentTerms
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PhysicalCollateral http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInterestPaymentFrequency http://www.w3.org/2000/01/rdf-schema#label has interest payment frequency
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CollateralValueAsOfDate http://www.w3.org/2000/01/rdf-schema#subClassOf N4b503b301d9646319d345efcd84ee25c
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isBasedOn http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/Ownership/
+N33108d5fd76243f882a91de8a4dc67cd http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/RecurrenceInterval
+N5725be603f394d1bb23fd4eacc162a70 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInterestPaymentDay
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-30360US http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasOriginalTimeToMaturity http://www.w3.org/2004/02/skos/core#definition indicates the lifespan of credit agreement or offering, from the date of issuance to the scheduled maturity date
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Interest http://www.w3.org/2000/01/rdf-schema#subClassOf Nde181057fd6247988190b2f143a19bee
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PrincipalRepaymentTerms http://www.w3.org/2000/01/rdf-schema#subClassOf N8bd60f75e5344479b0a0eefc76eb99f9
+Nf2b4ebb393234f7a8c707d5a2f333366 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N9bad9f6478394112a58af336d9edcbae http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/owes
+Ncdd09bc2da7f4bc7bd3e2cc7c99e2ba9 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/ContextualDesignators/appliesTo
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ExplicitContractEventSchedule https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote This is a schedule of actual dates and events that are terms of the contract.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/UncommittedCreditFacility http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditFacility
+N68cad4031c604a23834104a3e0168606 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasMaturityDate
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/FullAmortization http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+Na99f52eac2a144f0b521fd5d3a45e964 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/ContextualDesignators/appliesTo
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-Actual365Fixed http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+N8950f61748ca4145ad1081d0b93e0c5e http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isOwedTo
+Nf948096f73b04fdabe80906107374ecd http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Lender http://www.w3.org/2000/01/rdf-schema#label lender
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/MotorVehicleLease http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Lease
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ProjectedContractEventSchedule http://www.w3.org/2004/02/skos/core#definition schedule of events, including but not limited to anticipated payment events, rate reset events and others that are expected to occur over the lifetime of the contract
+N2d8844b2285642caa06a1cfedc87af4c http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/BorrowerIdentificationScheme
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-30E360ISDA http://www.w3.org/2004/02/skos/core#definition day-count convention that uses 30 days in a month and 360 days in a year for calculating interest payments
+N17e5afa26dc3469f8deb5a4a3198672a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasAvailableAmount http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasMonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasLender http://www.w3.org/2004/02/skos/core#definition relates a contract, such as a debt instrument or credit agreement, to one or more parties that are financing the debt
+Nf44769eb194447b79ec59e227b2ff973 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Creditor
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInitialInterestPaymentDate http://www.w3.org/2000/01/rdf-schema#label has initial interest payment date
+N53cce978cffd4bcfa7ba74aeb4b0a6a4 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PrincipalPaymentSchedule
+N2d8844b2285642caa06a1cfedc87af4c http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasPrincipal http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Principal
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasPrincipalPaymentDay http://www.w3.org/2000/01/rdf-schema#label has principal payment day
+N81da4e3aaf12496f8bf8deb8c6bafbf4 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Debtor http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Creditor http://www.w3.org/2000/01/rdf-schema#subClassOf N8c305b2295444a8ebc2fdf00bd6c05e2
+Nf6ef1700fd814de1a94df0dac3cee850 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-ActualActualISDA http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+Nf948096f73b04fdabe80906107374ecd http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDate
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CapitalLease http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N3b478f260d6f423f86f4a4c46d02d154 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasPrincipalPaymentDay http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasRecurrenceInterval
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isInterestOn http://www.w3.org/2000/01/rdf-schema#label is interest on
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasDenomination http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Borrower http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractParty
+N19d022299bb441b5850b331ccef64254 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasAccrualBasis
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestPaymentTerms http://www.w3.org/2000/01/rdf-schema#subClassOf N4f7bb888727848d981bbbfc84498473b
+N015e4e4685ef4520b733e68d2278c59a http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Debtor
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Debtor http://www.w3.org/2000/01/rdf-schema#subClassOf Na6768deec14e4464b395becd7cde9f70
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasBorrower http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasContractParty
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditFacility https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym master commitment
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ExplicitContractEventSchedule http://www.w3.org/2000/01/rdf-schema#label explicit contract event schedule
+N09522c5ff4f0409c9bbeb1385e22e66c http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/PartiesAndSituations/isAPartyTo
+N0d9e308fb50249b4b6e8a44bcaad19a0 http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDate
+Nf44769eb194447b79ec59e227b2ff973 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasContractParty
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestPaymentTerms http://www.w3.org/2004/02/skos/core#definition contract terms for payment of interest on a debt
+N1f50967d7b4f4a90973cdb1ac2359dc0 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasMaturityDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasPrincipalRepaymentDate http://www.w3.org/2004/02/skos/core#definition relates an instrument to the date by which the principal must be repaid in full
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Lender http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Creditor
+N30d6e6c53a814a78a5ab442dcfd591bc http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/ContextualDesignators/appliesTo
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/RetailCreditFacility http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasPrincipalPaymentFrequency http://www.w3.org/2000/01/rdf-schema#label has principal payment frequency
+Nbda402bc92024702ab55917c64331ba5 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Principal http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditFacility http://www.w3.org/2000/01/rdf-schema#subClassOf N2b8803e1e7904e0fb4a3c12b30046d56
+Nb5b0b5ba52f54e6fa7f7ed4d25f90271 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N015e4e4685ef4520b733e68d2278c59a http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isOwedBy
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestPaymentTerms http://www.w3.org/2000/01/rdf-schema#subClassOf Nd6fad820a04341499db4a1096f794f79
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PrincipalRepaymentTerms http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N8f09ace7a3e842d1ad746dd6df03e99c http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInterestRate
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-Actual360 https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym a/360
+N68e548cc90ef4402869d73d075db016c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Principal http://www.w3.org/2000/01/rdf-schema#seeAlso http://www.finra.org/investors/bond-glossary#p
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditFacility http://www.w3.org/2000/01/rdf-schema#subClassOf Na2d2f7d39c64499baac799920ce70762
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Collateral http://www.w3.org/2000/01/rdf-schema#label collateral
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/VariableInterestRate http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestCalculation http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/BorrowingCapacity http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isOwedTo http://www.w3.org/2000/01/rdf-schema#label is owed to
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-ActualActualISDA http://www.w3.org/2000/01/rdf-schema#label day-count convention actual/actual ISDA
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/BorrowerIdentifier http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditAgreementRepaidAtMaturity http://www.w3.org/2004/02/skos/core#definition credit agreement in which accrued interest may be periodically repaid or paid at maturity, but principal is paid at maturity
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Borrower http://www.w3.org/2000/01/rdf-schema#subClassOf Nd636478bf65b4a928c30e2e39e10ed37
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CollateralValueAsOfDate http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AppraisedValue
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-30E360 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-ActualActualISDA https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym actual/actual
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Borrower http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Debtor
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditAgreementRepaidAtMaturity http://www.w3.org/2004/02/skos/core#example The most common example of a credit agreement repaid at maturity is a bond.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Creditor http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nb5b0b5ba52f54e6fa7f7ed4d25f90271 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasPrincipalPaymentDay
+N6f64696f9be5493eb6bca8b67e3b374b http://www.w3.org/2002/07/owl#allValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/InterestRate
+Ne1db30dcdd1347a991e78b2ef1a5c3db http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-30E360ISDA http://www.w3.org/2000/01/rdf-schema#label day-count convention 30E/360 ISDA
+N87b94c51cff24fbaa0d5ae155ff0c10a http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/DatesAndTimes/Date
+N5725be603f394d1bb23fd4eacc162a70 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/DayOfMonth
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasDebtAmount http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N892375fe0e1145f6b542ca290a9a0cf6 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CapitalLease http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Lease
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-30E360 https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym 30/360 ICMA
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasAnticipatedNumberOfPayments http://www.w3.org/2000/01/rdf-schema#label has anticipated number of payments
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/BorrowerIdentificationScheme http://www.w3.org/2004/02/skos/core#definition system for allocating identifiers to borrowers
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/BorrowerIdentifier http://www.w3.org/2004/02/skos/core#definition sequence of characters, capable of uniquely identifying a borrower
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Collateral http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Debt http://www.w3.org/2000/01/rdf-schema#label debt
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestPaymentTerms http://www.w3.org/2000/01/rdf-schema#subClassOf Neb15785d6b0e43c1990255a33b1718cc
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasCompoundingFrequency http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/RecurrenceInterval
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInterestPaymentDay http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestPayment http://www.w3.org/2000/01/rdf-schema#label interest payment
+N36870ef8f6a74434bd2479e9440c196e http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isCollateralizedBy
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isAmortizationOf http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+N6ac2b8fbbce94d82a1bbb089a9ac76d3 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInterestPaymentDay http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/RecurrenceInterval
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Designators/
+N8c305b2295444a8ebc2fdf00bd6c05e2 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Debt
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isOwed http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Debt
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-30E360 https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym Eurobond basis (ISDA 2006)
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/MutualContractualAgreement
+N2b8803e1e7904e0fb4a3c12b30046d56 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PromissoryNote
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-Actual365Fixed https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym a/365 fixed
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/FloatingInterestRate http://www.w3.org/2000/01/rdf-schema#label floating interest rate
+Nf948096f73b04fdabe80906107374ecd http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Creditor http://www.w3.org/2000/01/rdf-schema#label creditor
+N7d8843612a964ea896500b1985a61d07 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-30360BondBasis https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote See ISDA 2006 Section 4.16(f), https://web.archive.org/web/20140913145444/http://www.hsbcnet.com/gbm/attachments/standalone/2006-isda-definitions.pdf for more details on the calculation.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CollateralAgreement http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestCalculation http://www.w3.org/2004/02/skos/core#definition event reflecting the calculation of interest
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CommittedSubFacility http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/UncommittedSubFacility
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInitialPrincipalPaymentDate http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/Date
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/BorrowingCapacity http://www.w3.org/2004/02/skos/core#definition upper bound on the total amount of money that a lender believes a party has the ability to repay an obligation when due, as of some point in time
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestPaymentTerms http://www.w3.org/2000/01/rdf-schema#subClassOf N5725be603f394d1bb23fd4eacc162a70
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestRateReset http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestCalculation
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-30360US https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym 30/360
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-30E360 https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym 30S/360
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasLender http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Lender
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/RetailCreditFacility http://www.w3.org/2000/01/rdf-schema#label retail credit facility
+N3b478f260d6f423f86f4a4c46d02d154 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasAccrualBasis http://www.w3.org/2000/01/rdf-schema#label has accrual basis
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/VariableInterestRate http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/FixedInterestRate
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-30365 http://www.w3.org/2000/01/rdf-schema#label day-count convention 30/365
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/FloatingInterestRate http://www.w3.org/2004/02/skos/core#example Certain revolving credit, such as credit-card related debt, may adjust after a specified period of time to an absolute rate stated in the agreement (variable but not floating) rather than based on a benchmark rate (variable, floating).
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ExplicitContractEventSchedule http://www.w3.org/2004/02/skos/core#definition schedule of events, including but not limited to payment events, rate reset events and others that will occur over the lifetime of the credit agreement
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestCalculationSchedule https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The dates may be fixed, or relative to the corresponding interest payment date. It may be the same as the payment date, in arrears, or forward looking to the next interest payment.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isCollateralizationOf http://www.w3.org/2000/01/rdf-schema#label is collateralization of
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasDenomination http://www.w3.org/2000/01/rdf-schema#label has denomination
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isOwedBy http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/RateResetTimeOfDay http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+N86716ee4596b4037ad239b5918e2d2cc http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N4b503b301d9646319d345efcd84ee25c http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/isEstimatedValueOf
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasOriginalTimeToMaturity http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestRateReset http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N151633d2f4894e51a3f23c6253dc8f1c http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/DatesAndTimes/Date
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PromissoryNote http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/UncommittedSubFacility http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PrincipalPaymentSchedule http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasAnticipatedNumberOfPayments http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#positiveInteger
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf N36870ef8f6a74434bd2479e9440c196e
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasFinalInterestPaymentDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N6df33d39311145e7836ed3cf56da402c http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasLender http://www.w3.org/2000/01/rdf-schema#label has lender
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditAgreementRepaidPeriodically http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-30E360ISDA https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote See ISDA 2006 Section 4.16(h), https://web.archive.org/web/20140913145444/http://www.hsbcnet.com/gbm/attachments/standalone/2006-isda-definitions.pdf for more details on the calculation.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FBC/20230301/DebtAndEquities/Debt.rdf version of this ontology was modified to address a punning issue due to the use of hasMethod as the parent property for hasAccrualBasis that was not detected before the latest Commons ontologies were posted to the OMG site.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/FixedInterestRate http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+N53cce978cffd4bcfa7ba74aeb4b0a6a4 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Ne1db30dcdd1347a991e78b2ef1a5c3db http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/involves
+N765bb4ae90214de6a326654cd90f7086 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/isConstituentOf
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasDenomination http://www.w3.org/2004/02/skos/core#definition the face value of currency units, coins, or securities
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-30360US http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention
+Nbda402bc92024702ab55917c64331ba5 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+Neb15785d6b0e43c1990255a33b1718cc http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+Nb5b0b5ba52f54e6fa7f7ed4d25f90271 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N34e9f023f5ef464c865730dc620ad82e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasPrincipalPaymentDay http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/RecurrenceInterval
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasDenomination http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+N9678c10f7add4a9f9da6f8e993c62e1d http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/ContextualDesignators/appliesTo
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Borrower http://www.w3.org/2000/01/rdf-schema#subClassOf N9b5435e0a82945beb4acb35ef3231563
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/BorrowerIdentificationScheme http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditAgreementRepaidPeriodically http://www.w3.org/2004/02/skos/core#definition credit agreement in which the principal and accrued interest may be periodically repaid or exchanged
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-ActualActualISDA http://www.w3.org/2004/02/skos/core#definition day-count convention that uses the actual number of days in each month and actual number of days in that year for calculating interest payments
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestPaymentTerms http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N7d8843612a964ea896500b1985a61d07 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-Actual365Fixed http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CollateralValueAsOfDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestCalculation http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/ContractLifecycleEventOccurrence
+N81da4e3aaf12496f8bf8deb8c6bafbf4 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/DatesAndTimes/hasDatePeriod
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasDenomination http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasMonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isCollateralizationOf http://www.w3.org/2004/02/skos/core#definition relates some collateral to a credit agreement or debt instrument for which the property has been pledged as security for the debt
+N2d8844b2285642caa06a1cfedc87af4c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Lease https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym lease contract
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasAnticipatedNumberOfPayments http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasCount
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInterestPaymentDay http://www.w3.org/2000/01/rdf-schema#label has interest payment day
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isOwedTo http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Creditor
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-Actual365Fixed https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym act/365 fixed
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/SubFacility http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/MutualContractualAgreement
+Nde181057fd6247988190b2f143a19bee http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Day-count conventions apply to swaps, mortgages and forward rate agreements as well as bonds, each of which has its own day-count convention, which varies depending on the type of instrument, whether the interest rate is fixed or floating, and the country of issuance. Among the most common conventions are 30/360 or 365, actual/360 or 365, and actual/actual. A 30/360 convention assumes 30 days in a month and 360 days in a year. An actual/360 convention assumes the actual number of days in the given month and 360 days in the year. An actual/ actual convention uses the actual number of days in the given interest period and year.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestPaymentTerms https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Note that in most cases, the dates and payment frequencies for interest will coincide with the dates and payment frequencies related to the principal.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PrincipalPayment http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isCollateralizedBy http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-ActualActualISDA http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PartialAmortization http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/AmortizationSchedule http://www.w3.org/2000/01/rdf-schema#label amortization schedule
+N53cce978cffd4bcfa7ba74aeb4b0a6a4 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/NonPhysicalCollateral http://www.w3.org/2000/01/rdf-schema#subClassOf Nbda402bc92024702ab55917c64331ba5
+N0a7a3d723b384adfb2054827a3550ef4 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/NegativeAmortization http://www.w3.org/2004/02/skos/core#definition amortization in which the payments made do not cover the interest due
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/NonPhysicalCollateral http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasAccrualBasis http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/hasBusinessRecurrenceIntervalConvention
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/NonPhysicalCollateral http://www.w3.org/2004/02/skos/core#definition asset pledged as collateral that is a financial asset, rather than physical asset
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestPaymentSchedule http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N4b503b301d9646319d345efcd84ee25c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Naf3467a0f61348b796b12a3ea59cfc9f http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/FinancialServiceProvider
+Nd636478bf65b4a928c30e2e39e10ed37 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/owes
+N2738431600ac4faf858f63eae6750572 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DebtTerms
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Principal http://www.w3.org/2000/01/rdf-schema#label principal
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-30360BondBasis http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInterestRateCap http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/InterestRate
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-30365 http://www.w3.org/2004/02/skos/core#definition day-count convention that uses 30 days in a month and 365 days in a year for calculating interest payments
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/BorrowingCapacity http://www.w3.org/2000/01/rdf-schema#label borrowing capacity
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Lease https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The lessor is the legal owner of the asset, while the lessee obtains the right to use the asset in return for rental payments. The lessee also agrees to abide by various conditions regarding their use of the property or equipment. For example, a person leasing a car may agree to the condition that the car will only be used for personal use.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/BorrowerIdentificationScheme https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Many banks and other financial institutions have internal systems for assigning identifiers to borrowers. In the United States, larger banks may use a Customer Information File (CIF) number, assigned as a part of their federally mandated Customer Information Program (CIP).
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isOwed http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/FixedInterestRate http://www.w3.org/2000/01/rdf-schema#label fixed interest rate
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInterestRate http://www.w3.org/2000/01/rdf-schema#label has interest rate
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2016-2024 Object Management Group, Inc.
+N0b573bb43f5e4d8098769b9fbc7e11c3 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isBasedOn http://www.w3.org/2004/02/skos/core#definition relates something to something else on which it rests, or that supports it in some way
+N1e97bd5e43d24fa49a0432cf9aa8e135 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestPayment
+N697caf47d98a40e28f8b2616095dc9fb http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditAgreement
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasAvailableAmount http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+N5725be603f394d1bb23fd4eacc162a70 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/governsPaymentOf http://www.w3.org/2004/02/skos/core#definition links contractual terms embedded in a contract, such as interest or repayment terms to the element those terms apply to
+Ncdd09bc2da7f4bc7bd3e2cc7c99e2ba9 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/LegalPerson
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/governsPaymentOf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-Actual365Fixed http://www.w3.org/2000/01/rdf-schema#label day-count convention actual/365 fixed
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/UncommittedSubFacility http://www.w3.org/2004/02/skos/core#definition sub-facility that has yet to be confirmed as a source of financing for the borrower
+N87b94c51cff24fbaa0d5ae155ff0c10a http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInitialInterestAccrualDate
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isAmortizationOf http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Amortization
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/BorrowerIdentificationScheme http://www.w3.org/2000/01/rdf-schema#seeAlso https://www.fincen.gov/resources/statutes-regulations/guidance/guidance-customer-identification-regulations-financial
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasOutstandingAmount http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Collateral http://www.w3.org/2004/02/skos/core#definition something pledged as security to ensure fulfillment of an obligation to another party, to lend money, extend credit, or provision securities
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-Actual360 https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote See ICMA Rule 251.1(i) (not sterling), ISDA 2006 Section 4.16(e), https://web.archive.org/web/20140913145444/http://www.hsbcnet.com/gbm/attachments/standalone/2006-isda-definitions.pdf for more details on the calculation.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf N258fb505f1a44b61a3ab292b327268db
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PrincipalRepaymentTerms http://www.w3.org/2000/01/rdf-schema#subClassOf N86716ee4596b4037ad239b5918e2d2cc
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-30E360 http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention
+Na2d2f7d39c64499baac799920ce70762 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditFacility http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditAgreementRepaidPeriodically
+Na6768deec14e4464b395becd7cde9f70 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N68e548cc90ef4402869d73d075db016c http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestRateReset
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PrincipalPaymentSchedule http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/PaymentsAndSchedules/PaymentSchedule
+N65d69d89ada045cdadb21ad9a2fd653a http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isAmortizationOf
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasDebtAmount http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasMonetaryAmount
+N7356b772979340c5893d9048b7f5a364 http://www.w3.org/2002/07/owl#allValuesFrom https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/LegalPerson
+N01c3f1e3ab9149b0aaa70cd045b0dba9 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasCompoundingFrequency http://www.w3.org/2004/02/skos/core#definition the frequency at which interest is added to the principal of the debt over the course of the agreement
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DebtTerms https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote These may be terms in a loan contract (including for example a mortgage contract) or they may be the contractual terms of a debt security.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CommittedCreditFacility http://www.w3.org/2000/01/rdf-schema#label committed credit facility
+N1f50967d7b4f4a90973cdb1ac2359dc0 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ConditionPrecedent
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Principal http://www.w3.org/2000/01/rdf-schema#subClassOf N44671a0411844c1997789042a394fbb9
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasPrincipal http://www.w3.org/2004/02/skos/core#definition indicates the face value of an obligation, such as a bond or loan, that must be repaid at maturity, i.e., the base amount raised by a mortgage or other debt instrument
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasDebtAmount http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditAgreement
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PrincipalPayment http://www.w3.org/2004/02/skos/core#definition event reflecting the actual payment of some amount of the principal of a debt
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestRateReset http://www.w3.org/2000/01/rdf-schema#label interest rate reset
+N34e9f023f5ef464c865730dc620ad82e http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInterestPaymentDay http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasRecurrenceInterval
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasPrincipalPaymentFrequency http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestPaymentTerms https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Interest is usually payable on any outstanding principal amount, therefore interest relates to the amount of debt outstanding at any given point of time, not to the principal amount advanced at the time that the loan was advanced or the debt security issued (aside from the initial payment).
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/owes http://www.w3.org/2004/02/skos/core#definition links a party to a debt that they owe
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-ActualActualICMA http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInitialInterestAccrualDate http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasStartDate
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessRecurrenceIntervalConvention
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/RevolvingLineOfCredit http://www.w3.org/2004/02/skos/core#definition credit facility that enables the borrower to withdraw funds, repay, and withdraw again
+Na99f52eac2a144f0b521fd5d3a45e964 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Amortization http://www.w3.org/2000/01/rdf-schema#subClassOf N65d69d89ada045cdadb21ad9a2fd653a
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isOwedTo http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N9bad9f6478394112a58af336d9edcbae http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestPaymentSchedule http://www.w3.org/2004/02/skos/core#definition regular, contract-specific schedule including the dates on which interest is due to be paid
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://purl.org/dc/terms/abstract This ontology defines concepts that are common to all debt instruments, such as debt, borrower, lender, debtor, creditor, interest, principal, and the like. It is designed to be used by various other FIBO specifications, including but not limited to SEC/Debt and LOAN.
+Ncfa12fe63c3746a8b8ebf2d49a256652 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/isEvidencedBy
+N2059e211b7884bd68cdba4b9a638814b http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Interest http://www.w3.org/2000/01/rdf-schema#subClassOf N81da4e3aaf12496f8bf8deb8c6bafbf4
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ProjectedContractEventSchedule http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/RegularSchedule
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/FloatingInterestRate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nbda402bc92024702ab55917c64331ba5 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/FinancialAsset
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasPrincipalPaymentFrequency http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/RecurrenceInterval
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isCollateralizationOf http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Collateral
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditFacility https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Credit facilities include revolving loans/lines of credit, committed facilities, letters of credit, and most retail credit accounts. They may define sub-facilities to which the lender is prepared to commit for specific purposes.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-ActualActualICMA http://www.w3.org/2000/01/rdf-schema#label day-count convention actual/actual ICMA
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Collateral http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/PartiesAndSituations/Undergoer
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isOwedBy http://www.w3.org/2000/01/rdf-schema#label is owed by
+N01c3f1e3ab9149b0aaa70cd045b0dba9 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N7ddf50ea1adc49e1aef18c3ed7f22942 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/BorrowerIdentifier http://www.w3.org/2000/01/rdf-schema#seeAlso https://www.fdic.gov/news/financial-institution-letters/1997/fil9786.pdf
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/FloatingInterestRate https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The index used to determine the specific interest rate is generally included in the terms of the loan. In most cases, lenders will also charge a spread, or added percentage points on top of the established index rate. If a loan is billed as prime plus 2.5 percent, for a prime rate of 3.5 percent, the terms of the loan will require the borrower to pay off a 6 percent interest. Floating interest rates typically involve periodic reset dates for the loan, particularly when the index rate changes. Resets may also occur online at market predetermined intervals, with yearly adjustments being a common arrangement.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CollateralValueAsOfDate http://www.w3.org/2000/01/rdf-schema#label collateral value as of date
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CommittedCreditFacility http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/UncommittedCreditFacility
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasFinalInterestPaymentDate http://www.w3.org/2000/01/rdf-schema#label has final interest payment date
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Accrual http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N2b8803e1e7904e0fb4a3c12b30046d56 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/hasConstituent
+N8bd60f75e5344479b0a0eefc76eb99f9 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/governsPaymentOf
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FBC/20240101/DebtAndEquities/Debt.rdf version of this ontology was modified to incorporate certain general debt schedule terms that were previously in more specific ontologies (FBC-317).
+N36870ef8f6a74434bd2479e9440c196e http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Collateral
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PrincipalRepaymentTerms http://www.w3.org/2000/01/rdf-schema#subClassOf N6867b3324b8d4446b9466d151d773c0a
+Na6768deec14e4464b395becd7cde9f70 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/NegativeAmortization http://www.w3.org/2000/01/rdf-schema#label negative amortization
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ProjectedContractEventSchedule http://www.w3.org/2000/01/rdf-schema#subClassOf Na99f52eac2a144f0b521fd5d3a45e964
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/owes http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Debt
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInitialInterestAccrualDate http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/Date
+Ncec8db2f864d43d093ad0ed041130019 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N892375fe0e1145f6b542ca290a9a0cf6 http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDate
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FBC/20180801/DebtAndEquities/Debt/ version of this ontology was modified to use the generic statistical measures and measurements now in FND.
+N6867b3324b8d4446b9466d151d773c0a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isCollateralizationOf http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Amortization http://www.w3.org/2004/02/skos/core#definition the process of reduction of debt or other costs through periodic charges to assets or liabilities, such as through principal payments on mortgages
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasOriginalTimeToMaturity http://www.w3.org/2000/01/rdf-schema#label has time to maturity
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasLender http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasContractParty
+Na99f52eac2a144f0b521fd5d3a45e964 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PhysicalCollateral http://www.w3.org/2004/02/skos/core#definition asset pledged as collateral that has a material form, i.e., is a physical asset of the obligor
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DebtTerms http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Identifiers/
+N9bad9f6478394112a58af336d9edcbae http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInterestPaymentDay http://www.w3.org/2004/02/skos/core#definition the day of the month on which interest payments must be made on the debt
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/SubFacility https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Each sub-facility may have separate terms, and may be or include individual promissory notes, depending on the facility. The amount of associated with the individual sub-facilities sums to the total credit facility amount. Sub-facilities may, individually, have a stated purpose, such as to cover inventory, equipment, accounts receivable, working capital, letters of credit, and so forth.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-30E360ISDA http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Collections/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isAmortizationOf http://www.w3.org/2004/02/skos/core#definition links the process of reduction of debt or other costs through periodic charges to the relevant asset or liability
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInterestRateCap http://www.w3.org/2000/01/rdf-schema#label has interest rate cap
+N1f50967d7b4f4a90973cdb1ac2359dc0 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N6f64696f9be5493eb6bca8b67e3b374b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N1e97bd5e43d24fa49a0432cf9aa8e135 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N17e5afa26dc3469f8deb5a4a3198672a http://www.w3.org/2002/07/owl#unionOf N6e4ce8a8a10048d39be3af80ab13aeac
+Na2d2f7d39c64499baac799920ce70762 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasMonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestRateSettingEvent http://www.w3.org/2000/01/rdf-schema#label interest rate setting event
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/NegativeAmortization http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Na99f52eac2a144f0b521fd5d3a45e964 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditAgreement
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-30E360 https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote See ICMA Rule 251.1(ii), 251.2, and ISDA 2006 Section 4.16(g), https://web.archive.org/web/20140913145444/http://www.hsbcnet.com/gbm/attachments/standalone/2006-isda-definitions.pdf for more details on the calculation.
+Nd6fad820a04341499db4a1096f794f79 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/governsPaymentOf
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-Actual360 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+N6f64696f9be5493eb6bca8b67e3b374b http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInterestRate
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/UncommittedCreditFacility http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestCalculationSchedule http://www.w3.org/2004/02/skos/core#definition regular, contract-specific schedule including the dates on which interest is calculated
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Debtor http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+Ncec8db2f864d43d093ad0ed041130019 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N6867b3324b8d4446b9466d151d773c0a http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInitialInterestPaymentDate http://www.w3.org/2004/02/skos/core#definition the date on which the first interest payment is due
+N2738431600ac4faf858f63eae6750572 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasContractualElement
+N0d9e308fb50249b4b6e8a44bcaad19a0 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/hasDateOfAssessment
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/BorrowingCapacity http://www.w3.org/2000/01/rdf-schema#subClassOf Ncdd09bc2da7f4bc7bd3e2cc7c99e2ba9
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Amortization http://www.w3.org/2000/01/rdf-schema#label amortization
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Lender http://www.w3.org/2000/01/rdf-schema#subClassOf Nc1d9d5a392364ca8b22b3f49ae9e1495
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FBC/20231201/DebtAndEquities/Debt.rdf version of this ontology was modified to replace additional content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isOwed http://www.w3.org/2004/02/skos/core#definition links a creditor to a debt that is outstanding and payable to them
+N65d69d89ada045cdadb21ad9a2fd653a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasDebtAmount https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Represents the total debt amount including principal and interest
+Nf6ef1700fd814de1a94df0dac3cee850 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/InterestRate
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Accrual http://www.w3.org/2000/01/rdf-schema#subClassOf N9678c10f7add4a9f9da6f8e993c62e1d
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ManagedInterestRate http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/BorrowerIdentificationScheme http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/PartyRoleIdentificationScheme
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/FullAmortization http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Amortization
+N9228e3335f9445548c03973917c0de86 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/hasBusinessCenter
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Debt https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote In cases where the debtor and payer are the same legal person, then a debt is equivalent to a payment obligation.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasDebtAmount http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasPrincipal http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-Actual360 https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote This convention is used in money markets for short-term lending of currencies, including the US dollar and Euro, and is applied in ESCB monetary policy operations. It is the convention used with repurchase agreements.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/FBC/20240301/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestRateResetSchedule http://www.w3.org/2004/02/skos/core#definition regular, contract-specific schedule including the dates on which a rate reset, and corresponding actual rate, is recalculated
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestPayment http://www.w3.org/2004/02/skos/core#definition event reflecting the actual payment of interest
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/QuantitiesAndUnits/
+Ne1db30dcdd1347a991e78b2ef1a5c3db http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasBorrower http://www.w3.org/2000/01/rdf-schema#label has borrower
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Lease https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym lease agreement
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PhysicalCollateral http://www.w3.org/2000/01/rdf-schema#label physical collateral
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/governsPaymentOf http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/governs
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/RevolvingLineOfCredit http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isInterestOn http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Interest
+N7356b772979340c5893d9048b7f5a364 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Neb15785d6b0e43c1990255a33b1718cc http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasFinalInterestPaymentDate http://www.w3.org/2004/02/skos/core#definition the date on which the last interest payment is due
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/RevolvingLineOfCredit http://www.w3.org/2000/01/rdf-schema#subClassOf N01c3f1e3ab9149b0aaa70cd045b0dba9
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestPaymentTerms http://www.w3.org/2000/01/rdf-schema#subClassOf N0a7a3d723b384adfb2054827a3550ef4
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Debt http://www.w3.org/2000/01/rdf-schema#subClassOf N8950f61748ca4145ad1081d0b93e0c5e
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasAvailableAmount http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CapitalLease http://www.w3.org/2000/01/rdf-schema#label capital lease
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PrincipalRepaymentTerms http://www.w3.org/2000/01/rdf-schema#subClassOf Nb5b0b5ba52f54e6fa7f7ed4d25f90271
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Amortization http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+Na2d2f7d39c64499baac799920ce70762 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FBC/20180801/DebtAndEquities/Debt/ version of this ontology was added to the FBC domain via the FIBO 2.0 RFC in support of several FIBO debt-oriented initiatives.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-30360BondBasis http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasPrincipalPaymentFrequency http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasRecurrenceInterval
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/BorrowerIdentifier http://www.w3.org/2000/01/rdf-schema#label borrower identifier
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-Actual365Fixed https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym a/365f
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Debt http://www.w3.org/2004/02/skos/core#definition obligation to pay something, such as an amount of money, good, service, or instrument
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PrincipalRepaymentTerms http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInitialInterestPaymentDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+Nd49e570db3354a5d86d66191879d7e80 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasOccurrence
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestCalculationSchedule http://www.w3.org/2000/01/rdf-schema#label interest calculation schedule
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasPrincipalRepaymentDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+Naf3467a0f61348b796b12a3ea59cfc9f http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isManagedBy
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditAgreementRepaidAtMaturity http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditAgreement
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Debtor http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Obligor
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isPrincipalOf http://www.w3.org/2000/01/rdf-schema#label is principal of
+N6e4ce8a8a10048d39be3af80ab13aeac http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N7ddf50ea1adc49e1aef18c3ed7f22942
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasOutstandingAmount http://www.w3.org/2000/01/rdf-schema#label has outstanding amount
+Na6768deec14e4464b395becd7cde9f70 http://www.w3.org/2002/07/owl#allValuesFrom https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/LegalPerson
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isBasedOn http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isOwed http://www.w3.org/2000/01/rdf-schema#label is owed
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/owes http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/BorrowerIdentificationScheme http://www.w3.org/2000/01/rdf-schema#label borrower identification scheme
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FBC/20220801/DebtAndEquities/Debt.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ProjectedContractEventSchedule https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote A projected schedule is a regular schedule that documents the anchor dates and frequency of occurrences, using rules, rather than providing an explicit list of dates. This method will project future event dates (transaction event dates), based on the frequencies specified and may be adjusted due to calendar restrictions and other rules to deal with holidays, weekends, and so forth in addition to contract-specific events.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-30365 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestPaymentSchedule http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ProjectedContractEventSchedule
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-Actual360 https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym French
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasOutstandingAmount http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasMonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasOutstandingAmount http://www.w3.org/2004/02/skos/core#definition indicates an amount of money representing the principal, interest, or other amount owed at a specific point in time
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Creditor http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PrincipalPaymentSchedule http://www.w3.org/2000/01/rdf-schema#subClassOf Nd49e570db3354a5d86d66191879d7e80
+N555c347c04cc4a9fb1ffbaed4ab687fa http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CapitalLease http://www.w3.org/2004/02/skos/core#definition lease that must be reflected on an organization's balance sheet as an asset and as a corresponding liability
+Ne1db30dcdd1347a991e78b2ef1a5c3db http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Collateral
+N68cad4031c604a23834104a3e0168606 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-ActualActualICMA https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote This method ensures that all coupon payments are always for the same amount. It also ensures that all days in a coupon period are valued equally. This is the convention used for US Treasury bonds and notes, among other securities.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasBorrower http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/FixedInterestRate http://www.w3.org/2004/02/skos/core#definition interest rate that does not fluctuate over the lifetime of a loan or other debt instrument
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isPrincipalOf http://www.w3.org/2004/02/skos/core#definition links the value of a debt, excluding any interest or other costs of using credit, to the debt that it applies to
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Collateral http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInterestRate http://www.w3.org/2004/02/skos/core#definition relates something, such as an agreement, or debt instrument, to the rate (typically annual) of interest that is to be paid by the debtor to the creditor on the debt
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Classifiers/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Borrower http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/ProductsAndServices/Customer
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isCollateralizedBy http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Collateral
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/ProductsAndServices/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FBC/20220601/DebtAndEquities/Debt/ version of this ontology was modified to address text formatting issues uncovered by hygiene testing.
+Nf2b4ebb393234f7a8c707d5a2f333366 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Identifiers/identifies
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/owes http://www.w3.org/2000/01/rdf-schema#label owes
+N6df33d39311145e7836ed3cf56da402c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N9bad9f6478394112a58af336d9edcbae http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Debt
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isOwedTo http://www.w3.org/2004/02/skos/core#definition links a debt to the party to which it is payable
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasPrincipal http://www.w3.org/2004/02/skos/core#editorialNote This is not the balance of the debt at a point in time, but the amount drawn down at a specific point in time, after which (for interest bearing debts) interest becomes payable. Semantic Modeling note This term is over-ridden for specific kinds of debt (securities, loans) and is therefore not needed in any data model. It is included here to define part of the meaning of the Debt Finance term. It is a Relationship Fact and strictly speaking should be regarded as being specialized and over-ridden by the terms in the Loan and Security classes, however it is modeled here as a "Referenceable Archetype" meaning that it appears in diagrams as a textual entry not a relationship line, and so it is not possible to formally show this specialization.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CollateralValueAsOfDate http://www.w3.org/2004/02/skos/core#definition appraised value of the collateral for an obligation as of a given date
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isInterestOn http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+Nd6fad820a04341499db4a1096f794f79 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Interest
+N87b94c51cff24fbaa0d5ae155ff0c10a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-ActualActualICMA http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention
+N555c347c04cc4a9fb1ffbaed4ab687fa http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N9678c10f7add4a9f9da6f8e993c62e1d http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N4f7bb888727848d981bbbfc84498473b http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/RecurrenceInterval
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasMaturityDate http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasEndDate
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PrincipalRepaymentTerms http://www.w3.org/2000/01/rdf-schema#subClassOf N151633d2f4894e51a3f23c6253dc8f1c
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestPaymentSchedule http://www.w3.org/2000/01/rdf-schema#subClassOf N1e97bd5e43d24fa49a0432cf9aa8e135
+N65d69d89ada045cdadb21ad9a2fd653a http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf N2738431600ac4faf858f63eae6750572
+N1469416c798c4a6abe15a91ffbc90247 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/isConstituentOf
+Nf6ef1700fd814de1a94df0dac3cee850 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInterestRateCap
+N4f7bb888727848d981bbbfc84498473b http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasCompoundingFrequency
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestRateResetSchedule http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ProjectedContractEventSchedule
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInitialPrincipalPaymentDate http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasStartDate
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CollateralAgreement http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-30360BondBasis https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym 30A/360
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DebtTerms http://www.w3.org/2004/02/skos/core#definition contract terms that specify the formal rights and obligations of borrower and lender under a contract in which funds are lent from the one party to the other
+Nde181057fd6247988190b2f143a19bee http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Debt
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PromissoryNote http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditAgreement
+N2059e211b7884bd68cdba4b9a638814b http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInterestRate
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-30E360ISDA https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym German
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasAvailableAmount http://www.w3.org/2000/01/rdf-schema#label has available amount
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CommittedCreditFacility http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditFacility
+N7356b772979340c5893d9048b7f5a364 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+Nea4ffe830b524644a2ce50ac65736e38 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N8fccf69ed5f0482c890c96146afd946e http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestCalculation
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/RateResetTimeOfDay http://www.w3.org/2004/02/skos/core#definition time of day that an interest rate is reset, as indicated by some interest rate authority or market data provider
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-ActualActualICMA http://www.w3.org/2004/02/skos/core#definition day-count convention that uses the actual number of days in each month and actual number of days in that year for calculating interest payments
+N0a7a3d723b384adfb2054827a3550ef4 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N87b94c51cff24fbaa0d5ae155ff0c10a http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N0b573bb43f5e4d8098769b9fbc7e11c3 http://www.w3.org/2002/07/owl#someValuesFrom http://www.w3.org/2001/XMLSchema#positiveInteger
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditAgreementRepaidPeriodically http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditAgreement
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Lease http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditAgreementRepaidPeriodically
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isPrincipalOf http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditFacility http://www.w3.org/2004/02/skos/core#definition credit agreement that allows the borrower to periodically take out money over an extended period of time rather than reapplying for a loan every time they need funds
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Principal http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Classifiers/Aspect
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CommittedCreditFacility http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasAvailableAmount http://www.w3.org/2004/02/skos/core#definition indicates an amount of money available for an individual or organization to borrow
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isCollateralizedBy http://www.w3.org/2000/01/rdf-schema#label is collateralized by
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FBC/20190501/DebtAndEquities/Debt/ version of this ontology was modified to add several common day count conventions used to calculate the amount of accrued interest or the present value when the next coupon payment is less than a full coupon period away, to support collateral agreements such as deeds of trust, UCC filings and the like, to add the concept of a rate reset time of day, to eliminate duplication of concepts in LCC, to simplify addresses, and to merge countries with locations.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CollateralAgreement http://www.w3.org/2004/02/skos/core#example Examples include deeds of trust and uniform commercial code (UCC) agreements.
+N6ac2b8fbbce94d82a1bbb089a9ac76d3 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestPaymentSchedule
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasLender http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N01c3f1e3ab9149b0aaa70cd045b0dba9 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isCollateralizedBy
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-30E360ISDA http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestCalculation http://www.w3.org/2000/01/rdf-schema#subClassOf N2059e211b7884bd68cdba4b9a638814b
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PrincipalRepaymentTerms http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DebtTerms
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestPaymentTerms http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+N8f09ace7a3e842d1ad746dd6df03e99c http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/InterestRate
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasCompoundingFrequency http://www.w3.org/2000/01/rdf-schema#label has compounding frequency
+N151633d2f4894e51a3f23c6253dc8f1c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/BorrowingCapacity https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The notion of borrowing capacity is related to management decisions pertaining to credit, i.e., the creditworthiness of the borrower, loan amount, risk tolerance, and so forth, and may be reassessed from time to time depending on the type of credit agreement and regulatory requirements. Determining borrowing capacity is typically done as a part of loan origination, especially for residential mortgages.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/AmortizationSchedule http://www.w3.org/2000/01/rdf-schema#subClassOf N53cce978cffd4bcfa7ba74aeb4b0a6a4
+N65d69d89ada045cdadb21ad9a2fd653a http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Debt
+N34e9f023f5ef464c865730dc620ad82e http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/PhysicalAsset
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasAccrualBasis http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInterestPaymentFrequency http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/RevolvingLineOfCredit https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Revolving credit facilities are essentially lines of credit with variable interest rates.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestPaymentTerms http://www.w3.org/2000/01/rdf-schema#subClassOf N19d022299bb441b5850b331ccef64254
+N0b573bb43f5e4d8098769b9fbc7e11c3 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-ActualActualICMA https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym ISMA-99
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-Actual360 http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Amortization http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/RolesAndCompositions/Role
+N09522c5ff4f0409c9bbeb1385e22e66c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nd49e570db3354a5d86d66191879d7e80 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nd6fad820a04341499db4a1096f794f79 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasMaturityDate http://www.w3.org/2004/02/skos/core#definition indicates the date on which the principal amount of an instrument is due to be repaid to the investor and interest or coupon payments stop, and/or the date on which the instrument may be redeemed
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasOutstandingAmount http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+N5725be603f394d1bb23fd4eacc162a70 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N2059e211b7884bd68cdba4b9a638814b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ManagedInterestRate http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/VariableInterestRate
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestCalculation http://www.w3.org/2000/01/rdf-schema#label interest calculation
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CommittedSubFacility http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/SubFacility
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInterestRateCap http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInterestRate
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CommittedSubFacility http://www.w3.org/2000/01/rdf-schema#subClassOf N1469416c798c4a6abe15a91ffbc90247
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/MotorVehicleLease http://www.w3.org/2000/01/rdf-schema#label motor vehicle lease
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasFinalInterestPaymentDate http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/Date
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isOwed http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Creditor
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/governsPaymentOf http://www.w3.org/2000/01/rdf-schema#label governs payment of
+N53cce978cffd4bcfa7ba74aeb4b0a6a4 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf Nf948096f73b04fdabe80906107374ecd
+N4b503b301d9646319d345efcd84ee25c http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Collateral
+N8bd60f75e5344479b0a0eefc76eb99f9 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Principal
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Accrual https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote There are legal contractual terms for the accrual of interest, as distinct from the payment of interest.
+N9228e3335f9445548c03973917c0de86 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/BusinessCenter
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/NonPhysicalCollateral http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PhysicalCollateral
+N9b5435e0a82945beb4acb35ef3231563 http://www.w3.org/2002/07/owl#someValuesFrom N09522c5ff4f0409c9bbeb1385e22e66c
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-30E360 https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym Special German
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/UncommittedCreditFacility http://www.w3.org/2004/02/skos/core#definition credit facility that has yet to be confirmed as a source of financing for the borrower
+N892375fe0e1145f6b542ca290a9a0cf6 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/hasDateOfAssessment
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Interest http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/BorrowingCapacity http://www.w3.org/2000/01/rdf-schema#subClassOf N892375fe0e1145f6b542ca290a9a0cf6
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2016-2024 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PartialAmortization http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Amortization
+Nd636478bf65b4a928c30e2e39e10ed37 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasDebtAmount http://www.w3.org/2000/01/rdf-schema#label has debt amount
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-ActualActualISDA https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym actual/365
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestPaymentTerms http://www.w3.org/2000/01/rdf-schema#subClassOf Nf6ef1700fd814de1a94df0dac3cee850
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasDebtAmount http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+N9678c10f7add4a9f9da6f8e993c62e1d http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FBC/20200801/DebtAndEquities/Debt/ version of this ontology was modified to move the concept of an extension provision from Debt to Contracts to support representation of preferred shares and other extendable contracts, eliminate remaining circular definitions, integrate concepts defining credit facilities, and refine the concept of collateral to differentiate collateral that is real property from financial assets such as cash, various accounts, securities, and receivables.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasFinalInterestPaymentDate http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasEndDate
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isOwed http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestRateSettingEvent http://www.w3.org/2004/02/skos/core#definition event on which an initial rate for a given contract is set, which may be relative the the occurrence of some other contract lifecycle event, such as the execution date
+N9678c10f7add4a9f9da6f8e993c62e1d http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Interest
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditFacility http://www.w3.org/2000/01/rdf-schema#subClassOf N1f50967d7b4f4a90973cdb1ac2359dc0
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DebtTerms http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Interest http://www.w3.org/2000/01/rdf-schema#label interest
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/RetailCreditFacility http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CommittedCreditFacility
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/SubFacility http://www.w3.org/2000/01/rdf-schema#label sub-facility
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/RetailCreditFacility http://www.w3.org/2004/02/skos/core#example Most consumer credit cards are retail credit facilities, for example.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CommittedCreditFacility http://www.w3.org/2000/01/rdf-schema#subClassOf N555c347c04cc4a9fb1ffbaed4ab687fa
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditFacility http://www.w3.org/2000/01/rdf-schema#label credit facility
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasAvailableAmount http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PromissoryNote https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Promissory notes are generally fully fungible.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-30365 http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInterestRate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/NegativeAmortization http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-ActualActualISDA https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym act/365
+N44671a0411844c1997789042a394fbb9 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N151633d2f4894e51a3f23c6253dc8f1c http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasPrincipalRepaymentDate
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Release
+Ncdd09bc2da7f4bc7bd3e2cc7c99e2ba9 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Creditor http://www.w3.org/2000/01/rdf-schema#subClassOf N7356b772979340c5893d9048b7f5a364
+N2d8844b2285642caa06a1cfedc87af4c http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Designators/isDefinedIn
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/RolesAndCompositions/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CommittedSubFacility http://www.w3.org/2000/01/rdf-schema#label committed sub-facility
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestPaymentTerms http://www.w3.org/2000/01/rdf-schema#subClassOf N8f09ace7a3e842d1ad746dd6df03e99c
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-30E360ISDA https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym 30/360 ICMA
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestRateResetSchedule http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/SubFacility http://www.w3.org/2000/01/rdf-schema#subClassOf N765bb4ae90214de6a326654cd90f7086
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInitialPrincipalPaymentDate http://www.w3.org/2000/01/rdf-schema#label has initial principal payment date
+N8fccf69ed5f0482c890c96146afd946e http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasOccurrence
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-Actual360 http://www.w3.org/2000/01/rdf-schema#label day-count convention actual/360
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestPaymentTerms http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DebtTerms
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FBC/20200301/DebtAndEquities/Debt/ version of this ontology was modified to make redemption provision a child of contractual commitment and move it to financial instruments, as such provisions apply to preferred shares and other instruments in addition to debt.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/AmortizationSchedule http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditAgreementRepaidAtMaturity http://www.w3.org/2000/01/rdf-schema#label credit agreement repaid at maturity
+N8c305b2295444a8ebc2fdf00bd6c05e2 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isOwed
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CollateralAgreement http://www.w3.org/2004/02/skos/core#definition written contract that specifies terms, over and above those specified in a promissory note, loan, or other debt instrument, under which the collateral must be made available to the lender
+Ncfa12fe63c3746a8b8ebf2d49a256652 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AssessmentReport
+N151633d2f4894e51a3f23c6253dc8f1c http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isOwedBy http://www.w3.org/2002/07/owl#inverseOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/owes
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInterestPaymentFrequency http://www.w3.org/2004/02/skos/core#definition the frequency at which interest payments must be made on the debt
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-30E360ISDA https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym Eurobond basis (ISDA 2006)
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/SubFacility http://www.w3.org/2000/01/rdf-schema#subClassOf N7d8843612a964ea896500b1985a61d07
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInterestRateCap http://www.w3.org/2004/02/skos/core#definition relates something, such as an agreement, or debt instrument, to the upper bound (ceiling) rate (typically annual) of interest on variable-rate debt that is to be paid by the debtor to the creditor on the debt
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestRateReset https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Note that depending on the contract, a rate reset can occur daily or on some other timetable, and depending on the underlying benchmark, the actual rate may or may not change. Rate resets may be associated with variable interest rate loans, scheduled reset dates for loans and other debt instruments, for example, interest rate swaps, certain kinds of bonds, and the like. The date on which interest is (re)calculated may be an explicit or date relative.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditAgreement http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N44671a0411844c1997789042a394fbb9 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isPrincipalOf
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FBC/20230901/DebtAndEquities/Debt.rdf version of this ontology was modified to add the starting point value of some collateral when it was acquired (DER-138) and to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/FloatingInterestRate http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+N19d022299bb441b5850b331ccef64254 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isOwedTo http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Interest http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CollateralAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf Ne1db30dcdd1347a991e78b2ef1a5c3db
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/AmortizationSchedule https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Payments are divided into equal amounts for the duration of the loan or debt instrument, making it the simplest repayment model. A greater amount of the payment is applied to interest at the beginning of the amortization schedule, while more money is applied to principal at the end.
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInterestPaymentFrequency http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasRecurrenceInterval
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-Actual360 https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym act/360
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Accrual http://www.w3.org/2000/01/rdf-schema#isDefinedBy https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/BorrowerIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf Nf2b4ebb393234f7a8c707d5a2f333366
+Nb5b0b5ba52f54e6fa7f7ed4d25f90271 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/DayOfMonth
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestPayment http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isOwedTo http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Debt
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Creditor http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Obligee
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/RevolvingLineOfCredit http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CommittedCreditFacility
+N68cad4031c604a23834104a3e0168606 http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDate
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Interest http://www.w3.org/2000/01/rdf-schema#subClassOf N6f64696f9be5493eb6bca8b67e3b374b
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention-30360BondBasis http://www.w3.org/2004/02/skos/core#definition day-count convention that uses 30 days in a month and 360 days in a year for calculating interest payments
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasAnticipatedNumberOfPayments http://www.w3.org/2004/02/skos/core#definition specifies the number payments promised per the terms of the contract over the lifetime of the contract assuming all payments are made

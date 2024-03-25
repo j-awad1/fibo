@@ -1,0 +1,20 @@
+https://spec.edmcouncil.org/fibo/ontology/MD/DebtTemporal/MetadataMDDebtTemporal/DebtTemporalModule http://purl.org/dc/terms/title FIBO MD Debt Temporal Module
+https://spec.edmcouncil.org/fibo/ontology/MD/DebtTemporal/MetadataMDDebtTemporal/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/MD/DebtTemporal/MetadataMDDebtTemporal/ http://www.w3.org/2000/01/rdf-schema#label Metadata for the EDMC-FIBO Market Data (MD) DebtTemporal Module
+https://spec.edmcouncil.org/fibo/ontology/MD/DebtTemporal/MetadataMDDebtTemporal/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/MD/DebtTemporal/MetadataMDDebtTemporal/DebtTemporalModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/MD/DebtTemporal/DebtAnalytics/
+https://spec.edmcouncil.org/fibo/ontology/MD/DebtTemporal/MetadataMDDebtTemporal/DebtTemporalModule http://purl.org/dc/terms/title Financial Industry Business Ontology (FIBO) Market Data (MD) Debt Temporal Module
+https://spec.edmcouncil.org/fibo/ontology/MD/DebtTemporal/MetadataMDDebtTemporal/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/MD/20230301/DebtTemporal/MetadataMDDebtTemporal/
+https://spec.edmcouncil.org/fibo/ontology/MD/DebtTemporal/MetadataMDDebtTemporal/ http://purl.org/dc/terms/issued 2018-08-27T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/MD/DebtTemporal/MetadataMDDebtTemporal/DebtTemporalModule http://www.w3.org/2000/01/rdf-schema#label debt temporal module
+https://spec.edmcouncil.org/fibo/ontology/MD/DebtTemporal/MetadataMDDebtTemporal/DebtTemporalModule http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Module
+https://spec.edmcouncil.org/fibo/ontology/MD/DebtTemporal/MetadataMDDebtTemporal/DebtTemporalModule http://www.w3.org/2000/01/rdf-schema#seeAlso https://spec.edmcouncil.org/fibo/
+https://spec.edmcouncil.org/fibo/ontology/MD/DebtTemporal/MetadataMDDebtTemporal/DebtTemporalModule https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2018-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/MD/DebtTemporal/MetadataMDDebtTemporal/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/MD/DebtTemporal/MetadataMDDebtTemporal/ http://purl.org/dc/terms/modified 2023-03-31T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/MD/DebtTemporal/MetadataMDDebtTemporal/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/MD/DebtTemporal/MetadataMDDebtTemporal/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2018-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/MD/DebtTemporal/MetadataMDDebtTemporal/DebtTemporalModule http://purl.org/dc/terms/abstract This module covers time-dependent concepts related to debt instruments, such as pricing, yields and analytics.
+https://spec.edmcouncil.org/fibo/ontology/MD/DebtTemporal/MetadataMDDebtTemporal/ http://purl.org/dc/terms/abstract This module covers time-dependent concepts related to debt instruments, such as pricing, yields and analytics.
+https://spec.edmcouncil.org/fibo/ontology/MD/DebtTemporal/MetadataMDDebtTemporal/DebtTemporalModule http://purl.org/dc/terms/license http://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/MD/DebtTemporal/MetadataMDDebtTemporal/DebtTemporalModule http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual

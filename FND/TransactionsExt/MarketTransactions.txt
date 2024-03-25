@@ -1,0 +1,66 @@
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/MarketTransaction http://www.w3.org/2000/01/rdf-schema#subClassOf N291d2c5dc7e442f9a74139c17be85a87
+N2be1c9b4dc774275a8d432abb47dd798 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/transactsWith
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/MarketTransactionPaymentTerms http://www.w3.org/2000/01/rdf-schema#subClassOf N4e4688a34d2047d699ec4f1c18198f4d
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/paymentTerms http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/consideration http://www.w3.org/2000/01/rdf-schema#label consideration
+Nf8c86fbef2984ea0bd48a101dfef0aa0 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/consideration
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/MarketTransaction http://www.w3.org/2000/01/rdf-schema#subClassOf N923bf373daff44aa9f0f259d460c7445
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/ http://purl.org/dc/terms/abstract Defines the concepts for market transactions in general, on any kind of marketplace. 
+		This ontology is not used directly in FIBO content but provides the conceptual underpinnings for securities market transactions.
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/consideration http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/MarketTransaction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/MarketTransactionPaymentTerms http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/MarketTransactionPaymentTerms http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicContractTermsSet
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/
+N291d2c5dc7e442f9a74139c17be85a87 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N923bf373daff44aa9f0f259d460c7445 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/MarketTransactionPaymentTerms
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/MarketTransaction http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/MarketTransactionInvoicingTerms http://www.w3.org/2000/01/rdf-schema#label market transaction invoicing terms
+N4e4688a34d2047d699ec4f1c18198f4d http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/PaymentsAndSchedules/Payment
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/TransactionPrincipal http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Informative
+N291d2c5dc7e442f9a74139c17be85a87 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasPrincipalParty
+N2be1c9b4dc774275a8d432abb47dd798 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/TransactionCounterparty
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/TransactionCounterparty http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/MarketTransaction http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicTransaction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/paymentTerms http://www.w3.org/2000/01/rdf-schema#label payment terms
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/TransactionCounterparty http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionParty
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/paymentTerms http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/transactedUnder
+N4e4688a34d2047d699ec4f1c18198f4d http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/TransactionPrincipal http://www.w3.org/2000/01/rdf-schema#subClassOf N2be1c9b4dc774275a8d432abb47dd798
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2013-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/ http://www.w3.org/2000/01/rdf-schema#label Market Transactions Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/PaymentsAndSchedules/
+Nf8c86fbef2984ea0bd48a101dfef0aa0 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/paymentTerms http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/MarketTransactionPaymentTerms
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/consideration http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/subject
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+N4e4688a34d2047d699ec4f1c18198f4d http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/governs
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/MarketTransaction http://www.w3.org/2000/01/rdf-schema#subClassOf N8b2807bbc4a6411a9b062b30ddcd1a34
+N8b2807bbc4a6411a9b062b30ddcd1a34 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/TransactionCounterparty
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/TransactionPrincipal http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractPrincipal
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/MarketTransaction http://www.w3.org/2000/01/rdf-schema#subClassOf Nf8c86fbef2984ea0bd48a101dfef0aa0
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/MarketTransaction http://www.w3.org/2004/02/skos/core#definition Any transaction which defines a supply of some negotiable item in return for some Consideration. The Market Transaction has a Principal and a Counterparty, i.e. it is not symmetrical.
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/
+N8b2807bbc4a6411a9b062b30ddcd1a34 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasCounterparty
+Nf8c86fbef2984ea0bd48a101dfef0aa0 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicResource
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+N923bf373daff44aa9f0f259d460c7445 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/TransactionCounterparty http://www.w3.org/2000/01/rdf-schema#label transaction counterparty
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/consideration http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicResource
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/TransactionPrincipal http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionParty
+N923bf373daff44aa9f0f259d460c7445 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/paymentTerms
+N291d2c5dc7e442f9a74139c17be85a87 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/TransactionPrincipal
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/MarketTransactionInvoicingTerms http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N8b2807bbc4a6411a9b062b30ddcd1a34 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/MarketTransactionInvoicingTerms http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicContractTermsSet
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/consideration http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/MarketTransaction http://www.w3.org/2000/01/rdf-schema#label market transaction
+N2be1c9b4dc774275a8d432abb47dd798 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/paymentTerms http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/MarketTransaction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/TransactionPrincipal http://www.w3.org/2000/01/rdf-schema#label transaction principal
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/TransactionCounterparty http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/Counterparty
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MarketTransactions/MarketTransactionPaymentTerms http://www.w3.org/2000/01/rdf-schema#label market transaction payment terms

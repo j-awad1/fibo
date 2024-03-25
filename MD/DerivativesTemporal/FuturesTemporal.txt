@@ -1,0 +1,63 @@
+Ne20d2985bcc64108b4d292d8cf735df4 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/FuturesTradingAccountHolder
+Nca7a3c447dfe4c67a22a12287346fb1e http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDate
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/FuturesVega http://www.w3.org/2000/01/rdf-schema#label futures vega
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/ExchangeFuturesPrice http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/MinimumMargin http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/Ownership/Asset
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/Ownership/
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/FuturesTradingAccountHolder http://www.w3.org/2004/02/skos/core#definition A party who has an account for futures trading at a derivatives exchange. Further notes: The trader opens an account with a given amount known as a margin.
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/MinimumMargin http://www.w3.org/2000/01/rdf-schema#label minimum margin
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/FuturesDailySettlementPrice http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/InstrumentPricing/SecurityPrice
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/InitialMargin https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote When you open a futures contract, the futures exchange will state a minimum amount of money that you must deposit into your account. This original deposit of money is called the initial margin. When your contract is liquidated, you will be refunded the initial margin plus or minus any gains or losses that occur over the span of the futures contract. In other words, the amount in your margin account changes daily as the market fluctuates in relation to your futures contract. The minimum-level margin is determined by the futures exchange and is usually 5% to 10% of the futures contract. These predetermined initial margin amounts are continuously under review: at times of high market volatility, initial margin requirements can be raised.
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/FuturesGreek http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/InstrumentPricing/PriceAnalytic
+Nb447e902bf6f4db78140aee8fa96e61f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/FuturesTradingAccountHolder http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/MinimumMargin http://www.w3.org/2004/02/skos/core#definition The lowest amount an account can reach before needing to be replenished.
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/FuturesVega http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N7a06db8fdd6044538815330d6a975cfe http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDate
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/InitialMargin http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2013-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/FuturesTheta http://www.w3.org/2000/01/rdf-schema#label futures theta
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/FuturesGreek http://www.w3.org/2004/02/skos/core#definition quantity representing the sensitivity of the price of a future or futures to a change in underlying parameters on which the value depends
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/FuturesDailySettlementPrice http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/InitialMargin http://www.w3.org/2000/01/rdf-schema#label initial margin
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/FuturesGreek http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/InitialMargin http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/Ownership/Asset
+Ne20d2985bcc64108b4d292d8cf735df4 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isHeldBy
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/InstrumentPricing/
+Ne20d2985bcc64108b4d292d8cf735df4 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nca7a3c447dfe4c67a22a12287346fb1e http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasAsOfDate
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/MinimumMargin http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Provisional
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/FuturesTradingAccountHolder http://www.w3.org/2000/01/rdf-schema#label futures trading account holder
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/FuturesVega http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/FuturesGreek
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/ http://www.w3.org/2000/01/rdf-schema#label Futures Temporal Ontology
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/InitialMargin http://www.w3.org/2004/02/skos/core#definition money or securities put up as a good faith deposit assuring that a future contract will be fulfilled
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/FuturesTheta http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nca7a3c447dfe4c67a22a12287346fb1e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/FuturesDailySettlementPrice http://www.w3.org/2000/01/rdf-schema#label futures daily settlement price
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/FuturesTheta http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/FuturesGreek
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/FuturesClosingPrice http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/ExchangeFuturesPrice
+N7a06db8fdd6044538815330d6a975cfe http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasAsOfDate
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/ExchangeFuturesPrice http://www.w3.org/2000/01/rdf-schema#label exchange futures price
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/FuturesGreek http://www.w3.org/2000/01/rdf-schema#label futures greek
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/InitialMargin http://www.w3.org/2000/01/rdf-schema#subClassOf N7a06db8fdd6044538815330d6a975cfe
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/FuturesClosingPrice http://www.w3.org/2000/01/rdf-schema#label futures closing price
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/InitialMargin https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym security deposit
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/ http://purl.org/dc/terms/abstract Exchange traded futures date and time dependent terms such as prices and margining. Also covers greeks (thetas etc.)
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/MinimumMargin http://www.w3.org/2000/01/rdf-schema#subClassOf Nca7a3c447dfe4c67a22a12287346fb1e
+N7a06db8fdd6044538815330d6a975cfe http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/FuturesDailySettlementPrice http://www.w3.org/2004/02/skos/core#definition Review whether this exists
+Nb447e902bf6f4db78140aee8fa96e61f http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/FuturesTradingAccountHolder
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/MinimumMargin http://www.w3.org/2000/01/rdf-schema#subClassOf Nb447e902bf6f4db78140aee8fa96e61f
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/InitialMargin http://www.w3.org/2000/01/rdf-schema#subClassOf Ne20d2985bcc64108b4d292d8cf735df4
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+Nb447e902bf6f4db78140aee8fa96e61f http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isHeldBy
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/DatesAndTimes/
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/ExchangeFuturesPrice http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/InstrumentPricing/SecurityPrice
+https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/FuturesTemporal/FuturesClosingPrice http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class

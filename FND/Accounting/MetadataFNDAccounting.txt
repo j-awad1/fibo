@@ -1,0 +1,24 @@
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/MetadataFNDAccounting/AccountingModule http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Module
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/MetadataFNDAccounting/AccountingModule http://www.w3.org/2000/01/rdf-schema#label accounting module
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/MetadataFNDAccounting/AccountingModule http://purl.org/dc/terms/title FIBO FND Accounting Module
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/MetadataFNDAccounting/ http://purl.org/dc/terms/modified 2023-01-06T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/MetadataFNDAccounting/AccountingModule http://purl.org/dc/terms/abstract This module contains ontologies of general accounting concepts including currency and the ISO 4217 reference currency codes.
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/MetadataFNDAccounting/AccountingModule https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2017-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/MetadataFNDAccounting/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/MetadataFNDAccounting/AccountingModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/MetadataFNDAccounting/AccountingModule http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/MetadataFNDAccounting/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/MetadataFNDAccounting/AccountingModule http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/MetadataFNDAccounting/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2017-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/MetadataFNDAccounting/ http://www.w3.org/2000/01/rdf-schema#label Metadata for the EDMC-FIBO Foundations (FND) Accounting Module
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/MetadataFNDAccounting/ http://purl.org/dc/terms/issued 2020-02-24T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/MetadataFNDAccounting/ http://purl.org/dc/terms/abstract This module contains ontologies of general accounting concepts including currency and the ISO 4217 reference currency codes.
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/MetadataFNDAccounting/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/FND/20230101/Accounting/MetadataFNDAccounting/
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/MetadataFNDAccounting/AccountingModule https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2017-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/MetadataFNDAccounting/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/MetadataFNDAccounting/AccountingModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/ISO4217-CurrencyCodes/
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/MetadataFNDAccounting/AccountingModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/MetadataFNDAccounting/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/MetadataFNDAccounting/AccountingModule http://purl.org/dc/terms/title Financial Industry Business Ontology (FIBO) Foundations (FND) Accounting Module
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/MetadataFNDAccounting/AccountingModule http://www.w3.org/2000/01/rdf-schema#seeAlso https://spec.edmcouncil.org/fibo/
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/MetadataFNDAccounting/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2017-2023 EDM Council, Inc.

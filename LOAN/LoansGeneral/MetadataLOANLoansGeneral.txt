@@ -1,0 +1,35 @@
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/MetadataLOANLoansGeneral/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/MetadataLOANLoansGeneral/LoansGeneralModule http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/MetadataLOANLoansGeneral/LoansGeneralModule http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/MetadataLOANLoansGeneral/LoansGeneralModule http://purl.org/dc/terms/contributor Hypercube Ltd.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/MetadataLOANLoansGeneral/LoansGeneralModule http://purl.org/dc/terms/contributor Office of Financial Research (US Dept of the Treasury)
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/MetadataLOANLoansGeneral/LoansGeneralModule http://www.w3.org/2000/01/rdf-schema#seeAlso https://spec.edmcouncil.org/fibo/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/MetadataLOANLoansGeneral/LoansGeneralModule http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Module
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/MetadataLOANLoansGeneral/ http://www.w3.org/2000/01/rdf-schema#label Metadata for the EDMC-FIBO Loans (LOAN) Loans General Module
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/MetadataLOANLoansGeneral/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2018-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/MetadataLOANLoansGeneral/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/MetadataLOANLoansGeneral/LoansGeneralModule http://purl.org/dc/terms/contributor agnos.ai U.K. Ltd
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/MetadataLOANLoansGeneral/ http://purl.org/dc/terms/modified 2023-02-03T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/MetadataLOANLoansGeneral/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2018-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/MetadataLOANLoansGeneral/LoansGeneralModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/MetadataLOANLoansGeneral/LoansGeneralModule http://purl.org/dc/terms/contributor Semantic Arts, Inc.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/MetadataLOANLoansGeneral/LoansGeneralModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoansRegulatory/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/MetadataLOANLoansGeneral/LoansGeneralModule http://purl.org/dc/terms/contributor Wells Fargo
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/MetadataLOANLoansGeneral/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/LOAN/20230201/LoansGeneral/MetadataLOANLoansGeneral/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/MetadataLOANLoansGeneral/LoansGeneralModule https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2018-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/MetadataLOANLoansGeneral/LoansGeneralModule http://purl.org/dc/terms/abstract This module contains ontologies defining concepts that apply to most loans, including but not limited to applications.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/MetadataLOANLoansGeneral/LoansGeneralModule http://www.w3.org/2000/01/rdf-schema#label loans general module
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/MetadataLOANLoansGeneral/LoansGeneralModule http://purl.org/dc/terms/title Financial Industry Business Ontology (FIBO) Loans (LOAN) Loans General Module
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/MetadataLOANLoansGeneral/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/MetadataLOANLoansGeneral/LoansGeneralModule https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2018-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/MetadataLOANLoansGeneral/ http://purl.org/dc/terms/license http://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/MetadataLOANLoansGeneral/LoansGeneralModule http://purl.org/dc/terms/title FIBO LOAN Loans General Module
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/MetadataLOANLoansGeneral/LoansGeneralModule http://purl.org/dc/terms/contributor Federated Knowledge LLC
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/MetadataLOANLoansGeneral/LoansGeneralModule http://purl.org/dc/terms/contributor John F. Gemski
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/MetadataLOANLoansGeneral/LoansGeneralModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/Loans/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/MetadataLOANLoansGeneral/ http://purl.org/dc/terms/abstract This module contains ontologies defining concepts that apply to most loans, including but not limited to applications.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/MetadataLOANLoansGeneral/LoansGeneralModule http://purl.org/dc/terms/contributor Thematix Partners LLC
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/MetadataLOANLoansGeneral/LoansGeneralModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/MetadataLOANLoansGeneral/ http://purl.org/dc/terms/issued 2018-03-31T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/MetadataLOANLoansGeneral/LoansGeneralModule http://purl.org/dc/terms/contributor Tahoe Blue Ltd
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/MetadataLOANLoansGeneral/LoansGeneralModule http://purl.org/dc/terms/contributor Adaptive, Inc.

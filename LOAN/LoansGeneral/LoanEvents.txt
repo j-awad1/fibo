@@ -1,0 +1,111 @@
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/hasDisbursementDate http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDate
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/hasDisbursementDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/LoanDefaultProceeding http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/CourtJudgment http://www.w3.org/2000/01/rdf-schema#subClassOf Na20c50dd0d3b4587b9d5619553565542
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/LegalProceeding http://www.w3.org/2004/02/skos/core#definition legal step or action taken at the direction of, or by the authority of, a court or agency
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/hasDefaultAmount http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/LoanDefaultProceeding
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/ http://purl.org/dc/terms/license http://opensource.org/licenses/MIT
+N039c603002464d598ed2ddb6e948de38 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/Jurisdiction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2015-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/hasJudgementAmount http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/hasJudgementAmount http://www.w3.org/2000/01/rdf-schema#label has judgement amount
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/CourtJudgment http://www.w3.org/2004/02/skos/core#definition decision by a court or other tribunal that resolves a controversy and determines the rights and obligations of the parties
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/isDeliveredBy http://www.w3.org/2000/01/rdf-schema#label is delivered by
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/Prepayment http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/PaymentsAndSchedules/Payment
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/inDefault http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#boolean
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/LegalProceeding http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/Occurrence
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/isDeliveredBy http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCore/CourtOfLaw
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/Prepayment http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/CourtJudgment http://www.w3.org/2000/01/rdf-schema#subClassOf Nc800be4366c24d2ebd4308c08afbab01
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/LoanPaidInFull http://www.w3.org/2000/01/rdf-schema#label loan paid in full
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/hasJudgementAmount http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasMonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/isAgainst http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/inDefault http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+Nfa451e215fa54213b368d76d31843a94 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/RepaymentPhase http://www.w3.org/2000/01/rdf-schema#label repayment phase
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/LoanDefaultProceeding http://www.w3.org/2004/02/skos/core#definition [no definition] Further Review This is typically part of mortgagte servicing. THere would typically be a whole department dealing with this. Dealing with default, helping borrowers make payment Collections Default admin Foreclosure Reselling All dealt with by several sub departments. This requires subject matter experts in this area. 1. scoping Identify default as a possible state. This hands off to other business processes. Once you get into the default scenario we are talking about a proces that is going to fall into place over a period of time. The bank works out what to do with the default scenario, e.g. whether it restructures, forecloses, seeks restitution from the security (collateral). It does nto help us to understand the structure of the loan, rather tha consequences of the loan. If we were to further explore the default detail we would bring in other SMEs. And we would have to model a process flow. 1.1 impact on the pool of an MBS Loan Default Proceeding (special ase of legal thing) is an aspect of Default Management / Administratoin. there is also the State of the Loan. Sale / something / fulfilment / fiunduing / approved = servicing mode. Something happens (non payment) =&gt; Default Grace Period followed by negotiation. Some threshold whereby after a given amount of delinquency it needs to go into some other process moving towards foreclosure. Do State Diagram. Stages of loan.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/ http://www.w3.org/2000/01/rdf-schema#label LoanEvents
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/inDefault http://www.w3.org/2004/02/skos/core#definition Whether the loan is in default.
+Na20c50dd0d3b4587b9d5619553565542 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/isDeliveredBy
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/isDeliveredBy http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/isAgainst http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/LegalPerson
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/RepaymentPhase http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N9083e90ab3d24180ac37c157fcfe32f5 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/hasDisbursementDate http://www.w3.org/2000/01/rdf-schema#label disbursement date
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Provisional
+Na20c50dd0d3b4587b9d5619553565542 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Na20c50dd0d3b4587b9d5619553565542 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCore/CourtOfLaw
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/RepaymentPhase http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/LoanPhase
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/hasJudgementAmount http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/isDeferred http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#boolean
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/LoanPhase http://www.w3.org/2000/01/rdf-schema#label loan phase
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/CourtJudgment http://www.w3.org/2000/01/rdf-schema#label court judgment
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/LegalProceeding http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2015-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/hasDisbursementDate http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasExplicitDate
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCore/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/isDeferred http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/Loans/Loan
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/isDeferred http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/LegalProceeding http://www.w3.org/2000/01/rdf-schema#label legal proceeding
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/
+Nc800be4366c24d2ebd4308c08afbab01 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/Loans/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/LegalProceeding http://www.w3.org/2000/01/rdf-schema#subClassOf N039c603002464d598ed2ddb6e948de38
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/LoanPaidInFull http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/LoanDefaultProceeding http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/LegalProceeding
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/LoanPaidInFull http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/LoanPhase
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/hasDisbursementDate http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/Loans/Loan
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/hasDefaultAmount http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/ http://purl.org/dc/terms/abstract This ontology defines a wide range of events relating to loans. These include legal proceedings, prepayments, and so forth.
+Nc800be4366c24d2ebd4308c08afbab01 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/DatesAndTimes/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/
+N9083e90ab3d24180ac37c157fcfe32f5 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/Appraiser
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/CollateralValuation http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AssessmentActivity
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/CourtJudgment http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/LegalProceeding
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/isAgainst http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/LegalProceeding
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/CollateralValuation http://www.w3.org/2000/01/rdf-schema#subClassOf N9083e90ab3d24180ac37c157fcfe32f5
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/Prepayment http://www.w3.org/2000/01/rdf-schema#label prepayment
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/CollateralValuation http://www.w3.org/2000/01/rdf-schema#subClassOf Nf56c7640c762463cb1d3fda922253aa5
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/CourtJudgment http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/CollateralValuation http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/LoanPhase http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStage
+Nc800be4366c24d2ebd4308c08afbab01 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/hasJudgementAmount
+N039c603002464d598ed2ddb6e948de38 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/inDefault http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/Loans/Loan
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/PaymentsAndSchedules/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/hasDefaultAmount http://www.w3.org/2004/02/skos/core#definition amount before the application of sale proceeds and recoveries
+Nfa451e215fa54213b368d76d31843a94 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/isAgainst
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/LoanPhase http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/LoanDefaultProceeding http://www.w3.org/2000/01/rdf-schema#label loan default proceeding
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/CollateralValuation http://www.w3.org/2000/01/rdf-schema#label collateral valuation
+N039c603002464d598ed2ddb6e948de38 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isGovernedBy
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/inDefault http://www.w3.org/2000/01/rdf-schema#label in default
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/LegalProceeding http://www.w3.org/2000/01/rdf-schema#subClassOf Nfa451e215fa54213b368d76d31843a94
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/CollateralValuation http://www.w3.org/2004/02/skos/core#definition assessment activity resulting in the valuation of real property as collateral
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/
+N9083e90ab3d24180ac37c157fcfe32f5 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isProvidedBy
+Nf56c7640c762463cb1d3fda922253aa5 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nc800be4366c24d2ebd4308c08afbab01 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/hasDefaultAmount http://www.w3.org/2000/01/rdf-schema#label has default amount
+Nf56c7640c762463cb1d3fda922253aa5 http://www.w3.org/2002/07/owl#allValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Collateral
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/hasDefaultAmount http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/hasDefaultAmount http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasMonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/hasDefaultAmount https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Undefined PoC SDM Notes: Default or Foreclosure amount - Total default amount before the application of sale proceeds and recoveries.&nbsp; (AO 146, RR 135) Loan Default Proceeding_cd= (1) Default amount </p> <p> Sale price - Price achieved on sale of property ( AO 147, RR 137 )&nbsp; Loan Default Proceeding_cd= (2) Property Sale </p> <p> Loss on Sale&nbsp;&nbsp; Total loss net of fees, accrued interest etc. after application of sale proceeds (excluding prepayment charge if subordinate to principal recoveries). Show any gain on sale as a negative number (AO 148, RR 138 )&nbsp; Loan Default Proceeding_cd = (3) Loss amount </p> <p> Cumulative Reocveries - ony relevant for cases with losses&nbsp; ( AO 149, RR 139 )&nbsp; Loan Default Proceeding_cd =&nbsp; (4) Recoveries </p> <p> Professional Negligence Recoveries - Any amounts received in settlement or as a result of professional negligence claims against surveyors, solicitors etc. net of any fees / costs ( AO 150, RR 140 )&nbsp; Loan Default Proceeding_cd = (5) Professional Negligence </p><br />
+Nfa451e215fa54213b368d76d31843a94 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/LegalPerson
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/isAgainst http://www.w3.org/2000/01/rdf-schema#label is against
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/isDeliveredBy http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/CourtJudgment
+Nf56c7640c762463cb1d3fda922253aa5 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/evaluates
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/hasJudgementAmount http://www.w3.org/2004/02/skos/core#definition Undefined PoC SDM Notes: Total value of CCJs or equivalent recorded against the primary borrower that were satisfied / unsatsified (at time of underwriting ) is computed by selecting the satisfaction code value of interest and aggregating against all borrower CC Judgements &lt;/p&gt;
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/isDeferred http://www.w3.org/2000/01/rdf-schema#label is deferred
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/hasJudgementAmount http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/CourtJudgment

@@ -1,0 +1,294 @@
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/hasTenor http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N8ef4207699aa41e4bc1822c9b7dfb281 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ReferenceInterestRate
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/BaseRate https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Typically, the bank base rate is a reference rate set by a central bank. Banks that are regulated by a given central bank cannot lend below the base rate to their customers. The bank base rate is determined on an ongoing basis and represents the central bank's judgement of the price of short-term funds on their interbank market.
+N7dd49759529a418fb8c11c864e02a4db http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/OvernightRate http://www.w3.org/2000/01/rdf-schema#label overnight rate
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ThirtySixMonths http://www.w3.org/2004/02/skos/core#definition duration of exactly thirty-six months, regardless of the length in days of a given calendar month, but typically 30 days
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterestRateAuthority http://www.w3.org/2004/02/skos/core#example This is typically a bank, central bank in the case of the publication of bank interest rates, or the committee responsible for publishing interbank rates, such as EURIBOR.
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/IND/20180801/InterestRates/InterestRates.rdf version of this ontology was modified to eliminate deprecated elements.
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ http://www.w3.org/2000/01/rdf-schema#label Interest Rates Ontology
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/FloatingInterestRate http://www.w3.org/2000/01/rdf-schema#subClassOf N8ef4207699aa41e4bc1822c9b7dfb281
+Nfe12f12905ae45bbb2ae0fe079b2ed41 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/OneYear http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+N3f709c769f974b4d9ea2240ef6bb0bf4 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isProvidedBy
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/IND/20231101/InterestRates/InterestRates.rdf version of the ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterestRateAuthority http://www.w3.org/2004/02/skos/core#definition financial service provider/publisher responsible for specifying some benchmark interest rate
+N7dd49759529a418fb8c11c864e02a4db http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/DatesAndTimes/DateTime
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Release
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/EighteenMonths http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDuration
+N9ccd5f21c8fd48e0a8efc4d9f87bf6a7 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/NineMonths http://www.w3.org/2000/01/rdf-schema#label nine months
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ReferenceInterestRate http://www.w3.org/2000/01/rdf-schema#label reference interest rate
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ThreeYears http://www.w3.org/2004/02/skos/core#definition duration of exactly three years
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/hasRateResetTimeOfDay http://www.w3.org/2004/02/skos/core#definition indicates the time of day when a change in a benchmark rate is published, typically the same time every business day
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterbankOfferedRate http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterbankRate
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/FifteenYears http://www.w3.org/2000/01/rdf-schema#label fifteen years
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/OneHundredEightyMonths http://www.w3.org/2000/01/rdf-schema#label one hundred eighty months
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/SixMonths http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDuration
+N8ef4207699aa41e4bc1822c9b7dfb281 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+N44cf1d1eea0a4332b857136697648e4c http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Designators/
+N17105909730b490788d6c0398e7ec14b http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/hasRateResetTimeOfDay http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterbankBidRate https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Unlike an interbank offered rate, which is the rate at which banks lend money, an interbank bid rate is the rate at which banks ask to borrow.
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/SixtyMonths http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDuration
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ReferenceInterestRate http://www.w3.org/2000/01/rdf-schema#subClassOf N7669fa7d6f52486cbd556f4ff9f157a7
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/OneDay http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/OneWeek http://www.w3.org/2000/01/rdf-schema#label one week
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterestRateAuthority http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/OvernightRate http://www.w3.org/2004/02/skos/core#definition reference rate that is an interest rate at which a depository institution lends funds to another depository institution (short-term), or the interest rate the central bank charges a financial institution to borrow money overnight
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterbankBidRate http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterbankRate
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/TwoMonths http://www.w3.org/2004/02/skos/core#definition duration of exactly two months, regardless of the length in days of a given calendar month, but typically 30 days
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/TwentyFourMonths http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDuration
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/FunctionalEntities/Publishers/
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/TwoYears http://www.w3.org/2004/02/skos/core#definition duration of exactly two years
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ThreeMonths http://www.w3.org/2000/01/rdf-schema#label three months
+N7669fa7d6f52486cbd556f4ff9f157a7 http://www.w3.org/2002/07/owl#allValuesFrom https://www.omg.org/spec/Commons/DatesAndTimes/Duration
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/FiveYears http://www.w3.org/2004/02/skos/core#definition duration of exactly five years
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/SixMonths http://www.w3.org/2004/02/skos/core#definition duration of exactly six months, regardless of the length in days of a given calendar month, but typically 30 days
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ThirtyYears http://www.w3.org/2000/01/rdf-schema#label thirty years
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/TwoYears https://www.omg.org/spec/Commons/DatesAndTimes/hasDurationValue P2Y
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ReferenceInterestRate http://www.w3.org/2000/01/rdf-schema#subClassOf N6a1ab767361547ce8c3262b75946a8ec
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/SixMonths http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterestRateBenchmarkClassificationScheme http://www.w3.org/2000/01/rdf-schema#label interest rate benchmark classification scheme
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/SpecificProviderInterestRateBenchmark http://www.w3.org/2004/02/skos/core#definition interest rate benchmark that is made available by a specific market data provider for reference purposes
+Nfe12f12905ae45bbb2ae0fe079b2ed41 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Currency
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/IND/20160801/InterestRates/InterestRates.rdf version of this ontology was modified per the FIBO 2.0 RFC, including adding support for reference rates from FpML.
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ThreeHundredSixtyMonths http://www.w3.org/2004/02/skos/core#definition duration of exactly three hundred sixty months, regardless of the length in days of a given calendar month, but typically 30 days
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/FiveYears http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDuration
+N6a92ceeead454fdab43ff2b43b1d0f62 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterestRateBenchmarkClassificationScheme http://www.w3.org/2004/02/skos/core#definition scheme for classifying interest rate benchmarks, such as the FpML classification scheme
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/TenYears http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/NineMonths http://www.w3.org/2004/02/skos/core#definition duration of exactly nine months, regardless of the length in days of a given calendar month, but typically 30 days
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/TwentyYears http://www.w3.org/2000/01/rdf-schema#label twenty years
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/FortyEightMonths http://www.w3.org/2000/01/rdf-schema#label forty-eight months
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/FourYears http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDuration
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/FifteenYears http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDuration
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/BaseRate https://www.omg.org/spec/Commons/AnnotationVocabulary/abbreviation BBR
+N9ccd5f21c8fd48e0a8efc4d9f87bf6a7 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/BE/FunctionalEntities/Publishers/Publisher
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/TwentyYears http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterestRateBenchmark http://www.w3.org/2000/01/rdf-schema#label interest rate benchmark
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ReferenceInterestRate https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The reference rate is a moving index such as EURIBOR, the prime rate or the rate on benchmark U.S. Treasuries.
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/OneWeek http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/OneYear http://www.w3.org/2004/02/skos/core#definition duration of exactly one year
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ThreeYears http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDuration
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ThreeHundredSixtyMonths https://www.omg.org/spec/Commons/DatesAndTimes/hasDurationValue P360M
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/TwoYears http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDuration
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterbankRate https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Banks borrow and lend money in the interbank market in order to manage liquidity and meet the requirements placed on them. The interest rate charged depends on the availability of money in the market, on prevailing rates and on the specific terms of the contract, such as term length.
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/FortyEightMonths http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/OvernightRate http://www.w3.org/2000/01/rdf-schema#subClassOf N1bcbaf9703524421b47dd04d496251fe
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/BaseRate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterestRateBenchmark http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/QuantitiesAndUnits/QuantityKind
+N17105909730b490788d6c0398e7ec14b http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isProvidedBy
+Ne50c7788f11a4c83807cc82ebc7d6e05 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N40b94941f23b4a148d11cd36ad50ec08 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ReferenceInterestRate
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ThreeYears http://www.w3.org/2000/01/rdf-schema#label three years
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ReferenceInterestRate http://www.w3.org/2000/01/rdf-schema#subClassOf Nfe12f12905ae45bbb2ae0fe079b2ed41
+N8ef4207699aa41e4bc1822c9b7dfb281 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isBasedOn
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterbankBidRate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterbankRate http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ReferenceInterestRate
+https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/FloatingInterestRate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/OneYear http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDuration
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ThreeMonths http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ThirtySixMonths http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDuration
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/FortyEightMonths https://www.omg.org/spec/Commons/DatesAndTimes/hasDurationValue P48M
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/hasReferenceCurrency http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasCurrency
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/FiveYears http://www.w3.org/2000/01/rdf-schema#label five years
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/OneDay http://www.w3.org/2000/01/rdf-schema#label one day
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterbankMidRate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ThreeMonths https://www.omg.org/spec/Commons/DatesAndTimes/hasDurationValue P3M
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/FourYears http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterestRateBenchmark http://www.w3.org/2000/01/rdf-schema#subClassOf N44cf1d1eea0a4332b857136697648e4c
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterbankOfferedRate http://www.w3.org/2004/02/skos/core#definition interbank rate that is the interest rate at which participating banks lend money
+N6a92ceeead454fdab43ff2b43b1d0f62 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Currency
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/SixMonths http://www.w3.org/2000/01/rdf-schema#label six months
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/OneDay http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDuration
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterestRateBenchmark http://www.w3.org/2004/02/skos/core#definition classifier for regularly updated interest rates that are publicly accessible, typically set by a central bank or group of financial institutions
+N1ea46b46d3204801ae1d52a6a0bbfc4f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterbankRate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N7669fa7d6f52486cbd556f4ff9f157a7 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/hasReferenceCurrency http://www.w3.org/2004/02/skos/core#definition relates something to the currency it is based on
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/OneWeek https://www.omg.org/spec/Commons/DatesAndTimes/hasDurationValue P7D
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/OneMonth http://www.w3.org/2000/01/rdf-schema#label one month
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/FourYears https://www.omg.org/spec/Commons/DatesAndTimes/hasDurationValue P4Y
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ThirtySixMonths http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/SixtyMonths http://www.w3.org/2004/02/skos/core#definition duration of exactly sixty months, regardless of the length in days of a given calendar month, but typically 30 days
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/OneHundredEightyMonths https://www.omg.org/spec/Commons/DatesAndTimes/hasDurationValue P180M
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ThirtySixMonths https://www.omg.org/spec/Commons/DatesAndTimes/hasDurationValue P36M
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/hasReferenceCurrency http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Currency
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/SixtyMonths http://www.w3.org/2000/01/rdf-schema#label sixty months
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/hasTenor http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasDuration
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterestRateAuthority http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/FinancialServiceProvider
+N17105909730b490788d6c0398e7ec14b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterestRateBenchmark http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterestRateBenchmarkClassificationScheme http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Classifiers/ClassificationScheme
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/SpecificProviderInterestRateBenchmark http://www.w3.org/2000/01/rdf-schema#label specific-provider interest rate benchmark
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/hasRateResetTimeOfDay http://www.w3.org/2000/01/rdf-schema#label has rate reset time of day
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ThreeHundredSixtyMonths http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/NineMonths https://www.omg.org/spec/Commons/DatesAndTimes/hasDurationValue P9M
+N44cf1d1eea0a4332b857136697648e4c http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/hasRateResetTimeOfDay
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/TenYears http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDuration
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterbankMidRate http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterbankRate
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/OvernightRate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/hasReferenceCurrency http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/hasTenor http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/Duration
+N9ccd5f21c8fd48e0a8efc4d9f87bf6a7 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isProducedBy
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/SpecificProviderInterestRateBenchmark http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterestRateBenchmark
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ThirtyYears https://www.omg.org/spec/Commons/DatesAndTimes/hasDurationValue P30Y
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/BaseRate http://www.w3.org/2000/01/rdf-schema#label base rate
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ThreeYears https://www.omg.org/spec/Commons/DatesAndTimes/hasDurationValue P3Y
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/TwentyYears http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDuration
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/FifteenYears http://www.w3.org/2004/02/skos/core#definition duration of exactly fifteen years
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/FiveYears https://www.omg.org/spec/Commons/DatesAndTimes/hasDurationValue P5Y
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/hasTenor http://www.w3.org/2000/01/rdf-schema#label has tenor
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/OneWeek http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDuration
+Nffa22d04fcfb4b80bf5ec794a8fa638f http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/hasTenor
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/hasTenor https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The tenor of most financial instruments declines over time, while the maturity remains constant. Risk associated with a given asset tends to decline with the reduction of the time remaining to maturity. The tenor of an interest rate swap can also refer to the frequency with which coupon payments are exchanged.
+N17105909730b490788d6c0398e7ec14b http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/BE/FunctionalEntities/Publishers/MarketDataProvider
+N8ef4207699aa41e4bc1822c9b7dfb281 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/FortyEightMonths http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDuration
+N1bcbaf9703524421b47dd04d496251fe http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/hasTenor
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/OvernightRate http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ReferenceInterestRate
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/TwoMonths http://www.w3.org/2000/01/rdf-schema#label two months
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/BaseRate https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym bank base rate
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/OneMonth https://www.omg.org/spec/Commons/DatesAndTimes/hasDurationValue P1M
+N6a92ceeead454fdab43ff2b43b1d0f62 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ThirtySixMonths http://www.w3.org/2000/01/rdf-schema#label thirty-six months
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/TwelveMonths http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+N3f709c769f974b4d9ea2240ef6bb0bf4 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/OneMonth http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/OneHundredEightyMonths http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+Nffa22d04fcfb4b80bf5ec794a8fa638f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ThreeMonths http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDuration
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/hasRateResetTimeOfDay http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/DateTime
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterbankMidRate http://www.w3.org/2004/02/skos/core#definition interbank rate that represents the mid-point between bid and offer rates
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/FourYears http://www.w3.org/2004/02/skos/core#definition duration of exactly four years
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/TwoMonths http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+N1bcbaf9703524421b47dd04d496251fe http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/OneDay https://www.omg.org/spec/Commons/DatesAndTimes/hasDurationValue P1D
+N7dd49759529a418fb8c11c864e02a4db http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/SixMonths https://www.omg.org/spec/Commons/DatesAndTimes/hasDurationValue P6M
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterestRateBenchmark http://www.w3.org/2000/01/rdf-schema#subClassOf N6a92ceeead454fdab43ff2b43b1d0f62
+N7dd49759529a418fb8c11c864e02a4db http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/hasRateResetTimeOfDay
+N1ea46b46d3204801ae1d52a6a0bbfc4f http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterestRateBenchmark
+N6a1ab767361547ce8c3262b75946a8ec http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterestRateBenchmark
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/OneMonth http://www.w3.org/2004/02/skos/core#definition duration of exactly one month, regardless of the length in days of a given calendar month, but typically 30 days
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterestRateAuthority http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BE/FunctionalEntities/Publishers/Publisher
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ http://purl.org/dc/terms/abstract This ontology provides the basic types of interest rate which are recognized in the financial markets, and the relationships between these where applicable. These include bank base rates, inter-bank offer rates, overnight rates of interest and the US Federal Funds rate which is widely used as a rate of reference. It also includes the concept of a market rate spread between two interest rates.
+N3f709c769f974b4d9ea2240ef6bb0bf4 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N40b94941f23b4a148d11cd36ad50ec08 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+N9ccd5f21c8fd48e0a8efc4d9f87bf6a7 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ThirtyYears http://www.w3.org/2004/02/skos/core#definition duration of exactly thirty years
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/TwelveMonths http://www.w3.org/2000/01/rdf-schema#label twelve months
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/TenYears http://www.w3.org/2000/01/rdf-schema#label ten years
+Nfe12f12905ae45bbb2ae0fe079b2ed41 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/hasReferenceCurrency
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/BaseRate http://www.w3.org/2004/02/skos/core#definition basic rate of interest on which the actual rate a bank charges on loans to its customers is calculated
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterestRateBenchmark http://www.w3.org/2000/01/rdf-schema#subClassOf N3f709c769f974b4d9ea2240ef6bb0bf4
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/OneHundredEightyMonths http://www.w3.org/2004/02/skos/core#definition duration of exactly one hundred eighty months, regardless of the length in days of a given calendar month, but typically 30 days
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterbankRate http://www.w3.org/2004/02/skos/core#definition reference rate that is the rate of interest charged on short-term loans between banks
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ThirtyYears http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+N3f709c769f974b4d9ea2240ef6bb0bf4 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/BE/FunctionalEntities/Publishers/MarketDataProvider
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/FortyEightMonths http://www.w3.org/2004/02/skos/core#definition duration of exactly forty-eight months, regardless of the length in days of a given calendar month, but typically 30 days
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/OneYear https://www.omg.org/spec/Commons/DatesAndTimes/hasDurationValue P1Y
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ReferenceInterestRate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N6a1ab767361547ce8c3262b75946a8ec http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasQuantityKind
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/IND/20200201/InterestRates/InterestRates.rdf version of this ontology was modified to replace 'financial information publisher' with publisher for simplification purposes.
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/TwoMonths https://www.omg.org/spec/Commons/DatesAndTimes/hasDurationValue P2M
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/hasTenor http://www.w3.org/2004/02/skos/core#definition indicates the length of time for which a given rate, such as an interbank rate, exchange rate, other market rate is quoted, or a debt instrument has remaining prior to maturity or expiration
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterbankBidRate http://www.w3.org/2000/01/rdf-schema#label interbank bid rate
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/TwentyFourMonths http://www.w3.org/2000/01/rdf-schema#label twenty-four months
+N7669fa7d6f52486cbd556f4ff9f157a7 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/hasTenor
+Nffa22d04fcfb4b80bf5ec794a8fa638f http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/DatesAndTimes/Duration
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/SixtyMonths https://www.omg.org/spec/Commons/DatesAndTimes/hasDurationValue P60M
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/SpecificProviderInterestRateBenchmark https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Benchmarks, such as those published by Bloomberg, Thomson-Reuters, and others, are usually quoted as of a specific date and time of day.
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/hasReferenceCurrency http://www.w3.org/2000/01/rdf-schema#label has reference currency
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ThreeHundredSixtyMonths http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDuration
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Classifiers/
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterbankOfferedRate http://www.w3.org/2000/01/rdf-schema#label interbank offered rate
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/TenYears https://www.omg.org/spec/Commons/DatesAndTimes/hasDurationValue P10Y
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterbankBidRate http://www.w3.org/2004/02/skos/core#definition interbank rate that is the interest rate at which participating banks are willing to borrow deposits from other banks
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/TwentyFourMonths https://www.omg.org/spec/Commons/DatesAndTimes/hasDurationValue P24M
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/TwoYears http://www.w3.org/2000/01/rdf-schema#label two years
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2014-2023 Object Management Group, Inc.
+Nfe12f12905ae45bbb2ae0fe079b2ed41 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/SpecificProviderInterestRateBenchmark http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ThreeHundredSixtyMonths http://www.w3.org/2000/01/rdf-schema#label three hundred sixty months
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ReferenceInterestRate http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/InterestRate
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/OvernightRate https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The overnight rate is the lowest available interest rate, and as such, it is only available to the most creditworthy institutions. It is the underlying rate for Overnight Interest Rate Swaps (IOS).
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/IND/20190901/InterestRates/InterestRates.rdf version of this ontology was modified to add the notion of a classifier for reference rates, so that we can differentiate between kinds of rates and the rates themselves, clean up definitions to conform with ISO 704, merge classes referenced in interest rate publishers to eliminate potential circular references, and eliminate duplication of concepts in LCC.
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/NineMonths http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDuration
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/SpecificProviderInterestRateBenchmark http://www.w3.org/2000/01/rdf-schema#subClassOf N17105909730b490788d6c0398e7ec14b
+N6a1ab767361547ce8c3262b75946a8ec http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/TwentyYears https://www.omg.org/spec/Commons/DatesAndTimes/hasDurationValue P20Y
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/EighteenMonths http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+Nffa22d04fcfb4b80bf5ec794a8fa638f http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/IND/20150501/InterestRates/InterestRates.rdf version of this ontology was modified per the issue resolutions identified in the FIBO IND 1.0 FTF 2 report.
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/TwelveMonths http://www.w3.org/2004/02/skos/core#definition duration of exactly twelve months, regardless of the length in days of a given calendar month, but typically 30 days
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterestRateAuthority http://www.w3.org/2000/01/rdf-schema#subClassOf N40b94941f23b4a148d11cd36ad50ec08
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/FifteenYears https://www.omg.org/spec/Commons/DatesAndTimes/hasDurationValue P15Y
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterestRateBenchmark http://www.w3.org/2000/01/rdf-schema#subClassOf N9ccd5f21c8fd48e0a8efc4d9f87bf6a7
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/OneYear http://www.w3.org/2000/01/rdf-schema#label one year
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/FourYears http://www.w3.org/2000/01/rdf-schema#label four years
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/IND/20230201/InterestRates/InterestRates.rdf version of this ontology was modified to move the property, 'is conferred on' to the Legal Capacity ontology and to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/DatesAndTimes/
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/SixtyMonths http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/TwelveMonths http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDuration
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/OneMonth http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDuration
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterbankRate http://www.w3.org/2000/01/rdf-schema#label interbank rate
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/OneDay http://www.w3.org/2004/02/skos/core#definition duration of exactly one day, or 24 hours, such as for an overnight rate
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/OneHundredEightyMonths http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDuration
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/IND/20140601/InterestRates/InterestRates.rdf version of this ontology was modified per the issue resolutions identified in the FIBO IND 1.0 FTF 1 report.
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/BaseRate http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ReferenceInterestRate
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterestRateBenchmark https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Benchmark rates, such as EURIBOR, the Fed Funds rate, and many others including those identified as FpML rates, are used as benchmarks for a variety of debt instruments.
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/TwoMonths http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDuration
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ReferenceInterestRate http://www.w3.org/2004/02/skos/core#definition market rate that is a rate of interest paid by or agreed among some bank or set of banks
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/TwentyFourMonths http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/NineMonths http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/hasRateResetTimeOfDay http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasDateTime
+N44cf1d1eea0a4332b857136697648e4c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/TwelveMonths https://www.omg.org/spec/Commons/DatesAndTimes/hasDurationValue P12M
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/EighteenMonths http://www.w3.org/2004/02/skos/core#definition duration of exactly eighteen months, regardless of the length in days of a given calendar month, but typically 30 days
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterestRateBenchmark http://www.w3.org/2000/01/rdf-schema#subClassOf Nffa22d04fcfb4b80bf5ec794a8fa638f
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/EighteenMonths https://www.omg.org/spec/Commons/DatesAndTimes/hasDurationValue P18M
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ReferenceInterestRate http://www.w3.org/2000/01/rdf-schema#subClassOf N7dd49759529a418fb8c11c864e02a4db
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ThreeMonths http://www.w3.org/2004/02/skos/core#definition duration of exactly three months, regardless of the length in days of a given calendar month, but typically 30 days
+N1bcbaf9703524421b47dd04d496251fe http://www.w3.org/2002/07/owl#hasValue https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/OneDay
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterbankOfferedRate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N44cf1d1eea0a4332b857136697648e4c http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/DatesAndTimes/DateTime
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterbankMidRate http://www.w3.org/2000/01/rdf-schema#label interbank mid rate
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/IND/20231101/InterestRates/InterestRates/
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ReferenceInterestRate http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/MarketRate
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/TwentyYears http://www.w3.org/2004/02/skos/core#definition duration of exactly twenty years
+N1ea46b46d3204801ae1d52a6a0bbfc4f http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Designators/defines
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ThirtyYears http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDuration
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/FiveYears http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+N6a92ceeead454fdab43ff2b43b1d0f62 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/hasReferenceCurrency
+Ne50c7788f11a4c83807cc82ebc7d6e05 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ReferenceInterestRate
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2014-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/TenYears http://www.w3.org/2004/02/skos/core#definition duration of exactly ten years
+Ne50c7788f11a4c83807cc82ebc7d6e05 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Classifiers/classifies
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/IND/20230301/InterestRates/InterestRates.rdf version of this ontology was modified to correct a restriction on specific provider interest rate benchmark.
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/FifteenYears http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterestRateAuthority http://www.w3.org/2000/01/rdf-schema#label interest rate authority
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/TwentyFourMonths http://www.w3.org/2004/02/skos/core#definition duration of exactly twenty-four months, regardless of the length in days of a given calendar month, but typically 30 days
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterestRateBenchmark http://www.w3.org/2000/01/rdf-schema#subClassOf Ne50c7788f11a4c83807cc82ebc7d6e05
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/OneWeek http://www.w3.org/2004/02/skos/core#definition duration of exactly one week, or 7 days
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/QuantitiesAndUnits/
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/EighteenMonths http://www.w3.org/2000/01/rdf-schema#label eighteen months
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/IND/20221001/InterestRates/InterestRates.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ThreeYears http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/TwoYears http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/IND/20230501/InterestRates/InterestRates.rdf version of the ontology was modified to eliminate deprecations that are more than 6 months old.
+N40b94941f23b4a148d11cd36ad50ec08 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/produces
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterestRateBenchmarkClassificationScheme http://www.w3.org/2000/01/rdf-schema#subClassOf N1ea46b46d3204801ae1d52a6a0bbfc4f
+https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterestRateBenchmarkClassificationScheme http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class

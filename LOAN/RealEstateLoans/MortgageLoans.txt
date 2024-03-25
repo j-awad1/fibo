@@ -1,0 +1,480 @@
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageIndemnityInsurancePolicy http://www.w3.org/2000/01/rdf-schema#subClassOf Nc350eb36e1784f3ba559b21e947baf3e
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/DwellingCapacity http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Classifiers/Classifier
+Neca91f0ca3dd4a6997bf8e78c8f0d8a7 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N34c914aa74d349d1992c35e9a31d3b12 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N6850312a94f64fc4acf1e8994b1b7c08
+Na15fa381ea964053b478e1531bbf83db http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/CashOutStatus-NoCashOut http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Thing
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType-adjustableRate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+N48746b6fff184baca9e1ba6d7d7733c7 http://www.w3.org/2002/07/owl#intersectionOf N34c914aa74d349d1992c35e9a31d3b12
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType-rateImprovement http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/NMLSR-ID http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N0473c578a72f456eaedecd04edd470e5 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/hasAppraisedValue
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/RealPropertyAppraisal http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Guaranty/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageIndemnityGuarantee http://www.w3.org/2000/01/rdf-schema#label mortgage indemnity guarantee
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/PropertyUsage-primaryResidence http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/PropertyUsage
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/hasOriginatingServiceProvider http://www.w3.org/2000/01/rdf-schema#label has originating service provider
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/hasNumberOfDwellingUnits http://www.w3.org/2000/01/rdf-schema#label has number of dwelling units
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageLoanPurpose-HomeImprovement http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType-growingEquity http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/PropertyUsage-secondHome http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/hasNumberOfAffordableDwellingUnits http://www.w3.org/2000/01/rdf-schema#label has number of affordable dwelling units
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/CashOutStatus-LimitedCashOut http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/CashOutStatus
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/hasNumberOfDwellingUnits http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+Nf965591384114c02b477de98120aeeee http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/PropertyUsage-investment http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ManufacturedHomeLegalClassification http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N76f943b53a5e463baa68ef8ca6dd641e http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/PropertyInspection
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/PropertyUsage-investment http://www.w3.org/2004/02/skos/core#definition a home owned for the purpose of generating income
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/CashOutStatus-CashOut http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/CashOutStatus
+N76f943b53a5e463baa68ef8ca6dd641e http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasInput
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ManufacturedHomeLegalClassification-personalProperty http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/PropertyUsage http://www.w3.org/2000/01/rdf-schema#label property usage
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Provisional
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/Agents/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ChargeCategory-lenderCredits http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ChargeCategory
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageLoanPurpose http://www.w3.org/2000/01/rdf-schema#label mortgage loan purpose
+Ne8d836ee15f348e4bbfff32dc9e963f7 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/hasOriginatingServiceProvider http://www.w3.org/2000/01/rdf-schema#range N3d56b947c8cb436395c05536d38adf33
+Nfccaefed7c9f44b8a1ada95c6a8a117c http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/Loans/Loan
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType-adjustableRate http://www.w3.org/2004/02/skos/core#definition a loan that allows the lender to periodically adjust the interest rate in accordance with a specified index
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/Mortgage http://www.w3.org/2002/07/owl#equivalentClass N9093f50ea7a64695a644836e6750f406
+N32e08013e7604cf49129229d79dbe3cd http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ManufacturedHomeLegalClassification http://www.w3.org/2000/01/rdf-schema#label manufactured home legal classification
+Nfccaefed7c9f44b8a1ada95c6a8a117c http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Identifiers/identifies
+N45e9da1ee8454b48896015f18b86a791 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isProvidedBy
+N57cd92da54604173a4a6c927fb896378 http://www.w3.org/2002/07/owl#someValuesFrom N4cc8d8ccec514c7e8950c0f88ea75944
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/Mortgage http://www.w3.org/2000/01/rdf-schema#subClassOf Nc2792272c1ef4907ba964c9606a0bb84
+N3d56b947c8cb436395c05536d38adf33 http://www.w3.org/2002/07/owl#intersectionOf N8d8095687c8a4b1482bffc75796953b8
+Nfccaefed7c9f44b8a1ada95c6a8a117c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AutomatedUnderwritingSystem-LoanProspector http://www.w3.org/2004/02/skos/core#definition an automated underwriting software system produced by Freddie Mac
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ChargeCategory-appraisalFee http://www.w3.org/2000/01/rdf-schema#label appraisal fee
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/RolesAndCompositions/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/hasNumberOfDwellingUnits http://www.w3.org/2004/02/skos/core#definition relates real estate to the number of dwelling units it contains
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/PropertyUsage http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Classifiers/Classifier
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AutomatedUnderwritingSystem-FHAScorecard http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+Nc877826fb27542eeb048f72510501c7d http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/Mortgage http://www.w3.org/2000/01/rdf-schema#subClassOf Nc87d2ec99cc44e2cac12a69baaca1508
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType-step http://www.w3.org/2004/02/skos/core#definition a loan with fixed periodic payment/rate changes without subsidy or negative amortization.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/Mortgage http://www.w3.org/2000/01/rdf-schema#subClassOf N46953af801ca43c4b115069c018608ca
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/CashOutStatus-CashOut http://www.w3.org/2004/02/skos/core#definition the mortgage is refinanced for more than is owed and the borrower pockets the difference.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/CashOutStatus http://www.w3.org/2004/02/skos/core#definition classifier indicating the extent to which funds are released to the borrower on a new loan origination that refinances an existing loan
+N3dcfcac295b14cd0a84e8260f22a3e75 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/NMLSR-ID
+Nf65aaf46e3c34b6e849bb47762304dc0 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/RealEstate
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType-step http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/DwellingCapacity http://www.w3.org/2004/02/skos/core#definition classifier indicating how many dwellings some property has
+N9f9d0d24960a4723bc30dbabcc0b4f79 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/hasClosingDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/Mortgage http://www.w3.org/2000/01/rdf-schema#subClassOf N15e42ffad87f450f9850d313b16b36b7
+N4b6eacdaadc0404a8d4aa3a71bf40d56 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N3a8d38c3097d422eac587262013ab373
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageLoanPurpose-MortgageModification http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageLoanPurpose
+N0cae0f4d513a4f9eab912b6109b0ddc5 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ChargeCategory http://www.w3.org/2000/01/rdf-schema#label charge category
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType-growingEquity https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Due to increased payment, the borrower acquires equity more rapidly and retires the debt earlier.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/RealPropertyAppraisal http://www.w3.org/2000/01/rdf-schema#subClassOf N6df281595d09477cb1171acaf3c5ac96
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AutomatedUnderwritingSystem-DesktopUnderwriter http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AutomatedUnderwritingSystem
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageIndemnityInsurancePolicy http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AutomatedUnderwritingSystem http://www.w3.org/2004/02/skos/core#definition software system that collects the information necessary to approve a loan application and supports a mortgage lender's analysis of a new loan application
+N78e7ec8ad28b4463bce30902d0ef6ea2 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAddress
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ChargeCategory-appraisalFee http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ChargeCategory
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/hasNumberOfAffordableDwellingUnits http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/hasNumberOfDwellingUnits
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ChargeCategory-discountPoints http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ChargeCategory
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageLoanPurpose-MortgageModification http://www.w3.org/2000/01/rdf-schema#label mortgage modification
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageLoanPurpose-RealPropertyPurchase http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageLoanPurpose
+N6df281595d09477cb1171acaf3c5ac96 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/hasClosingDate http://www.w3.org/2000/01/rdf-schema#label has closing date
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/hasOriginatorPerson http://www.w3.org/2004/02/skos/core#definition relates something, typically a loan, to a person that initially originates or creates it
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/DwellingCapacity-multiFamily http://www.w3.org/2000/01/rdf-schema#label multi-family
+N4b6eacdaadc0404a8d4aa3a71bf40d56 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/FinancialServiceProvider
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageIndemnityGuarantee http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nfd0275a3cffc47b19d437652ad908188 http://www.w3.org/1999/02/22-rdf-syntax-ns#first N57cd92da54604173a4a6c927fb896378
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ http://purl.org/dc/terms/abstract Loans that have collateral posted as security and where that collateral is real estate, and the real estate which makes up the collateral is purchased with the funds loaned. This ontology covers a range of mortgage concepts and parties, along with catewgories of mortgage loan purpose (remortgage, second home etc.).
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageLoanPurpose-BusinessOrCommercial http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageLoanPurpose
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Identifiers/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Collections/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AutomatedUnderwritingSystem-DesktopUnderwriter http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+N0ca1d994516e4e73b513456ac116ca15 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/PropertyUsage-secondHome http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Thing
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ChargeCategory-lenderCredits http://www.w3.org/2004/02/skos/core#definition a credit whereby the lender reduces closing costs in exchange for a higher interest rate.
+N3dcfcac295b14cd0a84e8260f22a3e75 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Identifiers/isIdentifiedBy
+N70c6b2c352674317811faa039290293c http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/Loans/SecurityAgreement
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/PropertyUsage-primaryResidence http://www.w3.org/2000/01/rdf-schema#label primary residence
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/RealEstate http://www.w3.org/2000/01/rdf-schema#subClassOf Nbb8456d705fc45d88f4df27c50d53c1d
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/ContextualDesignators/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AutomatedUnderwritingSystem http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/assumes http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/isARMConvertible http://www.w3.org/2004/02/skos/core#definition indicates whether or not the mortgage can be converted into an adjustable-rate mortgage (ARM)
+N48746b6fff184baca9e1ba6d7d7733c7 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType-graduatedPayment http://www.w3.org/2000/01/rdf-schema#label graduated payment
+N45e9da1ee8454b48896015f18b86a791 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ManufacturedHomeLegalClassification http://www.w3.org/2004/02/skos/core#definition category indicating whether the covered loan is secured by a manufactured home only or with land as well
+N6236894f6dbb4d93b729483bc62c4bbe http://www.w3.org/1999/02/22-rdf-syntax-ns#rest Nf965591384114c02b477de98120aeeee
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/hasOriginatingServiceProvider http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/PartiesAndSituations/hasPartyRole
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AutomatedUnderwritingSystem-LoanProspector http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/DwellingCapacity-multiFamily http://www.w3.org/2004/02/skos/core#definition 5 or more units
+N6236894f6dbb4d93b729483bc62c4bbe http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractParty
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageLoanPurpose-DwellingConstruction http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageLoanPurpose
+N32e08013e7604cf49129229d79dbe3cd http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Classifiers/isClassifiedBy
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/hasOriginatorPerson http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/LegallyCompetentNaturalPerson
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/assumes http://www.w3.org/2004/02/skos/core#definition relates a new mortgage loan contract to a previous one made to a different borrower for the same property. The new contract is created via a legally binding process where the new borrower assumes the terms of the previous loan contract
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType-adjustableRate http://www.w3.org/2000/01/rdf-schema#label adjustable rate
+N385bfaf4da0048ecb50603b54fb57049 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/hasEstimatedValue
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/NMLSR-ID https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom http://mortgage.nationwidelicensingsystem.org/about/Pages/NMLSID.aspx
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType-fixedRate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ReverseMortgage http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/Mortgage
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType-growingEquity http://www.w3.org/2004/02/skos/core#definition A graduated payment loan in which increases in a borrowers loan payments are used to accelerate reduction of principal on the mortgage
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType-graduatedPayment https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Usually involves negative amortization.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType-graduatedPayment https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom the 2015 Revised HMDA regulation.
+N76f943b53a5e463baa68ef8ca6dd641e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/hasAppraisedValue http://www.w3.org/2000/01/rdf-schema#label has appraised value
+N1839a5455666481780783c135e578ad2 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isExemplifiedBy
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ManufacturedHomeLegalClassification-personalProperty http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ManufacturedHomeLegalClassification
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ChargeCategory-lenderCredits http://www.w3.org/2000/01/rdf-schema#label lender credits
+N177e2fb58b674108b6be8e68e96f135b http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/Commons/DatesAndTimes/Date
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/NMLSR-ID http://www.w3.org/2000/01/rdf-schema#label Nationwide Mortgage Licensing System and Registry Identifier
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ChargeCategory http://www.w3.org/2004/02/skos/core#definition Examples include closing costs, interest, taxes, and other service-related fees.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageIndemnityGuarantor http://www.w3.org/2000/01/rdf-schema#label mortgage indemnity guarantor
+N6df281595d09477cb1171acaf3c5ac96 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/hasAppraiser
+Nbb8456d705fc45d88f4df27c50d53c1d http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/hasNumberOfAffordableDwellingUnits
+N57cf39ea8a95491696a589e3e4c4d664 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/hasOriginatingServiceProvider https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Typically this will be a bank, mortgage broker, investment bank, or other similar party.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageIndemnityGuarantee http://www.w3.org/2000/01/rdf-schema#subClassOf Nf3d012e6cd3645119c2302029bff5f49
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/hasOriginatingServiceProvider http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N6850312a94f64fc4acf1e8994b1b7c08 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+N447c7cee86aa47e28db0203399508875 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ManufacturedHomeLegalClassification
+N4a056d8593d14aabaf008f40b37f23b4 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N15e42ffad87f450f9850d313b16b36b7 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/GovernmentSponsoredLoan http://www.w3.org/2000/01/rdf-schema#label government-sponsored loan
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AutomatedUnderwritingSystem https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote In the United States, automated underwriting systems review the applicant's credit history and ability to repay the loan, and determine whether the price the applicant is offering to pay is supported by the property value.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/assumes http://www.w3.org/2000/01/rdf-schema#label assumes
+N937d8fe0e4174777b7b05e1c0c077c92 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType http://www.w3.org/2000/01/rdf-schema#label amortization type
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ChargeCategory-discountPoints http://www.w3.org/2004/02/skos/core#definition a charge for lowering your interest rate
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/CashOutStatus-LimitedCashOut http://www.w3.org/2000/01/rdf-schema#label limited cashout
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/RealEstate http://www.w3.org/2000/01/rdf-schema#subClassOf N78e7ec8ad28b4463bce30902d0ef6ea2
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ChargeCategory-principal http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ChargeCategory
+Nda555551737e4ddcac6161c6b770c0da http://www.w3.org/1999/02/22-rdf-syntax-ns#first Nf65aaf46e3c34b6e849bb47762304dc0
+N0473c578a72f456eaedecd04edd470e5 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/NMLSR-ID https://www.omg.org/spec/Commons/AnnotationVocabulary/abbreviation NMLSR ID
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/CashOutStatus-LimitedCashOut http://www.w3.org/2004/02/skos/core#definition a cashout mortgage where the amount is limited by the lenger. 80% loan to value ratio is a common limit.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageIndemnityInsurancePolicy http://www.w3.org/2004/02/skos/core#definition insurance policy providing the mortgage indemnity guarantee
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/PropertyInspection http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/PropertyUsage-secondHome http://www.w3.org/2000/01/rdf-schema#label second home
+Ne8d836ee15f348e4bbfff32dc9e963f7 http://www.w3.org/1999/02/22-rdf-syntax-ns#first N4a056d8593d14aabaf008f40b37f23b4
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/Loans/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/isInspectionOf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ReverseMortgage http://www.w3.org/2000/01/rdf-schema#label reverse mortgage
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AutomatedUnderwritingSystem-DesktopUnderwriter http://www.w3.org/2004/02/skos/core#definition an automated underwriting software system produced by Fannie Mae
+N311c62a362584ed2a0a42b2e4ae729f0 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/RealPropertyAppraisal
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/
+N385bfaf4da0048ecb50603b54fb57049 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ChargeCategory-principal http://www.w3.org/2004/02/skos/core#definition the principal of the loan that is owed
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/PropertyInspection https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote This is independent and separate from conducting an appraisal. Examples are termite inspections, construction inspections, etc.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType http://www.w3.org/2004/02/skos/core#definition classifier of amortization algorithms
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/isARMConvertible http://www.w3.org/2000/01/rdf-schema#label is ARM convertible
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageLoanPurpose-RealPropertyPurchase http://www.w3.org/2000/01/rdf-schema#label real property purchase
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageLoanPurpose http://www.w3.org/2004/02/skos/core#definition the purpose for which mortgage loan proceeds will be used, such as real property purchase, dwelling construction, or loan refinancing
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/UniversalLoanIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrumentIdentifier
+Nc87d2ec99cc44e2cac12a69baaca1508 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType-step http://www.w3.org/2000/01/rdf-schema#label step
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ManufacturedHomeLegalClassification https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom 2015 Revised HMDA regulation
+Nfccaefed7c9f44b8a1ada95c6a8a117c http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/CashOutStatus-NoCashOut http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/CashOutStatus
+N937d8fe0e4174777b7b05e1c0c077c92 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType-graduatedPaymentAdjustable https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom the 2015 Revised HMDA regulation.
+N70c6b2c352674317811faa039290293c http://www.w3.org/1999/02/22-rdf-syntax-ns#rest Ne8d836ee15f348e4bbfff32dc9e963f7
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AutomatedUnderwritingSystem-GuaranteedUnderwritingSystem https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym GUS
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageLoanPurpose http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Classifiers/Classifier
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Classifiers/
+N57cf39ea8a95491696a589e3e4c4d664 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+Nbb8456d705fc45d88f4df27c50d53c1d http://www.w3.org/2002/07/owl#someValuesFrom http://www.w3.org/2001/XMLSchema#positiveInteger
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/
+N447c7cee86aa47e28db0203399508875 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/PropertyUsage-secondHome http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/PropertyUsage
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/isARMConvertible http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#boolean
+N6894de40d4e341688131c26c42fdb3ee http://www.w3.org/1999/02/22-rdf-syntax-ns#rest Nfd0275a3cffc47b19d437652ad908188
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageIndemnityGuarantor http://www.w3.org/2004/02/skos/core#definition guarantor and insurer that provides mortgage insurance in the form of a mortgage indemnity guarantee (MIG)
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageLoanPurpose-MortgageModification http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/PropertyUsage-investment http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/PropertyUsage
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/
+N385bfaf4da0048ecb50603b54fb57049 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ChargeCategory https://www.omg.org/spec/Commons/AnnotationVocabulary/usageNote Use with LineItem, (has ChargeCategory instance), (hasNumericalValue for number of units) and (hasCost for the amount of money)
+N45e9da1ee8454b48896015f18b86a791 http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/Commons/PartiesAndSituations/PartyRole
+N4a056d8593d14aabaf008f40b37f23b4 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/ContextualDesignators/isApplicableIn
+Nf65aaf46e3c34b6e849bb47762304dc0 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nf965591384114c02b477de98120aeeee http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractThirdParty
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageLoanPurpose-RealPropertyPurchase http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType-graduatedPaymentAdjustable http://www.w3.org/2000/01/rdf-schema#label graduated payment adjustable
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/NMLSR-ID http://www.w3.org/2004/02/skos/core#definition the number permanently assigned by the Nationwide Mortgage Licensing System and Registry (NMLS) for each company, branch, and individual that maintains a single account on NMLS.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/PropertyInspection http://www.w3.org/2004/02/skos/core#definition assessment activity that involves analyzing one or more aspects of a real property for independent assessment of status or deficiency
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AutomatedUnderwritingSystem-FHAScorecard http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AutomatedUnderwritingSystem
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/PropertyInspection http://www.w3.org/2000/01/rdf-schema#subClassOf Na15fa381ea964053b478e1531bbf83db
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageIndemnityGuarantee http://www.w3.org/2004/02/skos/core#definition insurance-backed guarantee that protects lenders if the mortgage repayments cease for some reason, perhaps due to death or a homeowner being made redundant at work
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType-graduatedPayment http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ReverseMortgage http://www.w3.org/2000/01/rdf-schema#label reverse mortgage
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ChargeCategory-originationFee http://www.w3.org/2000/01/rdf-schema#label origination fee
+Nbb8456d705fc45d88f4df27c50d53c1d http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N9f9d0d24960a4723bc30dbabcc0b4f79 http://www.w3.org/2002/07/owl#intersectionOf N4b6eacdaadc0404a8d4aa3a71bf40d56
+N3d56b947c8cb436395c05536d38adf33 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/RealPropertyAppraisal http://www.w3.org/2000/01/rdf-schema#label real property appraisal
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/UniversalLoanIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf Nfccaefed7c9f44b8a1ada95c6a8a117c
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType-adjustableRate https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom the 2015 Revised HMDA regulation.
+N6850312a94f64fc4acf1e8994b1b7c08 http://www.w3.org/1999/02/22-rdf-syntax-ns#first N2990fe562adc49118f8f6f675c1600a5
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ReverseMortgage http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/isInspectionOf http://www.w3.org/2004/02/skos/core#definition relates an inspection to the thing being inspected
+N57cd92da54604173a4a6c927fb896378 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N46953af801ca43c4b115069c018608ca http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/Mortgage https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom the Cambridge Business English Dictionary
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/Mortgage http://www.w3.org/2000/01/rdf-schema#subClassOf N0ca1d994516e4e73b513456ac116ca15
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/DwellingCapacity http://www.w3.org/2000/01/rdf-schema#label dwelling capacity
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/Mortgage http://www.w3.org/2000/01/rdf-schema#subClassOf N937d8fe0e4174777b7b05e1c0c077c92
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ChargeCategory-lenderCredits https://www.omg.org/spec/Commons/AnnotationVocabulary/usageNote This needs to be treated as a negative charge.
+N76f943b53a5e463baa68ef8ca6dd641e http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+Ndd590ed14a0a4d278a3505894fc661fb http://www.w3.org/2002/07/owl#someValuesFrom http://www.w3.org/2001/XMLSchema#positiveInteger
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/DwellingCapacity-multiFamily http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+N57cf39ea8a95491696a589e3e4c4d664 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LEIEntities/LegalEntityIdentifier
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/DatesAndTimes/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ReverseMortgage https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The interest is added to the principal balance.
+N4cc8d8ccec514c7e8950c0f88ea75944 http://www.w3.org/2002/07/owl#intersectionOf N70c6b2c352674317811faa039290293c
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AutomatedUnderwritingSystem-FHAScorecard http://www.w3.org/2000/01/rdf-schema#label FHA Scorecard
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AutomatedUnderwritingSystem-FHAScorecard http://www.w3.org/2004/02/skos/core#definition an automated underwriting software system produced by Federal Housing Administration (FHA)
+Ndd590ed14a0a4d278a3505894fc661fb http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/PropertyUsage-secondHome http://www.w3.org/2004/02/skos/core#definition a property occupied by the owner for a portion of the year that is not the primary residence
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AutomatedUnderwritingSystem-GuaranteedUnderwritingSystem http://www.w3.org/2000/01/rdf-schema#label Guaranteed Underwriting System
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ManufacturedHomeLegalClassification-realProperty http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ManufacturedHomeLegalClassification
+N3a8d38c3097d422eac587262013ab373 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+N15e42ffad87f450f9850d313b16b36b7 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+Nc17bdea023304275a01bf0bca998fdce http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/PhysicalCollateral
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/GovernmentSponsoredLoan http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/Mortgage
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/CashOutStatus-CashOut http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+N3a8d38c3097d422eac587262013ab373 http://www.w3.org/1999/02/22-rdf-syntax-ns#first N3dcfcac295b14cd0a84e8260f22a3e75
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageLoanPurpose-DwellingConstruction http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+Nda555551737e4ddcac6161c6b770c0da http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/CashOutStatus-NoCashOut http://www.w3.org/2004/02/skos/core#definition The mortgage is refinanced for less than or equal to what is owed.
+Nf65aaf46e3c34b6e849bb47762304dc0 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType-graduatedPayment http://www.w3.org/2004/02/skos/core#definition a flexible payment loan where the payments increase for a specified period of time and then level off
+Nc877826fb27542eeb048f72510501c7d http://www.w3.org/2002/07/owl#intersectionOf Nc17bdea023304275a01bf0bca998fdce
+N1839a5455666481780783c135e578ad2 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageIndemnityInsurancePolicy
+N46953af801ca43c4b115069c018608ca http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageLoanPurpose-LoanRefinancing http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageLoanPurpose
+Nc87d2ec99cc44e2cac12a69baaca1508 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/Loans/Servicer
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AutomatedUnderwritingSystem http://www.w3.org/2000/01/rdf-schema#label automated underwriting system
+N4cc8d8ccec514c7e8950c0f88ea75944 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2016-2024 EDM Council, Inc.
+N3dcfcac295b14cd0a84e8260f22a3e75 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N937d8fe0e4174777b7b05e1c0c077c92 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/UniversalLoanIdentifier
+N0473c578a72f456eaedecd04edd470e5 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType-graduatedPaymentAdjustable http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/hasOriginatorPerson http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/PartiesAndSituations/hasParty
+N57cd92da54604173a4a6c927fb896378 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageIndemnityGuarantee http://www.w3.org/2004/02/skos/core#editorialNote See notes from SME Review and in MIG Provider. Applies to securitized pool, insures the lender. Additional note (IBM): there is a further application of this. When a lender takes a loan which is a where the value of the loan is greater than 80% of the value of the property, at that point it is required for the lender to also get a private mortgage insurance, so they are paying separately for the mortgage insurance so that if the borrower defaults above 80% then the mortgage insurance pays the loss. In the Loan Party Insurer (new "Party" type) you have Loan Party Insured Ratio (e.g. the 80% in the example above). These are different situations but the same principle. So this needs to be modeled for both. 30 June: Is this Lender or Borrower? since you have one lender and one borrower in a single loan, but multiple lenders in the case of packaging this up for a security - there are then multiple lenders and multiple borrowers. A similar kind of insurance exists in the one lender one borrower scenario i.e. the mortgage loan itself. There are two concepts here. the MIG thing was for bundling these. the MIG might apply across multiple contracts, but still be a fact about "the" contract? The notes about 80% above (IBM) are about the individual loan. ACTION: Tidy this up.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageIndemnityGuarantor http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Guaranty/Insurer
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AutomatedUnderwritingSystem-LoanProspector http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AutomatedUnderwritingSystem
+N88f8aa8ff5804df1bf31d5fb62f28bc0 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/Loans/hasCreditLimit
+N447c7cee86aa47e28db0203399508875 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Classifiers/isClassifiedBy
+Nc350eb36e1784f3ba559b21e947baf3e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+N937d8fe0e4174777b7b05e1c0c077c92 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Identifiers/isIdentifiedBy
+N1839a5455666481780783c135e578ad2 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nc87d2ec99cc44e2cac12a69baaca1508 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/hasAppraisedValue http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageLoanPurpose http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/
+N177e2fb58b674108b6be8e68e96f135b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType-step https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom the 2015 Revised HMDA regulation.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageLoanPurpose-BusinessOrCommercial http://www.w3.org/2000/01/rdf-schema#label business or commercial
+N2990fe562adc49118f8f6f675c1600a5 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/PropertyInspection http://www.w3.org/2000/01/rdf-schema#subClassOf N45e9da1ee8454b48896015f18b86a791
+Nc2792272c1ef4907ba964c9606a0bb84 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/hasOriginatorPerson
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AutomatedUnderwritingSystem http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/Agents/AutomatedSystem
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/Mortgage http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/Loans/ClosedEndCredit
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/DwellingCapacity-singleFamily http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/CashOutStatus http://www.w3.org/2000/01/rdf-schema#label cash-out status
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageIndemnityGuarantor http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Guaranty/Guarantor
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AutomatedUnderwritingSystem-GuaranteedUnderwritingSystem http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AutomatedUnderwritingSystem
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/DwellingCapacity-singleFamily http://www.w3.org/2000/01/rdf-schema#label single family
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ChargeCategory-originationFee http://www.w3.org/2004/02/skos/core#definition a charge for an origination
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/RealEstate http://www.w3.org/2000/01/rdf-schema#subClassOf N32e08013e7604cf49129229d79dbe3cd
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType-adjustableRate http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/isLienOn http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType-growingEquity https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom the 2015 Revised HMDA regulation.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType-rateImprovement http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/PropertyUsage-primaryResidence http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageIndemnityGuarantor https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote SME Review notes 16 Sept: Guaranty - mortgage insurance e.g. insure up to 80% exposure. When you get into indemnification, then for instance if the product doesn't meet the investor's requirement such that if it doesn't get paid then the lender steps in and takes the hit for the loan - this is usually a precondition for securitizing (issuing) the loan in a pool. If the loan is not going to be sold on the secondary market there would be no need to indemnify that loan so this term would not apply. Indemnification is insurance for the investor, while the lender is the one providing that indemnification.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/PropertyUsage http://www.w3.org/2004/02/skos/core#definition a category indicating the manner in which the borrower intends to utilize the property
+Nc350eb36e1784f3ba559b21e947baf3e http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/isEvidenceFor
+N78e7ec8ad28b4463bce30902d0ef6ea2 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddress
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ChargeCategory http://www.w3.org/2004/02/skos/core#definition classifier indicating what a particular fee or other expense is for
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ManufacturedHomeLegalClassification-personalProperty https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom the 2015 Revised HMDA regulation.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/RealPropertyAppraisal http://www.w3.org/2004/02/skos/core#editorialNote Future consideration: add information about variability analysis and maybe the algorithm used.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/CashOutStatus-LimitedCashOut http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Thing
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AutomatedUnderwritingSystem-GuaranteedUnderwritingSystem http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+N15e42ffad87f450f9850d313b16b36b7 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Guaranty/hasGuarantor
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/Mortgage http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType-growingEquity http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType-growingEquity http://www.w3.org/2000/01/rdf-schema#label growing equity
+Neca91f0ca3dd4a6997bf8e78c8f0d8a7 http://www.w3.org/2002/07/owl#unionOf N6236894f6dbb4d93b729483bc62c4bbe
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/CashOutStatus-CashOut http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Thing
+N78e7ec8ad28b4463bce30902d0ef6ea2 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/isARMConvertible http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/Loans/Loan
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/isARMConvertible http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+Nc17bdea023304275a01bf0bca998fdce http://www.w3.org/1999/02/22-rdf-syntax-ns#rest Nda555551737e4ddcac6161c6b770c0da
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/hasNumberOfAffordableDwellingUnits http://www.w3.org/2004/02/skos/core#definition relates real estate to the number of dwelling units it contains that are income-restricted under Federal, State, or local affordable housing programs.
+N385bfaf4da0048ecb50603b54fb57049 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/GovernmentSponsoredLoan http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ChargeCategory-discountPoints http://www.w3.org/2000/01/rdf-schema#label discount points
+Nc87d2ec99cc44e2cac12a69baaca1508 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/Loans/isServicedBy
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ChargeCategory-originationFee http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ChargeCategory
+Na15fa381ea964053b478e1531bbf83db http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/RealEstate
+Ndd590ed14a0a4d278a3505894fc661fb http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/hasNumberOfDwellingUnits
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AutomatedUnderwritingSystem-DesktopUnderwriter http://www.w3.org/2000/01/rdf-schema#label Desktop Underwriter
+N0ca1d994516e4e73b513456ac116ca15 http://www.w3.org/2002/07/owl#someValuesFrom N9f9d0d24960a4723bc30dbabcc0b4f79
+N32e08013e7604cf49129229d79dbe3cd http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/DwellingCapacity
+N15e42ffad87f450f9850d313b16b36b7 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageIndemnityGuarantor
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/hasNumberOfAffordableDwellingUnits https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom the 2015 Revised HMDA regulation.
+N311c62a362584ed2a0a42b2e4ae729f0 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/PropertyUsage-primaryResidence http://www.w3.org/2004/02/skos/core#definition residence that the owner physically occupies and uses as his or her principal residence
+Nc350eb36e1784f3ba559b21e947baf3e http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageIndemnityGuarantee
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType-graduatedPaymentAdjustable http://www.w3.org/2004/02/skos/core#definition a loan for which there are periodic payments/rate changes with additional specified principal and interest changes as documented in the Security Instruments.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ManufacturedHomeLegalClassification http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Classifiers/Classifier
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ChargeCategory-lenderCredits http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+N34c914aa74d349d1992c35e9a31d3b12 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/LegallyCompetentNaturalPerson
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ChargeCategory-originationFee http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+N8d8095687c8a4b1482bffc75796953b8 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N0cae0f4d513a4f9eab912b6109b0ddc5
+Nc2792272c1ef4907ba964c9606a0bb84 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/UniversalLoanIdentifier https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote In the US, the structure of this identifier is defined in the 2015 revision to the Home Mortgage Disclosure Act.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/RealEstate http://www.w3.org/2000/01/rdf-schema#subClassOf Ndd590ed14a0a4d278a3505894fc661fb
+Nf3d012e6cd3645119c2302029bff5f49 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageIndemnityGuarantor
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ReverseMortgage https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote A reverse mortgage and an open end loan both have a credit limit.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AutomatedUnderwritingSystem-LoanProspector http://www.w3.org/2000/01/rdf-schema#label Loan Prospector
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/hasNumberOfDwellingUnits http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasCount
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ http://www.w3.org/2000/01/rdf-schema#label Mortgage Loans Ontology
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ManufacturedHomeLegalClassification-realProperty https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom the 2015 Revised HMDA regulation.
+N78e7ec8ad28b4463bce30902d0ef6ea2 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageIndemnityInsurancePolicy http://www.w3.org/2000/01/rdf-schema#label mortgage indemnity insurance policy
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageLoanPurpose-HomeImprovement http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageLoanPurpose
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/CashOutStatus http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AutomatedUnderwritingSystem-GuaranteedUnderwritingSystem http://www.w3.org/2004/02/skos/core#definition an automated underwriting software system used by the USDA rural development loan program
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/DwellingCapacity-singleFamily http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Thing
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/Mortgage http://www.w3.org/2004/02/skos/core#definition a loan contract that is secured by real property
+N0ca1d994516e4e73b513456ac116ca15 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/hasOriginatingServiceProvider
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType-step http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType
+N88f8aa8ff5804df1bf31d5fb62f28bc0 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageLoanPurpose-DwellingConstruction http://www.w3.org/2000/01/rdf-schema#label dwelling construction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/hasOriginatingServiceProvider http://www.w3.org/2004/02/skos/core#definition relates something, typically a loan contract, to the service provider responsible for originated the loan
+N311c62a362584ed2a0a42b2e4ae729f0 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/hasClosingDate http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasEffectiveDate
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageIndemnityGuarantee http://www.w3.org/2000/01/rdf-schema#subClassOf N1839a5455666481780783c135e578ad2
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageLoanPurpose-LoanRefinancing http://www.w3.org/2000/01/rdf-schema#label loan refinancing
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/Mortgage http://www.w3.org/2000/01/rdf-schema#subClassOf N177e2fb58b674108b6be8e68e96f135b
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/RealPropertyAppraisal http://www.w3.org/2000/01/rdf-schema#subClassOf N76f943b53a5e463baa68ef8ca6dd641e
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/hasOriginatorPerson http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType-fixedRate http://www.w3.org/2004/02/skos/core#definition a loan in which the interest rate and payments remain the same for the life of the loan
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/DwellingCapacity-multiFamily http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/DwellingCapacity
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/PropertyInspection http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AssessmentActivity
+Nc2792272c1ef4907ba964c9606a0bb84 http://www.w3.org/2002/07/owl#someValuesFrom N48746b6fff184baca9e1ba6d7d7733c7
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ChargeCategory-lenderCredits https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://www.consumerfinance.gov/askcfpb/136/what-are-discount-points-and-lender-credits-and-how-do-they-work.html
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ChargeCategory-appraisalFee http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/RealPropertyAppraisal http://www.w3.org/2004/02/skos/core#definition value assessment that estimates the amount of money a real estate property is worth
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType-graduatedPayment http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageLoanPurpose-LoanRefinancing http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ChargeCategory-discountPoints http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+Nf3d012e6cd3645119c2302029bff5f49 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Guaranty/isGuaranteedBy
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/CashOutStatus-NoCashOut http://www.w3.org/2000/01/rdf-schema#label no cashout
+N0cae0f4d513a4f9eab912b6109b0ddc5 http://www.w3.org/1999/02/22-rdf-syntax-ns#first Neca91f0ca3dd4a6997bf8e78c8f0d8a7
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageIndemnityInsurancePolicy http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Guaranty/InsurancePolicy
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageLoanPurpose-BusinessOrCommercial http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/RealEstate http://www.w3.org/2000/01/rdf-schema#subClassOf N447c7cee86aa47e28db0203399508875
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/Mortgage http://www.w3.org/2000/01/rdf-schema#label mortgage
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/UniversalLoanIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf N57cf39ea8a95491696a589e3e4c4d664
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/CashOutStatus http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Classifiers/Classifier
+N6df281595d09477cb1171acaf3c5ac96 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/Appraiser
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/UniversalLoanIdentifier http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/RealEstate http://www.w3.org/2000/01/rdf-schema#subClassOf N311c62a362584ed2a0a42b2e4ae729f0
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/isInspectionOf http://www.w3.org/2000/01/rdf-schema#label is inspection of
+N9093f50ea7a64695a644836e6750f406 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/CashOutStatus-NoCashOut http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/NMLSR-ID http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LicenseIdentifier
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/CashOutStatus https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote This is subject to lender and/or investor policy(s).
+Nfd0275a3cffc47b19d437652ad908188 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ChargeCategory-appraisalFee http://www.w3.org/2004/02/skos/core#definition a charge for an appraisal
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType-fixedRate https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom the 2015 Revised HMDA regulation.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/Mortgage http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/Loans/CollateralizedLoan
+N9093f50ea7a64695a644836e6750f406 http://www.w3.org/2002/07/owl#intersectionOf N6894de40d4e341688131c26c42fdb3ee
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/RealEstate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Classifiers/Classifier
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ChargeCategory http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Classifiers/Classifier
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/CashOutStatus-LimitedCashOut http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+N4a056d8593d14aabaf008f40b37f23b4 http://www.w3.org/2002/07/owl#someValuesFrom Nc877826fb27542eeb048f72510501c7d
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/Mortgage http://www.w3.org/2004/02/skos/core#editorialNote Definition probably incomplete. Mortgage is not only securitized on the real estate but is used to fund the purchase of that real estate. Not sure of the best form of wording.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ManufacturedHomeLegalClassification-personalProperty http://www.w3.org/2004/02/skos/core#definition the covered loan is secured by a manufactured home but not land
+N88f8aa8ff5804df1bf31d5fb62f28bc0 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2016-2024 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/hasClosingDate http://www.w3.org/2004/02/skos/core#definition relates, e.g. a loan contract to the date on which the contract is consummated, officially creating the obligations therein
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType-fixedRate http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType-rateImprovement http://www.w3.org/2000/01/rdf-schema#label rate improvement
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/PartiesAndSituations/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/DwellingCapacity-singleFamily http://www.w3.org/2004/02/skos/core#definition 1-4 units
+Na15fa381ea964053b478e1531bbf83db http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/isInspectionOf
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/RealEstate http://www.w3.org/2000/01/rdf-schema#subClassOf N385bfaf4da0048ecb50603b54fb57049
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ChargeCategory-discountPoints https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://www.consumerfinance.gov/askcfpb/136/what-are-discount-points-and-lender-credits-and-how-do-they-work.html
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/PropertyUsage-investment http://www.w3.org/2000/01/rdf-schema#label investment
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ManufacturedHomeLegalClassification-realProperty http://www.w3.org/2000/01/rdf-schema#label real property
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/isLienOn http://www.w3.org/2000/01/rdf-schema#label is lien on
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/RealPropertyAppraisal http://www.w3.org/2000/01/rdf-schema#subClassOf N0473c578a72f456eaedecd04edd470e5
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/CashOutStatus-CashOut http://www.w3.org/2000/01/rdf-schema#label cashout
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ManufacturedHomeLegalClassification-personalProperty http://www.w3.org/2000/01/rdf-schema#label personal property
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/RealPropertyAppraisal http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ValueAssessment
+N2990fe562adc49118f8f6f675c1600a5 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/NMLSR-ID
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/hasAppraisedValue http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasMonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/hasAppraisedValue http://www.w3.org/2004/02/skos/core#definition relates to a monetary amount that is the product of a valuation event
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ManufacturedHomeLegalClassification-realProperty http://www.w3.org/2004/02/skos/core#definition the covered loan is secured by a manufactured home and land
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType-graduatedPaymentAdjustable http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ManufacturedHomeLegalClassification-realProperty http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/hasNumberOfAffordableDwellingUnits http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+Nf3d012e6cd3645119c2302029bff5f49 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/UniversalLoanIdentifier http://www.w3.org/2000/01/rdf-schema#label universal loan identifier
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/DwellingCapacity-singleFamily http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/DwellingCapacity
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageIndemnityGuarantee http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Guaranty/InsuranceBackedGuaranty
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/PropertyUsage http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/UniversalLoanIdentifier http://www.w3.org/2004/02/skos/core#definition a unique identifier given to unequivocally identify a specific mortgage loan.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType-rateImprovement https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom the 2015 Revised HMDA regulation.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LEIEntities/
+N177e2fb58b674108b6be8e68e96f135b http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/hasClosingDate
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/hasNumberOfDwellingUnits https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom the 2015 Revised HMDA regulation.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType-fixedRate http://www.w3.org/2000/01/rdf-schema#label fixed rate
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/hasOriginatorPerson http://www.w3.org/2000/01/rdf-schema#label has originator person
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/
+N57cf39ea8a95491696a589e3e4c4d664 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/RealPropertyAppraisal https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The valuation uses one or more methodologies and is conducted by an appraiser or technology with a logical model that performs the same function.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageIndemnityGuarantor http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ChargeCategory http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/DwellingCapacity http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/PropertyInspection http://www.w3.org/2000/01/rdf-schema#label property inspection
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ReverseMortgage http://www.w3.org/2004/02/skos/core#definition mortgage contract that pays out money to the borrower against a set principal limit that is based on the value of existing equity in the underlying collateral.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/RealPropertyAppraisal http://www.w3.org/2004/02/skos/core#editorialNote Ensure that the appraiser parties have NMLS Identifier and contact preferences, e.g. phone number and address. As needed, connect appraisers to an appraisal management company.
+N46953af801ca43c4b115069c018608ca http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/Mortgage
+N8d8095687c8a4b1482bffc75796953b8 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/FinancialServiceProvider
+N46953af801ca43c4b115069c018608ca http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/assumes
+N6894de40d4e341688131c26c42fdb3ee http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/Loans/Loan
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageLoanPurpose-HomeImprovement http://www.w3.org/2000/01/rdf-schema#label home improvement
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ReverseMortgage http://www.w3.org/2000/01/rdf-schema#subClassOf N88f8aa8ff5804df1bf31d5fb62f28bc0
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ChargeCategory-principal http://www.w3.org/2000/01/rdf-schema#label principal
+N311c62a362584ed2a0a42b2e4ae729f0 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Classifiers/isCharacterizedBy
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ChargeCategory-principal http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+N2990fe562adc49118f8f6f675c1600a5 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Identifiers/isIdentifiedBy
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/AmortizationType-rateImprovement http://www.w3.org/2004/02/skos/core#definition a type of flexible loan where the interest rate may decrease based on payment history.

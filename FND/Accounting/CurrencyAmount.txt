@@ -1,0 +1,327 @@
+N5f0bf5eaefc140b29057da43c9ebbdde http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+N6748facd588146b99daa5534e7961071 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasNumericCode
+Ne187ed408f984353ba4bd9a736f98472 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N5f0bf5eaefc140b29057da43c9ebbdde http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Currency
+N7bffcd59cc8e450fadac8377cb044ab2 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+Ne48ab21ca7fb4f68a0badea227a6621c http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/FundsIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/CodesAndCodeSets/CodeElement
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasMinorUnit http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/TextDatatype/hasTextValue
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/CurrencyIdentifier http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N6748facd588146b99daa5534e7961071 http://www.w3.org/2002/07/owl#someValuesFrom http://www.w3.org/2001/XMLSchema#string
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2013-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasRateValue http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Currency http://www.w3.org/2000/01/rdf-schema#subClassOf N6748facd588146b99daa5534e7961071
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryPrice https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote As the consideration given in exchange for transfer of ownership, price forms the essential basis of commercial transactions. It may be fixed by a contract, left to be determined by an agreed upon formula at a future date, or discovered or negotiated during the course of dealings between the parties involved. In commerce, price is determined by what (1) a buyer is willing to pay, (2) a seller is willing to accept, and (3) the competition is allowing to be charged.
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/isPriceFor http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/Documents/refersTo
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/CurrencyBasket http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Collections/StructuredCollection
+N673aaacaa83d4187b0bfc8b90f084910 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/ContextualDesignators/isUsedBy
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/PreciousMetalIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/CodesAndCodeSets/CodeElement
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/UnitOfAccount http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N0cdfdbd784a24404992aad6cdf8e3ac5 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasMonetaryAmount http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Currency http://www.w3.org/2000/01/rdf-schema#subClassOf N673aaacaa83d4187b0bfc8b90f084910
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+N48d2ba770baa43bfa230d0458623c251 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/UnitOfAccountIdentifier http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20230101/Accounting/CurrencyAmount.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC) and to eliminate redundancies in FIBO as appropriate.
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/CurrencyBasket http://www.w3.org/2004/02/skos/core#note A currency basket functions as a benchmark for regional currency movements; its composition and weighting depends on its purpose.
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasDealtCurrency http://www.w3.org/2000/01/rdf-schema#label has dealt currency
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasMonetaryAmount http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/UnitOfAccountIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Identifiers/Identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/PreciousMetal http://www.w3.org/2004/02/skos/core#definition metal that is considered to be rare and/or have a high economic value
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasMonetaryAmount http://www.w3.org/2000/01/rdf-schema#label has monetary amount
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/CalculatedPrice http://www.w3.org/2004/02/skos/core#definition monetary price determined by a formula
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/UnitOfAccountIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf Ne2bb7601edf048d7b48cf919660bc8f4
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/FundsIdentifier https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom Codes for the representation of currencies and funds, ISO 4217, Eighth edition, 2015-08-01, section 3.2
+N4e2af5187ff24d028d3fe311998b42fa http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasCurrency http://www.w3.org/2000/01/rdf-schema#label has currency
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Currency https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/definitionOrigin Codes for the representation of currencies and funds, ISO 4217, Eighth edition, 2015-08-01, section 3.2
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasCurrency http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasMeasurementUnit
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/CurrencyIdentifier https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The first (left-most) two characters of the ISO 4217 3-letter currency identifier relate to the currency authority that issues the currency, and is, in most cases the ISO 3166-1 alpha 2 code for the geopolitical entity whose central bank is the issuer. The third (right-most) character of the identifier (alphabetic code) is an indicator derived from the name of the major currency unit or fund. If the currency is not associated with a single geographical entity as described in ISO 3166-1, typically a specially allocated identifier (alpha-2 code) is used to describe the currency authority. This code has been allocated by the Maintenance Agency from within the user-assigned range of codes XA to XZ specified in 8.1.3 of ISO 3166-1:2013. The character following X will be a mnemonic, where possible, derived from the name of the geographical area concerned.
+N5eeaf5c06a854e8088c9d4854ff7bcce http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasNumericCode http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/TextDatatype/hasTextValue
+N1630282be3424128831fe5de6fec12da http://www.w3.org/2002/07/owl#someValuesFrom http://www.w3.org/2001/XMLSchema#string
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/CurrencyIdentifier https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom Codes for the representation of currencies and funds, ISO 4217, Eighth edition, 2015-08-01, section 3.2
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/isPriceFor http://www.w3.org/2000/01/rdf-schema#label is price for
+N8e7e6969fe974c1699a683efd465f588 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasBaseCurrency
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/CodesAndCodeSets/
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/CalculatedPrice http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nb4532d35ea6648e79decf0ba98662001 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/CurrencyBasket http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Currency http://www.w3.org/2004/02/skos/core#definition medium of exchange value, defined by reference to the geographical location of the monetary authorities responsible for it
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/CalculatedPrice http://www.w3.org/2000/01/rdf-schema#subClassOf N303060ddd83c427ab27cd129a93d2f6a
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/InterestRate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20181101/Accounting/CurrencyAmount/ version of this ontology was modified to use the generic statistical measures and measurements now in FND.
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasAmount http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+Na613ad04e2a543dab860e06efe8b0b98 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasCurrency
+Na14f17fc07b0462bbadffd48723d3b36 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/UnitOfAccount
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasPrice http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasQuantityValue
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasFundsType http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasBaseCurrency http://www.w3.org/2004/02/skos/core#definition specifies a unit of currency representing R units of the dealt currency, where R is the exchange rate value, in an exchange rate
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/PercentageMonetaryAmount http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N7bffcd59cc8e450fadac8377cb044ab2 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasRateValue
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount http://www.w3.org/2000/01/rdf-schema#subClassOf Ne8764781e0dc4ebab583bc68f0d32703
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Documents/
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasBaseCurrency http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Currency
+N6748facd588146b99daa5534e7961071 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/InterestRate http://www.w3.org/2000/01/rdf-schema#subClassOf Ne187ed408f984353ba4bd9a736f98472
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/PreciousMetal http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20210201/Accounting/CurrencyAmount/ version of this ontology was modified to loosen a restriction on currency to allow for more than one numeric currency code, which was necessitated by the October 2021 update to the ISO currency code definitions.
+Ne8764781e0dc4ebab583bc68f0d32703 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+N1c43082656054f01b1ec0f8f6e43000d http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/PreciousMetal
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/FundsIdentifier http://www.w3.org/2004/02/skos/core#definition sequence of characters that can be used to uniquely identify funds
+N48d2ba770baa43bfa230d0458623c251 http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#string
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Currency http://www.w3.org/2000/01/rdf-schema#subClassOf N48d2ba770baa43bfa230d0458623c251
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasBaseCurrency http://www.w3.org/2000/01/rdf-schema#label has base currency
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasNumericCode http://www.w3.org/2000/01/rdf-schema#label has numeric code
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/PreciousMetalIdentifier http://www.w3.org/2004/02/skos/core#definition sequence of characters uniquely identifying the precious metal in some context
+N7bffcd59cc8e450fadac8377cb044ab2 http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#decimal
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasMinorUnit http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/AmountOfMoney http://www.w3.org/2000/01/rdf-schema#label amount of money
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20231101/Accounting/CurrencyAmount.rdf version of this ontology was modified to tease out the distinction between the nominal and notional amount, which were confused (DER-127) and to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20220101/Accounting/CurrencyAmount/ version of this ontology was modified to move the definition of precious metal and the corresponding identifier to this ontology from Products and Services to simplify imports in cases where the broader definitions for commodities are not required and deprecated isTenderIn, given that we have used the property isUsedBy for this purpose in the currency codes themselves.
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/InterestRate http://www.w3.org/2004/02/skos/core#definition amount charged, expressed as a percentage of principal, in exchange for the use of assets
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Funds http://www.w3.org/2000/01/rdf-schema#subClassOf N5f0bf5eaefc140b29057da43c9ebbdde
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/CurrencyBasket http://www.w3.org/2000/01/rdf-schema#label currency basket
+Ne48ab21ca7fb4f68a0badea227a6621c http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Currency
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/UnitPrice http://www.w3.org/2004/02/skos/core#definition monetary price expressed in relation to a well-known measurable unit by which the goods or services are allocated
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Currency https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym currency unit
+N5eeaf5c06a854e8088c9d4854ff7bcce http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#string
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/CurrencyIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf N2030fa3d482643cdb6ef540cec6fc055
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasBaseCurrency http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20230301/Accounting/CurrencyAmount.rdf version of the ontology was modified to eliminate deprecations that are more than 6 months old.
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/FundsIdentifier http://www.w3.org/2000/01/rdf-schema#label funds identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Currency http://www.w3.org/2000/01/rdf-schema#label currency
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Funds http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Currency
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasAmount http://www.w3.org/2004/02/skos/core#definition total number or quantity
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/PreciousMetal http://www.w3.org/2000/01/rdf-schema#subClassOf Nbe0a7125693b483e8c693d01d3b616b5
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Funds https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/definitionOrigin Codes for the representation of currencies and funds, ISO 4217, Eighth edition, 2015-08-01, section 3.3
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasRateValue http://www.w3.org/2004/02/skos/core#definition has a value for a rate expressed as a number (may be a percentage or raw number)
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount http://www.w3.org/2000/01/rdf-schema#label monetary amount
+Ne187ed408f984353ba4bd9a736f98472 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasDealtCurrency http://www.w3.org/2004/02/skos/core#definition specifies a unit of currency representing the exchanged (target) currency in an exchange rate; R units of this currency represent one unit of the base currency
+N0cdfdbd784a24404992aad6cdf8e3ac5 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Currency
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/QuantitiesAndUnits/ScalarQuantityValue
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasDealtCurrency http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Currency
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasPrice http://www.w3.org/2004/02/skos/core#definition indicates the value of something expressed as an amount of money or goods
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/UnitOfAccount http://www.w3.org/2004/02/skos/core#definition nominal monetary unit of measure used to represent the real value (or cost) of any economic item; i.e. goods, services, assets, liabilities, income, expenses
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Price http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/UnitOfAccountIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/CodesAndCodeSets/CodeElement
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasRateValue http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasNumericValue
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ExchangeRate http://www.w3.org/2000/01/rdf-schema#subClassOf N7bffcd59cc8e450fadac8377cb044ab2
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasNumericCode http://www.w3.org/2004/02/skos/core#definition relates a numeric code to something, such as a currency or fund
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/ContextualDesignators/
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasNotionalAmount http://www.w3.org/2000/01/rdf-schema#label has notional amount
+Ne8764781e0dc4ebab583bc68f0d32703 http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#decimal
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/PercentageMonetaryAmount http://www.w3.org/2000/01/rdf-schema#label percentage monetary amount
+N7bffcd59cc8e450fadac8377cb044ab2 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/CurrencyIdentifier http://www.w3.org/2000/01/rdf-schema#label currency identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasDealtCurrency http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasCurrency
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Currency https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym monetary unit
+Ne2bb7601edf048d7b48cf919660bc8f4 http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#string
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/FND/20231201/Accounting/CurrencyAmount/
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryPrice http://www.w3.org/2000/01/rdf-schema#label monetary price
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Release
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasNotionalAmount https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom ISO 10962:2019, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, 2019-10, clause 6.8.2
+Nb689cea78d7b44aa8dc9d4077a78e761 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasTag
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasAmount http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasNumericValue
+Ne2bb7601edf048d7b48cf919660bc8f4 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasTag
+N1630282be3424128831fe5de6fec12da http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasTextualName
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/UnitPrice http://www.w3.org/2004/02/skos/core#example For example, gold is commonly measured in troy ounces, grams, etc., and oil is measured in terms of barrels.
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Price http://www.w3.org/2004/02/skos/core#definition amount of money, goods, or services requested, expected, required, or given in exchange for something else
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20191201/Accounting/CurrencyAmount/ version of this ontology was modified to eliminate duplication with concepts in LCC, dependencies on a couple of ontologies that were unnecessary, eliminate references to external dictionary sites that no longer resolve, clean up ambiguity in definitions, eliminate a redundant property, and add unit price.
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/UnitOfAccountIdentifier http://www.w3.org/2004/02/skos/core#definition sequence of characters that can be used to uniquely identify a nominal monetary unit
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasBaseCurrency http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#InverseFunctionalProperty
+Nbbfe770c9dfe4fe382eee69361a0c461 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/PercentageMonetaryAmount http://www.w3.org/2004/02/skos/core#definition measure of some amount of money expressed as a percentage of some other amount, some notional amount or some concrete money amount
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/QuantitiesAndUnits/
+N4e2af5187ff24d028d3fe311998b42fa http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#string
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/CurrencyIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/CodesAndCodeSets/CodeElement
+N5f0bf5eaefc140b29057da43c9ebbdde http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasCurrency
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Funds http://www.w3.org/2004/02/skos/core#definition artificial currency used as calculation basis for another currency(s) and accounting purposes
+Ne2bb7601edf048d7b48cf919660bc8f4 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Ne8764781e0dc4ebab583bc68f0d32703 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nbe0a7125693b483e8c693d01d3b616b5 http://www.w3.org/2002/07/owl#someValuesFrom http://www.w3.org/2001/XMLSchema#string
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/CurrencyBasket https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/definitionOrigin Codes for the representation of currencies and funds, ISO 4217, Eighth edition, 2015-08-01, section 3.2
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2013-2023 EDM Council, Inc.
+Na613ad04e2a543dab860e06efe8b0b98 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasNumericCode http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#string
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/isPriceFor http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/CurrencyBasket http://www.w3.org/2004/02/skos/core#definition selected group of currencies, in which the weighted average is used as a measure of the value or the amount of an obligation
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/TextDatatype/
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/UnitPrice http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryPrice
+N4e2af5187ff24d028d3fe311998b42fa http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N303060ddd83c427ab27cd129a93d2f6a http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasExpression
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasMinorUnit http://www.w3.org/2004/02/skos/core#scopeNote Requirements sometimes arise for values to be expressed in terms of minor units of currency. When this occurs, it is necessary to know the decimal relationship that exists between the currency concerned and its minor unit. 
+- 0 means that there is no minor unit for the currency; 
+- 1, 2, and 3 signify a ratio of 10 to 1, 100 to 1 and 1000 to 1 respectively.
+N1c43082656054f01b1ec0f8f6e43000d http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Identifiers/identifies
+N5eeaf5c06a854e8088c9d4854ff7bcce http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasMinorUnit http://www.w3.org/2004/02/skos/core#definition relates a code for the minor unit of currency to the currency or fund
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/PreciousMetal http://www.w3.org/2000/01/rdf-schema#subClassOf N0ecb0d17af9a4e51ba94c1e1e8df0da7
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Price http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/QuantitiesAndUnits/ScalarQuantityValue
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ExchangeRate http://www.w3.org/2004/02/skos/core#definition rate at which one currency can be exchanged for another
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasMonetaryAmount http://www.w3.org/2004/02/skos/core#definition specifies a value for something in terms of an amount of money and the currency in which it is denoted
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20220201/Accounting/CurrencyAmount/ version of this ontology was modified to add a restriction to indicate the currency on percentage monetary amount, make currency a subclass of unit of measure, and deprecate the notion of monetary measure, which is more about monetary policy and was incorrectly used in a few places, and is out of scope for our current set of use cases.
+N48d2ba770baa43bfa230d0458623c251 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasMinorUnit
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/PreciousMetalIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf N4e2af5187ff24d028d3fe311998b42fa
+N4e2af5187ff24d028d3fe311998b42fa http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasTag
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/UnitPrice http://www.w3.org/2000/01/rdf-schema#label unit price
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Funds http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasDealtCurrency http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ExchangeRate http://www.w3.org/2000/01/rdf-schema#subClassOf Nb4532d35ea6648e79decf0ba98662001
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryPrice http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Funds http://www.w3.org/2000/01/rdf-schema#label funds
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount http://www.w3.org/2004/02/skos/core#definition measure that is an amount of money specified in monetary units
+Nb4532d35ea6648e79decf0ba98662001 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasDealtCurrency
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasPrice http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N2030fa3d482643cdb6ef540cec6fc055 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Identifiers/identifies
+N2030fa3d482643cdb6ef540cec6fc055 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasNotionalAmount http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+N8e7e6969fe974c1699a683efd465f588 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ http://www.w3.org/2004/02/skos/core#editorialNote (1) The present version of the ontology covers the English sections of the ISO 4217 standard only, and (2) UTF-8 character encodings are employed in names in the currency codes ontology to support the broadest number of tools.
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/UnitOfAccount http://www.w3.org/2000/01/rdf-schema#label unit of account
+Ne48ab21ca7fb4f68a0badea227a6621c http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasCurrency
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20000601/Accounting/CurrencyAmount/ version of this ontology was modified to replace a redundant concept, calculation formula with formula.
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryPrice http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/isPriceFor http://www.w3.org/2004/02/skos/core#definition links a price to something it provides a value for
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasBaseCurrency http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasCurrency
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Currency http://www.w3.org/2000/01/rdf-schema#subClassOf N1630282be3424128831fe5de6fec12da
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ExchangeRate http://www.w3.org/2000/01/rdf-schema#subClassOf N8e7e6969fe974c1699a683efd465f588
+N0ecb0d17af9a4e51ba94c1e1e8df0da7 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20220701/Accounting/CurrencyAmount.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/PreciousMetalIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf N1c43082656054f01b1ec0f8f6e43000d
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasNotionalAmount http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/AmountOfMoney http://www.w3.org/2004/02/skos/core#editorialNote This is an actual sum of money, not the measure of a sum of money in monetary units, although it has the same basic properties (decimal number with a currenct unit).
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20190501/Accounting/CurrencyAmount/ version of this ontology was modified to eliminate deprecated elements.
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Price http://www.w3.org/2000/01/rdf-schema#label price
+Nb689cea78d7b44aa8dc9d4077a78e761 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasFundsType http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/TextDatatype/hasTextValue
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/CalculatedPrice http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryPrice
+Ne2bb7601edf048d7b48cf919660bc8f4 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasFundsType http://www.w3.org/2000/01/rdf-schema#label has funds type
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/CalculatedPrice http://www.w3.org/2000/01/rdf-schema#label calculated price
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/isPriceFor http://www.w3.org/2002/07/owl#inverseOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasPrice
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasMonetaryAmount http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasQuantityValue
+N06719b28469f456f9ce2083b8dfd780b http://www.w3.org/2002/07/owl#someValuesFrom http://www.w3.org/2002/07/owl#Thing
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/isPriceFor http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Price
+N0cdfdbd784a24404992aad6cdf8e3ac5 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasCurrency
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasCurrency http://www.w3.org/2004/02/skos/core#definition specifies the medium of exchange value in which something, such as a monetary amount is denominated
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ExchangeRate http://www.w3.org/2000/01/rdf-schema#label exchange rate
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/UnitOfAccountIdentifier http://www.w3.org/2000/01/rdf-schema#label unit of account identifier
+N673aaacaa83d4187b0bfc8b90f084910 http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/LCC/Countries/CountryRepresentation/GeopoliticalEntity
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N303060ddd83c427ab27cd129a93d2f6a http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasNotionalAmount https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote For certain kinds of derivative instruments, including but not limited to swaps, the notional amount indicates face amount of a swap upon which the payment streams for that swap are based. While this is typically constant throughout the lifetime of a contract, it can be accreting, amortizing, or custom, such as in the case of a notional step schedule.
+N48d2ba770baa43bfa230d0458623c251 http://www.w3.org/2002/07/owl#maxQualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/InterestRate http://www.w3.org/2000/01/rdf-schema#label interest rate
+N673aaacaa83d4187b0bfc8b90f084910 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nf6f23332b1074002bbba210a82815fab http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Currency
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/InterestRate http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/PercentageMonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ExchangeRate http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/QuantitiesAndUnits/Ratio
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20191201/Accounting/CurrencyAmount/ version of this ontology was modified to correct the explanatory note on currency identifier.
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ https://www.omg.org/spec/Commons/AnnotationVocabulary/directSource ISO 4217 Codes for the representation of currencies and funds, Seventh edition, 2008-07-15
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/UnitOfAccountIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf Na14f17fc07b0462bbadffd48723d3b36
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/PercentageMonetaryAmount http://www.w3.org/2000/01/rdf-schema#subClassOf N0cdfdbd784a24404992aad6cdf8e3ac5
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/AmountOfMoney https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym cash
+N5f0bf5eaefc140b29057da43c9ebbdde http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N0ecb0d17af9a4e51ba94c1e1e8df0da7 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasNumericCode
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/AmountOfMoney http://www.w3.org/2000/01/rdf-schema#subClassOf Na613ad04e2a543dab860e06efe8b0b98
+N8e7e6969fe974c1699a683efd465f588 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Currency
+Ne8764781e0dc4ebab583bc68f0d32703 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasAmount
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasRateValue http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#decimal
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ https://www.omg.org/spec/Commons/AnnotationVocabulary/directSource ISO 4217 Codes for the representation of currencies and funds, Eighth edition, 2015-08-01
+Nbbfe770c9dfe4fe382eee69361a0c461 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Funds
+Ne187ed408f984353ba4bd9a736f98472 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasRateValue
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasMinorUnit http://www.w3.org/2000/01/rdf-schema#label has minor unit
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ http://www.w3.org/2000/01/rdf-schema#label Currency Amount Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/InterestRate https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Interest rates are typically noted on an annual basis, known as the annual percentage rate (APR). The assets borrowed could include cash, consumer goods, and large assets such as a vehicle or building. The rate is derived by dividing the amount of interest by the amount of principal borrowed. Interest rates are quoted on bills, notes, bonds, credit cards, and many kinds of consumer and business loans.
+Nb689cea78d7b44aa8dc9d4077a78e761 http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#string
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/CurrencyIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf N5eeaf5c06a854e8088c9d4854ff7bcce
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/FundsIdentifier http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nbe0a7125693b483e8c693d01d3b616b5 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasAmount http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#decimal
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/FundsIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Identifiers/Identifier
+Na613ad04e2a543dab860e06efe8b0b98 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Currency
+N2030fa3d482643cdb6ef540cec6fc055 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Currency
+Na14f17fc07b0462bbadffd48723d3b36 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Identifiers/identifies
+N06719b28469f456f9ce2083b8dfd780b http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/isPriceFor
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasNotionalAmount http://www.w3.org/2004/02/skos/core#definition has a generally unchangeable value used for certain calculations, expressed as some monetary amount
+N06719b28469f456f9ce2083b8dfd780b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Na14f17fc07b0462bbadffd48723d3b36 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/PreciousMetalIdentifier http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/CurrencyIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Identifiers/Identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasFundsType http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#string
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ExchangeRate http://www.w3.org/2004/02/skos/core#example The exchange rate between the U.S. dollar and British pound is distinct from the exchange rate between the U.S. dollar and the euro.
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/PreciousMetalIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Identifiers/Identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20220301/Accounting/CurrencyAmount/ version of this ontology was modified to eliminate hygiene errors with respect to text formatting.
+Nbe0a7125693b483e8c693d01d3b616b5 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasTextualName
+Nb4532d35ea6648e79decf0ba98662001 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasNotionalAmount http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasMonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/AmountOfMoney http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/QuantitiesAndUnits/ScalarQuantityValue
+N303060ddd83c427ab27cd129a93d2f6a http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/QuantitiesAndUnits/Expression
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasCurrency http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/UnitOfAccount http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Currency
+Ne48ab21ca7fb4f68a0badea227a6621c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nf6f23332b1074002bbba210a82815fab http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/hasConstituent
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/CurrencyIdentifier http://www.w3.org/2004/02/skos/core#definition sequence of characters representing some currency
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasNumericCode http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Currency http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/QuantitiesAndUnits/MeasurementUnit
+N303060ddd83c427ab27cd129a93d2f6a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasMinorUnit http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#string
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasFundsType http://www.w3.org/2004/02/skos/core#definition indicates the type of funds, such as next day for US funds
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Currency http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ http://www.w3.org/2004/02/skos/core#changeNote The FIBO FND 1.0 (https://spec.edmcouncil.org/fibo/ontology/FND/20141101/Accounting/CurrencyAmount.rdf) version of this ontology was modified per the additions introduced in the FIBO FBC RFC and related issue resolutions identified in the FIBO FND 1.1 RTF report and https://spec.edmcouncil.org/fibo/ontology/FND/1.0/AboutFND-1.1/, including adding support for ISO 4217 currency codes.
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasCurrency http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Currency
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ http://purl.org/dc/terms/abstract This ontology defines currency and monetary amount related concepts for use in defining other FIBO ontology elements. There are two distinct kinds of concepts that correspond to money and amounts: a concrete, actual amount of money, and the monetary measure of something denominated in some currency. These are dimensionally the same but whereas 'money amount' is defined as an amount of money, 'monetary amount' is an abstract monetary measure.
+
+The definition of currency provided herein is compliant with the definitions given in ISO 4217. ISO 4217 provides universally applicable coded representations of names of currencies and funds, used internationally for financial transaction support. The ontology has been partitioned into 2 parts: (1) the essential concept system describing the standard (this module), and (2) ISO4217-1-CurrencyCodes, which contains all of the individuals specified in ISO 4217.
+N0ecb0d17af9a4e51ba94c1e1e8df0da7 http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#string
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/CurrencyBasket http://www.w3.org/2000/01/rdf-schema#subClassOf Nf6f23332b1074002bbba210a82815fab
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/UnitPrice http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Designators/
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryPrice http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Price
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasRateValue http://www.w3.org/2000/01/rdf-schema#label has rate value
+N0cdfdbd784a24404992aad6cdf8e3ac5 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount http://www.w3.org/2000/01/rdf-schema#subClassOf Ne48ab21ca7fb4f68a0badea227a6621c
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/FundsIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf Nbbfe770c9dfe4fe382eee69361a0c461
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/AmountOfMoney http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ http://www.w3.org/2004/02/skos/core#changeNote The FIBO FND 1.1 (https://spec.edmcouncil.org/fibo/ontology/FND/20160201/Accounting/CurrencyAmount.rdf) version of this ontology was modified per FIBO 2.0 RFC, including the addition of a new hasMonetaryAmount property as a superproperty of others required by various FIBO domain teams and integration with LCC.
+N5eeaf5c06a854e8088c9d4854ff7bcce http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasTag
+N8e7e6969fe974c1699a683efd465f588 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasNotionalAmount https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The notional amount (or notional principal amount or notional value) on a financial instrument is typically the face amount used to calculate payments made on that instrument. This amount generally does not change and is thus referred to as notional.
+		
+		When applied to a swap this is the amount used for calculating the actual value of the interest due. Also known as notional value when describing derivative contracts in the options, futures, and currency markets, this term is often used to value the underlying asset in a derivatives trade. It can be the total value of a position, how much value a position controls, or an agreed-upon amount in a contract.
+
+		An example is that a firm might have a variable rate loan on $100,000 but decide to swap only $40,000. The $40,000 is the notional amount of the swap and becomes the amount on which interest is paid.
+Nbbfe770c9dfe4fe382eee69361a0c461 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Identifiers/identifies
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/UnitPrice http://www.w3.org/2000/01/rdf-schema#subClassOf N06719b28469f456f9ce2083b8dfd780b
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasAmount http://www.w3.org/2000/01/rdf-schema#label has amount
+Ne187ed408f984353ba4bd9a736f98472 http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#decimal
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryPrice http://www.w3.org/2004/02/skos/core#definition price that that is expressed as a monetary amount
+N0ecb0d17af9a4e51ba94c1e1e8df0da7 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/AmountOfMoney http://www.w3.org/2004/02/skos/core#definition amount of readily available cash in banknotes and coins
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasPrice http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Price
+Nb689cea78d7b44aa8dc9d4077a78e761 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Identifiers/
+Nf6f23332b1074002bbba210a82815fab http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Collections/
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20180801/Accounting/CurrencyAmount.rdf version of this ontology was modified to include several classes to support automated inclusion of all ISO 4217 codes published as of 2018-06-04, and to revise definitions per the eighth edition of the specification.
+N1c43082656054f01b1ec0f8f6e43000d http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nb4532d35ea6648e79decf0ba98662001 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Currency
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasPrice http://www.w3.org/2000/01/rdf-schema#label has price
+N1630282be3424128831fe5de6fec12da http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasNumericCode http://www.w3.org/2004/02/skos/core#scopeNote In the case of currency codes, the numeric currency code is derived, where possible, from the United Nations Standard Country or Area Code. Additional codes to meet special requirements (as described in 5.1.3) and in respect of funds will be allocated as necessary from within the user-assigned range of codes 950 to 998. Funds codes are allocated in descending order commencing at 998.
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/PreciousMetalIdentifier http://www.w3.org/2000/01/rdf-schema#label precious metal identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/FundsIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf Nb689cea78d7b44aa8dc9d4077a78e761
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20190901/Accounting/CurrencyAmount/ version of this ontology was modified to improve definitions for notional amount and currency identifier.
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/PreciousMetal http://www.w3.org/2000/01/rdf-schema#label precious metal
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasFundsType http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Funds
+Na613ad04e2a543dab860e06efe8b0b98 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/PercentageMonetaryAmount http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/QuantitiesAndUnits/Percentage
+https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/ExchangeRate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class

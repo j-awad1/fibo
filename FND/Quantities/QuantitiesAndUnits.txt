@@ -1,0 +1,91 @@
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/QuantityValue http://www.w3.org/2002/07/owl#equivalentClass https://www.omg.org/spec/Commons/QuantitiesAndUnits/ScalarQuantityValue
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Collections/
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/DerivedQuantity http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/QuantityKindFactor http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/hasQuantityValue http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/QuantityKindFactor http://www.w3.org/2002/07/owl#equivalentClass https://www.omg.org/spec/Commons/QuantitiesAndUnits/QuantityKindPowerFactor
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/hasMeasurementUnit http://www.w3.org/2002/07/owl#equivalentProperty https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasMeasurementUnit
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/isDerivedFrom http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/DerivedQuantity http://www.w3.org/2002/07/owl#equivalentClass https://www.omg.org/spec/Commons/QuantitiesAndUnits/DerivedQuantityKind
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/UnitFactor http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Release
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20200901/Quantities/QuantitiesAndUnits/ was modified to eliminate circular definitions.
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/hasNumericValue http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/hasExponent http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/QuantityValue http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/MeasurementUnit http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/hasExponent http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/BaseQuantity http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20190501/Quantities/QuantitiesAndUnits/ was modified to rename (migrate) the hasDefinition property to isDefinedIn.
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/isDerivedFrom http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/hasQuantityKind http://www.w3.org/2002/07/owl#equivalentProperty https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasQuantityKind
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/BaseUnit http://www.w3.org/2002/07/owl#equivalentClass https://www.omg.org/spec/Commons/QuantitiesAndUnits/BaseUnit
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/hasNumericValue http://www.w3.org/2002/07/owl#equivalentProperty https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasNumericValue
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/QuantityKind http://www.w3.org/2002/07/owl#equivalentClass https://www.omg.org/spec/Commons/QuantitiesAndUnits/QuantityKind
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/BaseQuantity http://www.w3.org/2002/07/owl#equivalentClass https://www.omg.org/spec/Commons/QuantitiesAndUnits/BaseQuantityKind
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Designators/
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2015-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/SystemOfUnits http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/DerivedUnit http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20230401/Quantities/QuantitiesAndUnits.rdf version of this ontology was modified extensively to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380). Note that because all remaining content is deprecated, this ontology will be removed from FIBO after the Q2 2024 release.
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/hasQuantityValue http://www.w3.org/2002/07/owl#equivalentProperty https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasQuantityValue
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/QuantityKind http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20230101/Quantities/QuantitiesAndUnits.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20190901/Quantities/QuantitiesAndUnits/ was modified to allow for dimensionless quantity kinds, including but not limited to percentages, and to eliminate duplication with concepts in LCC.
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/Quantity http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/hasFactor http://www.w3.org/2002/07/owl#equivalentProperty https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasFactor
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/QuantityKind http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/hasQuantityValue http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/Quantity http://www.w3.org/2002/07/owl#equivalentClass https://www.omg.org/spec/Commons/QuantitiesAndUnits/ScalarQuantity
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/SystemOfUnits http://www.w3.org/2002/07/owl#equivalentClass https://www.omg.org/spec/Commons/QuantitiesAndUnits/SystemOfUnits
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/ http://purl.org/dc/terms/abstract This ontology provides an initial set of concepts supporting the representation of quantities, units, systems of quantities, and systems of units. It is compatible with and can be mapped directly to the OMG Date Time Vocabulary (DTV) Quantities Ontology, but has been integrated into FND to provide local coverage of quantities and measurements and eliminate the SBVR mark-up.
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/QuantityKindFactor http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/hasQuantityKind http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/UnitFactor http://www.w3.org/2002/07/owl#equivalentClass https://www.omg.org/spec/Commons/QuantitiesAndUnits/UnitPowerFactor
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2015-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/Dimensionality http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/hasFactor http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/hasMeasurementUnit http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/SystemOfQuantities http://www.w3.org/2002/07/owl#equivalentClass https://www.omg.org/spec/Commons/QuantitiesAndUnits/SystemOfQuantities
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/MeasurementUnit http://www.w3.org/2002/07/owl#equivalentClass https://www.omg.org/spec/Commons/QuantitiesAndUnits/MeasurementUnit
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/DerivedQuantity http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/MeasurementUnit http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/ContextualDesignators/
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/specializes http://www.w3.org/2002/07/owl#equivalentProperty https://www.omg.org/spec/Commons/QuantitiesAndUnits/specializes
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20200201/Quantities/QuantitiesAndUnits/ was modified to eliminate the redundant definition of rate, in favor of ratio in Analytics.
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/ http://www.w3.org/2000/01/rdf-schema#label Quantities and Units Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/UnitFactor http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/Dimensionality http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/hasNumericValue http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/FND/20231201/Quantities/QuantitiesAndUnits/
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/SystemOfQuantities http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/BaseQuantity http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/hasFactor http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/hasMeasurementUnit http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/SystemOfQuantities http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/specializes http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20190701/Quantities/QuantitiesAndUnits/ was modified to eliminate deprecated properties.
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/hasDimension http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20220701/Quantities/QuantitiesAndUnits.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/SystemOfUnits http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/hasDimension http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/QuantityValue http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/DerivedUnit http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/DerivedUnit http://www.w3.org/2002/07/owl#equivalentClass https://www.omg.org/spec/Commons/QuantitiesAndUnits/DerivedQuantityKind
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/BaseUnit http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/Dimensionality http://www.w3.org/2002/07/owl#equivalentClass https://www.omg.org/spec/Commons/QuantitiesAndUnits/QuantityDimension
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Classifiers/
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/hasQuantityKind http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/QuantitiesAndUnits/
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/hasDimension http://www.w3.org/2002/07/owl#equivalentProperty https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasDimension
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20180801/Quantities/QuantitiesAndUnits/ was modified to untangle this ontology from analytics, untangle quantity values (measurements) from measures and add refinements from SysML and ISO 11179, including dimensionality.
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/specializes http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/BaseUnit http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/Quantity http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/hasExponent http://www.w3.org/2002/07/owl#equivalentProperty https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasExponent
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20210201/Quantities/QuantitiesAndUnits/ was modified to address hygiene issues with respect to text formatting and eliminate dead links.
+https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/QuantitiesAndUnits/isDerivedFrom http://www.w3.org/2002/07/owl#equivalentProperty https://www.omg.org/spec/Commons/QuantitiesAndUnits/isDerivedFrom

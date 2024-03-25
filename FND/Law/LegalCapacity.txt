@@ -1,0 +1,359 @@
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/isImplementedBy http://www.w3.org/2004/02/skos/core#example A regulation may be implemented by or more corporate policies. Such policies, in turn, may be implemented via various systems, executed by humans and/or automation, that can be audited for compliance purposes.
+N52ee2271d1dc4995a16995666c809778 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/DelegatedLegalAuthority https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote This is always accompanied by an equal responsibility for one's actions or a failure to act.
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20150801/Law/LegalCapacity.rdf version of the ontology was modified per the FIBO 1.1 RTF to add the concept of litigation capacity to the ontology.
+N552669aba4fb45298aa51c043f4a38ce http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Claim https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Claims arise from the existence of a formal commitment between the parties or as implicitly agreed upon through the operation of law or constitution.
+N8be27cb2f9e24980af2ad0fc42d7bbd3 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/License
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContractualOption http://www.w3.org/2004/02/skos/core#definition contractual right that may be exercised at some point in the future, such as an option to extend a contract, or other available but not obligatory rights as defined in the contract
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalRight http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LitigationCapacity http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalCapacity
+N4b11be0a105f4ec79f4afa41b1ee0dd6 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/Objective
+Nd868997bf6bd45cc956446616db4d5bb http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/SignatoryCapacity http://www.w3.org/2000/01/rdf-schema#label signatory capacity
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ http://purl.org/dc/terms/abstract This ontology defines high-level legal concepts related to legal responsibilities. The ontology defines things which are conferred upon some entity by some legal instrument, and elaborates this into a number of specific capacities, responsibilities and powers, each of which forms the basis for many of the concepts used elsewhere in FIBO in defining legal personhood, executive powers and the like.
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/isLicensedBy http://www.w3.org/2002/07/owl#inverseOf https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/licenses
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalObligation http://www.w3.org/2000/01/rdf-schema#subClassOf N5c9dff70412d4cfdae46f59d298bd2cb
+N8be27cb2f9e24980af2ad0fc42d7bbd3 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Licensee http://www.w3.org/2000/01/rdf-schema#subClassOf N85d6582fb6634ab4bb5258ecca28e89f
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/isCapacityOf http://www.w3.org/2004/02/skos/core#definition identifies an individual or organization on which a given legal capacity has been conferred
+N47e471ea0b4845afac004c0a7bca12a0 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCore/Law
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LicenseIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf N10324787d1344f46a7cdd3e68e23f1ab
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LiabilityCapacity http://www.w3.org/2004/02/skos/core#editorialNote Note that for the purposes of this model, this is distinct from culpability (the ability to commit criminal acts). That would be a separate and analogous term but with grounding in criminal rather than civil law.
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/hasCapacity http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalCapacity
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Licensor http://www.w3.org/2000/01/rdf-schema#subClassOf N52ee2271d1dc4995a16995666c809778
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/isConferredOn http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/SignatoryCapacity http://www.w3.org/2004/02/skos/core#definition the capacity of some natural person to sign agreements on the part of some organization or legal person
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Claim http://www.w3.org/2000/01/rdf-schema#label claim
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/License http://www.w3.org/2000/01/rdf-schema#subClassOf Nc62daeaa4fb94a48bde9a58fb6f19928
+N482a57b9b7554805add6ee529ff11485 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/isConferredOn
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/FND/20240101/Law/LegalCapacity/
+N0cbe802bb2d849638fb6d4d941352edb http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/StatuteLaw
+N53744e5595d24b51be6b027f56b2ec8f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LitigationCapacity http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalObligation http://www.w3.org/2000/01/rdf-schema#subClassOf Nc62d045a4cad40a69e2852358a41ac5e
+N552669aba4fb45298aa51c043f4a38ce http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/isImpliedBy
+N52ee2271d1dc4995a16995666c809778 http://www.w3.org/2002/07/owl#someValuesFrom N8be27cb2f9e24980af2ad0fc42d7bbd3
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/implies http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N7633cfea23fd47b484fb4f352d6fc73b http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/License
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ReportingPolicy http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Policy
+N620e4225793a4d73ba2cf21edfc1c771 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/implies
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalRight https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Every legal right that an individual possesses relates to a corresponding legal duty imposed on another and is recognized and delimited by law for the purpose of securing it. A legal right, if challenged, may be supported in court as recognizable and enforceable in law, statutes, regulations, or other legislative actions.
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/implements http://www.w3.org/2000/01/rdf-schema#label implements
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/PartiesAndSituations/
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20190501/Law/LegalCapacity.rdf version of the ontology was modified to eliminate deprecated elements.
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20130801/Law/LegalCapacity.rdf version of the ontology was modified per the issue resolutions identified in the FIBO FND 1.0 FTF report.
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Licensor https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom Barron's Dictionary of Business and Economics Terms, Fifth Edition, 2012
+N69ffa96d13824a91b743f11bc8b3563d http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContractualRight http://www.w3.org/2004/02/skos/core#definition power, privilege, demand, or claim possessed by some party that is conferred by contract
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/isImpliedBy http://www.w3.org/2002/07/owl#inverseOf https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/implies
+Nfea49ae4074a49008cfc355fa14ba302 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N7a84c74329254214854eea1a87c88d67 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContractualObligation
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/implies http://www.w3.org/2004/02/skos/core#definition strongly suggests or involves as a logical consequence based on some set of observations, facts, or events
+Nbbef186d23c94ea88f199dcd71db10fa http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/isObligationOf
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContingentObligation http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Duty
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Right http://www.w3.org/2000/01/rdf-schema#label right
+N7633cfea23fd47b484fb4f352d6fc73b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Ncf1740dac34141b7a469e63907b69cfb http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Licensor
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Duty http://www.w3.org/2000/01/rdf-schema#label duty
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContractualObligation http://www.w3.org/2000/01/rdf-schema#subClassOf N552669aba4fb45298aa51c043f4a38ce
+Nc62daeaa4fb94a48bde9a58fb6f19928 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContingentObligation http://www.w3.org/2000/01/rdf-schema#label contingent obligation
+N69ffa96d13824a91b743f11bc8b3563d http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContingentRight
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/isImplementedBy http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalRight http://www.w3.org/2000/01/rdf-schema#subClassOf N620e4225793a4d73ba2cf21edfc1c771
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/isLicensedBy http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Right http://www.w3.org/2004/02/skos/core#example Examples include contractual rights, legal rights, human rights, political rights, and so forth.
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20200601/Law/LegalCapacity.rdf version of this ontology was modified to reflect the merge of Goals and Objectives.
+Nc62d045a4cad40a69e2852358a41ac5e http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/Jurisdiction
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalConstruct http://www.w3.org/2000/01/rdf-schema#subClassOf Nd2127778786e495d8309e59a17f153bb
+Na8a538937367445dbc4a0027b4961855 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/Contract
+N10324787d1344f46a7cdd3e68e23f1ab http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20141101/Law/LegalCapacity.rdf version of the ontology was modified per the FIBO FBC RFC, namely to add concepts to support license, licensee, and licensor to the ontology.
+N985bbf3c2d0a4eaa93119bb3c06db117 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N2d264ecc4ae64a348ae069702e27185a
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/License http://www.w3.org/2000/01/rdf-schema#subClassOf N38bf1b524dd243e1bf96de49c7c34c21
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContingentRight http://www.w3.org/2000/01/rdf-schema#subClassOf N482a57b9b7554805add6ee529ff11485
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContractualOption http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N5dd855efcab44a56af58742fa3e7d651 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalRight http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Right
+Nc51386d8789e446586cb391ac248823f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/License https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Note that in some cases, a license may also be considered an agreement or contract, depending on the specifics of the license and jurisdiction.
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalRight http://www.w3.org/2000/01/rdf-schema#label legal right
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContractualCapability http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalCapacity
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContingentObligation http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContingentObligation http://www.w3.org/2000/01/rdf-schema#subClassOf Nbbef186d23c94ea88f199dcd71db10fa
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/isLicensedBy http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isGovernedBy
+N38bf1b524dd243e1bf96de49c7c34c21 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ http://www.w3.org/2000/01/rdf-schema#label Legal Capacity Ontology
+Nec921b00434b4e9bacf6a1f3124af3dc http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+N6aac5b6e449949e5a88a7c7b3ce5b843 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest Ne049ccaa5dc248a58cdf1eecacf9b56d
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Licensee http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LiabilityCapacity http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20231201/Law/LegalCapacity.rdf version of the ontology was modified to replace additional concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1.
+Nc3c810a1c51d426f9cd29fce01280ea6 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCore/
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/isImplementedBy http://www.w3.org/2000/01/rdf-schema#label is implemented by
+Nd2127778786e495d8309e59a17f153bb http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/hasCapacity http://www.w3.org/2000/01/rdf-schema#label has capacity
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalConstruct http://www.w3.org/2004/02/skos/core#definition something which is conferred by way of law or contract, such as a right
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Policy http://www.w3.org/2000/01/rdf-schema#subClassOf N4b565878ba8c48fb9beb2f87c1708119
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Regulation http://www.w3.org/2004/02/skos/core#definition a rule used to carry out a law
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/RolesAndCompositions/
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LicenseIdentifier http://www.w3.org/2004/02/skos/core#definition an identifier associated with a license
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LiabilityCapacity http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalCapacity
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ReportingPolicy http://www.w3.org/2000/01/rdf-schema#label reporting policy
+N5dd855efcab44a56af58742fa3e7d651 http://www.w3.org/2002/07/owl#someValuesFrom http://www.w3.org/2002/07/owl#Thing
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContingentObligation http://www.w3.org/2004/02/skos/core#definition obligation that depends on a future event or the performance of an action
+Nf82e4ffb7635453c9dd650bcfe91853f http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/Goal
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Claim http://www.w3.org/2004/02/skos/core#definition demand or assertion made by one party on another, based on facts that, taken together, give rise to a legally enforceable right or judicial action
+Nd2127778786e495d8309e59a17f153bb http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/isConferredOn
+N0cf05b88af7e41df936b006d169fe01d http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContractualRight http://www.w3.org/2000/01/rdf-schema#subClassOf N7a84c74329254214854eea1a87c88d67
+N620e4225793a4d73ba2cf21edfc1c771 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N985bbf3c2d0a4eaa93119bb3c06db117 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/StatuteLaw
+Nc62d045a4cad40a69e2852358a41ac5e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/isImplementedBy http://www.w3.org/2004/02/skos/core#definition indicates something that is carried out, incorporated or put into effect by
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20210401/Law/LegalCapacity.rdf version of this ontology was modified to introduce 'right' as a kind of legal construct, move legal right, contractual right, and contingent right under right as siblings, and update their definitions as appropriate.
+N6aac5b6e449949e5a88a7c7b3ce5b843 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/Contract
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalObligation http://www.w3.org/2000/01/rdf-schema#subClassOf Nc3c810a1c51d426f9cd29fce01280ea6
+Nf82e4ffb7635453c9dd650bcfe91853f http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N4b11be0a105f4ec79f4afa41b1ee0dd6
+Nd2127778786e495d8309e59a17f153bb http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+Nc3c810a1c51d426f9cd29fce01280ea6 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isMandatedBy
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LitigationCapacity http://www.w3.org/2000/01/rdf-schema#label litigation capacity
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContractualCapability http://www.w3.org/2004/02/skos/core#editorialNote This is the capacity which defines Contractually Capable Entity (sometimes labeled as 'Legal Entity') as distinct from 'Legal Person'. In the latter case the liabilities incurred in the contract accrue also to the Legal Person. In the case of contractual capability, the entity has the authority to enter into contracts, whether or not the liabilities accrue to that same entity (which they do if it is also a Legal Person). For Legal Entities which are not Legal Persons, the liability unwinds to some legal person within the structure of the entity, for example a General Partner or a Trustee.
+Na8a538937367445dbc4a0027b4961855 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isConferredBy
+N47e471ea0b4845afac004c0a7bca12a0 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LicenseIdentifier http://www.w3.org/2000/01/rdf-schema#label license identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Identifiers/
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalCapacity http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/licenses http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/governs
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Licensee http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/PartiesAndSituations/PartyRole
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LiabilityCapacity http://www.w3.org/2000/01/rdf-schema#label liability capacity
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalConstruct http://www.w3.org/2000/01/rdf-schema#subClassOf Nc51386d8789e446586cb391ac248823f
+Nec921b00434b4e9bacf6a1f3124af3dc http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Regulation
+N38bf1b524dd243e1bf96de49c7c34c21 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalCapacity
+N24e1fb61978743d983a5b15bcbc040db http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/issues
+Ncf1740dac34141b7a469e63907b69cfb http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/isLicensedBy http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/PartiesAndSituations/PartyRole
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContractualObligation http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/isCapacityOf http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/PartiesAndSituations/Party
+Nbbef186d23c94ea88f199dcd71db10fa http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Right http://www.w3.org/2000/01/rdf-schema#seeAlso https://plato.stanford.edu/entries/rights/
+Nd868997bf6bd45cc956446616db4d5bb http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCore/Law
+Nb2b4266e2fb343589a14832e35cbb01b http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContingentObligation
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Regulation http://www.w3.org/2000/01/rdf-schema#subClassOf Nd868997bf6bd45cc956446616db4d5bb
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20201101/Law/LegalCapacity.rdf version of this ontology was modified to replace autonomous agent with independent party in property declarations.
+N7a84c74329254214854eea1a87c88d67 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N10324787d1344f46a7cdd3e68e23f1ab http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Identifiers/identifies
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContractualObligation http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalObligation
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Licensor http://www.w3.org/2000/01/rdf-schema#subClassOf N24e1fb61978743d983a5b15bcbc040db
+Nc51386d8789e446586cb391ac248823f http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalCapacity http://www.w3.org/2000/01/rdf-schema#label legal capacity
+Nc68947126c394f7593602e9d06290f56 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/Jurisdiction
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/License http://www.w3.org/2004/02/skos/core#definition grant of permission needed to do something
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Regulation http://www.w3.org/2000/01/rdf-schema#subClassOf N98b1ca5352de4aee892c71cd6305ec46
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalObligation http://www.w3.org/2000/01/rdf-schema#label legal obligation
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContractualOption http://www.w3.org/2000/01/rdf-schema#label contractual option
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/License http://www.w3.org/2000/01/rdf-schema#subClassOf Ncf1740dac34141b7a469e63907b69cfb
+Nc4bfd2fe8a9f4f21bfed8138b581bf7b http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/Contract
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/isConferredOn http://www.w3.org/2000/01/rdf-schema#label is conferred on
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/DelegatedLegalAuthority http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/licenses http://www.w3.org/2000/01/rdf-schema#label licenses
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/SignatoryCapacity http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalCapacity
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/hasCapacity http://www.w3.org/2002/07/owl#inverseOf https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/isCapacityOf
+N4b565878ba8c48fb9beb2f87c1708119 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/implements
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/isLicensedBy http://www.w3.org/2004/02/skos/core#definition indicates the party that has issued a particular license to some other party
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContingentRight http://www.w3.org/2000/01/rdf-schema#subClassOf Nb2b4266e2fb343589a14832e35cbb01b
+N552669aba4fb45298aa51c043f4a38ce http://www.w3.org/2002/07/owl#allValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContractualRight
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Licensor http://www.w3.org/2000/01/rdf-schema#subClassOf N5dd855efcab44a56af58742fa3e7d651
+Nc4bfd2fe8a9f4f21bfed8138b581bf7b http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isConferredBy
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2013-2024 EDM Council, Inc.
+N98b1ca5352de4aee892c71cd6305ec46 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/Jurisdiction
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Duty http://www.w3.org/2004/02/skos/core#definition some obligation which exists and is imposed on some individual
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalConstruct http://www.w3.org/2004/02/skos/core#editorialNote Obligations are an aspect of this category of thing, as are rights.
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContractualObligation http://www.w3.org/2004/02/skos/core#definition obligation or duty that is specified in and imposed by a contract
+Nc51386d8789e446586cb391ac248823f http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isConferredBy
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContractualCapability http://www.w3.org/2004/02/skos/core#definition the capacity to enter into legally binding contracts
+Nb2b4266e2fb343589a14832e35cbb01b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N24e1fb61978743d983a5b15bcbc040db http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/License
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContingentRight https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Contingent means that the interest, claim, or right is conditional, realized only when and if something occurs.
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/DelegatedLegalAuthority http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalCapacity
+N10324787d1344f46a7cdd3e68e23f1ab http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/License http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Licensor http://www.w3.org/2000/01/rdf-schema#label licensor
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/SignatoryCapacity http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Licensor http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nd84470f986b84c3693b21c706bd4c207 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/Contract
+Na8a538937367445dbc4a0027b4961855 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/isCapacityOf http://www.w3.org/2000/01/rdf-schema#label is capacity of
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalObligation http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N69ffa96d13824a91b743f11bc8b3563d http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/isImpliedBy
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ReportingPolicy http://www.w3.org/2004/02/skos/core#example For example a policy for how frequently a given kind of report is produced.
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/licenses http://www.w3.org/2000/01/rdf-schema#domain https://www.omg.org/spec/Commons/PartiesAndSituations/PartyRole
+N7ce5c2e093244ee19b29d17c66caaa3e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nc68947126c394f7593602e9d06290f56 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N4b11be0a105f4ec79f4afa41b1ee0dd6 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+N318935a84b73417fa82947e5e431cebd http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/StatuteLaw
+N276467213eac44d9ad01b0222f481b2c http://www.w3.org/1999/02/22-rdf-syntax-ns#rest Nf82e4ffb7635453c9dd650bcfe91853f
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalObligation http://www.w3.org/2004/02/skos/core#definition an obligation or duty that is enforceable by a court
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Right https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Rights dominate modern understandings of what actions are permissible and which institutions are just. Rights structure the form of governments, the content of laws, and the shape of morality as many now see it. To accept a set of rights is to approve a distribution of freedom and authority, and so to endorse a certain view of what may, must, and must not be done. According to the Hohfeldian incidents (Wesley Hohfeld (1879-1918)), rights are complex and consist of four major components: privilege, claim, power, and immunity.
+Nc62d045a4cad40a69e2852358a41ac5e http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/ContextualDesignators/isApplicableIn
+Ne049ccaa5dc248a58cdf1eecacf9b56d http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCore/Constitution
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalCapacity http://www.w3.org/2004/02/skos/core#definition the capability to carry out certain actions or to have certain rights together with the resources to do so
+N8be27cb2f9e24980af2ad0fc42d7bbd3 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/PartiesAndSituations/isAPartyTo
+N4b565878ba8c48fb9beb2f87c1708119 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Ne049ccaa5dc248a58cdf1eecacf9b56d http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N47e471ea0b4845afac004c0a7bca12a0
+N5c9dff70412d4cfdae46f59d298bd2cb http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContractualObligation http://www.w3.org/2000/01/rdf-schema#subClassOf Nc4bfd2fe8a9f4f21bfed8138b581bf7b
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/License http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Documents/LegalDocument
+N10324787d1344f46a7cdd3e68e23f1ab http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/License
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/isLicensedBy http://www.w3.org/2000/01/rdf-schema#label is licensed by
+Nc3c810a1c51d426f9cd29fce01280ea6 http://www.w3.org/2002/07/owl#someValuesFrom N0cf05b88af7e41df936b006d169fe01d
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/DelegatedLegalAuthority http://www.w3.org/2000/01/rdf-schema#label delegated legal authority
+Nc62daeaa4fb94a48bde9a58fb6f19928 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/DelegatedLegalAuthority http://www.w3.org/2004/02/skos/core#scopeNote This specifically means the authority to make legally binding commitments.
+N6b7e4ff18cce4dc5b45af9e7ac6fbfcf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Duty http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N85d6582fb6634ab4bb5258ecca28e89f http://www.w3.org/2002/07/owl#someValuesFrom N7633cfea23fd47b484fb4f352d6fc73b
+Nb2b4266e2fb343589a14832e35cbb01b http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/implies
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/implements http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/involves
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LicenseIdentifier http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Duty http://www.w3.org/2004/02/skos/core#editorialNote This can also be thought of as an obligation - not in the sense in which an obligation and a right are the converse aspects of one another, but in and of itself, independent of the perspective from which it is considered. Examples include statutory obligations, reporting obligations and so on.
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalCapacity http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalConstruct
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20230301/Law/LegalCapacity.rdf version of the ontology was modified to replace concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1.
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Duty http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalConstruct
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContingentRight http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Right
+Nd84470f986b84c3693b21c706bd4c207 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N985bbf3c2d0a4eaa93119bb3c06db117
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LicenseIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Identifiers/Identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalConstruct http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N318935a84b73417fa82947e5e431cebd http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isConferredBy
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Documents/
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContractualCapability http://www.w3.org/2000/01/rdf-schema#label contractual capability
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Licensor http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/PartiesAndSituations/PartyRole
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContingentRight http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N98b1ca5352de4aee892c71cd6305ec46 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContractualRight http://www.w3.org/2000/01/rdf-schema#subClassOf Na8a538937367445dbc4a0027b4961855
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2013-2024 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalObligation http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Duty
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Policy http://www.w3.org/2004/02/skos/core#definition system of principles, rules and guidelines, adopted by an organization to guide decision making with respect to particular situations and implemented via procedures or protocols to achieve stated goals
+Nc4bfd2fe8a9f4f21bfed8138b581bf7b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Ncf1740dac34141b7a469e63907b69cfb http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isIssuedBy
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/DatesAndTimes/
+N6b7e4ff18cce4dc5b45af9e7ac6fbfcf http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/governs
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Claim http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N7ce5c2e093244ee19b29d17c66caaa3e http://www.w3.org/2002/07/owl#unionOf N2534b0dd0b144aeeb9941db40990265f
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContractualCapability http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N482a57b9b7554805add6ee529ff11485 http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/Commons/PartiesAndSituations/Party
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/License https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom Barron's Dictionary of Business and Economics Terms, Fifth Edition, 2012
+N24e1fb61978743d983a5b15bcbc040db http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nc68947126c394f7593602e9d06290f56 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/ContextualDesignators/isApplicableIn
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20230101/Law/LegalCapacity.rdf version of the ontology was modified to move the property, 'is conferred on' from Relations to the Legal Capacity ontology and to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20211201/Law/LegalCapacity.rdf version of this ontology was modified to eliminate an unnecessary link.
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Regulation http://www.w3.org/2000/01/rdf-schema#label regulation
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/isImplementedBy http://www.w3.org/2002/07/owl#inverseOf https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/implements
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/isImpliedBy http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Policy http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalRight http://www.w3.org/2000/01/rdf-schema#subClassOf N318935a84b73417fa82947e5e431cebd
+N318935a84b73417fa82947e5e431cebd http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N7d21d55169804d3190f23b31fcc465b1 http://www.w3.org/2002/07/owl#unionOf N6aac5b6e449949e5a88a7c7b3ce5b843
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/implies http://www.w3.org/2000/01/rdf-schema#label implies
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Policy http://www.w3.org/2000/01/rdf-schema#subClassOf N6b7e4ff18cce4dc5b45af9e7ac6fbfcf
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Regulation http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalConstruct
+N7d21d55169804d3190f23b31fcc465b1 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nc62daeaa4fb94a48bde9a58fb6f19928 http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/DatesAndTimes/DatePeriod
+N0cf05b88af7e41df936b006d169fe01d http://www.w3.org/2002/07/owl#unionOf Nd84470f986b84c3693b21c706bd4c207
+Nbbef186d23c94ea88f199dcd71db10fa http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Obligor
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/License http://www.w3.org/2000/01/rdf-schema#subClassOf N53744e5595d24b51be6b027f56b2ec8f
+N276467213eac44d9ad01b0222f481b2c http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalConstruct
+N38bf1b524dd243e1bf96de49c7c34c21 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/confers
+N52ee2271d1dc4995a16995666c809778 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LiabilityCapacity http://www.w3.org/2004/02/skos/core#definition the ability to be sued at law
+N85d6582fb6634ab4bb5258ecca28e89f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N2d264ecc4ae64a348ae069702e27185a http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ http://www.w3.org/2004/02/skos/core#changeNote The http://www.omg.org/spec/FIBO/Foundations/20130601/Law/LegalCapacity.owl version of the ontology was revised in advance of the September 2013 New Brunswick, NJ meeting, as follows:
+	(1) to use slash style URI/IRIss (also called 303 URIs, vs. hash style) as required to support server side processing 
+	(2) to use version-independent IRIs for all definitions internally as opposed to version-specific IRIs
+	(3) to change the file suffix from .owl to .rdf to increase usability in RDF tools
+	(4) to use 4-level abbreviations and corresponding namespace prefixes for all FIBO ontologies, reflecting a family/specification/module/ontology structure
+	(5) to incorporate changes to the specification metadata to support documentation at the family, specification, module, and ontology level, similar to the abbreviations.
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Right http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nc62daeaa4fb94a48bde9a58fb6f19928 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/PartiesAndSituations/holdsDuring
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Licensee http://www.w3.org/2004/02/skos/core#definition a party to whom a license has been granted
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20160201/Law/LegalCapacity.rdf version of the ontology was modified per the FIBO 2.0 RFC integrate contingent rights and obligations.
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalRight http://www.w3.org/2004/02/skos/core#definition power, privilege, demand, or claim possessed by some party by virtue of law
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ReportingPolicy http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/ContextualDesignators/
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/isCapacityOf http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalCapacity
+Nfea49ae4074a49008cfc355fa14ba302 http://www.w3.org/2002/07/owl#unionOf N276467213eac44d9ad01b0222f481b2c
+N0cbe802bb2d849638fb6d4d941352edb http://www.w3.org/1999/02/22-rdf-syntax-ns#rest Nec921b00434b4e9bacf6a1f3124af3dc
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/isCapacityOf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Right http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalConstruct
+N482a57b9b7554805add6ee529ff11485 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContractualRight http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContractualRight http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Right
+N98b1ca5352de4aee892c71cd6305ec46 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/ContextualDesignators/isApplicableIn
+N4b565878ba8c48fb9beb2f87c1708119 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+Nc51386d8789e446586cb391ac248823f http://www.w3.org/2002/07/owl#onClass N7d21d55169804d3190f23b31fcc465b1
+N7a84c74329254214854eea1a87c88d67 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/implies
+N7633cfea23fd47b484fb4f352d6fc73b http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/PartiesAndSituations/isAPartyTo
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Right http://www.w3.org/2004/02/skos/core#definition entitlement (not) to perform certain actions, or (not) to be in certain states; or entitlement that others (not) perform certain actions or (not) be in certain states
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/hasCapacity http://www.w3.org/2004/02/skos/core#definition identifies an individual or organization that has some ability and availability to carry out certain actions, or has certain rights or obligations
+Nd868997bf6bd45cc956446616db4d5bb http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isConferredBy
+N6b7e4ff18cce4dc5b45af9e7ac6fbfcf http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/Strategy
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Claim http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalConstruct
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/hasCapacity http://www.w3.org/2000/01/rdf-schema#domain https://www.omg.org/spec/Commons/PartiesAndSituations/Party
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Licensee https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom Barron's Dictionary of Business and Economics Terms, Fifth Edition, 2012
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContractualObligation http://www.w3.org/2000/01/rdf-schema#label contractual obligation
+N620e4225793a4d73ba2cf21edfc1c771 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalObligation
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/licenses http://www.w3.org/2004/02/skos/core#definition issues a license required in order to perform some task, provide some service, exercise some privilege, or pursue some line of business or occupation to some party
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/DelegatedLegalAuthority http://www.w3.org/2004/02/skos/core#definition institutionalized and legal power inherent in a particular job, function, or position that is meant to enable its holder to successfully carry out his or her responsibilities, where such power has been delegated through some formal means
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalConstruct http://www.w3.org/2000/01/rdf-schema#label legal construct
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContractualRight http://www.w3.org/2000/01/rdf-schema#label contractual right
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20180901/Law/LegalCapacity.rdf version of the ontology was modified to add concepts related to policies, and adjust the hierarchy to better support regulatory requirements.
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20190901/Law/LegalCapacity.rdf version of the ontology was modified to eliminate duplication with concepts in LCC as well as minimum cardinality restrictions of 1.
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/implies http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/involves
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Regulation http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N5c9dff70412d4cfdae46f59d298bd2cb http://www.w3.org/2002/07/owl#someValuesFrom N7ce5c2e093244ee19b29d17c66caaa3e
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/licenses http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/implements http://www.w3.org/2004/02/skos/core#definition carries out or puts into effect, fulfills
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Regulation https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Many government agencies issue regulations to administer laws.
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/License http://www.w3.org/2000/01/rdf-schema#label license
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalRight http://www.w3.org/2000/01/rdf-schema#subClassOf Nc68947126c394f7593602e9d06290f56
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContingentRight http://www.w3.org/2000/01/rdf-schema#label contingent right
+N85d6582fb6634ab4bb5258ecca28e89f http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/isCapacityOf http://www.w3.org/2004/02/skos/core#scopeNote This includes capacities specific to duties at law (such as those for corporate officers) as well as the ability or capacity to incur liability.
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Licensee http://www.w3.org/2000/01/rdf-schema#label licensee
+N5c9dff70412d4cfdae46f59d298bd2cb http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isConferredBy
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/isImpliedBy http://www.w3.org/2004/02/skos/core#definition indicates something that is strongly suggested by something else, such as a logical consequence based on some set of observations, facts, or events
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/isConferredOn http://www.w3.org/2004/02/skos/core#definition indicates a party to which some benefit or right has been granted
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContingentRight http://www.w3.org/2004/02/skos/core#definition right that depends on a future event or the performance of an action
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContractualOption http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContractualRight
+N4b565878ba8c48fb9beb2f87c1708119 http://www.w3.org/2002/07/owl#onClass Nfea49ae4074a49008cfc355fa14ba302
+N2d264ecc4ae64a348ae069702e27185a http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Regulation
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContingentObligation http://www.w3.org/2000/01/rdf-schema#subClassOf N69ffa96d13824a91b743f11bc8b3563d
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/isConferredOn http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/PartiesAndSituations/Party
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/isCapacityOf http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/isConferredOn
+N2534b0dd0b144aeeb9941db40990265f http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/Contract
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LitigationCapacity http://www.w3.org/2004/02/skos/core#definition the legal capacity to pursue a litigation action in law
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Release
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20220701/Law/LegalCapacity.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.
+Nd2127778786e495d8309e59a17f153bb http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/PartiesAndSituations/Party
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ReportingPolicy http://www.w3.org/2004/02/skos/core#definition policy specifying principles, rules and/or guidelines regarding some aspect of reporting
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Policy http://www.w3.org/2000/01/rdf-schema#label policy
+N53744e5595d24b51be6b027f56b2ec8f http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/PartiesAndSituations/hasPartyRole
+N2534b0dd0b144aeeb9941db40990265f http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N0cbe802bb2d849638fb6d4d941352edb
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/hasCapacity http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N53744e5595d24b51be6b027f56b2ec8f http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Licensee
+N5dd855efcab44a56af58742fa3e7d651 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/licenses
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/implements http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/Licensor http://www.w3.org/2004/02/skos/core#definition a party who grants a license
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/isImpliedBy http://www.w3.org/2000/01/rdf-schema#label is implied by

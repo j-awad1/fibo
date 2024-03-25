@@ -1,0 +1,96 @@
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/InterestRateDerivativeInstrument http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/RateBasedDerivativeInstrument
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/IND/EconomicIndicators/EconomicIndicators/
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/ForeignExchangeRateObservable http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/InterestRateDerivativeInstrument http://www.w3.org/2004/02/skos/core#definition rate-based derivative whose underlier is an interest rate
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Release
+Na3b9fb6280f24fc9bba4dc0380e19718 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/hasUnderlier
+N73d73a029aac4ce3b16abdbdf2563ba6 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nac8a14d6db614637a9f6c110d6bc2365 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/hasUnderlier
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/ http://purl.org/dc/terms/abstract This ontology defines concepts that are common to derivatives based on variation in some defined variable, such as an economic rate, an interest rate or an index value.
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/EconomicRateBasedDerivativeInstrument http://www.w3.org/2004/02/skos/core#definition rate-based derivative whose underlier is an economic indicator
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/ForeignExchangeRateObservable http://www.w3.org/2000/01/rdf-schema#label foreign exchange rate observable
+N265b2b8f1b4345f0b5850bc3a6dc720e http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/RateBasedObservable
+N4142c2649c0047e88a66f15d14bf7b5c http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/BasketOfIndices
+N5293c66f1f944683a35c6ab80373405f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2016-2024 Object Management Group, Inc.
+N5fc20471302f44b7bed40d8c9058c530 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/EconomicRateObservable http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Na6b5ad7630bb4747b1d8db797cc274b8 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N3f14526b40ab486089a9a67219efa7be
+Nc13e6da92c574aaabc419706e39f3378 http://www.w3.org/2002/07/owl#someValuesFrom Nfadd9ac39af74dc2850ac40348c93ca2
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/IND/ForeignExchange/ForeignExchange/
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/ForwardRateAgreement http://www.w3.org/2000/01/rdf-schema#label forward rate agreement
+Na6b5ad7630bb4747b1d8db797cc274b8 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/MarketRate
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/RateBasedObservable http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/DerivativesBasics/ObservableValue
+N3f14526b40ab486089a9a67219efa7be http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/IND/EconomicIndicators/EconomicIndicators/EconomicIndicator
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/DER/20230201/RateDerivatives/RateDerivatives.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/DER/20180801/RateDerivatives/RateDerivatives.rdf version of this ontology was extended to include foreign exchange rates, forward rate agreements, and revise definitions to be unambiguous and ISO 704 compliant.
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/ForwardRateAgreement http://www.w3.org/2004/02/skos/core#definition agreement to exchange an interest rate commitment on a notional amount
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/ForwardRateAgreement http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/EconomicRateBasedDerivativeInstrument http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/RateBasedDerivativeInstrument
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+N4142c2649c0047e88a66f15d14bf7b5c http://www.w3.org/1999/02/22-rdf-syntax-ns#rest Na6b5ad7630bb4747b1d8db797cc274b8
+N5293c66f1f944683a35c6ab80373405f http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/IND/EconomicIndicators/EconomicIndicators/EconomicIndicator
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/
+Nac8a14d6db614637a9f6c110d6bc2365 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/InterestRateObservable
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/EconomicRateObservable http://www.w3.org/2004/02/skos/core#definition rate-based observable that is specifically an economic indicator
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/InterestRateDerivativeInstrument http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/RateBasedDerivativeInstrument http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Na3b9fb6280f24fc9bba4dc0380e19718 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/EconomicRateObservable
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/RateBasedDerivativeInstrument http://www.w3.org/2000/01/rdf-schema#subClassOf N265b2b8f1b4345f0b5850bc3a6dc720e
+Nc13e6da92c574aaabc419706e39f3378 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/RateBasedObservable http://www.w3.org/2000/01/rdf-schema#subClassOf Nc13e6da92c574aaabc419706e39f3378
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/EconomicRateObservable http://www.w3.org/2000/01/rdf-schema#subClassOf N5293c66f1f944683a35c6ab80373405f
+Na3b9fb6280f24fc9bba4dc0380e19718 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/EconomicRateBasedDerivativeInstrument http://www.w3.org/2000/01/rdf-schema#subClassOf Na3b9fb6280f24fc9bba4dc0380e19718
+N3f14526b40ab486089a9a67219efa7be http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N41afd915762044aa94d65fb8a6aea6fb
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/RateBasedDerivativeInstrument http://www.w3.org/2004/02/skos/core#definition derivative instrument whose underlier is a non-physical observable rate
+N41afd915762044aa94d65fb8a6aea6fb http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/InterestRateDerivativeInstrument http://www.w3.org/2000/01/rdf-schema#subClassOf Nac8a14d6db614637a9f6c110d6bc2365
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/ http://www.w3.org/2000/01/rdf-schema#label Rate Derivatives Ontology
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/InterestRateDerivativeInstrument http://www.w3.org/2000/01/rdf-schema#label interest rate derivative instrument
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/DER/20201201/RateDerivatives/RateDerivatives.rdf version of this ontology was modified to eliminate the dependency on NonPhysicalUnderlier, which was redundant.
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/RateBasedObservable http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N41afd915762044aa94d65fb8a6aea6fb http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/IND/ForeignExchange/ForeignExchange/QuotedExchangeRate
+N5293c66f1f944683a35c6ab80373405f http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+N5fc20471302f44b7bed40d8c9058c530 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/DER/20210801/RateDerivatives/RateDerivatives.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary, to move the definition of an underlier and the related property, has underlier, to financial instruments so that these concepts are also available for use in relation to pool-backed securities.
+Nc13e6da92c574aaabc419706e39f3378 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/EconomicRateObservable http://www.w3.org/2000/01/rdf-schema#label economic rate observable
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/ForeignExchangeRateObservable http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/RateBasedObservable
+Nfadd9ac39af74dc2850ac40348c93ca2 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/RateBasedObservable http://www.w3.org/2000/01/rdf-schema#label rate-based observable
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/DerivativesBasics/
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/InterestRateObservable http://www.w3.org/2004/02/skos/core#definition rate-based observable that is an interest rate, typically a well-known reference interest rate
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/RateBasedObservable https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Rate-based observables interest rates, market rate, economic indicators, statistical measure calculated over some collection of indices, foreign exchange rates and others that are readily observable in the world
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/ForeignExchangeRateObservable http://www.w3.org/2004/02/skos/core#definition rate-based observable that is an exchange rate, typically a quoted exchange rate
+N73d73a029aac4ce3b16abdbdf2563ba6 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/ReferenceInterestRate
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/RateBasedObservable http://www.w3.org/2004/02/skos/core#definition non-physical observable value, such as an interest rate, market rate, economic indicator, statistical measure calculated over some collection of indices, or some other rate that is readily observable in the world
+N265b2b8f1b4345f0b5850bc3a6dc720e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/EconomicRateBasedDerivativeInstrument http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N5fc20471302f44b7bed40d8c9058c530 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/IND/ForeignExchange/ForeignExchange/QuotedExchangeRate
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2016-2024 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/InterestRateObservable http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N5293c66f1f944683a35c6ab80373405f http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/DER/20240101/RateDerivatives/RateDerivatives/
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/InterestRateObservable http://www.w3.org/2000/01/rdf-schema#subClassOf N73d73a029aac4ce3b16abdbdf2563ba6
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/
+Nfadd9ac39af74dc2850ac40348c93ca2 http://www.w3.org/2002/07/owl#unionOf N4142c2649c0047e88a66f15d14bf7b5c
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/ForwardRateAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/InterestRateDerivativeInstrument
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/EconomicRateObservable http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/RateBasedObservable
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/ForeignExchangeRateObservable http://www.w3.org/2000/01/rdf-schema#subClassOf N5fc20471302f44b7bed40d8c9058c530
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/InterestRateObservable http://www.w3.org/2000/01/rdf-schema#label interest rate observable
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/RateBasedDerivativeInstrument http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/DerivativeInstrument
+N265b2b8f1b4345f0b5850bc3a6dc720e http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/hasUnderlier
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/EconomicRateBasedDerivativeInstrument http://www.w3.org/2000/01/rdf-schema#label economic rate-based derivative instrument
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/ForwardRateAgreement https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The FRA determines the rates to be used along with the termination date and notional value. FRAs are cash-settled with the payment based on the net difference between the interest rate of the contract and the floating rate in the market called the reference rate. The notional amount is not exchanged, but rather a cash amount based on the rate differentials and the notional value of the contract.
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/InterestRateObservable http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/RateBasedObservable
+Nac8a14d6db614637a9f6c110d6bc2365 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/ForwardRateAgreement https://www.omg.org/spec/Commons/AnnotationVocabulary/abbreviation FRA
+N73d73a029aac4ce3b16abdbdf2563ba6 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/RateBasedDerivativeInstrument http://www.w3.org/2000/01/rdf-schema#label rate-based derivative instrument
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/

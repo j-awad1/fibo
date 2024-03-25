@@ -1,0 +1,22 @@
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/MetadataFNDRelations/RelationsModule http://purl.org/dc/terms/title FIBO FND Relations Module
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/MetadataFNDRelations/ http://www.w3.org/2000/01/rdf-schema#label Metadata for the EDMC-FIBO Foundations (FND) Relations Module
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/MetadataFNDRelations/RelationsModule http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/MetadataFNDRelations/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2017-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/MetadataFNDRelations/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/MetadataFNDRelations/RelationsModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/MetadataFNDRelations/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/MetadataFNDRelations/RelationsModule https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2017-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/MetadataFNDRelations/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/MetadataFNDRelations/RelationsModule http://www.w3.org/2000/01/rdf-schema#label relations module
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/MetadataFNDRelations/RelationsModule http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/MetadataFNDRelations/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2017-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/MetadataFNDRelations/RelationsModule http://purl.org/dc/terms/title Financial Industry Business Ontology (FIBO) Foundations (FND) Relations Module
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/MetadataFNDRelations/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/MetadataFNDRelations/RelationsModule https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2017-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/MetadataFNDRelations/ http://purl.org/dc/terms/modified 2023-01-20T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/MetadataFNDRelations/RelationsModule http://purl.org/dc/terms/abstract This module contains an ontology defining a number of reusable relationships. These are used, refined or restricted to define relationships among more specific concepts in other FIBO ontologies. Some of these relationships stand in for relationships which are defined in external standards ontologies.
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/MetadataFNDRelations/ http://purl.org/dc/terms/abstract This is the metadata ontology used to describe the Foundations Relations Module.
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/MetadataFNDRelations/ http://purl.org/dc/terms/issued 2018-08-27T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/MetadataFNDRelations/RelationsModule http://www.w3.org/2000/01/rdf-schema#seeAlso https://spec.edmcouncil.org/fibo/
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/MetadataFNDRelations/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/FND/20230101/Relations/MetadataFNDRelations/
+https://spec.edmcouncil.org/fibo/ontology/FND/Relations/MetadataFNDRelations/RelationsModule http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Module

@@ -1,0 +1,494 @@
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DeathCertificateIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf N8b273fd3d56441978f3d48e577e105d6
+Nc205bf355cf84d4aab72812a03bda21f http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/BirthCertificateIdentifier
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DateOfBirth http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDate
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Adult http://www.w3.org/2000/01/rdf-schema#label adult
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/IdentityDocument https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote If issued in the form of a small, mostly standard-sized card, it is usually called an identity card (IC). Countries which do not have formal identity documents may require informal documents. In the absence of a formal identity document, driving licenses can be used in many countries as a method of proof of identity, although some countries do not accept driving licenses for identification, often because in those countries they don't expire as documents and can be old and easily forged. Most countries accept passports as a form of identification. Most countries have the rule that foreign citizens need to have their passport or occasionally a national identity card from their country available at any time if they do not have residence permit in the country.
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasFirstName http://www.w3.org/2000/01/rdf-schema#label has first name
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasSurname http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasPersonName
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Person http://www.w3.org/2000/01/rdf-schema#subClassOf N30bb1b3c028d4271a698e3f46d857b19
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DateOfDeath http://www.w3.org/2004/02/skos/core#definition explicit date, i.e., the day, month and year, on which an individual died
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/NationalIdentificationNumber http://www.w3.org/2000/01/rdf-schema#subClassOf N1415786d08204f75ba2fbed391e93daf
+N54c616737e4b42f788988f3a1026187d http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasDateOfIssuance
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DateOfBirth https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym birth date
+N5a9f7948f2794ef7b4aedd24f68c6f41 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/PassportNumberIdentificationScheme
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasFamilyName http://www.w3.org/2004/02/skos/core#definition indicates the name shared in common to identify the members of a family, as distinguished from each member's given name
+N03b5fe9b8e0745feb1b4a964a73d63fc http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasGivenName http://www.w3.org/2000/01/rdf-schema#label has given name
+N14a36edd3ff24dc2ae6d45a5bcbb552a http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/BirthCertificateIdentifier https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym birth certificate number
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/IdentityDocument http://www.w3.org/2000/01/rdf-schema#label identity document
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/IdentityDocument https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://en.wikipedia.org/wiki/Identification_card
+N08b11316ebfd47be88472fb252c0d586 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N08b11316ebfd47be88472fb252c0d586 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/LegalWorkingAge
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasResidence http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Person
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasPrimaryResidence http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasResidence
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2004/02/skos/core#changeNote The http://spec.edmcouncil.org/fibo/ontology/FND/20141101/AgentsAndPeople/People.rdf version of the ontology was was modified per the issue resolutions identified in the FIBO FND 1.1 RTF report, primarily to use the hasAddress property in addresses, and change PostalAddress to PhysicalAddress in a restriction on Person. Also revised the identifiesAddress property in favor of verifiesAddress, and revised hasDateofBirth with respect to an identity document to be verifiesDateOfBirth, which was determined to be more appropriate by the RTF.
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/PersonName http://www.w3.org/2000/01/rdf-schema#subClassOf N2648834e8f634f0fab994b3dc33184a1
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2004/02/skos/core#changeNote The http://www.omg.org/spec/FIBO/Foundations/20130601/AgentsAndPeople/People.owl version of the ontology was revised in advance of the September 2013 New Brunswick, NJ meeting, as follows:
+		(1) to use slash style URI/IRIss (also called 303 URIs, vs. hash style) as required to support server side processing 
+		(2) to use version-independent IRIs for all definitions internally as opposed to version-specific IRIs
+		(3) to change the file suffix from .owl to .rdf to increase usability in RDF tools
+		(4) to use 4-level abbreviations and corresponding namespace prefixes for all FIBO ontologies, reflecting a family/specification/module/ontology structure
+		(5) to incorporate changes to the specification metadata to support documentation at the family, specification, module, and ontology level, similar to the abbreviations.
+		(6) to revise and extend the set of properties about people required to fulfill the set of use cases listed above.
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DateOfBirth http://www.w3.org/2000/01/rdf-schema#label date of birth
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/BirthCertificateIdentificationScheme https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Schemes for birth certificate identification are typically regionally defined, and there may be jurisdiction-specific scope required as an additional restriction on a specific scheme.
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Passport https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/definitionOrigin https://en.wikipedia.org/wiki/Passport
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/PersonName http://www.w3.org/2000/01/rdf-schema#subClassOf Nc2fe560bb4214cf7b6e7416a9a18df42
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasCitizenship http://www.w3.org/2000/01/rdf-schema#label has citizenship
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2004/02/skos/core#changeNote The http://www.omg.org/spec/EDMC-FIBO/FND/20160201/AgentsAndPeople/People.rdf version of the ontology was modified per the FIBO 2.0 RFC, including integration of LCC.
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Classifiers/
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasPersonName http://www.w3.org/2000/01/rdf-schema#label has person name
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/PersonName http://www.w3.org/2004/02/skos/core#definition designation by which someone is known in some context
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Person http://www.w3.org/2004/02/skos/core#definition individual human being, with consciousness of self
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Person http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/PartiesAndSituations/Party
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/LegalAge http://www.w3.org/2000/01/rdf-schema#label legal age
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/PersonName http://www.w3.org/2000/01/rdf-schema#label person name
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DeathCertificateIdentificationScheme http://www.w3.org/2000/01/rdf-schema#subClassOf N4827345f6a144271a7b43e94262f29ef
+N40351910a1cf4a55accffc15fe7f2a4a http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DeathCertificate
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Person http://www.w3.org/2000/01/rdf-schema#subClassOf N03b5fe9b8e0745feb1b4a964a73d63fc
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasDateOfDeath http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Person
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DriversLicenseIdentificationScheme http://www.w3.org/2000/01/rdf-schema#label driver's license identification scheme
+N40971c4c0cc14b178074ad32997c4cc0 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasPrimaryResidence https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote For tax purposes, in cases when an individual owns more than one home, their primary residence is the home in which they reside most of the time, and for which they can provide evidence to that effect. Having said this, there are cases, such as for individuals that have dual citizenship, where they may have multiple primary residences, one in each country in which they maintain a home. There may also be subtle issues related to 'rent control' that may impact the statements an individual makes about their primary residence. In other words, one cannot necessarily infer a person's identity from their primary place of residence.
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/NationalIdentificationNumberScheme https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Schemes for national identification numbers are jurisdiction-specific by country.
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DriversLicenseIdentificationScheme https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Schemes for driver's license identification are typically regionally defined, and there may be jurisdiction-specific scope required as an additional restriction on a specific scheme.
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/IdentityDocument http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Documents/LegalDocument
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/IdentifiersAndIndices/
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasFamilyName http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasLastName http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasPersonName
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasGender http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#string
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/BirthCertificate https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym certificate of live birth
+Nb2b7122670114399851545721fa1575a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasGender http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#FunctionalProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/BirthCertificate https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote A birth certificate is a vital record that documents the birth of a child. Depending on the jurisdiction, a record of birth might or might not contain verification of the event by such as a midwife or doctor.
+Nb761948ef5144e569d29797a237a7671 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Identifiers/identifies
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/IncapacitatedAdult http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nb761948ef5144e569d29797a237a7671 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Documents/
+N40bacf4951004566a19caf064039968f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DriversLicense http://www.w3.org/2000/01/rdf-schema#label driver's license
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasFirstName http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasPersonName
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20190501/AgentsAndPeople/People.rdf version of the ontology was modified to replace hasDefinition with isDefinedIn to clarify intent.
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasPersonName http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/TextDatatype/hasTextValue
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasMaidenName http://www.w3.org/2004/02/skos/core#definition indicates the name shared in common to identify the members of a family, that predates any changes of name due to marriage
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/PassportNumberIdentificationScheme https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Schemes for passport identification are jurisdiction-specific by country.
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/BirthCertificateIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf Nb439ea81705d4bc187f17d44fb39cb0d
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/LegalAge http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Ne6e4306c31594cd08d2aa85564845048 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/PassportNumber
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/EmancipatedMinor http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Minor
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/NationalIdentificationNumber http://www.w3.org/2000/01/rdf-schema#label national identification number
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Adult http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasNameSuffix http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+Nc253264cb4bc4c25975cd6021ccf2cfa http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasAge
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasNamePrefix http://www.w3.org/2004/02/skos/core#definition indicates a character or sequence of characters, preceding a person's name, that provides additional information about the person, such as a form of address representing a title, honorific, or military rank
+N40351910a1cf4a55accffc15fe7f2a4a http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Identifiers/identifies
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/PlaceOfBirth http://www.w3.org/2000/01/rdf-schema#label place of birth
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/DatesAndTimes/
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasPrimaryResidence http://www.w3.org/2000/01/rdf-schema#label has primary residence
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/BirthCertificateIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf N15669cf6e710494da06f0952f4461317
+Nf4fca5706f824fd1b9f7ec8ab4186455 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DriversLicense
+N1415786d08204f75ba2fbed391e93daf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasMinimumLegalWorkingAge http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasAge
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasMinimumLegalWorkingAge http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/LegalWorkingAge
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasMiddleNameOrInitial http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasResidence http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasDateOfDeath http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DateOfDeath
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DeathCertificateIdentifier http://www.w3.org/2000/01/rdf-schema#label death certificate identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/LegallyCapableAdult http://www.w3.org/2000/01/rdf-schema#label legally capable adult
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/BirthCertificateIdentifier http://www.w3.org/2004/02/skos/core#definition identifier associated with a vital record documenting the birth of a child
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DriversLicense https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://en.wikipedia.org/wiki/Non-driver_identification_card#Non-driver_identification_cards
+N2648834e8f634f0fab994b3dc33184a1 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasFullLegalName
+N4b1089a9d41c4d429646a1feb1eae5f8 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DeathCertificateIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf N40351910a1cf4a55accffc15fe7f2a4a
+Nb2b7122670114399851545721fa1575a http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/PassportNumber http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/NationalIdentificationNumber
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/IdentityDocument http://www.w3.org/2000/01/rdf-schema#subClassOf Nb955419c6aa847d1bbda9331ae0f90d4
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Adult http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Person
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/PlaceOfBirth http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/PhysicalLocation
+N54c616737e4b42f788988f3a1026187d http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nc1600be606404117ae734950efbdd3d7 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DeathCertificateIdentifier
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasAgeOfMajority http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+Nc205bf355cf84d4aab72812a03bda21f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/BirthCertificate http://www.w3.org/2004/02/skos/core#definition an original document certifying the circumstances of the birth, or a certified copy of or representation of the ensuing registration of that birth
+N7dd862be573642bda3c7b636ed6d1b7f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasLastName http://www.w3.org/2000/01/rdf-schema#label has last name
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasFullLegalName http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasPersonName
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasFullLegalName http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasLegalName
+N03b5fe9b8e0745feb1b4a964a73d63fc http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasResidence
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/BirthCertificateIdentificationScheme http://www.w3.org/2004/02/skos/core#definition system for allocating identifiers to birth certificates
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://purl.org/dc/terms/abstract This ontology defines concepts for people and human related terms, for use in other FIBO ontology elements. People as defined here are human persons only. This ontology sets out a number of basic properties which are held by people or are definitive of a small number of specific types of people such as minors or adults. Primary use cases for determining the set of personal information definitions included are the common elements required to (1) open a bank account, (2) identify a sophisticated investor, and (3) establish foreign account ownership for money laundering purposes.
+N7dd862be573642bda3c7b636ed6d1b7f http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Designators/hasName
+N172ec33cb22842079d857ea79c3d53ec http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Country
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DeathCertificate http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/IdentityDocument
+N8b273fd3d56441978f3d48e577e105d6 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DeathCertificateIdentificationScheme
+N03b5fe9b8e0745feb1b4a964a73d63fc http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/AgeOfMajority http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/LegalAge
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/NationalIdentificationNumber https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote A national identification number, national identity number, or national insurance number is used by the governments of many countries as a means of tracking their citizens, permanent residents, and temporary residents for the purposes of work, taxation, government benefits, health care, and other governmentally-related functions. The number will appear on an identity document issued by a country.
+
+The ways in which such a system is implemented are dependent on the country, but in most cases, a citizen is issued an identification number at birth or when they reach a legal age (typically the age of 18). Non-citizens may be issued such numbers when they enter the country, or when granted a temporary or permanent residence permit.
+
+Many countries issued such numbers ostensibly for a singular purpose, but over time, they become a de facto national identification number. For example, the United States originally developed its Social Security number system as a means of disbursing Social Security benefits. However, due to function creep, the number has become utilized for other purposes to the point where it is almost essential to have one to, among other things, open a bank account, obtain a credit card, or drive a car.
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasCitizenship http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Person
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Person http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2004/02/skos/core#changeNote The https://www.omg.org/spec/EDMC-FIBO/FND/20210301/AgentsAndPeople/People.rdf version of the ontology was modified to allow the People ontology to import Parties, rather than the other way around, to simplify the class hierarchy for ease of use in data mapping and alignment, and to add person name as a first class concept, revising property definitions to allow for structured names by loosening constraints.
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DeathCertificate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/BirthCertificateIdentificationScheme http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasSurname http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2004/02/skos/core#changeNote The https://www.omg.org/spec/EDMC-FIBO/FND/20231201/AgentsAndPeople/People.rdf version of the ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/ContextualDesignators/
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasGender http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+N40971c4c0cc14b178074ad32997c4cc0 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasGender
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DeathCertificateIdentificationScheme http://www.w3.org/2004/02/skos/core#definition system for allocating identifiers to death certificates
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/AgeOfMajority http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DeathCertificateIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Identifiers/Identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20181101/AgentsAndPeople/People.rdf version of the ontology was was modified to revise a restriction on IdentityDocument to reference the appropriate identifier rather than use a tag. The impetus behind this change is to support privacy legislation, such as GDPR, which requires protection of both identifiers, such as a passport number, drivers' license number, etc. as well as the documents themselves. Thus, properties and individuals related to those identifiers are urgently needed.
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasPrimaryResidence http://www.w3.org/2004/02/skos/core#definition identifies a dwelling where an individual resides the majority of the year
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasPlaceOfBirth http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Person
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Release
+Nb439ea81705d4bc187f17d44fb39cb0d http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/BirthCertificateIdentificationScheme
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasFamilyName https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote 'Family name' is more commonly used in the United Kingdom than in the United States to refer to someone's surname.
+N30bb1b3c028d4271a698e3f46d857b19 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DeathCertificate http://www.w3.org/2000/01/rdf-schema#label death certificate
+N3b1e246f5b3f496794268f01e773de06 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/AgeOfMajority http://www.w3.org/2004/02/skos/core#definition age at which someone acquires the rights and responsibilities of an adult in some jurisdiction
+N2648834e8f634f0fab994b3dc33184a1 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasDateOfDeath http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DriversLicenseIdentificationScheme http://www.w3.org/2000/01/rdf-schema#subClassOf Ncd7bc2accaa549e78d8a9ae662a4c07b
+Nc703ba496d8a4743886232681fd57f59 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nc1600be606404117ae734950efbdd3d7 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DeathCertificateIdentificationScheme http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Identifiers/IdentificationScheme
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasDateOfDeath http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#FunctionalProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DriversLicenseIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf Nf4fca5706f824fd1b9f7ec8ab4186455
+Nc2fe560bb4214cf7b6e7416a9a18df42 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Designators/isNameOf
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasPersonName http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasTextualName
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/PersonName http://www.w3.org/2000/01/rdf-schema#subClassOf Neefebfbea71f45fd9e20e3410627bfcd
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DeathCertificateIdentificationScheme http://www.w3.org/2000/01/rdf-schema#label death certificate identification scheme
+N40bacf4951004566a19caf064039968f http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/BirthCertificateIdentifier
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/NationalIdentificationNumberScheme http://www.w3.org/2000/01/rdf-schema#subClassOf Nfecdcad344b646e9aedb970ef239ba6c
+Nb955419c6aa847d1bbda9331ae0f90d4 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Identifiers/isIdentifiedBy
+Nf8960ee4d1174fb78760544980d2ef38 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/AgeOfMajority
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasAgeOfMajority http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/AgeOfMajority
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2013-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/NationalIdentificationNumber http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/PlaceOfBirth http://www.w3.org/2004/02/skos/core#definition physical location, including country, region, and municipality where an individual was born
+N5a9f7948f2794ef7b4aedd24f68c6f41 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasLastName http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+N1415786d08204f75ba2fbed391e93daf http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/NationalIdentificationNumberScheme
+N7abd83fe2b8643a6ae4d2853ded4c85d http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/EmancipatedMinor http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasPersonName http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Adult http://www.w3.org/2000/01/rdf-schema#subClassOf Nf8960ee4d1174fb78760544980d2ef38
+N17e577fa9d6b4f989e820217f1bb7ab5 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DriversLicenseIdentificationScheme
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasFirstName http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasMaidenName http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/BirthCertificateIdentificationScheme http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Identifiers/IdentificationScheme
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DeathCertificate http://www.w3.org/2004/02/skos/core#definition original document certifying the circumstances of the death (such as how and when it occurred), or a certified copy of or representation of the ensuing registration of that death
+N17e577fa9d6b4f989e820217f1bb7ab5 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/TextDatatype/
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasCitizenship http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DeathCertificate https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote A death certificate is a vital record documenting information (including age, occupation, place of birth, place of residence, and often identifying the parents and possibly spouse of the deceased) relating to a dead person and including a doctor's certification of the cause of death.
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasMiddleNameOrInitial http://www.w3.org/2004/02/skos/core#definition one or more additional names or initial letters for names that occur between a person's first and last name
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/PersonName http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/ContextualDesignators/ContextualName
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/PassportNumberIdentificationScheme http://www.w3.org/2004/02/skos/core#definition system for allocating identifiers to passports
+Nf4fca5706f824fd1b9f7ec8ab4186455 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasLastName http://www.w3.org/2002/07/owl#equivalentProperty https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasSurname
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/IncapacitatedAdult http://www.w3.org/2000/01/rdf-schema#label incapacitated adult
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/NationalIdentificationNumber http://www.w3.org/2000/01/rdf-schema#subClassOf Nb761948ef5144e569d29797a237a7671
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Passport http://www.w3.org/2000/01/rdf-schema#subClassOf N3b1e246f5b3f496794268f01e773de06
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasSurname http://www.w3.org/2004/02/skos/core#definition indicates the name shared in common to identify the members of a family, as distinguished from each member's given name
+N4b1089a9d41c4d429646a1feb1eae5f8 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasSurname
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/LegalWorkingAge http://www.w3.org/2000/01/rdf-schema#label legal working age
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasGivenName http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasPersonName
+N14a36edd3ff24dc2ae6d45a5bcbb552a http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasDateOfDeath
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DeathCertificateIdentifier http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasResidence http://www.w3.org/2004/02/skos/core#definition identifies a dwelling where an individual lives
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/IdentityDocument https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym identity card
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Person http://www.w3.org/2000/01/rdf-schema#subClassOf N7dd862be573642bda3c7b636ed6d1b7f
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/IdentityDocument http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasDateOfBirth http://www.w3.org/2000/01/rdf-schema#label has date of birth
+N7dd862be573642bda3c7b636ed6d1b7f http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/PassportNumber http://www.w3.org/2000/01/rdf-schema#label passport number
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasCitizenship http://www.w3.org/2004/02/skos/core#definition links a person to their country of citizenship
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Designators/
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Minor http://www.w3.org/2004/02/skos/core#definition a person under a certain age, usually the age of majority in a given jurisdiction, which legally demarcates childhood from adulthood
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasFirstName http://www.w3.org/2004/02/skos/core#definition indicates the given name or first name of a person, that is, the name chosen for them at birth or changed by them subsequently from the name given at birth
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/BirthCertificate http://www.w3.org/2000/01/rdf-schema#label birth certificate
+Ncd7bc2accaa549e78d8a9ae662a4c07b http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Designators/defines
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Person http://www.w3.org/2000/01/rdf-schema#subClassOf N7abd83fe2b8643a6ae4d2853ded4c85d
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Minor http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nb439ea81705d4bc187f17d44fb39cb0d http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasDateOfDeath http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasExplicitDate
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasFullLegalName http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+N40351910a1cf4a55accffc15fe7f2a4a http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+N5d96cc2d41bf4536b95ddcb2c2ebfb4d http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Person
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Minor http://www.w3.org/2000/01/rdf-schema#label minor
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/FND/20240101/AgentsAndPeople/People/
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/LegalWorkingAge http://www.w3.org/2004/02/skos/core#definition age at which someone acquires the capacity to work legally in some jurisdiction
+N3674c0b6f16e412eaa4f8643c477aed0 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DriversLicenseIdentifier
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Person https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym natural person
+N4827345f6a144271a7b43e94262f29ef http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N8b273fd3d56441978f3d48e577e105d6 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Minor http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Person
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasLastName http://www.w3.org/2004/02/skos/core#definition indicates the name shared in common to identify the members of a family, as distinguished from each member's given name
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Passport https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The elements of identity contained in all standardized passports include information about the holder, including name, date of birth, gender and place of birth.
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasFullLegalName http://www.w3.org/2004/02/skos/core#definition indicates the complete name of a person, typically used in formal situations including those of a legal or contractual nature
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasNamePrefix http://www.w3.org/2000/01/rdf-schema#label has name prefix
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2000/01/rdf-schema#label People Ontology
+N4827345f6a144271a7b43e94262f29ef http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Designators/defines
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DateOfBirth http://www.w3.org/2004/02/skos/core#definition explicit date, i.e., the day, month and year, on which an individual was born
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DateOfDeath http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDate
+Neefebfbea71f45fd9e20e3410627bfcd http://www.w3.org/2002/07/owl#onDataRange https://www.omg.org/spec/Commons/TextDatatype/Text
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/LegalAge http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/Age
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasGender http://www.w3.org/2000/01/rdf-schema#label has gender
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Adult https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://en.wikipedia.org/wiki/Adult
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasFamilyName http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasPersonName
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/IncapacitatedAdult https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Individuals may have an inherent physical condition which prevents them from achieving the normal levels of performance expected from persons of comparable age, or their inability to match current levels of performance may be caused by contracting an illness. Whatever the cause, if the resulting condition is such that individuals cannot care for themselves, or may act in ways that are against their interests, those persons are vulnerable through dependency and require the protection of the state against the risks of abuse or exploitation. Hence, any agreements that were made are voidable, and a court may declare that person a ward of the state and grant power of attorney to an appointed legal guardian.
+Ncd7bc2accaa549e78d8a9ae662a4c07b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasPrimaryResidence http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Person
+N5a9f7948f2794ef7b4aedd24f68c6f41 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+Nfecdcad344b646e9aedb970ef239ba6c http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/NationalIdentificationNumber
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DriversLicense http://www.w3.org/2000/01/rdf-schema#subClassOf N3674c0b6f16e412eaa4f8643c477aed0
+Nb955419c6aa847d1bbda9331ae0f90d4 http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/Identifiers/Identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasPersonName https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Note that the concept of a person name may include symbology as long as the symbols are properly encoded. Because person name is a class, other iconography or symbology that cannot be encoded in UTF-8 can, alternatively, be linked or attached as a separate image or in another form.
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasNameSuffix http://www.w3.org/2004/02/skos/core#definition indicates a character or sequence of characters, following a person's name, that provides additional information about the person, such as their position, educational degree, accreditation, office, or honor
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasDateOfBirth http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasExplicitDate
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/PassportNumberIdentificationScheme http://www.w3.org/2000/01/rdf-schema#label passport number identification scheme
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasMinimumLegalWorkingAge http://www.w3.org/2004/02/skos/core#definition relates someone to the minimum legal working age for the jurisdiction in which they reside
+N17e577fa9d6b4f989e820217f1bb7ab5 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Passport http://www.w3.org/2004/02/skos/core#definition formal identity document, issued by a national government, which certifies the identity and nationality of its holder for the purpose of international travel
+N14a36edd3ff24dc2ae6d45a5bcbb552a http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DateOfDeath
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasResidence http://www.w3.org/2000/01/rdf-schema#label has residence
+N5d96cc2d41bf4536b95ddcb2c2ebfb4d http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Identifiers/identifies
+N172ec33cb22842079d857ea79c3d53ec http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N5d96cc2d41bf4536b95ddcb2c2ebfb4d http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2004/02/skos/core#changeNote The https://www.omg.org/spec/EDMC-FIBO/FND/20211101/AgentsAndPeople/People.rdf version of the ontology was modified to address hygiene issues with respect to text formatting.
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/PartiesAndSituations/
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/EmancipatedMinor http://www.w3.org/2000/01/rdf-schema#label emancipated minor
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/LegalWorkingAgePerson http://www.w3.org/2000/01/rdf-schema#label legal working age person
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/LegalWorkingAge http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/LegalAge
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DeathCertificateIdentifier http://www.w3.org/2004/02/skos/core#definition identifier associated with a vital record documenting the death of an individual
+N30bb1b3c028d4271a698e3f46d857b19 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+N15669cf6e710494da06f0952f4461317 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/BirthCertificate
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/IncapacitatedAdult http://www.w3.org/2004/02/skos/core#definition an adult who is legally identified as not having legal capacity, typically as a result of some inherent physical or mental incapacity or as a result of having contracted some illness which temporarily deprives them of such capacity
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/AgeOfMajority http://www.w3.org/2000/01/rdf-schema#label age of majority
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasFamilyName http://www.w3.org/2002/07/owl#equivalentProperty https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasLastName
+Nc205bf355cf84d4aab72812a03bda21f http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Identifiers/isIdentifiedBy
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DeathCertificate http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Documents/Certificate
+Nc1600be606404117ae734950efbdd3d7 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Identifiers/isIdentifiedBy
+Nc2fe560bb4214cf7b6e7416a9a18df42 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Person
+N15669cf6e710494da06f0952f4461317 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasDateOfDeath http://www.w3.org/2000/01/rdf-schema#label has date of death
+Nb439ea81705d4bc187f17d44fb39cb0d http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Designators/isDefinedIn
+Nb955419c6aa847d1bbda9331ae0f90d4 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasResidence http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ConventionalStreetAddress
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasCitizenship http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/Classifiers/isClassifiedBy
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DeathCertificateIdentificationScheme https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Schemes for death certificate identification are typically regionally defined, and there may be jurisdiction-specific scope required as an additional restriction on a specific scheme.
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/PassportNumber http://www.w3.org/2000/01/rdf-schema#subClassOf N5a9f7948f2794ef7b4aedd24f68c6f41
+Neefebfbea71f45fd9e20e3410627bfcd http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasNameSuffix
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasMaidenName http://www.w3.org/2000/01/rdf-schema#label has maiden name
+N7dd862be573642bda3c7b636ed6d1b7f http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/PersonName
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasDateOfBirth http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DateOfBirth
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/NationalIdentificationNumberScheme http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N8b273fd3d56441978f3d48e577e105d6 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Designators/isDefinedIn
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/LegalWorkingAgePerson http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N3b1e246f5b3f496794268f01e773de06 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasCitizenship http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Country
+Nfecdcad344b646e9aedb970ef239ba6c http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/hasMember
+N30bb1b3c028d4271a698e3f46d857b19 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasPlaceOfBirth
+N30bb1b3c028d4271a698e3f46d857b19 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/PlaceOfBirth
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasAgeOfMajority http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasAge
+Nf8960ee4d1174fb78760544980d2ef38 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/EmancipatedMinor http://www.w3.org/2004/02/skos/core#definition a minor who is allowed to conduct a business or any other occupation on his or her own behalf or for their own account outside the control of a parent or guardian
+N40971c4c0cc14b178074ad32997c4cc0 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasFamilyName http://www.w3.org/2000/01/rdf-schema#label has family name
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasDateOfBirth http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Person
+N40bacf4951004566a19caf064039968f http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Designators/defines
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/BirthCertificateIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Identifiers/Identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasMiddleNameOrInitial http://www.w3.org/2000/01/rdf-schema#label has middle name or initial
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2004/02/skos/core#changeNote The https://www.omg.org/spec/EDMC-FIBO/FND/20210601/AgentsAndPeople/People.rdf version of the ontology was modified to revise the definition of passport number as a national identification number and eliminate restrictions that would cause people to be inferred to be passports.
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/LegallyCapableAdult http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Adult
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Adult http://www.w3.org/2004/02/skos/core#definition person who has attained the age of majority as defined in some jurisdiction
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasNamePrefix http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/TextDatatype/hasTextValue
+Ne6e4306c31594cd08d2aa85564845048 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/BirthCertificateIdentificationScheme http://www.w3.org/2000/01/rdf-schema#subClassOf N40bacf4951004566a19caf064039968f
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/PassportNumber http://www.w3.org/2004/02/skos/core#definition national identification number associated with a passport
+N5a9f7948f2794ef7b4aedd24f68c6f41 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Designators/isDefinedIn
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DateOfDeath https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym death date
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Person http://www.w3.org/2000/01/rdf-schema#subClassOf Nc253264cb4bc4c25975cd6021ccf2cfa
+N7abd83fe2b8643a6ae4d2853ded4c85d http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/EmancipatedMinor https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The minor will then have full contractual capacity to conclude contracts with regard to the business. Whether parental consent is needed to achieve emancipated status varies from case to case. In some cases, court permission is necessary. Protocols vary by jurisdiction.
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/NationalIdentificationNumber http://www.w3.org/2004/02/skos/core#definition number or text which appears on an identity document issued by a country or jurisdiction
+N3b1e246f5b3f496794268f01e773de06 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/PassportNumber
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasGender http://www.w3.org/2004/02/skos/core#definition links a particular gender value with a person
+Nc253264cb4bc4c25975cd6021ccf2cfa http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/Age
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/LegalWorkingAge http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N3674c0b6f16e412eaa4f8643c477aed0 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/IdentityDocument http://www.w3.org/2000/01/rdf-schema#subClassOf N5d96cc2d41bf4536b95ddcb2c2ebfb4d
+N17e577fa9d6b4f989e820217f1bb7ab5 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Designators/isDefinedIn
+N40971c4c0cc14b178074ad32997c4cc0 http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#string
+N1415786d08204f75ba2fbed391e93daf http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/IdentityDocument http://www.w3.org/2000/01/rdf-schema#subClassOf Nc703ba496d8a4743886232681fd57f59
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasMinimumLegalWorkingAge http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DriversLicenseIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf N17e577fa9d6b4f989e820217f1bb7ab5
+Nfecdcad344b646e9aedb970ef239ba6c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nf4fca5706f824fd1b9f7ec8ab4186455 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Identifiers/identifies
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/IdentityDocument http://www.w3.org/2000/01/rdf-schema#subClassOf N54c616737e4b42f788988f3a1026187d
+Nf4fca5706f824fd1b9f7ec8ab4186455 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/BirthCertificate http://www.w3.org/2000/01/rdf-schema#subClassOf Nc205bf355cf84d4aab72812a03bda21f
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasResidence http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAddress
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasPlaceOfBirth http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/PlaceOfBirth
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Minor https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://en.wikipedia.org/wiki/Minor_(law)
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasGivenName http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/LegallyCapableAdult http://www.w3.org/2004/02/skos/core#definition person who has attained the age of majority as defined in some jurisdiction and who is allowed to conduct a business or any other occupation on his or her own behalf or for their own account
+Nc2fe560bb4214cf7b6e7416a9a18df42 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N172ec33cb22842079d857ea79c3d53ec http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasCitizenship
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasPlaceOfBirth http://www.w3.org/2004/02/skos/core#definition identifies the location where an individual was born
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/IncapacitatedAdult http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Adult
+N54c616737e4b42f788988f3a1026187d http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/LegalWorkingAgePerson http://www.w3.org/2000/01/rdf-schema#subClassOf N08b11316ebfd47be88472fb252c0d586
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasPlaceOfBirth http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/Classifiers/isCharacterizedBy
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Passport http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Neefebfbea71f45fd9e20e3410627bfcd http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N4827345f6a144271a7b43e94262f29ef http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DeathCertificateIdentifier
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasFullLegalName http://www.w3.org/2000/01/rdf-schema#label has full legal name
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasMaidenName http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasPersonName
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/LegalWorkingAgePerson http://www.w3.org/2004/02/skos/core#definition person whose age is greater than the minimum legal working age specified in a jurisdiction in which they work
+N172ec33cb22842079d857ea79c3d53ec http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasAgeOfMajority http://www.w3.org/2000/01/rdf-schema#label has age of majority
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/PlaceOfBirth https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym birth place
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DateOfDeath http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Person http://www.w3.org/2000/01/rdf-schema#label person
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20230301/AgentsAndPeople/People.rdf version of the ontology was modified to replace concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1.
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/IncapacitatedAdult https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://en.wikipedia.org/wiki/Capacity_(law)
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/BirthCertificateIdentificationScheme http://www.w3.org/2000/01/rdf-schema#label birth certificate identification scheme
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DriversLicenseIdentificationScheme http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nc253264cb4bc4c25975cd6021ccf2cfa http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasPrimaryResidence http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+Nb439ea81705d4bc187f17d44fb39cb0d http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N08b11316ebfd47be88472fb252c0d586 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasMinimumLegalWorkingAge
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DeathCertificateIdentifier https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym death certificate number
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/PassportNumberIdentificationScheme http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Identifiers/IdentificationScheme
+Nf8960ee4d1174fb78760544980d2ef38 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasAgeOfMajority
+N40351910a1cf4a55accffc15fe7f2a4a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2004/02/skos/core#changeNote The https://www.omg.org/spec/EDMC-FIBO/FND/20190501/AgentsAndPeople/People.rdf version of the ontology was modified to eliminate deprecated elements.
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/PassportNumberIdentificationScheme http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DateOfBirth http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/PassportNumberIdentificationScheme http://www.w3.org/2000/01/rdf-schema#subClassOf Ne6e4306c31594cd08d2aa85564845048
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasAgeOfMajority http://www.w3.org/2004/02/skos/core#definition relates someone to the age required to attain the capacity to engage in certain transactions or be treated legally as an adult in some jurisdiction
+N7abd83fe2b8643a6ae4d2853ded4c85d http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DateOfBirth
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DriversLicense http://www.w3.org/2004/02/skos/core#definition an official document which states that a person may operate a motorized vehicle, such as a motorcycle, car, truck or a bus, on a public roadway or provides official identifying information for a non-driver
+Nc703ba496d8a4743886232681fd57f59 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasExpirationDate
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/BirthCertificate https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom http://en.wikipedia.org/wiki/Birth_certificate
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/IdentityDocument http://www.w3.org/2004/02/skos/core#definition any legal document which may be used to verify aspects of a person's identity
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DateOfDeath http://www.w3.org/2000/01/rdf-schema#label date of death
+N14a36edd3ff24dc2ae6d45a5bcbb552a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Neefebfbea71f45fd9e20e3410627bfcd http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+Nc703ba496d8a4743886232681fd57f59 http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/DatesAndTimes/Date
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2004/02/skos/core#changeNote The https://www.omg.org/spec/EDMC-FIBO/FND/20190901/AgentsAndPeople/People.rdf version of the ontology was modified to eliminate duplication with concepts in LCC and correct a bug in a restriction on identity document.
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/EmancipatedMinor https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://en.wikipedia.org/wiki/Emancipated_minor
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/NationalIdentificationNumber https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom http://en.wikipedia.org/wiki/National_identification_number
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/NationalIdentificationNumber https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym national identity number
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/BirthCertificateIdentifier http://www.w3.org/2000/01/rdf-schema#label birth certificate identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/LegalAge http://www.w3.org/2004/02/skos/core#definition age at which someone acquires the capacity to do something that they were prohibited from doing before under the law in some jurisdiction
+N08b11316ebfd47be88472fb252c0d586 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DriversLicenseIdentifier http://www.w3.org/2000/01/rdf-schema#label driver's license identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasGivenName http://www.w3.org/2004/02/skos/core#definition indicates the given name or first name of a person, that is, the name chosen for them at birth or changed by them subsequently from the name given at birth
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DriversLicenseIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Identifiers/Identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20230101/AgentsAndPeople/People.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC) and to eliminate redundancies in FIBO as appropriate.
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DriversLicenseIdentificationScheme http://www.w3.org/2004/02/skos/core#definition system for allocating identifiers to driver's, operating, or non-driver identification documents
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasMinimumLegalWorkingAge http://www.w3.org/2000/01/rdf-schema#label has minimum legal working age
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Passport http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/IdentityDocument
+N54c616737e4b42f788988f3a1026187d http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/DatesAndTimes/Date
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Identifiers/
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2004/02/skos/core#changeNote The https://www.omg.org/spec/EDMC-FIBO/FND/20180801/AgentsAndPeople/People.rdf version of the ontology was modified to deprecate legally capable person in favor of natural person (defined in Business Entities).
+Nc205bf355cf84d4aab72812a03bda21f http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/PersonName http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Collections/
+N3b1e246f5b3f496794268f01e773de06 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+Nc703ba496d8a4743886232681fd57f59 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/NationalIdentificationNumberScheme http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Identifiers/IdentificationScheme
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20220701/AgentsAndPeople/People.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2004/02/skos/core#changeNote The https://www.omg.org/spec/EDMC-FIBO/FND/20201201/AgentsAndPeople/People.rdf version of the ontology was modified to add hasResidence, hasMailingAddress, and hasPrimaryResidence properties and a restriction on person with respect to residence accordingly, then to move hasMailingAddress to Parties.
+N03b5fe9b8e0745feb1b4a964a73d63fc http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ConventionalStreetAddress
+Nb2b7122670114399851545721fa1575a http://www.w3.org/2002/07/owl#onDataRange https://www.omg.org/spec/Commons/TextDatatype/Text
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Minor https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The age depends upon jurisdiction and application, but is generally 18.
+Nc1600be606404117ae734950efbdd3d7 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+Nf8960ee4d1174fb78760544980d2ef38 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N2648834e8f634f0fab994b3dc33184a1 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasPlaceOfBirth http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N1415786d08204f75ba2fbed391e93daf http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Designators/isDefinedIn
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/PersonName http://www.w3.org/2000/01/rdf-schema#subClassOf N4b1089a9d41c4d429646a1feb1eae5f8
+N3674c0b6f16e412eaa4f8643c477aed0 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/BirthCertificate http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Documents/Certificate
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DriversLicense http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/IdentityDocument
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/NationalIdentificationNumber http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Identifiers/Identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2004/02/skos/core#changeNote The https://www.omg.org/spec/EDMC-FIBO/FND/20210401/AgentsAndPeople/People.rdf version of the ontology was modified to add concepts specific to legal age, age of majority, legal working age and legal working age person.
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DriversLicenseIdentificationScheme http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Identifiers/IdentificationScheme
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasNameSuffix http://www.w3.org/2000/01/rdf-schema#label has name suffix
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DriversLicense http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DriversLicenseIdentifier http://www.w3.org/2004/02/skos/core#definition identifier associated with a drivers' or operating license for operating a motor vehicle or non-driver identification card
+N7abd83fe2b8643a6ae4d2853ded4c85d http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasDateOfBirth
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasDateOfDeath http://www.w3.org/2004/02/skos/core#definition identifies the date on which an individual died
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/BirthCertificate http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/IdentityDocument
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2004/02/skos/core#changeNote The https://www.omg.org/spec/EDMC-FIBO/FND/20200201/AgentsAndPeople/People.rdf version of the ontology was modified to add explicit DateOfBirth and DateOfDeath, added DeathCertificate and related concepts, streamlined related properties and restrictions.
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasNamePrefix http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/BirthCertificateIdentifier http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/BirthCertificate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/LegallyCapableAdult http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DeathCertificate http://www.w3.org/2000/01/rdf-schema#subClassOf Nc1600be606404117ae734950efbdd3d7
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DriversLicense https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym driving licence
+Nb761948ef5144e569d29797a237a7671 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/PersonName http://www.w3.org/2000/01/rdf-schema#subClassOf Nb2b7122670114399851545721fa1575a
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasFamilyName http://www.w3.org/2002/07/owl#equivalentProperty https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasSurname
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasNameSuffix http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/TextDatatype/hasTextValue
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasDateOfBirth http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DateOfBirth https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym birthday
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DriversLicenseIdentifier http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N8b273fd3d56441978f3d48e577e105d6 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/PlaceOfBirth http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/IncapacitatedAdult http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/LegallyCapableAdult
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasMiddleNameOrInitial http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasPersonName
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasDateOfBirth http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#FunctionalProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/LegalWorkingAgePerson http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Person
+N15669cf6e710494da06f0952f4461317 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Identifiers/identifies
+Nb2b7122670114399851545721fa1575a http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasNamePrefix
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasFirstName http://www.w3.org/2002/07/owl#equivalentProperty https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasGivenName
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2013-2023 Object Management Group, Inc.
+N15669cf6e710494da06f0952f4461317 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Ncd7bc2accaa549e78d8a9ae662a4c07b http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DriversLicenseIdentifier
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Person http://www.w3.org/2000/01/rdf-schema#subClassOf N14a36edd3ff24dc2ae6d45a5bcbb552a
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Person http://www.w3.org/2000/01/rdf-schema#subClassOf N172ec33cb22842079d857ea79c3d53ec
+Nb955419c6aa847d1bbda9331ae0f90d4 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nc2fe560bb4214cf7b6e7416a9a18df42 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/NationalIdentificationNumberScheme http://www.w3.org/2000/01/rdf-schema#label national identification number scheme
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Person http://www.w3.org/2000/01/rdf-schema#subClassOf N40971c4c0cc14b178074ad32997c4cc0
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasPlaceOfBirth http://www.w3.org/2000/01/rdf-schema#label has place of birth
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Passport http://www.w3.org/2000/01/rdf-schema#label passport
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/2004/02/skos/core#changeNote The http://spec.edmcouncil.org/fibo/ontology/FND/20130801/AgentsAndPeople/People.rdf version of the ontology was was modified per the issue resolutions identified in the FIBO FND 1.0 FTF report and in https://spec.edmcouncil.org/fibo/ontology/FND/1.0/AboutFND-1.0/. It was further revised in the FTF in advance of the Long Beach meeting, resulting in https://spec.edmcouncil.org/fibo/ontology/FND/20141101/AgentsAndPeople/People/.
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DeathCertificateIdentificationScheme http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasSurname http://www.w3.org/2000/01/rdf-schema#label has surname
+N4b1089a9d41c4d429646a1feb1eae5f8 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasPrimaryResidence http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ConventionalStreetAddress
+N4b1089a9d41c4d429646a1feb1eae5f8 http://www.w3.org/2002/07/owl#onDataRange https://www.omg.org/spec/Commons/TextDatatype/Text
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+N3674c0b6f16e412eaa4f8643c477aed0 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Identifiers/isIdentifiedBy
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/PassportNumber http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Ne6e4306c31594cd08d2aa85564845048 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/hasMember
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasDateOfBirth http://www.w3.org/2004/02/skos/core#definition identifies the date on which an individual was born
+Nb761948ef5144e569d29797a237a7671 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Person
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/DriversLicenseIdentifier https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym driver's license number
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasPersonName http://www.w3.org/2004/02/skos/core#definition links a name to an individual
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/hasGender http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/Person
+Nc253264cb4bc4c25975cd6021ccf2cfa http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/NationalIdentificationNumberScheme http://www.w3.org/2004/02/skos/core#definition system for allocating identifiers to national identification numbers
+N2648834e8f634f0fab994b3dc33184a1 http://www.w3.org/2002/07/owl#onDataRange https://www.omg.org/spec/Commons/TextDatatype/Text

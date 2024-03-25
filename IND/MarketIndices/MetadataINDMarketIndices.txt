@@ -1,0 +1,46 @@
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/MarketIndicesModule https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2018-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/MarketIndicesModule http://purl.org/dc/terms/contributor 88 Solutions
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/MarketIndicesModule http://purl.org/dc/terms/contributor Bloomberg LP
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/MarketIndicesModule http://purl.org/dc/terms/contributor Federal Reserve Bank of Kansas City
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/MarketIndicesModule http://purl.org/dc/terms/contributor John F. Gemski
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/MarketIndicesModule http://www.w3.org/2000/01/rdf-schema#seeAlso https://www.edmcouncil.org/fibo/
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/ http://purl.org/dc/terms/abstract The market indices module includes ontologies defining a variety of reference indices (benchmarks) such as credit and equity indicies. Examples include the Dow Jones Industrial Average (DJIA), Standard and Poors (S&P) 500, exchange-specific indices, and the like.
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/MarketIndicesModule http://purl.org/dc/terms/contributor State Street Bank and Trust
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/MarketIndicesModule http://purl.org/dc/terms/license http://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/MarketIndicesModule http://purl.org/dc/terms/title Financial Industry Business Ontology (FIBO) Indices and Indicators (IND) Market Indices Module
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/MarketIndicesModule http://purl.org/dc/terms/contributor Dassault Systemes/No Magic
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/MarketIndicesModule http://purl.org/dc/terms/contributor Thematix Partners LLC
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/MarketIndicesModule http://purl.org/dc/terms/contributor Bureau of Labor Statistics (BLS, US Department of Commerce)
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/MarketIndicesModule http://purl.org/dc/terms/contributor Bank of New York Mellon
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/MarketIndicesModule http://purl.org/dc/terms/contributor Deutsche Bank
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/MarketIndicesModule http://purl.org/dc/terms/title FIBO IND Market Indices Module
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/MarketIndicesModule http://purl.org/dc/terms/contributor agnos.ai UK Ltd
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/MarketIndicesModule http://purl.org/dc/terms/contributor Tahoe Blue Ltd
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/ http://purl.org/dc/terms/issued 2018-08-27T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/MarketIndicesModule http://purl.org/dc/terms/contributor Adaptive, Inc.
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/ http://www.w3.org/2000/01/rdf-schema#label Metadata about the EDMC-FIBO Indices and Indicators (IND) Market Indices Module
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2018-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/MarketIndicesModule http://purl.org/dc/terms/contributor HP Enterprise / Mphasis
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/MarketIndicesModule http://purl.org/dc/terms/contributor John F. Tierney
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/MarketIndicesModule http://purl.org/dc/terms/contributor Census Bureau (US Department of Commerce)
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/MarketIndicesModule http://purl.org/dc/terms/contributor Statistics Canada
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2018-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/ http://purl.org/dc/terms/modified 2023-02-06T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/MarketIndicesModule http://www.w3.org/2000/01/rdf-schema#label market indices module
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/MarketIndicesModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/BasketIndices/
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/MarketIndicesModule http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/MarketIndicesModule http://purl.org/dc/terms/contributor Bureau of Economic Analysis (BEA, US Department of Commerce)
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/MarketIndicesModule http://purl.org/dc/terms/contributor Office of Financial Research (OFR), U.S. Department of the Treasury
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/MarketIndicesModule http://purl.org/dc/terms/contributor Pinnacle Bank (Morgan Hill, California)
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/MarketIndicesModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/EquityIndexExampleIndividuals/
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/MarketIndicesModule https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2018-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/IND/20230201/MarketIndices/MetadataINDMarketIndices/
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/MarketIndicesModule http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Module
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/MarketIndicesModule http://purl.org/dc/terms/contributor Citigroup
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/MarketIndicesModule http://purl.org/dc/terms/abstract The market indices module includes ontologies defining a variety of reference indices such as credit and equity indicies. Examples include the Dow Jones Industrial Average (DJIA), Standard and Poors (S&P) 500, exchange-specific indices, and the like.
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/MarketIndicesModule http://purl.org/dc/terms/contributor Wells Fargo Bank, N. A.
+https://spec.edmcouncil.org/fibo/ontology/IND/MarketIndices/MetadataINDMarketIndices/MarketIndicesModule http://purl.org/dc/terms/contributor Nordea Bank AB

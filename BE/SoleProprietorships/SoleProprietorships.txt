@@ -1,0 +1,59 @@
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/BE/20210301/SoleProprietorships/SoleProprietorships.rdf version of this ontology was modified to make sole proprietorship a subclass of legal person.
+Nae01da75a217421794ead7b48dd1b7eb http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BE/OwnershipAndControl/OwnershipParties/hasInvestmentEntity
+N9510f36e24694b59a6a55bd6c8791851 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/LegallyCompetentNaturalPerson
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/SoleProprietor http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BE/OwnershipAndControl/OwnershipParties/EntityOwner
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/SoleProprietorship http://www.w3.org/2004/02/skos/core#definition unincorporated business owned by a single person
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/SoleProprietorship http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/BusinessEntity
+N6aa0aefb1ee2496cba2b8807f994de57 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/LegallyCompetentNaturalPerson
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/SoleProprietorship http://www.w3.org/2000/01/rdf-schema#subClassOf N9510f36e24694b59a6a55bd6c8791851
+N1a1248d787164157a3c3b6d12d360e57 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LiabilityCapacity
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/BE/20240101/SoleProprietorships/SoleProprietorships/
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/OwnershipAndControl/
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/SoleProprietorship http://www.w3.org/2000/01/rdf-schema#subClassOf N1a1248d787164157a3c3b6d12d360e57
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/SoleProprietorship http://www.w3.org/2000/01/rdf-schema#label sole proprietorship
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/BE/20200601/SoleProprietorships/SoleProprietorships.rdf version of this ontology was modified to eliminate unnecessary references to external sources.
+N94e6d0b75db644b680871b59819b2767 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N6aa0aefb1ee2496cba2b8807f994de57 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/SoleProprietorship http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/SoleProprietor http://www.w3.org/2000/01/rdf-schema#label sole proprietor
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/BE/20181101/SoleProprietorships/SoleProprietorships.rdf version of this ontology was modified to eliminate a redundant subclass relationship, enhance ownership relations, and revise definitions to be ISO 704 compliant.
+N94e6d0b75db644b680871b59819b2767 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/OwnershipAndControl/ownsAndControls
+N9510f36e24694b59a6a55bd6c8791851 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+Nae01da75a217421794ead7b48dd1b7eb http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N120ba79824b14b85a6044f325b9a9d06 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+N1a1248d787164157a3c3b6d12d360e57 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/hasCapacity
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Release
+N6aa0aefb1ee2496cba2b8807f994de57 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/SoleProprietor https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym sole owner
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/RolesAndCompositions/
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/SoleProprietor http://www.w3.org/2000/01/rdf-schema#subClassOf Nae01da75a217421794ead7b48dd1b7eb
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/SoleProprietor http://www.w3.org/2004/02/skos/core#definition party that owns a business, has the rights to all profits from that business and is considered a single entity (unincorporated) together with that business for tax and liability purposes
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/SoleProprietor https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote A sole proprietor has unlimited liability with respect to any business debts.
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+N1a1248d787164157a3c3b6d12d360e57 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/OwnershipAndControl/OwnershipParties/
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/BE/20160201/SoleProprietorships/SoleProprietorships.rdf version of this ontology was modified per the FIBO 2.0 RFC.
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/BE/20220101/SoleProprietorships/SoleProprietorships.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.
+N120ba79824b14b85a6044f325b9a9d06 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/SoleProprietor https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym sole trader
+N6aa0aefb1ee2496cba2b8807f994de57 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2016-2024 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/SoleProprietor http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N120ba79824b14b85a6044f325b9a9d06 http://www.w3.org/2002/07/owl#someValuesFrom N94e6d0b75db644b680871b59819b2767
+N9510f36e24694b59a6a55bd6c8791851 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/ http://purl.org/dc/terms/abstract This ontology defines the fundamental concepts for representing sole proprietorships -- i.e., organizations that are owned by an individual that is responsible for the liabilities of the organization.
+N9510f36e24694b59a6a55bd6c8791851 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/OwnershipAndControl/isOwnedAndControlledBy
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/SoleProprietor http://www.w3.org/2000/01/rdf-schema#subClassOf N6aa0aefb1ee2496cba2b8807f994de57
+Nae01da75a217421794ead7b48dd1b7eb http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/SoleProprietorship
+N94e6d0b75db644b680871b59819b2767 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/SoleProprietorship
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/SoleProprietorship http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/LegalPerson
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/BE/20180801/SoleProprietorships/SoleProprietorships.rdf version of this ontology was modified to use natural person rather than legally capable person.
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2016-2024 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/ http://www.w3.org/2000/01/rdf-schema#label Sole Proprietorships Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/SoleProprietor http://www.w3.org/2000/01/rdf-schema#subClassOf N120ba79824b14b85a6044f325b9a9d06
+https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/SoleProprietorships/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/BE/20230101/SoleProprietorships/SoleProprietorships.rdf version of the ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).

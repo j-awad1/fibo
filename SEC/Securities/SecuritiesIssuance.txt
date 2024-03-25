@@ -1,0 +1,450 @@
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/PrivateOffering http://www.w3.org/2000/01/rdf-schema#subClassOf N2acb27e5308344198701255125a692d3
+N6895a5cfdbfd4a61bf4786600764e524 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/Prospectus https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom Barron's Dictionary of Finance and Investment Terms, Ninth Edition, 2014.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasSubscriptionPeriod http://www.w3.org/2004/02/skos/core#definition indicates a period of time in which investors can commit to purchase shares (or units) to be issued
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasIssuerShortName http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#string
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/isUnderwrittenBy http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/Underwriter
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityForm http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nc821ef99d7cf4d528a34e632bbd623ea http://www.w3.org/2002/07/owl#unionOf N7222b62f8bb742b598f9f2a7a999229a
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/isRegisteredWith http://www.w3.org/2004/02/skos/core#definition indicates the registration authority for a given security, i.e., in the name of the owner on the books of the issuer, with the issuer's registrar, with a third-party transfer agent, with a broker-dealer, or other competent party
+N895c5acb428e403dbade00a8e2f316a9 http://www.w3.org/2002/07/owl#someValuesFrom N4067b716a9554d5ca94ce15e428e80c7
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecuritiesOffering http://www.w3.org/2000/01/rdf-schema#subClassOf N21a07cb91b3d4ed19005fd591ed8c994
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ExemptTransaction https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom http://www.investopedia.com/terms/e/exempttransaction.asp
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/Prospectus https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote A prospectus may specify the facts about an offering of securities, mutual funds, or limited partnerships for investments in oil, gas, equipment leasing, or other kinds of limited partnerships.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityForm http://www.w3.org/2000/01/rdf-schema#subClassOf N957744e073294a05a648e28eb3cf6be8
+N2acb27e5308344198701255125a692d3 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/PrivatePlacementMemorandum
+N3bb4ffcfad254afaa26a20f9c4fb8a17 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20180801/Securities/SecuritiesIssuance/ version of this ontology was modified to refine the concept of a securities underwriter.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityForm https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Securities are typically issued in one of two forms, registered or bearer. Most securities issued today are in registered form, which enables the issuing firm or registrar to keep records of a security's owner and mail them any dividend, coupon, or other payments. Registered securities may be issued in book entry (digital only) or certificate (physical) form, but most today are entirely digital.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasFirstTradeDate http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasDate
+N957744e073294a05a648e28eb3cf6be8 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N7f7a44d0714243299b90e2a9f380f690 http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#string
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/FinancialInstrumentShortName http://www.w3.org/2000/01/rdf-schema#subClassOf N2cda103845a6445c8cde3737735f8256
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ExemptIssuer http://www.w3.org/2000/01/rdf-schema#label exempt issuer
+Nefcabf80159543dd8035c12edf80427d http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasIssuerShortName
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/RegisteredForm http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20211001/Securities/SecuritiesIssuance.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasAnnouncementDate http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasDate
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/underwrites http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecuritiesOffering
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/FirmCommitmentOffering http://www.w3.org/2000/01/rdf-schema#label firm commitment offering
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecuritiesOffering http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Na6e5108b476e4e1a86fd965ed6ff52a9 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/ThirdPartyAgent
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityUnderwritingArrangement https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Sales may be made either directly or through third-party dealers.
+N269b428aa96e4b068e720dc0bad8a8ef http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N9f0f0bbbfa7c4e3cbd1dc6f59e184bbd http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/PrivatePlacementMemorandum http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Ndcec750176fb4e25a41fff6dd3eb0c54 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasFirstTradeSettlementDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/Prospectus https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote In the United States, a prospectus may be a formal legal document, required by and filed with the Securities and Exchange Commission, if it provides details about an investment offering for sale to the public.
+Ne3ee6df727834ca9bbfd79d6c878ec5d http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Security
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/PublicOffering http://www.w3.org/2000/01/rdf-schema#label public offering
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ConversionTerms http://www.w3.org/2004/02/skos/core#definition contract terms specifying when and how a security may be converted to another security (usually of the same issuer)
+N685504a44e904f11bf97e57e88f113bc http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N559a3ab9b69d47b3ad11734b5125edf8
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/BearerAndRegisteredForm http://www.w3.org/2004/02/skos/core#definition form of a security that may be issued in both bearer and registered form but with the same identification number
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/underwrites http://www.w3.org/2002/07/owl#inverseOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/isUnderwrittenBy
+N8450978dc4ee4c1fbc47cab8e13bf514 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/embodies
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecuritiesOffering http://www.w3.org/2004/02/skos/core#definition offering of a security (or securities) for sale
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ExemptOffering https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom Barron's Dictionary of Finance and Investment Terms, Ninth Edition, 2014.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/ProductsAndServices/
+N8450978dc4ee4c1fbc47cab8e13bf514 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/RegisteredForm http://www.w3.org/2004/02/skos/core#definition form of a security whereby ownership is recorded in the name of the owner on the books of the issuer or the issuer's registrar and can only be transferred to another owner when endorsed by the registered owner
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20200201/Securities/SecuritiesIssuance/ version of this ontology was modified to add the concept of the form the security is issued in, namely bearer or registered.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/FinancialInstrumentShortName http://www.w3.org/2004/02/skos/core#definition abbreviated name for a financial instrument within a defined structure as specified in ISO 18774
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasActualClosingDate http://www.w3.org/2000/01/rdf-schema#label has actual closing date
+Nefcabf80159543dd8035c12edf80427d http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N3bb4ffcfad254afaa26a20f9c4fb8a17 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/RegistrationAuthorities/RegistrationAuthority
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/OfferingStatement http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityUnderwriter http://www.w3.org/2004/02/skos/core#definition party that has purchased from an issuer with a view to, or sells for an issuer in connection with, the distribution of any security, or participates or has a direct or indirect participation in any such undertaking, or participates or has a participation in the direct or indirect underwriting of any such undertaking
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasSeries http://www.w3.org/2000/01/rdf-schema#label has series
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/underwrites http://www.w3.org/2004/02/skos/core#definition identifies one or more underwriters involved in raising capital for or distributing the instruments that are the subject of the offering
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20230201/Securities/SecuritiesIssuance.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ExemptTransaction http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ExemptIssuer http://www.w3.org/2004/02/skos/core#example In general, these include governments and issuers of tax exempt securities such as municipalities, banks and depository institutions, and authorized insurance companies, railroads and public utilities, and certain non-profit organizations.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/PublicOffering http://www.w3.org/2004/02/skos/core#definition offering of securities for sale to the investment public, after compliance with registration requirements of the relevant regulatory authorities
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/isOverAllotted http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/Prospectus http://www.w3.org/2004/02/skos/core#definition formal, written offering document to sell securities that provides the facts an investor needs to make an informed investment decision
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecuritiesOffering http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/Offering
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/isIssuedInForm http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Security
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/BestEffortsOffering http://www.w3.org/2000/01/rdf-schema#label best efforts offering
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasInstrumentDescription http://www.w3.org/2000/01/rdf-schema#label has instrument description
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasSubscriptionAmount http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasAmount
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ExemptOffering http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/isRegisteredWith http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/RegistrationAuthorities/RegistrationAuthority
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Documents/
+Nef9236e5e13e48288f6f089d9b47a187 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasIssuerShortName http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasFormalName
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasActualClosingDate http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDate
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecuritiesOffering http://www.w3.org/2000/01/rdf-schema#subClassOf Na6e5108b476e4e1a86fd965ed6ff52a9
+https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Security http://www.w3.org/2000/01/rdf-schema#subClassOf N3bb4ffcfad254afaa26a20f9c4fb8a17
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasFinancialInstrumentShortName http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/Identifiers/isIdentifiedBy
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/FinancialInstrumentShortName https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom ISO 18774:2015(E), Securities and related financial instruments - Financial Instrument Short Name (FISN)
+N355992c3ee94429cbe4d345dbf1f23c2 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nffbf12c88e7945a582273230b9627d46 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityForm http://www.w3.org/2004/02/skos/core#definition nature of the proof of ownership of a security
+N957744e073294a05a648e28eb3cf6be8 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/exemplifies
+N88e99227eb3a4ae1a4532b26aaa380cc http://www.w3.org/1999/02/22-rdf-syntax-ns#first secondary
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecuritiesOffering http://www.w3.org/2000/01/rdf-schema#subClassOf N4e94c79b49d94deda9dd6121417ef716
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasIssuerShortName http://www.w3.org/2000/01/rdf-schema#domain Na59448467c474266ae5ed8d5d760455b
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/DatesAndTimes/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/OfferingStatement http://www.w3.org/2004/02/skos/core#definition offering memorandum that conforms to Regulation A, Offering Statement, of the Securities Act of 1933
+Na59448467c474266ae5ed8d5d760455b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasFinancialInstrumentShortName http://www.w3.org/2000/01/rdf-schema#label has financial instrument short name
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/Prospectus http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/OfferingDocument
+N27fe637cb8b54cc68127387d8cb90985 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Security
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ExemptOffering http://www.w3.org/2000/01/rdf-schema#label exempt offering
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/PublicOffering http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecuritiesOffering
+Na6e5108b476e4e1a86fd965ed6ff52a9 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/PartiesAndSituations/hasPartyRole
+Nf3c249e129a54c35892ba229aa2754b4 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N04dd78e8a52d4a3da85a41754b18a795 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Security
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/specifiesConversionInto http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Security
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ConversionTerms http://www.w3.org/2000/01/rdf-schema#label conversion terms
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasInstrumentDescription http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#string
+Nf3c249e129a54c35892ba229aa2754b4 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/isIssuedInForm
+N269b428aa96e4b068e720dc0bad8a8ef http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/isUnderwrittenBy
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/MiscellaneousForm http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityForm
+N04dd78e8a52d4a3da85a41754b18a795 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/specifiesConversionInto
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/PrivateOffering https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom EDM Council / Quarule
+N3bb4ffcfad254afaa26a20f9c4fb8a17 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/FirmCommitmentOffering http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/BestEffortsOffering
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityUnderwritingArrangement http://www.w3.org/2000/01/rdf-schema#label security underwriting arrangement
+N355992c3ee94429cbe4d345dbf1f23c2 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/isEvidenceFor
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/BestEffortsOffering https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote In a best efforts offering, the agreement is strictly an agency arrangement, with no obligation on the part of the agent to purchase the securities. They act as a broker, in other words.
+N7f7a44d0714243299b90e2a9f380f690 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Na6e5108b476e4e1a86fd965ed6ff52a9 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N7804bb38e715493188f0384eb5f1511b http://www.w3.org/2002/07/owl#oneOf Nc9367492d1794fb1838ecaf6c312f113
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Identifiers/
+N7d9a939b7a77407384be0f3a05b0b095 http://www.w3.org/2002/07/owl#someValuesFrom Nc821ef99d7cf4d528a34e632bbd623ea
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityForm http://www.w3.org/2000/01/rdf-schema#subClassOf N5bc03e579ad04bc2a3b7c887fcd85a54
+N3bb4ffcfad254afaa26a20f9c4fb8a17 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/isRegisteredWith
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/specifiesConversionInto http://www.w3.org/2004/02/skos/core#definition specifies a security that will replace a convertible security under the terms of the agreement
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/BearerForm https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom ISO 10962:2019(E), Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth edition, 2019-10, clause 6.2.2
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2000/01/rdf-schema#label Securities Issuance Ontology
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/Prospectus http://www.w3.org/2000/01/rdf-schema#label prospectus
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasFirstTradeDate http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDate
+Ne3ee6df727834ca9bbfd79d6c878ec5d http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/ContextualDesignators/appliesTo
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasIssuerShortName http://www.w3.org/2000/01/rdf-schema#label has issuer short name
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasIssuerShortName https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom ISO 18774:2015(E), Securities and related financial instruments - Financial Instrument Short Name (FISN)
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityForm http://www.w3.org/2000/01/rdf-schema#label security form
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20181201/Securities/SecuritiesIssuance/ version of this ontology was modified to eliminate duplication of concepts in LCC.
+Nc6429ca8d21f4d7ca24806711f65674f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N7222b62f8bb742b598f9f2a7a999229a http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N44ac0c96c7974344bd17992a5b9c8bca
+N269b428aa96e4b068e720dc0bad8a8ef http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/ContextualDesignators/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/OfferingDocument https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom EDM Council
+Nf3c249e129a54c35892ba229aa2754b4 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/underwrites http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N21a07cb91b3d4ed19005fd591ed8c994 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/Jurisdiction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasActualClosingDate http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasDate
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/specifiesConversionInto http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20200801/Securities/SecuritiesIssuance/ version of this ontology was modified to add book entry form as a kind of registered security, make registered security a class with two individuals, namely book entry and 'bearer and registered', and clean up definitions to eliminate ambiguity where possible and conform to ISO 704.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasSubscriptionAmount http://www.w3.org/2000/01/rdf-schema#label has subscription amount
+N21a07cb91b3d4ed19005fd591ed8c994 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ConvertibleSecurity http://www.w3.org/2004/02/skos/core#example Warrants are equity convertible securities. They give the owner the option to buy newly issued shares at a determined exercise price and date.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2018-2024 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ExemptTransaction http://www.w3.org/2004/02/skos/core#definition securities transaction for which there is no requirement to register the transaction with a regulatory agency
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasFirstTradeSettlementDate http://www.w3.org/2004/02/skos/core#definition indicates the date on which the first trade of a newly issued security is settled
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/isUnderwrittenBy http://www.w3.org/2000/01/rdf-schema#label is underwritten by
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/Prospectus http://www.w3.org/2000/01/rdf-schema#seeAlso http://www.investopedia.com/terms/p/prospectus.asp
+Na6e5108b476e4e1a86fd965ed6ff52a9 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasFinancialInstrumentShortName http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/isUnderwrittenBy http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecuritiesOffering
+Nef9236e5e13e48288f6f089d9b47a187 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isIssuedBy
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/
+N559a3ab9b69d47b3ad11734b5125edf8 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/FinancialInstrumentShortName
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/PrivateOffering https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym private placement
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityUnderwriter http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/ThirdPartyAgent
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/FinancialInstrumentShortName http://www.w3.org/2000/01/rdf-schema#subClassOf N7f7a44d0714243299b90e2a9f380f690
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/isIssuedInForm http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityForm
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/FirmCommitmentOffering https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom Barron's Dictionary of Finance and Investment Terms, Ninth Edition, 2014.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasFirstTradeSettlementDate http://www.w3.org/2000/01/rdf-schema#label has first trade settlement date
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasSeries http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#string
+N355992c3ee94429cbe4d345dbf1f23c2 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/isOverAllotted http://www.w3.org/2004/02/skos/core#definition indicates whether or not the subscription is over-subscribed
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/PublicOffering https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote In the US, public offerings generally require approval of the Securities Exchange Commission and/or relevant state regulators, unless the issuer is an exempt issuer, and are usually conducted by an investment banker or a syndicate made up of several investment bankers, at a price agreed upon between the issuer and the investment bankers.
+N7804bb38e715493188f0384eb5f1511b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2000/01/rdf-schema#Datatype
+N7d9a939b7a77407384be0f3a05b0b095 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isIssuedBy
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityUnderwriter http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractThirdParty
+N44ac0c96c7974344bd17992a5b9c8bca http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+N6b0b42496cca4150a283ef99c3952e35 http://www.w3.org/2002/07/owl#unionOf Nb40e5d2679e24c07bb09955a01da4d02
+N4067b716a9554d5ca94ce15e428e80c7 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecuritiesOffering
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/OfferingStatement http://www.w3.org/2000/01/rdf-schema#label offering statement
+N559a3ab9b69d47b3ad11734b5125edf8 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+N21a07cb91b3d4ed19005fd591ed8c994 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasGoverningJurisdiction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/BearerForm http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://www.omg.org/spec/Commons/Documents/Certificate
+N9f0f0bbbfa7c4e3cbd1dc6f59e184bbd http://www.w3.org/1999/02/22-rdf-syntax-ns#first N8450978dc4ee4c1fbc47cab8e13bf514
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasActualClosingDate http://www.w3.org/2004/02/skos/core#definition indicates the date on which an offering or transaction officially closes, in contrast with an intended closing date
+Nce6dd2a2c67741cb9410dc3137c96b5d http://www.w3.org/2002/07/owl#someValuesFrom N69a98ce830044656b350da60adfe48b6
+N5da5e9107a984dd28c368e55ade36732 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+N5da5e9107a984dd28c368e55ade36732 http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/DatesAndTimes/Date
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityUnderwriter https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom Section 3a of the Investment Company Act of 1940 as amended in January, 2012, https://www.sec.gov/about/laws/ica40.pdf
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityUnderwritingArrangement http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/BestEffortsOffering https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom Barron's Dictionary of Finance and Investment Terms, Ninth Edition, 2014.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasIssuerShortName http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasSubscriptionPeriod http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N5bc03e579ad04bc2a3b7c887fcd85a54 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Security
+https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Security http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N27fe637cb8b54cc68127387d8cb90985 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/ContextualDesignators/appliesTo
+N80e66967354f431e8a8dd425533e51c3 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N69a98ce830044656b350da60adfe48b6 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N6b0b42496cca4150a283ef99c3952e35 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ConversionTerms http://www.w3.org/2000/01/rdf-schema#subClassOf N04dd78e8a52d4a3da85a41754b18a795
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityUnderwriter http://www.w3.org/2000/01/rdf-schema#label security underwriter
+https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Security http://www.w3.org/2000/01/rdf-schema#subClassOf Nf3c249e129a54c35892ba229aa2754b4
+Nb40e5d2679e24c07bb09955a01da4d02 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N9f0f0bbbfa7c4e3cbd1dc6f59e184bbd
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/RegisteredForm http://www.w3.org/2000/01/rdf-schema#label registered form
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/OfferingDocument http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BE/FunctionalEntities/Publishers/Publication
+N2cda103845a6445c8cde3737735f8256 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ExemptTransaction http://www.w3.org/2000/01/rdf-schema#label exempt transaction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecuritiesOffering http://www.w3.org/2000/01/rdf-schema#subClassOf Ne3ee6df727834ca9bbfd79d6c878ec5d
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/
+N895c5acb428e403dbade00a8e2f316a9 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/Prospectus https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom The Securities Act of 1933, as amended 5 April 2012, see http://www.sec.gov/about/laws/sa33.pdf
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/underwrites https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom http://www.investopedia.com/terms/u/underwriting.asp
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecuritiesOffering http://www.w3.org/2000/01/rdf-schema#subClassOf N7d9a939b7a77407384be0f3a05b0b095
+N9580bfef3387415fab969b86e70583e2 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityUnderwriter
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/MiscellaneousForm http://www.w3.org/2000/01/rdf-schema#label miscellaneous form
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20230301/Securities/SecuritiesIssuance.rdf version of this ontology was modified to normalize the representation of security forms (all individuals rather than a mixed representation).
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityForm http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractDocument
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/BearerForm https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Unlike normal registered instruments, no record is kept of who owns bearer instruments or of transactions involving the transfer of ownership.
+N7222b62f8bb742b598f9f2a7a999229a http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Issuer
+Nffbf12c88e7945a582273230b9627d46 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasDateOfIssuance
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/OfferingDocument http://www.w3.org/2004/02/skos/core#definition legal document that states the objectives, risks and terms of an investment
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecuritiesOffering http://www.w3.org/2000/01/rdf-schema#subClassOf N269b428aa96e4b068e720dc0bad8a8ef
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ExemptIssuer http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N80e66967354f431e8a8dd425533e51c3 http://www.w3.org/2002/07/owl#unionOf N685504a44e904f11bf97e57e88f113bc
+N4e94c79b49d94deda9dd6121417ef716 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/underwrites http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/Underwriter
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/RegisteredForm http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityForm
+N4067b716a9554d5ca94ce15e428e80c7 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/PartiesAndSituations/isAPartyTo
+N2cda103845a6445c8cde3737735f8256 http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#string
+Nc6429ca8d21f4d7ca24806711f65674f http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/OfferingDocument
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20201201/Securities/SecuritiesIssuance/ version of this ontology was modified to clarify the definition of isIssuedInForm.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/BookEntryForm http://www.w3.org/2000/01/rdf-schema#label book entry form
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityOfferingDistributionType http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2000/01/rdf-schema#Datatype
+N6cc6729dcb6d4256940cc01a92233c33 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20230601/Securities/SecuritiesIssuance.rdf version of the ontology was modified to replace concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1.
+Nefcabf80159543dd8035c12edf80427d http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#string
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasFinancialInstrumentShortName http://www.w3.org/2004/02/skos/core#definition relates a security to its ISO 18774-compliant short name, which includes an issuer short name, abbreviated instrument characteristics, and abbreviated instrument description per the ISO standard
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/BearerForm http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasAnnouncementDate http://www.w3.org/2000/01/rdf-schema#label has announcement date
+https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Issuer http://www.w3.org/2000/01/rdf-schema#subClassOf Nefcabf80159543dd8035c12edf80427d
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ConversionTerms http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nc6429ca8d21f4d7ca24806711f65674f http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/isEvidencedBy
+N04dd78e8a52d4a3da85a41754b18a795 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N269b428aa96e4b068e720dc0bad8a8ef http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityUnderwriter
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/BearerForm http://www.w3.org/2000/01/rdf-schema#label bearer form
+N6cc6729dcb6d4256940cc01a92233c33 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/FinancialInstrumentShortName
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/PrivatePlacementMemorandum https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote An offering memorandum serves to provide buyers with information on the offering and to protect the sellers from the liability associated with selling unregistered securities. It includes information such as the financial statements, management biographies, a detailed description of the business, etc.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/Prospectus http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N685504a44e904f11bf97e57e88f113bc http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasInstrumentDescription https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom ISO 18774:2015(E), Securities and related financial instruments - Financial Instrument Short Name (FISN)
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ConversionTerms http://www.w3.org/2000/01/rdf-schema#subClassOf N27fe637cb8b54cc68127387d8cb90985
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/BookEntryForm http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+Nffbf12c88e7945a582273230b9627d46 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/PrivateOffering http://www.w3.org/2000/01/rdf-schema#label private offering
+N2acb27e5308344198701255125a692d3 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N8450978dc4ee4c1fbc47cab8e13bf514 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ExemptTransaction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/PrivatePlacementMemorandum https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom http://www.investopedia.com/terms/o/offeringmemorandum.asp
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasActualClosingDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasSeries http://www.w3.org/2004/02/skos/core#definition indicates the series identified by the issuer in the event that the instrument is issued in several series (also known as tranches)
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/isRegisteredWith http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Security
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecuritiesOffering https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom http://www.investopedia.com/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/BestEffortsOffering http://www.w3.org/2004/02/skos/core#definition securities offering whereby investment bankers commit to doing their best to sell the securities offered, but do not assume the full risk of an underwriter
+Nf3c249e129a54c35892ba229aa2754b4 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityForm
+Nefcabf80159543dd8035c12edf80427d http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasAnnouncementDate http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/Date
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityUnderwritingArrangement http://www.w3.org/2004/02/skos/core#definition underwriting agreement between an organization (typically an investment bank) and a securities issuer that commits the underwriter to assuming risk involved in buying a new issue of securities and reselling it to the public
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/FinancialInstrumentShortName http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Identifiers/Identifier
+N7d9a939b7a77407384be0f3a05b0b095 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Na59448467c474266ae5ed8d5d760455b http://www.w3.org/2002/07/owl#unionOf N26039e5e8cbe44b1b7805a810f8c3a20
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/RegulatoryAgencies/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/PublicOffering http://www.w3.org/2000/01/rdf-schema#subClassOf N93c1aa49f44b40a099f7bf2e66e81449
+Nef9236e5e13e48288f6f089d9b47a187 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ExemptIssuer
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ExemptIssuer https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom http://www.investopedia.com/exam-guide/series-66/regulation-of-securities/exempt-securities.asp
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/isIssuedInForm http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ConvertibleSecurity http://www.w3.org/2000/01/rdf-schema#subClassOf N6895a5cfdbfd4a61bf4786600764e524
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/OfferingDocument http://www.w3.org/2000/01/rdf-schema#subClassOf N5da5e9107a984dd28c368e55ade36732
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/OfferingStatement https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote See https://www.sec.gov/about/forms/form1-a.pdf for the actual form detail
+N5bc03e579ad04bc2a3b7c887fcd85a54 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/ContextualDesignators/appliesTo
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/RegistrationAuthorities/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ExemptOffering https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom http://www.investopedia.com/exam-guide/series-66/regulation-of-securities/exempt-securities.asp
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/isOverAllotted http://www.w3.org/2000/01/rdf-schema#label is over-allotted
+N27fe637cb8b54cc68127387d8cb90985 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityOfferingDistributionType http://www.w3.org/2004/02/skos/core#definition the type of distribution for a securities offering, including (1) primary offering - the original sale of a company's securities, in which the proceeds from the sale are received directly by the company, and (2) secondary offering - an offering of a security that has been issued previously
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasSeries http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/isUnderwrittenBy http://www.w3.org/2004/02/skos/core#definition relates an offering to an underwriter involved in raising capital for or distributing the instruments that are the subject of the offering
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/MiscellaneousForm https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom ISO 10962:2019(E), Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth edition, 2019-10, clause 6.2.2
+N9580bfef3387415fab969b86e70583e2 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/BearerAndRegisteredForm http://www.w3.org/2000/01/rdf-schema#label bearer and registered form
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/OfferingDocument http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N6895a5cfdbfd4a61bf4786600764e524 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasContractualElement
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2016-2024 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/OfferingDocument http://www.w3.org/2000/01/rdf-schema#subClassOf Ndcec750176fb4e25a41fff6dd3eb0c54
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasSubscriptionAmount http://www.w3.org/2004/02/skos/core#definition indicates a number of shares or units
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasInstrumentDescription http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ConvertibleSecurity http://www.w3.org/2004/02/skos/core#example Convertible securities may be convertible bonds or preferred stocks that pay regular interest and can be converted into shares of common stock (sometimes conditioned on the stock price appreciating to a predetermined level).
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasFirstTradeDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N895c5acb428e403dbade00a8e2f316a9 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasIssuerShortName http://www.w3.org/2004/02/skos/core#definition relates a security issuer or FISN to an ISO 18774-compliant issuer short name, that is, an abbreviation of the official issuer name, limited to a maximum of 15 alphanumeric characters
+N88e99227eb3a4ae1a4532b26aaa380cc http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/specifiesConversionInto http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ConversionTerms
+N93c1aa49f44b40a099f7bf2e66e81449 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityUnderwriter http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/Underwriter
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20200401/Securities/SecuritiesIssuance/ version of this ontology was modified to refactor conversion terms as a child of redemption provision, move redemption provision to financial instruments, and eliminate the unnecessary securities contract terms class.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/FirmCommitmentOffering http://www.w3.org/2004/02/skos/core#definition securities offering whereby the underwriter purchases the securities outright for their own account
+Ndcec750176fb4e25a41fff6dd3eb0c54 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Security
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/OfferingDocument http://www.w3.org/2000/01/rdf-schema#subClassOf N355992c3ee94429cbe4d345dbf1f23c2
+Nce6dd2a2c67741cb9410dc3137c96b5d http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/isIssuedInForm http://www.w3.org/2004/02/skos/core#definition indicates the form in which the security is issued, typically in registered form
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityUnderwritingArrangement http://www.w3.org/2000/01/rdf-schema#subClassOf N9580bfef3387415fab969b86e70583e2
+N5bc03e579ad04bc2a3b7c887fcd85a54 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/specifiesConversionInto http://www.w3.org/2000/01/rdf-schema#label specifies conversion into
+N66960d7d69a84d53baf841df9561caa4 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/FinancialInstrumentShortName
+N5da5e9107a984dd28c368e55ade36732 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasExpirationDate
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/PublicOffering https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom Barron's Dictionary of Finance and Investment Terms, Ninth Edition, 2014.
+N6cc6729dcb6d4256940cc01a92233c33 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/underwrites http://www.w3.org/2000/01/rdf-schema#label underwrites
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityUnderwriter http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ConversionTerms http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/RedemptionProvision
+N4e94c79b49d94deda9dd6121417ef716 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryPrice
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityUnderwriter http://www.w3.org/2000/01/rdf-schema#subClassOf N895c5acb428e403dbade00a8e2f316a9
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasFinancialInstrumentShortName http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/BookEntryForm https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym registered form
+N6895a5cfdbfd4a61bf4786600764e524 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ConversionTerms
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecuritiesOffering https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote If the offering is public, then it can only be made after regulatory registration requirements have been met. The securities may be new or a secondary offering of a previously issued security, and may include stock, multiple classes of equity shares, municipal or other government bonds, and so forth. Offerings, especially to the investment public, are typically made by an investment banker, or syndicate of investment bankers.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/OfferingStatement http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/OfferingDocument
+N5da5e9107a984dd28c368e55ade36732 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasFirstTradeSettlementDate http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/Date
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/FirmCommitmentOffering http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20231201/Securities/SecuritiesIssuance.rdf version of the ontology was modified to replace additional concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/FirmCommitmentOffering http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecuritiesOffering
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ExemptOffering http://www.w3.org/2000/01/rdf-schema#subClassOf N6b0b42496cca4150a283ef99c3952e35
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/PrivateOffering http://www.w3.org/2004/02/skos/core#definition offering of securities made privately to a limited number of qualified potential investors
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/BearerAndRegisteredForm http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://www.omg.org/spec/Commons/Documents/Certificate
+N69a98ce830044656b350da60adfe48b6 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityUnderwritingArrangement
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/BearerAndRegisteredForm https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom ISO 10962:2019(E), Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth edition, 2019-10, clause 6.2.2
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ConvertibleSecurity http://www.w3.org/2000/01/rdf-schema#label convertible security
+N6cc6729dcb6d4256940cc01a92233c33 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasFinancialInstrumentShortName
+Nc9367492d1794fb1838ecaf6c312f113 http://www.w3.org/1999/02/22-rdf-syntax-ns#first primary
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/RegisteredForm https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote With registered securities, a ledger is kept by the issuing company or agent which records the owners of all the securities. Transfer of ownership can only occur when names are changed in the ledger.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/isUnderwrittenBy http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/BookEntryForm http://www.w3.org/2004/02/skos/core#definition form of a security in which ownership is recorded electronically by a central depository
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasFirstTradeDate http://www.w3.org/2004/02/skos/core#definition indicates the date on which a newly issued security starts trading
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/FinancialInstrumentShortName https://www.omg.org/spec/Commons/AnnotationVocabulary/abbreviation FISN
+Nc9367492d1794fb1838ecaf6c312f113 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N88e99227eb3a4ae1a4532b26aaa380cc
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasAnnouncementDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasInstrumentDescription http://www.w3.org/2000/01/rdf-schema#domain N80e66967354f431e8a8dd425533e51c3
+Nb40e5d2679e24c07bb09955a01da4d02 http://www.w3.org/1999/02/22-rdf-syntax-ns#first Nef9236e5e13e48288f6f089d9b47a187
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/OfferingDocument http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Documents/LegalDocument
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/isRegisteredWith http://www.w3.org/2000/01/rdf-schema#label is registered
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ExemptOffering http://www.w3.org/2004/02/skos/core#definition public offering involving securities that are excused from certain regulatory reporting requirements
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/underwrites https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Underwriting is the process by which investment bankers raise investment capital from investors on behalf of corporations and governments that are issuing either equity or debt securities.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20211001/Securities/SecuritiesIssuance/ version of this ontology was modified to address text formatting hygiene issues and eliminate dead links.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/FinancialInstrumentShortName http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Release
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/MiscellaneousForm https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Miscellaneous form is used to describe securities wherein the form is not stated as being bearer or registered.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ConvertibleSecurity http://www.w3.org/2004/02/skos/core#definition security that can be converted into another security
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ExemptTransaction http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/SecuritiesTransaction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/OwnershipAndControl/Executives/
+Nffbf12c88e7945a582273230b9627d46 http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/DatesAndTimes/Date
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasAnnouncementDate https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote An announcement date may also refer to the release of a corporate event or new financial news, such as interest rate changes or earnings reports.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/BestEffortsOffering http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecuritiesOffering http://www.w3.org/2000/01/rdf-schema#subClassOf Nc6429ca8d21f4d7ca24806711f65674f
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/PrivateOffering https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Unlike a public offering, a private placement does not have to be registered with a regulatory agency if the securities are purchased for investment rather than resale.
+https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/RolesAndCompositions/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/OfferingDocument http://www.w3.org/2000/01/rdf-schema#subClassOf Nffbf12c88e7945a582273230b9627d46
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ExemptOffering http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/PublicOffering
+N4e94c79b49d94deda9dd6121417ef716 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N26039e5e8cbe44b1b7805a810f8c3a20 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N66960d7d69a84d53baf841df9561caa4
+N26039e5e8cbe44b1b7805a810f8c3a20 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Issuer
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/isRegisteredWith http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityOfferingDistributionType http://www.w3.org/2002/07/owl#equivalentClass N7804bb38e715493188f0384eb5f1511b
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasSubscriptionAmount http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#integer
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ConvertibleSecurity http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasFinancialInstrumentShortName http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/FinancialInstrumentShortName
+N93c1aa49f44b40a099f7bf2e66e81449 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/Prospectus
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/MiscellaneousForm http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ConvertibleSecurity http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Security
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/PublicOffering http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Ne3ee6df727834ca9bbfd79d6c878ec5d http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasInstrumentDescription http://www.w3.org/2004/02/skos/core#definition relates a financial instrument or FISN to an ISO 18774-compliant instrument description, that is, a collection of characteristics and attributes defining a financial instrument with a maximum length up to 19 alphanumeric characters
+N2acb27e5308344198701255125a692d3 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/isEvidencedBy
+N9580bfef3387415fab969b86e70583e2 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/PartiesAndSituations/hasPartyRole
+N355992c3ee94429cbe4d345dbf1f23c2 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecuritiesOffering
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/BearerAndRegisteredForm http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ExemptIssuer http://www.w3.org/2004/02/skos/core#definition issuer that issues securities that are excused from certain regulatory reporting requirements
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasFinancialInstrumentShortName https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom ISO 18774:2015(E), Securities and related financial instruments - Financial Instrument Short Name (FISN)
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/PrivatePlacementMemorandum http://www.w3.org/2000/01/rdf-schema#label private placement memorandum
+N2cda103845a6445c8cde3737735f8256 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/SEC/20240101/Securities/SecuritiesIssuance/
+N93c1aa49f44b40a099f7bf2e66e81449 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/isEvidencedBy
+N66960d7d69a84d53baf841df9561caa4 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityUnderwriter http://www.w3.org/2000/01/rdf-schema#subClassOf Nce6dd2a2c67741cb9410dc3137c96b5d
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/BearerForm http://www.w3.org/2004/02/skos/core#definition form of a security that is not registered in the books of the issuer or of the registrar and is payable to the person possessing the stock or bond certificate
+N7f7a44d0714243299b90e2a9f380f690 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasInstrumentDescription
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasAnnouncementDate http://www.w3.org/2004/02/skos/core#definition indicates the first day the public will receive information regarding a new security issue
+Nc821ef99d7cf4d528a34e632bbd623ea http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/isOverAllotted http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#boolean
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/isRegisteredWith http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/RegistrationAuthorities/isRegisteredBy
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/FunctionalEntities/Publishers/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ExemptIssuer http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Issuer
+Nce6dd2a2c67741cb9410dc3137c96b5d http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasSubscriptionPeriod http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/DatePeriod
+Ndcec750176fb4e25a41fff6dd3eb0c54 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/ContextualDesignators/appliesTo
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/BearerAndRegisteredForm http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityForm
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/BearerForm http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityForm
+N4067b716a9554d5ca94ce15e428e80c7 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N7f7a44d0714243299b90e2a9f380f690 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ExemptTransaction http://www.w3.org/2004/02/skos/core#example Examples include non-issuer transactions in outstanding securities, other isolated non-issuer transactions, certain unsolicited / de minimis transactions, fiduciary transactions, transactions with financial institutions, private placement transactions that meet certain conditions, and so forth.
+https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrument http://www.w3.org/2000/01/rdf-schema#subClassOf N6cc6729dcb6d4256940cc01a92233c33
+N44ac0c96c7974344bd17992a5b9c8bca http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/Offeror
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/isIssuedInForm http://www.w3.org/2000/01/rdf-schema#label is issued in form
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/OfferingDocument http://www.w3.org/2000/01/rdf-schema#label offering document
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityUnderwritingArrangement http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/UnderwritingArrangement
+N957744e073294a05a648e28eb3cf6be8 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/FinancialAsset
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecuritiesOffering http://www.w3.org/2000/01/rdf-schema#label securities offering
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecuritiesOffering https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom Barron's Dictionary of Finance and Investment Terms, Ninth Edition, 2014.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/BestEffortsOffering http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecuritiesOffering
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/PrivatePlacementMemorandum http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/OfferingDocument
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasSubscriptionPeriod http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasDatePeriod
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/FinancialInstrumentShortName http://www.w3.org/2000/01/rdf-schema#label financial instrument short name
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasSubscriptionAmount http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/BookEntryForm http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityForm
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityOfferingDistributionType http://www.w3.org/2000/01/rdf-schema#label security offering distribution type
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/PrivatePlacementMemorandum https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom Barron's Dictionary of Finance and Investment Terms, Ninth Edition, 2014.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://purl.org/dc/terms/abstract This ontology defines the fundamental concepts for issuing securities, including securities offering, offering document, offering statement, securities underwriter, prospectus, and so forth.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecurityUnderwritingArrangement https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom Barron's Dictionary of Business and Economics Terms, Fifth Edition, 2012
+N2cda103845a6445c8cde3737735f8256 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasIssuerShortName
+https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Issuer http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/PrivatePlacementMemorandum http://www.w3.org/2004/02/skos/core#definition legal document stating the objectives, risks and terms of investment involved with a private placement
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/RegisteredForm https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom ISO 10962:2019(E), Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth edition, 2019-10, clause 6.2.2
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasFirstTradeDate http://www.w3.org/2000/01/rdf-schema#label has first trade date
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/MiscellaneousForm http://www.w3.org/2004/02/skos/core#definition form of a security that is not categorized
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ExemptOffering https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Such an offering may be considered exempt either because the issuer is exempt or the transaction specific to the offering is exempt.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/PrivateOffering http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/PrivatePlacementMemorandum https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym offering memorandum
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/PartiesAndSituations/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/OfferingDocument https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote There are many variations, including offering memorandum, which is typically used in the context of a private placement, offering statement, which has slightly different meanings depending on the context (for securities, for bonds, etc.) and so forth. This concept is intended to act as a more abstract parent for these more nuanced concepts.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/hasSubscriptionPeriod http://www.w3.org/2000/01/rdf-schema#label has subscription period
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/PrivateOffering http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecuritiesOffering
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/isIssuedInForm http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/isEvidencedBy
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/isIssuedInForm http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isExemplifiedBy
+N4e94c79b49d94deda9dd6121417ef716 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/hasOfferingPrice
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecuritiesOffering http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Agreement
+N69a98ce830044656b350da60adfe48b6 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/PartiesAndSituations/isAPartyTo
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/PrivatePlacementMemorandum https://www.omg.org/spec/Commons/AnnotationVocabulary/abbreviation PPM

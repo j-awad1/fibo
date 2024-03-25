@@ -1,0 +1,53 @@
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/SECDomain http://purl.org/dc/terms/contributor Thematix Partners LLC
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/SECDomain http://purl.org/dc/terms/contributor Deutsche Bank
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/SECDomain http://www.w3.org/2000/01/rdf-schema#label securities domain
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/SECDomain http://purl.org/dc/terms/contributor BIAN
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/MetadataSECEquities/
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/SECDomain http://purl.org/dc/terms/contributor Tahoe Blue Ltd
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/SECDomain http://purl.org/dc/terms/contributor Credit Suisse
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/SECDomain http://purl.org/dc/terms/contributor Adaptive, Inc.
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/ http://purl.org/dc/terms/issued 2018-03-31T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/SECDomain http://purl.org/dc/terms/contributor Wells Fargo Bank, N.A.
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/SECDomain http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/MetadataSECEquities/EquitiesModule
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/SECDomain http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/SECDomain http://purl.org/dc/terms/contributor HP Enterprise / Mphasis
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/SECDomain http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/MetadataSECSecurities/SecuritiesModule
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/ http://www.w3.org/2000/01/rdf-schema#label Metadata about the EDMC-FIBO Securities (SEC) Domain
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/SECDomain http://purl.org/dc/terms/contributor John F. Tierney
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/SECDomain http://purl.org/dc/terms/contributor Statistics Canada
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/SECDomain http://purl.org/dc/terms/title FIBO SEC Domain
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/SECDomain http://purl.org/dc/terms/contributor Office of Financial Research (US Dept of the Treasury)
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/SECDomain http://purl.org/dc/terms/creator https://wiki.edmcouncil.org/pages/viewpage.action?pageId=786661
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/SECDomain http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/SECDomain http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Module
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/SECDomain http://purl.org/dc/terms/contributor Goldman Sachs
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/SECDomain http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/FundsModule
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/SECDomain http://purl.org/dc/terms/abstract The FIBO Securities (SEC) domain provides a model of concepts that are common to financial instruments that are also securities, including but not limited to exchange-traded securities and funds. High-level concepts relevant to securities classification, identification, issuance, and registration of securities generally are covered, as well as additional detail for equities, debt instruments, and funds. More details defining derivatives in particular are covered in a separate derivatives domain area.
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/SECDomain http://purl.org/dc/terms/contributor Mizuho
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/SECDomain https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2018-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/SECDomain http://purl.org/dc/terms/contributor agnos.ai U.K. Ltd
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/SECDomain http://www.w3.org/2000/01/rdf-schema#seeAlso https://www.edmcouncil.org/fibo/
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/SECDomain http://purl.org/dc/terms/title Financial Industry Business Ontology (FIBO) Securities (SEC) Domain
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/ http://purl.org/dc/terms/abstract The Securities (SEC) Domain covers many of the concepts that are common to a wide variety of securities as well as those specific to equities and various debt instruments, including but not limited to bonds and a wide range of asset-backed securities. This ontology provides metadata about the Securities Domain and its contents.
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/SECDomain https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2018-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/SECDomain http://purl.org/dc/terms/contributor Quarule
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/SECDomain http://purl.org/dc/terms/license http://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/SEC/20230201/MetadataSEC/
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/SECDomain http://purl.org/dc/terms/contributor State Street Bank and Trust
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/ http://purl.org/dc/terms/modified 2023-02-03T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/SECDomain http://purl.org/dc/terms/contributor Citigroup
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/SECDomain http://purl.org/dc/terms/contributor Exprentis
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/SECDomain http://purl.org/dc/terms/contributor Nordea Bank AB
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/SECDomain http://purl.org/dc/terms/contributor Federated Knowledge LLC
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2018-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/MetadataSECSecurities/
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/SECDomain http://purl.org/dc/terms/contributor Bloomberg LP
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/SECDomain http://purl.org/dc/terms/contributor John F. Gemski
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/SECDomain http://purl.org/dc/terms/contributor Dassault Systemes / No Magic
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/ http://purl.org/dc/terms/license http://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/SEC/MetadataSEC/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2018-2023 Object Management Group, Inc.

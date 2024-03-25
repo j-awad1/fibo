@@ -1,0 +1,175 @@
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/isSubmittedTo http://www.w3.org/2004/02/skos/core#definition indicates the party to which something is submitted
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Request http://www.w3.org/2000/01/rdf-schema#subClassOf Ne690ed2dce3341aba797f0d95bd3c0d5
+N2686104d92af4446a332499fab19098b http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Report
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/hasRequestDateTime http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/DateTime
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/isSubmittedTo http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/PartiesAndSituations/hasPartyRole
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/RequestActivity http://www.w3.org/2000/01/rdf-schema#subClassOf Nf60a611575c04161afdfc7e921c881bd
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Report http://www.w3.org/2000/01/rdf-schema#subClassOf N19b118644d7549bbaf3aea943a897da7
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/hasRequestDateTime http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasDateTime
+Nd3e9984a2ba046edbb59d1e5dc808c60 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/submits
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/isSubmittedBy http://www.w3.org/2002/07/owl#inverseOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/submits
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Report https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Reports may refer to specific periods, events, occurrences, or subjects, and may be communicated or presented in oral, electronic, or written form.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/
+Nf806d6ecf14b4e7c86fb9ba9012e8cf4 http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/DatesAndTimes/DatePeriod
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/RequestActivity http://www.w3.org/2000/01/rdf-schema#label request activity
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Documents/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/ http://purl.org/dc/terms/abstract This ontology defines the notion of a Report and related party concepts.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20230101/Arrangements/Reporting.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Request http://www.w3.org/2000/01/rdf-schema#subClassOf Nd6ab1f6ec2fa453782793c05221ecf71
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2018-2024 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/reportsOn http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/Documents/isAbout
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/hasRequestDate http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasExplicitDate
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/requests http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/Documents/isAbout
+N8c4244c18b64414d8a054ad50cd0c217 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+Ne690ed2dce3341aba797f0d95bd3c0d5 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Requester
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/hasRequestDate http://www.w3.org/2004/02/skos/core#definition date on which a request was made
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/isRequestedOf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/DatesAndTimes/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/hasReportDate http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDate
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Requester http://www.w3.org/2000/01/rdf-schema#label requester
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/isRequestedBy http://www.w3.org/2000/01/rdf-schema#label is requested by
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/isReportedTo http://www.w3.org/2000/01/rdf-schema#label is reported to
+N2c147282857a46bfacdf9247f74722b1 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/isSubmittedTo
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20230301/Arrangements/Reporting.rdf version of the ontology was modified to replace concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/isRequestedOf http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/PartiesAndSituations/PartyRole
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/hasRequestDate http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDate
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Report http://www.w3.org/2000/01/rdf-schema#subClassOf N2c147282857a46bfacdf9247f74722b1
+Nd6ab1f6ec2fa453782793c05221ecf71 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/hasRequestDateTime
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/isReportedTo http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/PartiesAndSituations/PartyRole
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/submits http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Submitter
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Request http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N50fe47840e1247f692323c8a0ef5eb87 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Submitter
+Nd6ab1f6ec2fa453782793c05221ecf71 http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/DatesAndTimes/DateTime
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Report http://www.w3.org/2000/01/rdf-schema#label report
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Requester http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/PartiesAndSituations/PartyRole
+Ne690ed2dce3341aba797f0d95bd3c0d5 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Report http://www.w3.org/2000/01/rdf-schema#subClassOf N8c4244c18b64414d8a054ad50cd0c217
+N122fb2267cc049aa891e5b59e13f31c7 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/requests http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N2686104d92af4446a332499fab19098b http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/provides
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/isRequestedOf http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/PartiesAndSituations/hasPartyRole
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/isSubmittedBy http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Request http://www.w3.org/2000/01/rdf-schema#subClassOf N5f3648eb8b2a44c38710e8a55448ddf5
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Submitter http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+Nd3e9984a2ba046edbb59d1e5dc808c60 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/hasReportDateTime http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasDateTime
+N50fe47840e1247f692323c8a0ef5eb87 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nf806d6ecf14b4e7c86fb9ba9012e8cf4 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nd6ab1f6ec2fa453782793c05221ecf71 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Request http://www.w3.org/2000/01/rdf-schema#subClassOf N122fb2267cc049aa891e5b59e13f31c7
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/reportsOn http://www.w3.org/2004/02/skos/core#definition indicates a subject matter, observation(s), assessment(s), focus or other topic of a report
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/requests http://www.w3.org/2000/01/rdf-schema#label requests
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Request http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/Occurrence
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Requester http://www.w3.org/2004/02/skos/core#definition party that asks for something
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20180801/Arrangements/Reporting.rdf version of this ontology was modified to incorporate evaluates and isEvaluatedBy.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Request http://www.w3.org/2000/01/rdf-schema#subClassOf Na872b9843248453ca60656d9b92c88bc
+N8c4244c18b64414d8a054ad50cd0c217 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/hasReportDateTime
+N2c147282857a46bfacdf9247f74722b1 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/ReportingParty http://www.w3.org/2000/01/rdf-schema#label reporting party
+Nf60a611575c04161afdfc7e921c881bd http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/requests
+N173bd770869e42208c8d9d4e5353f3a7 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/FND/20240101/Arrangements/Reporting/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/isSubmittedBy http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Submitter
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20190901/Arrangements/Reporting.rdf version of this ontology was modified to eliminate references to deprecated elements and to external dictionary sites that no longer resolve, and to integrate concepts related to making a request for something.
+N5f3648eb8b2a44c38710e8a55448ddf5 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/hasRequestDate
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/hasReportDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/isSubmittedBy http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isProvidedBy
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/ http://www.w3.org/2000/01/rdf-schema#label Reporting Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/isSubmittedTo http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/PartiesAndSituations/PartyRole
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/isRequestedBy http://www.w3.org/2004/02/skos/core#definition indicates the party that asks for something
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/isRequestedOf http://www.w3.org/2000/01/rdf-schema#label is requested of
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/submits http://www.w3.org/2000/01/rdf-schema#label submits
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+N2686104d92af4446a332499fab19098b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nf806d6ecf14b4e7c86fb9ba9012e8cf4 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N173bd770869e42208c8d9d4e5353f3a7 http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/Commons/PartiesAndSituations/PartyRole
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/hasReportDate http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasDateOfIssuance
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+N69b1bad00c334fe1b209dd4e556ed862 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/ReportingParty
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/RequestActivity http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/OccurrenceKind
+Na872b9843248453ca60656d9b92c88bc http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/isRequestedOf
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/hasRequestDateTime http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N19b118644d7549bbaf3aea943a897da7 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/submits http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/provides
+N2c147282857a46bfacdf9247f74722b1 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/reportsOn http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/hasRequestDateTime http://www.w3.org/2000/01/rdf-schema#label has request date time
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Report http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/reportsOn http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Report
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/submits http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Report http://www.w3.org/2004/02/skos/core#definition document that provides a structured description of something, prepared on ad hoc, periodic, recurring, regular, or as required basis
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/isRequestedBy http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/isSubmittedBy http://www.w3.org/2000/01/rdf-schema#label is submitted by
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20210301/Arrangements/Reporting.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/hasRequestDateTime http://www.w3.org/2004/02/skos/core#definition date and time at which a request was made
+N19b118644d7549bbaf3aea943a897da7 http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDate
+N173bd770869e42208c8d9d4e5353f3a7 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/isReportedTo
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/isReportedTo http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/PartiesAndSituations/hasPartyRole
+N122fb2267cc049aa891e5b59e13f31c7 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/exemplifies
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20231201/Arrangements/Reporting.rdf version of the ontology was modified to replace additional concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/RequestActivity http://www.w3.org/2004/02/skos/core#definition activity in which some party asks another party for something or to do something
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/isReportedTo http://www.w3.org/2004/02/skos/core#definition indicates the party to which something is reported
+Ne690ed2dce3341aba797f0d95bd3c0d5 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/isRequestedBy
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Request http://www.w3.org/2004/02/skos/core#definition event in which some party asks another party for something at some point in time
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2018-2024 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/hasReportDate http://www.w3.org/2000/01/rdf-schema#label has report date
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Release
+N69b1bad00c334fe1b209dd4e556ed862 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isProvidedBy
+N19b118644d7549bbaf3aea943a897da7 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+Na872b9843248453ca60656d9b92c88bc http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/isRequestedBy http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/PartiesAndSituations/hasPartyRole
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/hasReportDate http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasExplicitDate
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/hasReportDateTime http://www.w3.org/2004/02/skos/core#definition date and time at which a report was issued
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+Nd3e9984a2ba046edbb59d1e5dc808c60 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Report
+N5f3648eb8b2a44c38710e8a55448ddf5 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N19b118644d7549bbaf3aea943a897da7 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/hasReportDate
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/isSubmittedTo http://www.w3.org/2000/01/rdf-schema#label is submitted to
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Submitter http://www.w3.org/2000/01/rdf-schema#label submitter
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/isReportedTo http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Report http://www.w3.org/2000/01/rdf-schema#subClassOf N50fe47840e1247f692323c8a0ef5eb87
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/hasReportDate http://www.w3.org/2004/02/skos/core#definition date on which a report was issued
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/reportsOn http://www.w3.org/2000/01/rdf-schema#label reports on
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/ReportingParty http://www.w3.org/2000/01/rdf-schema#subClassOf N2686104d92af4446a332499fab19098b
+N8c4244c18b64414d8a054ad50cd0c217 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/PartiesAndSituations/
+Na872b9843248453ca60656d9b92c88bc http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/Commons/PartiesAndSituations/PartyRole
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/
+N5f3648eb8b2a44c38710e8a55448ddf5 http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDate
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Submitter http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/PartiesAndSituations/PartyRole
+N50fe47840e1247f692323c8a0ef5eb87 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/hasReportDateTime http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/DateTime
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/isSubmittedBy http://www.w3.org/2004/02/skos/core#definition indicates the party that submits something
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/requests http://www.w3.org/2004/02/skos/core#definition asks for something
+N50fe47840e1247f692323c8a0ef5eb87 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/isSubmittedBy
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/hasReportDateTime http://www.w3.org/2000/01/rdf-schema#label has report date time
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Submitter http://www.w3.org/2004/02/skos/core#definition party presenting something, such as a regulatory report
+N8c4244c18b64414d8a054ad50cd0c217 http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/DatesAndTimes/DateTime
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Report http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Documents/Document
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Request http://www.w3.org/2000/01/rdf-schema#label request
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/ReportingParty http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Requester http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N5f3648eb8b2a44c38710e8a55448ddf5 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Submitter http://www.w3.org/2000/01/rdf-schema#subClassOf Nd3e9984a2ba046edbb59d1e5dc808c60
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Report http://www.w3.org/2000/01/rdf-schema#subClassOf N69b1bad00c334fe1b209dd4e556ed862
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Report http://www.w3.org/2000/01/rdf-schema#subClassOf N173bd770869e42208c8d9d4e5353f3a7
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/isRequestedBy http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Requester
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Report http://www.w3.org/2000/01/rdf-schema#subClassOf Nf806d6ecf14b4e7c86fb9ba9012e8cf4
+Nf60a611575c04161afdfc7e921c881bd http://www.w3.org/2002/07/owl#someValuesFrom http://www.w3.org/2002/07/owl#Thing
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/ReportingParty http://www.w3.org/2004/02/skos/core#definition party providing a report, typically in response to some contractual, legal, regulatory or other business requirement
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/hasRequestDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+Nd6ab1f6ec2fa453782793c05221ecf71 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N69b1bad00c334fe1b209dd4e556ed862 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N122fb2267cc049aa891e5b59e13f31c7 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/RequestActivity
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/hasRequestDate http://www.w3.org/2000/01/rdf-schema#label has request date
+Nf60a611575c04161afdfc7e921c881bd http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/isSubmittedTo http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N2c147282857a46bfacdf9247f74722b1 http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/PartiesAndSituations/PartyRole
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/isRequestedOf http://www.w3.org/2004/02/skos/core#definition indicates the party that is asked for something
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/RequestActivity http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/ReportingParty http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/PartiesAndSituations/PartyRole
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/submits http://www.w3.org/2004/02/skos/core#definition presents something (a proposal, application, report, or other document) for consideration or review
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/hasReportDateTime http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+Nf806d6ecf14b4e7c86fb9ba9012e8cf4 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasReportingPeriod

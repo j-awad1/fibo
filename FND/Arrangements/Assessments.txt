@@ -1,0 +1,172 @@
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AssessmentReport http://www.w3.org/2000/01/rdf-schema#subClassOf Ne9725280aa9d4f948299c8b660c73f31
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/
+N09fa550cad4a4a5ab32c509fb7a469e0 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isGeneratedBy
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/isEstimatedValueOf http://www.w3.org/2000/01/rdf-schema#label is estimated value of
+Ne9725280aa9d4f948299c8b660c73f31 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/reportsOn
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AssessmentReport http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Report
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/Appraisal http://www.w3.org/2000/01/rdf-schema#subClassOf N81161e498a394333936838bc2d16ef6e
+N81161e498a394333936838bc2d16ef6e http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/evaluates
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AssessmentEvent http://www.w3.org/2000/01/rdf-schema#subClassOf N8f43fc0b8ddc468587a7b4b1844bafd7
+N6d3f3efb502d44b595648d2ef66e7214 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/Appraisal
+N404e387e71244297b953089ef157df8d http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AssessmentReport
+N404e387e71244297b953089ef157df8d http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N8f43fc0b8ddc468587a7b4b1844bafd7 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N34461e4ba47e4cf19d219d5942f7efcb http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AppraisedValue http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AssessmentActivity http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/OccurrenceKind
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/Opinion http://www.w3.org/2004/02/skos/core#definition judgement, appraisal, or view about something
+N9a62a67c184043ceaad05aa725897958 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/Appraisal http://www.w3.org/2000/01/rdf-schema#label appraisal
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/Opinion http://www.w3.org/2000/01/rdf-schema#subClassOf N733f1c275c2e4bf496dcf22528595072
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/hasDateOfAssessment http://www.w3.org/2000/01/rdf-schema#label has date of assessment
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/hasDateOfAssessment http://www.w3.org/2004/02/skos/core#definition date on which an assessment process was completed
+N8f43fc0b8ddc468587a7b4b1844bafd7 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/exemplifies
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ValuationMethod http://www.w3.org/2004/02/skos/core#definition method used to determine the present or expected worth of an asset
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/DatesAndTimes/
+N5db1a63739ca482e8bd14384c9dca591 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N733f1c275c2e4bf496dcf22528595072 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/isOutputFrom
+N8f43fc0b8ddc468587a7b4b1844bafd7 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AssessmentEvent http://www.w3.org/2000/01/rdf-schema#label assessment event
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/estimatesValueAt http://www.w3.org/2004/02/skos/core#definition provides an approximate value of some asset as of some point in time
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/FND/20240101/Arrangements/Assessments/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/Appraiser http://www.w3.org/2000/01/rdf-schema#subClassOf Ncdca0af0c763409a907eaa8511036da2
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/Appraiser http://www.w3.org/2000/01/rdf-schema#label appraiser
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AssessmentEvent http://www.w3.org/2000/01/rdf-schema#subClassOf N5db1a63739ca482e8bd14384c9dca591
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/Opinion http://www.w3.org/2000/01/rdf-schema#label opinion
+N8e122e5bdb684f648bea8a215ce626ef http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasOutput
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/appliesMethodology http://www.w3.org/2000/01/rdf-schema#label applies methodology
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ValuationMethod http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N6d3f3efb502d44b595648d2ef66e7214 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N9a62a67c184043ceaad05aa725897958 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/Appraiser
+Nd8665ec84d894fc6a234d914305daa64 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AppraisedValue
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/hasAppraiser http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isProvidedBy
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ValueAssessment https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Note that an appraiser in this context may be a licensed appraiser, such as a real estate appraiser or auction house, or a calculation agent, depending on the circumstances.
+N9a62a67c184043ceaad05aa725897958 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N34461e4ba47e4cf19d219d5942f7efcb http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N6d3f3efb502d44b595648d2ef66e7214 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasOutput
+N34461e4ba47e4cf19d219d5942f7efcb http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ValuationMethod
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20230301/Arrangements/Assessments.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/Appraisal http://www.w3.org/2000/01/rdf-schema#subClassOf N9a62a67c184043ceaad05aa725897958
+N6db9678e6a644a6888bd9fbddfdb0583 http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/Commons/PartiesAndSituations/AgentRole
+N30d4384585dc401d828bcb176a29c4d4 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/Appraisal http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AssessmentActivity http://www.w3.org/2000/01/rdf-schema#label assessment activity
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/Appraisal http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AssessmentReport
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ValueAssessment http://www.w3.org/2000/01/rdf-schema#label value assessment
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ValueAssessment http://www.w3.org/2000/01/rdf-schema#subClassOf N6d3f3efb502d44b595648d2ef66e7214
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20230101/Arrangements/Assessments.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/hasEstimatedValue http://www.w3.org/2000/01/rdf-schema#label has estimated value
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/hasAppraiser http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+Ne9725280aa9d4f948299c8b660c73f31 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ValueAssessment http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AssessmentEvent
+N6db9678e6a644a6888bd9fbddfdb0583 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/hasAppraiser
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/hasAppraiser http://www.w3.org/2004/02/skos/core#definition relates an assessment or report to an agent that conducts the assessment
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2019-2024 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/appliesMethodology http://www.w3.org/2004/02/skos/core#definition indicates the strategy used for the purposes of determining the fair market or present value of something
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20190601/Arrangements/Assessments.rdf version of this ontology was revised to integrate concepts related to value assessments / appraisals.
+N09fa550cad4a4a5ab32c509fb7a469e0 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ValuationMethod http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/Strategy
+N404e387e71244297b953089ef157df8d http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasOutput
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20231201/Arrangements/Assessments.rdf version of this ontology was modified to replace additional content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ http://purl.org/dc/terms/abstract This ontology defines abstract concepts for assessments, evaluations, and outcomes, as the basis for various analysis, such as for business performance, compliance and risk.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2019-2024 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/QuantitiesAndUnits/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/Appraiser http://www.w3.org/2000/01/rdf-schema#subClassOf N63809246438846488eece2c25ab083a7
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ http://www.w3.org/2000/01/rdf-schema#label Assessments Ontology
+Nd8665ec84d894fc6a234d914305daa64 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AppraisedValue http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/hasEstimatedValue http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasMonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/
+N63809246438846488eece2c25ab083a7 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AssessmentActivity http://www.w3.org/2000/01/rdf-schema#subClassOf N30d4384585dc401d828bcb176a29c4d4
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AssessmentActivity http://www.w3.org/2004/02/skos/core#definition activity involving the evaluation or estimation of the nature, quality, ability, or value of someone or something
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ValueAssessment http://www.w3.org/2004/02/skos/core#definition assessment event to estimate the value of something
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AssessmentEvent http://www.w3.org/2004/02/skos/core#definition event involving the evaluation or estimation of the nature, quality, or ability of someone or something
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/appliesMethodology http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/hasStrategy
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/hasAppraiser http://www.w3.org/2000/01/rdf-schema#label has appraiser
+Na62a6ba5c20f4073b9735bb4d7ffea36 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/hasEstimatedValue http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N34461e4ba47e4cf19d219d5942f7efcb http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/appliesMethodology
+N81161e498a394333936838bc2d16ef6e http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/Ownership/Asset
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AssessmentActivity http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AppraisedValue http://www.w3.org/2004/02/skos/core#definition estimated value of some asset as of a given point in time
+N6db9678e6a644a6888bd9fbddfdb0583 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AppraisedValue http://www.w3.org/2000/01/rdf-schema#label appraised value
+N99c300345ed24a07b0d52ebad935b657 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isProvidedBy
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AssessmentActivity http://www.w3.org/2000/01/rdf-schema#subClassOf N99c300345ed24a07b0d52ebad935b657
+N30d4384585dc401d828bcb176a29c4d4 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/evaluates
+Na62a6ba5c20f4073b9735bb4d7ffea36 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/evaluates
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/isEstimatedValueOf http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AppraisedValue
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/isEstimatedValueOf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+Ncdca0af0c763409a907eaa8511036da2 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/provides
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Release
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20200201/Arrangements/Assessments.rdf version of this ontology was revised to augment the definition of appraisal with an estimated value and correct a bug in the definition of hasAppraiser.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/Appraisal http://www.w3.org/2004/02/skos/core#definition written estimate of the market value of something as of some point in time, typically provided by a qualified appraiser
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AssessmentReport http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20221001/Arrangements/Assessments.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.
+N30d4384585dc401d828bcb176a29c4d4 http://www.w3.org/2002/07/owl#minCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/Appraiser http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Na62a6ba5c20f4073b9735bb4d7ffea36 http://www.w3.org/2002/07/owl#minCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AssessmentEvent http://www.w3.org/2000/01/rdf-schema#subClassOf N404e387e71244297b953089ef157df8d
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+N81161e498a394333936838bc2d16ef6e http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/Appraiser http://www.w3.org/2004/02/skos/core#definition party that evaluates or estimates the nature, quality, ability, or value of someone or something
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/hasDateOfAssessment http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDate
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/estimatesValueAt http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasMonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/hasDateOfAssessment http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AssessmentEvent http://www.w3.org/2000/01/rdf-schema#subClassOf Na62a6ba5c20f4073b9735bb4d7ffea36
+N8f43fc0b8ddc468587a7b4b1844bafd7 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AssessmentActivity
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/appliesMethodology http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ValuationMethod
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/estimatesValueAt http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AppraisedValue
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ValueAssessment http://www.w3.org/2000/01/rdf-schema#subClassOf N6db9678e6a644a6888bd9fbddfdb0583
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/isEstimatedValueOf http://www.w3.org/2002/07/owl#inverseOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/hasEstimatedValue
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AssessmentEvent http://www.w3.org/2000/01/rdf-schema#subClassOf N8e122e5bdb684f648bea8a215ce626ef
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/Opinion http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AssessmentEvent http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Ne9725280aa9d4f948299c8b660c73f31 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+Ne9725280aa9d4f948299c8b660c73f31 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/Opinion
+N81161e498a394333936838bc2d16ef6e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/Appraiser http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/PartiesAndSituations/PartyRole
+N6d3f3efb502d44b595648d2ef66e7214 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N5db1a63739ca482e8bd14384c9dca591 http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/Commons/PartiesAndSituations/AgentRole
+N733f1c275c2e4bf496dcf22528595072 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N99c300345ed24a07b0d52ebad935b657 http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/Commons/PartiesAndSituations/AgentRole
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AssessmentReport http://www.w3.org/2000/01/rdf-schema#label assessment report
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AssessmentEvent http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/Occurrence
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/appliesMethodology http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N63809246438846488eece2c25ab083a7 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/evaluates
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ValuationMethod https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Asset valuation is the process of determining the fair market or present value of assets, using book values, absolute valuation models like discounted cash flow analysis, option pricing models or comparables. Such assets include investments in marketable securities such as stocks, bonds and options; tangible assets like buildings and equipment; or intangible assets such as brands, patents and trademarks.
+N09fa550cad4a4a5ab32c509fb7a469e0 http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/Commons/PartiesAndSituations/AgentRole
+N9a62a67c184043ceaad05aa725897958 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isGeneratedBy
+N5db1a63739ca482e8bd14384c9dca591 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isProvidedBy
+N63809246438846488eece2c25ab083a7 http://www.w3.org/2002/07/owl#minCardinality 0
+Ncdca0af0c763409a907eaa8511036da2 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/Appraisal
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/isEstimatedValueOf http://www.w3.org/2004/02/skos/core#definition relates an appraised value to the asset of interest as of the date of the assessment
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/estimatesValueAt http://www.w3.org/2000/01/rdf-schema#label estimates value at
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/hasDateOfAssessment http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasExplicitDate
+N99c300345ed24a07b0d52ebad935b657 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ValueAssessment http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/Appraisal http://www.w3.org/2000/01/rdf-schema#subClassOf Nd8665ec84d894fc6a234d914305daa64
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/isEstimatedValueOf http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/QuantitiesAndUnits/isValueOf
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20211201/Arrangements/Assessments.rdf version of this ontology was revised to add the concept of a valuation method, which is then applied in the context of a value assessment.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/hasEstimatedValue http://www.w3.org/2004/02/skos/core#definition relates something to its estimated value
+N404e387e71244297b953089ef157df8d http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N8e122e5bdb684f648bea8a215ce626ef http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/Opinion
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/Ownership/
+Nd8665ec84d894fc6a234d914305daa64 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/estimatesValueAt
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/Opinion http://www.w3.org/2000/01/rdf-schema#subClassOf N09fa550cad4a4a5ab32c509fb7a469e0
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/hasEstimatedValue http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AppraisedValue
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/PartiesAndSituations/
+N8e122e5bdb684f648bea8a215ce626ef http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AssessmentReport http://www.w3.org/2004/02/skos/core#definition report that includes an opinion, judgement, appraisal, or view about something and typically the methodology and raw inputs used to arrive at that opinion
+N733f1c275c2e4bf496dcf22528595072 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AssessmentEvent
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ValueAssessment http://www.w3.org/2000/01/rdf-schema#subClassOf N34461e4ba47e4cf19d219d5942f7efcb
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/estimatesValueAt http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/ValuationMethod http://www.w3.org/2000/01/rdf-schema#label valuation method
+Ncdca0af0c763409a907eaa8511036da2 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction

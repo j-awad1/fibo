@@ -1,0 +1,30 @@
+https://spec.edmcouncil.org/fibo/ontology/FND/AllFND-NorthAmerica/ http://purl.org/dc/terms/modified 2023-01-20T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/FND/AllFND-NorthAmerica/ http://purl.org/dc/terms/contributor State Street Bank and Trust
+https://spec.edmcouncil.org/fibo/ontology/FND/AllFND-NorthAmerica/ http://purl.org/dc/terms/contributor agnos.ai, UK Ltd.
+https://spec.edmcouncil.org/fibo/ontology/FND/AllFND-NorthAmerica/ http://www.w3.org/2000/01/rdf-schema#seeAlso https://spec.edmcouncil.org/fibo/
+https://spec.edmcouncil.org/fibo/ontology/FND/AllFND-NorthAmerica/ http://purl.org/dc/terms/contributor Thematix Partners LLC
+https://spec.edmcouncil.org/fibo/ontology/FND/AllFND-NorthAmerica/ http://purl.org/dc/terms/issued 2020-03-22T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/FND/AllFND-NorthAmerica/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/FND/20230101/AllFND-NorthAmerica/
+https://spec.edmcouncil.org/fibo/ontology/FND/AllFND-NorthAmerica/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddressesIndividuals/
+https://spec.edmcouncil.org/fibo/ontology/FND/AllFND-NorthAmerica/ http://purl.org/dc/terms/contributor Anthony B. Coates
+https://spec.edmcouncil.org/fibo/ontology/FND/AllFND-NorthAmerica/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2017-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/AllFND-NorthAmerica/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/FND/AllFND-NorthAmerica/ http://purl.org/dc/terms/contributor Hypercube Limited
+https://spec.edmcouncil.org/fibo/ontology/FND/AllFND-NorthAmerica/ http://purl.org/dc/terms/contributor Tahoe Blue Ltd
+https://spec.edmcouncil.org/fibo/ontology/FND/AllFND-NorthAmerica/ http://purl.org/dc/terms/contributor Wells Fargo
+https://spec.edmcouncil.org/fibo/ontology/FND/AllFND-NorthAmerica/ http://purl.org/dc/terms/title Financial Industry Business Ontology (FIBO) Foundations (FND) Domain, North American Extension
+https://spec.edmcouncil.org/fibo/ontology/FND/AllFND-NorthAmerica/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/AllFND-NorthAmerica/ http://purl.org/dc/terms/contributor Pinnacle Bank (Morgan Hill, California)
+https://spec.edmcouncil.org/fibo/ontology/FND/AllFND-NorthAmerica/ http://purl.org/dc/terms/contributor Working Ontologist
+https://spec.edmcouncil.org/fibo/ontology/FND/AllFND-NorthAmerica/ http://purl.org/dc/terms/abstract The North American extension of the Foundations (FND) domain builds on the more general FND ontologies with concepts that are specific to the North American region of the world, such as those defining North American addresses.
+https://spec.edmcouncil.org/fibo/ontology/FND/AllFND-NorthAmerica/ http://purl.org/dc/terms/contributor Adaptive, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/AllFND-NorthAmerica/ http://purl.org/dc/terms/title FIBO FND Domain, North American Extension
+https://spec.edmcouncil.org/fibo/ontology/FND/AllFND-NorthAmerica/ http://www.w3.org/2000/01/rdf-schema#label all FND, North America
+https://spec.edmcouncil.org/fibo/ontology/FND/AllFND-NorthAmerica/ http://purl.org/dc/terms/contributor Nordea Bank AB
+https://spec.edmcouncil.org/fibo/ontology/FND/AllFND-NorthAmerica/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/
+https://spec.edmcouncil.org/fibo/ontology/FND/AllFND-NorthAmerica/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2017-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/AllFND-NorthAmerica/ http://purl.org/dc/terms/contributor Maxwell Gillmore
+https://spec.edmcouncil.org/fibo/ontology/FND/AllFND-NorthAmerica/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/AllFND/
+https://spec.edmcouncil.org/fibo/ontology/FND/AllFND-NorthAmerica/ http://purl.org/dc/terms/contributor John F. Gemski
+https://spec.edmcouncil.org/fibo/ontology/FND/AllFND-NorthAmerica/ https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The 'all' ontology for Foundations (FND), North American Extension is provided for convenience for FIBO users. This ontology does not add new assertions, but imports the Production (Released) ontologies that comprise the FIBO Foundations (FND) domain, including extensions related to postal addressing in the US and Canada.
+https://spec.edmcouncil.org/fibo/ontology/FND/AllFND-NorthAmerica/ http://purl.org/dc/terms/contributor Office of Financial Research (US Dept of the Treasury)

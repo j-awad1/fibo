@@ -1,0 +1,197 @@
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/Organization http://www.w3.org/2000/01/rdf-schema#subClassOf N110f8780b9f44680a011b0d87c1cceb7
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationMember http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N26ffb6f7028141d6af378ddb02447e03 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationalSubUnit
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationIdentificationScheme http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Identifiers/IdentificationScheme
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/Organization http://www.w3.org/2000/01/rdf-schema#label organization
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20201101/Organizations/Organizations.rdf version of this ontology was modified to allow the Organizations ontology to import Parties, rather than the other way around, to simplify the class hierarchy for ease of use in data mapping and alignment, including moving OrganizationMember from Parties to Organizations, and to add the basis for structured organization name representation.
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/hasOrganizationMember http://www.w3.org/2004/02/skos/core#definition indicates the party that is the member in an organizational membership situation
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20221201/Organizations/Organizations.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/isMembershipPartyIn http://www.w3.org/2000/01/rdf-schema#label is membership party in
+N2398933dbb2e4d868874de206fca1488 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/PartiesAndSituations/
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/hasOrganizationMember http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/PartiesAndSituations/hasUndergoer
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/Organization http://www.w3.org/2000/01/rdf-schema#seeAlso https://www.w3.org/TR/vocab-org/#org:Organization
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20180801/Organizations/Organizations.rdf version of this ontology was modified to revise the definition of Organization to broaden its scope to individuals that may or may not be people and eliminate duplication with concepts in LCC.
+Nfe84a11776ed4a888feed3647f54900c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationPartIdentifier http://www.w3.org/2004/02/skos/core#definition identifier allocated to a particular organizational sub-unit
+N6ebe08c3614f4eb0818a60f917a1470f http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/isMemberOf
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/Membership http://www.w3.org/2000/01/rdf-schema#label membership
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Identifiers/Identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/hasSubUnit http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+Nb60d7f4b5e874be98ce02b5367fe4ab8 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationPartIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf N26ffb6f7028141d6af378ddb02447e03
+N985d80f403344186b5e85dda80a63cb5 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N2353c7dcdcb94ad7b92d81b28074d4fa http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+N2353c7dcdcb94ad7b92d81b28074d4fa http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/isMemberOf
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/Membership http://www.w3.org/2000/01/rdf-schema#seeAlso https://www.w3.org/TR/vocab-org/#class-membership
+Nbc3805f1693546f58730b1ae2d665fce http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/hasOrganizationMember
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/Organization http://www.w3.org/2000/01/rdf-schema#subClassOf Nb60d7f4b5e874be98ce02b5367fe4ab8
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/Membership http://www.w3.org/2000/01/rdf-schema#subClassOf N985d80f403344186b5e85dda80a63cb5
+N2398933dbb2e4d868874de206fca1488 http://www.w3.org/2002/07/owl#someValuesFrom N6ebe08c3614f4eb0818a60f917a1470f
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/hasMembership http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/isMembershipPartyIn http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationalSubUnit http://www.w3.org/2004/02/skos/core#definition any department, service, and other entity within a larger organization that only has full recognition within the context of that organization, but requires identification for some purpose
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/hasSubUnit http://www.w3.org/2000/01/rdf-schema#label has sub-unit
+N2353c7dcdcb94ad7b92d81b28074d4fa http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationIdentificationScheme
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/isSubUnitOf http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationalSubUnit
+Nfe84a11776ed4a888feed3647f54900c http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/Organization
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/hasOrganizationMember http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+Nbc3805f1693546f58730b1ae2d665fce http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/hasMembership http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/Membership
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/ http://www.w3.org/2004/02/skos/core#changeNote The http://www.omg.org/spec/FIBO/Foundations/20130601/Organizations/Organizations.owl version of the ontology was revised in advance of the September 2013 New Brunswick, NJ meeting, as follows:
+	(1) to use slash style URI/IRIss (also called 303 URIs, vs. hash style) as required to support server side processing 
+	(2) to use version-independent IRIs for all definitions internally as opposed to version-specific IRIs
+	(3) to change the file suffix from .owl to .rdf to increase usability in RDF tools
+	(4) to use 4-level abbreviations and corresponding namespace prefixes for all FIBO ontologies, reflecting a family/specification/module/ontology structure
+	(5) to incorporate changes to the specification metadata to support documentation at the family, specification, module, and ontology level, similar to the abbreviations.
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/isOrganizationMember http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationMember
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationMember http://www.w3.org/2004/02/skos/core#definition party (person or organization) that has a membership role with respect to some organization
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20200201/Organizations/Organizations.rdf version of this ontology was modified to reflect the merge of Goals and Objectives.
+Nff033cf9fee24ab5864a45eea272a09c http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/hasMember
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/ http://purl.org/dc/terms/abstract This ontology defines high-level concepts for organizations and related terms, which is purposefully underspecified to facilitate mapping to specific organization ontologies, such as the W3C organization ontology, organization from a BMM or BPMN perspective, organization from a records management (RMS) perspective, and so forth.
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/hasMembership http://www.w3.org/2000/01/rdf-schema#label has membership role
+N9f092ee5681d48ce843a8d549995a285 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationName http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20130801/Organizations/Organizations.rdf version of this ontology was modified per the issue resolutions identified in the FIBO FND 1.0 FTF report and in https://spec.edmcouncil.org/fibo/ontology/FND/1.0/AboutFND-1.0/.
+N86d62f4ad06d4fe79031a6ce9d372065 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Designators/hasName
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationMember http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/PartiesAndSituations/PartyRole
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationIdentifier http://www.w3.org/2004/02/skos/core#definition identifier assigned to an organization within an organization identification scheme, and unique within that scheme
+N2353c7dcdcb94ad7b92d81b28074d4fa http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nc1ab3acfff6a451f9bd88fa0ba37d236 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationIdentifier http://www.w3.org/2000/01/rdf-schema#label organization identifier
+N2398933dbb2e4d868874de206fca1488 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationName http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/ContextualDesignators/ContextualName
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationalSubUnit http://www.w3.org/2000/01/rdf-schema#seeAlso https://www.w3.org/TR/vocab-org/#org:OrganizationalUnit
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/Membership http://www.w3.org/2000/01/rdf-schema#subClassOf Nbc3805f1693546f58730b1ae2d665fce
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationIdentifier http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/isOrganizationMember http://www.w3.org/2000/01/rdf-schema#label is organization member
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationalSubUnit http://www.w3.org/2000/01/rdf-schema#label organizational sub-unit
+N110f8780b9f44680a011b0d87c1cceb7 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/hasPart
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationIdentificationScheme http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/hasMembership http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/MemberBearingOrganization
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/hasSubUnit http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/Collections/hasPart
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20220701/Organizations/Organizations.rdf version of this ontology was modified to make having a goal optional for any given organization.
+N9f092ee5681d48ce843a8d549995a285 http://www.w3.org/2002/07/owl#allValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/Organization
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20210601/Organizations/Organizations.rdf version of this ontology was modified to to move basic organization sub-unit and identifier definitions to FND from BE due to their fundamental nature and reusability and add links to the W3C organization ontology to provide hints as to which classes in this ontology map to the W3C ontology. Note that mappings are approximate and thus we used seeAlso rather than OWL equivalence relations.
+N110f8780b9f44680a011b0d87c1cceb7 http://www.w3.org/2002/07/owl#allValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/Organization
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/isMembershipPartyIn http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/Membership
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationalSubUnit https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym organization part
+Nf5e251a014e34b9499e807e15d76bbaa http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Identifiers/identifies
+Nf5e251a014e34b9499e807e15d76bbaa http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/hasMembership http://www.w3.org/2004/02/skos/core#definition identifies the organization acting in the role of having members in an organizational membership situation
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationIdentificationScheme http://www.w3.org/2004/02/skos/core#definition identification scheme dedicated to the unique identification of organizations
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/Agents/
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/isSubUnitOf http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/Collections/isPartOf
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationMember http://www.w3.org/2000/01/rdf-schema#subClassOf N2398933dbb2e4d868874de206fca1488
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationalSubUnit http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/Organization http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/PartiesAndSituations/Party
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/Organization http://www.w3.org/2000/01/rdf-schema#subClassOf N86d62f4ad06d4fe79031a6ce9d372065
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Release
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationPartIdentifier https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://www.iso.org/obp/ui/#iso:std:iso-iec:6523:-1:ed-1:v1:en
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/hasMembership http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/PartiesAndSituations/hasActor
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/hasSubUnit http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/Organization
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/Organization http://www.w3.org/2004/02/skos/core#definition collection of one or more people, or groups of people formed together into a community or other social, commercial or political structure to act, or that is designated to act, towards some purpose, such as to meet a need or pursue collective goals on a continuing basis
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationalSubUnit https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://www.iso.org/obp/ui/#iso:std:iso-iec:6523:-1:ed-1:v1:en
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/ContextualDesignators/
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/Membership http://www.w3.org/2004/02/skos/core#definition situation, corresponding to an n-ary relation, in which some group or organization has at least one member (person or organization) for some period of time
+N6ebe08c3614f4eb0818a60f917a1470f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/hasSubUnit http://www.w3.org/2004/02/skos/core#definition relates an organization to a part of that organization
+Nf5e251a014e34b9499e807e15d76bbaa http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/Organization
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/ http://www.w3.org/2000/01/rdf-schema#label Organizations Ontology
+N26ffb6f7028141d6af378ddb02447e03 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N86d62f4ad06d4fe79031a6ce9d372065 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationName
+N79216e8c39c649d2bdeb1bbd5bd54935 http://www.w3.org/2002/07/owl#someValuesFrom Nff033cf9fee24ab5864a45eea272a09c
+N86d62f4ad06d4fe79031a6ce9d372065 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/RolesAndCompositions/
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/hasMembership http://www.w3.org/2002/07/owl#inverseOf https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/isMembershipPartyIn
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/MemberBearingOrganization http://www.w3.org/2004/02/skos/core#definition role of a group or organization that has members that are people or other organizations
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationName http://www.w3.org/2004/02/skos/core#definition designation by which some organization is known in some context
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/hasOrganizationMember http://www.w3.org/2002/07/owl#inverseOf https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/isOrganizationMember
+Nfe84a11776ed4a888feed3647f54900c http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/isOrganizationMember http://www.w3.org/2000/01/rdf-schema#seeAlso https://www.w3.org/TR/vocab-org/#org:role
+Nfe84a11776ed4a888feed3647f54900c http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Designators/isNameOf
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationMember http://www.w3.org/2000/01/rdf-schema#label organization member
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/isSubUnitOf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/isMembershipPartyIn http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/PartiesAndSituations/actsIn
+N79216e8c39c649d2bdeb1bbd5bd54935 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/MemberBearingOrganization http://www.w3.org/2000/01/rdf-schema#subClassOf N79216e8c39c649d2bdeb1bbd5bd54935
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/FND/20240101/Organizations/Organizations/
+Nbc3805f1693546f58730b1ae2d665fce http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationMember
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/Organization https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://www.iso.org/obp/ui/#iso:std:iso-iec:6523:-1:ed-1:v1:en
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/isSubUnitOf http://www.w3.org/2004/02/skos/core#definition relates a part of an organization to the larger entity
+Nc1ab3acfff6a451f9bd88fa0ba37d236 http://www.w3.org/2002/07/owl#allValuesFrom https://www.omg.org/spec/Commons/PartiesAndSituations/Party
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20230101/Organizations/Organizations.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC) and to eliminate redundancies in FIBO as appropriate.
+N6ebe08c3614f4eb0818a60f917a1470f http://www.w3.org/2002/07/owl#allValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/Organization
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationIdentifier https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://www.iso.org/obp/ui/#iso:std:iso-iec:6523:-1:ed-1:v1:en
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationPartIdentifier http://www.w3.org/2000/01/rdf-schema#label organization part identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/isMembershipPartyIn http://www.w3.org/2004/02/skos/core#definition indicates the context of membership in which the party plays the role of having members
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2013-2024 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationPartIdentifier https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym organization sub-unit identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/isSubUnitOf http://www.w3.org/2000/01/rdf-schema#label is sub-unit of
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/ http://www.w3.org/2004/02/skos/core#changeNote The http://www.omg.org/spec/EDMC-FIBO/FND/20160201/Organizations/Organizations.rdf version of this ontology was modified per the FIBO 2.0 RFC, to revise the definition of Organization per ISO 6523.
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/Organization http://www.w3.org/2000/01/rdf-schema#subClassOf Nc1ab3acfff6a451f9bd88fa0ba37d236
+N86d62f4ad06d4fe79031a6ce9d372065 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N985d80f403344186b5e85dda80a63cb5 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/hasMembership
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Identifiers/
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/isSubUnitOf http://www.w3.org/2000/01/rdf-schema#seeAlso https://www.w3.org/TR/vocab-org/#org:subOrganizationOf
+Nc1ab3acfff6a451f9bd88fa0ba37d236 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/hasMember
+Nff033cf9fee24ab5864a45eea272a09c http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/Commons/PartiesAndSituations/Party
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Collections/
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/TextDatatype/
+N985d80f403344186b5e85dda80a63cb5 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/MemberBearingOrganization
+Nb60d7f4b5e874be98ce02b5367fe4ab8 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/hasGoal
+N9f092ee5681d48ce843a8d549995a285 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/isPartOf
+Nb60d7f4b5e874be98ce02b5367fe4ab8 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/hasOrganizationMember http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/Membership
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/hasOrganizationMember http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationMember
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20230301/Organizations/Organizations.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/Membership http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/PartiesAndSituations/Situation
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/Organization http://www.w3.org/2004/02/skos/core#example This may be a business entity, government, international organization, not-for-profit, academic institution, or other unincorporated and/or informal social organization.
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/MemberBearingOrganization http://www.w3.org/2000/01/rdf-schema#label member-bearing organization
+N79216e8c39c649d2bdeb1bbd5bd54935 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+N110f8780b9f44680a011b0d87c1cceb7 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Designators/
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20141101/Organizations/Organizations.rdf version of this ontology was modified per the issue resolutions identified in the FIBO FND 1.1 RTF report, to revise a restriction on Organization to reference PhysicalAddress (vs. PostalAddress).
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/Membership http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/hasMembership http://www.w3.org/2000/01/rdf-schema#seeAlso https://www.w3.org/TR/vocab-org/#org:organization
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationIdentificationScheme http://www.w3.org/2000/01/rdf-schema#label organization identification scheme
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/Organization http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationName http://www.w3.org/2000/01/rdf-schema#label organization name
+N26ffb6f7028141d6af378ddb02447e03 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/MemberBearingOrganization http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/isOrganizationMember http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/Membership
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/isSubUnitOf http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/Organization
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf N2353c7dcdcb94ad7b92d81b28074d4fa
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationalSubUnit http://www.w3.org/2000/01/rdf-schema#subClassOf N9f092ee5681d48ce843a8d549995a285
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationIdentificationScheme https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://www.iso.org/obp/ui/#iso:std:iso-iec:6523:-1:ed-1:v1:en
+Nff033cf9fee24ab5864a45eea272a09c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationPartIdentifier http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf Nf5e251a014e34b9499e807e15d76bbaa
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationalSubUnit https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote In other words, it is not a legal entity in its own right.
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationPartIdentifier https://www.omg.org/spec/Commons/AnnotationVocabulary/abbreviation OPI
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/isOrganizationMember http://www.w3.org/2004/02/skos/core#definition indicates the context of membership in which some party is an organization member
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/hasSubUnit http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationalSubUnit
+Nb60d7f4b5e874be98ce02b5367fe4ab8 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/Goal
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20211001/Organizations/Organizations.rdf version of this ontology was modified to address hygiene issues with respect to text formatting.
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/isOrganizationMember http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/isMembershipPartyIn http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/MemberBearingOrganization
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationalSubUnit http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/Organization
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/hasSubUnit http://www.w3.org/2000/01/rdf-schema#seeAlso https://www.w3.org/TR/vocab-org/#org:hasSubOrganization
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/hasSubUnit http://www.w3.org/2002/07/owl#inverseOf https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/isSubUnitOf
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationName http://www.w3.org/2000/01/rdf-schema#subClassOf Nfe84a11776ed4a888feed3647f54900c
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2013-2024 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationPartIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Identifiers/Identifier
+Nf5e251a014e34b9499e807e15d76bbaa http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/hasOrganizationMember http://www.w3.org/2000/01/rdf-schema#label has organization member
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/hasOrganizationMember http://www.w3.org/2000/01/rdf-schema#seeAlso https://www.w3.org/TR/vocab-org/#org:member
+N26ffb6f7028141d6af378ddb02447e03 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Identifiers/identifies
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/MemberBearingOrganization http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/PartiesAndSituations/PartyRole
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/isOrganizationMember http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/PartiesAndSituations/undergoes
+https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationMember http://www.w3.org/2000/01/rdf-schema#seeAlso https://www.w3.org/TR/vocab-org/#org:Role

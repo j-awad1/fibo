@@ -1,0 +1,23 @@
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/MetadataFNDUtilities/UtilitiesModule http://purl.org/dc/terms/abstract The utilities module includes ontologies that provide metadata and other basic concepts to be used in other ontologies.
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/MetadataFNDUtilities/UtilitiesModule http://www.w3.org/2000/01/rdf-schema#seeAlso https://spec.edmcouncil.org/fibo/
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/MetadataFNDUtilities/UtilitiesModule http://www.w3.org/2000/01/rdf-schema#label utilities module
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/MetadataFNDUtilities/UtilitiesModule http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Module
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/MetadataFNDUtilities/ http://www.w3.org/2000/01/rdf-schema#label Metadata for the EDMC-FIBO Foundations (FND) Utilities Module
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/MetadataFNDUtilities/UtilitiesModule http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/MetadataFNDUtilities/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/MetadataFNDUtilities/UtilitiesModule http://purl.org/dc/terms/title Financial Industry Business Ontology (FIBO) Foundations (FND) Utilities Module
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/MetadataFNDUtilities/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2017-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/MetadataFNDUtilities/UtilitiesModule https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2017-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/MetadataFNDUtilities/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/MetadataFNDUtilities/ http://purl.org/dc/terms/issued 2020-08-28T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/MetadataFNDUtilities/ http://purl.org/dc/terms/modified 2023-01-06T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/MetadataFNDUtilities/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/MetadataFNDUtilities/UtilitiesModule http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/MetadataFNDUtilities/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/FND/20230101/Utilities/MetadataFNDUtilities/
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/MetadataFNDUtilities/UtilitiesModule http://purl.org/dc/terms/title FIBO FND Utilities Module
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/MetadataFNDUtilities/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/MetadataFNDUtilities/UtilitiesModule https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2017-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/MetadataFNDUtilities/ http://purl.org/dc/terms/abstract This is the metadata ontology used to describe the Foundations Utilities Module.
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/MetadataFNDUtilities/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2017-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/MetadataFNDUtilities/UtilitiesModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/MetadataFNDUtilities/UtilitiesModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/

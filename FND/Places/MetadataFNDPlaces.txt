@@ -1,0 +1,27 @@
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/MetadataFNDPlaces/PlacesModule http://purl.org/dc/terms/abstract This module includes ontologies defining concepts to do with real or virtual places and the addresses to such places.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/MetadataFNDPlaces/PlacesModule http://purl.org/dc/terms/title FIBO FND Places Module
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/MetadataFNDPlaces/PlacesModule http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/MetadataFNDPlaces/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/MetadataFNDPlaces/PlacesModule http://purl.org/dc/terms/title Financial Industry Business Ontology (FIBO) Foundations (FND) Places Module
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/MetadataFNDPlaces/PlacesModule https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2017-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/MetadataFNDPlaces/ http://purl.org/dc/terms/modified 2023-01-20T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/MetadataFNDPlaces/PlacesModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddressesIndividuals/
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/MetadataFNDPlaces/ http://purl.org/dc/terms/abstract This is the metadata ontology used to describe the Foundations Places Module.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/MetadataFNDPlaces/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2017-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/MetadataFNDPlaces/PlacesModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/MetadataFNDPlaces/PlacesModule http://www.w3.org/2000/01/rdf-schema#seeAlso https://spec.edmcouncil.org/fibo/
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/MetadataFNDPlaces/PlacesModule http://www.w3.org/2000/01/rdf-schema#label places module
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/MetadataFNDPlaces/ http://purl.org/dc/terms/issued 2022-06-14T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/MetadataFNDPlaces/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/FND/20230101/Places/MetadataFNDPlaces/
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/MetadataFNDPlaces/PlacesModule http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Module
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/MetadataFNDPlaces/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/MetadataFNDPlaces/ http://www.w3.org/2000/01/rdf-schema#label Metadata for the EDMC-FIBO Foundations (FND) Places Module
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/MetadataFNDPlaces/PlacesModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FND/Places/VirtualPlaces/
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/MetadataFNDPlaces/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/MetadataFNDPlaces/PlacesModule https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2017-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/MetadataFNDPlaces/PlacesModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/MetadataFNDPlaces/PlacesModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/MetadataFNDPlaces/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/MetadataFNDPlaces/PlacesModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FND/Places/NorthAmerica/USPostalServiceAddresses/
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/MetadataFNDPlaces/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2017-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/MetadataFNDPlaces/PlacesModule http://purl.org/dc/terms/license https://opensource.org/licenses/MIT

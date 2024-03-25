@@ -1,0 +1,28 @@
+https://spec.edmcouncil.org/fibo/ontology/MD/MetadataMD/ http://purl.org/dc/terms/issued 2018-08-27T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/MD/MetadataMD/MDDomain http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Module
+https://spec.edmcouncil.org/fibo/ontology/MD/MetadataMD/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/MetadataMDCIVTemporal/
+https://spec.edmcouncil.org/fibo/ontology/MD/MetadataMD/MDDomain http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/MetadataMDCIVTemporal/CIVTemporalModule
+https://spec.edmcouncil.org/fibo/ontology/MD/MetadataMD/MDDomain http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/MetadataMDDerivativesTemporal/DerivativesTemporalModule
+https://spec.edmcouncil.org/fibo/ontology/MD/MetadataMD/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/MD/DerivativesTemporal/MetadataMDDerivativesTemporal/
+https://spec.edmcouncil.org/fibo/ontology/MD/MetadataMD/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/MD/20230301/MetadataMD/
+https://spec.edmcouncil.org/fibo/ontology/MD/MetadataMD/MDDomain http://purl.org/dc/terms/modified 2023-03-31T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/MD/MetadataMD/MDDomain http://purl.org/dc/terms/abstract The Market Data (MD) domain contains ontologies that represent temporally variant concepts for financial instruments, loans and funds. As such this domain covers the concepts represented in market data, such as prices, yields and analytics for debt and for pools of assets.
+https://spec.edmcouncil.org/fibo/ontology/MD/MetadataMD/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/MD/MetadataMD/ http://purl.org/dc/terms/modified 2023-03-31T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/MD/MetadataMD/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/MetadataMDTemporalCore/
+https://spec.edmcouncil.org/fibo/ontology/MD/MetadataMD/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/MD/MetadataMD/ http://www.w3.org/2000/01/rdf-schema#label Metadata for the EDMC-FIBO Market Data (MD) Domain
+https://spec.edmcouncil.org/fibo/ontology/MD/MetadataMD/MDDomain http://www.w3.org/2000/01/rdf-schema#seeAlso https://spec.edmcouncil.org/fibo/
+https://spec.edmcouncil.org/fibo/ontology/MD/MetadataMD/MDDomain http://purl.org/dc/terms/title Financial Industry Business Ontology (FIBO) Market Data (MD) Domain
+https://spec.edmcouncil.org/fibo/ontology/MD/MetadataMD/MDDomain http://purl.org/dc/terms/issued 2018-08-27T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/MD/MetadataMD/MDDomain http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/MD/DebtTemporal/MetadataMDDebtTemporal/DebtTemporalModule
+https://spec.edmcouncil.org/fibo/ontology/MD/MetadataMD/MDDomain http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/MD/MetadataMD/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/MD/MetadataMD/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/MD/DebtTemporal/MetadataMDDebtTemporal/
+https://spec.edmcouncil.org/fibo/ontology/MD/MetadataMD/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2018-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/MD/MetadataMD/ http://purl.org/dc/terms/abstract The Market Data (MD) domain contains ontologies that represent temporally variant concepts for financial instruments, loans and funds. As such this domain covers the concepts represented in market data, such as prices, yields and analytics for debt and for pools of assets.
+https://spec.edmcouncil.org/fibo/ontology/MD/MetadataMD/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/MD/MetadataMD/MDDomain http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/MD/MetadataMD/MDDomain http://www.w3.org/2000/01/rdf-schema#label market data domain
+https://spec.edmcouncil.org/fibo/ontology/MD/MetadataMD/MDDomain http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/MD/TemporalCore/MetadataMDTemporalCore/TemporalCoreModule
+https://spec.edmcouncil.org/fibo/ontology/MD/MetadataMD/MDDomain https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2018-2023 EDM Council, Inc.

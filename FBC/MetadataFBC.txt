@@ -1,0 +1,50 @@
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/FBCDomain http://purl.org/dc/terms/contributor Wells Fargo
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/MetadataFBCDebtAndEquities/
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/ http://purl.org/dc/terms/modified 2023-01-30T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/MetadataFBCProductsAndServices/
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/FBCDomain http://purl.org/dc/terms/contributor Pinnacle Bank (Morgan Hill, California)
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/FBCDomain http://purl.org/dc/terms/contributor Quarule
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/ http://purl.org/dc/terms/license http://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2015-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/FBCDomain http://purl.org/dc/terms/contributor Citigroup
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/FBCDomain http://purl.org/dc/terms/contributor Exprentis
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/FBCDomain http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/MetadataFBCFunctionalEntities/FunctionalEntitiesModule
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/FBCDomain http://www.w3.org/2000/01/rdf-schema#seeAlso https://spec.edmcouncil.org/fibo/
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/FBCDomain http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Module
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/FBCDomain http://purl.org/dc/terms/contributor Federated Knowledge LLC
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/FBCDomain http://purl.org/dc/terms/contributor Nordea Bank AB
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/ http://purl.org/dc/terms/abstract This ontology provides metadata about the FIBO Financial Business and Commerce (FBC) Domain, which covers business concepts that are common to common to a number of finance domain areas, such as loans, securities, and corporate actions, including products and services, financial intermediaries, registrars and regulators, and financial instruments and products.
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/FBCDomain http://purl.org/dc/terms/contributor Bloomberg LP
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/FBCDomain http://purl.org/dc/terms/contributor John F. Gemski
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/FBCDomain https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2015-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/FBCDomain http://purl.org/dc/terms/contributor State Street Bank and Trust
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/FBCDomain http://purl.org/dc/terms/contributor Dassault Systemes / No Magic
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/FBCDomain http://purl.org/dc/terms/license http://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/ http://purl.org/dc/terms/issued 2015-08-13T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/MetadataFBCFunctionalEntities/
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/FBCDomain http://purl.org/dc/terms/contributor Thematix Partners LLC
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/FBC/20230101/MetadataFBC/
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/FBCDomain http://purl.org/dc/terms/contributor Deutsche Bank
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/FBCDomain http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/MetadataFBCDebtAndEquities/DebtAndEquitiesModule
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/FBCDomain http://purl.org/dc/terms/abstract The financial business and commerce domain covers business concepts that are common to common to a number of finance areas, such as loans, securities, and corporate actions, including products and services, financial intermediaries, registrars and regulators, and financial instruments and products.
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/ http://www.w3.org/2000/01/rdf-schema#label Metadata about the EDMC-FIBO Financial Business and Commerce (FBC) Domain
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/FBCDomain http://purl.org/dc/terms/contributor Tahoe Blue Ltd
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/FBCDomain http://purl.org/dc/terms/contributor Credit Suisse
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/FBCDomain http://purl.org/dc/terms/contributor Adaptive, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/FBCDomain http://purl.org/dc/terms/contributor agnos.ai UK Ltd.
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2015-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/FBCDomain http://purl.org/dc/terms/contributor Statistics Canada
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/FBCDomain http://purl.org/dc/terms/contributor Office of Financial Research (US Dept of the Treasury)
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/FBCDomain http://purl.org/dc/terms/title EDMC Financial Industry Business Ontology (FIBO) Financial Business and Commerce (FBC) Domain
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/FBCDomain http://purl.org/dc/terms/contributor Capacity Post, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/FBCDomain http://purl.org/dc/terms/title FIBO FBC Domain
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/FBCDomain http://purl.org/dc/terms/creator https://wiki.edmcouncil.org/pages/viewpage.action?pageId=786677
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/FBCDomain https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2015-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/FBCDomain http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/FBCDomain http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/MetadataFBCFinancialInstruments/FinancialInstrumentsModule
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/FBCDomain http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/MetadataFBCProductsAndServices/FBCProductsAndServicesModule
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/MetadataFBCFinancialInstruments/
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/FBCDomain http://www.w3.org/2000/01/rdf-schema#label financial business and commerce domain
+https://spec.edmcouncil.org/fibo/ontology/FBC/MetadataFBC/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/

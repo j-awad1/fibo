@@ -1,0 +1,253 @@
+N606f41ec7c3547dda0815b5f5d7d9bc6 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/Listing http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/InternationalSecuritiesIdentificationNumber https://www.omg.org/spec/Commons/AnnotationVocabulary/abbreviation ISIN
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityRegistry http://www.w3.org/2004/02/skos/core#definition registry used to manage security identifiers and related information
+N31d167e66d9f4b889e3d55b19b9a3846 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ http://purl.org/dc/terms/abstract This ontology defines concepts required to identify securities, including a number of well-known securities identifiers and related schemes, registries, and registration authorities.
+Ncbfcd6e1b1d44e19a76676ec16c4af3d http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityIdentificationScheme
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalNumberingAgency https://www.omg.org/spec/Commons/AnnotationVocabulary/abbreviation NNA
+N27018bf8fbab412eb7212d927898193b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nda9b7402922e4b9c921a12b49f6e4969 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalSecuritiesIdentifyingNumber
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityRegistry http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20190601/Securities/SecuritiesIdentification/ version of this ontology was modified to add the concept of a ticker symbol and rename (migrate) the hasDefinition property to isDefinedIn to clarify intent.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalNumberingAgency http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalNumberingAgency http://www.w3.org/2000/01/rdf-schema#label national numbering agency
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/IdentifiersAndIndices/
+Nf02cefa3b9f44dbfa6a17ad2c684ffbb http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Designators/isDefinedIn
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/FinancialInstrumentIdentificationScheme http://www.w3.org/2004/02/skos/core#definition formal definition of the structure and application of a particular set of financial instrument identifiers
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/FinancialInstrumentIdentificationScheme http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/
+Nda9b7402922e4b9c921a12b49f6e4969 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/TickerSymbol http://www.w3.org/2000/01/rdf-schema#subClassOf Ndc6852f1f9894cae90652f11b6af269f
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/TickerSymbol http://www.w3.org/2000/01/rdf-schema#seeAlso https://www.investopedia.com/terms/t/tickersymbol.asp
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityIdentificationScheme http://www.w3.org/2000/01/rdf-schema#label security identification scheme
+N031d567badeb4ded956f28949fcbe89b http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Designators/defines
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalSecuritiesIdentifyingNumberRegistry http://www.w3.org/2004/02/skos/core#definition registry used by a national numbering agency to manage the financial instrument identifiers and related information that it registers
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityRegistryEntry http://www.w3.org/2000/01/rdf-schema#label security registry entry
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/InternationalSecuritiesIdentificationNumber http://www.w3.org/2000/01/rdf-schema#subClassOf Ne9a4dbe96f864f018425e65b8998fe30
+N606f41ec7c3547dda0815b5f5d7d9bc6 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalSecuritiesIdentifyingNumberRegistry
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ListedSecurityIdentifier http://www.w3.org/2000/01/rdf-schema#label listed security identifier
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalNumberingAgency http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/RegistrationAuthorities/RegistrationAuthority
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf N51ce32dd561f4fc7ac4facebb2914636
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ProprietarySecurityIdentifier http://www.w3.org/2000/01/rdf-schema#label proprietary security identifier
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalSecuritiesIdentifyingNumberRegistry http://www.w3.org/2000/01/rdf-schema#subClassOf Ne054a1cab4244cd48d72c0e2a31d16de
+Nd41c55616751497298a60d8a77628237 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nbbe861facb8a496cb4a378ba4f5722d0 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/RegistrationAuthorities/hasRegistryEntry
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20181101/Securities/SecuritiesIdentification/ version of this ontology was modified to correct several logic issues.
+N5e1fd786c3bd4e60978e9f1702b6248e http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/RegistrationAuthorities/RegistrationAuthority
+N51ce32dd561f4fc7ac4facebb2914636 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nf02cefa3b9f44dbfa6a17ad2c684ffbb http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityIdentificationScheme
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/InternationalSecuritiesIdentificationNumberingScheme http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityIdentificationScheme
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/ContextualIdentifiers/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ListedSecurityIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf Ncbfcd6e1b1d44e19a76676ec16c4af3d
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ListedSecurityIdentifier http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalSecuritiesIdentifyingNumber http://www.w3.org/2000/01/rdf-schema#subClassOf N93e9e29058d74354a38064151d76178d
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalSecuritiesIdentifyingNumberRegistryEntry http://www.w3.org/2000/01/rdf-schema#label national numbering agency registry entry
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityIdentifier http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityRegistryEntry http://www.w3.org/2000/01/rdf-schema#subClassOf N959e77fe1ab64d0a84f1f4339b75d129
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/InternationalSecuritiesIdentificationNumber http://www.w3.org/2000/01/rdf-schema#seeAlso http://www.iso.org/iso/catalogue_detail?csnumber=44811
+N477d193696d2480e9bf4d0e1c5a99d04 http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/LCC/Countries/CountryRepresentation/GeopoliticalEntity
+Nb2cbd3767e814c5da7362f432995c7e1 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ProprietarySecurityIdentificationScheme
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityRegistry http://www.w3.org/2000/01/rdf-schema#subClassOf N8c9c656b61b54c4b9d8e839125d759bb
+N8c9c656b61b54c4b9d8e839125d759bb http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+N778fa531bd384088bb6af30d4cf4d8fb http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/Markets/Exchange
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/RegistrationAuthorities/
+N959e77fe1ab64d0a84f1f4339b75d129 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/RegisteredSecurity
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityRegistry https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Securities registries may be managed by an exchange, clearing house, custodian, bank, or other financial services provider.
+Nf89e0511c84b40fe9b71df04d360c078 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nbbe861facb8a496cb4a378ba4f5722d0 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ProprietarySecurityIdentifier http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N606f41ec7c3547dda0815b5f5d7d9bc6 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/manages
+Nf89e0511c84b40fe9b71df04d360c078 http://www.w3.org/2002/07/owl#unionOf Ned4e8e8a7eb04fa48b36afaac9d40eb8
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/FunctionalEntities/FunctionalEntities/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20220801/Securities/SecuritiesIdentification.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.
+Nb2cbd3767e814c5da7362f432995c7e1 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalSecuritiesIdentifyingNumberRegistryEntry http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityRegistryEntry
+N031d567badeb4ded956f28949fcbe89b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N90b83a6f4e1542c09a633ff5e17d6aeb http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityIdentifier
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ProprietarySecurityIdentificationScheme http://www.w3.org/2004/02/skos/core#definition security identification scheme published by a commercial entity
+N93e9e29058d74354a38064151d76178d http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nf08fc5e6dd1e489287bca4ede5890852 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Designators/defines
+Ncbfcd6e1b1d44e19a76676ec16c4af3d http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalNumberingAgency http://www.w3.org/2000/01/rdf-schema#subClassOf N477d193696d2480e9bf4d0e1c5a99d04
+N1f5b24edc1fd4233b0800d85bb8a026b http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalSecuritiesIdentifyingNumber
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/FinancialInstrumentIdentificationScheme http://www.w3.org/2000/01/rdf-schema#subClassOf N999c26f06865431e8128f561c26c59be
+Nfdfd7f59cde24644adeff089af8fa3e7 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/RegistrationAuthorities/isRegisteredBy
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/TickerSymbol https://www.omg.org/spec/Commons/AnnotationVocabulary/usageNote Ticker symbols are reusable, assigned to a given instrument by an exchange for some period of time.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ http://www.w3.org/2000/01/rdf-schema#label Securities Identification Ontology
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalSecuritiesIdentifyingNumber http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityIdentifier
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/TickerSymbol http://www.w3.org/2004/02/skos/core#definition exchange-specific identifier for a particular security or listing for that security, depending on the country
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrumentIdentifier
+N2548346f2c9440e2b2508792766d5f54 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Identifiers/identifies
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ProprietarySecurityIdentificationScheme http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalSecuritiesIdentifyingNumberRegistry http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityRegistry
+N90b83a6f4e1542c09a633ff5e17d6aeb http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalSecuritiesIdentifyingNumberRegistry https://www.omg.org/spec/Commons/AnnotationVocabulary/abbreviation NSIN registry
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/InternationalSecuritiesIdentificationNumber http://www.w3.org/2004/02/skos/core#definition security identifier that is defined as specified in ISO 6166, Securities and related financial instruments -- International securities identification numbering system (ISIN)
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/ContextualDesignators/
+Ned4e8e8a7eb04fa48b36afaac9d40eb8 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N31d167e66d9f4b889e3d55b19b9a3846
+Nd41c55616751497298a60d8a77628237 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalSecuritiesIdentifyingNumber
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/
+N50ca0071dcf74041a050712c8b38b92a http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/LCC/Countries/CountryRepresentation/GeopoliticalEntity
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalSecurityIdentificationScheme http://www.w3.org/2000/01/rdf-schema#label national security identification scheme
+N5e1fd786c3bd4e60978e9f1702b6248e http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isManagedBy
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20200901/Securities/SecuritiesIdentification.rdf version of this ontology was revised to eliminate confusion between listed security and listing (which caused reasoning issues).
+N51ce32dd561f4fc7ac4facebb2914636 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Security
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2018-2023 Object Management Group, Inc.
+N1c56137c42dc428d89f087850bf89f03 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/issues
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalSecuritiesIdentifyingNumberRegistry http://www.w3.org/2000/01/rdf-schema#subClassOf N1ed16ec896914b909d3111ca4db3f894
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/Markets/
+N031d567badeb4ded956f28949fcbe89b http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ProprietarySecurityIdentifier
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityRegistry http://www.w3.org/2000/01/rdf-schema#subClassOf N5e1fd786c3bd4e60978e9f1702b6248e
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/InternationalSecuritiesIdentificationNumber https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote ISINs consist of two alphabetic characters, which are the ISO 3166-1 alpha-2 code for the issuing country, nine alpha-numeric characters (the National Securities Identifying Number, or NSIN, which identifies the security, padded as necessary with leading zeros), and one numerical check digit. The ISIN is specified as a class of identifiers because although there is a scheme associated with the structure of an ISIN, there are many country-specific variations issued by national numbering agencies.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+Ne054a1cab4244cd48d72c0e2a31d16de http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityRegistry http://www.w3.org/2000/01/rdf-schema#subClassOf Nbbe861facb8a496cb4a378ba4f5722d0
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20191201/Securities/SecuritiesIdentification/ version of this ontology was modified to correct the target of a ticker symbol, which identifies a listing not a listed security, refine the restriction on financial instrument identifier to say that it identifies an instrument or listing, normalize definitions to be ISO 704 compliant, eliminate duplication of concepts in LCC, and merge countries with locations in FND.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/FinancialInstrumentIdentificationScheme http://www.w3.org/2000/01/rdf-schema#label financial instrument identification scheme
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/InternationalSecuritiesIdentificationNumber http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ListedSecurityIdentifier http://www.w3.org/2004/02/skos/core#definition security identifier issued in the public domain and referred to in listings and other relevant publications
+Ne054a1cab4244cd48d72c0e2a31d16de http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalNumberingAgency
+Nf08fc5e6dd1e489287bca4ede5890852 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ListedSecurityIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf N870b070555fa452f9f4007cb30b4dc02
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20200401/Securities/SecuritiesIdentification/ version of this ontology was modified to make a ticker symbol reassignable and address circular or ambiguous definitions.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ http://www.w3.org/2004/02/skos/core#changeNote The http://www.omg.org/spec/EDMC-FIBO/FND/20180801/Securities/SecuritiesIdentification.rdf version of this ontology was modified to use the hasCoverageArea property rather than hasJurisdiction for coverage of national numbering agencies, and eliminate redundant subclass relationships for two of the schemes defined herein.
+Ne9a4dbe96f864f018425e65b8998fe30 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N999c26f06865431e8128f561c26c59be http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/FinancialInstrumentIdentifier
+N2fd35ab5af9647d08a7cf9cddfb7129a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ListedSecurityIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf N2548346f2c9440e2b2508792766d5f54
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalSecuritiesIdentifyingNumberRegistry http://www.w3.org/2000/01/rdf-schema#subClassOf N27018bf8fbab412eb7212d927898193b
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalSecurityIdentificationScheme http://www.w3.org/2004/02/skos/core#definition security identification scheme, defining the format and structure of a National Securities Identifying Number (NSIN), published nationally on behalf of a country
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/TickerSymbol https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Every listed security has at least one unique ticker symbol, facilitating the vast array of trade orders that flow through the financial markets every day. However, in some countries this relationship may be indirect, through the listing, rather than direct, as is the case in the United States. In the US, the relationship between a ticker symbol and the listed security is one-to-one. This is not, however, the case in Singapore, where there may be unique ticker symbols for the same security based on the lot size.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalSecuritiesIdentifyingNumber http://www.w3.org/2004/02/skos/core#definition generic, nine-digit alpha numeric code which identifies a fungible security, assigned by a national numbering agency under the ISO 6166 standard
+N870b070555fa452f9f4007cb30b4dc02 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityRegistry http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/RegistrationAuthorities/Registry
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/InternationalSecuritiesIdentificationNumber http://www.w3.org/2000/01/rdf-schema#subClassOf N2fd35ab5af9647d08a7cf9cddfb7129a
+Nda9b7402922e4b9c921a12b49f6e4969 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+N999c26f06865431e8128f561c26c59be http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/hasMember
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalSecurityIdentificationScheme https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote generally incorporated into the ISIN scheme as well
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityRegistryEntry http://www.w3.org/2004/02/skos/core#definition record for a security in a securities registry
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalSecuritiesIdentifyingNumber http://www.w3.org/2000/01/rdf-schema#label National Securities Identifying Number
+Ned4e8e8a7eb04fa48b36afaac9d40eb8 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ListedSecurity
+N31d167e66d9f4b889e3d55b19b9a3846 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/Listing
+N959e77fe1ab64d0a84f1f4339b75d129 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/ContextualDesignators/appliesTo
+N477d193696d2480e9bf4d0e1c5a99d04 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ProprietarySecurityIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityIdentifier
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityRegistryEntry http://www.w3.org/2000/01/rdf-schema#subClassOf N90b83a6f4e1542c09a633ff5e17d6aeb
+N477d193696d2480e9bf4d0e1c5a99d04 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/hasCoverageArea
+N2548346f2c9440e2b2508792766d5f54 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityIdentificationScheme http://www.w3.org/2000/01/rdf-schema#subClassOf Nf08fc5e6dd1e489287bca4ede5890852
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Identifiers/
+N27018bf8fbab412eb7212d927898193b http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalSecurityIdentificationScheme
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/FinancialInstrumentIdentificationScheme http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Identifiers/IdentificationScheme
+N2fd35ab5af9647d08a7cf9cddfb7129a http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Collections/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/InternationalSecuritiesIdentificationNumberingScheme http://www.w3.org/2000/01/rdf-schema#seeAlso http://www.iso.org/iso/catalogue_detail?csnumber=44811
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/InternationalSecuritiesIdentificationNumberingScheme http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nfdfd7f59cde24644adeff089af8fa3e7 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N8c9c656b61b54c4b9d8e839125d759bb http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityIdentificationScheme
+N27018bf8fbab412eb7212d927898193b http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Classifiers/isCharacterizedBy
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalSecuritiesIdentifyingNumber https://www.omg.org/spec/Commons/AnnotationVocabulary/abbreviation NSIN
+N1ed16ec896914b909d3111ca4db3f894 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityIdentifier http://www.w3.org/2004/02/skos/core#definition any publicly available identifier that is used to identify a security
+N93e9e29058d74354a38064151d76178d http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalSecurityIdentificationScheme
+N870b070555fa452f9f4007cb30b4dc02 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityRegistry
+N4f5884b9ecc8472bbe411960777e1b2b http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/InternationalSecuritiesIdentificationNumber
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalSecuritiesIdentifyingNumberRegistry http://www.w3.org/2000/01/rdf-schema#label National Securities Identifying Number registry
+Nfdfd7f59cde24644adeff089af8fa3e7 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalNumberingAgency
+N4f5884b9ecc8472bbe411960777e1b2b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N27018bf8fbab412eb7212d927898193b http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+N8c9c656b61b54c4b9d8e839125d759bb http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ProprietarySecurityIdentificationScheme http://www.w3.org/2000/01/rdf-schema#label proprietary security identification scheme
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalSecurityIdentificationScheme http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Release
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/InternationalSecuritiesIdentificationNumberingScheme http://www.w3.org/2004/02/skos/core#definition formal definition of the structure and application of a ISINs as defined in ISO 6166
+N778fa531bd384088bb6af30d4cf4d8fb http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N778fa531bd384088bb6af30d4cf4d8fb http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/RegistrationAuthorities/isRegisteredBy
+Nf02cefa3b9f44dbfa6a17ad2c684ffbb http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ListedSecurityIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf N778fa531bd384088bb6af30d4cf4d8fb
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalSecuritiesIdentifyingNumberRegistryEntry http://www.w3.org/2004/02/skos/core#definition entry in a National Securities Identifying Number registry
+N1f5b24edc1fd4233b0800d85bb8a026b http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Designators/defines
+Nf08fc5e6dd1e489287bca4ede5890852 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityIdentifier
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ProprietarySecurityIdentificationScheme https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Proprietary schemes may be unique to an exchange or data provider, for example.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+Ndc6852f1f9894cae90652f11b6af269f http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Identifiers/identifies
+Nd41c55616751497298a60d8a77628237 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/RegistrationAuthorities/registers
+Ndc6852f1f9894cae90652f11b6af269f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ListedSecurityIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityIdentifier
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityRegistryEntry http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/RegistrationAuthorities/RegistryEntry
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalSecurityIdentificationScheme http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityIdentificationScheme
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/InternationalSecuritiesIdentificationNumber http://www.w3.org/2000/01/rdf-schema#label international securities identification number
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Designators/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/InternationalSecuritiesIdentificationNumberingScheme http://www.w3.org/2000/01/rdf-schema#label international securities identification numbering scheme
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalSecuritiesIdentifyingNumberRegistry http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20190701/Securities/SecuritiesIdentification/ version of this ontology was modified to restructure the concept of a listing and augment it with a number of relevant characteristics.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalNumberingAgency http://www.w3.org/2000/01/rdf-schema#subClassOf N606f41ec7c3547dda0815b5f5d7d9bc6
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20201201/Securities/SecuritiesIdentification.rdf version of this ontology was revised to leverage the notion of a composite identifier and address text formatting hygiene issues.
+N4f5884b9ecc8472bbe411960777e1b2b http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Designators/defines
+N1ed16ec896914b909d3111ca4db3f894 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/RegistrationAuthorities/hasRegistryEntry
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalSecuritiesIdentifyingNumberRegistryEntry http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Ndc6852f1f9894cae90652f11b6af269f http://www.w3.org/2002/07/owl#someValuesFrom Nf89e0511c84b40fe9b71df04d360c078
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalSecuritiesIdentifyingNumberRegistryEntry http://www.w3.org/2000/01/rdf-schema#subClassOf Nda9b7402922e4b9c921a12b49f6e4969
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/TickerSymbol http://www.w3.org/2000/01/rdf-schema#label ticker symbol
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/Listing http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityRegistryEntry
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalNumberingAgency http://www.w3.org/2000/01/rdf-schema#subClassOf N1c56137c42dc428d89f087850bf89f03
+N50ca0071dcf74041a050712c8b38b92a http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/ContextualDesignators/appliesTo
+Ne9a4dbe96f864f018425e65b8998fe30 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalSecuritiesIdentifyingNumber http://www.w3.org/2000/01/rdf-schema#subClassOf Nfdfd7f59cde24644adeff089af8fa3e7
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityIdentificationScheme http://www.w3.org/2004/02/skos/core#definition formal definition of the structure and application of a particular set of securities identifiers
+N870b070555fa452f9f4007cb30b4dc02 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/RegistrationAuthorities/isRegisteredIn
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalNumberingAgency http://www.w3.org/2004/02/skos/core#definition registration authority responsible for issuing and managing National Securities Identifying Numbers for securities in accordance with the ISO 6166 standard in some jurisdiction (typically that of a country)
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalSecurityIdentificationScheme http://www.w3.org/2000/01/rdf-schema#subClassOf N1f5b24edc1fd4233b0800d85bb8a026b
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf Nf02cefa3b9f44dbfa6a17ad2c684ffbb
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalSecurityIdentificationScheme http://www.w3.org/2000/01/rdf-schema#subClassOf N50ca0071dcf74041a050712c8b38b92a
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalSecuritiesIdentifyingNumber http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalNumberingAgency http://www.w3.org/2000/01/rdf-schema#subClassOf Nd41c55616751497298a60d8a77628237
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+N1f5b24edc1fd4233b0800d85bb8a026b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ProprietarySecurityIdentificationScheme http://www.w3.org/2000/01/rdf-schema#subClassOf N031d567badeb4ded956f28949fcbe89b
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityRegistryEntry http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20230201/Securities/SecuritiesIdentification.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.
+Ne9a4dbe96f864f018425e65b8998fe30 http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Alpha2Code
+N90b83a6f4e1542c09a633ff5e17d6aeb http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N1ed16ec896914b909d3111ca4db3f894 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalSecuritiesIdentifyingNumberRegistryEntry
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityIdentifier http://www.w3.org/2000/01/rdf-schema#label security identifier
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ProprietarySecurityIdentifier http://www.w3.org/2004/02/skos/core#definition identifier supplied by a commercial entity
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityIdentificationScheme http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/RegistrationAuthorities/RegistrationScheme
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/SEC/20230301/Securities/SecuritiesIdentification/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityIdentificationScheme http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/TickerSymbol http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/IdentifiersAndIndices/ReassignableIdentifier
+N5e1fd786c3bd4e60978e9f1702b6248e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Ne9a4dbe96f864f018425e65b8998fe30 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/InternationalSecuritiesIdentificationNumber http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/ContextualIdentifiers/StructuredIdentifier
+N2fd35ab5af9647d08a7cf9cddfb7129a http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalSecuritiesIdentifyingNumber
+N8c9c656b61b54c4b9d8e839125d759bb http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Classifiers/isCharacterizedBy
+Nb2cbd3767e814c5da7362f432995c7e1 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Designators/isDefinedIn
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/RegulatoryAgencies/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ProprietarySecurityIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf Nb2cbd3767e814c5da7362f432995c7e1
+N999c26f06865431e8128f561c26c59be http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N93e9e29058d74354a38064151d76178d http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Designators/isDefinedIn
+N1c56137c42dc428d89f087850bf89f03 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/NationalSecuritiesIdentifyingNumber
+Ncbfcd6e1b1d44e19a76676ec16c4af3d http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Designators/isDefinedIn
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ProprietarySecurityIdentificationScheme http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityIdentificationScheme
+N51ce32dd561f4fc7ac4facebb2914636 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Identifiers/identifies
+Nbbe861facb8a496cb4a378ba4f5722d0 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityRegistryEntry
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityRegistry http://www.w3.org/2000/01/rdf-schema#label security registry
+N2fd35ab5af9647d08a7cf9cddfb7129a http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+N50ca0071dcf74041a050712c8b38b92a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/InternationalSecuritiesIdentificationNumber http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityIdentifier
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2016-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/SecurityIdentificationScheme http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/FinancialInstrumentIdentificationScheme
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/InternationalSecuritiesIdentificationNumberingScheme http://www.w3.org/2000/01/rdf-schema#subClassOf N4f5884b9ecc8472bbe411960777e1b2b
+N2548346f2c9440e2b2508792766d5f54 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ListedSecurity
+Ne054a1cab4244cd48d72c0e2a31d16de http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isManagedBy
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/InternationalSecuritiesIdentificationNumberingScheme https://www.omg.org/spec/Commons/AnnotationVocabulary/abbreviation ISIN scheme
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Classifiers/
+N1c56137c42dc428d89f087850bf89f03 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N959e77fe1ab64d0a84f1f4339b75d129 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIdentification/TickerSymbol http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class

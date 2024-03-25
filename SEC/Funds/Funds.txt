@@ -1,0 +1,201 @@
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/OpenEndInvestment http://www.w3.org/2000/01/rdf-schema#label open-end investment
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/PensionFund http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Pools/ManagedInvestment
+N208a507138114c0f94f0059943a250fb http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N6b68e5125915426e8d5c95dab6983caf http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/FundContract
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/PensionFund https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote A pension fund is a common asset pool meant to generate stable growth over a long-term investment horizon.
+Naebb04f25dda424da1656e41ebef222c http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/isOpenEnded
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/FundOfFunds http://www.w3.org/2000/01/rdf-schema#label fund of funds
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Pools/PooledFund https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym fund
+N453137a516d34e30924ab14750c2afdb http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N7f944ac7dda746feb3ee7515dcdec2b0 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/CollectiveInvestmentVehicle https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Collective investment vehicles are typically organized and operated by management companies, banks, or trust companies. Shares or units are issued in the form of unit trusts, mutual funds, or other similar contracts. Common kinds of funds include pension funds, insurance funds, foundations, and endowments. Such pools are often invested and professionally managed, including investment pools, umbrella pools, share class pools, etc.
+N16fb6fabacaf4a348022289851af4eb8 http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDate
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/PensionFund http://www.w3.org/2000/01/rdf-schema#label pension fund
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/FundUnit http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/MutualFund http://www.w3.org/2000/01/rdf-schema#label mutual fund
+N453137a516d34e30924ab14750c2afdb http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Pools/PooledFund
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/HedgeFund http://www.w3.org/2000/01/rdf-schema#label hedge fund
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/FundUnit http://www.w3.org/2000/01/rdf-schema#label fund unit
+Nfe9742d5116042f8b6129fdd45e9c2f5 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/hasLegalStructure
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ http://www.w3.org/2000/01/rdf-schema#label Funds Ontology
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20201201/Funds/Funds.rdf version of this ontology was modified to replace the original fibo-sec-fnd-fnd prefix with fibo-sec-fund-fund for the sake of clarity and to change the restriction on LegalFundStructure from an equivalence to a subclass relationship to address a reasoning error as well as adding a missing restriction on jurisdiction.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ExchangeTradedFund http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/LegalFundStructure http://www.w3.org/2000/01/rdf-schema#label legal fund structure
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/OpenEndInvestment http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ClosedEndInvestment
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/CollectiveInvestmentVehicle http://www.w3.org/2004/02/skos/core#definition assets pooled by investors whose share capital remains separate from the assets of the vehicle
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/RealEstateInvestmentTrust https://www.omg.org/spec/Commons/AnnotationVocabulary/abbreviation REIT
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/RealEstateInvestmentTrust http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nfe9742d5116042f8b6129fdd45e9c2f5 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Pools/ManagedInvestment https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym investment fund
+Nd71ccd45a41c42c8866b48460b9fc796 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/isOpenEnded
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/SEC/20230301/Funds/Funds/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/hasSubFund http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/Collections/hasPart
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ClosedEndInvestment https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym closed-end fund
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/CollectiveInvestmentVehicle https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom ISO 10962:2019 Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth edition, October 2019
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/MutualFund http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Pools/PooledFund http://www.w3.org/2000/01/rdf-schema#subClassOf N208a507138114c0f94f0059943a250fb
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20220801/Funds/Funds.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/hasSubFund http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Pools/PooledFund
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/FundOfFunds http://www.w3.org/2000/01/rdf-schema#subClassOf N01096e3ed5b343f3ac6a22079b0c8362
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/RealEstateInvestmentTrust http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Pools/ManagedInvestment
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/PrivateEquityFund http://www.w3.org/2004/02/skos/core#definition investment fund used for making investments in various equity (and to a lesser extent debt) securities according to an investment strategy associated with private equity
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/PrivateEquityFund http://www.w3.org/2000/01/rdf-schema#label private equity fund
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/HedgeFund http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N453137a516d34e30924ab14750c2afdb http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/isConstituentOf
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/isOpenEnded http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Pools/PooledFund
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/isSubFundOf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/MutualFund http://www.w3.org/2004/02/skos/core#definition open-end professionally managed investment fund established for the purpose of investing in securities such as stocks, bonds, money market instruments and similar assets
+Na71dbdfb830f4878bd6150fc10405db6 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/FundContract http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/FormalBusinessOrganizations/OrganizationCoveringAgreement
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/isSubFundOf http://www.w3.org/2004/02/skos/core#definition relates a pooled fund to a parent fund
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/hasSubFund http://www.w3.org/2004/02/skos/core#definition relates a pooled fund to a sub-fund that is a constituent of the parent fund
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Pools/ManagedInvestment http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/CollectiveInvestmentVehicle
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/FundOfFunds http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Pools/ManagedInvestment
+N208a507138114c0f94f0059943a250fb http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/hasObjective
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ExchangeTradedFund https://www.omg.org/spec/Commons/AnnotationVocabulary/abbreviation ETF
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/OpenEndInvestment https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym open-end fund
+N9d7b9e47d04a4a92824ee7c1dcd801bf http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/isOpenEnded
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Pools/PooledFund http://www.w3.org/2000/01/rdf-schema#subClassOf Ned9f2bc158f64eaab0cfbb47cb44d0a1
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/FundContract http://www.w3.org/2000/01/rdf-schema#label fund contract
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/CollectiveInvestmentVehicle http://www.w3.org/2000/01/rdf-schema#label collective investment vehicle
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/hasLegalStructure http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/MutualFund http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/OpenEndInvestment
+N16fb6fabacaf4a348022289851af4eb8 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/hasDateEstablished
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/
+N208a507138114c0f94f0059943a250fb http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/InvestmentObjective
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2018-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ExchangeTradedFund https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom ISO 10962:2019 Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth edition, October 2019
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/DatesAndTimes/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/FundOfFunds https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym umbrella fund
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/OpenEndInvestment http://www.w3.org/2004/02/skos/core#definition investment fund that offered through a fund company that sells shares directly to investors
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2018-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20230201/Funds/Funds.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/SovereignWealthFund http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/CollectiveInvestmentVehicle
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/PrivateEquityFund https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Private equity funds are typically structured as limited partnerships or limited liability companies, wherein investors are limited partners, and the fund is managed by one or more general partners. It is composed of investors and funds that invest directly in private companies, or that engage in buyouts of public companies, resulting in the delisting of the public equity.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/FundOfFunds http://www.w3.org/2004/02/skos/core#definition investment fund that invests directly in other investment funds rather than investing in stocks, bonds, and other securities
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ClosedEndInvestment http://www.w3.org/2000/01/rdf-schema#subClassOf Nd71ccd45a41c42c8866b48460b9fc796
+N01096e3ed5b343f3ac6a22079b0c8362 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/SovereignWealthFund https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym social wealth fund
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/RealEstateInvestmentTrust https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Real estate investment trusts own, and in most cases operate, income-producing real estate. REITs own many types of commercial real estate, ranging from office and apartment buildings to warehouses, hospitals, shopping centers, hotels and commercial forests. Some REITs engage in financing real estate.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/CollectiveInvestmentVehicle http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Pools/PooledFund
+Ned9f2bc158f64eaab0cfbb47cb44d0a1 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/hasConstituent
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Pools/PooledFund http://www.w3.org/2000/01/rdf-schema#subClassOf N16fb6fabacaf4a348022289851af4eb8
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/MutualFund https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom ISO 10962:2019 Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth edition, October 2019
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/hasSubFund http://www.w3.org/2000/01/rdf-schema#label has sub-fund
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/RealEstateInvestmentTrust http://www.w3.org/2000/01/rdf-schema#label real estate investment trust
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/FundOfFunds http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nd71ccd45a41c42c8866b48460b9fc796 http://www.w3.org/2002/07/owl#hasValue false
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/isSubFundOf http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Pools/PooledFund
+N9d7b9e47d04a4a92824ee7c1dcd801bf http://www.w3.org/2002/07/owl#someValuesFrom http://www.w3.org/2001/XMLSchema#boolean
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/isSubFundOf http://www.w3.org/2000/01/rdf-schema#label is sub-fund of
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Pools/ManagedInvestment http://www.w3.org/2000/01/rdf-schema#subClassOf N9d7b9e47d04a4a92824ee7c1dcd801bf
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ExchangeTradedFund http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/OpenEndInvestment
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/isOpenEnded http://www.w3.org/2000/01/rdf-schema#label is open ended
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/LegalFundStructure http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/RealEstateInvestmentTrust http://www.w3.org/2000/01/rdf-schema#subClassOf Nfe9742d5116042f8b6129fdd45e9c2f5
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ClosedEndInvestment http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Pools/ManagedInvestment
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ExchangeTradedFund https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote An ETF holds assets such as stocks, commodities, or bonds, and trades close to its net asset value over the course of the trading day. Most ETFs track an index, such as a stock, bond, or commodity index.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/LegalFundStructure http://www.w3.org/2000/01/rdf-schema#subClassOf Nf764e85e6ce0427c960d9ac401e05cfb
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/
+N7f944ac7dda746feb3ee7515dcdec2b0 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/Jurisdiction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/HedgeFund https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom ISO 10962:2019 Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth edition, October 2019
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/OpenEndInvestment http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Pools/ManagedInvestment
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/PrivateEquityFund https://www.omg.org/spec/Commons/AnnotationVocabulary/abbreviation ETF
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/PrivateEquityFund http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ClosedEndInvestment http://www.w3.org/2000/01/rdf-schema#label closed-end investment
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/
+N01096e3ed5b343f3ac6a22079b0c8362 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/CollectiveInvestmentVehicle
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/PrivateEquityFund https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom ISO 10962:2019 Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth edition, October 2019
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Release
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+N7f944ac7dda746feb3ee7515dcdec2b0 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isGovernedBy
+Naebb04f25dda424da1656e41ebef222c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Pools/ManagedInvestment http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/hasLegalStructure http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Pools/PooledFund
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ClosedEndInvestment http://www.w3.org/2004/02/skos/core#definition investment fund that has a fixed number of shares offered by an investment company through an initial public offering
+N6b68e5125915426e8d5c95dab6983caf http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/HedgeFund http://www.w3.org/2004/02/skos/core#definition investment fund that pursues a total return and is usually open to qualified investors only
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/OpenEndInvestment http://www.w3.org/2000/01/rdf-schema#subClassOf Naebb04f25dda424da1656e41ebef222c
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/hasSubFund http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Pools/PooledFund
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/isOpenEnded http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/LegalFundStructure http://www.w3.org/2000/01/rdf-schema#subClassOf N7f944ac7dda746feb3ee7515dcdec2b0
+N6de4c7361c1f4ba8a37c8720c606e0d3 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/LegalFundStructure
+Ned9f2bc158f64eaab0cfbb47cb44d0a1 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/FundUnit
+N9d7b9e47d04a4a92824ee7c1dcd801bf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/MutualFund https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym standard (vanilla) investment fund
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ClosedEndInvestment http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N6de4c7361c1f4ba8a37c8720c606e0d3 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/hasLegalStructure
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/CollectiveInvestmentVehicle http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nfe9742d5116042f8b6129fdd45e9c2f5 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trust
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/isSubFundOf http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Pools/PooledFund
+Ned9f2bc158f64eaab0cfbb47cb44d0a1 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/SovereignWealthFund https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym sovereign investment fund
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/hasSubFund http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/FundContract http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Pools/ManagedInvestment https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote A managed investment is an investment vehicle that consists of a pool of funds collected from many different investors run by a management company.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/PensionFund https://www.omg.org/spec/Commons/AnnotationVocabulary/abbreviation ETF
+N16fb6fabacaf4a348022289851af4eb8 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nd71ccd45a41c42c8866b48460b9fc796 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/HedgeFund http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/OpenEndInvestment
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/PensionFund http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/OpenEndInvestment http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/hasLegalStructure http://www.w3.org/2004/02/skos/core#definition indicates the legal form that the fund takes
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/CollectiveInvestmentVehicle http://www.w3.org/2000/01/rdf-schema#subClassOf N6de4c7361c1f4ba8a37c8720c606e0d3
+N6de4c7361c1f4ba8a37c8720c606e0d3 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/FundUnit http://www.w3.org/2004/02/skos/core#definition security representing a unit in a fund
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/PensionFund https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom ISO 10962:2019 Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth edition, October 2019
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/isOpenEnded http://www.w3.org/2004/02/skos/core#definition indicates whether the fund is an open-end/closed-end fund
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Pools/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/FundUnit http://www.w3.org/2000/01/rdf-schema#subClassOf Na71dbdfb830f4878bd6150fc10405db6
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/FundOfFunds https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom ISO 10962:2019 Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth edition, October 2019
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/SovereignWealthFund http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/SovereignWealthFund http://www.w3.org/2000/01/rdf-schema#label sovereign wealth fund
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/LegalFundStructure http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalConstruct
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/FundUnit http://www.w3.org/2000/01/rdf-schema#subClassOf N453137a516d34e30924ab14750c2afdb
+Nf764e85e6ce0427c960d9ac401e05cfb http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Collections/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/LegalFundStructure http://www.w3.org/2004/02/skos/core#definition structure of a fund with respect to its legal formation in some jurisdiction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/isOpenEnded http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#boolean
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ExchangeTradedFund http://www.w3.org/2004/02/skos/core#definition investment fund whose fund units are traded on an exchange, much like stocks
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ http://purl.org/dc/terms/abstract This ontology defines fundamental concepts about funds and collective investment vehicles (CIVs).
+N7b2152ce3cd84022aee6b24a86fdfc77 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N6b68e5125915426e8d5c95dab6983caf
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/SovereignWealthFund http://www.w3.org/2004/02/skos/core#definition state-owned investment fund that consists of pools of money derived from a country's reserves
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/hasLegalStructure http://www.w3.org/2000/01/rdf-schema#label has legal structure
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/isSubFundOf http://www.w3.org/2002/07/owl#inverseOf https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/hasSubFund
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/PrivateEquityFund http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Pools/ManagedInvestment
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/FormalBusinessOrganizations/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Pools/ManagedInvestment https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom ISO 10962:2019 Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth edition, October 2019
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Pools/PooledFund https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote A fund can be established for any purpose, such as a municipality setting aside money for a construction project, monies designated to endow a university chair or for scholarships, or funds set aside by insurance companies to settle claims.
+Nf764e85e6ce0427c960d9ac401e05cfb http://www.w3.org/2002/07/owl#unionOf N7b2152ce3cd84022aee6b24a86fdfc77
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/PensionFund http://www.w3.org/2004/02/skos/core#definition investment fund run by a financial intermediary on behalf of an organization and its employees/members
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/hasLegalStructure http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/LegalFundStructure
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20210501/Funds/Funds.rdf version of this ontology was modified to move the definition of SpecialPurposeVehicle to the Pools ontology to make it available for use more generally.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ExchangeTradedFund http://www.w3.org/2000/01/rdf-schema#label exchange-traded fund
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/SovereignWealthFund https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Sovereign wealth funds include the International Monetary Fund, whose corresponding legal entity is a polity.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ http://purl.org/dc/terms/contributor Thematix Partners LLC
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/RealEstateInvestmentTrust https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom ISO 10962:2019 Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth edition, October 2019
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/isSubFundOf http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/Collections/isPartOf
+Naebb04f25dda424da1656e41ebef222c http://www.w3.org/2002/07/owl#hasValue true
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Pools/PooledFund http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N01096e3ed5b343f3ac6a22079b0c8362 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/hasSubFund
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/FundContract http://www.w3.org/2004/02/skos/core#definition contract that embodies and defines the fund legal form in cases where there is no independent organization
+Na71dbdfb830f4878bd6150fc10405db6 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Currency
+N7b2152ce3cd84022aee6b24a86fdfc77 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/LegalEntity
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20220501/Funds/Funds.rdf version of this ontology was modified to address text formatting hygiene issues.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20220101/Funds/Funds.rdf version of this ontology was modified to eliminate a deprecated element for SpecialPurposeVehicle, which was moved to Pools last quarter.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/FundUnit http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/ http://purl.org/dc/terms/contributor Wells Fargo Bank, N.A.
+Na71dbdfb830f4878bd6150fc10405db6 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasCurrency
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Pools/PooledFund http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/FinancialAsset
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/RealEstateInvestmentTrust http://www.w3.org/2004/02/skos/core#definition investment fund that offers shares/units to the public and invests in real estate directly

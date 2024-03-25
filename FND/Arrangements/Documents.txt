@@ -1,0 +1,85 @@
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasRecord http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/Documents/Record
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20200201/Arrangements/Documents.rdf version of this ontology was revised to add a hasRecord property.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/ http://purl.org/dc/terms/abstract This ontology defines abstract concepts for representation documents for use in other FIBO ontology elements.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/Document http://www.w3.org/2002/07/owl#equivalentClass https://www.omg.org/spec/Commons/Documents/Document
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasExpirationDate http://www.w3.org/2000/01/rdf-schema#label has expiration date
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/Record http://www.w3.org/2002/07/owl#equivalentClass https://www.omg.org/spec/Commons/Documents/Record
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasTerminationDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/records http://www.w3.org/2002/07/owl#equivalentProperty https://www.omg.org/spec/Commons/Documents/records
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20211201/Arrangements/Documents.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/20230101/Arrangements/Documents.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasRecord http://www.w3.org/2004/02/skos/core#definition links something to a record that pertains to it
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20190901/Arrangements/Documents.rdf version of this ontology was revised to integrate additional document concepts, including certificate, draft, and notice and eliminate duplication with concepts in LCC.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/records http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/FND/20231201/Arrangements/Documents/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasDateOfIssuance http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/Date
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasRecord http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/ReferenceDocument http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasDateOfIssuance http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasReportingPeriod http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasDateOfIssuance http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#FunctionalProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/LegalDocument http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/Notice http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasDateOfIssuance http://www.w3.org/2000/01/rdf-schema#label has date of issuance
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasReportingPeriod http://www.w3.org/2004/02/skos/core#definition specifies the reporting period for which a report or something else, such as a market rate or economic indicator, applies
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/Certificate http://www.w3.org/2002/07/owl#equivalentClass https://www.omg.org/spec/Commons/Documents/Certificate
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20141101/Arrangements/Documents.rdf version of this ontology was revised as a part of the issue resolutions identified in the FIBO FND 1.1 RTF report to add a parent of hasDate to date properties.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20230301/Arrangements/Documents.rdf version of the ontology was modified to replace many of the concepts with those in the Documents ontology added to the Commons Ontology Library (Commons) v1.1.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasDataSource http://www.w3.org/2002/07/owl#equivalentProperty https://www.omg.org/spec/Commons/Documents/hasDataSource
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/LegalDocument http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasReportingPeriod http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasDatePeriod
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasDataSource http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20160201/Arrangements/Documents.rdf version of this ontology was revised as a part of the issue resolutions identified in the FIBO FND 1.2 RTF report to add a definition for a record.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/FinancialRecord http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/FinancialRecord http://www.w3.org/2004/02/skos/core#definition record of financial information
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/ReferenceDocument http://www.w3.org/2002/07/owl#equivalentClass https://www.omg.org/spec/Commons/Documents/ReferenceDocument
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/isAbout http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/ http://www.w3.org/2000/01/rdf-schema#label Documents Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2014-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Release
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/FinancialRecord http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Documents/Record
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/LegalDocument http://www.w3.org/2002/07/owl#equivalentClass https://www.omg.org/spec/Commons/Documents/LegalDocument
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/Document http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/FinancialRecord http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Collections/Collection
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasDateOfIssuance http://www.w3.org/2004/02/skos/core#definition links something, typically an agreement, contract, or document, with the date it was issued
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/isAbout http://www.w3.org/2002/07/owl#equivalentProperty https://www.omg.org/spec/Commons/Documents/isAbout
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasDataSource http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/Document http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasDateOfIssuance http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasStartDate
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/Record http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/isAbout http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/FinancialRecord http://www.w3.org/2000/01/rdf-schema#label financial record
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/Record http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasReportingPeriod http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDatePeriod
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasExpirationDate http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/Date
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20170201/Arrangements/Documents.rdf version of this ontology was revised as a part of the FIBO 2.0 RFC to add definitions for general purpose reports.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20181201/Arrangements/Documents.rdf version of this ontology was revised to eliminate deprecated properties.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20200901/Arrangements/Documents.rdf version of this ontology was revised to eliminate references to external dictionary sites that no longer resolve.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2014-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasExpirationDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasTerminationDate http://www.w3.org/2000/01/rdf-schema#label has termination date
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasRecord http://www.w3.org/2000/01/rdf-schema#label has record
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Collections/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/ReferenceDocument http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasTerminationDate http://www.w3.org/2004/02/skos/core#definition links something, typically an agreement, contract, document, or process, with a date on which it was terminated
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasTerminationDate http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/Date
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/Notice http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20210101/Arrangements/Documents.rdf version of this ontology was revised to clarify the definition of legal document.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Documents/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/FinancialRecord http://www.w3.org/2004/02/skos/core#example Financial records include accounts, agreements, trading books, etc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/records http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20141101/Arrangements/Documents.rdf version of this ontology was introduced as a part of the issue resolutions identified in the FIBO FND 1.0 FTF report and in https://spec.edmcouncil.org/fibo/ontology/FND/1.0/AboutFND-1.0/ in advance of the Long Beach meeting in December 2014.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20180801/Arrangements/Documents.rdf version of this ontology was revised to add a new records property.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasExpirationDate http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasEndDate
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/Certificate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasExpirationDate http://www.w3.org/2004/02/skos/core#definition links something, typically an agreement, contract, document, or perishable item, with an expiration date
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/DatesAndTimes/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/Notice http://www.w3.org/2002/07/owl#equivalentClass https://www.omg.org/spec/Commons/Documents/Notice
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/Certificate http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasRecord http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasReportingPeriod http://www.w3.org/2000/01/rdf-schema#label has reporting period
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasTerminationDate http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasEndDate

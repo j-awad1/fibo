@@ -1,0 +1,614 @@
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Office http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitDesignator
+Nc0e82494f283463ea974dadb6aecf3f5 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasIndividualPostcode http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+Ne221c790f92a4ce0b4f855440f428eaa http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/hasCityName
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasPrimaryAddressNumber http://www.w3.org/2004/02/skos/core#definition specifies a a location with respect to a given street
+Na5afb87aa2cc48bcaf768d9412b1ec5a http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#string
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Key http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Trailer http://www.w3.org/2004/02/skos/core#definition vehicle designed to serve wherever parked as a temporary dwelling or place of business
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasSecondaryUnit http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnit
+N4926e354a5834901b23213f06efa3ed3 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasMailRouting http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/TextDatatype/hasTextValue
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasStreetName http://www.w3.org/2000/01/rdf-schema#label has street name
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SupplementalAddressUnit http://www.w3.org/2000/01/rdf-schema#label supplemental address unit
+N2c033f08cb3349b5a5d77ce4228c8988 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitIndicator http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/AddressComponent
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Building https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/requiresSecondaryUnitRange true
+N3ae53814de094446a1326be09462b7fd http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasStreetSuffix
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Pier http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasStreetSuffix http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasPrimaryAddressNumber http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StreetAddress
+N305b63b76e8f43149a46766c74e9859e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasStructureName http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddress
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Lower http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitDesignator
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasStreetAddress http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+Nb49db96330614765a205f2663ce2b413 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N0bd22467d1d34bb1931b41009baaa369 http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2000/01/rdf-schema#Literal
+Nb49db96330614765a205f2663ce2b413 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/AddressingScheme
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAddressLine1 http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddress
+N0bd22467d1d34bb1931b41009baaa369 http://www.w3.org/2002/07/owl#maxQualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Department http://www.w3.org/2004/02/skos/core#definition division of a large organization such as a government, university, business, or shop, dealing with a specific subject, commodity, or area of activity
+N853b6b756066409da3caee8bf9a3e133 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/IdentifiersAndIndices/isIndexTo
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasPostdirectionalSymbol http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostdirectionalSymbol
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SupplementalAddressComponent https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Supplemental components include post office box information, rural route and highway contract route information, private mailboxes, and so forth, that are not part of a conventional street address.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/AddressingScheme http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostOfficeBoxDesignator http://www.w3.org/2004/02/skos/core#example In the U.S., the preferred designator is 'PO BOX'.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/FND/20230301/Places/Addresses/
+Neff334459fe9409d82b5775eca8b1277 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StreetName
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ConventionalStreetAddress http://www.w3.org/2000/01/rdf-schema#subClassOf N0bd22467d1d34bb1931b41009baaa369
+N879304b0c264442882756a5068e3a805 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddress
+Ne221c790f92a4ce0b4f855440f428eaa http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N9a84044aedad4cfc8d26f1c8e29b2034 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasTag
+N08303ca8d72549a78652876392b4d3c9 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StreetSuffix http://www.w3.org/2000/01/rdf-schema#label street suffix
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Rear http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnit http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/AddressComponent
+N35f39b081d28411e96dbc209dcd105e6 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddressIdentifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasStreetAddress http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StreetAddress http://www.w3.org/2000/01/rdf-schema#subClassOf Nfe19f1b359e94f2ea9782b945ae203ef
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostOfficeBox http://www.w3.org/2004/02/skos/core#definition post office box associated with an address
+N9bf7993f81e94897b838bc2daf53d12c http://www.w3.org/2002/07/owl#maxQualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2013-2023 EDM Council, Inc.
+Ne914815951224e6b8c859c803530feb7 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Identifiers/identifies
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Penthouse https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/requiresSecondaryUnitRange false
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PrimaryAddressNumber http://www.w3.org/2004/02/skos/core#definition address component that identifies a location with respect to a given street
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SupplementalAddressDesignator http://www.w3.org/2000/01/rdf-schema#subClassOf N0ab0e2ff233746ae908978ff4accfd44
+Nf576d676690841d18d4ce38a73c1bf64 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Floor https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Labeling systems for floors vary from country to country, and may be specific to the building, for example, whether or not a 13th floor is identified as such tends to be on a case-by-case basis.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20230101/Places/Addresses.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC) and to eliminate redundancies in FIBO as appropriate.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/VirtualAddress http://www.w3.org/2004/02/skos/core#definition address identifying a virtual, i.e. non-physical, location
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Office http://www.w3.org/2000/01/rdf-schema#label office
+N343620de08b84ddeb18e9e94ff592e8b http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/requiresSecondaryUnitRange
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Stop http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Identifiers/
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/GeographicDirectionalSymbol http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/CodesAndCodeSets/CodeElement
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddressingScheme http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/AddressingScheme
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddressIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf N879304b0c264442882756a5068e3a805
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostOfficeBoxAddress http://www.w3.org/2004/02/skos/core#definition physical address used to deliver communications to a designated container at a local post office or the local equivalent for the jurisdiction, where mail is held until the recipient collects it, rather than to a given house, building, or other location
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAttentionLine http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Collections/
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasPrimaryAddressNumber http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PrimaryAddressNumber
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasPostalCode http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddress
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PrimaryAddressNumber https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Although traditionally called a 'number', the street number may consist of alphanumeric characters, for example, '221B'.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Space https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/requiresSecondaryUnitRange true
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasPredirectionalSymbol http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/requiresSecondaryUnitRange http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/TextDatatype/hasTextValue
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Department http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitDesignator
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PredirectionalSymbol http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/GeographicDirectionalSymbol
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Lobby http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Office https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/requiresSecondaryUnitRange false
+N2ddced26e0f64b609e5cb212192cb30b http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasStreetSuffix http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostdirectionalSymbol http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/GeographicDirectionalSymbol
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostOfficeBoxDesignator http://www.w3.org/2004/02/skos/core#definition designator used, together with an identifier, for a post office box
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Hangar http://www.w3.org/2000/01/rdf-schema#label hanger
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Address http://www.w3.org/2000/01/rdf-schema#subClassOf N853b6b756066409da3caee8bf9a3e133
+N2ddced26e0f64b609e5cb212192cb30b http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitDesignator
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/requiresSecondaryUnitRange http://www.w3.org/2000/01/rdf-schema#label requires secondary unit range
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasPostdirectionalSymbol http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StreetAddress
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAddress http://www.w3.org/2004/02/skos/core#definition indicates a means by which something (in the case of a network address) or some entity may be located or contacted or may receive correspondence
+N9bf7993f81e94897b838bc2daf53d12c http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2000/01/rdf-schema#Literal
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasTransliteratedAddress http://www.w3.org/2004/02/skos/core#definition identifies a transliterated (i.e., in Latin or Romanized ASCII) address for the registered entity
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Lobby http://www.w3.org/2000/01/rdf-schema#label lobby
+Nc0e82494f283463ea974dadb6aecf3f5 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostOfficeBoxDesignator
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StructureName http://www.w3.org/2004/02/skos/core#definition name for a building, house, office complex, shopping center, or other structure or group of structures
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddressingScheme http://www.w3.org/2004/02/skos/core#definition scheme for specifying physical addresses according to a country specific standard
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Space http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitDesignator
+N2c033f08cb3349b5a5d77ce4228c8988 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasIndividualPostcode
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostOfficeBox http://www.w3.org/2000/01/rdf-schema#subClassOf Nc0e82494f283463ea974dadb6aecf3f5
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Suite http://www.w3.org/2000/01/rdf-schema#label suite
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Key https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/requiresSecondaryUnitRange true
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasStructureName http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StructureName
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Postcode https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym postal code
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Lower https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/requiresSecondaryUnitRange false
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasPostalCode https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://www.gleif.org/en/about-lei/common-data-file-format/lei-cdf-format/lei-cdf-format-version-2-1
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Building http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasStreetAddress http://www.w3.org/2004/02/skos/core#definition indicates a fully-specified address component that consists of a primary address number, predirectional, street name, suffix, postdirectional, and an optional secondary unit
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostdirectionalSymbol http://www.w3.org/2000/01/rdf-schema#label postdirectional symbol
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/Foundations/20130601/Organizations/Addresses.owl version of the ontology was revised in advance of the September 2013 New Brunswick, NJ meeting, as follows:
+	(1) to use slash style URI/IRIss (also called 303 URIs, vs. hash style) as required to support server side processing 
+	(2) to use version-independent IRIs for all definitions internally as opposed to version-specific IRIs
+	(3) to change the file suffix from .owl to .rdf to increase usability in RDF tools
+	(4) to use 4-level abbreviations and corresponding namespace prefixes for all FIBO ontologies, reflecting a family/specification/module/ontology structure
+	(5) to incorporate changes to the specification metadata to support documentation at the family, specification, module, and ontology level, similar to the abbreviations
+	(6) to move this ontology from Organizations to Places and eliminate unnecessary properties and related imports dependencies.
+N9a84044aedad4cfc8d26f1c8e29b2034 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+N4ead4d0b3ec74eca82b6424a35bef1fc http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitIndicator http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Ne221c790f92a4ce0b4f855440f428eaa http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2000/01/rdf-schema#Literal
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAddress http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N4926e354a5834901b23213f06efa3ed3 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Unit http://www.w3.org/2004/02/skos/core#definition area in a facility, such as a medical facility or hospital that is specially staffed and equipped to provide a particular service or type of care
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAddressLine3 http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/TextDatatype/hasTextValue
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasPrimaryAddressNumber http://www.w3.org/2000/01/rdf-schema#label has primary address number
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitIndicator http://www.w3.org/2000/01/rdf-schema#subClassOf Nd6432585d66343fc9418b935d0ffad72
+N0d67bc551d554683bbc6d170dfb98b14 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasPrimaryAddressNumber
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Office http://www.w3.org/2004/02/skos/core#definition place where a particular kind of business is transacted or a service is supplied
+Naa8f5990d4034c3086be0a9d6c3cf382 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Designators/defines
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StreetAddress http://www.w3.org/2000/01/rdf-schema#subClassOf N0d67bc551d554683bbc6d170dfb98b14
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ConventionalStreetAddress https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Other unconventional addresses may include rural and highway route addresses, general delivery addresses, post office box addresses, private mail center addresses, and so forth.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/VirtualAddress http://www.w3.org/2000/01/rdf-schema#subClassOf N4ead4d0b3ec74eca82b6424a35bef1fc
+N7776f3080c074907a4f32e0606c90f53 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasStructureName http://www.w3.org/2000/01/rdf-schema#label has structure name
+N9d3fecb769f74958a5005bad2881777f http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasStreetSuffix http://www.w3.org/2004/02/skos/core#definition specifies an additional qualifier for a street or other delivery location, such as a dwelling located along a waterway
+N9ff3d6f6b65d4902b51c3993fc690195 http://www.w3.org/2002/07/owl#maxQualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Penthouse http://www.w3.org/2000/01/rdf-schema#label penthouse
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddressingScheme http://www.w3.org/2000/01/rdf-schema#subClassOf N281cbff9e8c24b5c89e9815cb8bdf3e8
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/VirtualAddress http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Classifiers/
+N0bd22467d1d34bb1931b41009baaa369 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAddressLine3
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitDesignator http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Classifiers/Classifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/RegionSpecificIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf N3ab2f12bbfd247cf816b28a18686bbc3
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Key http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitDesignator
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasIndividualPostcode http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Postcode
+N9ff3d6f6b65d4902b51c3993fc690195 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/hasMunicipality
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StreetSuffix http://www.w3.org/2004/02/skos/core#definition classifier for a street or other delivery location, such as a dwelling located along a waterway
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostCodeArea http://www.w3.org/2000/01/rdf-schema#label post code area
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+N879304b0c264442882756a5068e3a805 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Rear http://www.w3.org/2004/02/skos/core#definition side or part of a building at the back, located opposite its front
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/RegionSpecificIdentifier http://www.w3.org/2000/01/rdf-schema#label region-specific identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddress http://www.w3.org/2000/01/rdf-schema#subClassOf N305b63b76e8f43149a46766c74e9859e
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/IdentifiersAndIndices/
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasStreetAddress http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StreetAddress
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasPostalCode http://www.w3.org/2004/02/skos/core#definition the postal code of this address as specified by the local postal service
+Naa8f5990d4034c3086be0a9d6c3cf382 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAddressLine1 https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://www.gleif.org/en/about-lei/common-data-file-format/lei-cdf-format/lei-cdf-format-version-2-1
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAttentionLine http://www.w3.org/2000/01/rdf-schema#label has attention line
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ http://www.w3.org/2004/02/skos/core#changeNote The http://www.omg.org/spec/EDMC-FIBO/FND/20160201/Places/Addresses.rdf version of this ontology was modified for the FIBO 2.0 RFC to integrate LCC.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PrimaryAddressNumber http://www.w3.org/2000/01/rdf-schema#label primary address number
+Na5afb87aa2cc48bcaf768d9412b1ec5a http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasTag
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Pier https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/requiresSecondaryUnitRange true
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasIndividualPostcode http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddress
+Neca7f79820db4d03ae2965756c148f35 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasTag
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StreetSuffix http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/AddressComponent
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitDesignator http://www.w3.org/2000/01/rdf-schema#label secondary unit designator
+N647c1187af3740c782aa54da039e94b4 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N9d3fecb769f74958a5005bad2881777f
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostOfficeBoxAddress http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddress
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAddressLine3 https://www.omg.org/spec/Commons/AnnotationVocabulary/usageNote This element SHALL be omitted if address line 2 is omitted.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StreetSuffix http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Classifiers/Classifier
+Nd56b040aacd844738687ded4e81f5f8c http://www.w3.org/2002/07/owl#maxQualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Space http://www.w3.org/2004/02/skos/core#definition extent set apart or available, such as a parking or storage space
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SupplementalAddressComponent http://www.w3.org/2000/01/rdf-schema#subClassOf Neca7f79820db4d03ae2965756c148f35
+N7776f3080c074907a4f32e0606c90f53 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SupplementalAddressDesignator
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Address http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/IdentifiersAndIndices/Index
+N06dd66e6de1042ea828661013c6ef50a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Lower http://www.w3.org/2004/02/skos/core#definition floor of a building in a multistory structure that is closer to ground level
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Postcode http://www.w3.org/2000/01/rdf-schema#label postcode
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAttentionLine http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddress
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Rear http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitDesignator
+Nd6432585d66343fc9418b935d0ffad72 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasTag
+N0ab0e2ff233746ae908978ff4accfd44 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SupplementalAddressComponent
+N4ead4d0b3ec74eca82b6424a35bef1fc http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasPredirectionalSymbol http://www.w3.org/2004/02/skos/core#definition specifies a geographic directional symbol that occurs after the primary street number but before the street name in a street address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Suite http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+N915d21ea41d746fca973ce9ab7d3e160 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddress http://www.w3.org/2000/01/rdf-schema#label physical address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddress http://www.w3.org/2000/01/rdf-schema#subClassOf N2c033f08cb3349b5a5d77ce4228c8988
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddress http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Naa8f5990d4034c3086be0a9d6c3cf382 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddress
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasPostdirectionalSymbol http://www.w3.org/2004/02/skos/core#definition specifies a geographic directional symbol that follows the street name and street suffix in a street address
+Ne7b902703d65476f87dc4c98fac798ee http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostOfficeBox
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAddressLine2 http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/TextDatatype/hasTextValue
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAttentionLine http://www.w3.org/2004/02/skos/core#definition an optional, free text address line denoting the intended recipient
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasMailRouting http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddress
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PredirectionalSymbol http://www.w3.org/2004/02/skos/core#definition geographic directional symbol that occurs after the primary street number but before the street name in a street address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StreetName http://www.w3.org/2004/02/skos/core#definition identifier for a street in some context (e.g., city, municipality, geographic region)
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Postcode http://www.w3.org/2004/02/skos/core#definition sequence of characters used to assist in the sorting of mail
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasMailRouting http://www.w3.org/2000/01/rdf-schema#label has mail routing
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/ContextualDesignators/
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasStreetName http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/Collections/comprises
+N2cf406e666f440a1802442c5e1c78f85 http://www.w3.org/2002/07/owl#someValuesFrom http://www.w3.org/2001/XMLSchema#string
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitDesignator http://www.w3.org/2000/01/rdf-schema#subClassOf N343620de08b84ddeb18e9e94ff592e8b
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Stop http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitDesignator
+N6a80cd4acb3e4bd8b885f28cf2d13042 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+N06dd66e6de1042ea828661013c6ef50a http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20200701/Places/Addresses.rdf version of this ontology was modified to revise names of address elements that could be construed as referring to multiple concepts.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Front http://www.w3.org/2000/01/rdf-schema#label front
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasIndividualPostcode https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://www.gleif.org/en/about-lei/common-data-file-format/lei-cdf-format/lei-cdf-format-version-2-1
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ConventionalStreetAddress http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddress
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasSecondaryUnit http://www.w3.org/2000/01/rdf-schema#label has secondary unit
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Stop https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/requiresSecondaryUnitRange true
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddress http://www.w3.org/2000/01/rdf-schema#subClassOf Nf576d676690841d18d4ce38a73c1bf64
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Lobby http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitDesignator
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddressingScheme http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostCodeArea http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/LCC/Countries/CountryRepresentation/GeographicRegion
+Nc1eab5b42b3a48e9b07a383c41d4aaca http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PredirectionalSymbol
+N6e81acd135fb483a94b716faaecc5591 http://www.w3.org/2002/07/owl#maxQualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasSecondaryUnit http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N9bfcf8be7ea44813b113f3755b4d79ab http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2000/01/rdf-schema#Literal
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/RegionSpecificIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/LCC/Countries/CountryRepresentation/GeographicRegionIdentifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAddress http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Address
+Naa8f5990d4034c3086be0a9d6c3cf382 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Floor http://www.w3.org/2000/01/rdf-schema#label floor
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PrimaryAddressNumber https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym street number
+Nb49db96330614765a205f2663ce2b413 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Designators/isDefinedIn
+N343620de08b84ddeb18e9e94ff592e8b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StreetAddress http://www.w3.org/2000/01/rdf-schema#subClassOf N207fc3ff74974b339fea9833281734d2
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Unit http://www.w3.org/2000/01/rdf-schema#label unit
+N08303ca8d72549a78652876392b4d3c9 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasPredirectionalSymbol http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StreetAddress
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Front http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+N9a84044aedad4cfc8d26f1c8e29b2034 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Stop http://www.w3.org/2000/01/rdf-schema#label stop
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAddressLine3 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Address http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAddress http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/Classifiers/isCharacterizedBy
+Na5afb87aa2cc48bcaf768d9412b1ec5a http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+N9c181ebd78be4269a59e383756e093f0 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+Nc0e82494f283463ea974dadb6aecf3f5 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+Nfe19f1b359e94f2ea9782b945ae203ef http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasPostdirectionalSymbol
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StreetSuffix http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N7776f3080c074907a4f32e0606c90f53 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SupplementalAddressComponent http://www.w3.org/2004/02/skos/core#definition address component that provides additional information that is important to ensuring proper delivery of communications
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Release
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasPrimaryAddressNumber http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAddressLine2 http://www.w3.org/2004/02/skos/core#definition the second line of the street address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StreetName http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/AddressComponent
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/VirtualAddress http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddress
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Apartment http://www.w3.org/2004/02/skos/core#definition room or a group of related rooms, among similar sets in one building, designed for use as a dwelling
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Building http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitDesignator
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Room https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/requiresSecondaryUnitRange true
+Nd6432585d66343fc9418b935d0ffad72 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAddressLine1 http://www.w3.org/2000/01/rdf-schema#label has address line 1
+N879304b0c264442882756a5068e3a805 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N1816832b326d4f4a992eff0084ec9796 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/PhysicalLocation
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Stop http://www.w3.org/2004/02/skos/core#definition stopping place, such as a bus or mail stop
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/requiresSecondaryUnitRange http://www.w3.org/2000/01/rdf-schema#seeAlso https://pe.usps.com/cpim/ftp/pubs/Pub28/pub28.pdf
+N2ddced26e0f64b609e5cb212192cb30b http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+N2cf406e666f440a1802442c5e1c78f85 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Neff334459fe9409d82b5775eca8b1277 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasStreetName
+N08303ca8d72549a78652876392b4d3c9 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+N7776f3080c074907a4f32e0606c90f53 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Postcode http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/CodesAndCodeSets/CodeElement
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Basement http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ConventionalStreetAddress http://www.w3.org/2000/01/rdf-schema#label conventional street address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Hangar http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StructureName http://www.w3.org/2000/01/rdf-schema#subClassOf N4926e354a5834901b23213f06efa3ed3
+N305b63b76e8f43149a46766c74e9859e http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasPostalCode
+N0d67bc551d554683bbc6d170dfb98b14 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PrimaryAddressNumber
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostOfficeBoxAddress http://www.w3.org/2000/01/rdf-schema#subClassOf Ne7b902703d65476f87dc4c98fac798ee
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Rear https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/requiresSecondaryUnitRange false
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddressIdentifier http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Ne914815951224e6b8c859c803530feb7 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasSecondaryUnit http://www.w3.org/2004/02/skos/core#definition specifies an individual unit within a larger structure, such as an apartment, office, hangar, slip, mailbox, and so forth, at a given street address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Address http://www.w3.org/2000/01/rdf-schema#subClassOf Nb49db96330614765a205f2663ce2b413
+Nf576d676690841d18d4ce38a73c1bf64 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/hasSubdivision
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasMailRouting https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://www.gleif.org/en/about-lei/common-data-file-format/lei-cdf-format/lei-cdf-format-version-2-1
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitIndicator http://www.w3.org/2004/02/skos/core#definition index to the specific unit within a secondary unit, such as a building or apartment, at a particular street address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostOfficeBox https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Post office box identifiers are only unique to a given jurisdiction, which may be a post office, town, or other region.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Floor http://www.w3.org/2004/02/skos/core#definition all of the rooms or areas on the same level of a building; a story
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddressIdentifier http://www.w3.org/2004/02/skos/core#definition unique identifier for a physical address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StructureName http://www.w3.org/2000/01/rdf-schema#label structure name
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasPostdirectionalSymbol http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StructureName http://www.w3.org/2004/02/skos/core#example Examples include 'McCoy Center', which is the name of the office complex where JPMorgan Chase's Polaris facility is located, 'Apple Park', which is the name of the corporate headquarters of Apple, Inc., and 'Howells Bridge Cottage', which is the name of a very old cottage in Cornwall.
+N1816832b326d4f4a992eff0084ec9796 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N343620de08b84ddeb18e9e94ff592e8b http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+N2cf406e666f440a1802442c5e1c78f85 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasTag
+N2c033f08cb3349b5a5d77ce4228c8988 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Postcode
+Ne221c790f92a4ce0b4f855440f428eaa http://www.w3.org/2002/07/owl#maxQualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddress http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/AddressComponent http://www.w3.org/2000/01/rdf-schema#label address component
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Department http://www.w3.org/2000/01/rdf-schema#label department
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SupplementalAddressUnit http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/AddressComponent
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasTransliteratedAddress http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Suite https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/requiresSecondaryUnitRange true
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAddressLine3 http://www.w3.org/2000/01/rdf-schema#label has address line 3
+Nfe19f1b359e94f2ea9782b945ae203ef http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/requiresSecondaryUnitRange https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Note that in some cases, such as for lobby or office, if there are multiple secondary units then a range may be needed to differentiate between them, even if the range is not always required.
+N3ab2f12bbfd247cf816b28a18686bbc3 http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/LCC/Countries/CountryRepresentation/GeopoliticalEntity
+N9ff3d6f6b65d4902b51c3993fc690195 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/Municipality
+N6a80cd4acb3e4bd8b885f28cf2d13042 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasTag
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/RegionSpecificIdentifier http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAddressLine2 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+N305b63b76e8f43149a46766c74e9859e http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2000/01/rdf-schema#Literal
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddressIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf N9c181ebd78be4269a59e383756e093f0
+N1816832b326d4f4a992eff0084ec9796 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasPrimaryAddressNumber http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Address http://www.w3.org/2000/01/rdf-schema#label address
+Nc1eab5b42b3a48e9b07a383c41d4aaca http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasPredirectionalSymbol
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PrimaryAddressNumber http://www.w3.org/2000/01/rdf-schema#subClassOf N9a84044aedad4cfc8d26f1c8e29b2034
+N853b6b756066409da3caee8bf9a3e133 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+Nf576d676690841d18d4ce38a73c1bf64 http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/LCC/Countries/CountryRepresentation/CountrySubdivision
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Front http://www.w3.org/2004/02/skos/core#definition side or part of a building that presents itself to view first, that faces the street; the most forward part of a building
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20211201/Places/Addresses.rdf version of this ontology was modified to address hygiene issues with respect to text formatting.
+N6a80cd4acb3e4bd8b885f28cf2d13042 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Room http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+N06dd66e6de1042ea828661013c6ef50a http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitIndicator
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Slip http://www.w3.org/2000/01/rdf-schema#label slip
+N6e81acd135fb483a94b716faaecc5591 http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Country
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasStreetSuffix http://www.w3.org/2000/01/rdf-schema#label has street suffix
+N915d21ea41d746fca973ce9ab7d3e160 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Designators/defines
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Apartment http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Unit https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/requiresSecondaryUnitRange true
+N0ab0e2ff233746ae908978ff4accfd44 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Lower http://www.w3.org/2000/01/rdf-schema#label lower
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SupplementalAddressComponent http://www.w3.org/2000/01/rdf-schema#subClassOf N7776f3080c074907a4f32e0606c90f53
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasStructureName http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Suite http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitDesignator
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnit http://www.w3.org/2000/01/rdf-schema#label secondary unit
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitDesignator http://www.w3.org/2004/02/skos/core#definition classifier for a smaller structure or component within a larger facility, such as an apartment, office, mail stop, or other similar designation
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/AddressingScheme http://www.w3.org/2000/01/rdf-schema#subClassOf N915d21ea41d746fca973ce9ab7d3e160
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StreetAddress http://www.w3.org/2000/01/rdf-schema#subClassOf N3ae53814de094446a1326be09462b7fd
+N879304b0c264442882756a5068e3a805 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Identifiers/identifies
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StructureName http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/AddressComponent
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostOfficeBoxAddress http://www.w3.org/2000/01/rdf-schema#label post office box address
+Neff334459fe9409d82b5775eca8b1277 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Space http://www.w3.org/2000/01/rdf-schema#label space
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SupplementalAddressUnit http://www.w3.org/2000/01/rdf-schema#subClassOf N6a80cd4acb3e4bd8b885f28cf2d13042
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StreetSuffix https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The suffix may provide some insight into the size or length of the street, though not necessarily consistently. In some cities, the suffix differentiates the street from another in the same context, such as 19th Street vs. 19th Avenue in San Francisco.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Lobby https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/requiresSecondaryUnitRange false
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/requiresSecondaryUnitRange http://www.w3.org/2004/02/skos/core#definition if true, indicates that an additional qualifier is needed to complete the delivery point description, such as an apartment number
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Pier http://www.w3.org/2000/01/rdf-schema#label pier
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasPostdirectionalSymbol http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StreetAddress http://www.w3.org/2000/01/rdf-schema#label street address
+N0d67bc551d554683bbc6d170dfb98b14 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ConventionalStreetAddress http://www.w3.org/2000/01/rdf-schema#subClassOf Nd56b040aacd844738687ded4e81f5f8c
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/AddressingScheme http://www.w3.org/2004/02/skos/core#definition system for allocating addresses to objects
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAddressLine3 http://www.w3.org/2004/02/skos/core#definition the third line of the street address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostCodeArea http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Side http://www.w3.org/2004/02/skos/core#definition place, space, or direction with respect to a center or to a line of division
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAddressLine3 http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddress
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasPredirectionalSymbol http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PredirectionalSymbol
+Na5afb87aa2cc48bcaf768d9412b1ec5a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N9c181ebd78be4269a59e383756e093f0 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Ne7b902703d65476f87dc4c98fac798ee http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAddressLine1 http://www.w3.org/2004/02/skos/core#definition the first line of the street address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddressIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Identifiers/Identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/GeographicDirectionalSymbol http://www.w3.org/2000/01/rdf-schema#subClassOf N2cf406e666f440a1802442c5e1c78f85
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasStreetName http://www.w3.org/2004/02/skos/core#definition specifies an identifier for a street in some context (e.g., 'Baker', 'First', 'Main')
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/requiresSecondaryUnitRange http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#boolean
+Neca7f79820db4d03ae2965756c148f35 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N3ab2f12bbfd247cf816b28a18686bbc3 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/ContextualDesignators/isUsedBy
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Lot http://www.w3.org/2000/01/rdf-schema#label lot
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StreetAddress http://www.w3.org/2004/02/skos/core#definition index to a location that consists of a primary address number, predirectional, street name, suffix, postdirectional, and an optional secondary unit
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Upper http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddressIdentifier http://www.w3.org/2000/01/rdf-schema#label physical address identifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PrimaryAddressNumber http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/AddressComponent
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Side http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddress https://www.omg.org/spec/Commons/AnnotationVocabulary/usageNote Typically, addresses will have only one postcode expressed either as a string value or individual, and only a municipality (individual) or city (string value).
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Pier http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitDesignator
+Nfe19f1b359e94f2ea9782b945ae203ef http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StreetName http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Front http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitDesignator
+Nd6432585d66343fc9418b935d0ffad72 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnit http://www.w3.org/2000/01/rdf-schema#subClassOf N06dd66e6de1042ea828661013c6ef50a
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddressingScheme http://www.w3.org/2000/01/rdf-schema#seeAlso https://pe.usps.com/cpim/ftp/pubs/Pub28/pub28.pdf
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/VirtualAddress http://www.w3.org/2000/01/rdf-schema#label virtual address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Designators/
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Hangar https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/requiresSecondaryUnitRange true
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Trailer http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasMailRouting http://www.w3.org/2004/02/skos/core#definition an optional, free text address line containing explicit routing information (this elements's presence indicates that this address is a routing / 'care of' address)
+Neca7f79820db4d03ae2965756c148f35 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/GeographicDirectionalSymbol http://www.w3.org/2004/02/skos/core#example In the United States, these include N, S, E, W, NE, NW, SE, SW.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Lot http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+Ne914815951224e6b8c859c803530feb7 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Upper http://www.w3.org/2000/01/rdf-schema#label upper
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAddressLine2 http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddress
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasStreetAddress http://www.w3.org/2000/01/rdf-schema#label has street address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Department http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddress http://www.w3.org/2000/01/rdf-schema#subClassOf N1816832b326d4f4a992eff0084ec9796
+N35f39b081d28411e96dbc209dcd105e6 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Designators/defines
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/GeographicDirectionalSymbol http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SupplementalAddressComponent http://www.w3.org/2000/01/rdf-schema#label supplemental address component
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Suite http://www.w3.org/2004/02/skos/core#definition group of rooms occupied as a unit
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Slip https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/requiresSecondaryUnitRange true
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddress http://www.w3.org/2000/01/rdf-schema#subClassOf Ne221c790f92a4ce0b4f855440f428eaa
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasTransliteratedAddress http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StreetAddress http://www.w3.org/2000/01/rdf-schema#subClassOf Neff334459fe9409d82b5775eca8b1277
+N207fc3ff74974b339fea9833281734d2 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Address http://www.w3.org/2004/02/skos/core#definition index to a location to which communications may be delivered
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAddressLine1 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasPostalCode http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Basement http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitDesignator
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PredirectionalSymbol http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Hangar http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitDesignator
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostOfficeBoxDesignator http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SupplementalAddressDesignator
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasStreetAddress http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ConventionalStreetAddress
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostCodeArea http://www.w3.org/2004/02/skos/core#definition physical area uniquely identified by some postal code
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostdirectionalSymbol http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Postcode http://www.w3.org/2000/01/rdf-schema#subClassOf Ne914815951224e6b8c859c803530feb7
+N35f39b081d28411e96dbc209dcd105e6 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Trailer http://www.w3.org/2000/01/rdf-schema#label trailer
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Slip http://www.w3.org/2004/02/skos/core#definition sloping ramp extending out into the water to serve as a place for landing or repairing ships; ship's or boat's berth between two piers
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddressIdentifier http://www.w3.org/2004/02/skos/core#example Physical address identifiers may include bar codes, QCR codes, and +codes in a number of countries.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddressingScheme http://www.w3.org/2000/01/rdf-schema#label physical addressing scheme
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StreetAddress http://www.w3.org/2000/01/rdf-schema#subClassOf Nc1eab5b42b3a48e9b07a383c41d4aaca
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasSecondaryUnit http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StreetAddress
+N281cbff9e8c24b5c89e9815cb8bdf3e8 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nd56b040aacd844738687ded4e81f5f8c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Unit http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+Nc1eab5b42b3a48e9b07a383c41d4aaca http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StreetName http://www.w3.org/2000/01/rdf-schema#subClassOf Na5afb87aa2cc48bcaf768d9412b1ec5a
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasIndividualPostcode http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/Collections/comprises
+N853b6b756066409da3caee8bf9a3e133 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N3ae53814de094446a1326be09462b7fd http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StreetSuffix
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Apartment https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/requiresSecondaryUnitRange true
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Lobby http://www.w3.org/2004/02/skos/core#definition entrance hall, corridor, or vestibule, as in a public building, often serving as an anteroom; foyer
+N4926e354a5834901b23213f06efa3ed3 http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#string
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnit http://www.w3.org/2000/01/rdf-schema#subClassOf N2ddced26e0f64b609e5cb212192cb30b
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StreetName http://www.w3.org/2000/01/rdf-schema#label street name
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasStreetName http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PrimaryAddressNumber http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N9bfcf8be7ea44813b113f3755b4d79ab http://www.w3.org/2002/07/owl#maxQualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20190901/Places/Addresses.rdf version of this ontology was modified to eliminate duplication of concepts in LCC, simplify address representation and merge countries with locations.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddressIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/CodesAndCodeSets/CodeElement
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAddressLine3 https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://www.gleif.org/en/about-lei/common-data-file-format/lei-cdf-format/lei-cdf-format-version-2-1
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SupplementalAddressDesignator http://www.w3.org/2004/02/skos/core#definition classifier for supplemental address information, such as a highway contract route, rural route, building complex, shopping center, condominium complex, mail box, or other similar designation
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StreetName http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Designators/Name
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAddressLine2 http://www.w3.org/2000/01/rdf-schema#label has address line 2
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/GeographicDirectionalSymbol http://www.w3.org/2000/01/rdf-schema#label geographic directional symbol
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Floor http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20210201/Places/Addresses.rdf version of this ontology was modified to make postcode a subclass of geographic region identifier and fix spelling errors.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/AddressingScheme http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/IdentifiersAndIndices/IndexingScheme
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SupplementalAddressUnit http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N0bd22467d1d34bb1931b41009baaa369 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnit http://www.w3.org/2004/02/skos/core#definition address component that identifies an individual unit within a larger structure, such as an apartment, office, hangar, slip, mailbox, and so forth, at a given street address
+N343620de08b84ddeb18e9e94ff592e8b http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#boolean
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Front https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/requiresSecondaryUnitRange false
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Room http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitDesignator
+N9c181ebd78be4269a59e383756e093f0 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/isMemberOf
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Slip http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Side http://www.w3.org/2000/01/rdf-schema#label side
+N06dd66e6de1042ea828661013c6ef50a http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Apartment http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitDesignator
+N2c033f08cb3349b5a5d77ce4228c8988 http://www.w3.org/2002/07/owl#maxQualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitDesignator https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Note that only certain secondary units require a secondary range, such as an apartment number, to complete a delivery point.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ http://www.w3.org/2004/02/skos/core#changeNote The http://www.omg.org/spec/EDMC-FIBO/FND/20141101/Places/Addresses.rdf version of this ontology was modified per the issue resolutions identified in the FIBO FND 1.1 RTF report. Differences from the 1.0 version include the addition of a hasAddress property and PhysicalAddress class as a parent of PostalAddress.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/CodesAndCodeSets/
+Ne7b902703d65476f87dc4c98fac798ee http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddress http://www.w3.org/2004/02/skos/core#scopeNote An address may be used as an index to the location of a building, apartment, office within an office block, or other structure or parcel of land, often using political boundaries and street names as references, along with other information such as house or building numbers or names. Some addresses also contain secondary elements such as apartment or building numbers, or special codes to aid routing of mail and packages.
+N9bf7993f81e94897b838bc2daf53d12c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N305b63b76e8f43149a46766c74e9859e http://www.w3.org/2002/07/owl#maxQualifiedCardinality 1
+Nd6432585d66343fc9418b935d0ffad72 http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#string
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Lot http://www.w3.org/2004/02/skos/core#definition measured parcel of land having fixed boundaries and designated on a plot or survey
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20130801/Places/Addresses.rdf version of this ontology was modified per the issue resolutions identified in the FIBO FND 1.0 FTF report and in https://spec.edmcouncil.org/fibo/ontology/FND/1.0/AboutFND-1.0/. Primary differences include elimination of data properties in favor of a simple class model,the addition of virtual address, and the addition of addressing scheme.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasTransliteratedAddress http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAddress
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Trailer https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/requiresSecondaryUnitRange true
+N08303ca8d72549a78652876392b4d3c9 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SupplementalAddressUnit
+N35f39b081d28411e96dbc209dcd105e6 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StructureName http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ http://www.w3.org/2000/01/rdf-schema#label Addresses Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAddress http://www.w3.org/2000/01/rdf-schema#label has address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Penthouse http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasStreetSuffix http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StreetAddress
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Basement https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/requiresSecondaryUnitRange false
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasTransliteratedAddress http://www.w3.org/2000/01/rdf-schema#label has transliterated address
+Nc1eab5b42b3a48e9b07a383c41d4aaca http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitDesignator http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nd56b040aacd844738687ded4e81f5f8c http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasStreetAddress
+Nd56b040aacd844738687ded4e81f5f8c http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StreetAddress
+N4ead4d0b3ec74eca82b6424a35bef1fc http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#string
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostdirectionalSymbol http://www.w3.org/2004/02/skos/core#definition geographic directional symbol that follows the street name and street suffix in a street address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Department https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/requiresSecondaryUnitRange true
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/AddressComponent http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddress http://www.w3.org/2000/01/rdf-schema#subClassOf N9ff3d6f6b65d4902b51c3993fc690195
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostOfficeBoxDesignator http://www.w3.org/2000/01/rdf-schema#label post office box designator
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Upper http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitDesignator
+N207fc3ff74974b339fea9833281734d2 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnit
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddress http://www.w3.org/2004/02/skos/core#definition physical address where communications can be addressed, papers served or representatives located for any kind of organization or person
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAddressLine1 http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/TextDatatype/hasTextValue
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostOfficeBox http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SupplementalAddressComponent
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Side http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitDesignator
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasPredirectionalSymbol http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasTransliteratedAddress https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://www.gleif.org/en/about-lei/common-data-file-format/lei-cdf-format/lei-cdf-format-version-2-1
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StreetAddress http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/AddressComponent
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Postcode http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/LCC/Countries/CountryRepresentation/GeographicRegionIdentifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SupplementalAddressComponent http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/AddressComponent
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAddressLine2 https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://www.gleif.org/en/about-lei/common-data-file-format/lei-cdf-format/lei-cdf-format-version-2-1
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/AddressComponent http://www.w3.org/2004/02/skos/core#definition aspect of an address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Office http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Trailer http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitDesignator
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasIndividualPostcode http://www.w3.org/2004/02/skos/core#definition indicates the local or international postcode element of a delivery address as specified by the local postal service
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20200301/Places/Addresses.rdf version of this ontology was modified to correct a missing imports statement.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StructureName http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Designators/Name
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Lot http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitDesignator
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasPostalCode http://www.w3.org/2000/01/rdf-schema#label has postal code
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/AddressComponent http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Classifiers/Aspect
+N9c181ebd78be4269a59e383756e093f0 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddressingScheme
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Rear http://www.w3.org/2000/01/rdf-schema#label rear
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SupplementalAddressUnit http://www.w3.org/2004/02/skos/core#definition address component that includes a specific route, box, apartment, condominium or other indicator or unit associated with a specific address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PhysicalAddress http://www.w3.org/2000/01/rdf-schema#subClassOf N6e81acd135fb483a94b716faaecc5591
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasStreetName http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StreetName
+Ne7b902703d65476f87dc4c98fac798ee http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasPostalCode http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/TextDatatype/hasTextValue
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Hangar http://www.w3.org/2004/02/skos/core#definition shed or shelter; any relatively wide structure used for housing airplanes or airships
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Lot https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/requiresSecondaryUnitRange true
+Nc0e82494f283463ea974dadb6aecf3f5 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20200601/Places/Addresses.rdf version of this ontology was modified to eliminate unnecessary unions and max 1 restrictions.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Postcode http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N0ab0e2ff233746ae908978ff4accfd44 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Classifiers/classifies
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Lower http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+N9ff3d6f6b65d4902b51c3993fc690195 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N207fc3ff74974b339fea9833281734d2 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Building http://www.w3.org/2004/02/skos/core#definition relatively permanent enclosed structure, that has a roof and walls and stands more or less permanently in one place
+N1816832b326d4f4a992eff0084ec9796 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/IdentifiersAndIndices/isIndexTo
+Ne914815951224e6b8c859c803530feb7 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostCodeArea
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasStructureName http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N3ab2f12bbfd247cf816b28a18686bbc3 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Unit http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitDesignator
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Key http://www.w3.org/2004/02/skos/core#definition usually metal instrument by which the bolt of a lock is turned
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SupplementalAddressDesignator http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Classifiers/Classifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ConventionalStreetAddress http://www.w3.org/2004/02/skos/core#definition physical address that identifies a location on a street to which communications may be delivered
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/TextDatatype/
+N9bfcf8be7ea44813b113f3755b4d79ab http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAddressLine1
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasMailRouting http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20180801/Places/Addresses.rdf version of this ontology was modified replace hasDefinition with isDefinedIn to clarify intent, and the address hierarchy was simplified to enable extensions for international and national delivery address specification, and to eliminate deprecated elements.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ http://purl.org/dc/terms/abstract This ontology provides high level definitions for addresses and address components including elements that are common to addressing standards.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitIndicator http://www.w3.org/2000/01/rdf-schema#label secondary unit indicator
+N9a84044aedad4cfc8d26f1c8e29b2034 http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#string
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SupplementalAddressDesignator http://www.w3.org/2000/01/rdf-schema#label supplemental address designator
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Penthouse http://www.w3.org/2004/02/skos/core#definition structure or dwelling on the roof or top floor of a building
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StreetAddress http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+N207fc3ff74974b339fea9833281734d2 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasSecondaryUnit
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2013-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Floor http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitDesignator
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Upper https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/requiresSecondaryUnitRange false
+N0d67bc551d554683bbc6d170dfb98b14 http://www.w3.org/2002/07/owl#maxQualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Floor https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/requiresSecondaryUnitRange true
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasStreetName http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StreetAddress
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostOfficeBox http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Neca7f79820db4d03ae2965756c148f35 http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2000/01/rdf-schema#Literal
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Room http://www.w3.org/2004/02/skos/core#definition partitioned part of the inside of a building
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasIndividualPostcode http://www.w3.org/2000/01/rdf-schema#label has individual postcode
+N4926e354a5834901b23213f06efa3ed3 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasTag
+N915d21ea41d746fca973ce9ab7d3e160 http://www.w3.org/2002/07/owl#allValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasStreetSuffix http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/StreetSuffix
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/AddressingScheme http://www.w3.org/2000/01/rdf-schema#label addressing scheme
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Slip http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitDesignator
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/requiresSecondaryUnitRange http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+N853b6b756066409da3caee8bf9a3e133 http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Location
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Basement http://www.w3.org/2004/02/skos/core#definition part of a building consisting of rooms that are partly or entirely below ground
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Upper http://www.w3.org/2004/02/skos/core#definition floor of a building in a multistory structure that is farther away from the ground level
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnit http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N9bf7993f81e94897b838bc2daf53d12c http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAddressLine2
+N9d3fecb769f74958a5005bad2881777f http://www.w3.org/1999/02/22-rdf-syntax-ns#first Naa8f5990d4034c3086be0a9d6c3cf382
+Nfe19f1b359e94f2ea9782b945ae203ef http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostdirectionalSymbol
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SupplementalAddressComponent http://www.w3.org/2000/01/rdf-schema#subClassOf N08303ca8d72549a78652876392b4d3c9
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasSecondaryUnit http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Basement http://www.w3.org/2000/01/rdf-schema#label basement
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Apartment http://www.w3.org/2000/01/rdf-schema#label apartment
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostOfficeBoxAddress http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N3ae53814de094446a1326be09462b7fd http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N6e81acd135fb483a94b716faaecc5591 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/hasCountry
+Nb49db96330614765a205f2663ce2b413 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SupplementalAddressComponent http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAttentionLine http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/TextDatatype/hasTextValue
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Pier http://www.w3.org/2004/02/skos/core#definition structure extending into navigable water for use as a landing place or promenade
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasPredirectionalSymbol http://www.w3.org/2000/01/rdf-schema#label has predirectional symbol
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ConventionalStreetAddress http://www.w3.org/2000/01/rdf-schema#subClassOf N9bf7993f81e94897b838bc2daf53d12c
+N4ead4d0b3ec74eca82b6424a35bef1fc http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasTag
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Space http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Key http://www.w3.org/2000/01/rdf-schema#label key
+N6a80cd4acb3e4bd8b885f28cf2d13042 http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#string
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/RegionSpecificIdentifier http://www.w3.org/2004/02/skos/core#definition geographic region or subdivision identifier used internally by a country or other region
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Room http://www.w3.org/2000/01/rdf-schema#label room
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SupplementalAddressDesignator http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Penthouse http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/SecondaryUnitDesignator
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ConventionalStreetAddress http://www.w3.org/2000/01/rdf-schema#subClassOf N9bfcf8be7ea44813b113f3755b4d79ab
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasPostdirectionalSymbol http://www.w3.org/2000/01/rdf-schema#label has postdirectional symbol
+N6e81acd135fb483a94b716faaecc5591 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Side https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/requiresSecondaryUnitRange false
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20220701/Places/Addresses.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/VirtualAddress http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Address
+N3ae53814de094446a1326be09462b7fd http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasStructureName http://www.w3.org/2004/02/skos/core#definition specifies an identifier for a building, house, office complex, shopping center, or other structure or group of structures
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/GeographicDirectionalSymbol http://www.w3.org/2004/02/skos/core#definition code element that gives directional information for postal delivery
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PredirectionalSymbol http://www.w3.org/2000/01/rdf-schema#label predirectional symbol
+N9bfcf8be7ea44813b113f3755b4d79ab http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostOfficeBoxDesignator http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N647c1187af3740c782aa54da039e94b4 http://www.w3.org/1999/02/22-rdf-syntax-ns#first N35f39b081d28411e96dbc209dcd105e6
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/ConventionalStreetAddress http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N281cbff9e8c24b5c89e9815cb8bdf3e8 http://www.w3.org/2002/07/owl#unionOf N647c1187af3740c782aa54da039e94b4
+N2ddced26e0f64b609e5cb212192cb30b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Building http://www.w3.org/2000/01/rdf-schema#label building
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/PostOfficeBox http://www.w3.org/2000/01/rdf-schema#label post office box

@@ -1,0 +1,46 @@
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/FundsModule http://purl.org/dc/terms/title EDMC Financial Industry Business Ontology (FIBO) Securities (SEC) Domain Funds Module
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/FundsModule http://www.w3.org/2000/01/rdf-schema#label funds module
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/FundsModule http://purl.org/dc/terms/title FIBO SEC Funds Module
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/FundsModule http://purl.org/dc/terms/contributor Mizuho
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/ http://purl.org/dc/terms/issued 2018-03-31T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/FundsModule http://purl.org/dc/terms/contributor agnos.ai U.K. Ltd
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/FundsModule http://www.w3.org/2000/01/rdf-schema#seeAlso https://spec.edmcouncil.org/fibo/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/FundsModule https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2020-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/FundsModule http://purl.org/dc/terms/abstract This module contains ontologies of funds concepts covering fund structure, definition and involved parties, along with concepts for tradable fund units.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/ http://www.w3.org/2000/01/rdf-schema#label Metadata SEC Funds Module
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/FundsModule http://purl.org/dc/terms/contributor Quarule
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/FundsModule https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2020-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/FundsModule http://purl.org/dc/terms/contributor Citigroup
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/FundsModule http://purl.org/dc/terms/contributor Exprentis
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/FundsModule http://purl.org/dc/terms/contributor Federated Knowledge LLC
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/FundsModule http://purl.org/dc/terms/license http://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/FundsModule http://purl.org/dc/terms/contributor Nordea Bank AB
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/FundsModule http://purl.org/dc/terms/contributor Bloomberg LP
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/FundsModule http://purl.org/dc/terms/contributor John F. Gemski
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/SEC/20230201/Funds/MetadataSECFunds/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/FundsModule http://purl.org/dc/terms/contributor State Street Bank and Trust
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/FundsModule http://purl.org/dc/terms/contributor Dassault Systemes / No Magic
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/FundsModule http://purl.org/dc/terms/contributor Thematix Partners LLC
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/FundsModule http://purl.org/dc/terms/contributor Deutsche Bank
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/FundsModule http://purl.org/dc/terms/contributor BIAN
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/FundsModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/FundsModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/CollectiveInvestmentVehicles/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/FundsModule http://purl.org/dc/terms/contributor Tahoe Blue Ltd
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2020-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/FundsModule http://purl.org/dc/terms/contributor Credit Suisse
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/FundsModule http://purl.org/dc/terms/contributor Adaptive, Inc.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/FundsModule http://purl.org/dc/terms/contributor Wells Fargo Bank, N.A.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/FundsModule http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/ http://purl.org/dc/terms/modified 2023-02-03T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2020-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/ http://purl.org/dc/terms/abstract This module contains ontologies of funds concepts covering fund structure, definition and involved parties, along with concepts for tradable fund units.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/FundsModule http://purl.org/dc/terms/contributor HP Enterprise / Mphasis
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/ http://purl.org/dc/terms/license http://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/FundsModule http://purl.org/dc/terms/contributor John F. Tierney
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/FundsModule http://purl.org/dc/terms/contributor Statistics Canada
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/FundsModule http://purl.org/dc/terms/contributor Office of Financial Research (US Dept of the Treasury)
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/FundsModule http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Module
+https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/MetadataSECFunds/FundsModule http://purl.org/dc/terms/contributor Goldman Sachs

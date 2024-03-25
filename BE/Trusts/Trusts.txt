@@ -1,0 +1,186 @@
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/TrustAgreement https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym trust instrument
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/IrrevocableTrust http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/BE/20230101/Trusts/Trusts.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/hasBeneficiary http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trust
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/ http://www.w3.org/2000/01/rdf-schema#label Trusts Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/BE/20200301/Trusts/Trusts.rdf version of this ontology was modified to add a number of kinds of trusts, clean-up extraneous concepts, and eliminate circularity and ambiguity in definitions.
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/TrustAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf N07cc9b0973bb4d0aacb8d569799949e4
+Nf15ebd735fec412290e65a224754692f http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/PartiesAndSituations/hasPartyRole
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/RevocableTrust http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/IrrevocableTrust
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/isTrusteeOf http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/PartiesAndSituations/actsOn
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Collections/
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/IrrevocableTrust https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Irrevocable trusts also offer asset protection from future creditors and lawsuits.
+N892700fb3b7f493f87c2fbf7663aba79 http://www.w3.org/2002/07/owl#someValuesFrom N5da5120bffef4d198393bd5cbec0a867
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/LivingTrust http://www.w3.org/2000/01/rdf-schema#label living trust
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/LivingTrust http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trust
+N7e8918944e204e75921c114bac33b576 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/RevocableTrust http://www.w3.org/2004/02/skos/core#definition trust in which legal ownership of the trust property is transferred to the trustee, but the trustor retains full power to revoke, modify or amend the trust
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/isTrusteeOf http://www.w3.org/2000/01/rdf-schema#label is trustee of
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/BE/20240101/Trusts/Trusts/
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/BE/20210101/Trusts/Trusts.rdf version of this ontology was modified to reflect the move of OrganizationMember from Parties to Organizations in FND.
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trust http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/BusinessEntity
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/TrustBeneficiary http://www.w3.org/2000/01/rdf-schema#subClassOf N2eded9a4374b4b9fb8af1a02fbaa5046
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trust http://www.w3.org/2004/02/skos/core#definition fiduciary relationship and legal entity in which one party, known as a trustor, gives another party, the trustee, the right to hold title to and manage assets for the benefit of a third party, the beneficiary
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/FormalBusinessOrganizations/
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Release
+N812110c786514206b9909967820aa585 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/PartiesAndSituations/hasPartyRole
+N633d9a6f4c524b65822adf5ed30f9572 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trustee https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The trustee is legally obliged to make all trust-related decisions with the beneficiary's interests in mind, and may be liable for damages in the event of not doing so. Trustees may be entitled to a payment for their services, if specified in the trust agreement. In the specific case of the bond market, a trustee administers a bond issue for a borrower, and ensures that the issuer meets all the terms and conditions associated with the borrowing.
+Ne92826a9faa749b1b5245fb48de3a7df http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isGovernedBy
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/hasTrustee http://www.w3.org/2002/07/owl#inverseOf https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/isTrusteeOf
+Na906c5ee6bf44777b96431cf920baacf http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/PartiesAndSituations/hasPartyRole
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trustee http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N3e309c4d640947139d25412adfb11092 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/BE/20181101/Trusts/Trusts.rdf version of this ontology was modified to eliminate duplication with concepts in LCC.
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/BE/20180801/Trusts/Trusts.rdf version of this ontology was modified to simplify / merge the legal person and formal organization class hierarchies.
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/LivingTrust https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote A living trust is designed to allow for the easy transfer of the trust creator or settlor's assets while bypassing the often complex and expensive legal process of probate. Living trust agreements designate a trustee who holds legal possession of assets and property that flow into the trust.
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/BE/20210401/Trusts/Trusts.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.
+N93ea3a8a5a7f4f1db2bb75489cecb369 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/hasTrustee http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/TestamentaryTrust http://www.w3.org/2000/01/rdf-schema#label testamentary trust
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trust http://www.w3.org/2000/01/rdf-schema#subClassOf Ne92826a9faa749b1b5245fb48de3a7df
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/hasTrustee http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/PartiesAndSituations/isAffectedBy
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/TrustFundManager http://www.w3.org/2000/01/rdf-schema#subClassOf N892700fb3b7f493f87c2fbf7663aba79
+N6ece66e08ee941e88e2dc25437821c3e http://www.w3.org/2002/07/owl#allValuesFrom https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/TrustAgreement
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/TrustFundManager http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Ndc598b73949c4a508213a5a6ec5ee2ea http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/isMemberOf
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/isBeneficiaryOf http://www.w3.org/2000/01/rdf-schema#label is beneficiary of
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/isTrusteeOf http://www.w3.org/2004/02/skos/core#definition identifies the trust over which a trustee has some measure of control
+N9c4a30569c5441e7bece0bfc518acbbb http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/isTrusteeOf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N2eded9a4374b4b9fb8af1a02fbaa5046 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trustor http://www.w3.org/2000/01/rdf-schema#subClassOf N8bfd2b50bfcb4b989442092dd4dce3a0
+N7e8918944e204e75921c114bac33b576 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/isBeneficiaryOf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/ http://purl.org/dc/terms/abstract This ontology defines the fundamental common terms for trusts. Trusts are entities set up in terms of the applicable local statutes goerning trusts, and have as a minimum three specific, defined parties, known in many jurisdictions as trustor (sometimes sponsor), trustee and beneficiary. The terms in this ontology may be extended as necessary to represent specific types of trust, for example in the funds arena.
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2013-2024 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/hasTrustee http://www.w3.org/2000/01/rdf-schema#label has trustee
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/hasBeneficiary http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/TrustBeneficiary
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/TestamentaryTrust http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/TrustAgreement https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym trust document
+N7e8918944e204e75921c114bac33b576 http://www.w3.org/2002/07/owl#someValuesFrom N3e309c4d640947139d25412adfb11092
+N07cc9b0973bb4d0aacb8d569799949e4 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/TrustBeneficiary
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trustor https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym settlor
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/isBeneficiaryOf http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/PartiesAndSituations/isAffectedBy
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/IrrevocableTrust http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trust
+Ne92826a9faa749b1b5245fb48de3a7df http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/TrustAgreement
+Nf15ebd735fec412290e65a224754692f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N9bae042c4f524f1d9d0455cb78301cce http://www.w3.org/2002/07/owl#someValuesFrom Ndc598b73949c4a508213a5a6ec5ee2ea
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/TrustAgreement http://www.w3.org/2004/02/skos/core#definition formal agreement that establishes a trust, whereby the trustor(s) gives the trustee(s) the responsibility to hold and manage assets for the beneficiary(ies)
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/hasBeneficiary http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/PartiesAndSituations/actsOn
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+N812110c786514206b9909967820aa585 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trustee
+N2eded9a4374b4b9fb8af1a02fbaa5046 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/TrustFundManager http://www.w3.org/2000/01/rdf-schema#label trust fund manager
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trust http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/LegalEntity
+N892700fb3b7f493f87c2fbf7663aba79 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+N93ea3a8a5a7f4f1db2bb75489cecb369 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trustor
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/TrustFundManager http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BE/OwnershipAndControl/Executives/LegallyDelegatedAuthority
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trustor https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote It is not always necessary to identify the trustor who may be also be a trustee and/or one of the beneficiaries. In legal parlance, a trustor is called a settlor in the UK and a grantor in the US, whereas in common usage he or she may also be called a creator, donor, initiator, owner, or trust maker.
+N9bae042c4f524f1d9d0455cb78301cce http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/IrrevocableTrust http://www.w3.org/2000/01/rdf-schema#label irrevocable trust
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/isBeneficiaryOf http://www.w3.org/2004/02/skos/core#definition specifies the trust that a beneficiary is named in
+N07cc9b0973bb4d0aacb8d569799949e4 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/PartiesAndSituations/hasPartyRole
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trustor http://www.w3.org/2004/02/skos/core#definition party that establishes a trust and places property under the protection and management of one or more trustees for the benefit of at least one beneficiary
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trustee http://www.w3.org/2000/01/rdf-schema#subClassOf N7e8918944e204e75921c114bac33b576
+N812110c786514206b9909967820aa585 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/TestamentaryTrust http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/IrrevocableTrust
+N8bfd2b50bfcb4b989442092dd4dce3a0 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/isTrusteeOf http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trustee
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/isTrusteeOf http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trust
+Na906c5ee6bf44777b96431cf920baacf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/BE/20230301/Trusts/Trusts.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trust http://www.w3.org/2000/01/rdf-schema#label trust
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/isBeneficiaryOf http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trust
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/IrrevocableTrust http://www.w3.org/2004/02/skos/core#definition trust that cannot be modified, amended or terminated except under certain legal circumstances and typically not without the permission of the grantor's named beneficiary or beneficiaries
+N70c64fa77d494157b917696b8689a079 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/PartiesAndSituations/isAPartyTo
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/RevocableTrust http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trust
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/TrustBeneficiary http://www.w3.org/2004/02/skos/core#definition party for whose interest (benefit) an annuity, assignment (such as a letter of credit), contract, insurance policy, judgment, promise, trust, will, etc., is made
+N6ece66e08ee941e88e2dc25437821c3e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/PartiesAndSituations/
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/TestamentaryTrust http://www.w3.org/2004/02/skos/core#definition trust established in accordance with the instructions contained in a last will and testament
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/TrustBeneficiary http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nf15ebd735fec412290e65a224754692f http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trustee
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+N5da5120bffef4d198393bd5cbec0a867 http://www.w3.org/2002/07/owl#allValuesFrom https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trust
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/BE/20150201/Trusts/Trusts.rdf version of this ontology was modified per the FIBO 2.0 RFC.
+N8f9b82c7eb5b4ac28f9a03b3e1213952 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trustor
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trustee http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BE/OwnershipAndControl/Executives/LegallyDelegatedAuthority
+N5da5120bffef4d198393bd5cbec0a867 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/LivingTrust http://www.w3.org/2004/02/skos/core#definition trust created during an individual's lifetime where a designated person, the trustee, is given responsibility for managing that individual's assets for the benefit of the eventual beneficiary
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/hasTrustee http://www.w3.org/2004/02/skos/core#definition links a trust to a named trustee
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trust http://www.w3.org/2000/01/rdf-schema#subClassOf N812110c786514206b9909967820aa585
+Ndc598b73949c4a508213a5a6ec5ee2ea http://www.w3.org/2002/07/owl#allValuesFrom https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trust
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/hasBeneficiary http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/hasBeneficiary http://www.w3.org/2002/07/owl#inverseOf https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/isBeneficiaryOf
+N8f9b82c7eb5b4ac28f9a03b3e1213952 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/PartiesAndSituations/hasPartyRole
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/TrustAgreement https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote A trust agreement typically states the (1) purpose for which the trust was established and fulfillment of which will terminate the trust, (2) details of the assets placed in the trust, (3) powers and limitations of the trustees, their reporting requirements, and other associated provisions, and (4) may also specify the trustees' compensation, if any. A trust agreement involving real estate requires its exact description and the trustor's express, written consent to create the trust to be valid.
+Ndc598b73949c4a508213a5a6ec5ee2ea http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N70c64fa77d494157b917696b8689a079 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/hasBeneficiary http://www.w3.org/2004/02/skos/core#definition links a trust to a named beneficiary
+N2eded9a4374b4b9fb8af1a02fbaa5046 http://www.w3.org/2002/07/owl#someValuesFrom N6ece66e08ee941e88e2dc25437821c3e
+N8bfd2b50bfcb4b989442092dd4dce3a0 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+Ne92826a9faa749b1b5245fb48de3a7df http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N6ece66e08ee941e88e2dc25437821c3e http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/PartiesAndSituations/isAPartyTo
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2013-2024 Object Management Group, Inc.
+N3e309c4d640947139d25412adfb11092 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/manages
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/TrustAgreement http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trust http://www.w3.org/2000/01/rdf-schema#subClassOf Na906c5ee6bf44777b96431cf920baacf
+N9c4a30569c5441e7bece0bfc518acbbb http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/TrustAgreement
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trustee http://www.w3.org/2000/01/rdf-schema#label trustee
+N0bdd71546eb6452386c38c1e37459e77 http://www.w3.org/2002/07/owl#someValuesFrom N70c64fa77d494157b917696b8689a079
+N07cc9b0973bb4d0aacb8d569799949e4 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/TrustBeneficiary http://www.w3.org/2000/01/rdf-schema#label trust beneficiary
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/BE/20131101/Trusts/Trusts.rdf version of this ontology was modified per the issue resolutions identified in the FIBO BE 1.0 FTF report.
+Ne92826a9faa749b1b5245fb48de3a7df http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+N633d9a6f4c524b65822adf5ed30f9572 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/TrustBeneficiary http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Beneficiary
+N8bfd2b50bfcb4b989442092dd4dce3a0 http://www.w3.org/2002/07/owl#allValuesFrom https://www.omg.org/spec/Commons/PartiesAndSituations/Party
+N0bdd71546eb6452386c38c1e37459e77 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/hasTrustee http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trustee
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/hasBeneficiary http://www.w3.org/2000/01/rdf-schema#label has beneficiary
+Na906c5ee6bf44777b96431cf920baacf http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/TrustBeneficiary
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/TrustAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf N8f9b82c7eb5b4ac28f9a03b3e1213952
+N633d9a6f4c524b65822adf5ed30f9572 http://www.w3.org/2002/07/owl#someValuesFrom N9c4a30569c5441e7bece0bfc518acbbb
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/TrustAgreement https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym trust deed
+N5da5120bffef4d198393bd5cbec0a867 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/manages
+N70c64fa77d494157b917696b8689a079 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/TrustAgreement
+N3e309c4d640947139d25412adfb11092 http://www.w3.org/2002/07/owl#allValuesFrom https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trust
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/BE/20201201/Trusts/Trusts.rdf version of this ontology was modified to eliminate references to external dictionary sites that no longer resolve.
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/LivingTrust http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trustor https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym grantor
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/TrustAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf Nf15ebd735fec412290e65a224754692f
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/TestamentaryTrust https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote A will could have more than one testamentary trust. The trustee named is responsible for managing and distributing the trustor's assets to the beneficiaries as directed in the will. Sometimes called a will trust, the testamentary trust is irrevocable.
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trustee http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationMember
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trustee http://www.w3.org/2004/02/skos/core#definition party that holds and manages assets for the benefit of another
+N9c4a30569c5441e7bece0bfc518acbbb http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/PartiesAndSituations/isAPartyTo
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trustor http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/OrganizationMember
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+N8f9b82c7eb5b4ac28f9a03b3e1213952 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trustor http://www.w3.org/2000/01/rdf-schema#label trustor
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/RevocableTrust http://www.w3.org/2000/01/rdf-schema#label revocable trust
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/TrustFundManager http://www.w3.org/2004/02/skos/core#definition party empowered to act on behalf of the trustee to manage the assets of the trust
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/RevocableTrust http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/OwnershipAndControl/Executives/
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/isBeneficiaryOf http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/TrustBeneficiary
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/hasTrustee http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trust
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/RolesAndCompositions/
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/TrustAgreement http://www.w3.org/2000/01/rdf-schema#label trust agreement
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trustee http://www.w3.org/2000/01/rdf-schema#subClassOf N9bae042c4f524f1d9d0455cb78301cce
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trustee http://www.w3.org/2000/01/rdf-schema#subClassOf N0bdd71546eb6452386c38c1e37459e77
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trustor http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N93ea3a8a5a7f4f1db2bb75489cecb369 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/PartiesAndSituations/hasPartyRole
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trustor http://www.w3.org/2000/01/rdf-schema#subClassOf N633d9a6f4c524b65822adf5ed30f9572
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+N0bdd71546eb6452386c38c1e37459e77 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trust http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N892700fb3b7f493f87c2fbf7663aba79 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/TrustAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/FormalBusinessOrganizations/OrganizationCoveringAgreement
+N9bae042c4f524f1d9d0455cb78301cce http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N70c64fa77d494157b917696b8689a079 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+N9c4a30569c5441e7bece0bfc518acbbb http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/Trusts/Trust http://www.w3.org/2000/01/rdf-schema#subClassOf N93ea3a8a5a7f4f1db2bb75489cecb369

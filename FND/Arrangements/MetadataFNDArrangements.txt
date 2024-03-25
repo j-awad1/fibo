@@ -1,0 +1,29 @@
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/MetadataFNDArrangements/ArrangementsModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/MetadataFNDArrangements/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/MetadataFNDArrangements/ArrangementsModule http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/MetadataFNDArrangements/ArrangementsModule http://purl.org/dc/terms/title Financial Industry Business Ontology (FIBO) Foundations (FND) Arrangements Module
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/MetadataFNDArrangements/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2017-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/MetadataFNDArrangements/ArrangementsModule http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/MetadataFNDArrangements/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/MetadataFNDArrangements/ http://purl.org/dc/terms/modified 2023-03-31T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/MetadataFNDArrangements/ArrangementsModule http://purl.org/dc/terms/title FIBO FND Arrangements Module
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/MetadataFNDArrangements/ArrangementsModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/IdentifiersAndIndices/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/MetadataFNDArrangements/ArrangementsModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/MetadataFNDArrangements/ArrangementsModule http://www.w3.org/2000/01/rdf-schema#label arrangements module
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/MetadataFNDArrangements/ArrangementsModule https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2017-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/MetadataFNDArrangements/ArrangementsModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/MetadataFNDArrangements/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/MetadataFNDArrangements/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2017-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/MetadataFNDArrangements/ArrangementsModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/MetadataFNDArrangements/ArrangementsModule http://www.w3.org/2000/01/rdf-schema#seeAlso https://spec.edmcouncil.org/fibo/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/MetadataFNDArrangements/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/MetadataFNDArrangements/ http://purl.org/dc/terms/issued 2021-03-29T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/MetadataFNDArrangements/ http://purl.org/dc/terms/abstract This is the metadata ontology used to describe the Foundations Arrangements Module.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/MetadataFNDArrangements/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/FND/20230301/Arrangements/MetadataFNDArrangements/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/MetadataFNDArrangements/ArrangementsModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/MetadataFNDArrangements/ArrangementsModule http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Module
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/MetadataFNDArrangements/ArrangementsModule https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2017-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/MetadataFNDArrangements/ArrangementsModule http://purl.org/dc/terms/abstract This module contains ontologies that define abstract concepts, structures and schemata, such as identifiers and identification schemes, indices and indexing schemes, codes and coding schemes, and classification strategies.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/MetadataFNDArrangements/ArrangementsModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/MetadataFNDArrangements/ArrangementsModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Arrangements/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/MetadataFNDArrangements/ http://www.w3.org/2000/01/rdf-schema#label Metadata for the EDMC-FIBO Foundations (FND) Arrangements Module

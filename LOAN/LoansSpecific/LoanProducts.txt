@@ -1,0 +1,183 @@
+N2df60cf26c844cd4a50d95d39d82cf96 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N0045aaeaa6c94545ba87c557f0ca9d7a http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanProduct http://www.w3.org/2000/01/rdf-schema#subClassOf Nc858a169df664e6ca7a51a97eb931845
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanMarketCategory-Commercial http://www.w3.org/2000/01/rdf-schema#label commercial loan
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/MortgageProduct http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanProduct
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanProduct http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/FinancialProduct
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/HomeEquityLoanPurpose http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanPurpose
+N7fefdcf0da444ff5927c07c517d17280 http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#decimal
+N0045aaeaa6c94545ba87c557f0ca9d7a http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/Loans/hasCost
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/Loans/Loan http://www.w3.org/2000/01/rdf-schema#subClassOf Nc1d2b35516084c4bbd57c47936d158c8
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanMarketCategory-Construction http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+N1bee05a267bc4f529b21920bd3407d16 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/ProductsAndServices/Product
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/StudentLoanPurpose http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N466b1e113978422386fefc243d9bd315 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanProduct http://www.w3.org/2004/02/skos/core#definition financial product that is realized as a loan that a party may acquire from a lending institution with specific characteristics and terms
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoansRegulatory/LoanProductRepresentations http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/MotorhomeLoanPurpose http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanPurpose
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanMarketCategory-Construction http://www.w3.org/2000/01/rdf-schema#label construction loan
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/OverdraftFacilityPurpose http://www.w3.org/2000/01/rdf-schema#label overdraft facility purpose
+Ne9a85c3bc7af480abb5f1e7a33e6c1c8 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isExemplifiedBy
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LineItem http://www.w3.org/2000/01/rdf-schema#subClassOf N7fefdcf0da444ff5927c07c517d17280
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Classifiers/
+N5545ec2487a24409b427377cd1c9d9f8 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanProductOffering http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/ProductsAndServices/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/MotorhomeLoanPurpose http://www.w3.org/2000/01/rdf-schema#label motorhome loan purpose
+N4cfd19ccd06f4c31b4e805e580d3b58f http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanProduct
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanPurpose http://www.w3.org/2000/01/rdf-schema#label loan purpose
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/CreditCardReceivablePurpose http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/hasUnitCost http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/Loans/hasCost
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoansRegulatory/LoanProductRepresentations http://www.w3.org/2000/01/rdf-schema#subClassOf N2df60cf26c844cd4a50d95d39d82cf96
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/AutoLoanPurpose http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanPurpose
+N2df60cf26c844cd4a50d95d39d82cf96 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Documents/isAbout
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanProduct http://www.w3.org/2000/01/rdf-schema#subClassOf Nf3739771a9944f3e91c3a2cbc7379799
+Ne9a85c3bc7af480abb5f1e7a33e6c1c8 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/Mortgage
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/
+Nc1d2b35516084c4bbd57c47936d158c8 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanMarketCategory
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/WorkingCapitalPurpose http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N1bee05a267bc4f529b21920bd3407d16 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N65a2bc72797f4e87a6e66d4951402ff2
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanMarketCategory-Personal http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanMarketCategory
+N7fefdcf0da444ff5927c07c517d17280 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nc858a169df664e6ca7a51a97eb931845 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Collateral
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/ http://www.w3.org/2000/01/rdf-schema#label Loan Products Ontology
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/hasUnitCost http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageLoanPurpose http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/hasPreconditions http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanProduct
+N2df60cf26c844cd4a50d95d39d82cf96 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanProduct
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Documents/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/AutoLoanPurpose http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/
+Nf3739771a9944f3e91c3a2cbc7379799 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ConditionPrecedent
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/OverdraftFacilityPurpose http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N0045aaeaa6c94545ba87c557f0ca9d7a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanMarketCategory-Mortgage http://www.w3.org/2000/01/rdf-schema#label mortgage loan
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/hasUnitCost http://www.w3.org/2004/02/skos/core#definition relates an item to its unit cost
+Nc858a169df664e6ca7a51a97eb931845 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Documents/refersTo
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanMarketCategory-Mortgage http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanMarketCategory
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LineItem http://www.w3.org/2004/02/skos/core#editorialNote Future consideration: move this to ProductsAndServices ontology (fibo-fnd-pas-pas).
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanProductOffering http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/Offering
+N90130e618ee74dfe9e3f2d49b01a14bb http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LineItem
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/WorkingCapitalPurpose http://www.w3.org/2000/01/rdf-schema#label working capital purpose
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LineItem http://www.w3.org/2000/01/rdf-schema#subClassOf N0045aaeaa6c94545ba87c557f0ca9d7a
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/ConstructionLoanPurpose http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/BridgingLoanPurpose http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanPurpose
+Nd5191d8c26c64aa18e3ae579ef58b8f5 http://www.w3.org/2002/07/owl#unionOf N1bee05a267bc4f529b21920bd3407d16
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanPurpose http://www.w3.org/2004/02/skos/core#definition A selection of different types of loan purpose, being the purpose for which and manner in which loan (credit) draw-down amounts are to be used. This shows the purpose for which credit is to be used, and implies certain kinds of fact that relate to that specific type of loan e.g. mortgages. These are also identified as tranche types in tranches of a credit facility.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanMarketCategory-SmallBusiness http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanMarketCategory
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LineItem http://www.w3.org/2000/01/rdf-schema#subClassOf N466b1e113978422386fefc243d9bd315
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanPurpose http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/Objective
+N6f6119abe54e47d4a938622ca962eb4e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LineItem http://www.w3.org/2000/01/rdf-schema#label line item
+N5545ec2487a24409b427377cd1c9d9f8 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/Loans/Loan
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LineItem http://www.w3.org/2004/02/skos/core#definition description of a product or service including its unit cost, number of units and total cost
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanProduct http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditFacility
+N6f6119abe54e47d4a938622ca962eb4e http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Documents/refersTo
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/WorkingCapitalPurpose http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanPurpose
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanMarketCategory-Construction http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanMarketCategory
+N65a2bc72797f4e87a6e66d4951402ff2 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/ChargeCategory
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/hasPreconditions http://www.w3.org/2000/01/rdf-schema#label has preconditions
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/ConstructionLoanPurpose http://www.w3.org/2000/01/rdf-schema#label construction loan purpose
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanProductDisclosureRight http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/OverdraftFacilityPurpose http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanPurpose
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/MortgageProduct http://www.w3.org/2000/01/rdf-schema#label mortgage product
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoansRegulatory/
+N466b1e113978422386fefc243d9bd315 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/hasUnitCost
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanMarketCategory-Automobile http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+Nc858a169df664e6ca7a51a97eb931845 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N90130e618ee74dfe9e3f2d49b01a14bb http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/hasConstituent
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanProductOffering http://www.w3.org/2004/02/skos/core#definition offering related to a loan product that may be a tailored to particular circumstances, aimed at a group of borrowers or individual borrower
+N90130e618ee74dfe9e3f2d49b01a14bb http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N4cfd19ccd06f4c31b4e805e580d3b58f http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/ContextualDesignators/appliesTo
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanMarketCategory-Commercial http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+Nf3739771a9944f3e91c3a2cbc7379799 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LineItem http://www.w3.org/2000/01/rdf-schema#subClassOf N6f6119abe54e47d4a938622ca962eb4e
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+Nc1d2b35516084c4bbd57c47936d158c8 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/ContextualDesignators/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LineItem http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Collections/Constituent
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanProductOffering http://www.w3.org/2000/01/rdf-schema#subClassOf N90130e618ee74dfe9e3f2d49b01a14bb
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/ http://purl.org/dc/terms/abstract This ontology describes loan and mortgage loan products. A product as defined here is something marketed and offered for sale, in this case a loan, such that when a customer takes on the product, they become signatories to a corresponding loan contract. A loan product in this sense is a contractual, off-the-shelf product with terms corresponding to those in the actual contract when it is signed.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanMarketCategory http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/IndustrySectorClassifier
+N5545ec2487a24409b427377cd1c9d9f8 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isExemplifiedBy
+N5545ec2487a24409b427377cd1c9d9f8 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/StudentLoanPurpose http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanPurpose
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanProduct http://www.w3.org/2000/01/rdf-schema#subClassOf N5545ec2487a24409b427377cd1c9d9f8
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanMarketCategory-Personal http://www.w3.org/2000/01/rdf-schema#label personal loan
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/HomeEquityLoanPurpose http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/ResidentialHouseboatLoanPurpose http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/MortgageProduct http://www.w3.org/2000/01/rdf-schema#subClassOf Ne9a85c3bc7af480abb5f1e7a33e6c1c8
+N6f6119abe54e47d4a938622ca962eb4e http://www.w3.org/2002/07/owl#someValuesFrom Nd5191d8c26c64aa18e3ae579ef58b8f5
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanMarketCategory-Education http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanProductOffering http://www.w3.org/2000/01/rdf-schema#label loan offering
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/StudentLoanPurpose http://www.w3.org/2000/01/rdf-schema#label student loan purpose
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanProductDisclosureRight http://www.w3.org/2004/02/skos/core#definition Right to fair representation of the facts about Loan products before entrering into agreements for same.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanMarketCategory http://www.w3.org/2000/01/rdf-schema#label loan market category
+Nc858a169df664e6ca7a51a97eb931845 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N466b1e113978422386fefc243d9bd315 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+Ne9a85c3bc7af480abb5f1e7a33e6c1c8 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N65a2bc72797f4e87a6e66d4951402ff2 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanMarketCategory-Education http://www.w3.org/2000/01/rdf-schema#label education loan
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2016-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/CreditCardReceivablePurpose http://www.w3.org/2000/01/rdf-schema#label credit card receivable purpose
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/QuantitiesAndUnits/
+N7fefdcf0da444ff5927c07c517d17280 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N466b1e113978422386fefc243d9bd315 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanProductDisclosureRight http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoansRegulatory/ProductDisclosureRight
+https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/MortgageLoanPurpose http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanPurpose
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanPurpose http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/hasPreconditions http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ConditionPrecedent
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Collections/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanProduct http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanMarketCategory-SmallBusiness http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanProductDisclosureRight http://www.w3.org/2000/01/rdf-schema#label loan product disclosure right
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanProduct http://www.w3.org/2000/01/rdf-schema#label loan product
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/OrdinaryLoanPurpose http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanPurpose
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/hasUnitCost http://www.w3.org/2004/02/skos/core#editorialNote Future consideration: move this property to ProductsAndServices ontology (fibo-fnd-pas-pas).
+Nf3739771a9944f3e91c3a2cbc7379799 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/hasPreconditions
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/MortgageProduct http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Ne9a85c3bc7af480abb5f1e7a33e6c1c8 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/hasPreconditions http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/ConstructionLoanPurpose http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanPurpose
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/Loans/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/OrdinaryLoanPurpose http://www.w3.org/2000/01/rdf-schema#label ordinary loan purpose
+N7fefdcf0da444ff5927c07c517d17280 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasNumericValue
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/ResidentialHouseboatLoanPurpose http://www.w3.org/2000/01/rdf-schema#label residential houseboat loan purpose
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanProductOffering http://www.w3.org/2000/01/rdf-schema#subClassOf N4cfd19ccd06f4c31b4e805e580d3b58f
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/OrdinaryLoanPurpose http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/HomeEquityLoanPurpose http://www.w3.org/2000/01/rdf-schema#label home equity loan purpose
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/BridgingLoanPurpose http://www.w3.org/2000/01/rdf-schema#label bridging loan purpose
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/ResidentialHouseboatLoanPurpose http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanPurpose
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/AutoLoanPurpose http://www.w3.org/2000/01/rdf-schema#label auto loan purpose
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanMarketCategory-Automobile http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanMarketCategory
+Nc1d2b35516084c4bbd57c47936d158c8 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Classifiers/isClassifiedBy
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanMarketCategory-Personal http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+Nd5191d8c26c64aa18e3ae579ef58b8f5 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanMarketCategory-Commercial http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanMarketCategory
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanMarketCategory http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N4cfd19ccd06f4c31b4e805e580d3b58f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/CreditCardReceivablePurpose http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanPurpose
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/hasUnitCost http://www.w3.org/2000/01/rdf-schema#label has unit cost
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/BridgingLoanPurpose http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N90130e618ee74dfe9e3f2d49b01a14bb http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/Loans/Loan http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Provisional
+Nf3739771a9944f3e91c3a2cbc7379799 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanMarketCategory-Mortgage http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/MotorhomeLoanPurpose http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanMarketCategory-SmallBusiness http://www.w3.org/2000/01/rdf-schema#label small business loan
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanMarketCategory-Education http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanMarketCategory
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanMarketCategory-SmallBusiness https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote This is related to the mortgage loan purpose: 'business or commercial'.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanMarketCategory http://www.w3.org/2004/02/skos/core#definition category indicating the market domain in which the loan product is offered
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LoanMarketCategory-Automobile http://www.w3.org/2000/01/rdf-schema#label auto loan
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/LoanProducts/LineItem http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class

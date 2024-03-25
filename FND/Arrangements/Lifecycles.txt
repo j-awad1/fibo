@@ -1,0 +1,153 @@
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/isStageOf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStageOccurrence http://www.w3.org/2000/01/rdf-schema#subClassOf Nee7df2dbd1904cbcac1ae556066875db
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/MaturityLevel http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N4eeaabdb02eb4fdbbeee5b23c74d96b0 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Designators/defines
+Nf0dd9eefeaa34ba4a3a9c696f35e1cd4 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/exemplifies
+N75d3d3babda2494fbdb46f35d2e9750e http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+N32154ecc40a94f47883201067aef8897 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStageOccurrence
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStageOccurrence http://www.w3.org/2000/01/rdf-schema#subClassOf N4ba1be76420b4af892b0cff874a0d728
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/isLifecycleOf http://www.w3.org/2002/07/owl#inverseOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/hasLifecycle
+Nec7367e9727547fdb56a411e22b955d0 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+Nf0dd9eefeaa34ba4a3a9c696f35e1cd4 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/FND/20240101/Arrangements/Lifecycles/
+N41e15ac0b33e498dbdacfff3ce63c0b4 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/hasStage
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStage http://www.w3.org/2000/01/rdf-schema#subClassOf N1b0c7b3d62644d40b6874c8bcbd65572
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/
+Ncf5ae9eead29482d8754b68bc652f037 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+Ndac4a55d043a40a88550fd6ca1cbed95 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/ContextualDesignators/appliesTo
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleEventOccurrence http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/Occurrence
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/ http://purl.org/dc/terms/abstract This ontology defines a set of basic concepts for lifecycles, including the various stages and events that make up a given lifecycle, for use in describing product, trade, instrument, production, and other lifecycles in FIBO.
+N18cd4cc062a74575a3e6f8c53120f446 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/isStageOf http://www.w3.org/2004/02/skos/core#definition relates a stage in a product or trade lifecycle or process to the lifecycle or process that it is a stage of
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/isLifecycleOf http://www.w3.org/2000/01/rdf-schema#label is lifecycle of
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/Lifecycle http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/Lifecycle http://www.w3.org/2004/02/skos/core#example The product life cycle describes the period of time over which an item is developed, brought to market and eventually removed from the market. The cycle is broken into four stages: introduction, growth, maturity and decline. The idea of the product life cycle is used in marketing to decide when it is appropriate to advertise, reduce prices, explore new markets or create new packaging.
+N1b0c7b3d62644d40b6874c8bcbd65572 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/isStageOf
+Nee7df2dbd1904cbcac1ae556066875db http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/isStageOf
+Ne70a6fff7093474d9c1fa4ff3721a0f1 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/Lifecycle
+N32154ecc40a94f47883201067aef8897 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/hasStage
+Ncf5ae9eead29482d8754b68bc652f037 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStageOccurrence
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStageOccurrence http://www.w3.org/2004/02/skos/core#definition realization of a phase in a given lifecycle
+N18cd4cc062a74575a3e6f8c53120f446 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStageOccurrence
+N6e3de3829a7e4295a1af4a2a5a0803b2 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStage http://www.w3.org/2000/01/rdf-schema#subClassOf Nec7367e9727547fdb56a411e22b955d0
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20230301/Arrangements/Lifecycles.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/Lifecycle http://www.w3.org/2000/01/rdf-schema#label lifecycle
+N360cf2a38bdb4df2be55ad7d8ef40e03 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStage
+Ndcbe7e7c68a74b6da0517299bfb466f0 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStage
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/Lifecycle http://www.w3.org/2000/01/rdf-schema#subClassOf N4eeaabdb02eb4fdbbeee5b23c74d96b0
+N4ba1be76420b4af892b0cff874a0d728 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleEventOccurrence http://www.w3.org/2004/02/skos/core#definition realization of an event in a stage of a lifecycle
+N4ba1be76420b4af892b0cff874a0d728 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStage
+N821ae40c0a5a468bacd53a54a43b484f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20180801/Arrangements/Lifecycles.rdf version of this ontology was revised to replace hasDefinition with isDefinedIn to clarify intent.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStage http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Ndac4a55d043a40a88550fd6ca1cbed95 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N6b4b0cf81ed84caeac4ca2340e7f20f4 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStageOccurrence
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStage http://www.w3.org/2000/01/rdf-schema#subClassOf Ne70a6fff7093474d9c1fa4ff3721a0f1
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Collections/
+Nbdeac90df9164f9f875d06ec1e00610c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStatus http://www.w3.org/2004/02/skos/core#definition classifier indicating the position or state of something at a particular point in its life-cycle
+N6b4b0cf81ed84caeac4ca2340e7f20f4 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/ContextualDesignators/appliesTo
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStageOccurrence http://www.w3.org/2000/01/rdf-schema#subClassOf N75d3d3babda2494fbdb46f35d2e9750e
+Ne70a6fff7093474d9c1fa4ff3721a0f1 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Designators/isDefinedIn
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleOccurrence http://www.w3.org/2000/01/rdf-schema#subClassOf N41e15ac0b33e498dbdacfff3ce63c0b4
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleEvent http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/OccurrenceKind
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+Nbdeac90df9164f9f875d06ec1e00610c http://www.w3.org/2002/07/owl#unionOf N360cf2a38bdb4df2be55ad7d8ef40e03
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/ContextualDesignators/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStage http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Classifiers/Classifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Release
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleEvent http://www.w3.org/2004/02/skos/core#example a call notification or coupon payment as a part of a bond lifecycle
+N7597b611a23d422b831d0d5e8dc12f11 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/exemplifies
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20200501/Arrangements/Lifecycles.rdf version of this ontology was revised to eliminate references to external dictionary sites that no longer resolve.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleEventOccurrence http://www.w3.org/2000/01/rdf-schema#subClassOf N6b4b0cf81ed84caeac4ca2340e7f20f4
+N1b0c7b3d62644d40b6874c8bcbd65572 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/Lifecycle
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStageOccurrence http://www.w3.org/2000/01/rdf-schema#label lifecycle stage occurrence
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/hasLifecycle http://www.w3.org/2004/02/skos/core#definition relates something, such as a product, trade, or related process, to a lifecycle that characterizes it
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleEvent http://www.w3.org/2000/01/rdf-schema#subClassOf Ndac4a55d043a40a88550fd6ca1cbed95
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/hasLifecycle http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Designators/
+N6e3de3829a7e4295a1af4a2a5a0803b2 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/isLifecycleOf
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStatus http://www.w3.org/2000/01/rdf-schema#label lifecycle status
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/isLifecycleOf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N4ba1be76420b4af892b0cff874a0d728 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/exemplifies
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/isStageOf http://www.w3.org/2002/07/owl#inverseOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/hasStage
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/hasStage http://www.w3.org/2000/01/rdf-schema#range Nbdeac90df9164f9f875d06ec1e00610c
+Ndcbe7e7c68a74b6da0517299bfb466f0 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/hasStage
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/hasStage http://www.w3.org/2004/02/skos/core#definition relates something, such as a product or trade lifecycle or related process, to a phase or stage in that lifecycle
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStatus http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/isStageOf http://www.w3.org/2000/01/rdf-schema#label is stage of
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleEventOccurrence http://www.w3.org/2000/01/rdf-schema#label lifecycle event occurrence
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/Lifecycle http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Collections/Arrangement
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleOccurrence http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/Occurrence
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleEvent http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N4eeaabdb02eb4fdbbeee5b23c74d96b0 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStage
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/isLifecycleOf http://www.w3.org/2004/02/skos/core#definition relates a lifecycle to something it characterizes
+N821ae40c0a5a468bacd53a54a43b484f http://www.w3.org/2002/07/owl#unionOf Nfa51a7f01bb04efbb77fdfc62bfb0382
+Ndcbe7e7c68a74b6da0517299bfb466f0 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/ http://www.w3.org/2000/01/rdf-schema#label Lifecycles Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/Lifecycle http://www.w3.org/2004/02/skos/core#definition arrangement that compares the cyclical nature of families, organizations, processes, products, marketing, and order management, portfolio management or other systems with the cradle to grave life stages (birth, growth, maturity, decay, and death) of living organisms
+N7597b611a23d422b831d0d5e8dc12f11 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N75d3d3babda2494fbdb46f35d2e9750e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStageOccurrence http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/Occurrence
+Nec7367e9727547fdb56a411e22b955d0 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStage http://www.w3.org/2004/02/skos/core#example a research and development phase of a product lifecycle, the introduction phase in a marketing lifecycle, a growth stage in an economic lifecycle, or the origination phase in the lifecycle of a loan
+N41e15ac0b33e498dbdacfff3ce63c0b4 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nec7367e9727547fdb56a411e22b955d0 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleEvent
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleOccurrence http://www.w3.org/2000/01/rdf-schema#label lifecycle occurrence
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/isStageOf http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/Collections/isPartOf
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleEvent http://www.w3.org/2000/01/rdf-schema#label lifecycle event
+Nee7df2dbd1904cbcac1ae556066875db http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleOccurrence
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2017-2024 EDM Council, Inc.
+N41e15ac0b33e498dbdacfff3ce63c0b4 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStageOccurrence
+N7597b611a23d422b831d0d5e8dc12f11 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+N360cf2a38bdb4df2be55ad7d8ef40e03 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest Ncf5ae9eead29482d8754b68bc652f037
+Ne70a6fff7093474d9c1fa4ff3721a0f1 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/isStageOf http://www.w3.org/2000/01/rdf-schema#domain N821ae40c0a5a468bacd53a54a43b484f
+Nf0dd9eefeaa34ba4a3a9c696f35e1cd4 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleOccurrence http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/MaturityLevel http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStage
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Classifiers/
+N6b4b0cf81ed84caeac4ca2340e7f20f4 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/Lifecycle http://www.w3.org/2000/01/rdf-schema#subClassOf N6e3de3829a7e4295a1af4a2a5a0803b2
+Nfa51a7f01bb04efbb77fdfc62bfb0382 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N18cd4cc062a74575a3e6f8c53120f446
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20190701/Arrangements/Lifecycles.rdf version of this ontology was revised to define lifecycle status, normalize definitions per ISO 704 and eliminate duplication with concepts in LCC.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleEventOccurrence http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/hasLifecycle http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/Lifecycle
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleOccurrence http://www.w3.org/2004/02/skos/core#definition realization of a lifecycle
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/Lifecycle http://www.w3.org/2000/01/rdf-schema#subClassOf Ndcbe7e7c68a74b6da0517299bfb466f0
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/hasLifecycle http://www.w3.org/2000/01/rdf-schema#label has lifecycle
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStageOccurrence http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2017-2024 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20200201/Arrangements/Lifecycles.rdf version of this ontology was revised to add lifecycle stage as the superclass of maturity level.
+N6e3de3829a7e4295a1af4a2a5a0803b2 http://www.w3.org/2002/07/owl#someValuesFrom http://www.w3.org/2002/07/owl#Thing
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleOccurrence http://www.w3.org/2000/01/rdf-schema#subClassOf N7597b611a23d422b831d0d5e8dc12f11
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStatus http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Classifiers/Classifier
+Ndac4a55d043a40a88550fd6ca1cbed95 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStage
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/hasStage http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/Collections/hasPart
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20230101/Arrangements/Lifecycles.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/hasStage http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStatus http://www.w3.org/2000/01/rdf-schema#subClassOf N32154ecc40a94f47883201067aef8897
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/isLifecycleOf http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/Lifecycle
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleEventOccurrence http://www.w3.org/2000/01/rdf-schema#subClassOf Nf0dd9eefeaa34ba4a3a9c696f35e1cd4
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleEvent http://www.w3.org/2004/02/skos/core#definition kind of event that occurs during one or more stages of a lifecycle
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/hasLifecycle http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/Classifiers/isCharacterizedBy
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/isLifecycleOf http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/Classifiers/characterizes
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20210101/Arrangements/Lifecycles.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.
+Nf0dd9eefeaa34ba4a3a9c696f35e1cd4 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleEvent
+N4ba1be76420b4af892b0cff874a0d728 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N1b0c7b3d62644d40b6874c8bcbd65572 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStage http://www.w3.org/2004/02/skos/core#definition phase in a lifecycle
+Nee7df2dbd1904cbcac1ae556066875db http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N4eeaabdb02eb4fdbbeee5b23c74d96b0 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N32154ecc40a94f47883201067aef8897 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N7597b611a23d422b831d0d5e8dc12f11 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/Lifecycle
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStage http://www.w3.org/2000/01/rdf-schema#label lifecycle stage
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/hasStage http://www.w3.org/2000/01/rdf-schema#label has stage
+Nfa51a7f01bb04efbb77fdfc62bfb0382 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStage
+N75d3d3babda2494fbdb46f35d2e9750e http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleEventOccurrence

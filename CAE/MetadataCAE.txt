@@ -1,0 +1,45 @@
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/CAE/CorporateEvents/MetadataCAECorporateEvents/
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/CAEDomain http://purl.org/dc/terms/contributor Tahoe Blue Ltd
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/CAEDomain http://www.w3.org/2000/01/rdf-schema#label corporate actions and events domain
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/CAEDomain http://purl.org/dc/terms/contributor Adaptive, Inc.
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/CAEDomain http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/ http://purl.org/dc/terms/issued 2018-03-31T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/CAEDomain http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/CAE/CorporateEvents/MetadataCAECorporateEvents/CorporateEventsModule
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/CAEDomain http://purl.org/dc/terms/contributor HP Enterprise / Mphasis
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/ http://www.w3.org/2000/01/rdf-schema#label Metadata about the EDMC-FIBO Corporate Actions and Events (CAE) Domain
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/CAEDomain http://purl.org/dc/terms/abstract The Corporate Actions and Events (CAE) domain covers events and actions that may occur during the life of a security, ranging from announcements regarding stock offerings, splits, dividends and so forth, as well as more general business events that are relevant to investors and regulators alike.
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/CAE/20230301/MetadataCAE/
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/CAEDomain http://purl.org/dc/terms/contributor Census Bureau (US Department of Commerce)
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/CAEDomain http://purl.org/dc/terms/contributor John F. Tierney
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/CAEDomain http://purl.org/dc/terms/contributor Statistics Canada
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/ http://purl.org/dc/terms/abstract The Corporate Actions and Events (CAE) domain covers events and actions that may occur during the life of a security, ranging from announcements regarding stock offerings, splits, dividends and so forth, as well as more general business events that are relevant to investors and regulators alike.
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/CAEDomain http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Module
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/CAEDomain http://www.w3.org/2000/01/rdf-schema#seeAlso https://spec.edmcouncil.org/fibo/
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/ http://purl.org/dc/terms/modified 2023-03-31T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/CAEDomain http://purl.org/dc/terms/contributor Bureau of Economic Analysis (BEA, US Department of Commerce)
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/CAEDomain http://purl.org/dc/terms/contributor Office of Financial Research (OFR), U.S. Department of the Treasury
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/CAEDomain http://purl.org/dc/terms/contributor Pinnacle Bank (Morgan Hill, California)
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/CAEDomain https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2018-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/CAEDomain http://purl.org/dc/terms/contributor Citigroup
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/CAEDomain http://purl.org/dc/terms/contributor agnos.ai UK Ltd
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/CAEDomain http://purl.org/dc/terms/contributor Nordea Bank AB
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/CAEDomain https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2018-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/CAEDomain http://purl.org/dc/terms/title FIBO CAE Domain
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/CAEDomain http://purl.org/dc/terms/contributor Wells Fargo Bank, N. A.
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2018-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/CAEDomain http://purl.org/dc/terms/license http://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/CAEDomain http://purl.org/dc/terms/title Financial Industry Business Ontology (FIBO) Corporate Actions and Events (CAE) Domain
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/CAEDomain http://purl.org/dc/terms/contributor Federal Reserve Bank of Kansas City
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/CAEDomain http://purl.org/dc/terms/contributor Bloomberg LP
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/CAEDomain http://purl.org/dc/terms/contributor John F. Gemski
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2018-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/CAEDomain http://purl.org/dc/terms/contributor State Street Bank and Trust
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/ http://purl.org/dc/terms/license http://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/CAEDomain http://purl.org/dc/terms/contributor Thematix Partners LLC
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/CAEDomain http://purl.org/dc/terms/contributor Bureau of Labor Statistics (BLS, US Department of Commerce)
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/CAEDomain http://purl.org/dc/terms/contributor Bank of New York Mellon
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/CAEDomain http://purl.org/dc/terms/contributor Dassault Systemes/No Magic
+https://spec.edmcouncil.org/fibo/ontology/CAE/MetadataCAE/CAEDomain http://purl.org/dc/terms/contributor Deutsche Bank

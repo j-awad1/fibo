@@ -1,0 +1,858 @@
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasDividend http://www.w3.org/2004/02/skos/core#definition relates a share to a dividend that applies to that share, or that the share may pay
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasRecordDate http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDate
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShareWithFixedRateDividend http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasShareClass http://www.w3.org/2004/02/skos/core#definition indicates the class to which the share belongs, typically differentiated by privileges, such as voting rights
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/AdjustableRateDividend http://www.w3.org/2000/01/rdf-schema#label adjustable rate dividend
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/VariableInterestEntityShare http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/
+N3c41443fa9b84f0897cc8dea1293e6d4 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasSharePaymentStatus
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share http://www.w3.org/2000/01/rdf-schema#subClassOf N3c41443fa9b84f0897cc8dea1293e6d4
+Nccfc499eac1b4ceebce6eef0d1dc68eb http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasDividend
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PerpetualPreferredShare http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShare
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasMinimumRedemptionPrice http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+Na257483d5cef496899d1a2fbb35a4668 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasDividendDeclarationDate http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/confersOwnershipOf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShare http://www.w3.org/2004/02/skos/core#definition share that pays dividends at a specified rate and has preference over common shares in the payment of dividends and liquidation of corporate assets
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityRedemptionProvisionWithExtendableRedemptionDate http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityRedemptionProvision
+Ne93c39cb1863477fbe88539ec4b2e999 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ShareIssuer http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nbe80c2c002fd40cb9043c0cfb0f99b8d http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasArgument
+N40df18956138452aaa582ef8b9e53045 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isIssuedBy
+Nf8b7b5618c5e41798101bcf9a43fb8a1 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasVotingRestriction http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#string
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RedeemablePreferredShareWithExtendableRedemptionDate https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym extendible preferred share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasAdjustableDividendRate http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasQuantityValue
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/AuctionRateDividend http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N2bada3347f354e429a3709165c5e1a0f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShareWithFixedMaturityDate http://www.w3.org/2000/01/rdf-schema#subClassOf N8f76db9a63fa406f893a217691c998d4
+N454a0c330caa45188ea3571ed6ea5dcb http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/NonVotingShare http://www.w3.org/2000/01/rdf-schema#label non-voting share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/DatesAndTimes/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityPosition http://www.w3.org/2000/01/rdf-schema#subClassOf Ndf0b10ec460b409090411ed4a21c43c7
+N4f2b07ac7ddc401c8565f18258c478d4 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/confersNumberOfVotesPerShare
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityPosition http://www.w3.org/2000/01/rdf-schema#subClassOf N76c3b56ac66d4782af08575afbc646ba
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RetractablePreferredShareWithExtendableMaturityDate http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShareWithFixedMaturityDate
+N753a7bd3a52b4389b059e467f80fc6f3 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2000/01/rdf-schema#Datatype
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Dividend http://www.w3.org/2000/01/rdf-schema#label dividend
+Ndf0b10ec460b409090411ed4a21c43c7 http://www.w3.org/2002/07/owl#onClass Nae2c21852aaf47dfa67d3749181e68d4
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PartiallyPaidShareStatus http://www.w3.org/2002/07/owl#differentFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/FullyPaidShareStatus
+N638dbd6016bb4b2a8b7691564487ef62 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasDividend
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityPosition http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/Position
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Dividend http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Commitment
+N77a8b8fa29c14c8db9788e79af25f740 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/issues
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/SpecialDividend https://www.omg.org/spec/Commons/AnnotationVocabulary/usageNote Special dividends may be included in a dividend schedule as an ad-hoc entry, since they still need to be tracked based on the date of issuance.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/indicatesNumberOfShares http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasAmount
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/UnrestrictedShare http://www.w3.org/2000/01/rdf-schema#label unrestricted share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/NonParticipatingPreferredShare http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ParticipatingPreferredShare
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/DistributionByCashPayment http://www.w3.org/2000/01/rdf-schema#label distribution by payment
+Nceda97704cbb4b57b049a2756f021bf4 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/PaymentsAndSchedules/hasPaymentAmount
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShare http://www.w3.org/2000/01/rdf-schema#subClassOf N5ffd7d94ec88415d9ddc9ae2b400a7a7
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/
+N41ae943f09c74cc7903bf9ae2b120905 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/confersNumberOfVotesPerShare
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/confersOwnershipOf http://www.w3.org/2004/02/skos/core#definition grants ownership via contract
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/NilPaidShareStatus http://www.w3.org/2002/07/owl#differentFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PartiallyPaidShareStatus
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasSharesIssued http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#nonNegativeInteger
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/
+N244fed12b63044428f0730cb658b0171 http://www.w3.org/2001/XMLSchema#maxExclusive 1
+N324b9f48435446619d645d74c5b7b0a5 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasDividend
+N374ffb680ec84b449bfe0bdc11be10e0 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasFloatingShares
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasMinimumRedemptionPrice http://www.w3.org/2004/02/skos/core#definition indicates the lowest market price above which a share may be redeemed
+Nf6de9b7d902d402dbd2e3cbce88d35a6 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/NilPaidShareStatus http://www.w3.org/2004/02/skos/core#definition status indicating that none of the market value has been received by the company for the shares
+N3c41443fa9b84f0897cc8dea1293e6d4 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/SharePaymentStatus
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/SharePaymentStatus http://www.w3.org/2000/01/rdf-schema#subClassOf N41ab5c21712c4c58a03d7bd6f14885fa
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasDividendGracePeriod http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N16455b884dc74a599e8deab72154a5a1 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasDividend
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Dividend http://www.w3.org/2000/01/rdf-schema#subClassOf Nceda97704cbb4b57b049a2756f021bf4
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasRecordDate http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasDividendGracePeriod http://www.w3.org/2000/01/rdf-schema#label has dividend grace period
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasMinimumRedemptionPrice http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasPrice
+N589b27c3230b4e6eb597d879a43ce840 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasExtensionProvision
+Nc612ae595c734ca588e7e79a00cc2419 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/AuctionRateDividend
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RetractablePreferredShareWithExtendableRedemptionDate http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RetractablePreferredShare
+Nc0633241b2f542ed86c8ec55e66bf18b http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/isSeniorTo
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share http://www.w3.org/2000/01/rdf-schema#label share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PerpetualPreferredShare http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShareWithFixedMaturityDate
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ExtendablePreferredShare http://www.w3.org/2004/02/skos/core#definition preferred share whose redemption date can be extended at the issuer or holder option
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredDividend http://www.w3.org/2000/01/rdf-schema#label preferred dividend
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/VariableInterestEntityShare https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym VIE share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShareWithAdjustableRateDividend http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShareWithFixedRateDividend
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasAdjustableDividendRate http://www.w3.org/2004/02/skos/core#definition indicates a variable dividend rate, typically specified in the prospectus as a formula based on a benchmark or set at auction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/DividendSchedule http://www.w3.org/2000/01/rdf-schema#label dividend schedule
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ConvertiblePreferredShare http://www.w3.org/2004/02/skos/core#definition preferred share that includes an option for the holder to convert the shares into a fixed number of common shares after a predetermined date
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/AdjustableRateDividend http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Ne01f95e481e64c7a90e58ae5e07751fa http://www.w3.org/2002/07/owl#someValuesFrom http://www.w3.org/2001/XMLSchema#nonNegativeInteger
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/DividendDistributionMethod http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/Convention
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ShareYield http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasEarliestRedemptionDate http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDate
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RetractablePreferredShareWithExtendableRedemptionDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Ndbdb997c0ae24718b57a22d729ca2b55 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/VariableInterestEntityShare http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share
+Ne279bf1a4cda4e979918278d492b7001 http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#boolean
+Nb9e77bdf03a048989c3ce6a7c3bcb8ac http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasExtendableMaturityDate
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasTreasuryShares http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#nonNegativeInteger
+Ne8c26de2240d47aeb50552f0472e4d1b http://www.w3.org/2002/07/owl#hasValue true
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasDividendDeclarationDate http://www.w3.org/2000/01/rdf-schema#label has declaration date
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ListedShare http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ListedSecurity
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/DistributionByReinvestment http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/DividendDistributionMethod
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasExDividendDate http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasExplicitDate
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/InstrumentPricing/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/indicatesNumberOfShares http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShareWithAdjustableRateDividend http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShare
+N5fd86b9d04394e9aa3d1ac443950b4a1 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ExtendablePreferredShare https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym extendible preferred share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RetractablePreferredShare http://www.w3.org/2000/01/rdf-schema#subClassOf Na5ae5e0e0267414ca4e3d8817376f0d7
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/LimitedPartnershipUnit https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Like shareholders in a corporation, the LPs have limited liability, i.e., they are only liable on debts incurred by the firm to the extent of their registered investment and they have no management authority. The GPs pay the LPs the equivalent of a dividend on their investment, the nature and extent of which is usually defined in the partnership agreement.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20191201/Equities/EquityInstruments.rdf version of this ontology was revised to refine the definition of share to include a restriction for hasSharesOutstanding, eliminate duplication of concepts in LCC, and add the concept of an equity issuer.
+N16455b884dc74a599e8deab72154a5a1 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/OrdinaryDividend
+N454a0c330caa45188ea3571ed6ea5dcb http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/confersNumberOfVotesPerShare
+N7d11ea58cdce4980a8c0580aa6707c2d http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasSharesOutstanding
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/specifiesConversionDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+Nca7758ef8c22453eb84f13eb7bd99eec http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/specifiesConversionDate
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/VariableInterestEntityShare http://www.w3.org/2000/01/rdf-schema#subClassOf N40df18956138452aaa582ef8b9e53045
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasExDividendDate https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Shares listed on the New York Stock Exchange go ex-dividend four business days prior to the record date.
+Nc5159afb21044100a5cf8e264f9b5171 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/InstrumentPricing/SecurityPrice
+Nebd262f818fc4f8682ecde00383519c3 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/NonCumulativePreferredShare http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Na5ae5e0e0267414ca4e3d8817376f0d7 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/hasRedemptionProvision
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PartiallyPaidShare http://www.w3.org/2000/01/rdf-schema#subClassOf Nf8b7b5618c5e41798101bcf9a43fb8a1
+Nc612ae595c734ca588e7e79a00cc2419 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Custodian https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://www.investopedia.com/terms/c/custodian.asp
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20180801/Equities/EquityInstruments.rdf version of this ontology was revised to replace 'publicly-traded share' with 'exchange-specific share', which is the more commonly used designation and corresponds better with the intended semantics of this concept, to merge in concepts that were formerly in a separate ShareTerms ontology, and eliminate deprecated elements.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasAdjustableDividendRate http://www.w3.org/2000/01/rdf-schema#label has adjustable dividend rate
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasDistributionMethod http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/VariableInterestEntityShare http://www.w3.org/2000/01/rdf-schema#label variable interest entity share
+N638dbd6016bb4b2a8b7691564487ef62 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityPosition http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nb305d9e11c7d4ae1aa86640f60d534e6 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasSharesOutstanding http://www.w3.org/2004/02/skos/core#definition indicates the number of shares currently held by shareholders, including those held by retail investors, institutional investors and insiders, and typically available for trading
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/isRedeemableAtShareholderOption http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#boolean
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RedeemablePreferredShareWithExtendableMaturityDate http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShareWithFixedMaturityDate
+N47a9010703fb478687aa518c924dc1e6 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N92e18905a30a446c8654c4b9277ee70d http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20201201/Equities/EquityInstruments.rdf version of this ontology was revised to add concepts covering additional features of preferred shares, move the two exhaustive CFI-specific classes to the Equity CFI individuals ontology, rename EquityIssuer to ShareIssuer to be clearer about the intent, and add the concept of a price per share.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share http://www.w3.org/2004/02/skos/core#definition financial instrument that signifies a unit of equity ownership in a corporation, or a unit of ownership in a mutual fund, or interest in a general or limited partnership, or a unit of ownership in a structured product, such as a real estate investment trust
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ShareYield http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/InstrumentPricing/Yield
+N7d8e9458375c4188b9f302528076ec34 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/isRedeemableAtIssuerOption http://www.w3.org/2004/02/skos/core#definition indicates whether the issuer has the option of initiating the buy-back, similar to a call feature
+N0c4ecee78dba4553a4d112d849f3a32a http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasEarliestRedemptionDate
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RetractablePreferredShareWithExtendableMaturityDate http://www.w3.org/2000/01/rdf-schema#label retractable preferred share with extendable maturity date
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RestrictedShare http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share
+N4f2b07ac7ddc401c8565f18258c478d4 http://www.w3.org/2002/07/owl#someValuesFrom N753a7bd3a52b4389b059e467f80fc6f3
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/NilPaidShare http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N3404f42c16c74644bef8dd81b323d9a9 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ListedShare http://www.w3.org/2004/02/skos/core#definition share that is listed on at least one platform
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasDividendGracePeriod http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredDividend
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasExDividendDate https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Once the company sets the record date, the ex-dividend date is set based on stock exchange rules. If you purchase a stock on its ex-dividend date or after, you will not receive the next dividend payment.
+N27cd58c7fd2543bb9ef9b242209272a1 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/isRedeemableAtShareholderOption
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/NilPaidShareStatus http://www.w3.org/2004/02/skos/core#example Unpaid shares may be issued, for example, for convenience by a start-up company.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ParticipatingPreferredShare https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Participating preferred shares are rare, typically only issued when needed to attract investors.
+N224b222e9fad4632a90e55d3a3aa003e http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasShareClass
+N76c3b56ac66d4782af08575afbc646ba http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+N7d11ea58cdce4980a8c0580aa6707c2d http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasDistributionMethod http://www.w3.org/2004/02/skos/core#definition indicates the method by which dividend payments are to be distributed
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/specifiesConversionDate http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/Date
+N762df4778ca74d0f824e0aed992f3e57 http://www.w3.org/2002/07/owl#unionOf N403c09b02d8f43deac18235dfa667f6e
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/DistributionByCashPayment http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+Nca7758ef8c22453eb84f13eb7bd99eec http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/Commons/DatesAndTimes/Date
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/FullyPaidShare http://www.w3.org/2004/02/skos/core#definition share whose payment status indicates that no additional money is owed to the company by shareholders on the value of the shares
+N13c625785212414a8e1007b5c5c70ca4 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasExtendableMaturityDate
+Ne01f95e481e64c7a90e58ae5e07751fa http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/VariableInterestEntityShare http://www.w3.org/2004/02/skos/core#definition share that certifies ownership of a contractual right to a percentage of a company's profits
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PrecedenceRight http://www.w3.org/2004/02/skos/core#definition right that give the shareholder higher priority with respect to certain pre-defined dividend payments over other shareholders and that pay out first in the case of liquidation
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RetractablePreferredShareWithExtendableRedemptionDate https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym extendible preferred share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/HardRetractablePreferredShare http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/NonVotingShare http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RedeemablePreferredShareWithExtendableMaturityDate http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RedeemablePreferredShare
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RetractablePreferredShare http://www.w3.org/2004/02/skos/core#definition preferred share that gives the owner (shareholder) the right to redeem the stock under specified conditions
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/NonVotingShare http://www.w3.org/2000/01/rdf-schema#subClassOf N617a441a086541108cdc70a41ad24dea
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ParticipatingPreferredShare http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShareWithAuctionRateDividend http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/NonCumulativePreferredShare http://www.w3.org/2000/01/rdf-schema#label non-cumulative preferred share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/DividendSchedule http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/RegularSchedule
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ConvertiblePreferredShare http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ConvertibleSecurity
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/confersNumberOfVotesPerShare https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote A given share may have zero, fractional, one, or more votes per share, depending on the contract.
+N7d11ea58cdce4980a8c0580aa6707c2d http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/isSeniorTo http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share
+N3404f42c16c74644bef8dd81b323d9a9 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityPosition http://www.w3.org/2000/01/rdf-schema#label equity position
+Nccfc499eac1b4ceebce6eef0d1dc68eb http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N617a441a086541108cdc70a41ad24dea http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/confersNumberOfVotesPerShare
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/Ownership/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityConversionTerms http://www.w3.org/2004/02/skos/core#definition conversion terms specifying the details regarding conversion of shares into other securities
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RetractablePreferredShareWithExtendableMaturityDate http://www.w3.org/2004/02/skos/core#definition retractable preferred share with a fixed maturity date whose issuer and/or holders have the option to extend the maturity date
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/DividendSchedule http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/PaymentsAndSchedules/PaymentSchedule
+Nb305d9e11c7d4ae1aa86640f60d534e6 http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#string
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityConversionTerms http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nc891ab19c05e4b58944f47cbfb042c94 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N762df4778ca74d0f824e0aed992f3e57 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N4f2b07ac7ddc401c8565f18258c478d4 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nf7753ce5d90a4658aabae935a8b29911 http://www.w3.org/2002/07/owl#hasValue https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/NilPaidShareStatus
+N16455b884dc74a599e8deab72154a5a1 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N27cd58c7fd2543bb9ef9b242209272a1 http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#boolean
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasDividendGracePeriod http://www.w3.org/2004/02/skos/core#definition indicates a period of time after a dividend payment becomes due, before the issuer is subject to penalties
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/indicatesNumberOfShares http://www.w3.org/2004/02/skos/core#definition indicates the number of shares associated with the position
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasExDividendDate http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDate
+Ne281747f013046d18c8887afd183cf3e http://www.w3.org/2002/07/owl#withRestrictions N98324ffa8cb7448ebc14c1ad634ed919
+Nf2398f602e5748daaf6dda88c99c0f1b http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/BE/OwnershipAndControl/CorporateOwnership/Shareholder
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/FixedRateDividend http://www.w3.org/2000/01/rdf-schema#label fixed rate dividend
+N324b9f48435446619d645d74c5b7b0a5 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/AdjustableRateDividend
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/UnrestrictedShare http://www.w3.org/2004/02/skos/core#definition share whose ownership/transfer/sale is not subject to special conditions including country-specific restrictions
+N224b222e9fad4632a90e55d3a3aa003e http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N41ab5c21712c4c58a03d7bd6f14885fa http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Classifiers/classifies
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/SEC/20240301/Equities/EquityInstruments/
+Nd7befc325549468ea33856be2c173446 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N09bfa2123a054ccfbba83418bdd8b8b5
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasRecordDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N0ce11c732ecf49ddb9f839ce485e4adf http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasRedemptionPremium
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ListedShare http://www.w3.org/2000/01/rdf-schema#label listed share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasRedemptionPremium http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityRedemptionProvision
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/AuctionRateDividend http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredDividend
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20230601/Equities/EquityInstruments.rdf version of the ontology was modified to eliminate deprecations that are more than 6 months old and to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/SoftRetractablePreferredShare http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RetractablePreferredShare
+N753a7bd3a52b4389b059e467f80fc6f3 http://www.w3.org/2002/07/owl#withRestrictions N0e6016392ae94b2a9960ec0559c5bdec
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/isRedeemableAtShareholderOption http://www.w3.org/2000/01/rdf-schema#label is redeemable at shareholder option
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20220101/Equities/EquityInstruments.rdf version of this ontology was revised to deprecate the notion of a securities restriction specific to a limited partnership fund unit, which required import of unnecessary content and would not be used in practice.
+N0ce11c732ecf49ddb9f839ce485e4adf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasVotingRestriction http://www.w3.org/2004/02/skos/core#definition specifies restrictions on voting rights, if any
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ExchangeablePreferredShare http://www.w3.org/2000/01/rdf-schema#label exchangeable preferred share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/NilPaidShare http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/NonVotingShare http://www.w3.org/2004/02/skos/core#definition share that has no voting right
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/VotingRight http://www.w3.org/2000/01/rdf-schema#label voting right
+Ne95f49097981451c83895f6572e505f8 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/PercentageMonetaryAmount
+N374ffb680ec84b449bfe0bdc11be10e0 http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#nonNegativeInteger
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20210701/Equities/EquityInstruments.rdf version of this ontology was revised to reflect the move of hasMaturityDate from FinancialInstruments to Debt in FBC and eliminate named individuals for specifying voting rights, which caused issues for some tools.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityRedemptionProvision http://www.w3.org/2000/01/rdf-schema#subClassOf N27cd58c7fd2543bb9ef9b242209272a1
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RetractablePreferredShareWithExtendableMaturityDate http://www.w3.org/2000/01/rdf-schema#subClassOf Nb9e77bdf03a048989c3ce6a7c3bcb8ac
+N16455b884dc74a599e8deab72154a5a1 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/CommonShare http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/SharePaymentStatus http://www.w3.org/2004/02/skos/core#definition classifier that specifies the overall payment status for shares issued
+N589b27c3230b4e6eb597d879a43ce840 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/SpecialDividend http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Dividend
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PrivatelyHeldShare http://www.w3.org/2004/02/skos/core#definition share in a security that signifies ownership in an entity that is not publicly traded
+N79813559710b421abcba0e7c6c9f15e7 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityPosition http://www.w3.org/2000/01/rdf-schema#subClassOf Nf6de9b7d902d402dbd2e3cbce88d35a6
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasRecordDate https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Companies also use this date to determine who is sent proxy statements, financial reports, and other information.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasSharePaymentStatus http://www.w3.org/2000/01/rdf-schema#label has share payment status
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EnhancedVotingShare http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShareWithFixedRateDividend http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShare
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShareWithFixedMaturityDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/SpecialDividend http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20220801/Equities/EquityInstruments.rdf version of this ontology was revised to add the notion of a VIE share and integrate dividend distribution method with strategy.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ConvertibleCommonShare http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/CommonShare
+Na257483d5cef496899d1a2fbb35a4668 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/PaymentsAndSchedules/hasPaymentAmount
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShareWithFixedRateDividend http://www.w3.org/2000/01/rdf-schema#subClassOf N638dbd6016bb4b2a8b7691564487ef62
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasEarliestRedemptionDate http://www.w3.org/2000/01/rdf-schema#label has earliest redemption date
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasFloatingShares http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasAmount
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/CommonShare http://www.w3.org/2000/01/rdf-schema#label common share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RetractablePreferredShare http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShare
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/NonParticipatingPreferredShare http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N71aba95b6dd7453084c7db482255d3c1 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/PercentageMonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/NonParticipatingPreferredShare http://www.w3.org/2004/02/skos/core#definition preferred share that is not a participating preferred share
+N87fa62cfe6a64605846be10c97d8e461 http://www.w3.org/2002/07/owl#someValuesFrom Ne281747f013046d18c8887afd183cf3e
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShareWithAdjustableRateDividend http://www.w3.org/2004/02/skos/core#definition preferred share whose dividend rate varies according to some benchmark
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasRedemptionPremium http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RetractablePreferredShareWithExtendableRedemptionDate http://www.w3.org/2000/01/rdf-schema#label retractable preferred share with extendable redemption date
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/
+Ne279bf1a4cda4e979918278d492b7001 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasExtendableRedemptionDate
+N589b27c3230b4e6eb597d879a43ce840 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityRedemptionProvisionWithExtendableRedemptionDate
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasFixedDividendRate http://www.w3.org/2004/02/skos/core#definition indicates a pre-arranged fixed dividend rate, typically specified in the prospectus, for a preferred share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PricePerShare http://www.w3.org/2000/01/rdf-schema#label price per share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ShareYield http://www.w3.org/2000/01/rdf-schema#subClassOf Nbe80c2c002fd40cb9043c0cfb0f99b8d
+Ndbdb997c0ae24718b57a22d729ca2b55 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/holds
+Nf2398f602e5748daaf6dda88c99c0f1b http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/Ownership/hasOwningParty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share http://www.w3.org/2000/01/rdf-schema#subClassOf Nea455ecf1f77456cb6145b5ffd6a8644
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/DividendDistributionMethod https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Distribution may be by payment of a monetary amount or by reinvestment, as specified by the board of directors at the time a decision to issue a dividend is made.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PricePerShare http://www.w3.org/2000/01/rdf-schema#subClassOf N92e18905a30a446c8654c4b9277ee70d
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/FixedRateDividend http://www.w3.org/2000/01/rdf-schema#subClassOf Ne95f49097981451c83895f6572e505f8
+N98324ffa8cb7448ebc14c1ad634ed919 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/LimitedPartnershipUnit http://www.w3.org/2000/01/rdf-schema#subClassOf N42fae1a579fc4631bdf4615c19a82af2
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShareWithAuctionRateDividend http://www.w3.org/2000/01/rdf-schema#label preferred share with auction rate dividend
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ListedShare https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Listing requirements vary by exchange and include minimum stockholder's equity, a minimum share price and a minimum number of shareholders. Exchanges have listing requirements to ensure that only high quality securities are traded on them and to uphold the exchange's reputation among investors.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasExDividendDate http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RedeemablePreferredShareWithExtendableRedemptionDate http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RedeemablePreferredShare
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/indicatesNumberOfShares http://www.w3.org/2000/01/rdf-schema#label indicates number of shares
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasFixedDividendRate http://www.w3.org/2000/01/rdf-schema#label has fixed dividend rate
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/UnrestrictedShare http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/confersNumberOfVotesPerShare http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#decimal
+N0162abe52859451c95f892b0c2ac24b2 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/hasRedemptionProvision
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/SoftRetractablePreferredShare http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Custodian http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/isRedeemableAtIssuerOption http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityRedemptionProvision http://www.w3.org/2000/01/rdf-schema#subClassOf Ne279bf1a4cda4e979918278d492b7001
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasDividend http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Dividend
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RetractablePreferredShareWithExtendableRedemptionDate http://www.w3.org/2000/01/rdf-schema#subClassOf N589b27c3230b4e6eb597d879a43ce840
+Naeccc3e1655549138d7785e1e1f21310 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N7c31733ff4524c2a9586171f202737c8 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isConferredBy
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Custodian http://www.w3.org/2000/01/rdf-schema#subClassOf Ndbdb997c0ae24718b57a22d729ca2b55
+Nf7753ce5d90a4658aabae935a8b29911 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasRecordDate https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym has date of record
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasFloatingShares http://www.w3.org/2000/01/rdf-schema#label has floating shares
+N68502f8845a04c30963eb2e853a69684 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasExtensionProvision
+N76c3b56ac66d4782af08575afbc646ba http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasEarliestRedemptionDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/VotingRight http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20230201/Equities/EquityInstruments.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RestrictedShare http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/UnrestrictedShare
+Na8a42436592f453aa94ebca85dd41496 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasExtensionProvision
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasShareClass http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#string
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasDistributionMethod http://www.w3.org/2000/01/rdf-schema#label has distribution method
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/isSeniorTo http://www.w3.org/2000/01/rdf-schema#label is senior to
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PartiallyPaidShareStatus https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote In the case of partially paid shares, the shareholder is still required to pay the remaining amount to the company. Typically, partially paid shares are only issued to a shareholder if there are compelling business reasons to do so.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityRedemptionProvision http://www.w3.org/2000/01/rdf-schema#subClassOf N0c4ecee78dba4553a4d112d849f3a32a
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/FixedRateDividend https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote In other words, the return is not variable depending on whether or not the company makes a profit. Annual dividends are calculated as a percentage of the par value, which is the price of the preferred stock at the time it was issued. Most preferred shares have fixed rate dividends.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/confersOwnershipOf http://www.w3.org/2000/01/rdf-schema#label confers ownership of
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Dividend http://www.w3.org/2000/01/rdf-schema#subClassOf N79813559710b421abcba0e7c6c9f15e7
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasSharesOutstanding http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasAmount
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ConvertiblePreferredShare http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Ne8c26de2240d47aeb50552f0472e4d1b http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasExtendableRedemptionDate
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/isSeniorTo http://www.w3.org/2004/02/skos/core#definition indicates that a given share (share class) has higher seniority than the related share, meaning that it gives the holder a higher claim on the assets of the issuer
+N0ce11c732ecf49ddb9f839ce485e4adf http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryPrice
+Nccfc499eac1b4ceebce6eef0d1dc68eb http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/OrdinaryDividend
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/SingleVotingShare http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RestrictedVotingShare http://www.w3.org/2004/02/skos/core#definition share that confers less than one vote per share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/CommonShare http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShare
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/QualifiedDividend http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Dividend
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasExtendableMaturityDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+N76c3b56ac66d4782af08575afbc646ba http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/indicatesNumberOfShares
+Naeccc3e1655549138d7785e1e1f21310 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasExDividendDate http://www.w3.org/2000/01/rdf-schema#label has ex-dividend date
+N61f72d5e776a4089bfb92fbf0fcd74a8 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/PercentageMonetaryAmount
+N71aba95b6dd7453084c7db482255d3c1 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasAdjustableDividendRate
+Nca7758ef8c22453eb84f13eb7bd99eec http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShare http://www.w3.org/2000/01/rdf-schema#subClassOf N3e7ff212fb6f45dea2347190b798c5b0
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasDividend http://www.w3.org/2000/01/rdf-schema#label has dividend
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasExtendableRedemptionDate http://www.w3.org/2000/01/rdf-schema#label has extendable redemption date
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasRecordDate https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://www.investor.gov/introduction-investing/investing-basics/glossary/ex-dividend-dates-when-are-you-entitled-stock-and
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/OrdinaryDividend http://www.w3.org/2004/02/skos/core#definition dividend that is paid to shareholders periodically
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasDistributionMethod http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/DividendDistributionMethod
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShareWithFixedRateDividend http://www.w3.org/2000/01/rdf-schema#label preferred share with fixed rate dividend
+N3f7d69ea5fd54386b19c7252579c2c8c http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/DatesAndTimes/Duration
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShareWithFixedRateDividend http://www.w3.org/2004/02/skos/core#definition preferred share whose dividends are set, typically according to the terms of the prospectus
+N0162abe52859451c95f892b0c2ac24b2 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityRedemptionProvision
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ParticipatingPreferredShare http://www.w3.org/2000/01/rdf-schema#label participating preferred share
+Nc0633241b2f542ed86c8ec55e66bf18b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N5ffd7d94ec88415d9ddc9ae2b400a7a7 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasDividend
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/NonCumulativePreferredShare http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/CumulativePreferredShare
+N403c09b02d8f43deac18235dfa667f6e http://www.w3.org/1999/02/22-rdf-syntax-ns#rest Nc5159afb21044100a5cf8e264f9b5171
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasMinimumRedemptionPrice http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityRedemptionProvision
+N753a7bd3a52b4389b059e467f80fc6f3 http://www.w3.org/2002/07/owl#onDatatype http://www.w3.org/2001/XMLSchema#decimal
+N47a9010703fb478687aa518c924dc1e6 http://www.w3.org/2002/07/owl#hasValue true
+Nc5159afb21044100a5cf8e264f9b5171 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+N7c31733ff4524c2a9586171f202737c8 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/WrittenContract
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasFloatingShares http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/specifiesConversionDate http://www.w3.org/2000/01/rdf-schema#label specifies conversion date
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20220301/Equities/EquityInstruments.rdf version of this ontology was revised to clean up deprecated elements, most of which had been in the ontology for awhile.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/SharePaymentStatus http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasRecordDate http://www.w3.org/2000/01/rdf-schema#label has record date
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasTreasuryShares http://www.w3.org/2004/02/skos/core#definition indicates the number of shares issued but not outstanding, including those that were available in the market at one time but have been repurchased by the company
+Nccfc499eac1b4ceebce6eef0d1dc68eb http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ShareIssuer http://www.w3.org/2004/02/skos/core#definition issuer of securities that represent an ownership interest in something
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasDividendGracePeriod http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/Duration
+N7c31733ff4524c2a9586171f202737c8 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nf8b7b5618c5e41798101bcf9a43fb8a1 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasSharePaymentStatus
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RedeemablePreferredShareWithExtendableRedemptionDate http://www.w3.org/2000/01/rdf-schema#subClassOf Na8a42436592f453aa94ebca85dd41496
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ShareYield https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym dividend-price ratio
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/OrdinaryDividend http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Dividend
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/AdjustableRateDividend http://www.w3.org/2004/02/skos/core#definition dividend that varies with a benchmark
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/FixedRateDividend http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Ne281747f013046d18c8887afd183cf3e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2000/01/rdf-schema#Datatype
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/CumulativePreferredShare http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/SoftRetractablePreferredShare http://www.w3.org/2004/02/skos/core#definition retractable preferred share whose retraction value may be paid in cash or in an equal value of common stock of the issuer, at the option of the issuer
+Ne95f49097981451c83895f6572e505f8 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasSharesOutstanding http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+N585d679c2f5c4af9a033e2cc93d4cb8f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasExtendableRedemptionDate http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityRedemptionProvision
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/VotingRight http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContractualRight
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasFloatingShares http://www.w3.org/2004/02/skos/core#definition indicates the number of shares that are available for trading, i.e., the number of shares outstanding less closely held shares (those held by insiders) and restricted shares
+N529e494d643e451794af042ce6cb2b1e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ShareIssuer http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Issuer
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasSharesIssued http://www.w3.org/2000/01/rdf-schema#label has shares issued
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShare http://www.w3.org/2000/01/rdf-schema#subClassOf Nc0633241b2f542ed86c8ec55e66bf18b
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ConvertiblePreferredShare http://www.w3.org/2000/01/rdf-schema#label convertible preferred share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/indicatesNumberOfShares http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#decimal
+N529e494d643e451794af042ce6cb2b1e http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/Partnerships/LimitedPartnership
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share http://www.w3.org/2000/01/rdf-schema#subClassOf N454a0c330caa45188ea3571ed6ea5dcb
+Na5ae5e0e0267414ca4e3d8817376f0d7 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityRedemptionProvision
+N3e7ff212fb6f45dea2347190b798c5b0 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasMaturityDate
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/isSeniorTo http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PrivatelyHeldShare http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N13c625785212414a8e1007b5c5c70ca4 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/OrdinaryDividend http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasMinimumRedemptionPrice http://www.w3.org/2000/01/rdf-schema#label has minimum redemption price
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RedeemablePreferredShareWithExtendableMaturityDate http://www.w3.org/2000/01/rdf-schema#label redeemable preferred share with extendable maturity date
+N42fae1a579fc4631bdf4615c19a82af2 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/DividendDistributionMethod http://www.w3.org/2004/02/skos/core#definition convention by which dividends are provided to shareholders
+N0400621b6e314a3aa5018d363511181a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/QualifiedDividend http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N47a9010703fb478687aa518c924dc1e6 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasExtendableMaturityDate
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20200301/Equities/EquityInstruments.rdf version of this ontology was revised to incorporate additional features required to map the CFI classification scheme to equity instruments, including features specific to preferred shares.
+Na97196d5d7dc417fb0ed815f1183d32e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/DistributionByReinvestment http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ListedShare http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasDividendDeclarationDate http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasExplicitDate
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Custodian http://www.w3.org/2000/01/rdf-schema#label custodian
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityRedemptionProvision http://www.w3.org/2004/02/skos/core#definition redemption provision that specifies the conditions under which the issuer or shareholder may redeem the shares
+N68502f8845a04c30963eb2e853a69684 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ExtensionProvision
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PerpetualPreferredShare http://www.w3.org/2004/02/skos/core#definition preferred share that has no fixed maturity date
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RedeemablePreferredShare http://www.w3.org/2004/02/skos/core#definition preferred share that gives the issuer the right to redeem the stock under specified conditions
+N5fd86b9d04394e9aa3d1ac443950b4a1 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Custodian
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/NilPaidShare http://www.w3.org/2004/02/skos/core#definition share whose payment status indicates that none of the market value has been received by the company for the shares
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/NonCumulativePreferredShare http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShare
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PartiallyPaidShare http://www.w3.org/2004/02/skos/core#definition share whose payment status indicates that only a portion of the market value has been received by the company for the shares
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShare http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20200801/Equities/EquityInstruments.rdf version of this ontology was revised to incorporate a property allowing representation of the share class, streamline the representation of voting rights and payment form, clean up ambiguous definitions, and eliminate redundant restrictions related to security form.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PerpetualPreferredShare http://www.w3.org/2000/01/rdf-schema#label perpetual preferred share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasExDividendDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2000/01/rdf-schema#label Equity Instruments Ontology
+Nb305d9e11c7d4ae1aa86640f60d534e6 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasVotingRestriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/SpecialDividend http://www.w3.org/2000/01/rdf-schema#label special dividend
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share http://www.w3.org/2000/01/rdf-schema#subClassOf N3b8f9183c4734de5b07124879b7849cf
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasRecordDate http://www.w3.org/2004/02/skos/core#definition indicates the date on which the issuer checks to determine whether a party was on the company's books as a shareholder when required (i.e., they must have been on the books prior to the ex-dividend date), to identify who is eligible to receive the next dividend
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/AdjustableRateDividend http://www.w3.org/2000/01/rdf-schema#subClassOf N585d679c2f5c4af9a033e2cc93d4cb8f
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/
+N529e494d643e451794af042ce6cb2b1e http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityRedemptionProvisionWithExtendableRedemptionDate http://www.w3.org/2004/02/skos/core#definition equity redemption provision that allows modification of the redemption date beyond the original specified date
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityRedemptionProvision http://www.w3.org/2000/01/rdf-schema#subClassOf N1bb046a1cec345b69c1ffa8d403cd52a
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ConvertibleCommonShare http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ConvertibleSecurity
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20230301/Equities/EquityInstruments.rdf version of this ontology was modified to clarify a restriction on perpetual preferred share, add extendible preferred share, and add the CFI definition for limited partnership unit.
+N0400621b6e314a3aa5018d363511181a http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/confersNumberOfVotesPerShare http://www.w3.org/2004/02/skos/core#definition grants the right to vote on a per share basis to the shareholder
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20220501/Equities/EquityInstruments.rdf version of this ontology was revised to address text formatting hygiene issues.
+Na5ae5e0e0267414ca4e3d8817376f0d7 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasSharePaymentStatus http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/Classifiers/isClassifiedBy
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasExtendableMaturityDate http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShare
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/specifiesConversionDate http://www.w3.org/2004/02/skos/core#definition indicates the date on which, or after which, conversion may occur
+N41ae943f09c74cc7903bf9ae2b120905 http://www.w3.org/2002/07/owl#hasValue 1
+N3f7d69ea5fd54386b19c7252579c2c8c http://www.w3.org/2002/07/owl#maxQualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RedeemablePreferredShare http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShare
+N3c41443fa9b84f0897cc8dea1293e6d4 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasDividend http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/Classifiers/isClassifiedBy
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RedeemablePreferredShare http://www.w3.org/2000/01/rdf-schema#subClassOf N0162abe52859451c95f892b0c2ac24b2
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Custodian http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/ThirdPartyAgent
+N224b222e9fad4632a90e55d3a3aa003e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Na257483d5cef496899d1a2fbb35a4668 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasExtendableMaturityDate http://www.w3.org/2004/02/skos/core#definition indicates whether the issuer and/or holders of redeemable shares with a fixed maturity date have the option to extend the maturity date
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityRedemptionProvisionWithExtendableRedemptionDate http://www.w3.org/2000/01/rdf-schema#subClassOf Ne8c26de2240d47aeb50552f0472e4d1b
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/CommonShare http://www.w3.org/2000/01/rdf-schema#subClassOf Nccfc499eac1b4ceebce6eef0d1dc68eb
+N79813559710b421abcba0e7c6c9f15e7 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasDistributionMethod
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasMinimumRedemptionPrice http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+Ne93c39cb1863477fbe88539ec4b2e999 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasMaturityDate
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/AuctionRateDividend http://www.w3.org/2000/01/rdf-schema#label auction rate dividend
+N139d45f0124b46009a427d328ab71fb1 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/BE/OwnershipAndControl/CorporateOwnership/Shareholder
+Nceda97704cbb4b57b049a2756f021bf4 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PrivatelyHeldShare http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ListedShare
+N68502f8845a04c30963eb2e853a69684 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasFixedDividendRate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N324b9f48435446619d645d74c5b7b0a5 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/isRedeemableAtIssuerOption http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/RedemptionProvision
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Dividend http://www.w3.org/2000/01/rdf-schema#subClassOf Na97196d5d7dc417fb0ed815f1183d32e
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShareWithFixedMaturityDate http://www.w3.org/2004/02/skos/core#definition preferred share whose maturity date is set, typically according to the terms of the prospectus
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/FullyPaidShare http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShareWithAdjustableRateDividend http://www.w3.org/2000/01/rdf-schema#subClassOf N324b9f48435446619d645d74c5b7b0a5
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/OwnershipAndControl/CorporateOwnership/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/AuctionRateDividend http://www.w3.org/2000/01/rdf-schema#subClassOf N71aba95b6dd7453084c7db482255d3c1
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ShareIssuer https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote This includes shares that represent equity ownership in a corporation, or ownership in a mutual fund, or an interest in a general or limited partnership, or ownership in a structured product, such as a real estate investment trust.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasRecordDate http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasExplicitDate
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Custodian https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The custodian may hold stocks or other assets in electronic or physical form for mutual funds, individuals, and organizational clients.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasRedemptionPremium http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryPrice
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasSharesIssued http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasAmount
+N3b8f9183c4734de5b07124879b7849cf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityConversionTerms http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/ConversionTerms
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/confersOwnershipOf http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/Contract
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasExtendableRedemptionDate http://www.w3.org/2004/02/skos/core#definition indicates whether the issuer and/or holders of redeemable shares with a specified redemption date have the option to extend that date
+Nebd262f818fc4f8682ecde00383519c3 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasSharePaymentStatus
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredDividend http://www.w3.org/2000/01/rdf-schema#subClassOf N3f7d69ea5fd54386b19c7252579c2c8c
+Nc0633241b2f542ed86c8ec55e66bf18b http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/CommonShare
+N0e6016392ae94b2a9960ec0559c5bdec http://www.w3.org/1999/02/22-rdf-syntax-ns#first Nd51f879ea0a54773b4f11be392200360
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/DividendSchedule http://www.w3.org/2004/02/skos/core#definition payment schedule indicating the dates on which dividends are due to be paid
+N585d679c2f5c4af9a033e2cc93d4cb8f http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/InterestRateBenchmark
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityRedemptionProvisionWithExtendableRedemptionDate http://www.w3.org/2000/01/rdf-schema#label equity redemption provision with extendable redemption date
+N61f72d5e776a4089bfb92fbf0fcd74a8 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasAdjustableDividendRate
+Nd51f879ea0a54773b4f11be392200360 http://www.w3.org/2001/XMLSchema#minExclusive 1
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityPosition http://www.w3.org/2004/02/skos/core#definition position in an equity instrument
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ExtendablePreferredShare http://www.w3.org/2000/01/rdf-schema#label extendable preferred share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EnhancedVotingShare http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasSharePaymentStatus http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/NonParticipatingPreferredShare http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShare
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/isRedeemableAtShareholderOption http://www.w3.org/2004/02/skos/core#definition indicates whether the shareholder has the option of initiating the buy-back, similar to a put feature
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RedeemablePreferredShareWithExtendableMaturityDate http://www.w3.org/2000/01/rdf-schema#subClassOf N47a9010703fb478687aa518c924dc1e6
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2018-2024 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/SharePaymentStatus http://www.w3.org/2000/01/rdf-schema#label share payment status
+Na97196d5d7dc417fb0ed815f1183d32e http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasDividend http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RestrictedShare http://www.w3.org/2000/01/rdf-schema#label restricted share
+N0c4ecee78dba4553a4d112d849f3a32a http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDate
+N3b8f9183c4734de5b07124879b7849cf http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShareWithAdjustableRateDividend http://www.w3.org/2000/01/rdf-schema#label preferred share with adjustable rate dividend
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasDividendGracePeriod http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasDuration
+N617a441a086541108cdc70a41ad24dea http://www.w3.org/2002/07/owl#hasValue 0
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasVotingRestriction https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Such restrictions may apply regardless of the number of votes per share.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ShareYield https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym dividend yield
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityRedemptionProvision http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/QuantitiesAndUnits/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ConvertibleCommonShare http://www.w3.org/2000/01/rdf-schema#label convertible common share
+Nf6de9b7d902d402dbd2e3cbce88d35a6 http://www.w3.org/2002/07/owl#someValuesFrom N3404f42c16c74644bef8dd81b323d9a9
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ParticipatingPreferredShare http://www.w3.org/2004/02/skos/core#definition preferred share that, in addition to paying a stipulated dividend, gives the holder the right to participate with common share holders in additional distributions of earnings under specified conditions
+Nf8b7b5618c5e41798101bcf9a43fb8a1 http://www.w3.org/2002/07/owl#hasValue https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PartiallyPaidShareStatus
+N0c4ecee78dba4553a4d112d849f3a32a http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RestrictedVotingShare http://www.w3.org/2000/01/rdf-schema#label restricted voting share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasExtendableMaturityDate http://www.w3.org/2000/01/rdf-schema#label has extendable maturity date
+N0d87791e41664bedafa59852c36c6db9 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N224b222e9fad4632a90e55d3a3aa003e http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#string
+N40df18956138452aaa582ef8b9e53045 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Ne93c39cb1863477fbe88539ec4b2e999 http://www.w3.org/2002/07/owl#maxQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/SoftRetractablePreferredShare http://www.w3.org/2000/01/rdf-schema#label soft retractable preferred share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasDividendDeclarationDate http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDate
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20231201/Equities/EquityInstruments.rdf version of the ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380) and to clean up details related to regular schedules (FBC-317).
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share http://www.w3.org/2000/01/rdf-schema#subClassOf N224b222e9fad4632a90e55d3a3aa003e
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShareWithFixedMaturityDate http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShare
+N0400621b6e314a3aa5018d363511181a http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/isRedeemableAtIssuerOption
+Nebd262f818fc4f8682ecde00383519c3 http://www.w3.org/2002/07/owl#hasValue https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/FullyPaidShareStatus
+Nea455ecf1f77456cb6145b5ffd6a8644 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/SharePaymentStatus http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStatus
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ExtendablePreferredShare https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasSharesIssued http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PerpetualPreferredShare http://www.w3.org/2000/01/rdf-schema#subClassOf Ne93c39cb1863477fbe88539ec4b2e999
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PrecedenceRight http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContractualRight
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RestrictedVotingShare http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N7d11ea58cdce4980a8c0580aa6707c2d http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#nonNegativeInteger
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Dividend http://www.w3.org/2004/02/skos/core#definition announced commitment to make a specific distribution of a portion of earnings to shareholders, prorated by class of security
+N92e18905a30a446c8654c4b9277ee70d http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/isPriceFor
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/CommonShare http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share
+N139d45f0124b46009a427d328ab71fb1 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N5fd86b9d04394e9aa3d1ac443950b4a1
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ParticipatingPreferredShare http://www.w3.org/2000/01/rdf-schema#subClassOf N16455b884dc74a599e8deab72154a5a1
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/
+N8f76db9a63fa406f893a217691c998d4 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/SpecialDividend http://www.w3.org/2004/02/skos/core#definition dividend that is paid to shareholders on a one-time basis
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasVotingRestriction http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityPosition http://www.w3.org/2000/01/rdf-schema#subClassOf Nf2398f602e5748daaf6dda88c99c0f1b
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasEarliestRedemptionDate http://www.w3.org/2004/02/skos/core#definition indicates a date on or after which a stock can be redeemed
+Nf6de9b7d902d402dbd2e3cbce88d35a6 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/Ownership/hasOwnedAsset
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share http://www.w3.org/2000/01/rdf-schema#subClassOf N374ffb680ec84b449bfe0bdc11be10e0
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasFixedDividendRate http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredDividend
+N3e7ff212fb6f45dea2347190b798c5b0 http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDate
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityRedemptionProvision http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/RedemptionProvision
+N42fae1a579fc4631bdf4615c19a82af2 http://www.w3.org/2002/07/owl#someValuesFrom N529e494d643e451794af042ce6cb2b1e
+N40df18956138452aaa582ef8b9e53045 http://www.w3.org/2002/07/owl#someValuesFrom Naeccc3e1655549138d7785e1e1f21310
+N403c09b02d8f43deac18235dfa667f6e http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/OrdinaryDividend
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasSharesOutstanding https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The number of outstanding shares is used in calculating key metrics such as a company's market capitalization, as well as its earnings per share (EPS) and cash flow per share (CFPS).
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20221001/Equities/EquityInstruments.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/NilPaidShareStatus http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ShareYield http://www.w3.org/2000/01/rdf-schema#label share yield
+Nb9e77bdf03a048989c3ce6a7c3bcb8ac http://www.w3.org/2002/07/owl#hasValue true
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PricePerShare https://www.omg.org/spec/Commons/AnnotationVocabulary/abbreviation PPS
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PartiallyPaidShare http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasEarliestRedemptionDate http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasExplicitDate
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasExtendableRedemptionDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ExchangeablePreferredShare http://www.w3.org/2004/02/skos/core#definition preferred share that may be exchanged for a security of another issuer
+Na8a42436592f453aa94ebca85dd41496 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityRedemptionProvisionWithExtendableRedemptionDate
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/VotingRight http://www.w3.org/2004/02/skos/core#definition contractual right that specifies shareholder voting entitlements, such as to elect directors, elect outside auditors, and vote on matters of corporate policy
+N1bb046a1cec345b69c1ffa8d403cd52a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Classifiers/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/HardRetractablePreferredShare http://www.w3.org/2004/02/skos/core#definition retractable preferred share whose retraction value must be paid in cash
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ConvertibleCommonShare http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N0d87791e41664bedafa59852c36c6db9 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasFixedDividendRate
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasDividendDeclarationDate http://www.w3.org/2004/02/skos/core#definition indicates a date on which an organization states that a dividend payment may be anticipated, including the the dividend amount and the ex-dividend and payment dates
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/indicatesNumberOfShares http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityPosition
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityConversionTerms http://www.w3.org/2000/01/rdf-schema#label equity conversion terms
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/FullyPaidShare http://www.w3.org/2000/01/rdf-schema#label fully paid share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PricePerShare http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/UnitPrice
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PerpetualPreferredShare http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N585d679c2f5c4af9a033e2cc93d4cb8f http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasQuantityKind
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RedeemablePreferredShareWithExtendableRedemptionDate http://www.w3.org/2004/02/skos/core#definition redeemable preferred share whose redemption date can be modified
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PrivatelyHeldShare http://www.w3.org/2000/01/rdf-schema#label privately held share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Custodian http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/FinancialServicesEntities/FinancialInstitution
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/FullyPaidShareStatus http://www.w3.org/2004/02/skos/core#definition status indicating that no additional money is owed to the company by shareholders on the value of the shares
+N09bfa2123a054ccfbba83418bdd8b8b5 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasShareClass https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Classes of shares, including shares in a mutual fund, are designated by name or a character (letter), such as A, B, C, etc. In the case of a mutual fund, different classes of shares may incur different fees and expenses.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasTreasuryShares http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasAmount
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/FixedRateDividend http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredDividend
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/isSeniorTo http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share http://www.w3.org/2000/01/rdf-schema#subClassOf Nb305d9e11c7d4ae1aa86640f60d534e6
+Ndf0b10ec460b409090411ed4a21c43c7 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isHeldBy
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PartiallyPaidShare http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/EquityInstrument
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityRedemptionProvision http://www.w3.org/2000/01/rdf-schema#label equity redemption provision
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ExchangeablePreferredShare http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/SharePaymentStatus https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote When a company issues shares upon incorporation or through an initial or secondary issuance, shareholders are required to pay a set amount for those shares. Once the company has received the full amount from shareholders, the shares become fully paid shares.
+Nae2c21852aaf47dfa67d3749181e68d4 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N98324ffa8cb7448ebc14c1ad634ed919 http://www.w3.org/1999/02/22-rdf-syntax-ns#first N244fed12b63044428f0730cb658b0171
+N1bb046a1cec345b69c1ffa8d403cd52a http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasMinimumRedemptionPrice
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasAdjustableDividendRate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N3e7ff212fb6f45dea2347190b798c5b0 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/CommonShare https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym ordinary share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/CommonShare http://www.w3.org/2004/02/skos/core#definition share that signifies a unit of ownership in a corporation and represents a claim on part of the corporation's assets and earnings
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasExDividendDate https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://www.investor.gov/introduction-investing/investing-basics/glossary/ex-dividend-dates-when-are-you-entitled-stock-and
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/isSeniorTo http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#TransitiveProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/LimitedPartnershipUnit http://www.w3.org/2000/01/rdf-schema#label limited partnership unit
+N8f76db9a63fa406f893a217691c998d4 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasMaturityDate
+Nb9e77bdf03a048989c3ce6a7c3bcb8ac http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/isRedeemableAtIssuerOption http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#boolean
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/VotingRight https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Voting may involve decisions on issuing securities, initiating stock splits, and making substantial changes in the corporation's operations. Note that a given share may not have voting rights, in which case the number of votes per share would be zero.
+Ne279bf1a4cda4e979918278d492b7001 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ExtendablePreferredShare http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Ne93c39cb1863477fbe88539ec4b2e999 http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDate
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/isRedeemableAtIssuerOption http://www.w3.org/2000/01/rdf-schema#label is redeemable at issuer option
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasSharePaymentStatus http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/SharePaymentStatus
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PricePerShare http://www.w3.org/2004/02/skos/core#definition price for one share of a given security at some point in time
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ConvertiblePreferredShare https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Most convertible preferred stock is exchanged at the request of the shareholder, but sometimes there is a provision that allows the company, or issuer, to force conversion. The value of a convertible preferred stock is ultimately based on the performance of the common stock.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ConvertiblePreferredShare http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShare
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasFloatingShares http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#nonNegativeInteger
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredDividend http://www.w3.org/2004/02/skos/core#definition commitment to distribute a portion of earnings to shareholders, similar to a dividend but often with a fixed payment amount and schedule
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasRedemptionPremium http://www.w3.org/2000/01/rdf-schema#label has redemption premium
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/DividendDistributionMethod http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/Strategy
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/NilPaidShareStatus http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/SharePaymentStatus
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/DividendSchedule http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PartiallyPaidShare http://www.w3.org/2000/01/rdf-schema#label partially paid share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PrivatelyHeldShare https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Privately owned companies include family-owned businesses, sole proprietorships and the vast majority of small and medium-sized businesses. These companies are often too small for an initial public offering (IPO) due, for example to a small market capitalization and/or low trading volume, and fulfill their financing requirements in other ways, including through smaller offerings.
+Nd7befc325549468ea33856be2c173446 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/OrdinaryDividend
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ExtendablePreferredShare https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote An extendable preferred share may be redeemed at the option of the issuer and/or of the shareholder with an extendable redemption (meturity) date.
+Na97196d5d7dc417fb0ed815f1183d32e http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasSchedule
+N3e7ff212fb6f45dea2347190b798c5b0 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ShareYield http://www.w3.org/2004/02/skos/core#definition ratio of the annualized dividend per share divided by the (current) price per share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/NilPaidShare http://www.w3.org/2000/01/rdf-schema#label nil paid share
+N71aba95b6dd7453084c7db482255d3c1 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RedeemablePreferredShareWithExtendableMaturityDate http://www.w3.org/2004/02/skos/core#definition redeemable preferred share with a fixed maturity date whose issuer has the option to extend the maturity date
+N41ab5c21712c4c58a03d7bd6f14885fa http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/NonCumulativePreferredShare http://www.w3.org/2004/02/skos/core#definition preferred share whose dividend payments are not carried forward
+Ne279bf1a4cda4e979918278d492b7001 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasTreasuryShares http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EnhancedVotingShare http://www.w3.org/2004/02/skos/core#definition share that confers more than one vote per share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/FullyPaidShareStatus http://www.w3.org/2000/01/rdf-schema#label fully paid share status
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Release
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasShareClass http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/LimitedPartnershipUnit https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fourth Edition, October 2019
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasExtendableMaturityDate http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#boolean
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasSharePaymentStatus http://www.w3.org/2004/02/skos/core#definition indicates the payment status for shares issued
+N1bb046a1cec345b69c1ffa8d403cd52a http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+Ne95f49097981451c83895f6572e505f8 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasFixedDividendRate
+N0162abe52859451c95f892b0c2ac24b2 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/LimitedPartnershipUnit http://www.w3.org/2004/02/skos/core#definition share in a form of partnership similar to a general partnership, except that in addition to one or more general partners (GPs), there are one or more limited partners (LPs)
+Ne01f95e481e64c7a90e58ae5e07751fa http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/Corporations/hasSharesAuthorized
+Ndf0b10ec460b409090411ed4a21c43c7 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasVotingRestriction http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/AuctionRateDividend http://www.w3.org/2004/02/skos/core#definition preferred share dividend whose rate is periodically reset through an auction, typically every 7, 14, 28, or 35 days
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RetractablePreferredShareWithExtendableMaturityDate http://www.w3.org/2000/01/rdf-schema#subClassOf N68502f8845a04c30963eb2e853a69684
+N77a8b8fa29c14c8db9788e79af25f740 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityRedemptionProvision http://www.w3.org/2000/01/rdf-schema#subClassOf N0ce11c732ecf49ddb9f839ce485e4adf
+Nc891ab19c05e4b58944f47cbfb042c94 http://www.w3.org/2002/07/owl#unionOf Nd7befc325549468ea33856be2c173446
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RetractablePreferredShareWithExtendableRedemptionDate http://www.w3.org/2004/02/skos/core#definition retractable preferred share whose redemption date can be modified
+N1bb046a1cec345b69c1ffa8d403cd52a http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryPrice
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PrecedenceRight http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasSharePaymentStatus http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RedeemablePreferredShareWithExtendableMaturityDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N0e6016392ae94b2a9960ec0559c5bdec http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+Na257483d5cef496899d1a2fbb35a4668 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N638dbd6016bb4b2a8b7691564487ef62 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/FixedRateDividend
+N374ffb680ec84b449bfe0bdc11be10e0 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasDividend http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/confersOwnershipOf http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/confers
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasAdjustableDividendRate http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredDividend
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/CumulativePreferredShare http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShare
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PricePerShare http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/CommonShare https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote In the event that the corporation is liquidated, claims of secured and unsecured creditors and owners of bonds and preferred shares take precedence over claims of common share holders.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShareWithAuctionRateDividend http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShare
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/VotingRight http://www.w3.org/2000/01/rdf-schema#subClassOf N7c31733ff4524c2a9586171f202737c8
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RestrictedVotingShare http://www.w3.org/2000/01/rdf-schema#subClassOf N87fa62cfe6a64605846be10c97d8e461
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasFixedDividendRate http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/QuantitiesAndUnits/hasQuantityValue
+N13c625785212414a8e1007b5c5c70ca4 http://www.w3.org/2002/07/owl#hasValue true
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasSharesIssued http://www.w3.org/2004/02/skos/core#definition indicates the actual number of shares held by shareholders (i.e., shares outstanding) and treasury shares
+N2bada3347f354e429a3709165c5e1a0f http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Security
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/SingleVotingShare http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasRedemptionPremium http://www.w3.org/2004/02/skos/core#definition indicates the premium price per share over the market price, if any, that must be paid in order to redeem the stock
+Na8a42436592f453aa94ebca85dd41496 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RestrictedShare http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/AdjustableRateDividend http://www.w3.org/2000/01/rdf-schema#subClassOf N61f72d5e776a4089bfb92fbf0fcd74a8
+N76c3b56ac66d4782af08575afbc646ba http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#decimal
+N0400621b6e314a3aa5018d363511181a http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#boolean
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/DistributionByCashPayment http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/DividendDistributionMethod
+N3f7d69ea5fd54386b19c7252579c2c8c http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasDividendGracePeriod
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share http://www.w3.org/2000/01/rdf-schema#subClassOf N7d11ea58cdce4980a8c0580aa6707c2d
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RestrictedShare http://www.w3.org/2004/02/skos/core#definition share whose ownership/transfer/sale is subject to special conditions including country-specific restrictions
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/DistributionByReinvestment http://www.w3.org/2004/02/skos/core#definition distribution method involving automatic reinvestment of shareholders' dividends in additional, potentially fractional, shares in the same asset
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/OrdinaryDividend http://www.w3.org/2000/01/rdf-schema#label ordinary dividend
+Nf7753ce5d90a4658aabae935a8b29911 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasSharePaymentStatus
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/specifiesConversionDate http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityConversionTerms
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/NonVotingShare http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N27cd58c7fd2543bb9ef9b242209272a1 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/RolesAndCompositions/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/VariableInterestEntityShare https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Unlike a traditional stock certificate, the VIE share provides a legal proprietary interest in a completely separate company's assets, sometimes referred to as a shell company. The contractual right certified by the VIE share is derived from a contract between (1) the company named on the VIE share and (2) the shell company. In other words, VIE shareholders only have a traditional stock certificate in the completely separate shell company, which is entitled to a percentage of the named company's profits via a private contract.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredDividend http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://purl.org/dc/terms/abstract Core terms are those fundamental to all equity instruments. This ontology also distinguishes between privately held and publicly traded equity instruments, and defines a number of related concepts, such as voting rights.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShareWithAdjustableRateDividend http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N3f7d69ea5fd54386b19c7252579c2c8c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PrivatelyHeldShare http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/SingleVotingShare http://www.w3.org/2004/02/skos/core#definition share that has the right to exactly one vote
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShareWithFixedMaturityDate http://www.w3.org/2000/01/rdf-schema#label preferred share with fixed maturity date
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RetractablePreferredShareWithExtendableMaturityDate http://www.w3.org/2000/01/rdf-schema#subClassOf N13c625785212414a8e1007b5c5c70ca4
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/FullyPaidShare http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20190901/Equities/EquityInstruments.rdf version of this ontology was revised to refine the definition of listed share, update definitions to remove leading articles, add missing properties and restrictions, revise the definition of dividend.
+Ne8c26de2240d47aeb50552f0472e4d1b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/LimitedPartnershipUnit http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N454a0c330caa45188ea3571ed6ea5dcb http://www.w3.org/2002/07/owl#someValuesFrom http://www.w3.org/2001/XMLSchema#decimal
+N09bfa2123a054ccfbba83418bdd8b8b5 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredDividend
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/HardRetractablePreferredShare http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RetractablePreferredShare
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PricePerShare http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/InstrumentPricing/SecurityPrice
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ListedShare http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Custodian http://www.w3.org/2004/02/skos/core#definition financial institution that holds customers' securities for safekeeping
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ConvertibleCommonShare http://www.w3.org/2004/02/skos/core#definition common share that is convertible into another security
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShareWithAuctionRateDividend http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShareWithFixedRateDividend
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasRedemptionPremium http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasPrice
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Dividend https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The amount and timing of payment is set by the board of directors, typically quarterly. Dividends may be paid in the form of money, shares, scrip, or on rare occasion, property.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RedeemablePreferredShare http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/confersNumberOfVotesPerShare http://www.w3.org/2000/01/rdf-schema#label number of votes per share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasAdjustableDividendRate http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/PercentageMonetaryAmount
+Na97196d5d7dc417fb0ed815f1183d32e http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/DividendSchedule
+N617a441a086541108cdc70a41ad24dea http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShare http://www.w3.org/2000/01/rdf-schema#label preferred share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityRedemptionProvisionWithExtendableRedemptionDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N79813559710b421abcba0e7c6c9f15e7 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/DividendDistributionMethod
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/FullyPaidShareStatus http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShare http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share
+N7d8e9458375c4188b9f302528076ec34 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/confersOwnershipOf
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/HardRetractablePreferredShare http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/SoftRetractablePreferredShare
+N8f76db9a63fa406f893a217691c998d4 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasTreasuryShares http://www.w3.org/2000/01/rdf-schema#label has treasury shares
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasDividendDeclarationDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+Nb305d9e11c7d4ae1aa86640f60d534e6 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+Nbe80c2c002fd40cb9043c0cfb0f99b8d http://www.w3.org/2002/07/owl#someValuesFrom N762df4778ca74d0f824e0aed992f3e57
+N87fa62cfe6a64605846be10c97d8e461 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nceda97704cbb4b57b049a2756f021bf4 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Naeccc3e1655549138d7785e1e1f21310 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/VariableInterestEntity
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/AdjustableRateDividend https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The value of the dividend from the preferred share is set by a predetermined formula to move with rates, and because of this flexibility preferred prices are often more stable then fixed-rate preferred stocks.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredDividend http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Dividend
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ParticipatingPreferredShare http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShare
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RetractablePreferredShare http://www.w3.org/2000/01/rdf-schema#label retractable preferred share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/NilPaidShareStatus http://www.w3.org/2002/07/owl#differentFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/FullyPaidShareStatus
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20210601/Equities/EquityInstruments.rdf version of this ontology was revised to revise the definition of dividend to explicitly state that it reflects the announced commitment of a specific dividend rather than a more general policy.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PartiallyPaidShareStatus http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasSharesOutstanding http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#nonNegativeInteger
+N8f76db9a63fa406f893a217691c998d4 http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDate
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ShareIssuer http://www.w3.org/2000/01/rdf-schema#subClassOf N77a8b8fa29c14c8db9788e79af25f740
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasDistributionMethod http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/Objectives/hasStrategy
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/
+Nf2398f602e5748daaf6dda88c99c0f1b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RedeemablePreferredShareWithExtendableRedemptionDate http://www.w3.org/2000/01/rdf-schema#label redeemable preferred share with extendable redemption date
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RetractablePreferredShare http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N0c4ecee78dba4553a4d112d849f3a32a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share http://www.w3.org/2000/01/rdf-schema#subClassOf N7d8e9458375c4188b9f302528076ec34
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20210301/Equities/EquityInstruments.rdf version of this ontology was revised to rename ownership related properties for consistent alignment with the ownership situational pattern and to move properties / restrictions that define how many shares have been issued from the issuer to the share.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/LimitedPartnershipUnit http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/HardRetractablePreferredShare http://www.w3.org/2000/01/rdf-schema#label hard retractable preferred share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ShareIssuer http://www.w3.org/2000/01/rdf-schema#label share issuer
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShareWithAuctionRateDividend http://www.w3.org/2004/02/skos/core#definition preferred share whose dividend rate is periodically reset through an auction, such as a Dutch auction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/QualifiedDividend http://www.w3.org/2000/01/rdf-schema#label qualified dividend
+N5ffd7d94ec88415d9ddc9ae2b400a7a7 http://www.w3.org/2002/07/owl#someValuesFrom Nc891ab19c05e4b58944f47cbfb042c94
+N5ffd7d94ec88415d9ddc9ae2b400a7a7 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nea455ecf1f77456cb6145b5ffd6a8644 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PartiallyPaidShareStatus http://www.w3.org/2004/02/skos/core#definition status indicating that only a portion of the market value has been received by the company for the shares
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/CumulativePreferredShare https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote These dividends have precedence over ordinary dividends which cannot be paid until any cumulative dividend obligations have been paid. Dividends are typically deferred due to insufficient earnings or other business reasons.
+N374ffb680ec84b449bfe0bdc11be10e0 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasDistributionMethod http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Dividend
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/CumulativePreferredShare http://www.w3.org/2004/02/skos/core#definition preferred share whose dividends, if not paid on time, accumulate until paid out
+Nceda97704cbb4b57b049a2756f021bf4 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/isRedeemableAtShareholderOption http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/OrdinaryDividend https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Most dividends are considered ordinary, unless they are specifically designated as qualified dividends.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasEarliestRedemptionDate http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityRedemptionProvision
+N61f72d5e776a4089bfb92fbf0fcd74a8 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/UnrestrictedShare http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/confersNumberOfVotesPerShare http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasAmount
+N41ab5c21712c4c58a03d7bd6f14885fa http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/PaymentsAndSchedules/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/SingleVotingShare http://www.w3.org/2000/01/rdf-schema#label single voting share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasSharesOutstanding http://www.w3.org/2000/01/rdf-schema#label has shares outstanding
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/DistributionByCashPayment http://www.w3.org/2004/02/skos/core#definition distribution method involving payment of cash to the shareholder
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Dividend http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N7d8e9458375c4188b9f302528076ec34 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/ShareholdersEquity
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/FixedRateDividend http://www.w3.org/2004/02/skos/core#definition dividend that provides a specified annual return on the nominal value (and any premium) paid on shares
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/FullyPaidShare http://www.w3.org/2000/01/rdf-schema#subClassOf Nebd262f818fc4f8682ecde00383519c3
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RedeemablePreferredShareWithExtendableRedemptionDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasVotingRestriction http://www.w3.org/2000/01/rdf-schema#label has voting restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RestrictedVotingShare http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasExDividendDate https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym has expected dividend date
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EnhancedVotingShare http://www.w3.org/2000/01/rdf-schema#subClassOf N4f2b07ac7ddc401c8565f18258c478d4
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredDividend http://www.w3.org/2000/01/rdf-schema#subClassOf N0d87791e41664bedafa59852c36c6db9
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/FullyPaidShareStatus http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/SharePaymentStatus
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2013-2024 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/DividendDistributionMethod http://www.w3.org/2000/01/rdf-schema#label dividend distribution method
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/NonParticipatingPreferredShare http://www.w3.org/2000/01/rdf-schema#label non-participating preferred share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/OrdinaryDividend http://www.w3.org/2000/01/rdf-schema#subClassOf Na257483d5cef496899d1a2fbb35a4668
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/OrdinaryDividend https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Note that the terms related to ordinary dividend payment are typically specified in the context of a board resolution rather than contractually.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityConversionTerms http://www.w3.org/2000/01/rdf-schema#subClassOf N2bada3347f354e429a3709165c5e1a0f
+N27cd58c7fd2543bb9ef9b242209272a1 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasExDividendDate http://www.w3.org/2004/02/skos/core#definition indicates a date on which a stock 'goes ex-dividend', typically about three weeks before the dividend is paid to shareholders of record
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasShareClass http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+N3b8f9183c4734de5b07124879b7849cf http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasSharesIssued
+Nae2c21852aaf47dfa67d3749181e68d4 http://www.w3.org/2002/07/owl#unionOf N139d45f0124b46009a427d328ab71fb1
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/QualifiedDividend http://www.w3.org/2004/02/skos/core#definition dividend that falls under capital gains tax rates that are lower than the income tax rates on unqualified (ordinary) dividends
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/
+Ndbdb997c0ae24718b57a22d729ca2b55 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N2bada3347f354e429a3709165c5e1a0f http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/specifiesConversionInto
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasDividendDeclarationDate https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym has announcement date
+N3404f42c16c74644bef8dd81b323d9a9 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/NilPaidShareStatus http://www.w3.org/2000/01/rdf-schema#label nil paid share status
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PartiallyPaidShareStatus http://www.w3.org/2000/01/rdf-schema#label partially paid share status
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ListedShare http://www.w3.org/2000/01/rdf-schema#seeAlso https://www.investopedia.com/terms/l/listedsecurity.asp
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityRedemptionProvision http://www.w3.org/2000/01/rdf-schema#subClassOf N0400621b6e314a3aa5018d363511181a
+Ndf0b10ec460b409090411ed4a21c43c7 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N41ae943f09c74cc7903bf9ae2b120905 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PricePerShare https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym share price
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PrecedenceRight http://www.w3.org/2000/01/rdf-schema#label precedence right
+N77a8b8fa29c14c8db9788e79af25f740 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N42fae1a579fc4631bdf4615c19a82af2 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasCounterparty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PartiallyPaidShareStatus http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/SharePaymentStatus
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasExtendableRedemptionDate http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#boolean
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/DistributionByReinvestment http://www.w3.org/2000/01/rdf-schema#label distribution by reinvestment
+N3b8f9183c4734de5b07124879b7849cf http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#nonNegativeInteger
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasExDividendDate https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym has ex-date
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasFixedDividendRate http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/PercentageMonetaryAmount
+Ne281747f013046d18c8887afd183cf3e http://www.w3.org/2002/07/owl#onDatatype http://www.w3.org/2001/XMLSchema#decimal
+Nea455ecf1f77456cb6145b5ffd6a8644 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasTreasuryShares
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/AdjustableRateDividend http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredDividend
+N79813559710b421abcba0e7c6c9f15e7 http://www.w3.org/2002/07/owl#maxQualifiedCardinality 1
+N0d87791e41664bedafa59852c36c6db9 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/PercentageMonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EquityConversionTerms http://www.w3.org/2000/01/rdf-schema#subClassOf Nca7758ef8c22453eb84f13eb7bd99eec
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RetractablePreferredShare https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote When retractable preferred shares reach maturity, the shareholder has the right to sell them back to the stock issuer at the price stated on the agreement. In some cases, the issuer can force the shareholder to sell, and may have the option of exchanging retractable preferred shares for common shares instead of cash.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RetractablePreferredShareWithExtendableMaturityDate http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RetractablePreferredShare
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/EnhancedVotingShare http://www.w3.org/2000/01/rdf-schema#label enhanced voting share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share http://www.w3.org/2000/01/rdf-schema#subClassOf Ne01f95e481e64c7a90e58ae5e07751fa
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasFloatingShares https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote A relatively small float results in higher volatility, as a large purchase or sell order will have significant influence on the value of the stock.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/UnrestrictedShare http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/NegotiableSecurity
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RedeemablePreferredShare http://www.w3.org/2000/01/rdf-schema#label redeemable preferred share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/CumulativePreferredShare http://www.w3.org/2000/01/rdf-schema#label cumulative preferred share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ExchangeablePreferredShare http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShare
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/NilPaidShare http://www.w3.org/2000/01/rdf-schema#subClassOf Nf7753ce5d90a4658aabae935a8b29911
+N0ce11c732ecf49ddb9f839ce485e4adf http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N87fa62cfe6a64605846be10c97d8e461 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/confersNumberOfVotesPerShare
+Nc612ae595c734ca588e7e79a00cc2419 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasDividend
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/RetractablePreferredShareWithExtendableMaturityDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/hasShareClass http://www.w3.org/2000/01/rdf-schema#label has share class
+N0d87791e41664bedafa59852c36c6db9 http://www.w3.org/2002/07/owl#maxQualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/SingleVotingShare http://www.w3.org/2000/01/rdf-schema#subClassOf N41ae943f09c74cc7903bf9ae2b120905
+N92e18905a30a446c8654c4b9277ee70d http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/Share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/DividendDistributionMethod http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nea455ecf1f77456cb6145b5ffd6a8644 http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#nonNegativeInteger
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/confersNumberOfVotesPerShare http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/isRedeemableAtShareholderOption http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/RedemptionProvision
+Nf2398f602e5748daaf6dda88c99c0f1b http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShareWithAuctionRateDividend http://www.w3.org/2000/01/rdf-schema#subClassOf Nc612ae595c734ca588e7e79a00cc2419
+Nbe80c2c002fd40cb9043c0cfb0f99b8d http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShare https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym preference share
+https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/ExtendablePreferredShare http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Equities/EquityInstruments/PreferredShare

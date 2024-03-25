@@ -1,0 +1,86 @@
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/determines http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/FeePayable
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/determines http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/CollectiveInvestmentVehicle
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/AccruedTaxes http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/incursTransactionFee http://www.w3.org/2000/01/rdf-schema#label incurs transaction fee
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/CollectiveInvestmentVehicles/
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/incursFees.1 http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/FundUnit
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/incursFees http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/incursTransactionFee http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/FeePayable
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/incursFees http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BE/OwnershipAndControl/OwnershipParties/Investor
+N105ad814c23d4d39b685c1572ca82255 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/hasPerformance http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/FundUnit
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2013-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/AccruedFees http://www.w3.org/2000/01/rdf-schema#label accrued fees
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/determinationPeriod http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/FundPrice http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/InstrumentPricing/SecurityPrice
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/determines http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/SigmaValueOfHoldings http://www.w3.org/2000/01/rdf-schema#label sigma value of holdings
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/ http://purl.org/dc/terms/abstract Terms which have a time component (either real time, intra-day or dated terms). These include Net Present Value (NPV) and related analytics.
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/FundsTax http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/incursFees http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/FeePayable
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/netOrGrossOfFees http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#string
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/incursTax http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/BE/OwnershipAndControl/OwnershipParties/Investor
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/InstrumentPricing/
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/determinationDate.1 http://www.w3.org/2000/01/rdf-schema#label determination date
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Provisional
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/ http://www.w3.org/2000/01/rdf-schema#label FundsTemporal
+N105ad814c23d4d39b685c1572ca82255 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/ContextualDesignators/appliesTo
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/hasPerformance http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/FundUnitPerformance
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/incursFees.1 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/Swing http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/determinationPeriod http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/FundUnitPerformance
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/determinationDate.1 http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/FundUnitPerformance
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/incursTransactionFee http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/CollectiveInvestmentVehicles/FundPortfolio
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/netOrGrossOfFees http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/FundUnitPerformance
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/SwingPrice http://www.w3.org/2000/01/rdf-schema#label swing price
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/incursTransactionFee http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/Swing http://www.w3.org/2000/01/rdf-schema#label swing
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/incursTax http://www.w3.org/2000/01/rdf-schema#label incurs tax
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/AccruedIncome http://www.w3.org/2000/01/rdf-schema#label accrued income
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/OwnershipAndControl/OwnershipParties/
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/incursTax.1 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/DatesAndTimes/
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/incursFees.1 http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/FeePayable
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/incurs http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/FundsTax
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/AccruedTaxes http://www.w3.org/2000/01/rdf-schema#label accrued taxes
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/FundsTax http://www.w3.org/2000/01/rdf-schema#label funds tax
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/determines http://www.w3.org/2000/01/rdf-schema#label determines
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/determinationPeriod http://www.w3.org/2000/01/rdf-schema#label determination period
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/determinationPeriod http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/DatePeriod
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/incursFees http://www.w3.org/2000/01/rdf-schema#label incurs fees
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/incursTax http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/FundsTax
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/incursTax.1 http://www.w3.org/2000/01/rdf-schema#label incurs tax
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/FeePayable http://www.w3.org/2000/01/rdf-schema#label fee payable
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/hasPerformance http://www.w3.org/2000/01/rdf-schema#label has performance
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/FeePayable http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N105ad814c23d4d39b685c1572ca82255 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BE/OwnershipAndControl/OwnershipParties/Investor
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/SigmaValueOfHoldings http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/determinationDate.1 http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/Date
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/netOrGrossOfFees http://www.w3.org/2000/01/rdf-schema#label net or gross of fees
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/determinationDate.1 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/determinationPeriod http://www.w3.org/2004/02/skos/core#definition THe period for which the performance is determined
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/FundPrice http://www.w3.org/2000/01/rdf-schema#label fund price
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/SwingPrice http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/FundUnitPerformance http://www.w3.org/2000/01/rdf-schema#label fund unit performance
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/AccruedIncome http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/incursTax.1 http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/FundsTax
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/incursTax http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/hasPerformance http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/incurs http://www.w3.org/2000/01/rdf-schema#label incurs
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/incursTax.1 http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/FundUnit
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/FundUnitPerformance http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/incurs http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/incursFees.1 http://www.w3.org/2000/01/rdf-schema#label incurs fees
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/netOrGrossOfFees http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/FundsTax http://www.w3.org/2000/01/rdf-schema#subClassOf N105ad814c23d4d39b685c1572ca82255
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/AccruedFees http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/FundPrice http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/SwingPrice http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/FundPrice
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/ContextualDesignators/
+https://spec.edmcouncil.org/fibo/ontology/MD/CIVTemporal/FundsTemporal/incurs http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/CollectiveInvestmentVehicles/FundPortfolio

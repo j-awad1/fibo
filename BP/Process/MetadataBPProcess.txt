@@ -1,0 +1,20 @@
+https://spec.edmcouncil.org/fibo/ontology/BP/Process/MetadataBPProcess/ProcessModule http://purl.org/dc/terms/abstract This module contains ontologies of Process concepts including concepts common to a range of business processes, along with basic financial context concepts.
+https://spec.edmcouncil.org/fibo/ontology/BP/Process/MetadataBPProcess/ProcessModule http://www.w3.org/2000/01/rdf-schema#label process module
+https://spec.edmcouncil.org/fibo/ontology/BP/Process/MetadataBPProcess/ http://purl.org/dc/terms/abstract This module contains ontologies of Process concepts including concepts common to a range of business processes, along with basic financial context concepts.
+https://spec.edmcouncil.org/fibo/ontology/BP/Process/MetadataBPProcess/ http://www.w3.org/2000/01/rdf-schema#label Metadata for the EDMC-FIBO Business Process (BP) Process Module
+https://spec.edmcouncil.org/fibo/ontology/BP/Process/MetadataBPProcess/ProcessModule http://purl.org/dc/terms/title Financial Industry Business Ontology (FIBO) Business Process (BP) Process Module
+https://spec.edmcouncil.org/fibo/ontology/BP/Process/MetadataBPProcess/ProcessModule http://www.w3.org/2000/01/rdf-schema#seeAlso https://spec.edmcouncil.org/fibo/
+https://spec.edmcouncil.org/fibo/ontology/BP/Process/MetadataBPProcess/ProcessModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/BP/Process/FinancialContextAndProcess/
+https://spec.edmcouncil.org/fibo/ontology/BP/Process/MetadataBPProcess/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/BP/Process/MetadataBPProcess/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/BP/20230201/Process/MetadataBPProcess/
+https://spec.edmcouncil.org/fibo/ontology/BP/Process/MetadataBPProcess/ProcessModule http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Module
+https://spec.edmcouncil.org/fibo/ontology/BP/Process/MetadataBPProcess/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/BP/Process/MetadataBPProcess/ProcessModule https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2013-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/BP/Process/MetadataBPProcess/ProcessModule http://purl.org/dc/terms/title FIBO BP Process Module
+https://spec.edmcouncil.org/fibo/ontology/BP/Process/MetadataBPProcess/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2013-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/BP/Process/MetadataBPProcess/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/BP/Process/MetadataBPProcess/ http://purl.org/dc/terms/modified 2023-01-30T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/BP/Process/MetadataBPProcess/ProcessModule http://purl.org/dc/terms/license http://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/BP/Process/MetadataBPProcess/ http://purl.org/dc/terms/license http://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/BP/Process/MetadataBPProcess/ProcessModule http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/BP/Process/MetadataBPProcess/ http://purl.org/dc/terms/issued 2018-03-01T18:00:00

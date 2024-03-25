@@ -1,0 +1,72 @@
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20200901/Law/Jurisdiction.rdf version of the ontology was modified to extend the concept of a tax identifier and identification scheme with the applicable jurisdiction.
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/TaxIdentificationScheme http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/FND/20231101/Law/Jurisdiction/
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20220701/Law/Jurisdiction.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/StatuteLaw https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://www.law.cornell.edu/wex/statute
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/StatuteLaw http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N07a4a2641144401f94491f6f7ebe706d http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N9512cbf46ecf48c9bf5842a13f58a43a http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/Jurisdiction
+N2fe1743abb334ee2a98ef62044b2356e http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/Jurisdiction
+N9512cbf46ecf48c9bf5842a13f58a43a http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/ContextualDesignators/isApplicableIn
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCore/
+N2fe1743abb334ee2a98ef62044b2356e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/ContextualDesignators/
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/ http://purl.org/dc/terms/abstract This ontology defines high level concepts relating to jurisdictions for use in other FIBO ontology elements. This includes a general definition of jurisdiction along with some basic types of jurisdiction, along with the factors which distinguish one type of jurisdiction from another.
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20230301/Law/Jurisdiction.rdf version of the ontology was modified to eliminate deprecations that are more than 6 months old.
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/ http://www.w3.org/2000/01/rdf-schema#label Jurisdiction Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/hasReach http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/hasReach http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/Jurisdiction
+N07a4a2641144401f94491f6f7ebe706d http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCore/isInForceIn
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/StatuteLaw http://www.w3.org/2004/02/skos/core#definition law enacted by a legislature
+Nafbf8127b2774e6392d1f8e641b0fe5d http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/hasReach
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/hasReach http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/LCC/Countries/CountryRepresentation/GeographicRegion
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/ http://www.w3.org/2004/02/skos/core#changeNote The http://www.omg.org/spec/EDMC-FIBO/FND/20130801/Law/Jurisdiction.rdf version of the ontology was was modified per the issue resolutions identified in the FIBO FND 1.0 FTF report and in http://www.omg.org/spec/EDMC-FIBO/FND/1.0/AboutFND-1.0/.
+Nd69f481ab8cd4223972993faa69a2dd6 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/ContextualDesignators/isApplicableIn
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/Jurisdiction https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://www.law.cornell.edu/wex/jurisdiction
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20230101/Law/Jurisdiction.rdf version of the ontology was modified to integrate jurisdictions with context from the Commons Ontology Library (Commons).
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/StatuteLaw https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Statutes may originate with national, state legislatures or local municipalities. Statutory laws are subordinate to the higher constitutional laws of the land.
+Nafbf8127b2774e6392d1f8e641b0fe5d http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/LCC/Countries/CountryRepresentation/GeographicRegion
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/TaxIdentificationScheme http://www.w3.org/2000/01/rdf-schema#subClassOf Nd69f481ab8cd4223972993faa69a2dd6
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20201101/Law/Jurisdiction.rdf version of the ontology was modified to extend the concept of legal age with the applicable jurisdiction.
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2013-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/LegalAge http://www.w3.org/2000/01/rdf-schema#subClassOf N2fe1743abb334ee2a98ef62044b2356e
+https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/People/LegalAge http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2013-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/hasReach http://www.w3.org/2000/01/rdf-schema#label has reach
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20180801/Law/Jurisdiction.rdf version of the ontology was modified to remove the constraint on jurisdiction that it is governed by some legal system, eliminate the class legal system and its children, which were very general and not used anywhere in FIBO, clean up remaining definitions with better sources, and eliminate an unused import.
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/Jurisdiction http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/ContextualDesignators/Context
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/ http://www.w3.org/2004/02/skos/core#changeNote The http://www.omg.org/spec/FIBO/Foundations/20130601/Law/Jurisdiction.owl version of the ontology was revised in advance of the September 2013 New Brunswick, NJ meeting, as follows:
+	(1) to use slash style URI/IRIss (also called 303 URIs, vs. hash style) as required to support server side processing 
+	(2) to use version-independent IRIs for all definitions internally as opposed to version-specific IRIs
+	(3) to change the file suffix from .owl to .rdf to increase usability in RDF tools
+	(4) to use 4-level abbreviations and corresponding namespace prefixes for all FIBO ontologies, reflecting a family/specification/module/ontology structure
+	(5) to incorporate changes to the specification metadata to support documentation at the family, specification, module, and ontology level, similar to the abbreviations
+	(6) to revise definitions using more formal sources.
+N07a4a2641144401f94491f6f7ebe706d http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/Jurisdiction
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/ http://www.w3.org/2004/02/skos/core#changeNote The http://www.omg.org/spec/EDMC-FIBO/FND/20141101/Law/Jurisdiction.rdf version of the ontology was was modified per the FIBO 2.0 RFC to integrate LCC.
+N9512cbf46ecf48c9bf5842a13f58a43a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20210601/Law/Jurisdiction.rdf version of the ontology was modified to address hygiene issues with respect to text formatting.
+Nafbf8127b2774e6392d1f8e641b0fe5d http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/Jurisdiction http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/StatuteLaw http://www.w3.org/2000/01/rdf-schema#label statute law
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/Jurisdiction http://www.w3.org/2004/02/skos/core#definition power of a court to adjudicate cases, issue orders, and interpret and apply the law with respect to some specific geographic area
+N2fe1743abb334ee2a98ef62044b2356e http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/ContextualDesignators/isApplicableIn
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Release
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/Jurisdiction http://www.w3.org/2000/01/rdf-schema#label jurisdiction
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/hasReach http://www.w3.org/2004/02/skos/core#definition indicates the geopolitical area covered by the jurisdiction
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/StatuteLaw http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCore/Law
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/TaxIdentifier http://www.w3.org/2000/01/rdf-schema#subClassOf N9512cbf46ecf48c9bf5842a13f58a43a
+Nd69f481ab8cd4223972993faa69a2dd6 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/Jurisdiction
+Nd69f481ab8cd4223972993faa69a2dd6 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/StatuteLaw http://www.w3.org/2004/02/skos/core#altLabel statutory law
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/Jurisdiction http://www.w3.org/2000/01/rdf-schema#subClassOf Nafbf8127b2774e6392d1f8e641b0fe5d
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/StatuteLaw https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote In the United States, statutes may also be called acts, such as the Civil Rights Act of 1964 or the Sarbanes-Oxley Act. Federal laws must be passed by both houses of Congress, the House of Representative and the Senate, and then usually require approval from the president before they can take effect.
+https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/TaxIdentifier http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Law/Jurisdiction/StatuteLaw http://www.w3.org/2000/01/rdf-schema#subClassOf N07a4a2641144401f94491f6f7ebe706d

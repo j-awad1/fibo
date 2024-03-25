@@ -1,0 +1,354 @@
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ContractualTransactionParty http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/hasCorrespondingAlternativeAspect http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicResource http://www.w3.org/2000/01/rdf-schema#subClassOf N70d766a8929646de9bc997bf71bfb689
+Nfe4973e4c87c4baab8475651df3b5ab5 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isGovernedBy
+N56f9b8d7023745b5911e2f4844b34c44 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractParty
+N67a004a9b5e14daf80f8aa5016a13964 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/transactionEventFollowsBusinessProcess http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/RegistrationAuthorities/
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/Undertaking https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote This could be an undertaking to deliver something, to do something and so on. These correspond to negative and positive pledges in the contract.
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/definedInContextOf http://www.w3.org/2000/01/rdf-schema#label defined in context of
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ http://www.w3.org/2000/01/rdf-schema#label REA Transactions Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/madeBy http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionParty
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicContractTermsSet http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicContract http://www.w3.org/2000/01/rdf-schema#label economic contract
+Nbd582f61783a48dbbdaaa15de8f66702 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/transactionEmbodiesEconomicAgreement http://www.w3.org/2002/07/owl#inverseOf https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/governs
+Ne99f3cbb7f3a4c2895b82dbe218b4641 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N93235e0f1aca4badb5288c6eb95c9b08 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionUndertaking
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/bestows http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/DischargingEvent http://www.w3.org/2000/01/rdf-schema#label discharging event
+Nb15b9eedca7c45e18eb5599744eadb5f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/CoveredTransaction http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N43c269f132564e7a88dbadbaecbe4423 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/LedgerEntry
+N51495d41766349ef841307c00e396ab5 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasContractParty
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/definedInContextOf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N43c269f132564e7a88dbadbaecbe4423 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/triggers
+N4db0b6897c724f8e9b7d792f68403b0e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N7bc7cc0b5aaa49358e2f4a957d0c5511 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/confers
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/DischargingEvent http://www.w3.org/2000/01/rdf-schema#subClassOf Nc382d0fdb81640fda41cb2eb6b35f055
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+Ne4c0587616254972b8962b32e5a54fb9 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/hasEnd
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionEvent http://www.w3.org/2000/01/rdf-schema#subClassOf N4db0b6897c724f8e9b7d792f68403b0e
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicContract http://www.w3.org/2004/02/skos/core#definition A contract relating to and governing an economic transaction between two parties.
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/bestows http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/Undertaking
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicContractTermsSet http://www.w3.org/2004/02/skos/core#definition Terms underlying the contract for a transaction.
+N5a33a6bbfbcd45d4a72b43c9fefdbaa0 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasMonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/Revaluation http://www.w3.org/2000/01/rdf-schema#subClassOf Ncb0c32ab86994489876f6fba1daa9f39
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/givesRiseTo http://www.w3.org/2000/01/rdf-schema#label gives rise to
+Nee8323e3dc144cc1b4a38f2d2f947528 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/RegistrationAuthorities/isRegisteredIn
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ContractualTransaction https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote This is distinct from a transaction between business units within an enterprise. This is the usual sense of "Transaction" and forms the basis for all securities and derivatives transactions, while the parent term "Economic Transaction" may also be used to define internal transactions and transactions that have no legal or contractual basis.
+N70d766a8929646de9bc997bf71bfb689 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/takesMaterialForm
+N4db0b6897c724f8e9b7d792f68403b0e http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicCommitment
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/REAClaim http://www.w3.org/2000/01/rdf-schema#subClassOf Nb15b9eedca7c45e18eb5599744eadb5f
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionParty http://www.w3.org/2004/02/skos/core#definition Some entity which takes part in some transaction by receiving and/or parting with some item of economic value or some payment or both.
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/isUndertakingTo http://www.w3.org/2000/01/rdf-schema#label is undertaking to
+N3da873aff11b4863af50ae19c430c294 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/Undertaking http://www.w3.org/2000/01/rdf-schema#subClassOf N57e4c28b5c5242a881338bbbe8d1b03c
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/CoveredTransaction http://www.w3.org/2000/01/rdf-schema#label covered transaction
+N51495d41766349ef841307c00e396ab5 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ContractualTransactionParty
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ContractualEconomicAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/Contract
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicContract http://www.w3.org/2000/01/rdf-schema#subClassOf N544516ee42d741ed99a3dfeec2c2d55d
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/setsOutContractualEconomicCommitment http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractualCommitment
+N67a004a9b5e14daf80f8aa5016a13964 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/ClientsAndAccounts/PostingDate
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ContractualTransactionParty https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote In REA, transactions may include those which are not between legal entities,such as for example internal transactions within a business and between business units. This term Contractual Transaction Party forms the basis for all party definitions for transactions which have some formal contractual basis as being between discrete legal entities (legal persons or other contractually capable entities e.g. non incorporated entities). This is the basis for all derivatives transactions, securities market transactions and so on.
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/hasTransactionParty http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionBusinessEvent http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/takesMaterialForm http://www.w3.org/2004/02/skos/core#definition The material form of the Economic Resource; that is the thing which is recognized as being an Economic Resource as defined here, Editorial Note: This would usually be some Independent Thing. However it is conceivable that the existence of some relative thing, for example an asset, may itself be regarded and defined as a resource, over and above the role or context already defined for it. Therefore this identity relationship has a range of Thing, but is modeled as a sub property of "identity" to make this conclusion explicit. Editorial Note: This is a relationship with the sense that some relative thing takes the form of something, but is distinct from the similar concept as applied to Asset, in which the thing which takes the form of some asset is owned by someone. Here it is a resource, irrespective of whether or by whom it is owned. Labeled as "takes material form" to disambiguate these two relationships.
+Nf3b9c8d8ebb24fb4a52116f71826e540 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/madeBy
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/isMadeAsPartOf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/terminates http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/LedgerEntry http://www.w3.org/2000/01/rdf-schema#subClassOf Nee8323e3dc144cc1b4a38f2d2f947528
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicCommitment http://www.w3.org/2004/02/skos/core#definition Some Commitment which forms part of the subject of some Transaction, being an undertaking by one or other of the parties to the transaction, extended to the other party to that same transaction.
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/isImbalanceIn http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/REAClaim
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicCommitment http://www.w3.org/2000/01/rdf-schema#subClassOf Nf3b9c8d8ebb24fb4a52116f71826e540
+N57e4c28b5c5242a881338bbbe8d1b03c http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/bestows
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/LedgerEntry http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/CoveredTransaction https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The Master Agreement sets out the terms and conditions under which these transactions are to take place between the parties. These are Over the Counter transactions, including OTC Derivatives.
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionEventAspect http://www.w3.org/2004/02/skos/core#definition A transaction side as seen from the perspective of one of the parties to the transaction.
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicTransaction http://www.w3.org/2000/01/rdf-schema#subClassOf N8040a84103c94c4d926a480fab040d7e
+N6d37bbe7895040c88815c271373a081e http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/ClientsAndAccounts/TransactionDate
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/hasCorresponding http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+Nb67d241aacb7436881ecac837622cd4d http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/givesRiseTo
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/UndertakingEvent http://www.w3.org/2004/02/skos/core#definition Something which occurs at a point in time, at which a party makes some commitment to some other party.
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/transactedUnder http://www.w3.org/2000/01/rdf-schema#label transacted under
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/hasStart http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionUndertaking
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicAgreement http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nb8ff18e024bd436cae6dec6a7d0622b7 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicResource
+N283f5849fc434765909f520dab6e814b http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/transactsWith
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/setsOutContractualEconomicCommitment http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicContractTermsSet
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/UndertakingEvent http://www.w3.org/2000/01/rdf-schema#label undertaking event
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/hasEnd http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/Undertaking http://www.w3.org/2000/01/rdf-schema#subClassOf N5a32b6839c8b419fb84b7d8d410b897f
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/triggers http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionBusinessEvent
+Nb67d241aacb7436881ecac837622cd4d http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicCommitment
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionEvent https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote This describes an event. The event may be delivery of something or settlement of monies in payment for something delivered. A Transaction Event will have terms describing the commitment embodied in that side of that transaction.
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ContractualTransactionParty http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionParty
+N56f9b8d7023745b5911e2f4844b34c44 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasContractParty
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/isUndertakingTo http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContingentObligation
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicCommitment http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+N3db546b6cb304bbd809db48887f48e1f http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Agreement
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicCommitment http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/MutualCommitment
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionEventAspect http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicContractTermsSet http://www.w3.org/2000/01/rdf-schema#subClassOf N14e5f53232624af09bfa984d0c3884d3
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicCommitment http://www.w3.org/2000/01/rdf-schema#label economic commitment
+N14e5f53232624af09bfa984d0c3884d3 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractualCommitment
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/Undertaking http://www.w3.org/2004/02/skos/core#definition Some undertaking to act.
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/isMadeAsPartOf http://www.w3.org/2000/01/rdf-schema#label is made as part of
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicResource http://www.w3.org/2004/02/skos/core#definition Anything that can bought sold or exchanged.
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/madeBy http://www.w3.org/2000/01/rdf-schema#label made by
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/Revaluation http://www.w3.org/2000/01/rdf-schema#label revaluation
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/isImbalanceIn http://www.w3.org/2000/01/rdf-schema#label is imbalance in
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/terminates http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicCommitment
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicResource http://www.w3.org/2000/01/rdf-schema#label economic resource
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ContractualTransaction http://www.w3.org/2004/02/skos/core#definition An economic transaction which has some contractual basis.
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionEvent http://www.w3.org/2004/02/skos/core#definition The event component of a transaction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/UndertakingEvent http://www.w3.org/2000/01/rdf-schema#subClassOf N43c269f132564e7a88dbadbaecbe4423
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/Undertaking http://www.w3.org/2000/01/rdf-schema#subClassOf N56f9b8d7023745b5911e2f4844b34c44
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicCommitment http://www.w3.org/2000/01/rdf-schema#subClassOf N3da873aff11b4863af50ae19c430c294
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionEventAspect http://www.w3.org/2000/01/rdf-schema#label transaction event aspect
+Ncb0c32ab86994489876f6fba1daa9f39 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N5a32b6839c8b419fb84b7d8d410b897f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/hasTransactionParty http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionParty
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionUndertaking http://www.w3.org/2000/01/rdf-schema#label transaction undertaking
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/hasTransactionComponent http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionEvent
+Nf3b9c8d8ebb24fb4a52116f71826e540 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N3da873aff11b4863af50ae19c430c294 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isConferredBy
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/subject http://www.w3.org/2000/01/rdf-schema#label subject
+N8040a84103c94c4d926a480fab040d7e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N3269a32cd3a147c8a304f4b9e69a671e http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicTransaction
+N57f1a5f3b8f5467a8b1f87d16a480aaf http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicCommitment
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ContractualEconomicAgreement http://www.w3.org/2004/02/skos/core#definition An economic agreement forming part of a transaction, which has contractual standing as evidenced by a contract between the two parties to the Agreement.
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/hasCorrespondingAlternativeAspect http://www.w3.org/2000/01/rdf-schema#label has corresponding alternative aspect
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/takesMaterialForm http://www.w3.org/2000/01/rdf-schema#label takes material form
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicContractTermsSet http://www.w3.org/2000/01/rdf-schema#label economic contract commitment
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/hasCorresponding http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionEvent
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/Revaluation http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionBusinessEvent
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/Undertaking http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionEvent http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionUndertaking http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/UndertakingEvent
+Ne99f3cbb7f3a4c2895b82dbe218b4641 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionParty
+Nb4db517e77234381852481c2cd08282a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicTransaction http://www.w3.org/2000/01/rdf-schema#subClassOf Nb8ff18e024bd436cae6dec6a7d0622b7
+Nee8323e3dc144cc1b4a38f2d2f947528 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/hasTransactionParty http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicTransaction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/hasStart http://www.w3.org/2000/01/rdf-schema#label has start
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/setsOutContractualEconomicCommitment http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/transactionEventFollowsBusinessProcess http://www.w3.org/2000/01/rdf-schema#label transaction event follows business process
+Nef762d7fbf1f49a29c3df9dc2d70cd40 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/terminates
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ContractualTransactionParty http://www.w3.org/2000/01/rdf-schema#subClassOf N58a02f356384476488ddc05da448e02f
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf N57f1a5f3b8f5467a8b1f87d16a480aaf
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicContract http://www.w3.org/2004/02/skos/core#editorialNote From REA ontology.
+Ne99f3cbb7f3a4c2895b82dbe218b4641 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/PartiesAndSituations/hasPartyRole
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionParty http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/PartiesAndSituations/PartyRole
+N51495d41766349ef841307c00e396ab5 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N70d766a8929646de9bc997bf71bfb689 http://www.w3.org/2002/07/owl#someValuesFrom http://www.w3.org/2002/07/owl#Thing
+Nf3b9c8d8ebb24fb4a52116f71826e540 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionParty
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ContractualEconomicAgreement https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The REA Economic Agreement may or may not be between two distinct legal persons, as the REA scope includes transactions within organizations. For REA based transaction models which are between separate legal entities or persons, the form of agreement in force is this Contractual Economic Agreement, that is the agreement, backed by a written or implied contract, which is in force between the parties to this agreement.
+Nee8323e3dc144cc1b4a38f2d2f947528 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/ClientsAndAccounts/LedgerAccount
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/hasPerspective http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicContractTermsSet http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractualCommitment
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/PartiesAndSituations/
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ContractualTransactionParty http://www.w3.org/2000/01/rdf-schema#label contractual transaction party
+N3db546b6cb304bbd809db48887f48e1f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/Undertaking http://www.w3.org/2000/01/rdf-schema#subClassOf N3db546b6cb304bbd809db48887f48e1f
+Nc382d0fdb81640fda41cb2eb6b35f055 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionBusinessEvent http://www.w3.org/2004/02/skos/core#editorialNote Term derived from REA as expressed in ISO 15944-4 Additional notes in ISO 15944-4 itself: NOTE 1 Business events are the workflow tasks that business partners need to accomplish to complete a business transaction among themselves. As business events occur, they cause a business transaction to move through its various phases of planning, identification, negotiation, actualization and post-actualization. NOTE 2 Occurrences in time can either - be internal as mutually agreed to among the parties to a business transaction; and/or, - reference some common publicly available and recognized date/time referencing schema (e.g. one based on using ISO 8601 and/or ISO 19135).
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionParty http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N57f1a5f3b8f5467a8b1f87d16a480aaf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/hasTransactionParty http://www.w3.org/2000/01/rdf-schema#label has transaction party
+Nc382d0fdb81640fda41cb2eb6b35f055 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/LedgerEntry
+N5a32b6839c8b419fb84b7d8d410b897f http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/isUndertakingTo
+N8040a84103c94c4d926a480fab040d7e http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicContractTermsSet
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/subject http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicTransaction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/triggers http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N771bb9ab792444d7b65a8a69ce3d5c5b http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/MutualCommitment
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/hasPerspective http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionEventAspect
+Nc382d0fdb81640fda41cb2eb6b35f055 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/triggers
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/hasTransactionComponent http://www.w3.org/2000/01/rdf-schema#label has transaction component
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2013-2024 EDM Council, Inc.
+N5a33a6bbfbcd45d4a72b43c9fefdbaa0 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/hasStart http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/setsOutContractualEconomicCommitment http://www.w3.org/2004/02/skos/core#definition The economic commitment set out in the terms to the contract which formalizes the agreement to the transaction.
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/DischargingEvent http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/isMadeAsPartOf http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/Undertaking
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/hasTransactionComponent http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicTransaction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ContractualTransaction http://www.w3.org/2000/01/rdf-schema#label contractual transaction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/Revaluation http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N57e4c28b5c5242a881338bbbe8d1b03c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/CoveredTransaction http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ContractualTransaction
+N544516ee42d741ed99a3dfeec2c2d55d http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasContractualElement
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/hasTransactionComponent http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/UndertakingEvent http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/transactionEventFollowsBusinessProcess http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionEvent
+N771bb9ab792444d7b65a8a69ce3d5c5b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/hasCorresponding http://www.w3.org/2000/01/rdf-schema#label has corresponding
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/hasPerspective http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionEvent
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ContractualEconomicAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf N7bc7cc0b5aaa49358e2f4a957d0c5511
+N6d37bbe7895040c88815c271373a081e http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionEvent http://www.w3.org/2000/01/rdf-schema#subClassOf Ne4c0587616254972b8962b32e5a54fb9
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ContractualTransaction http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Ne4c0587616254972b8962b32e5a54fb9 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/DischargingEvent
+N14e5f53232624af09bfa984d0c3884d3 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/REAClaim http://www.w3.org/2004/02/skos/core#definition Some imbalance, at a given point in time, between the respective rights and obligations of two parties with respect to one another.
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ http://purl.org/dc/terms/abstract This is the core REA-derived ontology for transactions. A transaction is defined as an exchange of commitments between parties. Other aspects of REA such as claims and transaction events (commitment lifecycles) are given in separate ontologies in this module.
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicResource http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nb8ff18e024bd436cae6dec6a7d0622b7 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/subject
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/DischargingEvent http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionBusinessEvent
+Nb67d241aacb7436881ecac837622cd4d http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/hasCorresponding http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionEvent
+N8040a84103c94c4d926a480fab040d7e http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/transactedUnder
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/REAClaim http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/Undertaking http://www.w3.org/2000/01/rdf-schema#subClassOf N771bb9ab792444d7b65a8a69ce3d5c5b
+Nb15b9eedca7c45e18eb5599744eadb5f http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalConstruct
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionUndertaking http://www.w3.org/2004/02/skos/core#definition A contractually defined and established commitment to deliver some goods, perform some service or make some payment in cash or in kind.
+N58a02f356384476488ddc05da448e02f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/CoveredTransaction http://www.w3.org/2004/02/skos/core#definition A transaction covered by some Master Agreement.
+N57e4c28b5c5242a881338bbbe8d1b03c http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContingentRight
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/givesRiseTo http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/MutualCommitment
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionParty http://www.w3.org/2000/01/rdf-schema#label transaction party
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/subject http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicResource
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/LedgerEntry http://www.w3.org/2000/01/rdf-schema#subClassOf N67a004a9b5e14daf80f8aa5016a13964
+N7bc7cc0b5aaa49358e2f4a957d0c5511 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicContract http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicTransaction http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/takesMaterialForm http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicResource
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/terminates http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/DischargingEvent
+N93235e0f1aca4badb5288c6eb95c9b08 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionParty http://www.w3.org/2004/02/skos/core#editorialNote Referred to in REA as Economic Agent (in the context of the economic event, known here as transaction).
+N3269a32cd3a147c8a304f4b9e69a671e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/setsOutContractualEconomicCommitment http://www.w3.org/2000/01/rdf-schema#label sets out contractual economic commitment
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ContractualTransactionParty http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractParty
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/subject http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionEvent http://www.w3.org/2000/01/rdf-schema#subClassOf Nbd582f61783a48dbbdaaa15de8f66702
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/RolesAndCompositions/
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/ClientsAndAccounts/
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/transactsWith http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionParty
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/transactionEmbodiesEconomicAgreement http://www.w3.org/2000/01/rdf-schema#label transaction embodies economic agreement
+N5a33a6bbfbcd45d4a72b43c9fefdbaa0 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/isImbalanceIn http://www.w3.org/2004/02/skos/core#definition The imbalance in Obligations or Rights (depending on the viewpoint from which it is described) between one party and another.
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/transactsWith http://www.w3.org/2000/01/rdf-schema#label transacts with
+N771bb9ab792444d7b65a8a69ce3d5c5b http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/givesRiseTo
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf Ne99f3cbb7f3a4c2895b82dbe218b4641
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicContract http://www.w3.org/2000/01/rdf-schema#subClassOf Nb4db517e77234381852481c2cd08282a
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionUndertaking http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/hasEnd http://www.w3.org/2000/01/rdf-schema#label has end
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/isImbalanceIn http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/transactedUnder http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicTransaction
+N2e6dc69c7c8b4115a1d71dd2dcd258bf http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicTransaction
+Nfe4973e4c87c4baab8475651df3b5ab5 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/MasterAgreement
+Nd64b95af009948eebd3879fc7a117773 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionEventAspect
+Nbd582f61783a48dbbdaaa15de8f66702 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionEvent
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/MutualContractualAgreement
+N67a004a9b5e14daf80f8aa5016a13964 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+N43c269f132564e7a88dbadbaecbe4423 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/hasPerspective http://www.w3.org/2000/01/rdf-schema#label has perspective
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/takesMaterialForm http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/UndertakingEvent http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionBusinessEvent
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/DischargingEvent http://www.w3.org/2000/01/rdf-schema#subClassOf Nef762d7fbf1f49a29c3df9dc2d70cd40
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionParty http://www.w3.org/2000/01/rdf-schema#subClassOf N283f5849fc434765909f520dab6e814b
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/transactedUnder http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/isImbalanceIn http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/LegalConstruct
+N4db0b6897c724f8e9b7d792f68403b0e http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/embodies
+Nb8ff18e024bd436cae6dec6a7d0622b7 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nb4db517e77234381852481c2cd08282a http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ContractualEconomicAgreement
+N283f5849fc434765909f520dab6e814b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionBusinessEvent http://www.w3.org/2000/01/rdf-schema#label transaction business event
+N14e5f53232624af09bfa984d0c3884d3 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/setsOutContractualEconomicCommitment
+N2e6dc69c7c8b4115a1d71dd2dcd258bf http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/definedInContextOf
+Nd871012fb02a420eb2a255dfcad8a43c http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/transactionEmbodiesEconomicAgreement
+N6d37bbe7895040c88815c271373a081e http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/ClientsAndAccounts/hasTransactionDate
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ContractualEconomicAgreement http://www.w3.org/2000/01/rdf-schema#label contractual economic agreement
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicTransaction http://www.w3.org/2000/01/rdf-schema#subClassOf Nd871012fb02a420eb2a255dfcad8a43c
+Ne4c0587616254972b8962b32e5a54fb9 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/terminates http://www.w3.org/2000/01/rdf-schema#label terminates
+N58a02f356384476488ddc05da448e02f http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/LegalPerson
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/isUndertakingTo http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+Nb8ff18e024bd436cae6dec6a7d0622b7 http://www.w3.org/2002/07/owl#minQualifiedCardinality 2
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/CoveredTransaction http://www.w3.org/2000/01/rdf-schema#subClassOf Nfe4973e4c87c4baab8475651df3b5ab5
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ContractualTransaction http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicTransaction
+N58a02f356384476488ddc05da448e02f http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+Nd871012fb02a420eb2a255dfcad8a43c http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicAgreement
+Nfe4973e4c87c4baab8475651df3b5ab5 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ContractualEconomicAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf N51495d41766349ef841307c00e396ab5
+N283f5849fc434765909f520dab6e814b http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionParty
+Ncb0c32ab86994489876f6fba1daa9f39 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/LedgerEntry
+N7bc7cc0b5aaa49358e2f4a957d0c5511 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/ContractualCommitment
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ContractualTransactionParty http://www.w3.org/2004/02/skos/core#definition That which is party to a transaction which has contractual standing.
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/LedgerEntry http://www.w3.org/2000/01/rdf-schema#subClassOf N5a33a6bbfbcd45d4a72b43c9fefdbaa0
+Nd64b95af009948eebd3879fc7a117773 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Ncb0c32ab86994489876f6fba1daa9f39 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/triggers
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/isUndertakingTo http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/Undertaking
+N3da873aff11b4863af50ae19c430c294 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicAgreement
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicAgreement http://www.w3.org/2000/01/rdf-schema#label economic agreement
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicResource http://www.w3.org/2004/02/skos/core#editorialNote Formerly labeled as Negotiable Thing. Changed to REA terminology with no effect on meaning. Note that this is a relative thing - the thing which is itself the economic resource, is some good or some service (i.e. some physical thing or some event/activity) which can be framed as an economic resource in the context of exchanging it for some other economic resource. Scope Note: Economic Resource may also define things which are not exchanged but are defined as resources in some other context, for example Capital is a kind of economic resource.
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicTransaction http://www.w3.org/2000/01/rdf-schema#label economic transaction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionEventAspect https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote This describes one side of one transaction event. The event may be delivery of something or settlement of monies in payment for something delivered. A Transaction Event Side shows that side of that transaction from the perspective of one or other party.
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/UndertakingEvent http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/Undertaking
+N57f1a5f3b8f5467a8b1f87d16a480aaf http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/confers
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/transactsWith http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionParty
+N67a004a9b5e14daf80f8aa5016a13964 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/ClientsAndAccounts/hasPostingDate
+N544516ee42d741ed99a3dfeec2c2d55d http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicContractTermsSet
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/triggers http://www.w3.org/2000/01/rdf-schema#label triggers
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ContractualEconomicAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicAgreement
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/hasEnd http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/DischargingEvent
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/bestows http://www.w3.org/2000/01/rdf-schema#label bestows
+Nef762d7fbf1f49a29c3df9dc2d70cd40 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionEvent http://www.w3.org/2000/01/rdf-schema#label transaction event
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/isMadeAsPartOf http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Agreement
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionEvent http://www.w3.org/2000/01/rdf-schema#subClassOf N93235e0f1aca4badb5288c6eb95c9b08
+Nd871012fb02a420eb2a255dfcad8a43c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N93235e0f1aca4badb5288c6eb95c9b08 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/hasStart
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/
+N6d37bbe7895040c88815c271373a081e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N544516ee42d741ed99a3dfeec2c2d55d http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/givesRiseTo http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/Undertaking
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/LedgerEntry http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/RegistrationAuthorities/RegistryEntry
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/triggers http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/LedgerEntry
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf N3269a32cd3a147c8a304f4b9e69a671e
+Nb15b9eedca7c45e18eb5599744eadb5f http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/isImbalanceIn
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/LedgerEntry http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/DatedCollectionConstituent
+N3269a32cd3a147c8a304f4b9e69a671e http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/governs
+N3db546b6cb304bbd809db48887f48e1f http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/isMadeAsPartOf
+Nd64b95af009948eebd3879fc7a117773 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/hasCorrespondingAlternativeAspect
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/madeBy http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicContract http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/MutualContractualAgreement
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/REAClaim http://www.w3.org/2000/01/rdf-schema#label r e a claim
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/transactsWith http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/givesRiseTo http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionEventAspect http://www.w3.org/2000/01/rdf-schema#subClassOf Nd64b95af009948eebd3879fc7a117773
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicResource http://www.w3.org/2000/01/rdf-schema#subClassOf N2e6dc69c7c8b4115a1d71dd2dcd258bf
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/
+N56f9b8d7023745b5911e2f4844b34c44 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/Undertaking http://www.w3.org/2000/01/rdf-schema#label undertaking
+N2e6dc69c7c8b4115a1d71dd2dcd258bf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/hasCorrespondingAlternativeAspect http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionEventAspect
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionBusinessEvent http://www.w3.org/2004/02/skos/core#definition Occurrence in time that partners to a business transaction wish to monitor or control.
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/transactionEmbodiesEconomicAgreement http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicTransaction
+N70d766a8929646de9bc997bf71bfb689 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/LedgerEntry http://www.w3.org/2000/01/rdf-schema#label ledger entry
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionUndertaking http://www.w3.org/2000/01/rdf-schema#subClassOf Nb67d241aacb7436881ecac837622cd4d
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/transactionEmbodiesEconomicAgreement http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N5a32b6839c8b419fb84b7d8d410b897f http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContingentObligation
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/transactedUnder http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicContractTermsSet
+N5a33a6bbfbcd45d4a72b43c9fefdbaa0 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/bestows http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Law/LegalCapacity/ContingentRight
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/hasCorrespondingAlternativeAspect http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionEventAspect
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/transactionEmbodiesEconomicAgreement http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicAgreement
+Nbd582f61783a48dbbdaaa15de8f66702 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/hasCorresponding
+Nb4db517e77234381852481c2cd08282a http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/embodies
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/TransactionUndertaking http://www.w3.org/2004/02/skos/core#editorialNote From REA ontology.
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ContractualEconomicAgreement http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicTransaction http://www.w3.org/2004/02/skos/core#definition Some exchange of some items of economic value between two parties (economic agents).
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/LedgerEntry http://www.w3.org/2000/01/rdf-schema#subClassOf N6d37bbe7895040c88815c271373a081e
+https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Informative
+Nef762d7fbf1f49a29c3df9dc2d70cd40 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/REATransactions/EconomicCommitment

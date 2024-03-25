@@ -1,0 +1,458 @@
+Nd86f815e8ea44b03892c36948c8eed38 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardProduct
+Nea2c2680edb84f9694241799cfcf4984 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/Cardholder
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardValidationCode2 https://www.omg.org/spec/Commons/AnnotationVocabulary/abbreviation PAN CVC2
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/usesCurrency http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/ContextualDesignators/uses
+Nff7d1c3abb3f47c7adbbc70452c93277 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/FormalOrganizations/FormalOrganization
+N9dfc0970bc2d46b5901bac964864b116 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCard
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardProduct http://www.w3.org/2000/01/rdf-schema#subClassOf N8b486caa0001443e86f545a81e0f929f
+Ndfb065ecc2134b81ac6b7ab6932908b2 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/isEvidenceFor
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardVerificationValue2 https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym CVV2
+N382c1d3cb39f4009b751e5eb838cbe00 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/DebitCard
+N20298958c9d14a0c941fdac419e1a5df http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Ncc690ef7080a457cb26c75fc6d2347dd http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Currency
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CommercialCreditCardAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PaymentCardAgreement
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/MastercardNetwork http://www.w3.org/2004/02/skos/core#definition credit card network that has its own suite of card protections and benefits, such as identity theft protection and extended warranties
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCard http://www.w3.org/2000/01/rdf-schema#subClassOf Ne80c3588997e422cace26ddebb4248ef
+N1d1e5c1f5bd84c9db69cf892a47f1173 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasContractParty
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardAccount http://www.w3.org/2000/01/rdf-schema#label credit card account
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCard http://www.w3.org/2004/02/skos/core#definition card issued by a financial service provider that enables the cardholder to borrow funds
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/DiscoverNetwork http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardValidationCode http://www.w3.org/2000/01/rdf-schema#label card validation code
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardVerificationValue http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/MagneticStripeVerificationCodeValue
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ConsumerCreditCardAgreement http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/DebitCard http://www.w3.org/2000/01/rdf-schema#label debit card
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardProduct http://www.w3.org/2000/01/rdf-schema#subClassOf N0ed8bb07deb64e6896a323cc0a8d9ded
+N812492637e594fd29c038805357aa19e http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/ClientsAndAccounts/hasPrimaryAccountHolder
+N0e59d34ee4b24f8e931cd3891f950063 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Designators/isSignifiedBy
+Nff7d1c3abb3f47c7adbbc70452c93277 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+Ndb1ada0efa34439aa7eb645de4a7d925 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isExemplifiedBy
+N812492637e594fd29c038805357aa19e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N81a93268dc2744a994357c520d109cb8 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/Cardholder
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardVerificationValue http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N1d1e5c1f5bd84c9db69cf892a47f1173 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/IssuingFinancialInstitution
+N8b486caa0001443e86f545a81e0f929f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N68a9b98986f24a3d892219d658143bf6 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/ClientsAndAccounts/CustomerAccount
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PaymentCard https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The term payment card includes credit cards, debit cards, and stored-value cards, as well as payment through any distinctive marks of a payment card (such as a credit card number). A payment card is issued under an agreement that provides standards and mechanisms for settling the transactions between a merchant acquiring bank or similar entity and the providers who accept the cards as payment.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/AmericanExpressNetwork http://www.w3.org/2004/02/skos/core#definition credit card network and card issuer that both issues credit cards and processes payments for cards bearing its logo, as well as offering cardholder benefits like travel insurance
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/AmericanExpressNetwork http://www.w3.org/2000/01/rdf-schema#label American Express network
+N5611e9bf4ce54f6ebcd63bc4fb9351ab http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N879e10b3600e4a95a44ff4b6d1dffd37 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardAuthenticationValue2 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N382c1d3cb39f4009b751e5eb838cbe00 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Designators/isSignifiedBy
+N4636723c3341468587fb6dc416621627 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardVerificationValue http://www.w3.org/2000/01/rdf-schema#label card verification value
+N9e47c2373cee4f8dbe5adc4ca1e3ba80 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+N8b486caa0001443e86f545a81e0f929f http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/hasSubdivision
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ConsumerCreditCardAgreement http://www.w3.org/2004/02/skos/core#definition credit card agreement for a card issued for household, family, or other personal expenditures that is accessed by a borrower's use of a credit card
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/Cardholder http://www.w3.org/2004/02/skos/core#definition account holder to whom a payment card is issued
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/JCBNetwork http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+N4434a39d91a24964abd55ab686f5299b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ConsumerCreditCardAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CommittedCreditFacility
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PrimaryCardAccountNumber https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym primary account number
+N879e10b3600e4a95a44ff4b6d1dffd37 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardProduct
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/MagneticStripeVerificationCodeValue https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://www.pcisecuritystandards.org/pci_security/glossary
+Nd86f815e8ea44b03892c36948c8eed38 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/exemplifies
+N812492637e594fd29c038805357aa19e http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/Cardholder
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CommercialCreditCardAgreement https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://www.fdic.gov/regulations/examinations/credit_card/pdf_version/ch2.pdf
+Ndfb065ecc2134b81ac6b7ab6932908b2 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardAccount
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PrimaryCardAccountNumber http://www.w3.org/2000/01/rdf-schema#subClassOf N9e47c2373cee4f8dbe5adc4ca1e3ba80
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PaymentCard http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PaymentCardAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf N4760f7b5fd764727b790d89c6c4f5192
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2020-2024 Object Management Group, Inc.
+Nb895e4e699114b2793bd423df55bae9e http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isExemplifiedBy
+N0504095a73f54378b1e7f3bb77e5f52e http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/DebitCardProduct
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/MastercardNetwork http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardNetwork
+N0d1bfe563d2f404c826a5c9aff356b84 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasTag
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/DebitCardAccount http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardAccount
+N3a196b7d0d8249eebf77f25c977d80ca http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PrimaryCardAccountNumber
+N68a9b98986f24a3d892219d658143bf6 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/ClientsAndAccounts/isLinkedToAccount
+N0e59d34ee4b24f8e931cd3891f950063 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PaymentCard
+Nea2c2680edb84f9694241799cfcf4984 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasContractParty
+Ne80c3588997e422cace26ddebb4248ef http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardAccount
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CommercialCreditCardAgreement https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Corporate card programs come in more than one form to serve different business needs. In general, they are contractual agreements between a sponsoring entity and a financial institution, in which the financial institution issues corporate cards to select employees of the sponsoring company.
+Ne80c3588997e422cace26ddebb4248ef http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Classifiers/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/ConsumerLoans/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/IssuingFinancialInstitution http://www.w3.org/2000/01/rdf-schema#label issuing financial institution
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardNetwork http://www.w3.org/2004/02/skos/core#definition classifier for the network that authorizes, processes, and sets the terms of credit card transactions, as well as transfers payments between shoppers, merchants, and their banks
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PaymentCard http://www.w3.org/2000/01/rdf-schema#subClassOf N0ff0026ccf7a4a69b086836e8936909d
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCard https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote In its non-physical form, a credit card represents a payment mechanism which facilitates both consumer and commercial business transactions, including purchases and cash advances. A credit card generally operates as a substitute for cash or a check and most often provides an unsecured revolving line of credit. The borrower is required to pay at least part of the card's outstanding balance each billing cycle, depending on the terms as set forth in the cardholder agreement. As the debt reduces, the available credit increases for accounts in good standing. These complex financial arrangements have ever-shifting terms and prices. A charge card differs from a credit card in that the charge card must be paid in full each month.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/JCBNetwork https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote JCB Co., Ltd., (formerly Japan Credit Bureau) is a credit card company based in Tokyo, Japan. As of 2020, it operates in 23 countries with over 130 million customers. In the United States, it is not a primary credit card network but has an association with the Discover Network to enable use of JCB cards.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/ProductsAndServices/
+N0ed8bb07deb64e6896a323cc0a8d9ded http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardAccount
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PrimaryCardAccountNumber https://www.omg.org/spec/Commons/AnnotationVocabulary/abbreviation PAN
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardNetwork http://www.w3.org/2000/01/rdf-schema#label credit card network
+N2a0350faadff44b99d5d2643dc5de342 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N68a9b98986f24a3d892219d658143bf6 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardValidationCode https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://www.pcisecuritystandards.org/pci_security/glossary
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardAuthenticationValue2 https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym CAV2
+N382c1d3cb39f4009b751e5eb838cbe00 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N1090ef2d820243beaa98033d27a73953 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N07a1eb4467c243ed89037ad26626f7b6 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardAccount
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardAccount http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PrimaryCardAccountNumber https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The PAN identifies the issuer of the card and the account including part of the account number, and contains a check digit that verifies the authenticity of the embossed account number.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/hasPrimaryAccountNumber http://www.w3.org/2004/02/skos/core#definition specifies the account number displayed on the face of the card
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf N9dfc0970bc2d46b5901bac964864b116
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PaymentCard https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote For purposes of Payment Card Industry Data Security Standard (PCI DSS), a payment card is any payment card/device that bears the logo of the founding members of PCI SSC, which are American Express, Discover Financial Services, JCB International, MasterCard, or Visa, Inc.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/DiscoverNetwork http://www.w3.org/2004/02/skos/core#definition credit card network and card issuer offering benefits like secondary rental car collision insurance
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ConsumerCreditCardAgreement http://www.w3.org/2000/01/rdf-schema#label consumer credit card agreement
+Nb0cb5d2ce4694585802680297dc6c249 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/hasPrimaryAccountNumber http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardVerificationCodeValue https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://www.pcisecuritystandards.org/pci_security/glossary
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCard https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://www.fdic.gov/regulations/examinations/credit_card/pdf_version/ch2.pdf
+N4760f7b5fd764727b790d89c6c4f5192 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PaymentCard
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf N81a93268dc2744a994357c520d109cb8
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/DebitCardAccount http://www.w3.org/2000/01/rdf-schema#subClassOf N382c1d3cb39f4009b751e5eb838cbe00
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ThreeDigitVerificationCodeValue http://www.w3.org/2004/02/skos/core#definition card verification code that is the rightmost three-digit value printed in the signature panel area on the back of the card
+N1090ef2d820243beaa98033d27a73953 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/exemplifies
+N44331d12cae641018363100b46092b14 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardAuthenticationValue https://www.omg.org/spec/Commons/AnnotationVocabulary/abbreviation CAV
+N859036c53bab45e4a39bc969baa55353 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardAccount http://www.w3.org/2000/01/rdf-schema#subClassOf N4636723c3341468587fb6dc416621627
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/IssuingFinancialInstitution https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://www.pcisecuritystandards.org/pci_security/glossary
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/ClientsAndAccounts/
+Na56079039956457984148f41fa407397 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/isEvidenceFor
+N07a1eb4467c243ed89037ad26626f7b6 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N68a9b98986f24a3d892219d658143bf6 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/MastercardNetwork http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/DatesAndTimes/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardSecurityCode http://www.w3.org/2000/01/rdf-schema#label card security code
+N54cecbbfca9d464ba14df130e911d124 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardAccount
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/usesCurrency http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Currency
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/MagneticStripeVerificationCodeValue http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PrimaryCardAccountNumber http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ThreeDigitVerificationCodeValue http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/LOAN/20230701/LoansSpecific/CardAccounts.rdf version of this ontology was modified to make consumer credit card agreement a subclass of unsecured consumer loan.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/Cardholder http://www.w3.org/2000/01/rdf-schema#subClassOf N74f0accb8de44f6e8ad0ee230c2a86aa
+Ne3b9930c5de1422fb73c0b440dd5fd47 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCard https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote In physical form, a credit card traditionally is a thin, rectangular plastic card. The front of the card contains a series of numbers that are representative of various items such as the applicable network, bank, and account.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PaymentCardAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf Nea2c2680edb84f9694241799cfcf4984
+Nf71e0860e6ba43988a183ca3e803f0b9 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardProduct
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardAgreement http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/hasCardVerificationCode http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardVerificationCodeValue
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/hasCreditCardNetwork http://www.w3.org/2000/01/rdf-schema#label has credit card network
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/Cardholder https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://www.pcisecuritystandards.org/pci_security/glossary
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardProduct http://www.w3.org/2000/01/rdf-schema#label card product
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardVerificationValue2 http://www.w3.org/2000/01/rdf-schema#label card verification value 2
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ConsumerCreditCardAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/ConsumerLoans/UnsecuredConsumerLoan
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/Cardholder http://www.w3.org/2000/01/rdf-schema#subClassOf N836ab691b8e9444ba84e15ca215231aa
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardAuthenticationValue http://www.w3.org/2000/01/rdf-schema#label card authentication value
+N0ff0026ccf7a4a69b086836e8936909d http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasExpirationDate
+Ne3b9930c5de1422fb73c0b440dd5fd47 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/hasCreditCardNetwork
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/DebitCard http://www.w3.org/2000/01/rdf-schema#subClassOf N0504095a73f54378b1e7f3bb77e5f52e
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/hasCreditCardNetwork http://www.w3.org/2004/02/skos/core#definition indicates the underlying network for credit card product
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ConsumerCreditCardAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf Nb0cb5d2ce4694585802680297dc6c249
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ConsumerCreditCardAgreement https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://www.law.cornell.edu/cfr/text/12/228.12
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardVerificationValue2 http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ThreeDigitVerificationCodeValue
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/DebitCardAccount http://www.w3.org/2000/01/rdf-schema#label debit card account
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PaymentCard http://www.w3.org/2000/01/rdf-schema#subClassOf Na83224790bf54c46921264b43fd644e3
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/usesCurrency http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+Nb0cb5d2ce4694585802680297dc6c249 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasBorrower
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardVerificationCodeValue http://www.w3.org/2000/01/rdf-schema#subClassOf N5611e9bf4ce54f6ebcd63bc4fb9351ab
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardValidationCode https://www.omg.org/spec/Commons/AnnotationVocabulary/abbreviation PAN CVC
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Release
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardSecurityCode https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://www.pcisecuritystandards.org/pci_security/glossary
+Ne80c3588997e422cace26ddebb4248ef http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/ContextualDesignators/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/DebitCardProduct http://www.w3.org/2000/01/rdf-schema#label debit card product
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardProduct http://www.w3.org/2004/02/skos/core#definition financial product involving the issuance of credit, debit, or other payment cards
+N0ed8bb07deb64e6896a323cc0a8d9ded http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardVerificationValue https://www.omg.org/spec/Commons/AnnotationVocabulary/abbreviation CVV
+N4434a39d91a24964abd55ab686f5299b http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCard
+N859036c53bab45e4a39bc969baa55353 http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Country
+N0ff0026ccf7a4a69b086836e8936909d http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/AmericanExpressNetwork http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardNetwork
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/VisaNetwork http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardNetwork
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/LOAN/20231201/LoansSpecific/CardAccounts.rdf version of the ontology was modified to replace additional concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardVerificationCodeValue http://www.w3.org/2000/01/rdf-schema#label card verification code or value
+Nb8a7d1a96d8f464199ef28af187f1034 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/DebitCard
+N0504095a73f54378b1e7f3bb77e5f52e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardAccount http://www.w3.org/2004/02/skos/core#definition account whose terms and conditions are defined in a card agreement that is represented by a payment card
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardNetwork http://www.w3.org/2004/02/skos/core#example Mastercard, Visa, American Express, Discover
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PaymentCard http://www.w3.org/2000/01/rdf-schema#subClassOf N3a196b7d0d8249eebf77f25c977d80ca
+N19c3ec56caa542f58fd3e75b391af412 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardAccount
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardExpirationDate http://www.w3.org/2000/01/rdf-schema#label card expiration date
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardProduct http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/DebitCardProduct http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Ndb1ada0efa34439aa7eb645de4a7d925 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/DebitCardAccount
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardValidationCode2 http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ThreeDigitVerificationCodeValue
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/IssuingFinancialInstitution https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym issuing bank
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardNetwork http://www.w3.org/2000/01/rdf-schema#subClassOf N0d1bfe563d2f404c826a5c9aff356b84
+N836ab691b8e9444ba84e15ca215231aa http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N2a0350faadff44b99d5d2643dc5de342 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCard
+Ne3b9930c5de1422fb73c0b440dd5fd47 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardNetwork
+N9e47c2373cee4f8dbe5adc4ca1e3ba80 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Identifiers/identifies
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardExpirationDate http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDate
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/DebitCard http://www.w3.org/2000/01/rdf-schema#subClassOf Na56079039956457984148f41fa407397
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/MagneticStripeVerificationCodeValue http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardVerificationCodeValue
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardSecurityCode http://www.w3.org/2004/02/skos/core#definition card verification value specifically for American Express payment cards
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardIdentificationNumber http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ThreeDigitVerificationCodeValue
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardProduct http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ThreeDigitVerificationCodeValue http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardVerificationCodeValue
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardProduct http://www.w3.org/2000/01/rdf-schema#subClassOf N859036c53bab45e4a39bc969baa55353
+Na56079039956457984148f41fa407397 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/DebitCardAccount
+Na83224790bf54c46921264b43fd644e3 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/hasCardVerificationCode
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/JCBNetwork http://www.w3.org/2000/01/rdf-schema#label JCB network
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ConsumerCreditCardAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PaymentCardAgreement
+Nb8a7d1a96d8f464199ef28af187f1034 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Classifiers/classifies
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CommercialCreditCardAgreement http://www.w3.org/2004/02/skos/core#definition credit card agreement for a card issued to, or in conjunction with, a formal organization, such as a small business, middle market business, local, state, or national government, or large corporation
+Na83224790bf54c46921264b43fd644e3 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/hasPrimaryAccountNumber http://www.w3.org/2000/01/rdf-schema#label has primary account number
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CommittedCreditFacility
+N1d1e5c1f5bd84c9db69cf892a47f1173 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCard http://www.w3.org/2000/01/rdf-schema#subClassOf Nf71e0860e6ba43988a183ca3e803f0b9
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardValidationCode2 http://www.w3.org/2000/01/rdf-schema#label card validation code 2
+N7fa7c05bbe1c48f18b7e255a7b92c98c http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Identifiers/isIdentifiedBy
+Nea2c2680edb84f9694241799cfcf4984 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardIdentificationNumber https://www.omg.org/spec/Commons/AnnotationVocabulary/abbreviation CID
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardAccount http://www.w3.org/2000/01/rdf-schema#subClassOf N20298958c9d14a0c941fdac419e1a5df
+N724b1e7d6e4e44d6aff971259bf51769 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Designators/isDefinedIn
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/SmartCard http://www.w3.org/2004/02/skos/core#definition payment card that has integrated circuits embedded within it
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/hasPrimaryAccountNumber http://www.w3.org/2004/02/skos/core#editorialNote modeled independently of 'identifies' in order to circumvent circular reasoning challenges
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PaymentCardAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CreditAgreement
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/DebitCardProduct http://www.w3.org/2000/01/rdf-schema#subClassOf Ndb1ada0efa34439aa7eb645de4a7d925
+Nf4e62798bdc04290a9aa7792f95c0653 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CommercialCreditCardAgreement https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym corporate credit card agreement
+Na56079039956457984148f41fa407397 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/hasCardVerificationCode http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardAccount http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/ClientsAndAccounts/CustomerAccount
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardIdentificationNumber http://www.w3.org/2000/01/rdf-schema#label card identification number
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardProduct http://www.w3.org/2000/01/rdf-schema#subClassOf N2a0350faadff44b99d5d2643dc5de342
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/AmericanExpressNetwork http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+N7777298c8fcb45e6bc663432eccdd01a http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/DebitCardProduct
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/DebitCard http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/VisaNetwork http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardIdentificationNumber https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://www.pcisecuritystandards.org/pci_security/glossary
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Designators/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardExpirationDate http://www.w3.org/2004/02/skos/core#definition date on which a given payment card expires
+N836ab691b8e9444ba84e15ca215231aa http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardAccount http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardAccount
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardProduct http://www.w3.org/2000/01/rdf-schema#subClassOf Ncc690ef7080a457cb26c75fc6d2347dd
+N8710f4f7dea64487b7a3adb23b0a9621 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/IssuingFinancialInstitution
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardVerificationValue2 https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://www.pcisecuritystandards.org/pci_security/glossary
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/hasCardVerificationCode http://www.w3.org/2000/01/rdf-schema#label has card verification code
+N4636723c3341468587fb6dc416621627 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Designators/isDefinedIn
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/DiscoverNetwork http://www.w3.org/2000/01/rdf-schema#label Discover network
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardAccount http://www.w3.org/2000/01/rdf-schema#label card account
+N9e47c2373cee4f8dbe5adc4ca1e3ba80 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N81a93268dc2744a994357c520d109cb8 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/MagneticStripeVerificationCodeValue http://www.w3.org/2000/01/rdf-schema#label magnetic stripe verification code or value
+N44331d12cae641018363100b46092b14 http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#string
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/VisaNetwork http://www.w3.org/2000/01/rdf-schema#label Visa network
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardVerificationValue http://www.w3.org/2004/02/skos/core#definition card verification value specifically for Visa and Discover payment cards
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PaymentCard http://www.w3.org/2000/01/rdf-schema#label payment card
+N0504095a73f54378b1e7f3bb77e5f52e http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Classifiers/isClassifiedBy
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardAuthenticationValue http://www.w3.org/2004/02/skos/core#definition card verification value specifically for JCB payment cards
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardAuthenticationValue2 http://www.w3.org/2000/01/rdf-schema#label card authentication value 2
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardProduct http://www.w3.org/2000/01/rdf-schema#subClassOf Ne3b9930c5de1422fb73c0b440dd5fd47
+N9e47c2373cee4f8dbe5adc4ca1e3ba80 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardAccount
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/SmartCard http://www.w3.org/2000/01/rdf-schema#label smart card
+Nd33a8e99dbe54380ad1ebbf146891de8 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardNetwork
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/hasCreditCardNetwork http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/Classifiers/isClassifiedBy
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+N0ed8bb07deb64e6896a323cc0a8d9ded http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isExemplifiedBy
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PaymentCard http://www.w3.org/2004/02/skos/core#definition legal document issued by a financial services provider that enables the cardholder to access the funds in the customer's designated bank accounts, or through a credit account and make payments by electronic funds transfer and access automated teller machines (ATMs)
+N7fa7c05bbe1c48f18b7e255a7b92c98c http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PrimaryCardAccountNumber
+Ncc690ef7080a457cb26c75fc6d2347dd http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N747679197f204fd5bf9fe1b5e1f230f6 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/holds
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PaymentCardAgreement http://www.w3.org/2004/02/skos/core#definition account-specific credit agreement that specifies the terms and conditions under which the payment card is offered to the cardholder by the issuer
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/IssuingFinancialInstitution http://www.w3.org/2004/02/skos/core#definition issuer and financial services provider that issues payment cards or performs, facilitates, or supports issuing services including but not limited to issuing banks and issuing processors
+N4636723c3341468587fb6dc416621627 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardAgreement
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardAuthenticationValue2 http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ThreeDigitVerificationCodeValue
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardValidationCode2 https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://www.pcisecuritystandards.org/pci_security/glossary
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardValidationCode http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N4760f7b5fd764727b790d89c6c4f5192 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/MagneticStripeVerificationCodeValue http://www.w3.org/2004/02/skos/core#definition card verification code on a card's magnetic stripe that uses secure cryptographic processes to protect data integrity on the stripe, and reveals any alteration or counterfeiting
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardProduct http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardProduct
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CommercialCreditCardAgreement http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nf4e62798bdc04290a9aa7792f95c0653 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasBorrower
+Nb895e4e699114b2793bd423df55bae9e http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardAccount
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/DebitCard http://www.w3.org/2004/02/skos/core#definition payment card issued by a financial service provider that enables the cardholder to access funds in a demand deposit account
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardValidationCode2 http://www.w3.org/2004/02/skos/core#definition card verification value specifically for Mastercard payment cards
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardAuthenticationValue https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://www.pcisecuritystandards.org/pci_security/glossary
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCard http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N859036c53bab45e4a39bc969baa55353 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/hasCountry
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardAccount http://www.w3.org/2000/01/rdf-schema#subClassOf Nd86f815e8ea44b03892c36948c8eed38
+N0e59d34ee4b24f8e931cd3891f950063 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CommercialCreditCardAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf Nf4e62798bdc04290a9aa7792f95c0653
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCard http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PaymentCard
+N20298958c9d14a0c941fdac419e1a5df http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/ClientsAndAccounts/PaymentDueDate
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardVerificationCodeValue http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N8b486caa0001443e86f545a81e0f929f http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardSecurityCode https://www.omg.org/spec/Commons/AnnotationVocabulary/abbreviation CSC
+N0ff0026ccf7a4a69b086836e8936909d http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardExpirationDate
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/Ownership/
+N74f0accb8de44f6e8ad0ee230c2a86aa http://www.w3.org/2002/07/owl#someValuesFrom N19c3ec56caa542f58fd3e75b391af412
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardAccount http://www.w3.org/2000/01/rdf-schema#subClassOf N4434a39d91a24964abd55ab686f5299b
+N1090ef2d820243beaa98033d27a73953 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardProduct
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardVerificationCodeValue http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/CodesAndCodeSets/CodeElement
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/PartiesAndSituations/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardNetwork http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Classifiers/Classifier
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardAccount http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/SmartCard http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PaymentCard
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/IssuingFinancialInstitution http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardSecurityCode http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N44331d12cae641018363100b46092b14 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasTag
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CommercialCreditCardAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/CommittedCreditFacility
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/DebitCardAccount http://www.w3.org/2000/01/rdf-schema#subClassOf N7777298c8fcb45e6bc663432eccdd01a
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PaymentCardAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf N1d1e5c1f5bd84c9db69cf892a47f1173
+N3a196b7d0d8249eebf77f25c977d80ca http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardAuthenticationValue http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N07a1eb4467c243ed89037ad26626f7b6 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/ContextualDesignators/appliesTo
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ThreeDigitVerificationCodeValue http://www.w3.org/2000/01/rdf-schema#label three-digit verification code or value
+N0d1bfe563d2f404c826a5c9aff356b84 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N859036c53bab45e4a39bc969baa55353 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/hasCreditCardNetwork http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCard http://www.w3.org/2000/01/rdf-schema#label credit card
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf N85d4f2591aa3449db51281d6e8966f65
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardVerificationValue2 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2020-2024 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/SmartCard https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://www.pcisecuritystandards.org/pci_security/glossary
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PrimaryCardAccountNumber http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/ClientsAndAccounts/AccountIdentifier
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardAuthenticationValue2 http://www.w3.org/2004/02/skos/core#definition card verification value specifically for JCB payment cards
+N0ff0026ccf7a4a69b086836e8936909d http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCard https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Issuance of credit cards has the condition that the cardholder will pay back the original, borrowed amount plus any additional agreed-upon charges. The credit company provider may also grant a line of credit (LOC) to the cardholder which allows the holder to borrow money in the form of a cash advance. The issuer pre-sets borrowing limits which have a basis on the individual's credit rating.
+N7fa7c05bbe1c48f18b7e255a7b92c98c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PaymentCard http://www.w3.org/2000/01/rdf-schema#subClassOf Ndfb065ecc2134b81ac6b7ab6932908b2
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PaymentCardAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/ClientsAndAccounts/AccountSpecificServiceAgreement
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardAgreement http://www.w3.org/2004/02/skos/core#definition account-specific credit facility that specifies the terms and conditions under which the credit card is offered to the cardholder by the issuer
+N9dfc0970bc2d46b5901bac964864b116 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/VisaNetwork http://www.w3.org/2004/02/skos/core#definition credit card network that oversees the Visa Signature benefits associated with certain credit cards, such as premium rental car privileges and hotel perks
+N0d1bfe563d2f404c826a5c9aff356b84 http://www.w3.org/2002/07/owl#someValuesFrom http://www.w3.org/2001/XMLSchema#string
+N85d4f2591aa3449db51281d6e8966f65 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardAccount
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardExpirationDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N74f0accb8de44f6e8ad0ee230c2a86aa http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/Cardholder http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Ndb1ada0efa34439aa7eb645de4a7d925 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N2a0350faadff44b99d5d2643dc5de342 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Classifiers/classifies
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardNetwork http://www.w3.org/2000/01/rdf-schema#subClassOf N879e10b3600e4a95a44ff4b6d1dffd37
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardNetwork http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N879e10b3600e4a95a44ff4b6d1dffd37 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Classifiers/classifies
+N19c3ec56caa542f58fd3e75b391af412 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/Ownership/owns
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PaymentCard http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Documents/LegalDocument
+Ncc690ef7080a457cb26c75fc6d2347dd http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+N724b1e7d6e4e44d6aff971259bf51769 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/SmartCard http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/LOAN/20240101/LoansSpecific/CardAccounts/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardAgreement http://www.w3.org/2000/01/rdf-schema#label credit card agreement
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/DebitCardAccount http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/hasCardVerificationCode http://www.w3.org/2004/02/skos/core#definition links a credit card to either: (1) magnetic-stripe data, or (2) printed security features that are used to protect data integrity and limit alteration, counterfeiting and fraud generally
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/SmartCard https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The circuits, also referred to as the 'chip,' contain payment card data including but not limited to data equivalent to the magnetic-stripe data.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ http://www.w3.org/2000/01/rdf-schema#label Card Accounts Ontology
+N81a93268dc2744a994357c520d109cb8 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasBorrower
+Nb8a7d1a96d8f464199ef28af187f1034 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardAuthenticationValue http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/MagneticStripeVerificationCodeValue
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/DebitCardProduct http://www.w3.org/2004/02/skos/core#definition card product card typically provided by a depository institution allowing the holder to transfer money electronically to another account when making a purchase
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/CodesAndCodeSets/
+N747679197f204fd5bf9fe1b5e1f230f6 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardAccount
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PrimaryCardAccountNumber http://www.w3.org/2004/02/skos/core#definition composite identifier of 14 or 16 digits embossed on a bank or payment card and encoded in the card's magnetic strip
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardAuthenticationValue2 https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://www.pcisecuritystandards.org/pci_security/glossary
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf N8710f4f7dea64487b7a3adb23b0a9621
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/Cardholder http://www.w3.org/2000/01/rdf-schema#label cardholder
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardIdentificationNumber http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/usesCurrency http://www.w3.org/2004/02/skos/core#definition indicates the currency defined for the credit card product
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardVerificationCodeValue http://www.w3.org/2000/01/rdf-schema#subClassOf N44331d12cae641018363100b46092b14
+Nd33a8e99dbe54380ad1ebbf146891de8 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Na83224790bf54c46921264b43fd644e3 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardVerificationCodeValue
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardProduct http://www.w3.org/2000/01/rdf-schema#label credit card product
+Na56079039956457984148f41fa407397 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N85d4f2591aa3449db51281d6e8966f65 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/ContextualDesignators/appliesTo
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/FormalOrganizations/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/Cardholder http://www.w3.org/2000/01/rdf-schema#subClassOf N747679197f204fd5bf9fe1b5e1f230f6
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PaymentCardAgreement
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/hasPrimaryAccountNumber http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PaymentCard
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardValidationCode http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/MagneticStripeVerificationCodeValue
+N8710f4f7dea64487b7a3adb23b0a9621 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N836ab691b8e9444ba84e15ca215231aa http://www.w3.org/2002/07/owl#someValuesFrom N54cecbbfca9d464ba14df130e911d124
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PaymentCardAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf N07a1eb4467c243ed89037ad26626f7b6
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/LOAN/20230901/LoansSpecific/CardAccounts.rdf version of the ontology was modified to replace concepts from several FIBO FND ontologies with their counterparts added to the Commons Ontology Library (Commons) v1.1.
+Ndfb065ecc2134b81ac6b7ab6932908b2 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/IssuingFinancialInstitution http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/FinancialServiceProvider
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/DebitCardProduct http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardProduct
+Nd33a8e99dbe54380ad1ebbf146891de8 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/hasCreditCardNetwork
+Nf71e0860e6ba43988a183ca3e803f0b9 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N54cecbbfca9d464ba14df130e911d124 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/MastercardNetwork http://www.w3.org/2000/01/rdf-schema#label Mastercard network
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PaymentCardAgreement http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N747679197f204fd5bf9fe1b5e1f230f6 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/JCBNetwork http://www.w3.org/2004/02/skos/core#definition credit card network based in Japan, with coverage throughout Asia, with strategic partners worldwide
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardAccount http://www.w3.org/2000/01/rdf-schema#subClassOf N68a9b98986f24a3d892219d658143bf6
+N3a196b7d0d8249eebf77f25c977d80ca http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/DebitCardProduct http://www.w3.org/2000/01/rdf-schema#subClassOf Nb8a7d1a96d8f464199ef28af187f1034
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/Cardholder http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/ClientsAndAccounts/CustomerAccountHolder
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardVerificationValue2 http://www.w3.org/2004/02/skos/core#definition card verification value specifically for Visa payment cards
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PaymentCardAgreement http://www.w3.org/2000/01/rdf-schema#label payment card agreement
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardProduct http://www.w3.org/2004/02/skos/core#definition card product allowing the holder to purchase goods or services on credit
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/RolesAndCompositions/
+N724b1e7d6e4e44d6aff971259bf51769 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PaymentCardAgreement
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardSecurityCode http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/MagneticStripeVerificationCodeValue
+Nd33a8e99dbe54380ad1ebbf146891de8 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N4434a39d91a24964abd55ab686f5299b http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Designators/isSignifiedBy
+N7777298c8fcb45e6bc663432eccdd01a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Na83224790bf54c46921264b43fd644e3 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+N54cecbbfca9d464ba14df130e911d124 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/PartiesAndSituations/isAPartyTo
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardValidationCode2 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/DebitCard http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PaymentCard
+Nb0cb5d2ce4694585802680297dc6c249 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/ProductsAndServices/Consumer
+N44331d12cae641018363100b46092b14 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardVerificationValue https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://www.pcisecuritystandards.org/pci_security/glossary
+Nf71e0860e6ba43988a183ca3e803f0b9 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Classifiers/isClassifiedBy
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CommercialCreditCardAgreement http://www.w3.org/2000/01/rdf-schema#label commercial credit card agreement
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardVerificationCodeValue http://www.w3.org/2004/02/skos/core#definition code that specifies either (1) magnetic-stripe data, or (2) printed security features that are used to protect data integrity and limit alteration, counterfeiting and fraud generally
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardAccount http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/ClientsAndAccounts/LoanOrCreditAccount
+N85d4f2591aa3449db51281d6e8966f65 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Ne80c3588997e422cace26ddebb4248ef http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/isEvidenceFor
+N5611e9bf4ce54f6ebcd63bc4fb9351ab http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PaymentCard
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/DiscoverNetwork http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardNetwork
+N8b486caa0001443e86f545a81e0f929f http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/LCC/Countries/CountryRepresentation/CountrySubdivision
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/hasPrimaryAccountNumber http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PrimaryCardAccountNumber
+N7777298c8fcb45e6bc663432eccdd01a http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/exemplifies
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardIdentificationNumber http://www.w3.org/2004/02/skos/core#definition card verification value specifically for American Express and Discover payment cards
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PrimaryCardAccountNumber http://www.w3.org/2000/01/rdf-schema#label primary card account number
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/usesCurrency http://www.w3.org/2000/01/rdf-schema#label uses currency
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/hasCreditCardNetwork http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardNetwork
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardProduct http://www.w3.org/2000/01/rdf-schema#subClassOf Nd33a8e99dbe54380ad1ebbf146891de8
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardAccount http://www.w3.org/2004/02/skos/core#definition card account whose terms and conditions are defined in a credit card agreement that is represented by a credit card
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/LOAN/20230601/LoansSpecific/CardAccounts.rdf version of this ontology was modified to add a distinction between consumer and commercial credit card agreements.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardAccount http://www.w3.org/2000/01/rdf-schema#subClassOf N0e59d34ee4b24f8e931cd3891f950063
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardProduct http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/FinancialProduct
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+N4760f7b5fd764727b790d89c6c4f5192 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/isEvidencedBy
+N8710f4f7dea64487b7a3adb23b0a9621 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasLender
+Nb895e4e699114b2793bd423df55bae9e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N9dfc0970bc2d46b5901bac964864b116 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/isEvidencedBy
+N74f0accb8de44f6e8ad0ee230c2a86aa http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/DebitCardAccount http://www.w3.org/2004/02/skos/core#definition card account that is represented by a one or more debit cards
+Ne3b9930c5de1422fb73c0b440dd5fd47 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/IssuingFinancialInstitution http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Issuer
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardValidationCode http://www.w3.org/2004/02/skos/core#definition card verification code specifically for Mastercard payment cards
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PaymentCard http://www.w3.org/2000/01/rdf-schema#seeAlso https://www.irs.gov/payments/payment-card-transactions-faqs
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardAccount http://www.w3.org/2000/01/rdf-schema#subClassOf N724b1e7d6e4e44d6aff971259bf51769
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Identifiers/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardAccount http://www.w3.org/2000/01/rdf-schema#subClassOf N812492637e594fd29c038805357aa19e
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/hasCardVerificationCode http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/PaymentCard
+Ncc690ef7080a457cb26c75fc6d2347dd http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/usesCurrency
+N3a196b7d0d8249eebf77f25c977d80ca http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/hasPrimaryAccountNumber
+Nff7d1c3abb3f47c7adbbc70452c93277 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/JCBNetwork http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardNetwork
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardAccount http://www.w3.org/2000/01/rdf-schema#subClassOf N1090ef2d820243beaa98033d27a73953
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CreditCardProduct http://www.w3.org/2000/01/rdf-schema#subClassOf Nb895e4e699114b2793bd423df55bae9e
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ http://purl.org/dc/terms/abstract This ontology defines revolving credit account-related concepts that are specific to credit and debit cards. Note that it does not differentiate between consumer and commercial/corporate cards and is capable of representing either.
+Nd86f815e8ea44b03892c36948c8eed38 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N20298958c9d14a0c941fdac419e1a5df http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/ClientsAndAccounts/hasPaymentDueDate
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/ThreeDigitVerificationCodeValue https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom https://www.pcisecuritystandards.org/pci_security/glossary
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/CardAccount http://www.w3.org/2000/01/rdf-schema#subClassOf N7fa7c05bbe1c48f18b7e255a7b92c98c
+N19c3ec56caa542f58fd3e75b391af412 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N5611e9bf4ce54f6ebcd63bc4fb9351ab http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/ContextualDesignators/appliesTo
+Nf4e62798bdc04290a9aa7792f95c0653 http://www.w3.org/2002/07/owl#someValuesFrom Nff7d1c3abb3f47c7adbbc70452c93277

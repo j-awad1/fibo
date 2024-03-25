@@ -1,0 +1,73 @@
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2015-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/PrivateLimitedCompanies/MetadataBEPrivateLimitedCompanies/
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/MetadataBETrusts/
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/MetadataBEPartnerships/PartnershipsModule
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/MetadataBECorporations/CorporationsModule
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/BE/20180801/BE/MetadataBE.rdf version of this ontology was modified to eliminate informative Functional Entities ontologies, merging their content into others as appropriate.
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/GovernmentEntities/MetadataBEGovernmentEntities/
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/MetadataBELegalEntities/LegalEntitiesModule
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Module
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain http://purl.org/dc/terms/contributor Wells Fargo
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain http://purl.org/dc/terms/contributor Pinnacle Bank (Morgan Hill, California)
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/FunctionalEntities/MetadataBEFunctionalEntities/
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/BE/20230301/MetadataBE/
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/ http://purl.org/dc/terms/modified 2023-03-31T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain http://purl.org/dc/terms/contributor Working Ontologist
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain http://purl.org/dc/terms/contributor Citigroup
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain http://purl.org/dc/terms/contributor Exprentis
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain http://purl.org/dc/terms/contributor Nordea Bank AB
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/BE/GovernmentEntities/MetadataBEGovernmentEntities/GovernmentEntitiesModule
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain http://purl.org/dc/terms/contributor Federated Knowledge LLC
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/BE/OwnershipAndControl/MetadataBEOwnershipAndControl/OwnershipAndControlModule
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/ http://purl.org/dc/terms/abstract This ontology provides metadata about the FIBO Business Entities (BE) Domain, which covers defines business concepts that are used for data governance, interoperability, and in regulatory reporting about business entities.
+
+The business scope of the BE ontologies covers a range of business and legal entities that are considered by financial industry firms, regulators and other industry participants to be of relevance in the financial services domain, including:
+ - Legal entities generally
+ - Corporate structure, ownership and control, including primary executive roles for businesses,
+ - Functional entities such as governments and government entities, non-governmental organizations, international organizations, not-for-profit organization, etc.
+ - Concepts specific to corporations, partnerships, private limited companies, sole proprietorships, and trusts.
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/MetadataBESoleProprietorships/
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain http://purl.org/dc/terms/contributor Bloomberg LP
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/ http://purl.org/dc/terms/license http://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain http://purl.org/dc/terms/contributor John F. Gemski
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/BE/PrivateLimitedCompanies/MetadataBEPrivateLimitedCompanies/PrivateLimitedCompaniesModule
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain http://purl.org/dc/terms/title FIBO BE Domain
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2015-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2015-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain http://purl.org/dc/terms/contributor State Street Bank and Trust
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/OwnershipAndControl/MetadataBEOwnershipAndControl/
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain http://www.w3.org/2000/01/rdf-schema#label business entities domain
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain http://purl.org/dc/terms/license http://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain http://purl.org/dc/terms/contributor Thematix Partners LLC
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain http://purl.org/dc/terms/contributor Deutsche Bank
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain http://purl.org/dc/terms/creator https://wiki.edmcouncil.org/display/BE/FIBO+-+FCT+-+Business+Entities+Home
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/BE/Trusts/MetadataBETrusts/TrustsModule
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain http://purl.org/dc/terms/abstract The FIBO Business Entities (BE) Domain covers defines business concepts that are used for data governance, interoperability, and in regulatory reporting about business entities.
+
+The business scope of the BE ontologies covers a range of business and legal entities that are considered by financial industry firms, regulators and other industry participants to be of relevance in the financial services domain, including:
+ - Legal entities generally
+ - Corporate structure, ownership and control, including primary executive roles for businesses,
+ - Functional entities such as governments and government entities, non-governmental organizations, international organizations, not-for-profit organization, etc.
+ - Concepts specific to corporations, partnerships, private limited companies, sole proprietorships, and trusts.
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/Corporations/MetadataBECorporations/
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain http://purl.org/dc/terms/contributor Credit Suisse
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain http://purl.org/dc/terms/contributor Tahoe Blue Ltd
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain http://purl.org/dc/terms/contributor Adaptive, Inc.
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain http://purl.org/dc/terms/title EDMC Financial Industry Business Ontology (FIBO) Business Entities (BE) Domain
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/BE/20190401/MetadataBE.rdf version of the ontology and subordinate module-specific BE metadata ontologies were modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain http://purl.org/dc/terms/contributor agnos.ai UK Ltd.
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain http://www.w3.org/2000/01/rdf-schema#seeAlso https://spec.edmcouncil.org/fibo/
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain http://purl.org/dc/terms/contributor Hypercube Ltd.
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/Partnerships/MetadataBEPartnerships/
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain http://purl.org/dc/terms/contributor Statistics Canada
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/ http://purl.org/dc/terms/issued 2018-08-27T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/BE/FunctionalEntities/MetadataBEFunctionalEntities/FunctionalEntitiesModule
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain http://purl.org/dc/terms/contributor Office of Financial Research (US Dept of the Treasury)
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/BE/SoleProprietorships/MetadataBESoleProprietorships/SoleProprietorshipsModule
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/MetadataBELegalEntities/
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/BEDomain https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2015-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/BE/MetadataBE/ http://www.w3.org/2000/01/rdf-schema#label Metadata about the EDMC-FIBO Business Entities (BE) Domain

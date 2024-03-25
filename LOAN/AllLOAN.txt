@@ -1,0 +1,30 @@
+https://spec.edmcouncil.org/fibo/ontology/LOAN/AllLOAN/ http://purl.org/dc/terms/contributor Federated Knowledge LLC
+https://spec.edmcouncil.org/fibo/ontology/LOAN/AllLOAN/ http://purl.org/dc/terms/title Financial Industry Business Ontology (FIBO) Loans (LOAN) Domain
+https://spec.edmcouncil.org/fibo/ontology/LOAN/AllLOAN/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/HomeMortgageDisclosureActCoveredMortgages/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/AllLOAN/ http://purl.org/dc/terms/license http://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/LOAN/AllLOAN/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/LOAN/AllLOAN/ http://purl.org/dc/terms/contributor Hypercube Ltd.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/AllLOAN/ http://purl.org/dc/terms/contributor John F. Gemski
+https://spec.edmcouncil.org/fibo/ontology/LOAN/AllLOAN/ https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The 'all' ontology for LOAN is provided for convenience for FIBO users. This ontology does not add new assertions, but imports most of the Production (Released) ontologies that comprise the FIBO Foundations (FND), Business Entities (BE), Financial Business and Commerce (FBC), and Loans (LOAN) domains, excluding individuals for governments and jurisdictions, financial services, regulatory organizations and related registries, and reference individuals, as well as the LCC region-specific ontologies.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/AllLOAN/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2015-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/AllLOAN/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CardAccounts/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/AllLOAN/ http://purl.org/dc/terms/contributor Office of Financial Research (US Dept of the Treasury)
+https://spec.edmcouncil.org/fibo/ontology/LOAN/AllLOAN/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/LOAN/AllLOAN/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/AllLOAN/ http://purl.org/dc/terms/contributor Thematix Partners LLC
+https://spec.edmcouncil.org/fibo/ontology/LOAN/AllLOAN/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/AllLOAN/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanEvents/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/AllLOAN/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/LOAN/RealEstateLoans/MortgageLoans/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/AllLOAN/ http://purl.org/dc/terms/contributor agnos.ai U.K. Ltd
+https://spec.edmcouncil.org/fibo/ontology/LOAN/AllLOAN/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/CommercialLoans/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/AllLOAN/ http://purl.org/dc/terms/contributor Semantic Arts, Inc.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/AllLOAN/ http://purl.org/dc/terms/contributor Tahoe Blue Ltd
+https://spec.edmcouncil.org/fibo/ontology/LOAN/AllLOAN/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansSpecific/ConsumerLoans/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/AllLOAN/ http://purl.org/dc/terms/contributor Wells Fargo
+https://spec.edmcouncil.org/fibo/ontology/LOAN/AllLOAN/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/LOAN/MetadataLOAN/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/AllLOAN/ http://purl.org/dc/terms/contributor Adaptive, Inc.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/AllLOAN/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/Loans/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/AllLOAN/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/MetadataLOANLoansGeneral/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/AllLOAN/ http://purl.org/dc/terms/issued 2018-03-31T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/LOAN/AllLOAN/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/AllFBC/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/AllLOAN/ http://purl.org/dc/terms/modified 2023-02-03T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/LOAN/AllLOAN/ http://www.w3.org/2000/01/rdf-schema#label Loans (LOAN) Domain

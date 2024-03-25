@@ -1,0 +1,91 @@
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/ http://www.w3.org/2000/01/rdf-schema#label Facilities Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/Site https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote A physical site has certain characteristics that contribute to the context it provides, including area, shape, accessibility, and in the case of a geographic site, landforms, soil and ground conditions, climate, and so forth.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20230101/Places/Facilities.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.
+Nf266b2e6c6574f129158665b4be25fe8 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Address
+N3bc467460c654d55ae6f6e19adc68a59 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N0d447e4e06e0423eadab4123deecb93d http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/ContextualDesignators/
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/ http://www.w3.org/2004/02/skos/core#changeNote The http://www.omg.org/spec/EDMC-FIBO/FND/20220701/Places/Facilities.rdf version of this ontology was modified to allow a facility to be anything rather than a role.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/FND/20240101/Places/Facilities/
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/isSituatedAt http://www.w3.org/2004/02/skos/core#definition is placed at
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/isSituatedAt https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Something may be situated at some site, or in some setting, situation, or context.
+Nf266b2e6c6574f129158665b4be25fe8 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAddress
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/Venue http://www.w3.org/2000/01/rdf-schema#subClassOf N3eef0a020adf456eb6b916e3eec6c989
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/RolesAndCompositions/
+N0d447e4e06e0423eadab4123deecb93d http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/Capability
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20230301/Places/Facilities.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).
+N0b7ce9ce48644e778dc2dedc58ef31f5 http://www.w3.org/2002/07/owl#someValuesFrom http://www.w3.org/2002/07/owl#Thing
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/ http://www.w3.org/2004/02/skos/core#changeNote The http://www.omg.org/spec/EDMC-FIBO/FND/20141101/Places/Facilities.rdf version of this ontology was modified for the FIBO 2.0 RFC to integrate it with LCC.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/Site http://www.w3.org/2000/01/rdf-schema#subClassOf N64f09553706d48ccac22c42452679094
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/Capability http://www.w3.org/2004/02/skos/core#definition ability to perform a particular type of work that may involve people with particular skills and knowledge, intellectual property, defined practices, operating facilities, tools and equipment
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+N3bc467460c654d55ae6f6e19adc68a59 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/Site http://www.w3.org/2004/02/skos/core#example Examples include a structure or building, an archeological dig, the landing location for an aircraft or spacecraft, and the site of a wound. A given site may accommodate multiple facilities.
+N303cfe297da64d0098cbc22dfab88277 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/isLocatedAt
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/Facility http://www.w3.org/2000/01/rdf-schema#subClassOf N0312e3d0b17249d1ba6a94b6899fca16
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/Site http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/RolesAndCompositions/Role
+N3eef0a020adf456eb6b916e3eec6c989 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/ContextualDesignators/isApplicableIn
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/situates http://www.w3.org/2004/02/skos/core#definition indicates the place, setting, or context in which something is placed
+N3eef0a020adf456eb6b916e3eec6c989 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/ http://www.w3.org/2004/02/skos/core#changeNote The http://www.omg.org/spec/EDMC-FIBO/FND/20190901/Places/Facilities.rdf version of this ontology was modified to eliminate circular and ambiguous definitions, and simplify the ontology by merging physical site with site.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/
+N0b7ce9ce48644e778dc2dedc58ef31f5 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N0b7ce9ce48644e778dc2dedc58ef31f5 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/situates
+N0312e3d0b17249d1ba6a94b6899fca16 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/situates http://www.w3.org/2002/07/owl#inverseOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/isSituatedAt
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/Capability http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nf266b2e6c6574f129158665b4be25fe8 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/Facility https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote A facility may be concrete (as in a manufacturing facility) or abstract. Concrete facilities may be permanent, semi-permanent, or temporary structures, providing one or more capabilities at a given site. A single site may include multiple facilities and a given facility may span multiple sites.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/Capability https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom Value Delivery Modeling Language Specification, http://www.omg.org/spec/VDML/
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/Site http://www.w3.org/2000/01/rdf-schema#subClassOf Nf266b2e6c6574f129158665b4be25fe8
+Nc48ecf8e43cd464ca1786976baa341d5 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/involves
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/Site http://www.w3.org/2004/02/skos/core#definition place, setting, or context in which something, such as a facility, is situated
+N0312e3d0b17249d1ba6a94b6899fca16 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N0312e3d0b17249d1ba6a94b6899fca16 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/Site
+N64f09553706d48ccac22c42452679094 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/Venue http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N303cfe297da64d0098cbc22dfab88277 http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/LCC/Countries/CountryRepresentation/Location
+N303cfe297da64d0098cbc22dfab88277 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+N3eef0a020adf456eb6b916e3eec6c989 http://www.w3.org/2002/07/owl#someValuesFrom http://www.w3.org/2002/07/owl#Thing
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/situates http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/Facility http://www.w3.org/2000/01/rdf-schema#subClassOf N0d447e4e06e0423eadab4123deecb93d
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2013-2024 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Release
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/Capability http://www.w3.org/2000/01/rdf-schema#subClassOf Nc48ecf8e43cd464ca1786976baa341d5
+N3bc467460c654d55ae6f6e19adc68a59 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/Address
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/ http://www.w3.org/2004/02/skos/core#changeNote This ontology was added to Foundations in advance of the December 2014 Long Beach meeting in support of the SEC specification.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/Facility http://www.w3.org/2004/02/skos/core#definition something established to serve a particular purpose, make some course of action or operation easier, or provide some capability or service
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/Site http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nf266b2e6c6574f129158665b4be25fe8 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/situates http://www.w3.org/2000/01/rdf-schema#label situates
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+N3bc467460c654d55ae6f6e19adc68a59 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Places/Addresses/hasAddress
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/isSituatedAt http://www.w3.org/2000/01/rdf-schema#label is situated at
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/isSituatedAt http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N0d447e4e06e0423eadab4123deecb93d http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/provides
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/Facility http://www.w3.org/2000/01/rdf-schema#label facility
+N64f09553706d48ccac22c42452679094 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nc48ecf8e43cd464ca1786976baa341d5 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/Capability http://www.w3.org/2000/01/rdf-schema#label capability
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/Facility http://www.w3.org/2000/01/rdf-schema#subClassOf N3bc467460c654d55ae6f6e19adc68a59
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/Venue http://www.w3.org/2000/01/rdf-schema#label venue
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/Site http://www.w3.org/2000/01/rdf-schema#subClassOf N303cfe297da64d0098cbc22dfab88277
+N0312e3d0b17249d1ba6a94b6899fca16 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/isSituatedAt
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/Venue http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/Site
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+N64f09553706d48ccac22c42452679094 http://www.w3.org/2002/07/owl#someValuesFrom N0b7ce9ce48644e778dc2dedc58ef31f5
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/Site http://www.w3.org/2000/01/rdf-schema#label site
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/Facility http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/ http://www.w3.org/2004/02/skos/core#changeNote The http://www.omg.org/spec/EDMC-FIBO/FND/20180801/Places/Facilities.rdf version of this ontology was modified to eliminate deprecated elements.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20221201/Places/Facilities.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/ http://purl.org/dc/terms/abstract This ontology provides scaffolding for use in describing concepts related to facilities, both virtual and physical, including physical sites that provide various facilities.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2013-2024 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/ http://www.w3.org/2004/02/skos/core#changeNote The http://www.omg.org/spec/EDMC-FIBO/FND/20210101/Places/Facilities.rdf version of this ontology was modified to allow a facility to exist at some location that has an address without requiring it to be situated at some site to simplify usage in cases where the site and facility have 100 percent overlap and are not tracked independently.
+N303cfe297da64d0098cbc22dfab88277 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nc48ecf8e43cd464ca1786976baa341d5 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/Facility
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/Venue http://www.w3.org/2004/02/skos/core#definition site where something happens, described in the context of the event or activity that occurs there
+https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/ http://www.w3.org/2004/02/skos/core#changeNote The http://www.omg.org/spec/EDMC-FIBO/FND/20220101/Places/Facilities.rdf version of this ontology was modified to address hygiene issues with respect to text formatting.

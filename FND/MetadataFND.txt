@@ -1,0 +1,56 @@
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/FNDDomain http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/MetadataFNDAccounting/
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/FNDDomain http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/MetadataFNDAgreements/AgreementsModule
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/MetadataFNDQuantities/
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/FNDDomain http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/MetadataFNDOwnershipAndControl/OwnershipAndControlModule
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/FNDDomain http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/MetadataFNDAgentsAndPeople/
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Law/MetadataFNDLaw/
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/OwnershipAndControl/MetadataFNDOwnershipAndControl/
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/ http://purl.org/dc/terms/modified 2023-03-31T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Places/MetadataFNDPlaces/
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/FNDDomain http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FND/AgentsAndPeople/MetadataFNDAgentsAndPeople/AgentsAndPeopleModule
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/ http://www.w3.org/2000/01/rdf-schema#label Metadata for the EDMC-FIBO Foundations (FND) Domain
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/FNDDomain http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FND/Places/MetadataFNDPlaces/PlacesModule
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/ http://purl.org/dc/terms/abstract The 'metadata for FND' describes the FND domain.
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/FNDDomain http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Module
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/FNDDomain http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/MetadataFNDUtilities/UtilitiesModule
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/FNDDomain http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/MetadataFNDDatesAndTimes/DatesAndTimesModule
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/FNDDomain http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/MetadataFNDOrganizations/OrganizationsModule
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/FNDDomain http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/MetadataFNDProductsAndServices/ProductsAndServicesModule
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/FNDDomain http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FND/Relations/MetadataFNDRelations/RelationsModule
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MetadataFNDTransactionsExt/
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/FNDDomain http://purl.org/dc/terms/creator https://wiki.edmcouncil.org/display/FND/FIBO+-+FCT+-+Foundations+Home
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/FNDDomain http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FND/Parties/MetadataFNDParties/PartiesModule
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/MetadataFNDGoalsAndObjectives/
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/FNDDomain http://www.w3.org/2000/01/rdf-schema#label foundations domain
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/MetadataFNDArrangements/
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/FNDDomain http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/MetadataFNDAccounting/AccountingModule
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2013-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/ http://purl.org/dc/terms/issued 2021-03-29T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/FND/20230301/MetadataFND/
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/MetadataFNDRelations/
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/MetadataFNDAgreements/
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/FNDDomain https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2013-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/FNDDomain http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FND/TransactionsExt/MetadataFNDTransactionsExt/TransactionsExtModule
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/MetadataFNDUtilities/
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2013-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/FNDDomain http://purl.org/dc/terms/abstract The Foundations (FND) domain includes ontologies that define general purpose concepts required to support other FIBO domains. These include concepts and relationships about people, organizations, places, and most importantly, contracts that are essential to domains such as Business Entities (BE), Financial Business and Commerce (FBC), Indices and Indicators (IND), and Securities (SEC). 
+
+The scope of the definitions provided in FND is limited to coverage of exactly those concepts needed by other FIBO domain areas.  They may be useful for other domains, such as insurance, but are intentionally underspecified to avoid unintended consequences and thus do not provide exhaustive coverage for any concept contained herein. However, Foundations is designed for growth over time. The expectation is that as additional foundational knowledge is needed to define concepts in other FIBO domain areas, additional ontologies and/or concepts will be integrated into Foundations as required.
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/FNDDomain http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FND/Quantities/MetadataFNDQuantities/QuantitiesModule
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/MetadataFNDProductsAndServices/
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/FNDDomain http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/MetadataFNDArrangements/ArrangementsModule
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/FNDDomain http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FND/Law/MetadataFNDLaw/LawModule
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/FNDDomain http://purl.org/dc/terms/title FIBO FND Domain
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/FNDDomain http://purl.org/dc/terms/title Financial Industry Business Ontology (FIBO) Foundations (FND) Domain
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/FNDDomain https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2013-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/FNDDomain http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/FND/GoalsAndObjectives/MetadataFNDGoalsAndObjectives/GoalsAndObjectivesModule
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/MetadataFNDDatesAndTimes/
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/FNDDomain http://www.w3.org/2000/01/rdf-schema#seeAlso https://spec.edmcouncil.org/fibo/
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Parties/MetadataFNDParties/
+https://spec.edmcouncil.org/fibo/ontology/FND/MetadataFND/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/MetadataFNDOrganizations/

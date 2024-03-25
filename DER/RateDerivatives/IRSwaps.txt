@@ -1,0 +1,490 @@
+N80e435fdcccb47ad81d0418a829861ef http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N0c45c81ce52442fc82c5321a8ad62e1e
+N9893dcc3c8324cfba5ef2c94fcdabb99 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N004b88cfeafe4f258f7229c7c2dc5987
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InflationLeg http://www.w3.org/2004/02/skos/core#definition floating rate leg of an inflation swap linked to an inflation index, such as the Consumer Price Index (CPI)
+N19b229dcf48744b390004674b09af75d http://www.w3.org/1999/02/22-rdf-syntax-ns#rest Ne235123477924bafb0c5d7489f9b1417
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedInterestRateLeg https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote This may be the funding leg of some swaps (i.e. one party agrees to pay fixed interest amounts in exchange for whatever is the other leg) or it may be one or both sides of an interest rate swap, where the two parties exchange different interest payment streams.
+Nc19ababe45e54b229bd2c0344ebb27c8 http://www.w3.org/2002/07/owl#intersectionOf N1bbd8bce9cc646c09c63ce6835ab2ff9
+N0bd7caa350e94b6cae0a7ae3e5625d0a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InterestRateSwap http://www.w3.org/2002/07/owl#equivalentClass Ndc5d82b251e349dd9b6c242e6bb0c744
+Ncc48f7c85ad64ba8acaa974486983014 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+Nf660b31815294d6984b7d88cec46360a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/SwapStreamInterestRateReset http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InterestRateSwapLeg http://www.w3.org/2000/01/rdf-schema#subClassOf Ncca96acc4fc940e8a5f1842deea356a0
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasInterestCalculationSchedule http://www.w3.org/2002/07/owl#equivalentProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasSchedule
+N64809c06777240c0abb066d723dd3f02 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/PercentageMonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ExplicitInterestAmountCalculationEvent http://www.w3.org/2002/07/owl#equivalentClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestCalculation
+N41cfbce8abde48c09c9e69a9fbacee5a http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/OvernightIndexSwap http://www.w3.org/2000/01/rdf-schema#subClassOf N418acde9f09645c5a43a7a2ec7538c8f
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/DerivativesBasics/
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatingInterestRateLeg http://www.w3.org/2000/01/rdf-schema#subClassOf N895527a719be425d9319e30e0fffc327
+Nd9bd1c1a01744bc584e211ee2bd7bcee http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/FixedInterestRate
+N64809c06777240c0abb066d723dd3f02 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+Na162e261e90c46238b02ba0e31e26319 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest Neb9d77d94b9940bc9562eb6922263499
+N814478f17bfe478f8089c8fba795e4e6 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Swaps/hasLeg
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatFloatInterestRateSwap http://www.w3.org/2002/07/owl#equivalentClass N0bd7caa350e94b6cae0a7ae3e5625d0a
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatFloatSingleCurrencyInterestRateSwap http://www.w3.org/2000/01/rdf-schema#label float float single currency interest rate swap
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/OvernightIndexSwap http://www.w3.org/2004/02/skos/core#definition swap in which the periodic payments for one leg are based on an overnight interest rate index multiplied by the same notional amount upon which payments for the other leg of the swap are based
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasLastNotionalStepDate http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDate
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasRateMultiplier http://www.w3.org/2000/01/rdf-schema#label has rate multiplier
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/CrossCurrencyInterestRateSwap http://www.w3.org/2000/01/rdf-schema#label cross-currency interest rate swap
+N9893dcc3c8324cfba5ef2c94fcdabb99 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/CrossCurrencyInterestRateSwap
+Nb2b9af938a94450797a62f17910e17d9 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Documents/specifies
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InflationSwap http://www.w3.org/2000/01/rdf-schema#subClassOf N814478f17bfe478f8089c8fba795e4e6
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InterestRateStreamEvent http://www.w3.org/2002/07/owl#equivalentClass https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Swaps/SwapLegEvent
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/SwapStreamInterestRateResetSchedule http://www.w3.org/2002/07/owl#deprecated true
+N2d9db0c4a333465b85310026c6db0a35 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N6cb2dc66992342cbb046d524904887db http://www.w3.org/1999/02/22-rdf-syntax-ns#first N403879974009446c87b5aab0d81a1c94
+Ne300e73302ae413880fbfe5988ca6978 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/DER/20190501/RateDerivatives/IRSwaps/ version of this ontology was modified to eliminate the property 'hasPaymentSchedule' from the Swaps ontology in favor of the equivalent property with the same name from FND.
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/SingleCurrencyInterestRateSwap http://www.w3.org/2000/01/rdf-schema#label single currency interest rate swap
+N19b229dcf48744b390004674b09af75d http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Swaps/Swap
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/PlainVanillaInterestRateSwap http://www.w3.org/2000/01/rdf-schema#subClassOf N41cfbce8abde48c09c9e69a9fbacee5a
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/SwapStreamInterestPaymentSchedule http://www.w3.org/2002/07/owl#deprecated true
+N7f39f2673f474bdfa153227ff0c73f62 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/InterestRate
+N2c61d97ac8b14ae88b61b5bb07dedce7 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedFloatCrossCurrencyInterestRateSwap https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym fixed-float cross-currency interest rate swap
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InterestRateStreamEvent http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedFloatCrossCurrencyInterestRateSwap http://www.w3.org/2004/02/skos/core#definition interest rate swap in which fixed interest payments on the notional are exchanged for floating interest payments and the two streams of interest payments are in different currencies
+N4d410e1cc6324ac7b83414d4cac3f740 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Documents/specifies
+Ne5d70df3628d4346aa25c58ed86d695f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nd6cfe836ab1043b096daeef888273535 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Swaps/hasLeg
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://www.w3.org/2000/01/rdf-schema#label Interest Rate Swaps Ontology
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedInterestRateLeg http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InterestRateSwapLeg http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedInterestRateLeg http://www.w3.org/2004/02/skos/core#definition fixed leg that specifies fixed interest amounts and terms for the payment of that interest
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/SwapStreamInterestPayment http://www.w3.org/2002/07/owl#deprecated true
+Ncc48f7c85ad64ba8acaa974486983014 http://www.w3.org/1999/02/22-rdf-syntax-ns#first Na3ee4909ab274e62b8dacc8af4663eac
+N403879974009446c87b5aab0d81a1c94 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasFirstNotionalStepDate http://www.w3.org/2000/01/rdf-schema#label has first notional step date
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/
+N155169c250c7491b8c2d86337d283bd7 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatingInterestRateLeg
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/PlainVanillaInterestRateSwap http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N27c5f715b05141eba75003d12a91431c http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+Na3ee4909ab274e62b8dacc8af4663eac http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatFloatSingleCurrencyInterestRateSwap http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatFloatInterestRateSwap
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/NotionalStepAmount http://www.w3.org/2000/01/rdf-schema#subClassOf N2d9db0c4a333465b85310026c6db0a35
+N895527a719be425d9319e30e0fffc327 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Swaps/
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/SingleCurrencyInterestRateSwap http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InterestRateSwap
+N4a33c90b32204848b5040246e94f1efb http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ZeroCouponInterestRateSwap http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InterestRateSwap
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/PlainVanillaInterestRateSwap http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedFloatSingleCurrencyInterestRateSwap
+Ne10d376949094d6682cb35be2003b22e http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/exchanges
+Nc96f0934042e4732915420c468ee69e1 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+Nf0e592e930684d44a64d621616add8ab http://www.w3.org/2002/07/owl#intersectionOf Na162e261e90c46238b02ba0e31e26319
+Ncca96acc4fc940e8a5f1842deea356a0 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/hasBusinessRecurrenceIntervalConvention
+N5b7e55c9cde94264bd097c1528587684 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/Bonds/isLinkedToFallback
+N0e554c5068dd4dc2803520a3c599d783 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N51fd9fb6344a4929917614a74b34a370 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasSchedule
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasFloatingRateSpread https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Such adjustments may be added to or subtracted from the floating rate.
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InterestRateSwap http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Swaps/RatesSwap
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/DER/20240301/RateDerivatives/IRSwaps/
+Nb3864a56c38744debea6e3d1fc3ddd6a http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInterestRate
+N6e3b53b7f73043588c89d2021667c302 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/SwapStreamInterestRateReset http://www.w3.org/2002/07/owl#equivalentClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestRateReset
+N1bbd8bce9cc646c09c63ce6835ab2ff9 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/CrossCurrencyInterestRateSwap
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/DER/20211201/RateDerivatives/IRSwaps/ version of this ontology was modified to reflect the addition of the concept of a rates swap and the corresponding rate-based leg to the Swaps ontology and augment this ontology to include both OIS and zero coupon swaps to facilitate mapping to the CFI standard as well as eliminate a redundant notional step percentage amount, which is not used anywhere.
+N1bbd8bce9cc646c09c63ce6835ab2ff9 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest Na5096b79535d4e4d94f2bc38bb686951
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatingInterestRateLeg http://www.w3.org/2000/01/rdf-schema#subClassOf N51fd9fb6344a4929917614a74b34a370
+Nf660b31815294d6984b7d88cec46360a http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InterestRateSwapLeg
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatingInterestRateLeg http://www.w3.org/2002/07/owl#equivalentClass N68d58211ad604516bab894e61a6d267e
+N4d410e1cc6324ac7b83414d4cac3f740 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+N418acde9f09645c5a43a7a2ec7538c8f http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/OvernightRateIndexLeg
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/OvernightRateIndexLeg http://www.w3.org/2000/01/rdf-schema#label overnight rate index leg
+Nc1b45765d7084fd08dc38c514a542d97 http://www.w3.org/2002/07/owl#maxQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2016-2024 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedFixedInterestRateSwap http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InterestRateSwap
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InterestRateSwap http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatFloatInterestRateSwap https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom http://www.investopedia.com/terms/b/basisrateswap.asp
+N849fceaadb2e43519ffd73b68a161544 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Na5096b79535d4e4d94f2bc38bb686951 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+N895527a719be425d9319e30e0fffc327 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N77937259b10d444697341b0a248dd860 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/OvernightIndexSwap http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N10c0d0c173d24936b445c7c1c364bd27 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N90730fa81e544748bed09eb47e4ccc6e http://www.w3.org/1999/02/22-rdf-syntax-ns#rest Ndf592fd89253485885e4efe89cab40f2
+N4a33c90b32204848b5040246e94f1efb http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N0c32686ba891492f93ad48046d6c1549 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N27c5f715b05141eba75003d12a91431c
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/
+N4bf81a2e02fb4e8fa3e75ad47b4cce2e http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatFloatInterestRateSwap
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/SwapStreamCalculationRelativeDate http://www.w3.org/2002/07/owl#deprecated true
+Na162e261e90c46238b02ba0e31e26319 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedFloatInterestRateSwap
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/SwapStreamInterestPayment http://www.w3.org/2002/07/owl#equivalentClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestPayment
+Nba2822e39d6d41f39aa94e923fb49348 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasSchedule
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InflationLeg http://www.w3.org/2000/01/rdf-schema#label inflation leg
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/SwapStreamInterestRateSettingEvent http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nc21250ae5511490b98309770a844e151 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestPaymentSchedule
+N155169c250c7491b8c2d86337d283bd7 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/exchanges
+N5b7e55c9cde94264bd097c1528587684 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/Bonds/GovernmentBond
+N5a1b2ab4914842edbeb5f94a05c2d7e6 http://www.w3.org/2002/07/owl#maxQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasFloatingRateFloor http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/SwapStreamInterestCalculation http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedFloatInterestRateSwap http://www.w3.org/2000/01/rdf-schema#subClassOf N69b257100176450b8fb1d5a65edc3f54
+N6cb2dc66992342cbb046d524904887db http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+N895527a719be425d9319e30e0fffc327 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestRateSettingEvent
+Nd9bd1c1a01744bc584e211ee2bd7bcee http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InflationLeg http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Swaps/FloatingLeg
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedFloatInterestRateSwap http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/IND/EconomicIndicators/EconomicIndicators/
+N325a5165bc1d432f81d53d95fa663670 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InterestRateSwapLeg http://www.w3.org/2000/01/rdf-schema#subClassOf N196958573d25478c80806e29fbad4545
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/NotionalStepPeriodLength http://www.w3.org/2000/01/rdf-schema#label notional step period length
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedFixedInterestRateSwap https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom ISO 10962, Securities and related financial instruments - Classification of Financial Instruments (CFI code), Fourth edition, 2019-10.
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ZeroCouponInterestRateSwap http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Ne10d376949094d6682cb35be2003b22e http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedInterestRateLeg
+N5a894b44d5454052a5af7287bf203819 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/exchanges
+Nba2822e39d6d41f39aa94e923fb49348 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+Nd9bd1c1a01744bc584e211ee2bd7bcee http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInterestRate
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/DER/20201201/RateDerivatives/IRSwaps/ version of this ontology was modified to move the property 'exchanges' to FND given that it could be applied more generally than with respect to swaps only.
+N4a33c90b32204848b5040246e94f1efb http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasSchedule
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/DatesAndTimes/
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/CrossCurrencyInterestRateSwap http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InterestRateSwap
+Neb9d77d94b9940bc9562eb6922263499 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/SingleCurrencyInterestRateSwap
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/SwapStreamInterestRateReset http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasFloatingRateSpread http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+N80e435fdcccb47ad81d0418a829861ef http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Swaps/RateBasedLeg
+N849fceaadb2e43519ffd73b68a161544 http://www.w3.org/2002/07/owl#qualifiedCardinality 2
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatFloatCrossCurrencyInterestRateSwap https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym float-float cross-currency interest rate swap
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatFloatSingleCurrencyInterestRateSwap https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym float-float single-currency interest rate swap
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatFloatCrossCurrencyInterestRateSwap http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ZeroCouponInterestRateSwap http://www.w3.org/2004/02/skos/core#definition interest rate swap in which the fixed rate cash flows are compounded and paid once on the expiration date, rather than periodically; the payments on the other side (which can be based on a floating interest rate or a fixed rate) follow typical swap payment schedules
+N6e3b53b7f73043588c89d2021667c302 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/NotionalStepAmount
+Nba2822e39d6d41f39aa94e923fb49348 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/NotionalStepSchedule
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/SwapStreamInterestCalculation http://www.w3.org/2002/07/owl#equivalentClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestCalculation
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasNotionalStepSchedule http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/OvernightIndexSwap http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InterestRateSwap
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedFixedInterestRateSwap http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InterestRateSwapLeg http://www.w3.org/2000/01/rdf-schema#subClassOf N4d410e1cc6324ac7b83414d4cac3f740
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedInterestRateLeg http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatingInterestRateLeg
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedFixedInterestRateSwap https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym fixed-fixed interest rate swap
+N78cd3446e64045a3a5e4330bb5648b34 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+N68d58211ad604516bab894e61a6d267e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InflationSwap http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/RateBasedDerivativeInstrument
+Nc1b45765d7084fd08dc38c514a542d97 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/NotionalStepChangeEvent
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatFloatInterestRateSwap http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N5c9fa05bfbd846288785889527c95c55 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/DER/20230201/RateDerivatives/IRSwaps.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatFloatInterestRateSwap https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym float-float interest rate swap
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/SwapStreamInterestRateResetSchedule http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedFloatInterestRateSwap http://www.w3.org/2000/01/rdf-schema#label fixed float interest rate swap
+N10c0d0c173d24936b445c7c1c364bd27 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/NotionalStepChangeEvent
+N27c5f715b05141eba75003d12a91431c http://www.w3.org/1999/02/22-rdf-syntax-ns#first N752339ad2ca14151a90136dc7eb8bbc7
+N4d410e1cc6324ac7b83414d4cac3f740 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Currency
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatFloatSingleCurrencyInterestRateSwap http://www.w3.org/2004/02/skos/core#definition interest rate swap that exchanges cashflows based on two different floating interest rates in the same currency
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/SwapStreamCalculationRelativeDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InterestRateSwap http://www.w3.org/2000/01/rdf-schema#label interest rate swap
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasFloatingRateFloor http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInterestRate
+Nc21250ae5511490b98309770a844e151 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/DER/20220501/RateDerivatives/IRSwaps.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary, and to move the definition of an underlier and the related property, has underlier, to financial instruments so that these concepts are also available for use in relation to pool-backed securities.
+N196958573d25478c80806e29fbad4545 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasFloatingRateSpread http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#decimal
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasInterestRateResetSchedule http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N69b257100176450b8fb1d5a65edc3f54 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/SingleCurrencyInterestRateSwap http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/SwapStreamInterestPayment http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Release
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+Nf660b31815294d6984b7d88cec46360a http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/exchanges
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/DER/20180801/RateDerivatives/IRSwaps.rdf version of this ontology was modified to use the generic statistical measures and measurements now in FND.
+N849fceaadb2e43519ffd73b68a161544 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InterestRateSwapLeg
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/
+N81d40c98442746b081af99d74d98f08c http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+Nb2b9af938a94450797a62f17910e17d9 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/SwapStreamInterestSettingRelativeDate http://www.w3.org/2002/07/owl#equivalentClass https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/RelativeDate
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatingInterestRateLeg http://www.w3.org/2004/02/skos/core#definition floating leg in which variable interest is paid on some notional amount, linked to some underlying interest reference rate
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasRateMultiplier http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedFloatSingleCurrencyInterestRateSwap http://www.w3.org/2004/02/skos/core#definition interest rate swap in which fixed interest payments on the notional are exchanged for floating interest payments and where both payment streams are expressed in terms of the same currency
+Neb9d77d94b9940bc9562eb6922263499 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/DebtInstruments/
+Na32113ab663f4be3b3a3fb993f910954 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedInterestRateLeg
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InterestRateSwapLeg http://www.w3.org/2000/01/rdf-schema#subClassOf Nba2822e39d6d41f39aa94e923fb49348
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasRateMultiplier http://www.w3.org/2004/02/skos/core#definition indicates a multiplier applied to the coupon before adding the floating rate spread
+N2c61d97ac8b14ae88b61b5bb07dedce7 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N64809c06777240c0abb066d723dd3f02
+Nb3864a56c38744debea6e3d1fc3ddd6a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ZeroCouponInterestRateSwap https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fifth edition, 2021-06-15
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/NotionalStepPeriodLength http://www.w3.org/2004/02/skos/core#definition recurrence interval indicating the frequency with which step changes occur, which is a multiple of the calculation period in the calculation schedule
+N81d40c98442746b081af99d74d98f08c http://www.w3.org/1999/02/22-rdf-syntax-ns#first N5a894b44d5454052a5af7287bf203819
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/OvernightIndexSwap https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The interest of the overnight rate portion of the swap is compounded and paid at reset dates. The present value for the leg is determined by either compounding of the overnight rate or by taking the geometric average of the rate over a given period.
+Na5096b79535d4e4d94f2bc38bb686951 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatFloatInterestRateSwap
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatFloatInterestRateSwap http://www.w3.org/2004/02/skos/core#definition interest rate swap that exchanges cashflows based on two different floating interest rates
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/NotionalStepAmount http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/SwapStreamInterestCalculationSchedule http://www.w3.org/2002/07/owl#deprecated true
+Na50dc1cb23184d3abdef9bb4181e9535 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/NotionalStepSchedule http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/ProjectedContractEventSchedule
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/QuantitiesAndUnits/
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/NotionalStepSchedule http://www.w3.org/2004/02/skos/core#definition schedule of changes in the notional amount on which interest is paid, comprising the regular sequence of step events
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InterestRateSwap http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/InterestRateDerivativeInstrument
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/DER/20220301/RateDerivatives/IRSwaps/ version of this ontology was modified to eliminate deprecated swap elements.
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/NotionalStepChangeEvent http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N403879974009446c87b5aab0d81a1c94 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatingInterestRateLeg
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/SingleCurrencyInterestRateSwap http://www.w3.org/2004/02/skos/core#definition interest rate swap in which the two streams of interest payments are in the same currency
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasNotionalStepSchedule http://www.w3.org/2002/07/owl#equivalentProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasSchedule
+Nbe1b2c9285814bf4b2cc209f59422887 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N81d40c98442746b081af99d74d98f08c
+Nb2b9af938a94450797a62f17910e17d9 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasFloatingRateCap http://www.w3.org/2004/02/skos/core#definition indicates an optional ceiling (cap) on interest rates on floating rate debts
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/OvernightIndexSwap http://www.w3.org/2000/01/rdf-schema#label overnight index swap
+Nc51834c1a32141ac98f332dd642f1d74 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+N77937259b10d444697341b0a248dd860 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasRecurrenceInterval
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatFloatCrossCurrencyInterestRateSwap http://www.w3.org/2004/02/skos/core#definition interest rate swap that exchanges cashflows based on two different interest rates in different currencies
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatFloatInterestRateSwap https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym basis rate swap
+N77937259b10d444697341b0a248dd860 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/NotionalStepPeriodLength
+N0c45c81ce52442fc82c5321a8ad62e1e http://www.w3.org/1999/02/22-rdf-syntax-ns#first N7f39f2673f474bdfa153227ff0c73f62
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/NotionalStepChangeEvent http://www.w3.org/2004/02/skos/core#definition event in which a step change in the notional amount for a given swap leg occurs
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/
+N004b88cfeafe4f258f7229c7c2dc5987 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+N9a5c1040bacd486babfc4baa19cbc351 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N6cb2dc66992342cbb046d524904887db
+N196958573d25478c80806e29fbad4545 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Documents/specifies
+N752339ad2ca14151a90136dc7eb8bbc7 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInterestRate
+Nc19ababe45e54b229bd2c0344ebb27c8 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N004b88cfeafe4f258f7229c7c2dc5987 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedFloatInterestRateSwap
+Nc51834c1a32141ac98f332dd642f1d74 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Documents/specifies
+N418acde9f09645c5a43a7a2ec7538c8f http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Swaps/hasLeg
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/CrossCurrencyInterestRateSwap http://www.w3.org/2004/02/skos/core#definition interest rate swap in which the two streams of interest payments are in different currencies
+Nf0e592e930684d44a64d621616add8ab http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/SwapStreamInterestCalculation http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedFloatInterestRateSwap http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InterestRateSwap
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasFirstNotionalStepDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/CrossCurrencyInterestRateSwap http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedFloatCrossCurrencyInterestRateSwap http://www.w3.org/2002/07/owl#equivalentClass N1defd0b6b5a146b3a8bae657202e17c7
+N5a1b2ab4914842edbeb5f94a05c2d7e6 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N69b257100176450b8fb1d5a65edc3f54 http://www.w3.org/2002/07/owl#intersectionOf Nbe1b2c9285814bf4b2cc209f59422887
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatingInterestRateLeg http://www.w3.org/2000/01/rdf-schema#subClassOf N4a33c90b32204848b5040246e94f1efb
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/
+Ne300e73302ae413880fbfe5988ca6978 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Currency
+Na32113ab663f4be3b3a3fb993f910954 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Swaps/hasLeg
+N5a894b44d5454052a5af7287bf203819 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatingInterestRateLeg
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasFirstNotionalStepDate http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDate
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedInterestRateLeg http://www.w3.org/2000/01/rdf-schema#label fixed interest rate leg
+N0c32686ba891492f93ad48046d6c1549 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InterestRateSwapLeg
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/NotionalStepChangeEvent http://www.w3.org/2000/01/rdf-schema#label notional step change event
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+Ncca96acc4fc940e8a5f1842deea356a0 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasFloatingRateSpread http://www.w3.org/2004/02/skos/core#definition defines the spread rate that can optionally be used to adjust the floating rate
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InterestRateSwap http://www.w3.org/2004/02/skos/core#definition swap in which the reference (underlier) for at least one leg is an interest rate
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedFloatCrossCurrencyInterestRateSwap http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/CrossCurrencyInterestRateSwap
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/SingleCurrencyInterestRateSwap http://www.w3.org/2000/01/rdf-schema#subClassOf Nc51834c1a32141ac98f332dd642f1d74
+N4d410e1cc6324ac7b83414d4cac3f740 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedFloatCrossCurrencyInterestRateSwap https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym fixed float cross currency interest rate swap
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/SwapStreamInterestCalculationSchedule http://www.w3.org/2002/07/owl#equivalentClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestCalculationSchedule
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2016-2024 Object Management Group, Inc.
+Ndc5d82b251e349dd9b6c242e6bb0c744 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasFloatingRateFloor http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/FloatingInterestRate
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/PlainVanillaInterestRateSwap http://www.w3.org/2000/01/rdf-schema#label plain vanilla interest rate swap
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/NotionalStepAmount http://www.w3.org/2000/01/rdf-schema#label notional step amount
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatingInterestRateLeg https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym floating interest rate swap stream
+N78773432d01a4beaab617afa07a6230b http://www.w3.org/2002/07/owl#qualifiedCardinality 2
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/SwapStreamInterestRateSettingEvent http://www.w3.org/2002/07/owl#equivalentClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestRateSettingEvent
+Nc1b45765d7084fd08dc38c514a542d97 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Documents/specifies
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasNotionalStepSchedule http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedFloatInterestRateSwap http://www.w3.org/2002/07/owl#equivalentClass N0e554c5068dd4dc2803520a3c599d783
+N41cfbce8abde48c09c9e69a9fbacee5a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N12f08f4e26974fa2ae530814dc079cb0 http://www.w3.org/2002/07/owl#unionOf N2c61d97ac8b14ae88b61b5bb07dedce7
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasLastNotionalStepDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedFixedInterestRateSwap http://www.w3.org/2004/02/skos/core#note Fixed-fixed swaps generally take the form of either a zero coupon swap or a cross-currency swap.
+N752339ad2ca14151a90136dc7eb8bbc7 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/NotionalStepPeriodLength http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasFloatingRateCap http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatingInterestRateLeg http://www.w3.org/2000/01/rdf-schema#subClassOf Nb2b9af938a94450797a62f17910e17d9
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InterestRateSwapLeg http://www.w3.org/2002/07/owl#equivalentClass N1d8b19f6471646c3b361b6e9c6efe7a3
+N90730fa81e544748bed09eb47e4ccc6e http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InterestRateSwap
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/SwapStreamInterestPaymentSchedule http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatFloatInterestRateSwap http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InterestRateSwap
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/OvernightIndexSwap https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fifth edition, 2021-06-15
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedFloatCrossCurrencyInterestRateSwap http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/RateDerivatives/
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ExplicitInterestAmountCalculationEvent http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedFloatSingleCurrencyInterestRateSwap https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym fixed-float single-currency interest rate swap
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/DER/20230501/RateDerivatives/IRSwaps.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).
+Ndc5d82b251e349dd9b6c242e6bb0c744 http://www.w3.org/2002/07/owl#intersectionOf N19b229dcf48744b390004674b09af75d
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasFloatingRateFloor http://www.w3.org/2004/02/skos/core#definition indicates an optional lower bound on interest rates on floating rate debts
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatFloatInterestRateSwap http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Swaps/BasisSwap
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasFirstNotionalStepDate http://www.w3.org/2004/02/skos/core#definition indicates the initial date in a notional step schedule
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedInterestRateLeg http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InterestRateSwapLeg
+N9a5c1040bacd486babfc4baa19cbc351 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InterestRateSwap
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/OvernightRateIndexLeg http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatingInterestRateLeg
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ZeroCouponInterestRateSwap http://www.w3.org/2000/01/rdf-schema#subClassOf Nc96f0934042e4732915420c468ee69e1
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/NotionalStepSchedule http://www.w3.org/2000/01/rdf-schema#subClassOf N77937259b10d444697341b0a248dd860
+Nc51834c1a32141ac98f332dd642f1d74 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Currency
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedFixedInterestRateSwap http://www.w3.org/2004/02/skos/core#definition interest rate swap in which both parties pay a fixed interest rate that they could not otherwise obtain outside of a swap arrangement
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/PlainVanillaInterestRateSwap http://www.w3.org/2000/01/rdf-schema#subClassOf Nd6cfe836ab1043b096daeef888273535
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedInterestRateLeg https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym fixed interest rate payment stream
+N78cd3446e64045a3a5e4330bb5648b34 http://www.w3.org/1999/02/22-rdf-syntax-ns#first Nd9bd1c1a01744bc584e211ee2bd7bcee
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/NotionalStepSchedule http://www.w3.org/2000/01/rdf-schema#label notional step schedule
+N5b7e55c9cde94264bd097c1528587684 http://www.w3.org/2002/07/owl#maxQualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatFloatSingleCurrencyInterestRateSwap http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasFloatingRateCap https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Rate caps can be viewed as insurance, ensuring that the maximum borrowing rate never exceeds the specified cap level.
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/SwapStreamInterestSettingRelativeDate http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasFloatingRateCap http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/FloatingInterestRate
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedFixedInterestRateSwap http://www.w3.org/2004/02/skos/core#example For example, each counterparty uses a different native currency, but wants to borrow money in the other counterparty's native currency.
+N1d8b19f6471646c3b361b6e9c6efe7a3 http://www.w3.org/2002/07/owl#intersectionOf N80e435fdcccb47ad81d0418a829861ef
+N51fd9fb6344a4929917614a74b34a370 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/NotionalStepChangeEvent http://www.w3.org/2000/01/rdf-schema#subClassOf N6e3b53b7f73043588c89d2021667c302
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedFloatCrossCurrencyInterestRateSwap http://www.w3.org/2000/01/rdf-schema#label fixed float cross-currency interest rate swap
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/SwapStreamInterestCalculationSchedule http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/NotionalStepPeriodLength http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/RecurrenceInterval
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasFloatingRateCap http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInterestRate
+Ne10d376949094d6682cb35be2003b22e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InflationSwap http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Swaps/RatesSwap
+Nc96f0934042e4732915420c468ee69e1 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N0c45c81ce52442fc82c5321a8ad62e1e http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatingInterestRateLeg http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InterestRateSwapLeg
+N4a33c90b32204848b5040246e94f1efb http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestCalculationSchedule
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatFloatCrossCurrencyInterestRateSwap http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatFloatInterestRateSwap
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/SwapStreamInterestPaymentSchedule http://www.w3.org/2002/07/owl#equivalentClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestPaymentSchedule
+N325a5165bc1d432f81d53d95fa663670 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/hasUnderlier
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InflationLeg http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedFloatSingleCurrencyInterestRateSwap http://www.w3.org/2002/07/owl#equivalentClass Nf0e592e930684d44a64d621616add8ab
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/PaymentsAndSchedules/
+N895527a719be425d9319e30e0fffc327 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Documents/specifies
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/NotionalStepSchedule http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N752339ad2ca14151a90136dc7eb8bbc7 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/FloatingInterestRate
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/OvernightRateIndexLeg http://www.w3.org/2004/02/skos/core#definition floating leg in which periodic payments are based on an overnight interest rate index multiplied by the same notional amount on which the payments for the other leg of the swap are based
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedFloatInterestRateSwap https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym fixed-float interest rate swap
+N814478f17bfe478f8089c8fba795e4e6 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InflationLeg
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedFixedInterestRateSwap http://www.w3.org/2000/01/rdf-schema#label fixed fixed interest rate swap
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedFloatCrossCurrencyInterestRateSwap http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedFloatInterestRateSwap
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InterestRateSwapLeg http://www.w3.org/2000/01/rdf-schema#label interest rate swap leg
+N325a5165bc1d432f81d53d95fa663670 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/IND/EconomicIndicators/EconomicIndicators/EconomicIndicator
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/OvernightRateIndexLeg http://www.w3.org/2002/07/owl#equivalentClass Nb3864a56c38744debea6e3d1fc3ddd6a
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasFloatingRateCap http://www.w3.org/2000/01/rdf-schema#label has floating rate cap
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/PlainVanillaInterestRateSwap http://www.w3.org/2000/01/rdf-schema#subClassOf Ne5d70df3628d4346aa25c58ed86d695f
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InterestRateSwapLeg http://www.w3.org/2000/01/rdf-schema#subClassOf Nc21250ae5511490b98309770a844e151
+N41cfbce8abde48c09c9e69a9fbacee5a http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+N12f08f4e26974fa2ae530814dc079cb0 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatingInterestRateLeg http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Swaps/FloatingLeg
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasInterestCalculationSchedule http://www.w3.org/2002/07/owl#deprecated true
+Ncca96acc4fc940e8a5f1842deea356a0 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/SwapStreamInterestRateSettingEvent http://www.w3.org/2002/07/owl#deprecated true
+Na3ee4909ab274e62b8dacc8af4663eac http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatingInterestRateLeg
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatFloatInterestRateSwap http://www.w3.org/2000/01/rdf-schema#subClassOf N155169c250c7491b8c2d86337d283bd7
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedFixedInterestRateSwap http://www.w3.org/2000/01/rdf-schema#subClassOf N78773432d01a4beaab617afa07a6230b
+N4bf81a2e02fb4e8fa3e75ad47b4cce2e http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N8c28c8969c2e447c931aeb2e6298dd49
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasLastNotionalStepDate http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasEndDate
+N68d58211ad604516bab894e61a6d267e http://www.w3.org/2002/07/owl#intersectionOf N0c32686ba891492f93ad48046d6c1549
+N6e3b53b7f73043588c89d2021667c302 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Documents/specifies
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatFloatSingleCurrencyInterestRateSwap http://www.w3.org/2002/07/owl#equivalentClass N5c9fa05bfbd846288785889527c95c55
+Ne300e73302ae413880fbfe5988ca6978 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Documents/specifies
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/NotionalStepChangeEvent https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The frequency / period length of the steps in the step schedule is a multiple of the calculation period or frequency. For example, if the notional is recalculated on every calculation date, applying a new interest rate to the new notional amount, then the two frequencies are the same. If notional is updated every second calculation period, then the step schedule specifies periods that are twice as long, and so on.
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/SwapStreamInterestSettingRelativeDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N1defd0b6b5a146b3a8bae657202e17c7 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/NotionalStepAmount http://www.w3.org/2004/02/skos/core#definition the amount of money that is subtracted from the notional on each step date
+N1d8b19f6471646c3b361b6e9c6efe7a3 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasLastNotionalStepDate http://www.w3.org/2000/01/rdf-schema#label has last notional step date
+Ncca96acc4fc940e8a5f1842deea356a0 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/DayCountConvention
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/DER/20210101/RateDerivatives/IRSwaps/ version of this ontology was modified to enable representation of plain vanilla interest rate swaps as a separate concept, to integrate the concept of an inflation swap and correct spelling.
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasInterestRateResetSchedule http://www.w3.org/2002/07/owl#equivalentProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasSchedule
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasInterestRateResetSchedule http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasFloatingRateFloor http://www.w3.org/2000/01/rdf-schema#label has floating rate floor
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatingInterestRateLeg http://www.w3.org/2000/01/rdf-schema#label floating interest rate leg
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/NotionalStepSchedule http://www.w3.org/2000/01/rdf-schema#subClassOf N10c0d0c173d24936b445c7c1c364bd27
+N78773432d01a4beaab617afa07a6230b http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/exchanges
+N78773432d01a4beaab617afa07a6230b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatingInterestRateLeg https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Instead of an absolute rate you have either a variable reference rate or fixed reference rate and an offset that varies in some way, called a spread (same as margin in floating rate notes).
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InflationSwap http://www.w3.org/2000/01/rdf-schema#label inflation swap
+Nc21250ae5511490b98309770a844e151 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/NotionalStepAmount https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Note that this is an actual concrete sum of money, which may be specified either as a monetary amount (e.g. dollars and cents) or as a percentage of either the original notional amount or the previous notional amount.
+Ne5d70df3628d4346aa25c58ed86d695f http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Swaps/hasLeg
+N403879974009446c87b5aab0d81a1c94 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Swaps/hasLeg
+Ne300e73302ae413880fbfe5988ca6978 http://www.w3.org/2002/07/owl#qualifiedCardinality 2
+Ne5d70df3628d4346aa25c58ed86d695f http://www.w3.org/2002/07/owl#someValuesFrom N5a1b2ab4914842edbeb5f94a05c2d7e6
+N0bd7caa350e94b6cae0a7ae3e5625d0a http://www.w3.org/2002/07/owl#intersectionOf N9a5c1040bacd486babfc4baa19cbc351
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/NotionalStepChangeEvent http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/ContractLifecycleEventOccurrence
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/CrossCurrencyInterestRateSwap http://www.w3.org/2000/01/rdf-schema#subClassOf Ne300e73302ae413880fbfe5988ca6978
+Nc51834c1a32141ac98f332dd642f1d74 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/NotionalStepChangeEvent http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/DebtInstruments/StepEvent
+N7f39f2673f474bdfa153227ff0c73f62 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInterestRate
+Ne235123477924bafb0c5d7489f9b1417 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/DER/20200701/RateDerivatives/IRSwaps/ version of this ontology was modified take advantage of basic fixed and floating legs as higher level concepts common to many swaps, and to refine definitions to eliminate ambiguity and conform with ISO 704.
+N196958573d25478c80806e29fbad4545 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestCalculationSchedule
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ExplicitInterestAmountCalculationEvent http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/DER/20231201/RateDerivatives/IRSwaps.rdf version of this ontology was modified to simplify the class hierarchy, add a definition for fixed-fixed interest rate swap (DER-126), and to revise definitions related to swap leg-specific events (FBC-317).
+Na3ee4909ab274e62b8dacc8af4663eac http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Swaps/hasLeg
+N403879974009446c87b5aab0d81a1c94 http://www.w3.org/2002/07/owl#qualifiedCardinality 2
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InflationLeg http://www.w3.org/2000/01/rdf-schema#subClassOf N325a5165bc1d432f81d53d95fa663670
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InterestRateStreamEvent http://www.w3.org/2002/07/owl#deprecated true
+Nba2822e39d6d41f39aa94e923fb49348 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InterestRateSwap http://www.w3.org/2000/01/rdf-schema#subClassOf Nf660b31815294d6984b7d88cec46360a
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedFloatSingleCurrencyInterestRateSwap http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nb2b9af938a94450797a62f17910e17d9 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestRateReset
+N51fd9fb6344a4929917614a74b34a370 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestRateResetSchedule
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasFirstNotionalStepDate http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasStartDate
+Nc96f0934042e4732915420c468ee69e1 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+N155169c250c7491b8c2d86337d283bd7 http://www.w3.org/2002/07/owl#qualifiedCardinality 2
+N2d9db0c4a333465b85310026c6db0a35 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasNotionalAmount
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedInterestRateLeg http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Swaps/FixedLeg
+N4c39699160a74a8385ca887d0625bb1d http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InterestRateSwapLeg
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/NotionalStepSchedule http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/DebtInstruments/StepSchedule
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/OvernightRateIndexLeg https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fifth edition, 2021-06-15
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/SwapStreamCalculationRelativeDate http://www.w3.org/2002/07/owl#equivalentClass https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/RelativeDate
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedFloatSingleCurrencyInterestRateSwap http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedFloatInterestRateSwap
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatFloatCrossCurrencyInterestRateSwap http://www.w3.org/2000/01/rdf-schema#label float float cross-currency interest rate swap
+N155169c250c7491b8c2d86337d283bd7 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N41cfbce8abde48c09c9e69a9fbacee5a http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasNotionalAmount
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Documents/
+Na50dc1cb23184d3abdef9bb4181e9535 http://www.w3.org/2002/07/owl#intersectionOf N4c39699160a74a8385ca887d0625bb1d
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/PlainVanillaInterestRateSwap http://www.w3.org/2004/02/skos/core#definition fixed-float single currency interest rate swap in which interest payments are netted, the notional principal does not change, and there are no embedded options
+N0e554c5068dd4dc2803520a3c599d783 http://www.w3.org/2002/07/owl#intersectionOf N90730fa81e544748bed09eb47e4ccc6e
+N51fd9fb6344a4929917614a74b34a370 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+Nf660b31815294d6984b7d88cec46360a http://www.w3.org/2002/07/owl#qualifiedCardinality 2
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/
+Nd6cfe836ab1043b096daeef888273535 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InterestRateSwapLeg http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Swaps/RateBasedLeg
+N5b7e55c9cde94264bd097c1528587684 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InflationSwap http://www.w3.org/2004/02/skos/core#definition rate swap in which one party pays an amount calculated using an inflation rate index, and the other party pays an amount calculated using another inflation rate index, or a fixed or floating interest rate
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedInterestRateLeg http://www.w3.org/2002/07/owl#equivalentClass Na50dc1cb23184d3abdef9bb4181e9535
+N5c9fa05bfbd846288785889527c95c55 http://www.w3.org/2002/07/owl#intersectionOf N4bf81a2e02fb4e8fa3e75ad47b4cce2e
+N849fceaadb2e43519ffd73b68a161544 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/DER/DerivativesContracts/Swaps/hasLeg
+N418acde9f09645c5a43a7a2ec7538c8f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N5a894b44d5454052a5af7287bf203819 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N7f39f2673f474bdfa153227ff0c73f62 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N5a1b2ab4914842edbeb5f94a05c2d7e6 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasSchedule
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedFloatInterestRateSwap http://www.w3.org/2004/02/skos/core#definition interest rate swap in which fixed interest payments on the notional are exchanged for floating interest payments
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasFloatingRateSpread http://www.w3.org/2000/01/rdf-schema#label has floating rate spread
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InterestRateSwapLeg https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym interest rate swap stream
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasLastNotionalStepDate http://www.w3.org/2004/02/skos/core#definition indicates the final date in a notional step schedule
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+N196958573d25478c80806e29fbad4545 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatFloatInterestRateSwap http://www.w3.org/2000/01/rdf-schema#label float float interest rate swap
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/Bonds/
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/OvernightIndexSwap https://www.omg.org/spec/Commons/AnnotationVocabulary/abbreviation OIS swap
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InterestRateSwapLeg http://www.w3.org/2004/02/skos/core#definition swap leg that has an interest rate payment stream, including both a parametric and cashflow representation for the stream of payments
+N1defd0b6b5a146b3a8bae657202e17c7 http://www.w3.org/2002/07/owl#intersectionOf N9893dcc3c8324cfba5ef2c94fcdabb99
+N8c28c8969c2e447c931aeb2e6298dd49 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/SingleCurrencyInterestRateSwap
+Na32113ab663f4be3b3a3fb993f910954 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InflationSwap http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nc21250ae5511490b98309770a844e151 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/PaymentsAndSchedules/hasPaymentSchedule
+N8c28c8969c2e447c931aeb2e6298dd49 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+Nbe1b2c9285814bf4b2cc209f59422887 http://www.w3.org/1999/02/22-rdf-syntax-ns#first Ne10d376949094d6682cb35be2003b22e
+Nb3864a56c38744debea6e3d1fc3ddd6a http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/IND/InterestRates/InterestRates/OvernightRate
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedFloatSingleCurrencyInterestRateSwap http://www.w3.org/2000/01/rdf-schema#label fixed float single currency interest rate swap
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatFloatInterestRateSwap https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote This is a swap in which two parties swap variable interest rates based on different money markets, and this is usually done to limit interest-rate risk that a company faces as a result of having differing lending and borrowing rates.
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatingInterestRateLeg http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/SwapStreamInterestRateResetSchedule http://www.w3.org/2002/07/owl#equivalentClass https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/InterestRateResetSchedule
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/OvernightRateIndexLeg http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ZeroCouponInterestRateSwap http://www.w3.org/2000/01/rdf-schema#label zero coupon interest rate swap
+N10c0d0c173d24936b445c7c1c364bd27 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasOccurrence
+N2d9db0c4a333465b85310026c6db0a35 http://www.w3.org/2002/07/owl#someValuesFrom N12f08f4e26974fa2ae530814dc079cb0
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InflationSwap https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom ISO 10962, Securities and related financial instruments - Classification of financial instruments (CFI) code, Fifth edition, 2021-06-15
+N4c39699160a74a8385ca887d0625bb1d http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N78cd3446e64045a3a5e4330bb5648b34
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://purl.org/dc/terms/abstract This ontology defines concepts specific to interest rate swap contracts, including but not limited to fixed and floating rate combinations, single and cross-currency contracts, etc.
+N78773432d01a4beaab617afa07a6230b http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FixedInterestRateLeg
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/DER/20230301/RateDerivatives/IRSwaps.rdf version of this ontology was modified to clarify restrictions on a plain vanilla IR swap.
+Ndf592fd89253485885e4efe89cab40f2 http://www.w3.org/1999/02/22-rdf-syntax-ns#first Na32113ab663f4be3b3a3fb993f910954
+N814478f17bfe478f8089c8fba795e4e6 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/NotionalStepAmount http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/QuantitiesAndUnits/ScalarQuantityValue
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasInterestCalculationSchedule http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/hasRateMultiplier http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#decimal
+Ne235123477924bafb0c5d7489f9b1417 http://www.w3.org/1999/02/22-rdf-syntax-ns#first N849fceaadb2e43519ffd73b68a161544
+Ndf592fd89253485885e4efe89cab40f2 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest Ncc48f7c85ad64ba8acaa974486983014
+Nc96f0934042e4732915420c468ee69e1 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasNotionalAmount
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/FloatFloatCrossCurrencyInterestRateSwap http://www.w3.org/2002/07/owl#equivalentClass Nc19ababe45e54b229bd2c0344ebb27c8
+N5a1b2ab4914842edbeb5f94a05c2d7e6 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/NotionalStepSchedule
+Nc1b45765d7084fd08dc38c514a542d97 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nd6cfe836ab1043b096daeef888273535 http://www.w3.org/2002/07/owl#someValuesFrom Nc1b45765d7084fd08dc38c514a542d97
+https://spec.edmcouncil.org/fibo/ontology/DER/RateDerivatives/IRSwaps/InflationSwap http://www.w3.org/2000/01/rdf-schema#subClassOf N5b7e55c9cde94264bd097c1528587684

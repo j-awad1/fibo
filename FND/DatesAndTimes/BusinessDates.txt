@@ -1,0 +1,155 @@
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayModifiedPreceding http://www.w3.org/2004/02/skos/core#definition convention specifying that a non-business date will be adjusted to the first preceding day that is a business day unless that day falls in the previous month, in which case that date will be the first following day that is a business day
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/holdsDuring http://www.w3.org/2002/07/owl#equivalentProperty https://www.omg.org/spec/Commons/PartiesAndSituations/holdsDuring
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2014-2024 Object Management Group, Inc.
+N7242aca3a762428883dfd7dc08c4ca47 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayFollowing http://www.w3.org/2000/01/rdf-schema#label business day following
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayAdjustment http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessRecurrenceInterval http://www.w3.org/2004/02/skos/core#definition recurrence interval that is defined per a specific convention that determines how recurring days should be handled
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayNearest http://www.w3.org/2000/01/rdf-schema#label business day nearest
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/ http://purl.org/dc/terms/abstract This ontology extends definitions of date and schedule concepts from the FinancialDates ontology with concepts defining dates that may be adjusted when they fall on weekends or holidays as defined in a given business center, for use in other FIBO ontologies.
+N20babfe6d3e34dff972b3132412b120b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayNearest http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayConvention
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/hasBusinessDayConvention http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayConvention
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayFollowing http://www.w3.org/2004/02/skos/core#definition convention specifying that a non-business date will be adjusted to the first following day that is a business day
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/DayOfWeek http://www.w3.org/2004/02/skos/core#definition specific, recurring day of the week
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayModifiedFollowing http://www.w3.org/2004/02/skos/core#definition convention specifying that a non-business date will be adjusted to the first following day that is a business day unless that day falls in the next calendar month, in which case that date will be the first preceding day that is a calendar date
+N7242aca3a762428883dfd7dc08c4ca47 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayConvention
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessRecurrenceIntervalConvention http://www.w3.org/2000/01/rdf-schema#label business recurrence interval convention
+N335595a482fe42ddaf60100d460e4f1d http://www.w3.org/2002/07/owl#maxQualifiedCardinality 1
+N137fbd776eb142798005b700f823fd75 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessRecurrenceIntervalConvention
+N18a3b276d7744e5ea7c30dcb43b08242 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasOrdinalNumber
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayNone http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayConvention
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayNearest http://www.w3.org/2004/02/skos/core#definition convention specifying that a non-business date will be adjusted to the nearest day that is a business day -- i.e. if the non-business day falls on any day other than a Sunday or a Monday, it will be the first preceding day that is a business day, and will be the first following business day if it falls on a Sunday or a Monday
+N20babfe6d3e34dff972b3132412b120b http://www.w3.org/2002/07/owl#oneOf Nda552a1a1f014c09b4fc80a7b3a55f96
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayNearest http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/Convention http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayFollowing https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom FPML 5.1 "BusinessDayConventionEnum"
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayConvention http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nd48580c2f70541b588c0faf690165702 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/hasBusinessDayAdjustment
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayModifiedPreceding http://www.w3.org/2000/01/rdf-schema#label business day modified preceding
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/hasBusinessDayAdjustment http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N18a3b276d7744e5ea7c30dcb43b08242 http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#nonNegativeInteger
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20180801/DatesAndTimes/BusinessDates/ version of this ontology was revised to better support definitions related to business day adjustments.
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/CalculatedDate http://www.w3.org/2000/01/rdf-schema#subClassOf N335595a482fe42ddaf60100d460e4f1d
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/FND/20240101/DatesAndTimes/BusinessDates/
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20141101/DatesAndTimes/BusinessDates/ version of this ontology was revised by the FIBO FND 1.2 RTF in order to add definitions for business recurrence intervals such as the day of the month and week, and to revise the representation of the end of the month to correspond to the way that the other intervals are represented for use in parametric schedules.
+N57c029c1150a4ceaaea29e77260eec34 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayNone http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+Nda552a1a1f014c09b4fc80a7b3a55f96 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest Nbd0aeb4743ab4d54b2052adb413a079a
+N57c029c1150a4ceaaea29e77260eec34 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/hasBusinessCenter
+N137fbd776eb142798005b700f823fd75 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20210201/DatesAndTimes/BusinessDates/ version of this ontology was revised to address hygiene issues with respect to text processing.
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessRecurrenceIntervalConvention http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/Convention
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayPreceding http://www.w3.org/2004/02/skos/core#definition convention specifying that a date will be adjusted to the first previous day that is a business day
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/hasBusinessDayAdjustment http://www.w3.org/2000/01/rdf-schema#label has business day adjustment
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessRecurrenceInterval http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/RecurrenceInterval
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20200301/DatesAndTimes/BusinessDates/ version of this ontology was revised to eliminate a remaining circular definition.
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/EndOfMonth http://www.w3.org/2004/02/skos/core#definition the last day of a calendar month, irrespective of the length of the calendar month
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/DayOfMonth http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayModifiedPreceding http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayConvention
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayModifiedFollowing http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayConvention
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayNone https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom FPML 5.1 "BusinessDayConventionEnum"
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/DayOfWeek http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessRecurrenceInterval
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessRecurrenceInterval http://www.w3.org/2000/01/rdf-schema#subClassOf N137fbd776eb142798005b700f823fd75
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/hasBusinessRecurrenceIntervalConvention http://www.w3.org/2004/02/skos/core#definition identifies a convention regarding how certain recurring dates should be handled with respect to a given schedule, such as the end of the month
+N335595a482fe42ddaf60100d460e4f1d http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/hasBusinessDayConvention http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessRecurrenceInterval http://www.w3.org/2000/01/rdf-schema#label business recurrence interval
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/hasBusinessDayAdjustment http://www.w3.org/2004/02/skos/core#definition identifies a convention for adjustment of the business day for handling weekends and holidays
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayFollowing http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayConvention
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayAdjustment http://www.w3.org/2004/02/skos/core#definition convention that specifies what happens when a date falls on a day that is a weekend or a holiday in one or more business centers
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayModifiedPreceding http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayModifiedFollowing http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+Nbd0aeb4743ab4d54b2052adb413a079a http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/Tuesday
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Release
+Ne29fcd59f7fa433b8f2c6ff7960a5149 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/Friday
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayConvention http://www.w3.org/2004/02/skos/core#definition convention that enumerates the possible ways to handle a date that falls on a weekend or holiday
+Nd48580c2f70541b588c0faf690165702 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayAdjustment
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+Nbaf19e4530a64c12910b011de0a57f61 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/Saturday
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/ http://www.w3.org/2000/01/rdf-schema#label Business Dates Ontology
+N137fbd776eb142798005b700f823fd75 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/hasBusinessRecurrenceIntervalConvention
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayFollowing http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/DayOfWeek http://www.w3.org/2000/01/rdf-schema#label day of the week
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayPreceding http://www.w3.org/2000/01/rdf-schema#label business day preceding
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessRecurrenceInterval http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20220701/DatesAndTimes/BusinessDates.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/hasBusinessDayConvention http://www.w3.org/2004/02/skos/core#definition identifies a convention regarding how a date should be handled when it falls on a day that is not a business day
+N57c029c1150a4ceaaea29e77260eec34 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/BusinessCenter
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20230301/DatesAndTimes/BusinessDates.rdf version of this ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/CalculatedDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayModifiedPreceding https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom FPML 5.1 "BusinessDayConventionEnum"
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayModifiedFollowing https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom FPML 5.1 "BusinessDayConventionEnum"
+Nbaf19e4530a64c12910b011de0a57f61 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N6e9b858db0e04de8a0153685233dd498
+N137fbd776eb142798005b700f823fd75 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+N1fd070844b744ea784d80eaa122c3d89 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/Wednesday
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayConvention http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/Convention
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayConvention http://www.w3.org/2000/01/rdf-schema#label business day convention
+N18a3b276d7744e5ea7c30dcb43b08242 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nbd0aeb4743ab4d54b2052adb413a079a http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N1fd070844b744ea784d80eaa122c3d89
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20230101/DatesAndTimes/BusinessDates.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/DayOfMonth http://www.w3.org/2004/02/skos/core#definition specific, recurring day of the month
+N335595a482fe42ddaf60100d460e4f1d http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/hasBusinessDayAdjustment
+Nd48580c2f70541b588c0faf690165702 http://www.w3.org/2002/07/owl#maxQualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/DayOfWeek http://www.w3.org/2002/07/owl#equivalentClass N20babfe6d3e34dff972b3132412b120b
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayAdjustment http://www.w3.org/2000/01/rdf-schema#label business day adjustment
+N7242aca3a762428883dfd7dc08c4ca47 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/hasBusinessDayConvention
+N7242aca3a762428883dfd7dc08c4ca47 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayPreceding http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayConvention
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/hasBusinessDayAdjustment http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayAdjustment
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/holdsDuring http://www.w3.org/2002/07/owl#deprecated true
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/hasBusinessRecurrenceIntervalConvention http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessRecurrenceIntervalConvention
+Nf1a07a9d404044e8b13ab5ea64df4932 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/Thursday
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/RegularSchedule http://www.w3.org/2000/01/rdf-schema#subClassOf Nd48580c2f70541b588c0faf690165702
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayPreceding http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/DayOfMonth http://www.w3.org/2000/01/rdf-schema#label day of month
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/EndOfMonth http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessRecurrenceInterval
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/Convention http://www.w3.org/2004/02/skos/core#definition widely accepted or established way of doing 'something' within some community of practice
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessRecurrenceIntervalConvention http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N1fd070844b744ea784d80eaa122c3d89 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest Nf1a07a9d404044e8b13ab5ea64df4932
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/PartiesAndSituations/
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessRecurrenceIntervalConvention http://www.w3.org/2004/02/skos/core#definition convention that specifies how recurring days should be handled, such as the end of the month, a particular day of the month, a day of the week, or more specifically, a t-bill auction date
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/DayOfWeek http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Ne29fcd59f7fa433b8f2c6ff7960a5149 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest Nbaf19e4530a64c12910b011de0a57f61
+Nda552a1a1f014c09b4fc80a7b3a55f96 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/Monday
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/RegularSchedule http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayNearest https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom FPML 5.1 "BusinessDayConventionEnum"
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/DayOfMonth http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessRecurrenceInterval
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayAdjustment http://www.w3.org/2000/01/rdf-schema#subClassOf N7242aca3a762428883dfd7dc08c4ca47
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/holdsDuring http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayModifiedFollowing http://www.w3.org/2000/01/rdf-schema#label business day modified following
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/
+N6e9b858db0e04de8a0153685233dd498 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/Sunday
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/hasBusinessRecurrenceIntervalConvention http://www.w3.org/2000/01/rdf-schema#label has business recurrence interval convention
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/Convention http://www.w3.org/2000/01/rdf-schema#label convention
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Places/Locations/
+Nf1a07a9d404044e8b13ab5ea64df4932 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest Ne29fcd59f7fa433b8f2c6ff7960a5149
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayNone http://www.w3.org/2000/01/rdf-schema#label business day none
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/hasBusinessRecurrenceIntervalConvention http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+Nd48580c2f70541b588c0faf690165702 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20180901/DatesAndTimes/BusinessDates/ version of this ontology was revised to loosen domains on properties related to business day and day count (recurrence interval) conventions, eliminate a duplicate individual, normalize definitions to be ISO 704 compliant, eliminate duplication of concepts in LCC, move hasBusinessCenter to locations, where the class BusinessCenter is defined and merge countries with locations.
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/hasBusinessDayConvention http://www.w3.org/2000/01/rdf-schema#label has business day convention
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/ http://www.w3.org/2004/02/skos/core#changeNote This ontology was added to Foundations in advance of the December 2014 Long Beach meeting in support of the SEC specification. It is also needed to provide temporal relationships for Ownership and Control.
+
+These three ontologies are designed for use together:
+
+	* FinancialDates -- financial Dates and Schedules
+	* BusinessDates -- business day adjustments
+	* Occurrences -- occurrences (events) and kinds of occurrences
+
+They are modularized this way to minimize the ontological committments that are imposed upon ontologies that rely upon them. Ontologies can import FinancialDates alone, or FinancialDates + BusinessDates, or FinancialDates + Occurrences, or all three together.
+N335595a482fe42ddaf60100d460e4f1d http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayAdjustment
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/EndOfMonth http://www.w3.org/2000/01/rdf-schema#label end of the month
+N18a3b276d7744e5ea7c30dcb43b08242 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayAdjustment http://www.w3.org/2000/01/rdf-schema#subClassOf N57c029c1150a4ceaaea29e77260eec34
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/DayOfMonth http://www.w3.org/2000/01/rdf-schema#subClassOf N18a3b276d7744e5ea7c30dcb43b08242
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayNone http://www.w3.org/2004/02/skos/core#definition convention specifying that a date will not be adjusted if it falls on a day that is not a business day
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/BusinessDayAdjustment http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/Convention
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/EndOfMonth http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/DatesAndTimes/
+N6e9b858db0e04de8a0153685233dd498 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/BusinessDates/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2014-2024 EDM Council, Inc.

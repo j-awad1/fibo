@@ -1,0 +1,54 @@
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://purl.org/dc/terms/contributor Mizuho
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://purl.org/dc/terms/contributor agnos.ai U.K. Ltd
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MortgageBackedSecurities/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://purl.org/dc/terms/contributor Wells Fargo
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://purl.org/dc/terms/contributor Quarule
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2018-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://purl.org/dc/terms/contributor Citigroup
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://purl.org/dc/terms/contributor Exprentis
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Module
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://purl.org/dc/terms/contributor Federated Knowledge LLC
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://purl.org/dc/terms/contributor Nordea Bank AB
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2018-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://purl.org/dc/terms/abstract This module defines debt securities contracts both cash and synthetic, such as bonds, structured finance instruments, short term or money market instruments, and other contracts characterized by the holding of some debt of the issuer or primary party by the holder or counterparty.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://purl.org/dc/terms/contributor Bloomberg LP
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://purl.org/dc/terms/contributor John F. Gemski
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://www.w3.org/2000/01/rdf-schema#seeAlso https://www.edmcouncil.org/fibo/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/TradedShortTermDebt/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://purl.org/dc/terms/contributor State Street Bank and Trust
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://purl.org/dc/terms/contributor Dassault Systemes / No Magic
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/AssetBackedSecurities/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://purl.org/dc/terms/license http://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/DebtInstruments/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://purl.org/dc/terms/contributor Thematix Partners LLC
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/ http://www.w3.org/2000/01/rdf-schema#label Metadata about the EDMC-FIBO Securities (SEC) Debt Module
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://purl.org/dc/terms/contributor Deutsche Bank
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/PoolBackedSecurities/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://purl.org/dc/terms/title Financial Industry Business Ontology (FIBO) Securities and Equities (SEC) Debt Module
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://purl.org/dc/terms/contributor BIAN
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2018-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/ http://purl.org/dc/terms/modified 2023-02-03T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/ http://purl.org/dc/terms/abstract The SEC Debt Module covers content specific to debt instruments, including but not limited to bonds and asset-backed securities. This ontology provides metadata about the Debt module and its contents.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://purl.org/dc/terms/contributor Tahoe Blue Ltd
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://purl.org/dc/terms/contributor Credit Suisse
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/Bonds/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/ExerciseConventions/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://purl.org/dc/terms/contributor Adaptive, Inc.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://purl.org/dc/terms/title FIBO SEC Debt Module
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/ http://purl.org/dc/terms/license http://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2018-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://purl.org/dc/terms/contributor HP Enterprise / Mphasis
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://purl.org/dc/terms/contributor John F. Tierney
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://purl.org/dc/terms/contributor Statistics Canada
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://purl.org/dc/terms/contributor Office of Financial Research (US Dept of the Treasury)
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/SEC/20230201/Debt/MetadataSECDebt/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/ http://purl.org/dc/terms/issued 2018-03-31T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://purl.org/dc/terms/contributor Goldman Sachs
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/LoanParticipationNotes/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://purl.org/dc/terms/hasPart https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/CollateralizedDebtObligations/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/MetadataSECDebt/DebtModule http://www.w3.org/2000/01/rdf-schema#label debt module

@@ -1,0 +1,375 @@
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/DenialReason-InsufficientCreditHistory http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/LoanApplicationAtDisbursementStage http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/LoanApplicationStatus
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/CreditRiskAssessment http://www.w3.org/2000/01/rdf-schema#subClassOf N6d5cf6b16a6544d3b26dbfc6135aea30
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/LoanApplication http://www.w3.org/2000/01/rdf-schema#subClassOf N26357fd77f2b411c9747253bd6b57083
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/UnderwritingAutomation http://www.w3.org/2000/01/rdf-schema#label underwriting automation
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/LoanApplication http://www.w3.org/2004/02/skos/core#scopeNote The request typicaly includes most, if not all, of the information used to decide whether to grant the loan.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/ManualUnderwriting http://www.w3.org/2000/01/rdf-schema#label manual underwriting
+N6db4b843bd6845b69afcbead0bd87794 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N8f1514fa734f4991ba320889748e64cb http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecordCategory-MaritalRecord http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecordCategory
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasOriginalLoanDebtToIncomeRatio http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/BorrowerAssessment
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasIntendedLoanPurpose http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecordCategory-GarnishmentRecord http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecordCategory
+N3af080d7baaf48f3a34723dd2f01c16b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N2e05c2af36d84e148c3b51a9a5742491 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasApplicationPhase http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/DenialReason-InsufficientCollateralValue http://www.w3.org/2004/02/skos/core#definition The application was denied because the value or type of collateral was not sufficient.
+Nc126ae530d8547efaadef6ef376ca373 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Documents/refersTo
+Nfb8e1ec815024995a169bc1c88de66e2 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/AutomaticUnderwriting http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/BorrowerAssessment http://www.w3.org/2000/01/rdf-schema#subClassOf Ndf3a6bbbd440496dafdbd68e135f8038
+Nfb8e1ec815024995a169bc1c88de66e2 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasDateReceived
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecordCategory-RealEstate http://www.w3.org/2000/01/rdf-schema#label real estate record
+N26357fd77f2b411c9747253bd6b57083 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N8f1514fa734f4991ba320889748e64cb http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/TotalDebtExpenseRatio
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/AllBorrowersMonthlyIncome http://www.w3.org/2000/01/rdf-schema#label all borrowers' monthly income
+N6d94518b8b174e56be8e5264c739491c http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/BorrowerMonthlyIncome
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/isPreApprovalRequested http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+Nba1cfb83cf4f49b3885e41d14a00eb31 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasInput
+N6d5cf6b16a6544d3b26dbfc6135aea30 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecord
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/LoanApplicationPhase http://www.w3.org/2000/01/rdf-schema#label loan application phase
+Nfb8e1ec815024995a169bc1c88de66e2 http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDate
+N48e195f7f55f46ea85331d1da137e894 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/PartiesAndSituations/hasPartyRole
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecordCategory-BankruptcyRecord http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasGrossIncome http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasMonetaryAmount
+Nd16b2bd3e12b43128e6277e3514faa88 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasInput
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/IndividualPersonCreditRating http://www.w3.org/2000/01/rdf-schema#label individual person credit rating
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecordCategory http://www.w3.org/2004/02/skos/core#definition classifier of public records relevant to a loan application, e.g. tax lien, wage garnishment, foreclosure
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/DenialReason-CreditApplicationIncomplete http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+Nc126ae530d8547efaadef6ef376ca373 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/ClientsAndAccounts/Account
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/Analytics/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/DenialReason-MortgageInsuranceDenied http://www.w3.org/2004/02/skos/core#definition The application was denied because necessary mortgage insurance was denied.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/IncomeVerificationReport http://www.w3.org/2000/01/rdf-schema#label income verification report
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/LoanApplication http://www.w3.org/2000/01/rdf-schema#subClassOf N8f1514fa734f4991ba320889748e64cb
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/LoanApplicationAtDisbursementStage http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/DenialReason-InsufficientEmploymentHistory http://www.w3.org/2004/02/skos/core#definition The application was denied because the employment is irregular, unknown, or not sufficient.
+N8f1514fa734f4991ba320889748e64cb http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/UnderwritingDecision https://www.omg.org/spec/Commons/AnnotationVocabulary/adaptedFrom the 2015 Revised HMDA regulation.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasGrossIncome http://www.w3.org/2004/02/skos/core#definition indicates the personal gross income of the borrower
+N912ac6612b114e9ea1f8ea48d788bc5b http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecord http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N6db4b843bd6845b69afcbead0bd87794 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasOutput
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/isPreApprovalRequested http://www.w3.org/2004/02/skos/core#definition indicates whether a pre-approval has been requested, in conjunction with a loan application
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/DenialReason-InsufficientIncome http://www.w3.org/2000/01/rdf-schema#label insufficient income
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasApplicationDate http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDate
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/UnderwritingDecision-UnableToDetermine http://www.w3.org/2000/01/rdf-schema#label unable to determine
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PreApprovalRequest http://www.w3.org/2000/01/rdf-schema#subClassOf N823472056b2d4edab2f03602e48c3bb2
+N344689cbdc554500ae868f1b874f839c http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasApplicationDate
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/UnderwritingAutomation http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasApplicationDate http://www.w3.org/2000/01/rdf-schema#label has application date
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/IndividualPersonCreditRating http://www.w3.org/2004/02/skos/core#definition credit rating that provides an opinion of the creditworthiness of a person
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasOriginalLoanDebtToIncomeRatio http://www.w3.org/2000/01/rdf-schema#label has original loan debt-to-income ratio
+N6e07fe42538d4534a605030873eda6eb http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N30ea019beaa346888ad060e4f1841d84 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/CreditRiskAssessment http://www.w3.org/2000/01/rdf-schema#subClassOf Nd9ea83d67d2b4686bda9de981737dc52
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/BorrowerAssessment http://www.w3.org/2004/02/skos/core#definition assessment report detailing information about the borrower and their credit history that may be relevant to the loan application
+Nba1cfb83cf4f49b3885e41d14a00eb31 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N344689cbdc554500ae868f1b874f839c http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDate
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasOriginalLoanDebtToIncomeRatio http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#decimal
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/BorrowerMonthlyIncome http://www.w3.org/2000/01/rdf-schema#label borrower monthly income
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/BorrowerAssessment http://www.w3.org/2000/01/rdf-schema#subClassOf N384939d48d654c3a99c8633ae1c31cd5
+Na28b46833a2747daa2ab7ea016ccdb34 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/AllBorrowersMonthlyIncome
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/LoanApplication http://www.w3.org/2000/01/rdf-schema#label loan application
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PreApprovalRequest http://www.w3.org/2000/01/rdf-schema#label pre-approval request
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/LoanAtApplicationStage http://www.w3.org/2000/01/rdf-schema#label loan at application stage
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/LoanApplication http://www.w3.org/2000/01/rdf-schema#subClassOf N2e05c2af36d84e148c3b51a9a5742491
+Nbbbb1513f9f64cf09275fac76554de08 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/InterestRate
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/CreditRiskAssessment http://www.w3.org/2000/01/rdf-schema#subClassOf N30ea019beaa346888ad060e4f1841d84
+N74f7ed18913141e384f7eb48c9a89f57 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/usesFactor
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/AutomaticUnderwriting http://www.w3.org/2000/01/rdf-schema#label automatic underwriting
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PreApprovalContract http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/WrittenContract
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasApplicationPhase http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/hasStage
+N6db4b843bd6845b69afcbead0bd87794 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/UnderwritingDecision
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/LoanApplicationPhase http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/UnderwritingDecision http://www.w3.org/2000/01/rdf-schema#label underwriting decision
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/ManualUnderwriting http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/UnderwritingAutomation
+N344689cbdc554500ae868f1b874f839c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N48e195f7f55f46ea85331d1da137e894 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N0c8fd98a38354bd8b6a7d5457239ba76 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/AllBorrowersMonthlyIncome
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecordCategory-MaritalRecord http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/BorrowerMonthlyIncome http://www.w3.org/2004/02/skos/core#definition total monthly qualifying income of a potential borrower
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecordCategory http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/DenialReason-InsufficientIncome http://www.w3.org/2004/02/skos/core#definition The application was denied because the debt to income ratio is too high.
+Nfb8e1ec815024995a169bc1c88de66e2 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/CreditRiskAssessment http://www.w3.org/2000/01/rdf-schema#subClassOf N6bb46478169049d6a18bf681670471a5
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/ManualUnderwriting http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+N6bb46478169049d6a18bf681670471a5 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/usesFactor
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecordCategory-RealEstate http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecordCategory
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasRequestedAmount http://www.w3.org/2004/02/skos/core#definition relates something, e.g. a request for a loan, to the amount of funds requested
+Ned1f4300703540b188576d22767b1a56 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecordCategory-CivilOrJudgementRecord http://www.w3.org/2000/01/rdf-schema#label civil or judgement record
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2016-2024 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/PartiesAndSituations/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/UnderwritingDecision-Eligible http://www.w3.org/2000/01/rdf-schema#label eligible
+N776215aa61fd47eea32eec38c8161c11 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+N776215aa61fd47eea32eec38c8161c11 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasApprovedAmount
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecord https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote This can include court actions such as bankruptcy and foreclosure, as well as liens and other events that have been recorded.
+N141478286a88447aba7826b201e43cf4 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N2e05c2af36d84e148c3b51a9a5742491 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/
+Nd16b2bd3e12b43128e6277e3514faa88 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/DenialReason-InsufficientCollateralValue http://www.w3.org/2000/01/rdf-schema#label insufficient collateral value
+Nf1d7295d544d40dd8289f7e798a5cca9 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+N5ae6bc9648cd4985b1d5499cb8b4c64e http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDate
+N669b1016c1f64a63904a9518a451f2cf http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecordCategory
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Provisional
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/LoanApplication http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Documents/Document
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/UnderwritingDecision-Approve http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/UnderwritingAutomation http://www.w3.org/2004/02/skos/core#definition classifier indicating whether a loan was underwritten manually or using an automated underwriting system
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasGrossIncome http://www.w3.org/2000/01/rdf-schema#label has gross income
+N21d8591913fc471dbb19343718835b7c http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/Loans/PaymentHistory
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecordCategory http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Classifiers/Classifier
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/DenialReason-CreditApplicationIncomplete http://www.w3.org/2004/02/skos/core#definition The application was denied because the credit application was not complete.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasOriginalLoanDebtToIncomeRatio http://www.w3.org/2004/02/skos/core#definition indicates the debt-to-income (DTI) ratio at the time when the loan was advanced; for combined income
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/LoanAtApplicationStage http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/UnderwritingDecision-Ineligible http://www.w3.org/2000/01/rdf-schema#label ineligible
+Ndf3a6bbbd440496dafdbd68e135f8038 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+N6d5cf6b16a6544d3b26dbfc6135aea30 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasInput
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/DenialReason-CreditApplicationIncomplete http://www.w3.org/2000/01/rdf-schema#label credit application incomplete
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/BorrowerAssessment http://www.w3.org/2000/01/rdf-schema#subClassOf N21d8591913fc471dbb19343718835b7c
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/ManualUnderwriting http://www.w3.org/2004/02/skos/core#definition underwriting was performed manually
+N2e05c2af36d84e148c3b51a9a5742491 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/LoanApplication http://www.w3.org/2000/01/rdf-schema#subClassOf N6d94518b8b174e56be8e5264c739491c
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/TotalDebtExpenseRatio https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym back end ratio
+N2e05c2af36d84e148c3b51a9a5742491 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/Loans/CombinedLoanToValueRatio
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/DenialReason-InsufficientCash http://www.w3.org/2004/02/skos/core#definition The application was denied due to insufficient down payment, or cash available to pay closing costs.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/DenialReason-UnverifiableInformation http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/IndividualPersonCreditRating http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/CreditRiskAssessment http://www.w3.org/2000/01/rdf-schema#subClassOf N0c8fd98a38354bd8b6a7d5457239ba76
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecord http://www.w3.org/2000/01/rdf-schema#subClassOf N6e07fe42538d4534a605030873eda6eb
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasRequestedAmount http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasMonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/UnderwritingDecision-Approve http://www.w3.org/2000/01/rdf-schema#label approve
+N6e07fe42538d4534a605030873eda6eb http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N26357fd77f2b411c9747253bd6b57083 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/isPreApprovalRequested
+N912ac6612b114e9ea1f8ea48d788bc5b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/AutomaticUnderwriting http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/UnderwritingAutomation
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/TotalDebtExpenseRatio http://www.w3.org/2004/02/skos/core#definition ratio of all monthly debt payments of all borrowers, including proposed expenses, with respect to the income of the borrowers as relied upon to make a credit decision
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecordCategory-ForeclosureRecord http://www.w3.org/2000/01/rdf-schema#label foreclosure record
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasApprovedAmount http://www.w3.org/2000/01/rdf-schema#label has approved amount
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/UnderwritingDecision-Refer http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/UnderwritingDecision
+N776215aa61fd47eea32eec38c8161c11 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/usesFactor http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isBasedOn
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/isPreApprovalRequested http://www.w3.org/2000/01/rdf-schema#label is pre-approval requested
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasApplicationPhase http://www.w3.org/2000/01/rdf-schema#label has application phase
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/DenialReason-InsufficientCash http://www.w3.org/2000/01/rdf-schema#label insufficient cash
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecordCategory-PersonalPropertyRecord http://www.w3.org/2000/01/rdf-schema#label personal property record
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/TotalDebtExpenseRatio http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nf1d7295d544d40dd8289f7e798a5cca9 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/
+N74f7ed18913141e384f7eb48c9a89f57 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N344689cbdc554500ae868f1b874f839c http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/LoanApplication http://www.w3.org/2000/01/rdf-schema#subClassOf N344689cbdc554500ae868f1b874f839c
+N6d94518b8b174e56be8e5264c739491c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/LoanAtApplicationStage http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/LoanApplicationStatus
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PreApprovalContract https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote This may also include limits on the region where to purchase.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/DenialReason-InsufficientCreditHistory http://www.w3.org/2000/01/rdf-schema#label insufficient credit history
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/LoanApplicationStatus http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/LoanApplicationStatus http://www.w3.org/2000/01/rdf-schema#label loan application status
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasOriginalLoanDebtToIncomeRatio http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/IncomeVerificationReport http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AssessmentReport
+N6d5cf6b16a6544d3b26dbfc6135aea30 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasRequestedAmount http://www.w3.org/2000/01/rdf-schema#label has requested amount
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasApplicationPhase http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/LoanApplicationPhase
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/ http://purl.org/dc/terms/abstract This ontology defines concepts for the loan application process, along with kinds of loan application and the parties thereto. Another major thread of this ontology is credit risk assessment at the highest level, which includes security agreements, pre-approvals, and credit reports.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/AllBorrowersMonthlyIncome http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/Income
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/BorrowerMonthlyIncome http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/Income
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Documents/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/
+N6bb46478169049d6a18bf681670471a5 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecordCategory-BankruptcyRecord http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecordCategory
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecordCategory-CivilOrJudgementRecord http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecordCategory
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasGrossIncome http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/BorrowerAssessment
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/LoanApplicationStatus http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStatus
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/ http://www.w3.org/2000/01/rdf-schema#label Loan Applications Ontology
+Nd16b2bd3e12b43128e6277e3514faa88 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PreApprovalContract
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasIntendedLoanPurpose http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/LoanApplication
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/BorrowerAssessment http://www.w3.org/2000/01/rdf-schema#subClassOf N5ae6bc9648cd4985b1d5499cb8b4c64e
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/DenialReason-UnverifiableInformation http://www.w3.org/2004/02/skos/core#definition The application was denied because qualification information such as income, employment, credit, or residence) was not verifiable.
+N384939d48d654c3a99c8633ae1c31cd5 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Documents/isAbout
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/ClientsAndAccounts/
+N6e07fe42538d4534a605030873eda6eb http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/isEvidencedBy
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecord http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Documents/Record
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/UnderwritingDecision-Deny http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/UnderwritingDecision
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/usesFactor http://www.w3.org/2004/02/skos/core#definition relates e.g. a risk assessment to something used as a factor to make the assessment
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecordCategory-RealEstate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PreApprovalContract https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote A commitment from a lender to a borrower to extend a home purchase loan up to a certain amount, and subject to certain non-credit related conditions.  This commitment is entered into after a comprehensive analysis of the credit worthiness of the borrower is carried out.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/DenialReason-MortgageInsuranceDenied http://www.w3.org/2000/01/rdf-schema#label mortgage insurance denied
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecord http://www.w3.org/2000/01/rdf-schema#subClassOf Nc126ae530d8547efaadef6ef376ca373
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasRequestedAmount http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/CreditRiskAssessment http://www.w3.org/2000/01/rdf-schema#subClassOf N74f7ed18913141e384f7eb48c9a89f57
+N6e07fe42538d4534a605030873eda6eb http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/Documents/LegalDocument
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/LoanApplication http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/BorrowerMonthlyIncome http://www.w3.org/2000/01/rdf-schema#subClassOf N48e195f7f55f46ea85331d1da137e894
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/CreditRiskAssessment http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nc126ae530d8547efaadef6ef376ca373 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N384939d48d654c3a99c8633ae1c31cd5 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/LoanApplication
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecordCategory-GarnishmentRecord http://www.w3.org/2000/01/rdf-schema#label garnishment record
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/AllBorrowersMonthlyIncome https://www.omg.org/spec/Commons/AnnotationVocabulary/usageNote This should be computed from the income of the individual borrowers.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/TotalDebtExpenseRatio http://www.w3.org/2000/01/rdf-schema#label total debt expense ratio
+N6d94518b8b174e56be8e5264c739491c http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+Nba1cfb83cf4f49b3885e41d14a00eb31 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PreApprovalRequest
+N912ac6612b114e9ea1f8ea48d788bc5b http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/IncomeVerificationReport
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/isPreApprovalRequested http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#boolean
+N823472056b2d4edab2f03602e48c3bb2 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Borrower
+N0c8fd98a38354bd8b6a7d5457239ba76 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/usesFactor
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/DenialReason-InsufficientEmploymentHistory http://www.w3.org/2000/01/rdf-schema#label insufficient employment history
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecord http://www.w3.org/2000/01/rdf-schema#label public record
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasApplicationDate http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/hasRequestDate
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/LoanApplication http://www.w3.org/2000/01/rdf-schema#subClassOf Nfb8e1ec815024995a169bc1c88de66e2
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Collections/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/BorrowerAssessment http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/AllBorrowersMonthlyIncome http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/usesFactor http://www.w3.org/2000/01/rdf-schema#label uses factor
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecordCategory-PersonalPropertyRecord http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/UnderwritingDecision http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/LoanApplicationPhase http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/LifecycleStage
+Ned1f4300703540b188576d22767b1a56 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/Requester
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PreApprovalContract http://www.w3.org/2000/01/rdf-schema#subClassOf Nbbbb1513f9f64cf09275fac76554de08
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/LoanApplicationAtDisbursementStage http://www.w3.org/2000/01/rdf-schema#label loan application at disbursement stage
+N03f608bbabe44dd5869f34708bd97052 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/Loans/LoanToValueRatio
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PreApprovalRequest http://www.w3.org/2000/01/rdf-schema#subClassOf Nf1d7295d544d40dd8289f7e798a5cca9
+N912ac6612b114e9ea1f8ea48d788bc5b http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+Ned1f4300703540b188576d22767b1a56 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/isSubmittedBy
+Nc126ae530d8547efaadef6ef376ca373 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasApprovedAmount http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/ContextualDesignators/
+Ndf3a6bbbd440496dafdbd68e135f8038 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N669b1016c1f64a63904a9518a451f2cf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/UnderwritingDecision-Ineligible http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/UnderwritingDecision
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/LoanApplicationAtAgreementStage http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/usesFactor https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote There is intentionally no range for this property, so as not to limit what can be used as a factor. Often it will be a measure such as borrower monthly income. Thus, having a class called Factor seems unhelpful.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/UnderwritingDecision-Eligible http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/UnderwritingDecision
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasIntendedLoanPurpose http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#string
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/DenialReason-InsufficientCreditHistory http://www.w3.org/2004/02/skos/core#definition The application was denied because the credit history was too limited, unacceptable, or not at sufficient standing.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/LoanApplication http://www.w3.org/2000/01/rdf-schema#subClassOf N03f608bbabe44dd5869f34708bd97052
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecordCategory-GarnishmentRecord http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PreApprovalContract http://www.w3.org/2004/02/skos/core#definition written commitment to lend when specified conditions are met, such as finding suitable property, and unchanged creditworthiness
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/DenialReason-InsufficientCash http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/AllBorrowersMonthlyIncome http://www.w3.org/2000/01/rdf-schema#subClassOf N141478286a88447aba7826b201e43cf4
+N21d8591913fc471dbb19343718835b7c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecordCategory-MaritalRecord http://www.w3.org/2000/01/rdf-schema#label marital record
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasApplicationPhase http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/LoanApplication
+Nd9ea83d67d2b4686bda9de981737dc52 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/usesFactor
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PreApprovalRequest http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/RequestActivity
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/IncomeVerificationReport http://www.w3.org/2004/02/skos/core#definition report providing the methodology and supporting documentation used to verify the borrower's income
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasApplicationDate http://www.w3.org/2004/02/skos/core#definition date on which an application was signed and submitted
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasApplicationPhase http://www.w3.org/2004/02/skos/core#definition The phase within the application lifecycle, that this Loan Application is at,
+N141478286a88447aba7826b201e43cf4 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/BorrowerMonthlyIncome
+N12251ffa8629441e8bdc724e9733b3b9 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasInput
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/usesFactor http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PreApprovalContract http://www.w3.org/2000/01/rdf-schema#label pre-approval contract
+N74f7ed18913141e384f7eb48c9a89f57 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/BorrowerMonthlyIncome
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasApprovedAmount http://www.w3.org/2004/02/skos/core#definition relates something, e.g. a loan, to the amount of funds approved
+N3af080d7baaf48f3a34723dd2f01c16b http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Borrower
+Na28b46833a2747daa2ab7ea016ccdb34 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/CreditRiskAssessment http://www.w3.org/2000/01/rdf-schema#subClassOf Nd16b2bd3e12b43128e6277e3514faa88
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/DenialReason-UnverifiableInformation http://www.w3.org/2000/01/rdf-schema#label unverifiable information
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PreApprovalRequest http://www.w3.org/2004/02/skos/core#definition request from a potential borrower that a lender commit to pre-approving the borrower for a loan of up to a specified amount of money
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/CreditRiskAssessment http://www.w3.org/2000/01/rdf-schema#subClassOf Nba1cfb83cf4f49b3885e41d14a00eb31
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/AllBorrowersMonthlyIncome http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecordCategory-CivilOrJudgementRecord http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/LoanApplicationAtAgreementStage http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/LoanApplicationStatus
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/UnderwritingDecision-Refer http://www.w3.org/2000/01/rdf-schema#label refer
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/BorrowerMonthlyIncome http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecordCategory-LienRecord http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecordCategory
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecordCategory http://www.w3.org/2000/01/rdf-schema#label public record category
+N03f608bbabe44dd5869f34708bd97052 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/CreditRiskAssessment http://www.w3.org/2000/01/rdf-schema#subClassOf N6db4b843bd6845b69afcbead0bd87794
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecordCategory-ForeclosureRecord http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecordCategory
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/UnderwritingDecision-Refer http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+N823472056b2d4edab2f03602e48c3bb2 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/LoanApplication http://www.w3.org/2000/01/rdf-schema#subClassOf Ned1f4300703540b188576d22767b1a56
+N26357fd77f2b411c9747253bd6b57083 http://www.w3.org/2002/07/owl#someValuesFrom http://www.w3.org/2001/XMLSchema#boolean
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasApplicationDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N3af080d7baaf48f3a34723dd2f01c16b http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Documents/isAbout
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/AutomaticUnderwriting http://www.w3.org/2004/02/skos/core#definition underwriting was performed using an automated underwriting system
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasGrossIncome http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N21d8591913fc471dbb19343718835b7c http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/UnderwritingDecision http://www.w3.org/2004/02/skos/core#definition classifier providing a loan approval recommendation determined either manually or by an automated underwriting system
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/CreditRiskAssessment http://www.w3.org/2004/02/skos/core#definition risk assessment that focuses on determining the likelihood of a potential borrower repaying a loan
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/UnderwritingDecision http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Classifiers/Classifier
+Nd9ea83d67d2b4686bda9de981737dc52 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Lifecycles/
+N0c8fd98a38354bd8b6a7d5457239ba76 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/CreditRiskAssessment http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AssessmentActivity
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PreApprovalRequest https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote This may also include limits on the region where to purchase.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Classifiers/
+N669b1016c1f64a63904a9518a451f2cf http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Classifiers/isClassifiedBy
+N5ae6bc9648cd4985b1d5499cb8b4c64e http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/hasDateOfAssessment
+Nd9ea83d67d2b4686bda9de981737dc52 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/TotalDebtExpenseRatio
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasIntendedLoanPurpose http://www.w3.org/2000/01/rdf-schema#label has intended loan purpose
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/BorrowerAssessment http://www.w3.org/2000/01/rdf-schema#subClassOf N912ac6612b114e9ea1f8ea48d788bc5b
+N03f608bbabe44dd5869f34708bd97052 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecord http://www.w3.org/2004/02/skos/core#definition record about an action involving a party that is publicly available from a court or other government agency
+Na28b46833a2747daa2ab7ea016ccdb34 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecord http://www.w3.org/2000/01/rdf-schema#subClassOf N669b1016c1f64a63904a9518a451f2cf
+N30ea019beaa346888ad060e4f1841d84 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/Loans/Loan
+Ndf3a6bbbd440496dafdbd68e135f8038 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N12251ffa8629441e8bdc724e9733b3b9 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditReport
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/IncomeVerificationReport http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N141478286a88447aba7826b201e43cf4 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/isBasedOn
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/UnderwritingDecision-UnableToDetermine http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasGrossIncome http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/DenialReason-InsufficientCollateralValue http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/UnderwritingDecision-Deny http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+N6bb46478169049d6a18bf681670471a5 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/Loans/CombinedLoanToValueRatio
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/UnderwritingAutomation http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Classifiers/Classifier
+Nf1d7295d544d40dd8289f7e798a5cca9 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasRequestedAmount
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/AllBorrowersMonthlyIncome http://www.w3.org/2004/02/skos/core#definition total monthly qualifying income for all borrowers on the loan
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/UnderwritingDecision-UnableToDetermine http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/UnderwritingDecision
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/DenialReason-MortgageInsuranceDenied http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/DenialReason-InsufficientIncome http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/CreditRiskAssessment http://www.w3.org/2000/01/rdf-schema#subClassOf N12251ffa8629441e8bdc724e9733b3b9
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/LoanApplication http://www.w3.org/2000/01/rdf-schema#subClassOf Na28b46833a2747daa2ab7ea016ccdb34
+N21d8591913fc471dbb19343718835b7c http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N5ae6bc9648cd4985b1d5499cb8b4c64e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/DatesAndTimes/
+Ndf3a6bbbd440496dafdbd68e135f8038 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/IndividualPersonCreditRating
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/BorrowerAssessment https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Includes credit rating information. Ongoing assessment reports both good and bad credit rating information. In the US, by regulation, lender is required to respot person's payment history on a monthly basis. This is the basis on which peope's score is changed. So the lender's reporting to the credit bureau may affect that person's credit rating. this may give rise to credit disputes. Also there is a scenario where the borrower may contact the lender and ask for some change. For student loans, they can apply for a deferment payment based on change in circumstances e.g. if losing job, or becoming disabled, then there are specific programs which they can apply for. can defer paymen for a time, and if proven eligible (e.g. also if in military, being deployed), then if they subbut the relevant document, they approve and change their repayment term, perhaps temporarily and then revert to the previously agreed terms. This results from the borrower contacting the lender.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecordCategory-LienRecord http://www.w3.org/2000/01/rdf-schema#label lien record
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasApplicationDate http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/LoanApplication
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/DenialReason-InsufficientEmploymentHistory http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+N384939d48d654c3a99c8633ae1c31cd5 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/BorrowerAssessment http://www.w3.org/2000/01/rdf-schema#label borrower assessment
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PreApprovalContract http://www.w3.org/2000/01/rdf-schema#subClassOf N776215aa61fd47eea32eec38c8161c11
+Nbbbb1513f9f64cf09275fac76554de08 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/IndividualPersonCreditRating http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/CreditRating
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/BorrowerMonthlyIncome http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/CreditRiskAssessment http://www.w3.org/2000/01/rdf-schema#label credit risk assessment
+N12251ffa8629441e8bdc724e9733b3b9 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N48e195f7f55f46ea85331d1da137e894 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/Borrower
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasIntendedLoanPurpose http://www.w3.org/2004/02/skos/core#definition indicates the purpose to which the loaned funds are to be put
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/UnderwritingDecision-Deny http://www.w3.org/2000/01/rdf-schema#label deny
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2016-2024 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/LoanApplicationAtAgreementStage http://www.w3.org/2000/01/rdf-schema#label loan application at agreement stage
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/TotalDebtExpenseRatio http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/PercentageMonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PreApprovalRequest http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/hasApprovedAmount http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasMonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/BorrowerAssessment http://www.w3.org/2000/01/rdf-schema#subClassOf N3af080d7baaf48f3a34723dd2f01c16b
+Nbbbb1513f9f64cf09275fac76554de08 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasInterestRate
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/BorrowerAssessment http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AssessmentReport
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/CreditRiskAssessment https://www.omg.org/spec/Commons/AnnotationVocabulary/usageNote If the risk assessment is based on one of the automated underwriting sytems, then the underwriting automation category is 'automated'. This dependency could be automated (as it were).
+N03f608bbabe44dd5869f34708bd97052 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/LoanApplication http://www.w3.org/2004/02/skos/core#definition request by a potential borrower to a potential lender to borrow money containing information used to decide whether to grant the loan
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PreApprovalContract http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/UnderwritingDecision-Approve http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/UnderwritingDecision
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/UnderwritingDecision-Ineligible http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/UnderwritingDecision-Eligible http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecordCategory-LienRecord http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecordCategory-PersonalPropertyRecord http://www.w3.org/1999/02/22-rdf-syntax-ns#type https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecordCategory
+N30ea019beaa346888ad060e4f1841d84 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/ContextualDesignators/appliesTo
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecordCategory-BankruptcyRecord http://www.w3.org/2000/01/rdf-schema#label bankruptcy record
+https://spec.edmcouncil.org/fibo/ontology/LOAN/LoansGeneral/LoanApplications/PublicRecordCategory-ForeclosureRecord http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#NamedIndividual
+N823472056b2d4edab2f03602e48c3bb2 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/Debt/hasBorrower

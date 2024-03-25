@@ -1,0 +1,90 @@
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20180801/Securities/Baskets.rdf version of this ontology was revised to augment the definitions of various baskets to include weighting and to be dated, as needed to represent various benchmarks and funds based on these baskets.
+N205d727804d64b69839499307a4d4053 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/hasConstituent
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Release
+Ne57184bb7cf84242a1a881275b8c12c6 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/IND/EconomicIndicators/EconomicIndicators/EconomicIndicator
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/SEC/20230301/Securities/Baskets/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/MixedBasket http://www.w3.org/2000/01/rdf-schema#subClassOf Ncebf59cb26be41bd9b14b83e6e045236
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20230201/Securities/Baskets.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/DatesAndTimes/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/BasketOfIndicesConstituent http://www.w3.org/2004/02/skos/core#definition single constituent of a basket of indices
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/BasketOfSecurities http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2018-2023 Object Management Group, Inc.
+Nbd6163de43fe470d8a07311f223df5cb http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/SecuritiesBasketConstituent
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/BasketOfIndicesConstituent http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/WeightedBasketConstituent
+N4ef47f0fd16049b686604118a34f5dfb http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDate
+N478ec346f87442c6affd6d0ea78ab0a4 http://www.w3.org/2002/07/owl#allValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Security
+Nf36176127e1044da8611b5d72233daa5 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nc1f6729c1e184768bb284e9a1dd9605f http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/BasketOfIndices http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/WeightedBasket
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/BasketOfIndices http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nc1f6729c1e184768bb284e9a1dd9605f http://www.w3.org/2002/07/owl#allValuesFrom Nb2a9c079c3df43c8b82ab00d63524a04
+Nc1f6729c1e184768bb284e9a1dd9605f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nbd6163de43fe470d8a07311f223df5cb http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/hasConstituent
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/SecuritiesBasketConstituent http://www.w3.org/2000/01/rdf-schema#subClassOf N478ec346f87442c6affd6d0ea78ab0a4
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/
+Nbd6163de43fe470d8a07311f223df5cb http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/BasketOfIndices http://www.w3.org/2000/01/rdf-schema#subClassOf N205d727804d64b69839499307a4d4053
+Nb2a9c079c3df43c8b82ab00d63524a04 http://www.w3.org/2002/07/owl#unionOf Ne57184bb7cf84242a1a881275b8c12c6
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2016-2023 EDM Council, Inc.
+Nf36176127e1044da8611b5d72233daa5 http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/DatesAndTimes/ExplicitDate
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/SecuritiesBasketConstituent http://www.w3.org/2004/02/skos/core#definition security identified as a component of a basket of securities
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/MixedBasket http://www.w3.org/2000/01/rdf-schema#label mixed basket
+N478ec346f87442c6affd6d0ea78ab0a4 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/MixedBasket http://www.w3.org/2004/02/skos/core#definition basket that has a mix of constituents, including securities and indices
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/SecuritiesBasketConstituent http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/DatedCollectionConstituent
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/SecuritiesBasketConstituent http://www.w3.org/2000/01/rdf-schema#label securities basket constituent
+Nc84b2def7f0e415691f2a57e73cc4caa http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/IND/Indicators/Indicators/MarketRate
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20191201/Securities/Baskets.rdf version of this ontology was revised to add the date a given constituent is added to a basket, and use involves rather than hasIdentity to link a security or index to the basket constituent it is referenced by.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20200301/Securities/Baskets.rdf version of this ontology was revised to reflect the move of dated collections from arrangements to financial dates, and replace 'involves' with 'comprises' for consistency across basket definitions.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/BasketOfSecurities http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/DatedStructuredCollection
+Ne57184bb7cf84242a1a881275b8c12c6 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest Nc84b2def7f0e415691f2a57e73cc4caa
+Nb2a9c079c3df43c8b82ab00d63524a04 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/MixedBasket http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/DatedStructuredCollection
+N06d29aba56ba44bbb9f235536ffcbb36 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/MixedBasket http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/WeightedBasket
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+N205d727804d64b69839499307a4d4053 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N4ef47f0fd16049b686604118a34f5dfb http://www.w3.org/2002/07/owl#maxQualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/MixedBasket http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/BasketOfIndicesConstituent http://www.w3.org/2000/01/rdf-schema#subClassOf Nc1f6729c1e184768bb284e9a1dd9605f
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/
+N23d86c317af14d80920ff5c30d9240f9 http://www.w3.org/2002/07/owl#unionOf N0ed8b6f70f6f49cab9edc249d870817e
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/ http://purl.org/dc/terms/abstract This ontology defines the concept of a tradable container of securities, indices, and/or market rates, and identifies the elements that can be constituents of a such a basket.
+N4ef47f0fd16049b686604118a34f5dfb http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasDateAdded
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/SecuritiesBasketConstituent http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/BasketOfIndices http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/DatedStructuredCollection
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/BasketOfIndices http://www.w3.org/2004/02/skos/core#definition basket composed of market indices
+Nf36176127e1044da8611b5d72233daa5 http://www.w3.org/2002/07/owl#maxQualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20200701/Securities/Baskets.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/BasketOfSecurities http://www.w3.org/2004/02/skos/core#definition basket composed of securities, typically of a particular asset class such as equities or bonds
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/BasketOfSecurities http://www.w3.org/2000/01/rdf-schema#subClassOf Nbd6163de43fe470d8a07311f223df5cb
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/BasketOfSecurities http://www.w3.org/2000/01/rdf-schema#label basket of securities
+Ncebf59cb26be41bd9b14b83e6e045236 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/hasConstituent
+Ncebf59cb26be41bd9b14b83e6e045236 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nf36176127e1044da8611b5d72233daa5 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/hasDateAdded
+N478ec346f87442c6affd6d0ea78ab0a4 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Collections/comprises
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/BasketOfIndicesConstituent http://www.w3.org/2000/01/rdf-schema#subClassOf Nf36176127e1044da8611b5d72233daa5
+Ncebf59cb26be41bd9b14b83e6e045236 http://www.w3.org/2002/07/owl#someValuesFrom N23d86c317af14d80920ff5c30d9240f9
+N205d727804d64b69839499307a4d4053 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/BasketOfIndicesConstituent
+N23d86c317af14d80920ff5c30d9240f9 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nc84b2def7f0e415691f2a57e73cc4caa http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/BasketOfIndices http://www.w3.org/2000/01/rdf-schema#label market basket
+N06d29aba56ba44bbb9f235536ffcbb36 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/SecuritiesBasketConstituent
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/BasketOfIndicesConstituent http://www.w3.org/2000/01/rdf-schema#label basket Of indices constituent
+N0ed8b6f70f6f49cab9edc249d870817e http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/BasketOfIndicesConstituent
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Collections/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/BasketOfIndicesConstituent http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/SecuritiesBasketConstituent http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/WeightedBasketConstituent
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/BasketOfSecurities http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/WeightedBasket
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/SecuritiesBasketConstituent http://www.w3.org/2000/01/rdf-schema#subClassOf N4ef47f0fd16049b686604118a34f5dfb
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/IND/EconomicIndicators/EconomicIndicators/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/
+N0ed8b6f70f6f49cab9edc249d870817e http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N06d29aba56ba44bbb9f235536ffcbb36
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/BasketOfIndicesConstituent http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/FinancialDates/DatedCollectionConstituent
+N4ef47f0fd16049b686604118a34f5dfb http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/ http://www.w3.org/2000/01/rdf-schema#label Baskets Ontology
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/BasketOfIndices http://www.w3.org/2004/02/skos/core#example For example, certain equities derivatives have an underlying basket which is a basket of more than one index, not a basket of securities.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Baskets/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/

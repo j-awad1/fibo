@@ -1,0 +1,242 @@
+Ndb0d17617ea2433ba909b9096fd0e163 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingScale http://www.w3.org/2000/01/rdf-schema#subClassOf Nfb3192899e3c4523a76361b51aab7d09
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20210201/Arrangements/Ratings.rdf version of this ontology was revised to address hygiene issues with respect to text formatting.
+Ndb0d17617ea2433ba909b9096fd0e163 http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/DatesAndTimes/Date
+N11a0e4ba57c14f1281449b2a928a188e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingScore http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Ncc2382c1bcb549fd850d55a9644a1cb3 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/hasBestMeasure http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingAssessmentActivity http://www.w3.org/2000/01/rdf-schema#label rating assessment activity
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/
+Nd86c165cba9f443ca3982667746cbcf3 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N959a4bbd2baf44cb8fb2654574be9232 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingIssuer http://www.w3.org/2004/02/skos/core#definition party that is responsible for issuing ratings
+Nd6eff17084004e608bf54502ec93c9ae http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N1390b66af6f34770a9de1e288cde0a63 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/Rating
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/QualitativeRatingScore http://www.w3.org/2000/01/rdf-schema#subClassOf N0cc049089ba14ba4b046aadbb3035d1f
+Nc30052d02f0b44f6a8d6d75f1e7d405f http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/FND/20240101/Arrangements/Ratings/
+N11a0e4ba57c14f1281449b2a928a188e http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingParty
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingAgency http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingReport http://www.w3.org/2000/01/rdf-schema#subClassOf N1390b66af6f34770a9de1e288cde0a63
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingReport http://www.w3.org/2000/01/rdf-schema#label rating report
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/hasRatingScore http://www.w3.org/2000/01/rdf-schema#label has rating score
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/QuantitativeRatingScore http://www.w3.org/2000/01/rdf-schema#label quantitative rating score
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingAgency http://www.w3.org/2000/01/rdf-schema#subClassOf N9fc002aa1406400aa18200d77419da0b
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/QualitativeRatingScore http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingScore
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/Rating http://www.w3.org/2000/01/rdf-schema#label rating
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingScore http://www.w3.org/2000/01/rdf-schema#label rating score
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/QualitativeRatingScore http://www.w3.org/2004/02/skos/core#definition rating score that is represented as a qualitative code with respect to some rating scale
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/Rating http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/Opinion
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingParty http://www.w3.org/2000/01/rdf-schema#subClassOf N0f11518532cf40e883cbda8e73a14237
+Nd125e7ec885144e693cc6289d19968ce http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isGeneratedBy
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/hasBestMeasure http://www.w3.org/2000/01/rdf-schema#label has best measure
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/usesRatingParty http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingParty
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20200701/Arrangements/Ratings.rdf version of this ontology was revised to eliminate circular definitions.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingIssuer https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote A rating issuer is frequently, but not always the rating scale publisher. A rating issuer may delegate responsibility for producing a rating to a rating party.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/QualitativeRatingScore http://www.w3.org/2000/01/rdf-schema#label qualitative rating score
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingParty http://www.w3.org/2004/02/skos/core#definition person, organization or group that analyzes some aspect of something and develops a rating
+N016d268b6f984c04af56f987c67abe17 http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#decimal
+N2799a8340e954ca09a60fe2716fc1f88 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/hasBestMeasure
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/hasRatingScore http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/Classifiers/isClassifiedBy
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingScore http://www.w3.org/2004/02/skos/core#definition grade, classification, or ranking of for something in accordance with some rating scale
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingScale http://www.w3.org/2000/01/rdf-schema#subClassOf N959a4bbd2baf44cb8fb2654574be9232
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingAssessmentEvent http://www.w3.org/2000/01/rdf-schema#subClassOf Nc30052d02f0b44f6a8d6d75f1e7d405f
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/rates http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingScore https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The meaning and methodology for determining a rating score for the rating of something is determined by a rating issuer. A given rating may apply at some point in time, as a part of a lifecycle or process, or generally. Typically ratings reflect an assessment of a state of affairs at some point in time.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/hasRating http://www.w3.org/2002/07/owl#inverseOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/rates
+N45c38ddc5e2444639856b05865a3ffa8 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/rates
+N06f042a06147414788b7818c933b3f98 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isIssuedBy
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/Rating http://www.w3.org/2000/01/rdf-schema#subClassOf N45c38ddc5e2444639856b05865a3ffa8
+N06f042a06147414788b7818c933b3f98 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingIssuer
+Ncee4636c1c3d40349d8ef4c9a43e4dab http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/manages
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingAgency http://www.w3.org/2004/02/skos/core#definition rating issuer that is also a rating scale publisher, frequently but not always an independent rating service
+N15ce5e797abf4f22ad4f73322ff3505e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/hasRating http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/Rating
+N9fc002aa1406400aa18200d77419da0b http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/hasRating http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/Classifiers/isClassifiedBy
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingScore http://www.w3.org/2000/01/rdf-schema#subClassOf N5dae4eab754d41cf8fd46254ef3bedd3
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/hasWorstMeasure http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingScale
+Nfd1608cff9ec4c8eb1683f55303bf989 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingScale http://www.w3.org/2000/01/rdf-schema#subClassOf N1e6608f869e84f328ba192103ca183c3
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingScale http://www.w3.org/2000/01/rdf-schema#subClassOf N2799a8340e954ca09a60fe2716fc1f88
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingScalePublisher http://www.w3.org/2000/01/rdf-schema#label rating scale publisher
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/ http://www.w3.org/2000/01/rdf-schema#label Ratings Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/hasMeasureWithinScale http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingScore
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/rates http://www.w3.org/2000/01/rdf-schema#label rates
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/usesRatingParty http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingIssuer
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/Rating http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/hasRating http://www.w3.org/2004/02/skos/core#definition indicates the rating assigned to a thing based on a grade or score according to a particular rating scale
+N2799a8340e954ca09a60fe2716fc1f88 http://www.w3.org/2002/07/owl#maxQualifiedCardinality 1
+N016d268b6f984c04af56f987c67abe17 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/hasWorstMeasure http://www.w3.org/2004/02/skos/core#definition indicates the 'worst' (least desirable) possible value for a rating score's hasMeasureWithinScale property
+N0f11518532cf40e883cbda8e73a14237 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N0f11518532cf40e883cbda8e73a14237 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/generates
+Nfd1608cff9ec4c8eb1683f55303bf989 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/Rating
+Nfb3192899e3c4523a76361b51aab7d09 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/producesRatingsFor http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/produces
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/hasMeasureWithinScale http://www.w3.org/2004/02/skos/core#definition indicates a relative, numeric measure or ordering on a rating scale
+Nb2104f081e3d42cfaa34891646c7e036 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/QuantitativeRatingScore http://www.w3.org/2004/02/skos/core#definition rating score that is a simple numeric value on some scale, such as a credit rating for an individual
+Nac1f5d13421c450dafb40337ad885da6 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N1390b66af6f34770a9de1e288cde0a63 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Reporting/reportsOn
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingAssessmentEvent http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AssessmentEvent
+N5dae4eab754d41cf8fd46254ef3bedd3 http://www.w3.org/2002/07/owl#maxQualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20230101/Arrangements/Ratings.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC) and to eliminate redundancies in FIBO as appropriate.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/QuantitativeRatingScore http://www.w3.org/2000/01/rdf-schema#subClassOf N016d268b6f984c04af56f987c67abe17
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingParty http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/PartiesAndSituations/PartyRole
+Ncc2382c1bcb549fd850d55a9644a1cb3 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/hasRatingScore
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/hasBestMeasure http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingScale
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/hasBestMeasure https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Note that hasBestMeasure and hasWorstMeasure may be used together to determine the direction and range of a scale's measure values.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/QualitativeRatingScore https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Ratings for the creditworthiness of securities are often qualitative, rather than quantitative, such as a triple-A (i.e., AAA). Many ratings for products and businesses on the Internet are also qualitative, such as 5-star ratings for something.
+Nd6eff17084004e608bf54502ec93c9ae http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingParty
+Nfb3192899e3c4523a76361b51aab7d09 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Designators/defines
+N0cc049089ba14ba4b046aadbb3035d1f http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/hasTag
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingAssessmentEvent http://www.w3.org/2000/01/rdf-schema#subClassOf Nfd1608cff9ec4c8eb1683f55303bf989
+N0cc049089ba14ba4b046aadbb3035d1f http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#string
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/Rating http://www.w3.org/2004/02/skos/core#definition standing of something at a particular time, indicated by at least one scores with respect to some scale, based on an assessment by some party
+N06f042a06147414788b7818c933b3f98 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N2799a8340e954ca09a60fe2716fc1f88 http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#decimal
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/hasBestMeasure http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#decimal
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/usesRatingParty http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingScore http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Classifiers/Classifier
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/hasMeasureWithinScale http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#decimal
+Nc30052d02f0b44f6a8d6d75f1e7d405f http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasOutput
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingParty http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/ http://purl.org/dc/terms/abstract This ontology defines abstract concepts for representation of ratings and rating schemes, particularly for ratings describing aspects of business performance, credit worthiness, and investment quality at a high level.
+N1e6608f869e84f328ba192103ca183c3 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isManagedBy
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/usesRatingParty http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isProducedBy
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingAgency http://www.w3.org/2000/01/rdf-schema#label rating agency
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/hasWorstMeasure http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+Ndb0d17617ea2433ba909b9096fd0e163 http://www.w3.org/2002/07/owl#maxQualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingReport http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AssessmentReport
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingParty http://www.w3.org/2000/01/rdf-schema#label rating party
+N5dae4eab754d41cf8fd46254ef3bedd3 http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#decimal
+N5dae4eab754d41cf8fd46254ef3bedd3 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/hasMeasureWithinScale
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/hasMeasureWithinScale http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/usesRatingParty http://www.w3.org/2000/01/rdf-schema#label uses rating performer
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingScore http://www.w3.org/2000/01/rdf-schema#subClassOf Nb2104f081e3d42cfaa34891646c7e036
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/CodesAndCodeSets/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/hasRating http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+Nac1f5d13421c450dafb40337ad885da6 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/Rating
+N11a0e4ba57c14f1281449b2a928a188e http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isProvidedBy
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Classifiers/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/PartiesAndSituations/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20190601/Arrangements/Ratings.rdf version of this ontology was revised to replace hasDefinition with isDefinedIn to clarify intent.
+Nfd1608cff9ec4c8eb1683f55303bf989 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/hasOutput
+N0cc049089ba14ba4b046aadbb3035d1f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingAssessmentActivity http://www.w3.org/2004/02/skos/core#definition assessment activity resulting in a grade or score and potentially a report describing the score and the process used to determine that score
+N15ce5e797abf4f22ad4f73322ff3505e http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/exemplifies
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/Rating http://www.w3.org/2000/01/rdf-schema#subClassOf Nd86c165cba9f443ca3982667746cbcf3
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/hasWorstMeasure https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Note that hasBestMeasure and hasWorstMeasure may be used together to determine the direction and range of a scale's measure values.
+N45c38ddc5e2444639856b05865a3ffa8 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20230301/Arrangements/Ratings.rdf version of the ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingAgency http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingScalePublisher
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/rates http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/Rating
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/producesRatingsFor http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingParty
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20190901/Arrangements/Ratings.rdf version of this ontology was revised to eliminate duplication with LCC.
+N15ce5e797abf4f22ad4f73322ff3505e http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingAssessmentEvent http://www.w3.org/2000/01/rdf-schema#label rating assessment event
+Nd125e7ec885144e693cc6289d19968ce http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingParty
+N2799a8340e954ca09a60fe2716fc1f88 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/QuantitativeRatingScore http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingScore
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/hasMeasureWithinScale http://www.w3.org/2000/01/rdf-schema#label has measure within scale
+Ndb0d17617ea2433ba909b9096fd0e163 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/hasEffectiveDate
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20220701/Arrangements/Ratings.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/hasRatingScore http://www.w3.org/2004/02/skos/core#definition indicates the grade or score associated with a rating with respect to a particular rating scale
+N9fc002aa1406400aa18200d77419da0b http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/FormalOrganizations/FormalOrganization
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/Rating http://www.w3.org/2000/01/rdf-schema#subClassOf Ndb0d17617ea2433ba909b9096fd0e163
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingAssessmentEvent http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nd125e7ec885144e693cc6289d19968ce http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/DatesAndTimes/Occurrences/
+Ncc2382c1bcb549fd850d55a9644a1cb3 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingScore
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Release
+Nd86c165cba9f443ca3982667746cbcf3 http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/DatesAndTimes/Date
+N016d268b6f984c04af56f987c67abe17 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+N959a4bbd2baf44cb8fb2654574be9232 http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#decimal
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/producesRatingsFor http://www.w3.org/2002/07/owl#inverseOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/usesRatingParty
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingReport http://www.w3.org/2004/02/skos/core#definition report describing a set of ratings
+N5dae4eab754d41cf8fd46254ef3bedd3 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/hasWorstMeasure http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#decimal
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Contracts/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/hasRating http://www.w3.org/2000/01/rdf-schema#label has rating
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2019-2024 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingScalePublisher http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingAssessmentActivity http://www.w3.org/2000/01/rdf-schema#subClassOf Nd6eff17084004e608bf54502ec93c9ae
+Nb2104f081e3d42cfaa34891646c7e036 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/Rating http://www.w3.org/2000/01/rdf-schema#subClassOf N06f042a06147414788b7818c933b3f98
+Ncee4636c1c3d40349d8ef4c9a43e4dab http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingScale
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/hasRatingScore http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/producesRatingsFor http://www.w3.org/2000/01/rdf-schema#label produces ratings for
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/DatesAndTimes/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/QualitativeRatingScore http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nd86c165cba9f443ca3982667746cbcf3 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/rates http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/Classifiers/classifies
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingScalePublisher https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Rating scale publishers are frequently also rating agencies.
+N1390b66af6f34770a9de1e288cde0a63 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N06f042a06147414788b7818c933b3f98 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/hasRatingScore http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/Rating
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/QualitativeRatingScore http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/CodesAndCodeSets/CodeElement
+N1e6608f869e84f328ba192103ca183c3 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingScalePublisher
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingScale http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/Classifiers/ClassificationScheme
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingAssessmentActivity http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20200201/Arrangements/Ratings.rdf version of this ontology was revised to replace uses of hasTag in Relations with hasTag from LCC, as the more complex union of datatypes in the Relations concept is not needed here.
+Nd6eff17084004e608bf54502ec93c9ae http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isProvidedBy
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingIssuer http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/PartiesAndSituations/PartyRole
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingScalePublisher http://www.w3.org/2000/01/rdf-schema#subClassOf Ncee4636c1c3d40349d8ef4c9a43e4dab
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/hasBestMeasure http://www.w3.org/2004/02/skos/core#definition indicates the 'best' (most desirable) possible value for a rating score's hasMeasureWithinScale property
+N1e6608f869e84f328ba192103ca183c3 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+Nac1f5d13421c450dafb40337ad885da6 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/issues
+Nb2104f081e3d42cfaa34891646c7e036 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Designators/isDefinedIn
+N959a4bbd2baf44cb8fb2654574be9232 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/hasWorstMeasure
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingAgency http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingIssuer
+N15ce5e797abf4f22ad4f73322ff3505e http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingAssessmentActivity
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/rates http://www.w3.org/2004/02/skos/core#definition indicates the instrument, party or something else to which a rating applies
+N959a4bbd2baf44cb8fb2654574be9232 http://www.w3.org/2002/07/owl#maxQualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/FormalOrganizations/
+N0cc049089ba14ba4b046aadbb3035d1f http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+N9fc002aa1406400aa18200d77419da0b http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/producesRatingsFor http://www.w3.org/2004/02/skos/core#definition issuer for which ratings are produced or posted through
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20190701/Arrangements/Ratings.rdf version of this ontology was revised to add properties indicating the 'best' and 'worst' scores on a given scale.
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/Rating http://www.w3.org/2000/01/rdf-schema#subClassOf Nd125e7ec885144e693cc6289d19968ce
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/QuantitativeRatingScore http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingAssessmentEvent http://www.w3.org/2000/01/rdf-schema#subClassOf N15ce5e797abf4f22ad4f73322ff3505e
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingAssessmentEvent http://www.w3.org/2004/02/skos/core#definition individual assessment resulting in a grade or score and potentially a report describing the score
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingIssuer http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingScalePublisher http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/PartiesAndSituations/PartyRole
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/usesRatingParty http://www.w3.org/2004/02/skos/core#definition rating performer an issuer uses to assess ratings
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingAssessmentEvent http://www.w3.org/2000/01/rdf-schema#subClassOf N11a0e4ba57c14f1281449b2a928a188e
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingScale http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingScale http://www.w3.org/2004/02/skos/core#definition system for assigning a value to something according to some scale with respect to quality, a standard, or ranking
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingIssuer http://www.w3.org/2000/01/rdf-schema#subClassOf Nac1f5d13421c450dafb40337ad885da6
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/Rating http://www.w3.org/2000/01/rdf-schema#subClassOf Ncc2382c1bcb549fd850d55a9644a1cb3
+N45c38ddc5e2444639856b05865a3ffa8 http://www.w3.org/2002/07/owl#cardinality 1
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingScalePublisher http://www.w3.org/2004/02/skos/core#definition party responsible for managing one or more rating schemes and potentially publishing ratings based on those schemes
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingScale http://www.w3.org/2000/01/rdf-schema#label rating scale
+Nd125e7ec885144e693cc6289d19968ce http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+N1e6608f869e84f328ba192103ca183c3 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/hasRatingScore http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingScore
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/hasWorstMeasure http://www.w3.org/2000/01/rdf-schema#label has worst measure
+Nfb3192899e3c4523a76361b51aab7d09 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingScore
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/RolesAndCompositions/
+Nc30052d02f0b44f6a8d6d75f1e7d405f http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingReport
+N0f11518532cf40e883cbda8e73a14237 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/Rating
+Nc30052d02f0b44f6a8d6d75f1e7d405f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N016d268b6f984c04af56f987c67abe17 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/hasMeasureWithinScale
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingReport http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nb2104f081e3d42cfaa34891646c7e036 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingScale
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Designators/
+Nd86c165cba9f443ca3982667746cbcf3 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Documents/hasDateOfIssuance
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingIssuer http://www.w3.org/2000/01/rdf-schema#label rating issuer
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/producesRatingsFor http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/producesRatingsFor http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingIssuer
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/RatingAssessmentActivity http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Assessments/AssessmentActivity
+https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Ratings/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2019-2024 EDM Council, Inc.
+Ncee4636c1c3d40349d8ef4c9a43e4dab http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction

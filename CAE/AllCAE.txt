@@ -1,0 +1,36 @@
+https://spec.edmcouncil.org/fibo/ontology/CAE/AllCAE/ http://purl.org/dc/terms/contributor Thematix Partners LLC
+https://spec.edmcouncil.org/fibo/ontology/CAE/AllCAE/ https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote The 'all' ontology for CAE is provided for convenience for FIBO users. This ontology does not add new assertions, but imports the Production (Released) ontologies that comprise the FIBO Corporate Actions and Events (CAE) domain, including all of SEC but excluding reference and example individuals.
+https://spec.edmcouncil.org/fibo/ontology/CAE/AllCAE/ http://purl.org/dc/terms/contributor Bureau of Labor Statistics (BLS, US Department of Commerce)
+https://spec.edmcouncil.org/fibo/ontology/CAE/AllCAE/ http://purl.org/dc/terms/contributor Bank of New York Mellon
+https://spec.edmcouncil.org/fibo/ontology/CAE/AllCAE/ http://purl.org/dc/terms/contributor Deutsche Bank
+https://spec.edmcouncil.org/fibo/ontology/CAE/AllCAE/ http://purl.org/dc/terms/contributor Dassault Systemes/No Magic
+https://spec.edmcouncil.org/fibo/ontology/CAE/AllCAE/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/CAE/CorporateEvents/CorporateActions/
+https://spec.edmcouncil.org/fibo/ontology/CAE/AllCAE/ http://purl.org/dc/terms/contributor Tahoe Blue Ltd
+https://spec.edmcouncil.org/fibo/ontology/CAE/AllCAE/ http://purl.org/dc/terms/contributor Adaptive, Inc.
+https://spec.edmcouncil.org/fibo/ontology/CAE/AllCAE/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/CAE/AllCAE/ http://purl.org/dc/terms/issued 2018-03-31T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/CAE/AllCAE/ http://www.w3.org/2000/01/rdf-schema#seeAlso https://spec.edmcouncil.org/fibo/
+https://spec.edmcouncil.org/fibo/ontology/CAE/AllCAE/ http://purl.org/dc/terms/contributor HP Enterprise / Mphasis
+https://spec.edmcouncil.org/fibo/ontology/CAE/AllCAE/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/CAE/20230201/AllCAE/
+https://spec.edmcouncil.org/fibo/ontology/CAE/AllCAE/ http://purl.org/dc/terms/contributor John F. Tierney
+https://spec.edmcouncil.org/fibo/ontology/CAE/AllCAE/ http://purl.org/dc/terms/contributor Census Bureau (US Department of Commerce)
+https://spec.edmcouncil.org/fibo/ontology/CAE/AllCAE/ http://purl.org/dc/terms/contributor Statistics Canada
+https://spec.edmcouncil.org/fibo/ontology/CAE/AllCAE/ http://purl.org/dc/terms/contributor Bureau of Economic Analysis (BEA, US Department of Commerce)
+https://spec.edmcouncil.org/fibo/ontology/CAE/AllCAE/ http://purl.org/dc/terms/contributor Office of Financial Research (OFR), U.S. Department of the Treasury
+https://spec.edmcouncil.org/fibo/ontology/CAE/AllCAE/ http://purl.org/dc/terms/contributor Pinnacle Bank (Morgan Hill, California)
+https://spec.edmcouncil.org/fibo/ontology/CAE/AllCAE/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2018-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/CAE/AllCAE/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/SEC/AllSEC/
+https://spec.edmcouncil.org/fibo/ontology/CAE/AllCAE/ http://purl.org/dc/terms/modified 2023-02-03T18:00:00
+https://spec.edmcouncil.org/fibo/ontology/CAE/AllCAE/ http://purl.org/dc/terms/contributor Citigroup
+https://spec.edmcouncil.org/fibo/ontology/CAE/AllCAE/ http://purl.org/dc/terms/contributor agnos.ai UK Ltd
+https://spec.edmcouncil.org/fibo/ontology/CAE/AllCAE/ http://purl.org/dc/terms/contributor Nordea Bank AB
+https://spec.edmcouncil.org/fibo/ontology/CAE/AllCAE/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2018-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/CAE/AllCAE/ http://purl.org/dc/terms/contributor Federal Reserve Bank of Kansas City
+https://spec.edmcouncil.org/fibo/ontology/CAE/AllCAE/ http://purl.org/dc/terms/contributor Wells Fargo Bank, N. A.
+https://spec.edmcouncil.org/fibo/ontology/CAE/AllCAE/ http://purl.org/dc/terms/contributor John F. Gemski
+https://spec.edmcouncil.org/fibo/ontology/CAE/AllCAE/ http://purl.org/dc/terms/license http://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/CAE/AllCAE/ http://purl.org/dc/terms/contributor Bloomberg LP
+https://spec.edmcouncil.org/fibo/ontology/CAE/AllCAE/ http://purl.org/dc/terms/abstract This ontology provides metadata about the FIBO Corporate Actions and Events (CAE) Domain, which covers actions including corporate, market, and regulatory actions, ranging from business oriented events such as address and name changes, to those that are more specific to securities.
+https://spec.edmcouncil.org/fibo/ontology/CAE/AllCAE/ http://www.w3.org/2000/01/rdf-schema#label Corporate Actions and Events Domain
+https://spec.edmcouncil.org/fibo/ontology/CAE/AllCAE/ http://purl.org/dc/terms/contributor State Street Bank and Trust
+https://spec.edmcouncil.org/fibo/ontology/CAE/AllCAE/ http://purl.org/dc/terms/title Financial Industry Business Ontology (FIBO) Corporate Actions and Events (CAE) Domain

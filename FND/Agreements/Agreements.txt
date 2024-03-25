@@ -1,0 +1,129 @@
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/isObligationOf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/IndividualUnilateralCommitment http://www.w3.org/2004/02/skos/core#definition commitment made by some party unilaterally to another specific party
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Beneficiary http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/PartiesAndSituations/PartyRole
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Obligee http://www.w3.org/2004/02/skos/core#definition party to whom some commitment or obligation is owed, either legally or per the terms of an agreement
+Nd57f294ebbd5419d88062ba0ff23e702 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/confers
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Obligor https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym obligated party
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Obligee http://www.w3.org/2000/01/rdf-schema#subClassOf Nbeb1e7609eb74017a661f3426d049d92
+Ndb45eb4f3ddc46de8792b9d9f487997c http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/PartiesAndSituations/hasPartyRole
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Obligor http://www.w3.org/2000/01/rdf-schema#subClassOf N354580b4bae2487a8834541aff7dbcb2
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/isObligationOf http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Obligor
+Nfbd25668e77b40faa4d5049855831c76 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/PartiesAndSituations/isAPartyTo
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Obligor http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2013-2024 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/MutualAgreement http://www.w3.org/2000/01/rdf-schema#label mutual agreement
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Agreement http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N6543dca5a0984eab9a6cb568966037dc http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Obligee http://www.w3.org/2000/01/rdf-schema#label obligee
+N354580b4bae2487a8834541aff7dbcb2 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+Nd57f294ebbd5419d88062ba0ff23e702 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Commitment
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/IndividualUnilateralCommitment http://www.w3.org/2000/01/rdf-schema#label individual unilateral commitment
+N0df9876884ad4653818b837525dc436c http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Commitment
+N75eeb5efaba840f2b628bbefb7733485 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/PartiesAndSituations/isAPartyTo
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/MutualCommitment http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N3f8c89dbe3f345318decaa6b05da9694 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/PartiesAndSituations/hasPartyRole
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/hasObligation http://www.w3.org/2000/01/rdf-schema#label has obligation
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/hasObligation http://www.w3.org/2002/07/owl#inverseOf https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/isObligationOf
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/hasObligation http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+Nbeb1e7609eb74017a661f3426d049d92 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/hasObligation http://www.w3.org/2004/02/skos/core#definition identifies a duty or obligation that a given party has taken on
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/FND/20240101/Agreements/Agreements/
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/isObligationOf http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/PartiesAndSituations/hasPartyRole
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/CommitmentAtLarge http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/UnilateralCommitment
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/MutualAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Agreement
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Obligor http://www.w3.org/2000/01/rdf-schema#subClassOf N0df9876884ad4653818b837525dc436c
+N0df9876884ad4653818b837525dc436c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Obligor https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym obligator
+N354580b4bae2487a8834541aff7dbcb2 http://www.w3.org/2002/07/owl#someValuesFrom Nefe041f2f0a746ceb23a71b6c69eec03
+Nd57f294ebbd5419d88062ba0ff23e702 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20180801/Agreements/Agreement.rdf version of the ontology was modified to eliminate duplication of concepts in LCC.
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/IndividualUnilateralCommitment http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/UnilateralCommitment
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/UnilateralCommitment http://www.w3.org/2004/02/skos/core#definition commitment made by one party without reference any other the party to which the commitment is made
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Beneficiary http://www.w3.org/2004/02/skos/core#definition party that receives some benefit or advantage or profits from something
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/UnilateralCommitment http://www.w3.org/2000/01/rdf-schema#label unilateral commitment
+Nefe041f2f0a746ceb23a71b6c69eec03 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Agreement
+Nefe041f2f0a746ceb23a71b6c69eec03 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Agreement http://www.w3.org/2000/01/rdf-schema#subClassOf Nd57f294ebbd5419d88062ba0ff23e702
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+Nd57f294ebbd5419d88062ba0ff23e702 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nbeb1e7609eb74017a661f3426d049d92 http://www.w3.org/2002/07/owl#someValuesFrom N75eeb5efaba840f2b628bbefb7733485
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20141101/Agreements/Agreement.rdf version of the ontology was modified per the issue resolutions identified in the FIBO FND 1.1 RTF report and in https://spec.edmcouncil.org/fibo/ontology/FND/1.1/AboutFND-1.1/.
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Obligee http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/PartiesAndSituations/PartyRole
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Agreement http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/PartiesAndSituations/Situation
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/CommitmentAtLarge http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/hasObligation http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Obligor
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Commitment http://www.w3.org/2004/02/skos/core#definition promise made by some party to act or refrain from acting in some manner
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Commitment http://www.w3.org/2000/01/rdf-schema#label commitment
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/PartiesAndSituations/
+Nefe041f2f0a746ceb23a71b6c69eec03 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/UnilateralCommitment http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20230101/Agreements/Agreement.rdf version of the ontology was modified to replace content that is now available in the OMG Commons Ontology Library (Commons) v1.1 (FND-380).
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Beneficiary http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N6543dca5a0984eab9a6cb568966037dc http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/RolesAndCompositions/isPlayedBy
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Obligor http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/PartiesAndSituations/PartyRole
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Obligee http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/MutualAgreement http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/MutualAgreement http://www.w3.org/2000/01/rdf-schema#subClassOf N7e8f587f4ee84ea6b380d1e0eeccacc2
+N7e8f587f4ee84ea6b380d1e0eeccacc2 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/MutualCommitment
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/CommitmentAtLarge http://www.w3.org/2004/02/skos/core#definition commitment made by some party without direct involvement from the potential beneficiaries of that commitment
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/MutualCommitment http://www.w3.org/2000/01/rdf-schema#subClassOf Ndb45eb4f3ddc46de8792b9d9f487997c
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20200301/Agreements/Agreement.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary, clean up definitions to conform with ISO 704, add a missing restriction to mutual commitment, and eliminate an unnecessary reference to LCC.
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Agreement http://www.w3.org/2004/02/skos/core#definition negotiated understanding between two or more parties, reflecting the offer and acceptance of commitments on the part of either party
+Nfbd25668e77b40faa4d5049855831c76 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Agreement
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/IndividualUnilateralCommitment http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nfbd25668e77b40faa4d5049855831c76 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Commitment http://www.w3.org/2000/01/rdf-schema#subClassOf https://www.omg.org/spec/Commons/PartiesAndSituations/Situation
+Ndb45eb4f3ddc46de8792b9d9f487997c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/MutualAgreement http://www.w3.org/2004/02/skos/core#definition agreement between two or more specific named parties whereby the rights and obligations embodied in the agreement cannot be transferred to another party without prior agreement
+Nefe041f2f0a746ceb23a71b6c69eec03 http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/PartiesAndSituations/isAPartyTo
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/MutualCommitment http://www.w3.org/2000/01/rdf-schema#label mutual commitment
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/MutualCommitment http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Commitment
+N3f8c89dbe3f345318decaa6b05da9694 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/isObligationOf http://www.w3.org/2004/02/skos/core#definition identifies a party that has a given obligation
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Obligor http://www.w3.org/2004/02/skos/core#definition party that is bound legally or by agreement to repay a debt, make a payment, do something, or refrain from doing something
+N7e8f587f4ee84ea6b380d1e0eeccacc2 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Agreement http://www.w3.org/2000/01/rdf-schema#subClassOf N3f8c89dbe3f345318decaa6b05da9694
+N75eeb5efaba840f2b628bbefb7733485 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Agreement
+N75eeb5efaba840f2b628bbefb7733485 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N354580b4bae2487a8834541aff7dbcb2 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Obligor http://www.w3.org/2000/01/rdf-schema#label obligor
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Commitment http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Beneficiary http://www.w3.org/2000/01/rdf-schema#subClassOf N6543dca5a0984eab9a6cb568966037dc
+N7e8f587f4ee84ea6b380d1e0eeccacc2 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/confers
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/CommitmentAtLarge http://www.w3.org/2000/01/rdf-schema#label commitment at large
+N0df9876884ad4653818b837525dc436c http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/hasObligation
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2013-2024 Object Management Group, Inc.
+Ndb45eb4f3ddc46de8792b9d9f487997c http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/PartiesAndSituations/PartyRole
+Nbeb1e7609eb74017a661f3426d049d92 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Agreement https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote All agreements are time bound, whether implicit or explicitly stated, and thus an agreement reflects a state of affairs that holds for some period of time.
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/isObligationOf http://www.w3.org/2000/01/rdf-schema#label is obligation of
+Nfbd25668e77b40faa4d5049855831c76 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/MutualAgreement http://www.w3.org/2004/02/skos/core#scopeNote This may or may not be a contractual agreement - it also forms the basis of REA transaction models which may or may not refer to contractual agreements, since REA is also used to frame transactions internal to an individual organization.
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Release
+N6543dca5a0984eab9a6cb568966037dc http://www.w3.org/2002/07/owl#someValuesFrom Nfbd25668e77b40faa4d5049855831c76
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/ http://www.w3.org/2004/02/skos/core#changeNote The http://www.omg.org/spec/FIBO/Foundations/20130601/Agreements/Agreements.owl version of the ontology was revised in advance of the September 2013 New Brunswick, NJ meeting, as follows:
+   (1) to use slash style URI/IRIss (also called 303 URIs, vs. hash style) as required to support server side processing 
+   (2) to use version-independent IRIs for all definitions internally as opposed to version-specific IRIs
+   (3) to change the file suffix from .owl to .rdf to increase usability in RDF tools
+   (4) to use 4-level abbreviations and corresponding namespace prefixes for all FIBO ontologies, reflecting a family/specification/module/ontology structure
+   (5) to incorporate changes to the specification metadata to support documentation at the family, specification, module, and ontology level, similar to the abbreviations.
+   (6) to revise a few of the definitions based on more formal sources.
+N3f8c89dbe3f345318decaa6b05da9694 http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/PartiesAndSituations/PartyRole
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/ http://www.w3.org/2000/01/rdf-schema#label Agreements Ontology
+Ndb45eb4f3ddc46de8792b9d9f487997c http://www.w3.org/2002/07/owl#minQualifiedCardinality 2
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/RolesAndCompositions/
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/MutualCommitment http://www.w3.org/2004/02/skos/core#definition commitment between two or more parties
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/CommitmentAtLarge http://www.w3.org/2004/02/skos/core#scopeNote A commitment at large forms the basis for negotiable securities including transferable contracts and potentially other kinds of agreements such as software licenses.
+N75eeb5efaba840f2b628bbefb7733485 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Beneficiary http://www.w3.org/2000/01/rdf-schema#label beneficiary
+N3f8c89dbe3f345318decaa6b05da9694 http://www.w3.org/2002/07/owl#minQualifiedCardinality 2
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/UnilateralCommitment http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Commitment
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/ http://purl.org/dc/terms/abstract This ontology defines the concept of an agreement and roles that parties to an agreement play in the context of financial agreements. Agreements represent an understanding between parties, whereas contracts typically formalize such agreements.
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Commitment https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Such a promise often results a corresponding right or obligation with respect to another party to the commitment. Thus, obligations and rights are considered as reciprocal aspects of a commitment.
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20160201/Agreements/Agreement.rdf version of the ontology was modified per FIBO 2.0 RFC to add general concepts including obligor, obligee, and beneficiary in support of other FIBO domain areas.
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/FND/20130801/Agreements/Agreement.rdf version of the ontology was modified per the issue resolutions identified in the FIBO FND 1.0 FTF report and in https://spec.edmcouncil.org/fibo/ontology/FND/1.0/AboutFND-1.0/.
+https://spec.edmcouncil.org/fibo/ontology/FND/Agreements/Agreements/Agreement http://www.w3.org/2000/01/rdf-schema#label agreement

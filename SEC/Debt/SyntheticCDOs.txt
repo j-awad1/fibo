@@ -1,0 +1,182 @@
+Nc5ffe1af02af49c98814b096b29ca0a1 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/DER/CreditDerivatives/CreditDefaultSwaps/CreditDefaultSwap
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/simulatedBy http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/DER/CreditDerivatives/CreditDefaultSwaps/CreditDefaultSwap
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/isTrancheOf http://www.w3.org/2000/01/rdf-schema#label is tranche of
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticDebtInstrumentPool http://www.w3.org/2000/01/rdf-schema#subClassOf Nc5ffe1af02af49c98814b096b29ca0a1
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/simulatedBy http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticPoolAsset
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/simulates.1 http://www.w3.org/2000/01/rdf-schema#label simulates
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/ArbitrageSyntheticCDO http://www.w3.org/2000/01/rdf-schema#subClassOf N8da540f2a5584ee88e365e4eacd3e42a
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticCDOTranche http://www.w3.org/2000/01/rdf-schema#label synthetic c d o tranche
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/isTrancheOf http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticCDOTranche
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/hasUnderlyingContract http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticDebtInstrumentPool
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/ArbitrageSyntheticCDO http://www.w3.org/2000/01/rdf-schema#label arbitrage synthetic c d o
+N4c52cf8b03cd4c8983f147c47f40cb7a http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticPoolAsset
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/holds http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/ArbitrageSyntheticCDO https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote For arbitrage synthetic deals, two advantages are - an abbreviated ramp-up period (for managed deals), and - the possibility that selling protection through CDSs can be less expensive than directly buying the underlying bonds. This is often true at the lower end of the credit spectrum.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/ArbitrageSyntheticCDO http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticStructuredFinanceInstrument http://www.w3.org/2000/01/rdf-schema#label synthetic structured finance instrument
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticAmortizingSecurity http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/trancheType http://www.w3.org/2000/01/rdf-schema#label tranche type
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticDebtSPV http://www.w3.org/2000/01/rdf-schema#label synthetic debt s p v
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/simulatedBy http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/ArbitrageSyntheticCDO http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/CollateralizedDebtObligations/ArbitrageCDO
+N5d3f202c72074542b82cf2929f3414e5 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nc5ffe1af02af49c98814b096b29ca0a1 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/hasUnderlyingContract
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/makesReferenceTo http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/CollateralizedDebtObligations/CashCDOTranche http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticDebtSPV http://www.w3.org/2000/01/rdf-schema#subClassOf N7f423a8b57be4b08920f4c192368dc36
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/PoolBackedSecurities/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/assetsManagedBy http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/CollateralizedDebtObligations/CDOPortfolioManager
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticDebtInstrumentPoolFundingAsset http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N4c52cf8b03cd4c8983f147c47f40cb7a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N8da540f2a5584ee88e365e4eacd3e42a http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticCDOTranche
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticBalanceSheetCDO http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticCDO
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticCDO http://www.w3.org/2000/01/rdf-schema#subClassOf N88432b3d055d49f78118fbf3709c914e
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticCDOTranche http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/simulatedBy http://www.w3.org/2004/02/skos/core#definition The underlying CDS which is created to mechanise the cash flows in the synthetic portfolio.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticDebtSPV http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/SpecialPurposeVehicle
+N74e72ad5bbe0459aa185a2ceecb5e503 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticDebtInstrumentPoolFundingAsset
+N4c52cf8b03cd4c8983f147c47f40cb7a http://www.w3.org/2002/07/owl#onProperty https://www.omg.org/spec/Commons/Documents/refersTo
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/hasInvestmentGrade http://www.w3.org/2000/01/rdf-schema#label has investment grade
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/fundedBy http://www.w3.org/2000/01/rdf-schema#label funded by
+N8da540f2a5584ee88e365e4eacd3e42a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/simulatedBy http://www.w3.org/2000/01/rdf-schema#label simulated by
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticStructuredFinanceInstrument http://www.w3.org/2000/01/rdf-schema#subClassOf N4c52cf8b03cd4c8983f147c47f40cb7a
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/percentageOfDefaultsThisTranche http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticCDOPortfolioConstituent http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/simulates.1 http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticDebtInstrumentPool
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/ http://www.w3.org/2000/01/rdf-schema#label SyntheticCDOs
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticDebtSPV http://www.w3.org/2004/02/skos/core#editorialNote REVIEW: Whether this is (or is ever) a separate SPV for Synthetics, as it is for Cash CDO and other Cash structured finance. If not, how to define the facts at the level of SPV without contradictions. Moving stuff off the balance sheet is involved in putting it into the SPV. So talking a bout balance sheet or off balanc sheet, this is about creating the pool which is going to be sold off. This applies whether hte pool is cash (real holdings) or synthetics. Either way ,the instruments are transferred into the CPV to sell them off. conclusion: applies to cash and non cash. In the old days there were all sorts of guarantees added to that SPOV. Now if you provide support to that =SPV it is no longer "Off balance sheet" froma regulatory point of view. Accounting rules refer.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/fundedBy http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/isCash http://www.w3.org/2004/02/skos/core#definition Whether the CDO has an underlying pool of real assets. This is No: the CDO has a synthetic pool of underlying assets.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/makesReferenceTo http://www.w3.org/2000/01/rdf-schema#label makes reference to
+N88432b3d055d49f78118fbf3709c914e http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N91483e355b594a9287cd23832198e8c7 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/notionallyHolds
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/CollateralizedDebtObligations/
+N74e72ad5bbe0459aa185a2ceecb5e503 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/fundedBy
+Nc5ffe1af02af49c98814b096b29ca0a1 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N49bc53b5e9e343ba946ee09ff29252e8 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/CollateralizedDebtObligations/CDOPortfolioManager
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/notionallyHolds http://www.w3.org/2000/01/rdf-schema#label notionally holds
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Provisional
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/simulates http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticPoolAsset
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/percentageOfDefaultsThisTranche http://www.w3.org/2004/02/skos/core#definition The percentage of defaults which holders of this are exposed to, that is the percentage of defaults that this tranche represents. Further Notes Review session notes 21 April: The first, second and so on, to stop paying out when there is a default. In each case you get the first, second etc. x% of defaults. Base underlying may be high or low quality. Create the pool by buying or selling protection depending on hich way you want to go, e..g. have high quality funds, (borrowers), would sell protection. If low quality, would buy protection to improve quality. So risk is no longer bound to the funding. REVIEW: More likely this is a band of percentages (from and to); review and formalize. See also note on attachment and detachment points.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticDebtInstrumentPool http://www.w3.org/2000/01/rdf-schema#subClassOf N4ee190443bd54bb09cd6c404dd3bb79a
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticCDOPortfolio http://www.w3.org/2004/02/skos/core#editorialNote Review notes: What real stuff is this made of? Would be the actual contracts (the Ref Obligation contracts or the CDS contract)? Buyer of protection is buying protection and paying a fee. Similar to shorting on a stock. Seller of the protection is the one creating the instruments. So the Protection Seller is using the synthetic CDO as some kind of synthetic vehicle. Inside the portfolio is the actual contract that generates the cash.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticCDO http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/Documents/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/percentageOfDefaultsThisTranche http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/QuantitiesAndUnits/Percentage
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/ArbitrageSyntheticCDO http://www.w3.org/2004/02/skos/core#definition Arbitrage synthetic CDO deals are motivated by regulatory or practical considerations that might make a bank want to retain ownership of debt while achieving capital relief through CDSs. In this case, the sponsoring bank has a portfolio of obligations, called the reference portfolio. It retains that portfolio, but offloads its credit risk by transacting CDSs with the CDO.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/hasUnderlyingContract http://www.w3.org/2004/02/skos/core#definition The underlying CDS which is created to mechanise the cash flows in the synthetic portfolio.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticAmortizingSecurity http://www.w3.org/2004/02/skos/core#definition Security constructed to emulate an amortizing security.
+N6e3ce84e9ba1460a8436044b121af56f http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/simulatedBy
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticPoolAsset http://www.w3.org/2000/01/rdf-schema#label synthetic pool asset
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticDebtInstrumentPool http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/makesReferenceTo http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticCDOPortfolio
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/fundedBy http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticDebtInstrumentPoolFundingAsset
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/assetsManagedBy http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/ArbitrageSyntheticCDO
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/notionallyHolds http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticBalanceSheetCDO http://www.w3.org/2000/01/rdf-schema#subClassOf N5d3f202c72074542b82cf2929f3414e5
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticCDOTranche http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/CollateralizedDebtObligations/CollateralizedDebtObligation
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/SEC/Funds/Funds/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticCDOPortfolio http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N4ee190443bd54bb09cd6c404dd3bb79a http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticCDOPortfolio
+Na60bf94351054d12af10d3be2927cab0 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/isTrancheOf http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticDebtInstrumentPool
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/percentageOfDefaultsThisTranche http://www.w3.org/2000/01/rdf-schema#label percentage of defaults this tranche
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/hasUnderlyingContract http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/DER/CreditDerivatives/CreditDefaultSwaps/CreditDefaultSwap
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/hasInvestmentGrade http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticDebtInstrumentPoolFundingAsset
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/CollateralizedDebtObligations/CashCDOTranche http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticCDOTranche
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticDebtSPV http://www.w3.org/2004/02/skos/core#definition A Special Purpose Vehicle set up for the issuance of synthetics CDOs. This entity (like all SPVs) its itself registered as some kind of legal entity, distinct from the sponsoring organization. It becomes the Issuer of Synthetic CDO issues.
+N7f423a8b57be4b08920f4c192368dc36 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticDebtInstrumentPoolFundingAsset
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Pools/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticBalanceSheetCDO http://www.w3.org/2000/01/rdf-schema#label synthetic balance sheet c d o
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticDebtInstrumentPool http://www.w3.org/2000/01/rdf-schema#label synthetic debt instrument pool
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticBalanceSheetCDO http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/CollateralizedDebtObligations/BalanceSheetCDO
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticCDOPortfolioConstituent http://www.w3.org/2000/01/rdf-schema#label synthetic c d o portfolio constituent
+N5d3f202c72074542b82cf2929f3414e5 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticCDOTranche
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticPoolAsset http://www.w3.org/2000/01/rdf-schema#subClassOf N6e3ce84e9ba1460a8436044b121af56f
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/holds http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticDebtInstrumentPoolFundingAsset
+N7f423a8b57be4b08920f4c192368dc36 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/holds
+N4ee190443bd54bb09cd6c404dd3bb79a http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N49bc53b5e9e343ba946ee09ff29252e8 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/assetsManagedBy
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticAmortizingSecurity http://www.w3.org/2000/01/rdf-schema#label synthetic amortizing security
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/assetsManagedBy http://www.w3.org/2000/01/rdf-schema#label assets managed by
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticCDOPortfolio http://www.w3.org/2000/01/rdf-schema#subClassOf N91483e355b594a9287cd23832198e8c7
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticDebtInstrumentPool http://www.w3.org/2004/02/skos/core#definition A cash flow structure which synthesizes the behavior of a portfolio of debt securities. For example a synthesized portfolio of CDO / Bonds / ABS using Total Returns Swaps and CDS. This does exist, it is just manufactured from different instruments.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/hasUnderlyingContract http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+N88432b3d055d49f78118fbf3709c914e http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/issues
+N8da540f2a5584ee88e365e4eacd3e42a http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/issues
+N17c0fc175b1649b0a71d0834369c7df1 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/isTrancheOf
+N6e3ce84e9ba1460a8436044b121af56f http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/DER/CreditDerivatives/CreditDefaultSwaps/CreditDefaultSwap
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/hasUnderlyingContract http://www.w3.org/2000/01/rdf-schema#label has underlying contract
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/holds http://www.w3.org/2000/01/rdf-schema#label holds
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/trancheType http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticCDOTranche
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/trancheType http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/CollateralizedDebtObligations/CDOTrancheSenioritySelection
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/issues http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticCDO
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/percentageOfDefaultsThisTranche http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticCDOTranche
+N49bc53b5e9e343ba946ee09ff29252e8 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticCDOTranche http://www.w3.org/2000/01/rdf-schema#subClassOf N17c0fc175b1649b0a71d0834369c7df1
+N6e3ce84e9ba1460a8436044b121af56f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N17c0fc175b1649b0a71d0834369c7df1 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Na60bf94351054d12af10d3be2927cab0 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/hasInvestmentGrade
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticCDO http://www.w3.org/2000/01/rdf-schema#label synthetic c d o
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/DER/CreditDerivatives/CreditDefaultSwaps/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/isTrancheOf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/fundedBy http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticDebtInstrumentPool
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticStructuredFinanceInstrument http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/PoolBackedSecurities/StructuredFinanceInstrument
+N88432b3d055d49f78118fbf3709c914e http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticCDOTranche
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/issues http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/trancheType http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2015-2023 EDM Council, Inc.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/hasInvestmentGrade http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/InstrumentCreditRating
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticBalanceSheetCDO http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/simulates http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticCDOPortfolio http://www.w3.org/2000/01/rdf-schema#label synthetic c d o portfolio
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/
+N5d3f202c72074542b82cf2929f3414e5 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/issues
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/QuantitiesAndUnits/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticDebtInstrumentPoolFundingAsset http://www.w3.org/2000/01/rdf-schema#subClassOf Na60bf94351054d12af10d3be2927cab0
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticDebtInstrumentPoolFundingAsset http://www.w3.org/2004/02/skos/core#definition An asset which provides the funding for a synthetic debt instrument pool, as used in a synthetic CDO.
+N7f423a8b57be4b08920f4c192368dc36 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/hasInvestmentGrade http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/issues http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticCDOTranche
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticCDOPortfolioConstituent http://www.w3.org/2004/02/skos/core#definition An instrument which is defined as a constituent of a synthetic pool of instruments. These are not holdings because they are not held, but in all other respects they are the constituents of the portfolio.
+Na60bf94351054d12af10d3be2927cab0 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/DebtAndEquities/CreditRatings/InstrumentCreditRating
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/holds http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticDebtSPV
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticDebtInstrumentPoolFundingAsset http://www.w3.org/2000/01/rdf-schema#label synthetic debt instrument pool funding asset
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/ http://purl.org/dc/terms/abstract Synthetic collateralized debt obligations are instruments designed to provide the same kind of structure and returns as a CDO, but these are not backed by an actual pool of debt assets.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/makesReferenceTo http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticDebtInstrumentPool
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticDebtInstrumentPool http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/Pools/DebtPool
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/isCash http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticAmortizingSecurity http://www.w3.org/2004/02/skos/core#scopeNote Synthetic instruments can be created to mimic a wide range of debt instruments. These are not all shown here. This one is shown as an example
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/isCash http://www.w3.org/2000/01/rdf-schema#label is cash
+N91483e355b594a9287cd23832198e8c7 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticStructuredFinanceInstrument http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/assetsManagedBy http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N17c0fc175b1649b0a71d0834369c7df1 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticDebtInstrumentPool
+N4ee190443bd54bb09cd6c404dd3bb79a http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/makesReferenceTo
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/notionallyHolds http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticCDOPortfolioConstituent
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/BE/LegalEntities/LegalPersons/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticDebtInstrumentPool http://www.w3.org/2000/01/rdf-schema#subClassOf N74e72ad5bbe0459aa185a2ceecb5e503
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/simulates http://www.w3.org/2000/01/rdf-schema#label simulates
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/simulates.1 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/issues http://www.w3.org/2000/01/rdf-schema#label issues
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticAmortizingSecurity http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticStructuredFinanceInstrument
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/isCash http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticCDOTranche
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticDebtSPV http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+N74e72ad5bbe0459aa185a2ceecb5e503 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticPoolAsset http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/ArbitrageSyntheticCDO http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticBalanceSheetCDO
+N91483e355b594a9287cd23832198e8c7 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticCDOPortfolioConstituent
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/ArbitrageSyntheticCDO http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticCDO
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticDebtInstrumentPoolFundingAsset http://www.w3.org/2004/02/skos/core#definition From April 28 review session: CDS mechanization: Q: Are the CDS taken out on the constituents of the (non owned) pool or on some other instrument? A: There is funding to underpin the pool. The funding may be high grade debt or may be low grade. There is an undedrlying source of funds. then you swap (using CDS) into other risks. so I might lend to a government institution, and then sell protection against a whole series of corporates. So I've taken the high quality portfolio and added other risks to it. Or the other way round. conclusions:
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticPoolAsset http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/AccountingEquity/FinancialAsset
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/ArbitrageSyntheticCDO http://www.w3.org/2000/01/rdf-schema#subClassOf N49bc53b5e9e343ba946ee09ff29252e8
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/notionallyHolds http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticCDOPortfolio
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/SyntheticCDO http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/CollateralizedDebtObligations/CDODeal
+https://spec.edmcouncil.org/fibo/ontology/SEC/Debt/SyntheticCDOs/isCash http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#boolean

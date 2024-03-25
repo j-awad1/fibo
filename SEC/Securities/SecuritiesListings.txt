@@ -1,0 +1,204 @@
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/Listing http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N72a1ac82dc5e49f5ba4f7a950a47e3c9 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/RegisteredForm
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasDelistingDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+N62e2fb6fdd384933b4309fd95fe385d6 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasLastTradingDateTime http://www.w3.org/2000/01/rdf-schema#label has last trading date and time
+N62e2fb6fdd384933b4309fd95fe385d6 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasDelistingDate
+Nc9bb081827b242deaaf8dafc8b8f3c61 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/isListedVia http://www.w3.org/2002/07/owl#inverseOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/lists
+N62e2fb6fdd384933b4309fd95fe385d6 http://www.w3.org/2002/07/owl#onDataRange https://www.omg.org/spec/Commons/DatesAndTimes/CombinedDateTime
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/isSeasoned http://www.w3.org/2004/02/skos/core#definition indicates that the security has been publicly traded long enough to eliminate any short-term volume volatility from its initial public offering
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20201201/Securities/SecuritiesListings.rdf version of this ontology was revised to eliminate a false positive hygiene testing issue due to a concept whose name included 'and' but that actually was a singular concept.
+N1c5e32b01bcb4c3ba2d4f6b6ad03a777 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ListingService
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ListingService http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/FinancialService
+N369f7ee1741b47d0a03052705c21b194 http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/BearerAndRegisteredForm
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/isListedVia http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/Listing
+Ne18fe7737a0b43f3834d302d9182f3a8 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ListedSecurity http://www.w3.org/2004/02/skos/core#definition registered security listed on at least one exchange
+N46746ab1e0184a84ac248310234bc0d5 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nb51539d7efb947a2b71a012f3ce1856c http://www.w3.org/2002/07/owl#onDataRange https://www.omg.org/spec/Commons/DatesAndTimes/CombinedDateTime
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Parties/Parties/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/Listing http://www.w3.org/2000/01/rdf-schema#subClassOf N5a0c4d26f7134c7db50c8d4302479e08
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ListedSecurity http://www.w3.org/2000/01/rdf-schema#subClassOf Nb973c0092e5a421497702abf530a7284
+Nd154e22086a642399caa113d8c865abb http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/isTradedOn http://www.w3.org/2004/02/skos/core#definition identifies the trading facility on which the security is traded
+N5a0c4d26f7134c7db50c8d4302479e08 http://www.w3.org/2002/07/owl#onDataRange http://www.w3.org/2001/XMLSchema#decimal
+N225b0742a2c9424f939a45b1100d3140 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/lists
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ListingService http://www.w3.org/2000/01/rdf-schema#subClassOf Nc9bb081827b242deaaf8dafc8b8f3c61
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ListingService http://www.w3.org/2000/01/rdf-schema#subClassOf N01a5bb97438f4a37a8691b6ac2551565
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/isListedVia http://www.w3.org/2000/01/rdf-schema#label is listed via
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20190901/Securities/SecuritiesListings.rdf version of this ontology was revised to restructure the concept of a listing and augment it with a number of relevant characteristics.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/lists http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ListedSecurity http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+Nb973c0092e5a421497702abf530a7284 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+N01a5bb97438f4a37a8691b6ac2551565 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/provides
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/isSeasoned http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/RegisteredSecurity http://www.w3.org/2004/02/skos/core#definition security that is registered with some registration authority
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/isListedVia http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ListedSecurity
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ListedSecurity http://www.w3.org/2000/01/rdf-schema#label listed security
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/isTradedOn http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isProvidedBy
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/isTradedOn http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ListedSecurity
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/hasMaturityLevel https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/Release
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ http://www.w3.org/2000/01/rdf-schema#label Securities Listings Ontology
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ListedSecurity http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/RegisteredSecurity
+N01a5bb97438f4a37a8691b6ac2551565 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+Nb16ce73c21f04e6c89974e063e39cd84 http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/Currency
+N72a1ac82dc5e49f5ba4f7a950a47e3c9 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest http://www.w3.org/1999/02/22-rdf-syntax-ns#nil
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/Markets/
+N08d9660afa2c4285b6f57ddc882e7812 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasTickSize http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasMonetaryAmount
+N225b0742a2c9424f939a45b1100d3140 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasListingDate http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#DatatypeProperty
+N852cbd8c00b14e9f91ea8701d0ebd14a http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N72a1ac82dc5e49f5ba4f7a950a47e3c9
+N48168d56d13d4fb89a456070db96b021 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasTickSize http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/Listing
+N59aaf71d00c54b11ba6da1db4c39682f http://www.w3.org/2002/07/owl#someValuesFrom N46746ab1e0184a84ac248310234bc0d5
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasLastTradingDateTime http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/isListedVia http://www.w3.org/2004/02/skos/core#definition identifies the service responsible for listing the security
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/Listing http://www.w3.org/2000/01/rdf-schema#subClassOf Nb16ce73c21f04e6c89974e063e39cd84
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/isTradedOn http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/Markets/Exchange
+N5a0c4d26f7134c7db50c8d4302479e08 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Ne5d62ca7a3984c969e4eed19943c8a0c http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/isRegisteredWith
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/isListedVia http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N2157418e74144951be122419ca4deb87 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasHomeExchange
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasOriginalPlaceOfListing http://www.w3.org/2004/02/skos/core#definition indicates the original exchange that listed the security
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/isSeasoned http://www.w3.org/2000/01/rdf-schema#label is seasoned
+Nb51539d7efb947a2b71a012f3ce1856c http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/Listing http://www.w3.org/2000/01/rdf-schema#subClassOf N225b0742a2c9424f939a45b1100d3140
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/RegisteredSecurity http://www.w3.org/2000/01/rdf-schema#subClassOf Ne5d62ca7a3984c969e4eed19943c8a0c
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasDelistingDate http://www.w3.org/2000/01/rdf-schema#label has delisting date
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/isTradedOn http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/Markets/Exchange http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2016-2023 EDM Council, Inc.
+N852cbd8c00b14e9f91ea8701d0ebd14a http://www.w3.org/1999/02/22-rdf-syntax-ns#first https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/BookEntryForm
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasDelistingDate http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/CombinedDateTime
+N48168d56d13d4fb89a456070db96b021 http://www.w3.org/2002/07/owl#onClass https://www.omg.org/spec/Commons/DatesAndTimes/DateTime
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/Listing http://www.w3.org/2000/01/rdf-schema#subClassOf N48168d56d13d4fb89a456070db96b021
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20230301/Securities/SecuritiesListings.rdf version of this ontology was modified to normalize the representation of security forms (all individuals rather than a mixed representation).
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/lists http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/Listing
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessRegistries/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasHomeExchange https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym has primary trading market
+N01a5bb97438f4a37a8691b6ac2551565 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ListingService http://www.w3.org/2000/01/rdf-schema#label listing service
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20200301/Securities/SecuritiesListings.rdf version of this ontology was revised to incorporate the form of registration and loosen the restriction on the number of possible registration authorities for a registered security.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/InstrumentPricing/
+N1c5e32b01bcb4c3ba2d4f6b6ad03a777 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/provides
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/Listing http://www.w3.org/2000/01/rdf-schema#label listing
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20191201/Securities/SecuritiesListings.rdf version of this ontology was revised to eliminate duplication of concepts in LCC and to eliminate the redundancy between hasIssue and lists.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ListingService http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N03ddb549b9ef4011ab3245d829400cdf http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/isListedVia
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasHomeExchange http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isProvidedBy
+N5b13e81098134292982cb09abe345419 http://www.w3.org/2002/07/owl#maxQualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/RegisteredSecurity http://www.w3.org/2000/01/rdf-schema#label registered security
+N08d9660afa2c4285b6f57ddc882e7812 http://www.w3.org/2002/07/owl#someValuesFrom https://www.omg.org/spec/Commons/DatesAndTimes/CombinedDateTime
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/lists http://www.w3.org/2000/01/rdf-schema#label lists
+N59aaf71d00c54b11ba6da1db4c39682f http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasTickSize http://www.w3.org/2000/01/rdf-schema#label has tick size
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ http://www.w3.org/2002/07/owl#versionIRI https://spec.edmcouncil.org/fibo/ontology/SEC/20230601/Securities/SecuritiesListings/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasHomeExchange https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote A primary market is one that issues new securities on an exchange for companies, governments, and other groups to obtain financing through debt-based or equity-based securities.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ http://purl.org/dc/terms/abstract This ontology defines the fundamental concepts for listing securities, such as registered, listed, and exchange-traded security, the notion of a securities exchange, and related services.
+Nc9bb081827b242deaaf8dafc8b8f3c61 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N59aaf71d00c54b11ba6da1db4c39682f http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/isIssuedInForm
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/AnnotationVocabulary/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasHomeExchange http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/Markets/Exchange
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasHomeExchange http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/RegisteredSecurity http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Class
+N03ddb549b9ef4011ab3245d829400cdf http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasListingDate http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/CombinedDateTime
+Ne5d62ca7a3984c969e4eed19943c8a0c http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/RegistrationAuthorities/RegistrationAuthority
+Nb16ce73c21f04e6c89974e063e39cd84 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N369f7ee1741b47d0a03052705c21b194 http://www.w3.org/1999/02/22-rdf-syntax-ns#rest N852cbd8c00b14e9f91ea8701d0ebd14a
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasHomeExchange http://www.w3.org/2000/01/rdf-schema#label has home exchange
+Nd154e22086a642399caa113d8c865abb http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasOriginalPlaceOfListing http://www.w3.org/2000/01/rdf-schema#label has original place of listing
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Places/VirtualPlaces/
+Nb973c0092e5a421497702abf530a7284 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasOriginalPlaceOfListing
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ListedSecurity https://www.omg.org/spec/Commons/AnnotationVocabulary/usageNote One can, as appropriate, multiply classify a share as being a common share and listed share, and, in the case whereby multiple securities are issued in different currencies (i.e., there are multiple listed shares corresponding to a given common share that have different identifiers, including more than one ISIN, CUSIP, share class FIGI), multiply classify the listed share individuals as individuals of the same common share.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/ProductsAndServices/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20180801/Securities/SecuritiesListings.rdf version of this ontology was revised to reuse the composite date value datatype and add disjointness between registered security and exempt security.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ListedSecurity https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym exchange-traded security
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasTickSize http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+Nb973c0092e5a421497702abf530a7284 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/Markets/Exchange
+N48168d56d13d4fb89a456070db96b021 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasLastTradingDateTime
+https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/Markets/Exchange http://www.w3.org/2000/01/rdf-schema#subClassOf N1c5e32b01bcb4c3ba2d4f6b6ad03a777
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ListingService http://www.w3.org/2000/01/rdf-schema#subClassOf Nd154e22086a642399caa113d8c865abb
+N62e2fb6fdd384933b4309fd95fe385d6 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasOriginalPlaceOfListing http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/Markets/Exchange
+Ne18fe7737a0b43f3834d302d9182f3a8 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasHomeExchange http://www.w3.org/2004/02/skos/core#definition indicates the exchange that is considered the primary market for a security; typically, but not always, in the country in which the security was originally issued
+Ne18fe7737a0b43f3834d302d9182f3a8 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasTickSize
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20230201/Securities/SecuritiesListings.rdf version of this ontology was modified to use the Commons Ontology Library (Commons) rather than the OMG's Languages, Countries and Codes (LCC), eliminating redundancies in FIBO as appropriate.
+N225b0742a2c9424f939a45b1100d3140 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nb51539d7efb947a2b71a012f3ce1856c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+N2157418e74144951be122419ca4deb87 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/Markets/Exchange
+N5b13e81098134292982cb09abe345419 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessRegistries/hasRegistrationStatus
+N03ddb549b9ef4011ab3245d829400cdf http://www.w3.org/2002/07/owl#someValuesFrom https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/Listing
+N48168d56d13d4fb89a456070db96b021 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+N08d9660afa2c4285b6f57ddc882e7812 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/RegistrationAuthorities/hasRegistrationDate
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/isSeasoned http://www.w3.org/2000/01/rdf-schema#range http://www.w3.org/2001/XMLSchema#boolean
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Places/Facilities/
+N5a0c4d26f7134c7db50c8d4302479e08 http://www.w3.org/2002/07/owl#minQualifiedCardinality 0
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/Listing https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym market listing
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/RegisteredSecurity http://www.w3.org/2000/01/rdf-schema#subClassOf N08d9660afa2c4285b6f57ddc882e7812
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasTickSize http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/MonetaryAmount
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/RegisteredSecurity http://www.w3.org/2002/07/owl#disjointWith https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/ExemptSecurity
+Nc9bb081827b242deaaf8dafc8b8f3c61 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/ProductsAndServices/isProvisionedBy
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ListedSecurity http://www.w3.org/2000/01/rdf-schema#subClassOf N2157418e74144951be122419ca4deb87
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/isSeasoned http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ListedSecurity
+N1c5e32b01bcb4c3ba2d4f6b6ad03a777 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20190401/Securities/SecuritiesListings.rdf version of this ontology was revised to eliminate an extraneous subclass axiom.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20210601/Securities/SecuritiesListings.rdf version of the ontology was modified to use the Commons Ontology Library (Commons) Annotation Vocabulary rather than the OMG's Specification Metadata vocabulary.
+Nc9bb081827b242deaaf8dafc8b8f3c61 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/Markets/Exchange
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20190701/Securities/SecuritiesListings.rdf version of this ontology was revised to rename isIssuedIn to isIssuedOn, which is more natural to most securities SMEs, generalized certain references to securities exchanges, and eliminate deprecated elements.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasListingDate http://www.w3.org/2004/02/skos/core#definition indicates the date on which a security is listed
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasHomeExchange http://www.w3.org/2004/02/skos/core#example A security may have been originally listed on the Frankfurt exchange, but its current home is the London Stock Exchange, for example.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/RegistrationAuthorities/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/Listing http://www.w3.org/2000/01/rdf-schema#subClassOf Nb51539d7efb947a2b71a012f3ce1856c
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20200401/Securities/SecuritiesListings.rdf version of this ontology was revised to eliminate confusion between listed security and listing (which caused reasoning issues), adjust definitions to eliminate ambiguity, add a property for lot size on listing, and eliminate the now redundant and confusing registered security form class.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasLastTradingDateTime http://www.w3.org/2000/01/rdf-schema#range https://www.omg.org/spec/Commons/DatesAndTimes/DateTime
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/RegisteredSecurity http://www.w3.org/2000/01/rdf-schema#subClassOf https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/Security
+Ne5d62ca7a3984c969e4eed19943c8a0c http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasLastTradingDateTime http://www.w3.org/2000/01/rdf-schema#subPropertyOf https://www.omg.org/spec/Commons/DatesAndTimes/hasDateTime
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ListingService http://www.w3.org/2004/02/skos/core#definition service provided by an exchange to facilitate securities trading
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/Listing http://www.w3.org/2000/01/rdf-schema#subClassOf Ne18fe7737a0b43f3834d302d9182f3a8
+N5a0c4d26f7134c7db50c8d4302479e08 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/InstrumentPricing/hasLotSize
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasTickSize http://www.w3.org/2004/02/skos/core#definition specifies a minimum price movement for the security with respect to an exchange
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/Listing http://www.w3.org/2000/01/rdf-schema#subClassOf N5b13e81098134292982cb09abe345419
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Ontology
+Nb973c0092e5a421497702abf530a7284 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+Nd154e22086a642399caa113d8c865abb http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/Markets/Exchange
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/RegisteredSecurity http://www.w3.org/2000/01/rdf-schema#subClassOf N59aaf71d00c54b11ba6da1db4c39682f
+Nd154e22086a642399caa113d8c865abb http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/isProvidedBy
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/Listing http://www.w3.org/2004/02/skos/core#definition catalog entry for a securities offering managed by an exchange that provides the terms under which that security is made available on that exchange
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/
+Nb51539d7efb947a2b71a012f3ce1856c http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasListingDate
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/lists http://www.w3.org/2004/02/skos/core#definition relates a given exchange-specific security listing to its issue
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ http://purl.org/dc/terms/license https://opensource.org/licenses/MIT
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasOriginalPlaceOfListing http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#ObjectProperty
+N2157418e74144951be122419ca4deb87 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasHomeExchange https://www.omg.org/spec/Commons/AnnotationVocabulary/synonym has primary market
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/
+Ne18fe7737a0b43f3834d302d9182f3a8 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ http://www.w3.org/2004/02/skos/core#changeNote The https://spec.edmcouncil.org/fibo/ontology/SEC/20210201/Securities/SecuritiesListings.rdf version of this ontology was revised to eliminate an unused ontology import, changed the range of hasLotSize to xsd:decimal, and modified the definition of listing to point to an offering rather than directly to the instrument that the offering pertains to.
+N46746ab1e0184a84ac248310234bc0d5 http://www.w3.org/2002/07/owl#oneOf N369f7ee1741b47d0a03052705c21b194
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasLastTradingDateTime http://www.w3.org/2000/01/rdf-schema#domain https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/Listing
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FBC/FinancialInstruments/FinancialInstruments/
+N5b13e81098134292982cb09abe345419 http://www.w3.org/1999/02/22-rdf-syntax-ns#type http://www.w3.org/2002/07/owl#Restriction
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ListedSecurity http://www.w3.org/2000/01/rdf-schema#subClassOf N03ddb549b9ef4011ab3245d829400cdf
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/isSeasoned https://www.omg.org/spec/Commons/AnnotationVocabulary/explanatoryNote Short-term volatility may be with respect to price or trading volume.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasLastTradingDateTime http://www.w3.org/2004/02/skos/core#definition specifies the last date and time that the security was traded on the exchange
+N5b13e81098134292982cb09abe345419 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessRegistries/RegistrationStatus
+N01a5bb97438f4a37a8691b6ac2551565 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/Listing
+Nb16ce73c21f04e6c89974e063e39cd84 http://www.w3.org/2002/07/owl#onProperty https://spec.edmcouncil.org/fibo/ontology/FND/Accounting/CurrencyAmount/hasCurrency
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/lists http://www.w3.org/2000/01/rdf-schema#range https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ListedSecurity
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/isTradedOn http://www.w3.org/2000/01/rdf-schema#label is traded on
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ http://www.w3.org/2002/07/owl#imports https://www.omg.org/spec/Commons/DatesAndTimes/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/Listing http://www.w3.org/2000/01/rdf-schema#subClassOf N62e2fb6fdd384933b4309fd95fe385d6
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ http://www.w3.org/2002/07/owl#imports https://spec.edmcouncil.org/fibo/ontology/FND/Relations/Relations/
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/ https://www.omg.org/spec/Commons/AnnotationVocabulary/copyright Copyright (c) 2018-2023 Object Management Group, Inc.
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasListingDate http://www.w3.org/2000/01/rdf-schema#label has listing date
+N225b0742a2c9424f939a45b1100d3140 http://www.w3.org/2002/07/owl#onClass https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesIssuance/SecuritiesOffering
+N2157418e74144951be122419ca4deb87 http://www.w3.org/2002/07/owl#qualifiedCardinality 1
+https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesListings/hasDelistingDate http://www.w3.org/2004/02/skos/core#definition specifies the date set by the exchange for delisting a security
